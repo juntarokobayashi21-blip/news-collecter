@@ -3,8 +3,10 @@ import requests
 import os
 import webbrowser
 from datetime import datetime
+import anthropic
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 SOURCES = {
     "Hacker News": "https://news.ycombinator.com/rss",
@@ -132,19 +134,50 @@ def save_output(text, html):
     return txt_path, html_path
 
 
-def send_discord_notify(results):
+def summarize_with_claude(results):
+    if not ANTHROPIC_API_KEY:
+        return None
+    today = datetime.now().strftime("%Y-%m-%d")
+    articles = []
+    for name, entries in results.items():
+        for entry in entries[:5]:
+            title = entry.get("title", "").strip()
+            if title:
+                articles.append(f"[{name}] {title}")
+    if not articles:
+        return None
+    articles_text = "\n".join(articles)
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    response = client.messages.create(
+        model="claude-opus-4-6",
+        max_tokens=1024,
+        system="あなたはIT・ビジネスニュースのキュレーターです。収集したニュース記事のタイトル一覧を受け取り、今日の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。",
+        messages=[
+            {
+                "role": "user",
+                "content": f"{today}のニュース記事一覧です。重要なトレンドを3〜5点に絞って簡潔に要約してください。\n\n{articles_text}"
+            }
+        ],
+    )
+    return response.content[0].text
+
+
+def send_discord_notify(results, summary=None):
     if not DISCORD_WEBHOOK_URL:
         return
     today = datetime.now().strftime("%Y-%m-%d")
     total = sum(len(entries) for entries in results.values())
-    lines = [f"**【トレンドニュース】{today}**", "今日のニュースをお届けします :newspaper:", ""]
-    for name, entries in results.items():
-        if entries:
-            title = entries[0].get("title", "").strip()
-            lines.append(f"▶ **{name}**（{len(entries)}件）")
-            lines.append(f"　{title}")
-    lines.append(f"\n合計 **{total}** 件収集しました。")
-    message = "\n".join(lines)
+    header = f"**【トレンドニュース】{today}**　合計 {total} 件\n"
+    if summary:
+        message = header + "\n" + summary
+    else:
+        lines = [header, "今日のニュースをお届けします :newspaper:", ""]
+        for name, entries in results.items():
+            if entries:
+                title = entries[0].get("title", "").strip()
+                lines.append(f"▶ **{name}**（{len(entries)}件）")
+                lines.append(f"　{title}")
+        message = "\n".join(lines)
     try:
         requests.post(
             DISCORD_WEBHOOK_URL,
@@ -169,7 +202,9 @@ def main():
     print(f"\n完了！")
     print(f"  テキスト: {txt_path}")
     print(f"  HTML:     {html_path}")
-    send_discord_notify(results)
+    print("\nClaudeで要約中...")
+    summary = summarize_with_claude(results)
+    send_discord_notify(results, summary)
     if html_path and os.path.exists(html_path):
         webbrowser.open(f"file:///{html_path.replace(os.sep, '/')}")
 

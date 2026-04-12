@@ -20,11 +20,12 @@ jobs:
           python-version: '3.11'
 
       - name: 依存ライブラリをインストール
-        run: pip install feedparser requests
+        run: pip install -r requirements.txt
 
       - name: ニュース収集を実行
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python collector.py
 
       - name: 出力ファイルをコミット
