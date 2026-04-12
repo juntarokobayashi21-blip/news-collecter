@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-04-12
+============================================================
+
+【Hacker News】
+  1. Small models also found the vulnerabilities that Mythos found
+     https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier
+  2. Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)
+     https://khronokernel.com/macos/2023/08/08/AS-VM.html
+  3. The End of Eleventy
+     https://brennan.day/the-end-of-eleventy/
+  4. How We Broke Top AI Agent Benchmarks: And What Comes Next
+     https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/
+  5. Pijul a FOSS distributed version control system
+     https://pijul.org/
+  6. Dark Castle
+     https://darkcastle.co.uk/
+  7. 447 TB/cm² at zero retention energy – atomic-scale memory on fluorographane
+     https://zenodo.org/records/19513269
+  8. How Complex is my Code?
+     https://philodev.one/posts/2026-04-code-complexity/
+  9. Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS
+     https://www.v68k.org/advanced-mac-substitute/
+  10. How to build a `Git diff` driver
+     https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/
+
+【Zenn】
+  1. Typelessで音声入力や ── タイピング不要のAI時代がきたで
+     https://zenn.dev/masayan1126/books/typeless-voice-input
+  2. DESIGN.md + 壊れたら気づくハーネス - AI向けデザインシステムを「維持できる仕組み」にした記録
+     https://zenn.dev/tsubotax/articles/7f0d3693f70e2f
+  3. GitHub Copilot CLI で個人タスク管理をやってみる
+     https://zenn.dev/microsoft/articles/copilot-task-management
+  4. Claude Managed Agents を試してみた
+     https://zenn.dev/kumamo_tone/articles/365845d65e6cf4
+  5. Claude Code Web版でスマホ開発できる時代が来たで｜実践レビューまるっと解説
+     https://zenn.dev/masayan1126/books/claude-code-web-guide
+  6. 関数型って結局なんやねん！どないして活用せえっちゅうねん！
+     https://zenn.dev/sonneko/articles/004b051a805687
+  7. Claude Code + Obsidian — Daily Note の下書きを自動生成し、週次・月次レビューまで積み上げる仕組みを作った
+     https://zenn.dev/dely_jp/articles/b8da42a57bbc39
+  8. Jujutsu はなぜ AI 時代に急に評価され始めたのか
+     https://zenn.dev/oukayuka/books/353ad112b88613
+  9. ベクトル検索は不要なのか
+     https://zenn.dev/nttdata_tech/articles/694e39ceff58b7
+  10. お父さん、ゲーム作れるの？
+     https://zenn.dev/sonicmoov/articles/76a5098905c978
+
+【Qiita】
+  1. マークダウン記法は奥深く、楽しい — テキストだけで「伝わるドキュメント」を作る技術
+     https://qiita.com/teppei19980914/items/36404f9ec9c786cde671?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. エンジニア歴20年の私が、素人バイブコーディング勢に物申す
+     https://qiita.com/Akira-Isegawa/items/00f23d206c504db2ac3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. “書けるだけ”じゃ足りない。今どきエンジニアに必要なスキルの話
+     https://qiita.com/prum_hitomi/items/79f74ec8cd016172619b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. バックエンドをLambdaにするかECS（Fargate）にするかの判断基準
+     https://qiita.com/teshimaaaaa1101/items/61ab31dc9d43d533de38?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【必須】GitHubとnpmで脆弱なパッケージを入れないための防御設定 8選
+     https://qiita.com/miruky/items/fcab851c5351f79b481d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【35歳未経験でも理解できた】Web API
+     https://qiita.com/wata-sho/items/d3f222758833cb694672?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. n8nで「三権分立AIエージェント」を構築したら、寝ている間にバグのないコードが勝手に完成した話
+     https://qiita.com/YushiYamamoto/items/9a53b6f957f809089881?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. DI教えようとしたら難しすぎたので整理した
+     https://qiita.com/wataru-nakamura6/items/72c046eb11eb0eedec22?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 脱・セキュリティ初心者。現場の信頼を勝ち取るための「3つの原則」と「1つの習慣」
+     https://qiita.com/masa20057/items/be5d46e82f7301747e86?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Unityメモリ＆GCの完全理解
+     https://qiita.com/nekoya404/items/1ba7c598ef69b5595de5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 第67回「科学技術週間」4/13から…全国160超のイベント開催（リセマム） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZRS1mYVZJWHhvTkt3Tk1SSFFJcHNWcWVjVWJIMHY1YlJKOEdYQ2E2b1VVdDY5QV9wd181VVlJb2R4WTR4S1JaS0lnZkFwQlhwYVY3YWRtUEdlTWE2OXRyWll2di1EMUVTQ1ZmdzJjekxXeWhYQi1XUzJVNkNTbm8?oc=5
+  2. DXC Technology　ServiceNow と連携強化　AI主導の自動化とエージェント型ワークフローを活用　納期短縮 手作業削減しコアビジネス機能全体のサービス品質向上を実現 | チバテレ＋プラス - 千葉テレビ放送
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCbVlZQWFTdWJXLUpLdG9SV0tvSDRtdm8xWXVPU0JIZkwzVmNURkM3NFJjRWxpeXJQSkhZc0NSWHRmdXRyUHh3MHVNQWVEUVowRnk5MVk1MzFDTlBsbkY40gFkQVVfeXFMTjRnUWFQeFByT21TSGZNSngtVFRaNDJ5Ym5oZTdlS0lJQ2pac21fS081WGpNOWRnLW9lQUVicDhSLTIzN3REeTVDeXRMY1MwYndHdnNaVm5NN2Q5TEZoMVQ4NzdrRA?oc=5
+  3. 次世代リチウムイオン電池を開発・製造する「TeraWatt Technology」が資金調達 - sogyotecho.jp
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qUXktREpvbGIyc0JCcFh4VGs3MGh0d043U0VjQTg3MmxSbngwOWx2bGRyNUNiMl9jVzBFdmFHSjAxQ281NVFqMTZFckhpczZfSU0tR0NrQ3RVeUZSRDUyUEpMSHZNQQ?oc=5
+  4. DXC Technology ServiceNow Core Business Suite の Customer Zero として新エージェント型 AI機能を導入 納期短縮 手作業削減しコアビジネス機能全体の品質向上へ - ガジェット通信 GetNews
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzcjFYM0hOODVpc2Q0RlZ1Vnp6UzBjRm5WbFN4cHNuZGQ4TXFablZYMkQxREx4MzV2MlRlbnlwU3FFa05yQ2Rtd1dlQQ?oc=5
+  5. 日本株続伸へ、米テクノロジー株高で悲観巻き戻し－輸出や金融高い - Bloomberg.com
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE9lMUdnTDd3VVFKSkFvUUw3TTZNc1FEalpBSzZ3UlZGbDNHem5lT1VzUmFVUlNzUTRZTUc4UTFsZHBUZmdZZXRCSXlGUUdCUUpvVjI1MzdXczZxeW5WNHJOZU9KVFFTeTllakl3dGNkMkNuWkJmbWZr?oc=5
+  6. 世界の淡水化施設の27%が集中、 数字で見る中東の水インフラ事情 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxOSEdlTi1BYlRFbk9JbVVzMWl3R3hZTnkzYkJIZ0JXTlpTeDVvMUFVWDBCeWdxcVpsdG9pNXpEbG5TYzlsLTNLclJyN0dsOUg1U09JYUhsQU0wM29FeDFJbGFFSGItYnBta0YzR0U4LUI0djM2QVJKLVFRWTVzUzdhUWlDQ0NiaDQ?oc=5
+  7. グリーン水素のコスト、8分の1に圧縮 中国新興の独自技術が普及の壁を打ち破る - 36Kr Japan
+     https://news.google.com/rss/articles/CBMiO0FVX3lxTE9zbXlGX2ZBSzdSbzRxYXpMLVExNHpqcWhnV2NoOVZpTEpLZk5oZWlpTExCM3p0Z3RmcGpJ?oc=5
+  8. “目立たないテクノロジー”は消えたのか？スマホ時代に再び問われるカームテクノロジーの思想 - TABI LABO
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Wc01CWlo3M21yZU9YZnBOQW9xemp6VEVnb3l0dFVyQUpteUh3SmNsMFpQXzdRRVp3ek8zclRNRkdKQ0owSWlydzlYX2FGREI1ZHZCajlHZw?oc=5
+  9. Marvell Technology（マーベル・テクノロジー）とは？NVIDIAが超大型投資をする理由 ｜Seizo Trend - ビジネス+IT
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RQmY3VFBrdVNNcVQ0WExQRTVkV1R0V0o0VVNNWFdlcmpyTXdSeHBOOFBMVFlvaUlTNHZMMzZoS2RlY1o5S05TZFY3QnNGN1k?oc=5
+  10. 革新的な蓄電池セル製造技術を有するTeraWatt Technology社との資本提携および協業に関する覚書の締結について - jera.co.jp
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGUUMzb09SbGJqbWpBSjR3WFlNN1NZc3hKc0g4MTFzZEdZaFAwNW1xaTR4YkpBY0t4c0lSZ3djMm92YUZRUjBOeng4U3N5MUZkdEV5cWlrUlBRQWFqSFNHUjhGSQ?oc=5
+
+【Google News (Business)】
+  1. 「できる社員」の燃え尽きや退職リスクへの打ち手 「超長時間労働」のコンサルで実現した働き方改革 [2/2] - ログミーBusiness
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fNFRVTHpYdDgxZDBsYzRWanlFbVdhaWx6OWh0M1NTZjZXckJyWUZDX3ZhZ21ZNkFyS1FPZERyTkNLX0pfSEpRNjZaZnJ0OUh3cjM5aHhpcXM?oc=5
+  2. いま日本のビジネスホテルから「シングルルーム」が消え始めている…コロナ後に吹き始めた「逆風の正体」 - 現代ビジネス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MS0VlX0tFY1B6OXR1WTZHNFlJZzA4eWtxQXFKbkZ1TnBiUW5aU2RKN2kyUDNtWEZIOTNTSTJ5YTVDTk11SnNSZmdwNzJpMDQ?oc=5
+  3. ポケカなど“収集品”を販売する60歳起業家、ライブ配信に注力したら売上が200％急増する（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFA5ZXNaU01weUVURkFKNTh3MnR4V0pFVGV3STRLNVJPZmdHNmh4X2hseV91U1RmVGR5b0pCQTJkckM2SF9rX2tGVFgxY2lyVGRwWFIySk42emt5bXgzaUlybHcwTVluQnFZSUFTUE96QV95OFhhUTZqSXBONTF5UkU?oc=5
+  4. アップル、グーグル…「金融化」を進める米ビッグテック、金融ビジネスの世界で繰り出す次の一手は何か - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KWm5Qcm9BdGp4T3FVWXExNVhnS3NsUmUyWjd1MEhVcm9QZTNSRm5pREd6MDF1NDhobmZtYXpmX2RHT1M1NHllelhZc3lRTmc0ZlRhY3p3?oc=5
+  5. マレーシア沖に浮かぶ原油、8割が中国に イラン攻撃後の戦争保険料「異常値」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0aHhsaURRa2o5cmVZcnRjcDk4cTAxdXJEUmhSNmhtSGtTaVdKaXdXRnVGdXl5eTlFLUtwN09OTVpWdlhzUVZ3bjZxckplSEhiRHYyc2hCdHhfdEJKZkRLVzVDUFBEWms?oc=5
+  6. DXC Technology ServiceNow Core Business Suite の Customer Zero として新エージェント型 AI機能を導入 納期短縮 手作業削減しコアビジネス機能全体の品質向上へ - ガジェット通信 GetNews
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzcjFYM0hOODVpc2Q0RlZ1Vnp6UzBjRm5WbFN4cHNuZGQ4TXFablZYMkQxREx4MzV2MlRlbnlwU3FFa05yQ2Rtd1dlQQ?oc=5
+  7. 古着転売で月数千万円を売り上げて｢FIRE｣した男性が教える、初期費用ゼロで始める転売ビジネスの3つのステップ - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fUUltS3lGNnlNTlctUGlKMmhmcUdTZExpbnB4dU5iTk9lTDJPWUdSdkFzWk9lanFyNmdmd0J0Q1NtZTNEX0U0aVhzRlMyc0lmZEZndVpRQUJzRDA?oc=5
+  8. ビジネススクールの功罪、「株価」主義で手っ取り早く時価総額を上げたがる経営者が増えるワケ - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqVDVVTnNEc2padFJ2SFlFSGtYOGZFUDhnZmNmUEtEYlVHcGk0dlJiOV9EenM2ak4tYWxlemVsdmlsMndaRnIwNHBsaXPSAU9BVV95cUxOWG9wMWVGXy1LOHZpeFZWaV9vZGRPeWxnVnF6MFd2YWVuVV92Z2J1UjlyRnJaVTBVa3dySWhqMm5IQWpqaTBib2NkV3JrTXFz?oc=5
+  9. 丸紅と第一ライフ、攻めの不動産オフバランス戦略 資本効率の改善圧力かわせ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01ZTZVRGpfczg1Z0tPRmFLd29FeWNDNWx3TGEzSnJZZUoxZ2d3Sk1oUjJMaGMwUDRhZ252WnpNV3VOUTNkYWlPOFlEQXlraHIxSDFSRGxCWjM4d29WWGxUTk9BNEhtODQ?oc=5
+  10. 「AIが従業員」…中国で「一人社長の企業」が爆発的に増加中（海外）（BUSINESS INSIDER JAPAN） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5JVG44UHFrMzlXSTMxakxLTDRYRGhnS3NYcFU2bXIyVUF1N2Fza3J2dWNudjVFRW9waXAtN05CMElXSHdxamdKeW12WnJJMmQxbUF2dDNYTGhzTTB1eUdlbVBzVl9WX1diek5va3lyUkxHZUR5VWhEUzY1Uy1BMkU?oc=5
+
+【Reddit / technology】
+  1. US demands Reddit unmask ICE critic, summons firm to grand jury
+     https://www.reddit.com/r/technology/comments/1sij8d9/us_demands_reddit_unmask_ice_critic_summons_firm/
+  2. Microsoft confirms Windows 11 KB5077212, KB5079420 break PC reset on 25H2 and 24H2 systems
+     https://www.reddit.com/r/technology/comments/1siwupm/microsoft_confirms_windows_11_kb5077212_kb5079420/
+  3. Rockstar Games Reportedly Hacked, Team Behind It Threaten A Massive Data Leak If Not Paid Ransom
+     https://www.reddit.com/r/technology/comments/1silt9t/rockstar_games_reportedly_hacked_team_behind_it/
+  4. Two manufacturers commit to keep Blu-ray alive after others quit manufacturing — Verbatim and I-O Data extend Blu-ray supply pledge as manufacturers exit the market
+     https://www.reddit.com/r/technology/comments/1sirn5y/two_manufacturers_commit_to_keep_bluray_alive/
+  5. Experimental Drug Can Reverse Osteoarthritis in Weeks, Animal Research Shows
+     https://www.reddit.com/r/technology/comments/1siz6ya/experimental_drug_can_reverse_osteoarthritis_in/
+  6. Oxygen made from Moon dust for first time | Jeff Bezos’s Blue Origin says it has developed reactor that can release breathable air from lunar soil
+     https://www.reddit.com/r/technology/comments/1sixuwk/oxygen_made_from_moon_dust_for_first_time_jeff/
+  7. Solid-state nuclear battery claims 100-year power for ultra-low energy devices
+     https://www.reddit.com/r/technology/comments/1sit326/solidstate_nuclear_battery_claims_100year_power/
+  8. 'We Have No Chance Against This,' Honda CEO Says After Seeing Chinese Supplier Factory: TDS
+     https://www.reddit.com/r/technology/comments/1sijxu7/we_have_no_chance_against_this_honda_ceo_says/
+  9. FBI recovers "deleted" Signal messages through iPhone notifications
+     https://www.reddit.com/r/technology/comments/1siicxk/fbi_recovers_deleted_signal_messages_through/
+  10. Rockstar Games has confirmed it was hit by third-party data breach
+     https://www.reddit.com/r/technology/comments/1siybjd/rockstar_games_has_confirmed_it_was_hit_by/
+
+【Reddit / business】
+  1. Amazon CEO Andy Jassy's pay rose to $2.1 million in 2025 as security and travel costs climbed
+     https://www.reddit.com/r/business/comments/1siyr6b/amazon_ceo_andy_jassys_pay_rose_to_21_million_in/
+  2. ‘Super Mario Galaxy Movie’ Jumping Past $310M+ – Friday Box Office Update
+     https://www.reddit.com/r/business/comments/1silgzv/super_mario_galaxy_movie_jumping_past_310m_friday/
+  3. The Quantum Era is Now
+     https://www.reddit.com/r/business/comments/1sid8ub/the_quantum_era_is_now/
+  4. Japan approves additional $4 bln for chipmaker Rapidus
+     https://www.reddit.com/r/business/comments/1sif7p6/japan_approves_additional_4_bln_for_chipmaker/
+  5. IBM to pay $17 million to settle US government probe over DEI
+     https://www.reddit.com/r/business/comments/1sif8be/ibm_to_pay_17_million_to_settle_us_government/
+  6. Most people don’t have a business problem — they have a decision problem
+     https://www.reddit.com/r/business/comments/1sj0tig/most_people_dont_have_a_business_problem_they/
+  7. CA or Business?
+     https://www.reddit.com/r/business/comments/1silwlo/ca_or_business/
+  8. MBA choice
+     https://www.reddit.com/r/business/comments/1sioybd/mba_choice/
+  9. How to not build a start-up?
+     https://www.reddit.com/r/business/comments/1sige6a/how_to_not_build_a_startup/
+  10. Amazon debuts Masters coverage, becoming the golf tournament's fourth-ever media partner
+     https://www.reddit.com/r/business/comments/1si0rlo/amazon_debuts_masters_coverage_becoming_the_golf/
