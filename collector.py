@@ -177,7 +177,8 @@ def send_discord_notify(results, summary=None):
         return
     today = datetime.now().strftime("%Y-%m-%d")
     total = sum(len(entries) for entries in results.values())
-    header = f"**【トレンドニュース】{today}**　合計 {total} 件\n"
+    url = f"https://juntarokobayashi21-blip.github.io/news-collecter/output/{today}.html"
+    header = f"**【トレンドニュース】{today}**　合計 {total} 件\n{url}\n"
     if summary:
         message = header + "\n" + summary
     else:
