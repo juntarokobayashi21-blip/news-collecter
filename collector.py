@@ -152,7 +152,7 @@ def summarize_with_gemini(results):
         f"{today}のニュース一覧:\n{articles_text}"
     )
     try:
-        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent"
         payload = {"contents": [{"parts": [{"text": prompt}]}]}
         response = requests.post(
             url,
@@ -162,6 +162,10 @@ def summarize_with_gemini(results):
         )
         response.raise_for_status()
         return response.json()["candidates"][0]["content"]["parts"][0]["text"]
+    except requests.HTTPError as e:
+        print(f"  [Gemini要約エラー] {e}")
+        print(f"  [レスポンス詳細] {e.response.text}")
+        return None
     except Exception as e:
         print(f"  [Gemini要約エラー] {e}")
         return None
