@@ -4,7 +4,7 @@ import os
 import webbrowser
 from datetime import datetime
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 SOURCES = {
     "Hacker News": "https://news.ycombinator.com/rss",
@@ -132,8 +132,8 @@ def save_output(text, html):
     return txt_path, html_path
 
 
-def summarize_with_gemini(results):
-    if not GEMINI_API_KEY:
+def summarize_with_groq(results):
+    if not GROQ_API_KEY:
         return None
     today = datetime.now().strftime("%Y-%m-%d")
     articles = []
@@ -145,29 +145,30 @@ def summarize_with_gemini(results):
     if not articles:
         return None
     articles_text = "\n".join(articles)
-    prompt = (
-        "あなたはIT・ビジネスニュースのキュレーターです。"
-        "以下のニュース記事タイトル一覧から、今日の重要なトレンドを3〜5点に絞り、"
-        "日本語で簡潔に要約してください。Discord通知用に1500文字以内でまとめてください。\n\n"
-        f"{today}のニュース一覧:\n{articles_text}"
-    )
     try:
-        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent"
-        payload = {"contents": [{"parts": [{"text": prompt}]}]}
         response = requests.post(
-            url,
-            json=payload,
-            params={"key": GEMINI_API_KEY},
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            json={
+                "model": "llama-3.3-70b-versatile",
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "あなたはIT・ビジネスニュースのキュレーターです。収集したニュース記事のタイトル一覧から、今日の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。",
+                    },
+                    {
+                        "role": "user",
+                        "content": f"{today}のニュース記事一覧です。重要なトレンドを3〜5点に絞って簡潔に要約してください。\n\n{articles_text}",
+                    },
+                ],
+                "max_tokens": 1024,
+            },
             timeout=30,
         )
         response.raise_for_status()
-        return response.json()["candidates"][0]["content"]["parts"][0]["text"]
-    except requests.HTTPError as e:
-        print(f"  [Gemini要約エラー] {e}")
-        print(f"  [レスポンス詳細] {e.response.text}")
-        return None
+        return response.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        print(f"  [Gemini要約エラー] {e}")
+        print(f"  [Groq要約エラー] {e}")
         return None
 
 
@@ -212,7 +213,7 @@ def main():
     print(f"  テキスト: {txt_path}")
     print(f"  HTML:     {html_path}")
     print("\nClaudeで要約中...")
-    summary = summarize_with_gemini(results)
+    summary = summarize_with_groq(results)
     send_discord_notify(results, summary)
     if html_path and os.path.exists(html_path):
         webbrowser.open(f"file:///{html_path.replace(os.sep, '/')}")
