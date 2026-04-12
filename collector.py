@@ -3,10 +3,10 @@ import requests
 import os
 import webbrowser
 from datetime import datetime
-import anthropic
+from google import genai
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 SOURCES = {
     "Hacker News": "https://news.ycombinator.com/rss",
@@ -134,8 +134,8 @@ def save_output(text, html):
     return txt_path, html_path
 
 
-def summarize_with_claude(results):
-    if not ANTHROPIC_API_KEY:
+def summarize_with_gemini(results):
+    if not GEMINI_API_KEY:
         return None
     today = datetime.now().strftime("%Y-%m-%d")
     articles = []
@@ -147,19 +147,22 @@ def summarize_with_claude(results):
     if not articles:
         return None
     articles_text = "\n".join(articles)
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
-        model="claude-opus-4-6",
-        max_tokens=1024,
-        system="あなたはIT・ビジネスニュースのキュレーターです。収集したニュース記事のタイトル一覧を受け取り、今日の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。",
-        messages=[
-            {
-                "role": "user",
-                "content": f"{today}のニュース記事一覧です。重要なトレンドを3〜5点に絞って簡潔に要約してください。\n\n{articles_text}"
-            }
-        ],
+    prompt = (
+        "あなたはIT・ビジネスニュースのキュレーターです。"
+        "以下のニュース記事タイトル一覧から、今日の重要なトレンドを3〜5点に絞り、"
+        "日本語で簡潔に要約してください。Discord通知用に1500文字以内でまとめてください。\n\n"
+        f"{today}のニュース一覧:\n{articles_text}"
     )
-    return response.content[0].text
+    try:
+        client = genai.Client(api_key=GEMINI_API_KEY)
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt,
+        )
+        return response.text
+    except Exception as e:
+        print(f"  [Gemini要約エラー] {e}")
+        return None
 
 
 def send_discord_notify(results, summary=None):
@@ -203,7 +206,7 @@ def main():
     print(f"  テキスト: {txt_path}")
     print(f"  HTML:     {html_path}")
     print("\nClaudeで要約中...")
-    summary = summarize_with_claude(results)
+    summary = summarize_with_gemini(results)
     send_discord_notify(results, summary)
     if html_path and os.path.exists(html_path):
         webbrowser.open(f"file:///{html_path.replace(os.sep, '/')}")
