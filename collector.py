@@ -152,7 +152,7 @@ def summarize_with_gemini(results):
         f"{today}のニュース一覧:\n{articles_text}"
     )
     try:
-        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
         payload = {"contents": [{"parts": [{"text": prompt}]}]}
         response = requests.post(
             url,
