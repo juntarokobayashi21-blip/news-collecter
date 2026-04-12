@@ -3,7 +3,7 @@ import requests
 import os
 import webbrowser
 from datetime import datetime
-import google.generativeai as genai
+from google import genai
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -154,9 +154,11 @@ def summarize_with_gemini(results):
         f"{today}のニュース一覧:\n{articles_text}"
     )
     try:
-        genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel("gemini-1.5-flash")
-        response = model.generate_content(prompt)
+        client = genai.Client(api_key=GEMINI_API_KEY)
+        response = client.models.generate_content(
+            model="gemini-1.5-flash-latest",
+            contents=prompt,
+        )
         return response.text
     except Exception as e:
         print(f"  [Gemini要約エラー] {e}")
