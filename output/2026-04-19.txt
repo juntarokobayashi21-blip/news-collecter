@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-04-19
+============================================================
+
+【Hacker News】
+  1. Vercel April 2026 security incident
+     https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
+  2. The Bromine Chokepoint
+     https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/
+  3. 2,100 Swiss municipalities showing which provider handles their official email
+     https://mxmap.ch/
+  4. Show HN: Faceoff – A terminal UI for following NHL games
+     https://www.vincentgregoire.com/faceoff/
+  5. A Brief History of Fish Sauce
+     https://www.legalnomads.com/fish-sauce/
+  6. Changes in the system prompt between Claude Opus 4.6 and 4.7
+     https://simonwillison.net/2026/Apr/18/opus-system-prompt/
+  7. Prove You Are a Robot: CAPTCHAs for Agents
+     https://browser-use.com/posts/prove-you-are-a-robot
+  8. Six Levels of Dark Mode
+     https://cssence.com/2024/six-levels-of-dark-mode/
+  9. I wrote a CHIP-8 emulator in my own programming language
+     https://github.com/navid-m/chip8emu
+  10. Archive of BYTE magazine, starting with issue #1 in 1975
+     https://archive.org/details/byte-magazine-1975-09
+
+【Zenn】
+  1. プロンプトの再現性をAI に自動チューニングさせる方法 ~ 暗黙知を排除する
+     https://zenn.dev/mizchi/articles/empirical-prompt-tuning
+  2. ローカルLLM用の簡易版スキルとしてトリガーという機能を考えてみました
+     https://zenn.dev/karaage0703/articles/89631872ca5a86
+  3. Let’s Encryptの短期証明書はかなり厳しいのでARI対応クライアントを使った方がよい
+     https://zenn.dev/catatsuy/articles/2ac24bccb4b7d1
+  4. Rust 製の事前コンパイル型 Neovim プラグインマネージャー rvpm を作った
+     https://zenn.dev/yukimemi/articles/2026-04-19-rvpm
+  5. 管理者目線でGitHub Copilotの方が優れていること
+     https://zenn.dev/ncdc/articles/ee35ef7974d279
+  6. GuiguiとGhosttyを組み合わせてターミナルGUIを作ってみた
+     https://zenn.dev/rinrin_yuuki/articles/448d45e7df01ee
+  7. AI時代にわざわざRuby on Railsを使う理由
+     https://zenn.dev/higakijin/articles/730a734b6b9009
+  8. 自作キーボードに機械学習モデルを仕込む
+     https://zenn.dev/bilzard/articles/29e91678ae98c7
+  9. Async React時代の宣言的UI 2: トランジション対応のuseDebouncedフックを作る
+     https://zenn.dev/uhyo/articles/async-react-debounce-2
+  10. SwiftのStringのAllocationsの最適化とストレージ選択の仕組み
+     https://zenn.dev/hinakko/articles/bfc446a24d0de0
+
+【Qiita】
+  1. 【こわい】Google APIキーの脆弱性により13時間で約900万円請求される事案が発生！ Firebase×Geminiで今すぐやるべきセキュリティ対策
+     https://qiita.com/miruky/items/fde2d0747358cd7870d7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Claude Codeで実際に起きたセキュリティ事故7選と防止策
+     https://qiita.com/masa_ClaudeCodeLab/items/8c22966fbd3c125c53dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. クソバズワード「ハーネスエンジニアリング」と向き合う
+     https://qiita.com/retore/items/3688cf515c14f7471ed4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Chrome DevTools MCP の全ツールをまとめて理解する
+     https://qiita.com/softbase/items/fe445a318846fd6a364d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Claude × Codex × Gemini を"併用"する設計 ─ セカンドオピニオン運用フレーム
+     https://qiita.com/nogataka/items/b2b4a84ba611ccaf8447?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【HTML】ボタンの見本市サイトを作った話
+     https://qiita.com/uni928/items/968635f6dbc6094d98c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 「その仕様、イケてないと思ってない？」-エンジニアがハマりがちな勘違いの話-
+     https://qiita.com/prum_hitomi/items/1bb8894c149a3af9944d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Claude Code モデル別に追加耐性テストをしてみた
+     https://qiita.com/aito1234/items/11c70a0b2a2362a5c913?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. DGX Spark で Qwen 3.6 vs 3.5 実測比較
+     https://qiita.com/nabe2030/items/f61bc3627bb92a0388e5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Claude Designでポートフォリオサイトをリデザインしてみた: エンジニアが1時間程度で和モダン化
+     https://qiita.com/rf_p/items/a8b5929c14367e9dc584?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. monoAI technology、文科省「DXハイスクール」採択校・育英高校のXR制作授業の成果を公開 - ICT教育ニュース
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QdjJmMEVGVk5YOFdJM1pfRG5FQ3VuUzlqUC1xai10NHFWY0ozRjNEcHJMTU9TZ3JGdGlHWXlULUNHZy1TTEpOUUlGNkF2SkVDa21wSVRRSjBMY3pmejIw?oc=5
+  2. ジュミア・テクノロジーズ【JMIA】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KVHhZakN1Ml81NzlaZ291T1FJbDk4LVl3NXU2UzFxNUtqTWNJU2RDSzZtYmF2M202c0RvWjZKNTRqaWM4TVhaTmhOVVk3TVk?oc=5
+  3. MISMART SMART TECHNOLOGY | 海外有望企業情報 - J-Bridge：連携・協業のためのビジネスプラットフォーム - jetro.go.jp
+     https://news.google.com/rss/articles/CBMigwFBVV95cUxQSzB3WmFpdlp4WVFkWVVMcWZTZkFuM2dnZGtmQ0hCeHJXYjd6a0FkMUphd2NJNGY2UTlJRDhJeXRBQmpQeWllZk92SmhWTHV0NzdvWXQ3WXEtMHc1bnJiYW5zT29oUExwZFpjMEtkWlpseEFBRlA4bnA3dmZaT1Q5dnVEYw?oc=5
+  4. 初の原子力推進で火星へ、 NASA「強気すぎる」計画 SR-1はどう動くのか？ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT0lRWkstRzE3MVlkMHVOWFhGRVVwLS1QVFVsNlRsMzEyc1g3eGVCaXh3dlJlUmM0T0Zhdm12NU1taEdqX2xxUlV0bVZYVlFya3NBVG1fMldQMXRoX0M0czFDVF8wbi1Eci1pSWRwWjlSS1NEUFptR3RUWVZJbGpld2swVjhKenBwNUlvWUdydEs3Qk5WM1VhMmJTTmQyRzZGVHdJa0pLY3I3aC1VaU0wRG5lcW9CVmlxbzhOQm5JS0dYTzBzYzRNNnlWcFhDbGw4?oc=5
+  5. 革新的な蓄電池セル製造技術を有するTeraWatt Technology社との資本提携および協業に関する覚書の締結について - jera.co.jp
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGUUMzb09SbGJqbWpBSjR3WFlNN1NZc3hKc0g4MTFzZEdZaFAwNW1xaTR4YkpBY0t4c0lSZ3djMm92YUZRUjBOeng4U3N5MUZkdEV5cWlrUlBRQWFqSFNHUjhGSQ?oc=5
+  6. 【2年生のみ】Keio University Science and Technology Life【理工学部生インタビュー】 - 慶應義塾
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5Pd3E1ekhPeE01ZWhXdzBtTGp0UWNhbnppQkh6YXAzU3A1cU9vdll0eHlGY0g3S1ZDd1cwMGFXMm4xc244QlUyNHVmUDJYY3ZsTkJiMmk2eHNCbHZmYjBJRDl0aTl2RElleTZHUUhfYnlDbXEyQVNsTTBxOWtqMWs?oc=5
+  7. EcoFlow、アースデイ東京2026に特別協賛として初出展！ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9XQ1VrbzI3UTB4d0xmMFYtT2FNZ3E4SktSQkFOOW1kblhjOFVCM01QUkNxX3JDb3kwZGJ2Z1oyTDdCY0pQdUNub0NiZVhYcWxjeXRiU240NXFBNUpTTy1BaWlubmR5WUQwRHc?oc=5
+  8. 「米国からの制裁が中国AIの隆盛につながる」──香港上場のAxera Technology - Science Portal Asia Pacific
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE1VZ3VvUXh3TmdOUDJWZm1rSVdBZUpVTlZQYU9tMzlLWFF5OEZob3VWTTY0X05EWEhKaHZydGJ2b2hwMVBsaTFRdnhKWHliQXJJQktFbDBmdzVFMmVTUEtfbURTQnVCeU1YWV9ldl9sbw?oc=5
+  9. 人型ロボット、北京ハーフマラソンで「世界記録」 技術が急進化 - Reuters
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9jcDE2QWl5aXNiRFlSZXJqbmJWX2lSZXF5X2FCY0E0Z2c1M216MmN2RTNUckZyeUIyb2c0UndYN2x5dHEwazMzWHV0QTk1ek1HUXBPYkh6aXFZOTBEbGVGWERGWmZoa2dTTkUzZURTT01uS0ow?oc=5
+  10. 特徴は〝力業〟…AI技術で研究開発を革新する「AI4S」、文科省が策定した戦略方針の全容 - ニュースイッチ by 日刊工業新聞社
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTE5mWkUtRWlrS19fZHloejJsT0ZYNHc1cFdIelJmRFdYMXhDVUZfaDRfYnM0UFc5QnlZa0dVbFdRRkpuUQ?oc=5
+
+【Google News (Business)】
+  1. インドの工場で見た「ポカヨケ」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1d2hJVUVQUnI5UG54Yy1PYnE2ZVBpVnNCTjRkWExGS1hRRG5JVXp3SHoxak1CUk4zRFhwRUdrekNlUWh0TEVncVcyWjFzNmQtZ0ROZjh2eG5jSnJ2NnJTLWFn?oc=5
+  2. デルタ航空、エアバスのワイドボディ機に新しいビジネスクラススイートを導入 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiggFBVV95cUxQbUlWXzZDT1EzNHotS2FUZ1NqNlNvYW90cmxCakI2UFgyYzhHdXdxdnpvVVIycXk3RnJPX0FycnAtUkUtVU51MFMtOWFHOTFTd05tTmFvZm9vN1JZVGxHc3dyY2RQM3k1OVlUbTV6c2JEVEFPRi15WG9fbENwVVpOTUpB?oc=5
+  3. 【毎日書評】AI時代こそ「気遣い」がもっともコスパのよいビジネススキルになるわけ - ライフハッカー・ジャパン
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjYW5oVVdobjE1STJlU0ZTUnozMHBpd2s2NFpnZHhCd1BKbHJySGVtT29OOWJoanZ4UDdwbnpXZlFlekkzSEVxUkZLVU5JN2RkX1VkV01FODFmbWZzUnV4aFA2RnRrelhE?oc=5
+  4. 愛知信用金庫、未成年に初融資 「日本のアニメビジネスに可能性感じる」 - 中日新聞Web
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE9icFQ4ZXJUbFlVWm5lRUEzUXhyV1VFYlJrTElUQkIwdENaVTA5UVRzakxkRWNCcExxS3ItNkgtRUllQXR6S1ZUazJfeHlEd1NnUlJQVA?oc=5
+  5. クアルトリクス幹部が語った「ビジネスにおけるエクスペリエンスの重要性」 - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5iRk00R285UFpFcFdqVElldnVjd2dJWURTUGppaWNuTWpjbE9hM2pMdDVpQWxMWE1DTmpBbUpaVVB0ZDduUVBVdnRDZVJGX3lZbno4?oc=5
+  6. ［クイズ］クボタは27年卒の新卒採用を何割減らす？ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Nei01bWgxZ1duaTBQNnFpZC1vSmRFaTQ0WnVkNnRxWjdhXzVsU1dFZl93VHkwM1ZnNmM4eUNKVDBqaGxIbTRuMnoyaWhDazR3RC1iRXRzeUduNjFkcnZMN0s3b2h2RkU?oc=5
+  7. あらゆる規模のビジネス向けの新しいオールインワンのプラットフォーム、Apple Businessが登場 - Apple
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE9uc1d4WkVBeEwybDVhWE1mcjgzQktJRHpaS01CdzRTTnY5b1lreWpBWkoxTDdnSUdCSFR0UWV0UjBrYVJaMzBER3hjLWcxX282VUpWeGVmbXlTN0NBd0s1ZUp3aW1YS3BJam43dUpBWlBqbzhQc01XeQ?oc=5
+  8. ［クイズ］メルカリが次に挑戦する事業は？ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zN2tBR2l1RzlEXzA5bk1YQUs5Z0lhNFBiSUIyd2JmSTlQcUVXdlAzQ0t6Q0syeHBKakNJdURvSzNGdm9BZ3NfdFBYRG5WZlBWTFNVcnhoRTU4Mktna2czdjgwa2c1NU0?oc=5
+  9. リード・ヘイスティングス氏、ネットフリックス取締役会を退任する - Business Insider Japan
+     https://news.google.com/rss/articles/CBMitAFBVV95cUxNWUJFRjRKQmJWdmt2Z3dPS05oQlR6elFidUo4dTVDeENzM19IUUVZNmMwM3paaVVhNlhDOEQ4N0V5NFRaSS1FRVkteGtCR2p4ekpHS0RWdElnbTRUM1ZrZVlvMFc2c3A5dUlsVWhra3RLTHR2SWdubU5WZzd4c21VV19oUzh0VDVEMFJzV2ZBaXpzM3F5Skg5eFhVX0ZCWlh2eTZiUnQwaUY3V2F6TVdnSy1rT2U?oc=5
+  10. TikTok for Business、広告代理店を表彰する「Japan Agency Awards 2026」で34組を選出 2026年の成長戦略も発表 - media-innovation.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBua1NlZDIzM19jb2pBTTdFVkRldnRmQWZjQUJoS2tLMFZNRTBFcTdjdHFNYmY2cHpmTGNrUmxOc19TVXhNVjhzNGZ5X0hXMUpSTnBBNks0Ym5hbTkxQ2ctLVRXZ25IYjVUbWc?oc=5
+
+【Reddit / technology】
+  1. US draft update: Major tech company [Palantir] urges universal national service
+     https://www.reddit.com/r/technology/comments/1sq6at4/us_draft_update_major_tech_company_palantir_urges/
+  2. Thousands of CEOs admit AI had no impact on employment or productivity—and it has economists resurrecting a paradox from 40 years ago
+     https://www.reddit.com/r/technology/comments/1sq4v1x/thousands_of_ceos_admit_ai_had_no_impact_on/
+  3. Students are speeding through their online degrees in weeks, alarming educators
+     https://www.reddit.com/r/technology/comments/1spxr9q/students_are_speeding_through_their_online/
+  4. Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures
+     https://www.reddit.com/r/technology/comments/1spyiju/palantir_posts_minimanifesto_denouncing/
+  5. Toshiba refuses to replace large hard drive that was under warranty — company offers refund at the purchase price, not the higher current retail price
+     https://www.reddit.com/r/technology/comments/1spu6k7/toshiba_refuses_to_replace_large_hard_drive_that/
+  6. This tariff-refund portal is about to be America's hottest website
+     https://www.reddit.com/r/technology/comments/1spygt1/this_tariffrefund_portal_is_about_to_be_americas/
+  7. Russian-made Shahed drones are "disintegrating in the air before reaching their targets" due to shoddy manufacturing, video shows — commentators call Russian clones of Iran's drones "flying garbage"
+     https://www.reddit.com/r/technology/comments/1spvnu8/russianmade_shahed_drones_are_disintegrating_in/
+  8. Scoop: NSA using Anthropic's Mythos despite blacklist
+     https://www.reddit.com/r/technology/comments/1sq1mgi/scoop_nsa_using_anthropics_mythos_despite/
+  9. The Pentagon wants GM, Ford to build weapons and bombs
+     https://www.reddit.com/r/technology/comments/1spzmd3/the_pentagon_wants_gm_ford_to_build_weapons_and/
+  10. US may force operating systems to have mandatory age verification, share info with third parties
+     https://www.reddit.com/r/technology/comments/1sq7rkr/us_may_force_operating_systems_to_have_mandatory/
+
+【Reddit / business】
+  1. US draft update: Major tech company urges universal national service
+     https://www.reddit.com/r/business/comments/1sq6jue/us_draft_update_major_tech_company_urges/
+  2. Real estate investors are buying up long-term care facilities. Residents can suffer
+     https://www.reddit.com/r/business/comments/1spyk8d/real_estate_investors_are_buying_up_longterm_care/
+  3. Morgan Stanley tops Q1 2026 estimates as trading revenue exceeds expectations by nearly $1 billion
+     https://www.reddit.com/r/business/comments/1spvgdu/morgan_stanley_tops_q1_2026_estimates_as_trading/
+  4. Meta to cut 8,000 jobs — 10% of workforce — in major bloodbath next month: report
+     https://www.reddit.com/r/business/comments/1sorgt7/meta_to_cut_8000_jobs_10_of_workforce_in_major/
+  5. Why Logic Fails to Predict Human Behavior in Marketing and Business ?
+     https://www.reddit.com/r/business/comments/1spx0la/why_logic_fails_to_predict_human_behavior_in/
+  6. Vendor financing
+     https://www.reddit.com/r/business/comments/1sq63ox/vendor_financing/
+  7. Thodi der baat ho jaye ? I was looking for someone experienced to discuss finance, business opportunities, and also just have some good normal conversations
+     https://www.reddit.com/r/business/comments/1sq00zh/thodi_der_baat_ho_jaye_i_was_looking_for_someone/
+  8. Is asteroid mining a realistic business?
+     https://www.reddit.com/r/business/comments/1spk9k4/is_asteroid_mining_a_realistic_business/
+  9. QVC Group, Whose Networks Popularized Shopping On TV, Files For Chapter 11 Bankruptcy
+     https://www.reddit.com/r/business/comments/1sp8c1u/qvc_group_whose_networks_popularized_shopping_on/
+  10. Netflix, With Warner Bros. Off the Table, Tops Q1 2026 Revenue Expectations With 16% Increase | Net income jumps 83% thanks to $2.8 billion WBD deal-termination fee from Paramount
+     https://www.reddit.com/r/business/comments/1spj4hq/netflix_with_warner_bros_off_the_table_tops_q1/
