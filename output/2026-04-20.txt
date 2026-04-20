@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-04-20
+============================================================
+
+【Hacker News】
+  1. John Ternus to become Apple CEO
+     https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+  2. Jujutsu megamerges for fun and profit
+     https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit
+  3. Soul Player C64 – A real transformer running on a 1 MHz Commodore 64
+     https://github.com/gizmo64k/soulplayer-c64
+  4. Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving
+     https://qwen.ai/blog?id=qwen3.6-max-preview
+  5. Kimi vendor verifier – verify accuracy of inference providers
+     https://www.kimi.com/blog/kimi-vendor-verifier
+  6. Even 'uncensored' models can't say what they want
+     https://morgin.ai/articles/even-uncensored-models-cant-say-what-they-want.html
+  7. Monero Community Crowdfunding System
+     https://ccs.getmonero.org/ideas/
+  8. GitHub's fake star economy
+     https://awesomeagents.ai/news/github-fake-stars-investigation/
+  9. ggsql: A Grammar of Graphics for SQL
+     https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/
+  10. OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”
+     https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/
+
+【Zenn】
+  1. 環境が汚れるのが嫌なのでPodmanコンテナの中でSteamを動かした
+     https://zenn.dev/headwaters/articles/c4a62943ec50aa
+  2. AIにコーディングを全任せした結果、ドメイン設計に辿り着いた話
+     https://zenn.dev/tan_go238/articles/002437e923913c
+  3. 1日で作るサプライチェーン攻撃対策！運用死しないコスト「ほぼゼロ」の通信監視
+     https://zenn.dev/aeyesec/articles/32fb05ddd1c3f7
+  4. Cursorで爆速開発、でもセキュリティは爆速で崩壊していた
+     https://zenn.dev/nekoai_lab/articles/6b876ab524de84
+  5. ブラウザで日本語入力中にIMEが勝手に切り替わると思ったらNeovimのLSPが原因だった
+     https://zenn.dev/ultimatile/articles/neovim-lsp-ime-switch-autocmd-conflict
+  6. プロンプトの再現性をAI に自動チューニングさせる方法 ~ 暗黙知を排除する
+     https://zenn.dev/mizchi/articles/empirical-prompt-tuning
+  7. ローカルLLM用の簡易版スキルとしてトリガーという機能を考えてみました
+     https://zenn.dev/karaage0703/articles/89631872ca5a86
+  8. Let’s Encryptの短期証明書はかなり厳しいのでARI対応クライアントを使った方がよい
+     https://zenn.dev/catatsuy/articles/2ac24bccb4b7d1
+  9. Rust 製の事前コンパイル型 Neovim プラグインマネージャー rvpm を作った
+     https://zenn.dev/yukimemi/articles/2026-04-19-rvpm
+  10. バージョン管理システム Jujutsu
+     https://zenn.dev/usamik26/articles/jj-version-control
+
+【Qiita】
+  1. 一人で悩み続けてしまう新人エンジニアへ。その時間、無駄かもしれません。
+     https://qiita.com/hitomin_poke/items/9d91ff5ad51001237a02?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. クソバズワード「ハーネスエンジニアリング」と向き合う
+     https://qiita.com/retore/items/3688cf515c14f7471ed4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Claude Code × Obsidian Vault で作る「何でも相談」プロジェクト ― フォルダ構成・CLAUDE.md・MCP設定まで全公開
+     https://qiita.com/htani0817/items/0cb5e8f91fa64fb9ba8c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Claude Code × MagicPod MCPでテストケースメンテナンスレビューを自動化してみた
+     https://qiita.com/s-yoshina/items/321a031ece6bc9c3b460?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Chrome DevTools MCP の全ツールをまとめて理解する
+     https://qiita.com/softbase/items/fe445a318846fd6a364d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 記憶を持たないLLMの記憶 ― コンテキスト/メモリー/ハーネスエンジニアリング入門の前に
+     https://qiita.com/yuji-arakawa/items/da4d5eec968b92ebc26d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Claude Designでポートフォリオサイトをリデザインしてみた: エンジニアが1時間程度で和モダン化
+     https://qiita.com/rf_p/items/a8b5929c14367e9dc584?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 13時間で900万円請求事件の裏側 - AI生成コードが招くAPIキー漏洩を静的解析で止める
+     https://qiita.com/pythonista0328/items/f9eb8b7fb6a14087df35?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. [TypeScriptシリーズ - Part 1] Conditional Types & infer
+     https://qiita.com/TOMOSIA-HieuNT/items/c4553f452d8457f86060?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. React初心者がつまずきやすいJavaScript記法をわかりやすく整理してみた
+     https://qiita.com/hiroki_notes/items/3de8503e5f5f9e33e2d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 「先に同僚を蒸留せよ」 中国テック労働者に広がる AI 自動化の強烈な波 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiugFBVV95cUxQTXl6aTAwSktZSlRWVWJDYklaWngwR0JndVJkUnh4UFh0dTBwVEFRWVRYVlhVN0JHVEptbU9PV0RuYjRFaUFrRUlXdzZiWnAxLTlxVldwSVRMemVPajJrMDF1cktvV2QxZjNDczNGVGRaWXZwVjQzY0tQbV9ZX2d6UTFJVWlFVWxDeTNmYUtQTUVfdzZCYVZiYWs1M3QxZmpzSGVwNXpjZFd3aXREb3BiaWNucmtVWU1iVEE?oc=5
+  2. DGFT、学研グループと連携し業種別決済ソリューションを教育領域へ展開 - 株式会社デジタルガレージ（Digital Garage, Inc.）
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EOGpwX3lEdEdiSFQ4cHZzN1dRU1BrZ19YbDFPUUJXNzI1YWR1bkU5aExDMEZHRm43RTZPbFlJZWs3LVYyQmt2V295c1FOQmo2TWw2VmNzOHg?oc=5
+  3. ドバイ拠点のユニコーン企業の経営陣、未来のテクノロジー形成とデジタル経済の推進を牽引する「世界的イノベーション・ハブ」としてドバイを高く評価 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYRUFPcFBhQW5XX0lySEl5Q1JKWHRwVVJabG52Ukk1aGI1RlhWakhSc1FaR0I0bndzQ2U3Tld3YXQxMEVBNWJnUHpERVJ6YWlwX2dpdFFBRWh2STVtTVBiNjV1cw?oc=5
+  4. 【AIは普通の技術】 実験する文化でAIを育てて社会に組み込む - nttdata-strategy.com
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE5XTEt3a3BxekdkUVN4cWp4Y1FsMmw0M2pvZ0E3OVZtTGt5UWg0b1lyekdIT3NDQnB5TlNiNzFBaDNuaWJVMzFfNEZUaTkycU5PbXhoNHhIUDVjNUNiZW1oS1dvVW1Hb0JDUkJDVzh4aF9mcU5hQ1ZEUkhn?oc=5
+  5. 公共ライドシェア・オンデマンド交通を展開するパブリックテクノロジーズ、「パブテクAI配車」がLINE連携に対応。アプリ不要で、LINEから配車予約が可能に - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1BeC1Hd09TaWtmTHE5RlZ3elBNcm93d3R1WVAxdlJzUGJ5QV9TQlNndEFZUmlPcml5UnhQZy1fYzAxSDQ1VUZfUE5KaWNiem5JN00waHQ1a1d5cHdyS1dPVGxtZjZiN2VvcUE?oc=5
+  6. 医彩―Leader's insight 第15回 テクノロジーが変えるグローバル税務――アステラス製薬 税務部のデータガバナンス戦略とは - PwC
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxObEtLa1B5QU53R056ZTBBNkN6NVJBYWxmUklmRjhXbXVjNDB4aEdXTTdfeGs5M2dCQ3R2M2dUZ0pyTU13c2VGMzN6UDlENFNlcGd6SGxHTUVqWlFsdkgzS21hUGxhMUNIc3JWam9uWW5zMmNnLWU0M05PR1hISEVndDlSekNNY0ZoMHM3TkZ1Skt2OHQ5YUxwNGZzeHprQXdIMWc?oc=5
+  7. Marvell Technology Stock Rallies 5% As Reports of Google AI Partnership Emerge - TIKR.com
+     https://news.google.com/rss/articles/CBMiugFBVV95cUxObWRTVEhaaXlvZnZYUG9tU25tM0kwdENVY05GaEFFcDRGdV9xUDVnMGhtMzF1RkNRc3VobmRoWWRoWHgxWDhWNVVabXVPeVJZZ2VjdjM3YjgxMlEzaHRLUDdWWVowWGg5Uy1SMGJPZ01jVWtOUmVZU1NPeW5wVkJQTE16eTVHZEItWFBSbUJOQUR1WThZZ3FDeUVHS002Z0VfcWQ3SWM1bVZNZnlZMS1ZTVlOaUhTSndyS1E?oc=5
+  8. MISMART SMART TECHNOLOGY | 海外有望企業情報 - J-Bridge：連携・協業のためのビジネスプラットフォーム - jetro.go.jp
+     https://news.google.com/rss/articles/CBMigwFBVV95cUxQSzB3WmFpdlp4WVFkWVVMcWZTZkFuM2dnZGtmQ0hCeHJXYjd6a0FkMUphd2NJNGY2UTlJRDhJeXRBQmpQeWllZk92SmhWTHV0NzdvWXQ3WXEtMHc1bnJiYW5zT29oUExwZFpjMEtkWlpseEFBRlA4bnA3dmZaT1Q5dnVEYw?oc=5
+  9. Brook Wingmanコンバーター、 EVO 2025「年間最優秀プロダクト賞」を受賞 - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MalptZUpnWThuNDN1R0ZiZVZZUGg4STZlbFo5dXoteHQ4cGM4VGgtcURLYmlnMVh2eEQ1RWdqTzZaX3RlbzlkeVdVUVdQUQ?oc=5
+  10. 4月20日のMarvell Technology Inc (MRVL) 始値は4.59%上昇：投資家が知っておくべき情報 - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxNajY0NXVGYWZVNTdFTjllYU95WmExN1I0M09LSGNfLVdlLTU2TVlMTUhIakt6R1hVMnIwNEJhanZ5aTZNaXdQY2cyU2hCdDJsd3VjYmMySkJIR2c4NG81VzkxdmFYcHktVllpbE9oUG55bXpjdlMyeTBvR2ZDQXhQVDBuLUhrR1lNakd2ZHBpMA?oc=5
+
+【Google News (Business)】
+  1. 米アイロボット、特許が示す「ルンバ」の戦略ミス 中国企業が逆転 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ORVJjUTR5LVUxSFhUMGtSdmFSaUZHTUZoN1FZTmFPNTlYLXFzNEFLZFhBR3VMMEtTM1pfTExORjk0d0JxVXBYbTNKdHk0OVpSeGpMM0t0ZnppVEJHZG1SOWNucWdOakk?oc=5
+  2. CARTA ZERO、「TikTok for Business Japan Agency Awards 2026」においてグランプリ「Agency of the Year」を受賞 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1RbnZHNEs1ZERTdS1URThjNTNqMVFxaURZSFNhQ3dKaGJoWFM3NG9Pd1d4YzJiZkxXcHJlNFllUXFfa2NnSk1fc0dmbWo1TWZSNzZscGVIM3FCM0FIZzI2bzlNODdtSlI1dGc?oc=5
+  3. ナハト、「TikTok for Business Japan Agency Awards 2026」にて２部門を受賞 - ニコニコニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BNXRIQWI1SURhamxEUy1EbllzNmYwQnpnWVowQ3dSMDFIN0tqb3lFWWU3ZVVoazVhZFMtWTd0MWwzX1ktRzRQT3RKTEE4RktxRWFESUZfYkdWbkpuVmRFSFBmWGhWcmZP?oc=5
+  4. 電通デジタル、「TikTok for Business Japan Agency Awards 2026」においてグランプリ「Agency of the Year」を含む複数賞受賞 - Excite エキサイト
+     https://news.google.com/rss/articles/CBMid0FVX3lxTFBIU2hLdHpKT1pyNDljR1hZaTkzeTBwOVdDY0FtNUNCWUF4RENoSFlFZ2dPTTRFWmpPdVpPTXZsM0czOWY4NHdYQVJEQXg4VGktd0VxX011T1hjWDBpNTNJTE5RYVpUenNmbXVxZVlVNVpjMmx1dTM4?oc=5
+  5. デルタ航空、エアバスのワイドボディ機に新しいビジネスクラススイートを導入（海外） (BUSINESS INSIDER JAPAN) - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxPaWpsREExQ2ZHZGl0ZkRqckttN2JxemtWeE1DUXB4ekk5TWVVdFVPZVNvWC1DMjYwQUhiVnUxVzdHMVgzN2JoQUNrSFZhTDRyWGJfWlI4STItcWh5RGNEbFNNLTJkOWw0cDlEei0wc1k3QUFfZnE5Qml0WW1SWVJOM3ZyYVlIYkcwSzRsX01R?oc=5
+  6. TikTok for Business、広告代理店を表彰する「Japan Agency Awards 2026」で34組を選出 2026年の成長戦略も発表 2枚目の写真・画像 - media-innovation.jp
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE1Mc3kwZDhpVFJ0Qll5eEwxc1hULUtpRF85RjhuLThGRUdiNzVzaEtqZndDSUhVYnhUSkJMbXhIQURoQWltSzZfQ1lyUl9KY0VvZDF6NTA4T3psVFVrSE1zS0FlZ1AyakthNDFCNHdXSlBESkhXaWNz?oc=5
+  7. セプテーニ、「TikTok」パートナーのアワードで計5賞を受賞 コンテンツ制作、商品選定、出店代行などサポート - 日本ネット経済新聞
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE02aUx5QUwtX1l1djYzNW8yZ205bUZCVVZReWdhMzltZzFTa1F1T3A5aklLVzNtZEdWTWxyZ2dCeHhPZC1vVUZJVzg0NWxuYVdjXzA3MEln?oc=5
+  8. Japanese Novel about Cryptocurrency/Business by Jun Ikeido - NICHIGO PRESS
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EWkFFaUEyVmwtSFJ5TUZmLVg3MnctSmpSQ25mWXdtMVBsd3dvNTZhV3EtXzRxQ2dBMFlSNXpoSEcxWm9scVV2clBMckoyZUxGWEgyd1lsNU0xNFk?oc=5
+  9. 丸善松本店ビジネス書ランキング 2位は「外資系金融ママがわが子へ伝えたい 人生とお金の本質」 1位は… - 信濃毎日新聞デジタル
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE43TEp3QjRDNlNhNjkwdVR2Y2VvTXgxWUJaNFpRVHZsUmVDbFZWSXJhS3lxSDRqVFZWczJuZURpcEprVGRpYWhRcEdXMDdTZm0ycmdBTHZNLWVjSXMxeGctUVdzQ3ExSGdHLXhaOWttd1M?oc=5
+  10. 「他責志向の部下」に上司がつぶされる…… 組織と自分を守る「戦略的アサーティブネス」とは - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1pSE5sZkotaU5PQXFINS1wYmJkV3ZxR2E2cklpR0tBYU55V3oxVmQ2Umk4VFpiT0ZOWXlqR1R3Zl9pM1RMaF9yRERVUUVDNEpWOHpFVkptVkZzeU5lQ0MwZHN2NVFvbWg1RXNtQjRxejdtQQ?oc=5
+
+【Reddit / technology】
+  1. The Onion Says It Has a Deal to Take Over Alex Jones’ Infowars, Plans to Relaunch It as Parody of Itself
+     https://www.reddit.com/r/technology/comments/1sqy5kl/the_onion_says_it_has_a_deal_to_take_over_alex/
+  2. Apple CEO Tim Cook stepping down, John Ternus confirmed as new Apple CEO
+     https://www.reddit.com/r/technology/comments/1sr27m5/apple_ceo_tim_cook_stepping_down_john_ternus/
+  3. Maryland becomes first state to pass bill banning ‘surveillance pricing’
+     https://www.reddit.com/r/technology/comments/1sqs4lb/maryland_becomes_first_state_to_pass_bill_banning/
+  4. The UK government is considering ending Palantir's involvement in a central NHS data platform after coming under fire from MPs, unions, and campaigners
+     https://www.reddit.com/r/technology/comments/1sqnp9e/the_uk_government_is_considering_ending_palantirs/
+  5. Court To Bondi: Demanding Platforms Censor Speech And Bragging About It On Fox News Is, In Fact, A First Amendment Violation
+     https://www.reddit.com/r/technology/comments/1sqvwny/court_to_bondi_demanding_platforms_censor_speech/
+  6. AI cloud company Vercel breached after employee grants AI tool unrestricted access to Google Workspace — hacker seeking $2 million for stolen data
+     https://www.reddit.com/r/technology/comments/1sr2wwt/ai_cloud_company_vercel_breached_after_employee/
+  7. Scientists invent a plant-based serum that is proven to regrow hair in weeks
+     https://www.reddit.com/r/technology/comments/1sqr1w8/scientists_invent_a_plantbased_serum_that_is/
+  8. He spreads hate online — and fans pay him hundreds of thousands of dollars
+     https://www.reddit.com/r/technology/comments/1sqp2o8/he_spreads_hate_online_and_fans_pay_him_hundreds/
+  9. EU Declared Age App “Ready” While GitHub Flagged it Unfit, Then Hackers Bypassed It in 2 Minutes
+     https://www.reddit.com/r/technology/comments/1sqhnyo/eu_declared_age_app_ready_while_github_flagged_it/
+  10. TikTok Skits Reveal ChatGPT, Gemini And Grok Are Confidently Wrong
+     https://www.reddit.com/r/technology/comments/1sqsxhd/tiktok_skits_reveal_chatgpt_gemini_and_grok_are/
+
+【Reddit / business】
+  1. Apple taps John Ternus as CEO to replace Tim Cook, who will become executive chairman on Sept. 1, 2026
+     https://www.reddit.com/r/business/comments/1sr3840/apple_taps_john_ternus_as_ceo_to_replace_tim_cook/
+  2. Apple CEO Tim Cook steps down
+     https://www.reddit.com/r/business/comments/1sr3bun/apple_ceo_tim_cook_steps_down/
+  3. Eli Lilly agrees to acquire cancer drug maker Kelonia in deal worth up to $7 billion
+     https://www.reddit.com/r/business/comments/1sqz9av/eli_lilly_agrees_to_acquire_cancer_drug_maker/
+  4. What my cleaner taught me about running a business
+     https://www.reddit.com/r/business/comments/1sqvhbi/what_my_cleaner_taught_me_about_running_a_business/
+  5. US draft update: Major tech company urges universal national service
+     https://www.reddit.com/r/business/comments/1sq6jue/us_draft_update_major_tech_company_urges/
+  6. AI startup Cursor in talks to raise $2 billion funding round at valuation of over $50 billion
+     https://www.reddit.com/r/business/comments/1sqhzfp/ai_startup_cursor_in_talks_to_raise_2_billion/
+  7. Is it actually realistic to build a business while working a 9–5… or is that just social media hype?
+     https://www.reddit.com/r/business/comments/1sqz2mr/is_it_actually_realistic_to_build_a_business/
+  8. How to Make Complex Things Simple
+     https://www.reddit.com/r/business/comments/1sqq9nq/how_to_make_complex_things_simple/
+  9. Is business administration worth it?
+     https://www.reddit.com/r/business/comments/1sqymfs/is_business_administration_worth_it/
+  10. Real estate investors are buying up long-term care facilities. Residents can suffer
+     https://www.reddit.com/r/business/comments/1spyk8d/real_estate_investors_are_buying_up_longterm_care/
