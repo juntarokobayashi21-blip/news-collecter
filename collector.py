@@ -63,23 +63,32 @@ def format_output(results):
     return "\n".join(lines)
 
 
-def format_html(results, source_summaries=None):
+def format_html(results, source_summaries=None, article_summaries=None):
     today = datetime.now().strftime("%Y-%m-%d")
     if source_summaries is None:
         source_summaries = {}
+    if article_summaries is None:
+        article_summaries = {}
     sections = ""
     for name, entries in results.items():
         items_html = ""
         if not entries:
             items_html = "<p class='empty'>取得できませんでした</p>"
         else:
+            article_idx = 0
             for entry in entries:
                 title = entry.get("title", "（タイトルなし）").strip()
                 link = entry.get("link", "").strip()
+                article_summary = ""
+                if name in article_summaries and article_idx < len(article_summaries[name]):
+                    summary_text = article_summaries[name][article_idx]
+                    if summary_text:
+                        article_summary = f'<div class="article-summary">{summary_text}</div>\n'
+                article_idx += 1
                 if link:
-                    items_html += f'<li><a href="{link}" target="_blank">{title}</a></li>\n'
+                    items_html += f'<li><a href="{link}" target="_blank">{title}</a>\n{article_summary}</li>\n'
                 else:
-                    items_html += f"<li>{title}</li>\n"
+                    items_html += f"<li>{title}\n{article_summary}</li>\n"
         summary_html = ""
         if name in source_summaries and source_summaries[name]:
             summary_html = f'<div class="summary">{source_summaries[name]}</div>\n'
@@ -109,6 +118,7 @@ def format_html(results, source_summaries=None):
     ul {{ list-style: none; }}
     li {{ padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.92rem; }}
     li:last-child {{ border-bottom: none; }}
+    .article-summary {{ margin-top: 0.4rem; padding: 0.5rem 0.7rem; background: #f5f5f5; border-left: 2px solid #ccc; font-size: 0.85rem; color: #666; line-height: 1.5; }}
     a {{ color: #1a6fa8; text-decoration: none; }}
     a:hover {{ text-decoration: underline; }}
     .empty {{ color: #aaa; font-size: 0.9rem; }}
@@ -126,7 +136,7 @@ def format_html(results, source_summaries=None):
 </html>"""
 
 
-def save_output(text, html, source_summaries=None):
+def save_output(text, html, source_summaries=None, article_summaries=None):
     today = datetime.now().strftime("%Y-%m-%d")
     output_dir = os.path.join(os.path.dirname(__file__), "output")
     os.makedirs(output_dir, exist_ok=True)
@@ -140,6 +150,36 @@ def save_output(text, html, source_summaries=None):
         f.write(html)
 
     return txt_path, html_path
+
+
+def summarize_article(title):
+    if not GROQ_API_KEY or not title:
+        return None
+    try:
+        response = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            json={
+                "model": "llama-3.3-70b-versatile",
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "記事のタイトルを読んで、1行（最大100文字）で簡潔に内容を要約してください。",
+                    },
+                    {
+                        "role": "user",
+                        "content": title,
+                    },
+                ],
+                "max_tokens": 100,
+            },
+            timeout=10,
+        )
+        response.raise_for_status()
+        return response.json()["choices"][0]["message"]["content"]
+    except Exception as e:
+        print(f"  [記事要約エラー] {e}")
+        return None
 
 
 def summarize_source(source_name, entries):
@@ -259,17 +299,30 @@ def main():
         print(f"  取得中: {name}")
         results[name] = fetch_feed(name, url)
 
-    print("\n各ソースの要約を生成中...")
+    print("\n各記事の要約を生成中...")
+    article_summaries = {}
+    for name, entries in results.items():
+        if entries:
+            print(f"  {name} ({len(entries)} 件)")
+            article_summaries[name] = []
+            for entry in entries:
+                title = entry.get("title", "").strip()
+                if title:
+                    summary = summarize_article(title)
+                    article_summaries[name].append(summary)
+                else:
+                    article_summaries[name].append(None)
+
+    print("\nセクション要約を生成中...")
     source_summaries = {}
     for name, entries in results.items():
         if entries:
-            print(f"  要約中: {name}")
             source_summaries[name] = summarize_source(name, entries)
 
     print("\n出力を生成中...")
     text = format_output(results)
-    html = format_html(results, source_summaries)
-    txt_path, html_path = save_output(text, html, source_summaries)
+    html = format_html(results, source_summaries, article_summaries)
+    txt_path, html_path = save_output(text, html, source_summaries, article_summaries)
     print(f"\n完了！")
     print(f"  テキスト: {txt_path}")
     print(f"  HTML:     {html_path}")
