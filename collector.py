@@ -3,6 +3,10 @@ import requests
 import os
 import webbrowser
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
+
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
@@ -59,8 +63,10 @@ def format_output(results):
     return "\n".join(lines)
 
 
-def format_html(results):
+def format_html(results, source_summaries=None):
     today = datetime.now().strftime("%Y-%m-%d")
+    if source_summaries is None:
+        source_summaries = {}
     sections = ""
     for name, entries in results.items():
         items_html = ""
@@ -74,10 +80,13 @@ def format_html(results):
                     items_html += f'<li><a href="{link}" target="_blank">{title}</a></li>\n'
                 else:
                     items_html += f"<li>{title}</li>\n"
+        summary_html = ""
+        if name in source_summaries and source_summaries[name]:
+            summary_html = f'<div class="summary">{source_summaries[name]}</div>\n'
         sections += f"""
         <section>
             <h2>{name}</h2>
-            <ul>{items_html}</ul>
+            {summary_html}<ul>{items_html}</ul>
         </section>
         """
 
@@ -96,6 +105,7 @@ def format_html(results):
     main {{ max-width: 860px; margin: 2rem auto; padding: 0 1rem; }}
     section {{ background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }}
     h2 {{ font-size: 1rem; font-weight: 600; color: #1a1a2e; border-left: 3px solid #e08030; padding-left: 0.7rem; margin-bottom: 1rem; }}
+    .summary {{ background: #f9f9f9; border-left: 3px solid #6ba3d4; padding: 1rem; margin-bottom: 1.5rem; border-radius: 4px; font-size: 0.95rem; color: #555; line-height: 1.6; }}
     ul {{ list-style: none; }}
     li {{ padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.92rem; }}
     li:last-child {{ border-bottom: none; }}
@@ -116,7 +126,7 @@ def format_html(results):
 </html>"""
 
 
-def save_output(text, html):
+def save_output(text, html, source_summaries=None):
     today = datetime.now().strftime("%Y-%m-%d")
     output_dir = os.path.join(os.path.dirname(__file__), "output")
     os.makedirs(output_dir, exist_ok=True)
@@ -132,9 +142,47 @@ def save_output(text, html):
     return txt_path, html_path
 
 
+def summarize_source(source_name, entries):
+    if not GROQ_API_KEY or not entries:
+        return None
+    articles = []
+    for entry in entries[:5]:
+        title = entry.get("title", "").strip()
+        if title:
+            articles.append(title)
+    if not articles:
+        return None
+    articles_text = "\n".join(articles)
+    try:
+        response = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            json={
+                "model": "llama-3.3-70b-versatile",
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "与えられたニュース記事のタイトル一覧から、2〜3行で簡潔に要約してください。",
+                    },
+                    {
+                        "role": "user",
+                        "content": f"「{source_name}」のニュース記事です。簡潔に要約してください。\n\n{articles_text}",
+                    },
+                ],
+                "max_tokens": 256,
+            },
+            timeout=30,
+        )
+        response.raise_for_status()
+        return response.json()["choices"][0]["message"]["content"]
+    except Exception as e:
+        print(f"  [{source_name} 要約エラー] {e}")
+        return None
+
+
 def summarize_with_groq(results):
     if not GROQ_API_KEY:
-        return None
+        return None, "GROQ_API_KEY が設定されていません"
     today = datetime.now().strftime("%Y-%m-%d")
     articles = []
     for name, entries in results.items():
@@ -143,7 +191,7 @@ def summarize_with_groq(results):
             if title:
                 articles.append(f"[{name}] {title}")
     if not articles:
-        return None
+        return None, "要約対象の記事がありません"
     articles_text = "\n".join(articles)
     try:
         response = requests.post(
@@ -166,13 +214,15 @@ def summarize_with_groq(results):
             timeout=30,
         )
         response.raise_for_status()
-        return response.json()["choices"][0]["message"]["content"]
+        summary = response.json()["choices"][0]["message"]["content"]
+        return summary, None
     except Exception as e:
-        print(f"  [Groq要約エラー] {e}")
-        return None
+        error_msg = f"Groq API エラー: {str(e)}"
+        print(f"  [{error_msg}]")
+        return None, error_msg
 
 
-def send_discord_notify(results, summary=None):
+def send_discord_notify(results, summary=None, summary_error=None):
     if not DISCORD_WEBHOOK_URL:
         return
     today = datetime.now().strftime("%Y-%m-%d")
@@ -188,6 +238,9 @@ def send_discord_notify(results, summary=None):
                 title = entries[0].get("title", "").strip()
                 lines.append(f"▶ **{name}**（{len(entries)}件）")
                 lines.append(f"　{title}")
+        if summary_error:
+            lines.append("")
+            lines.append(f"⚠️ {summary_error}")
         message = "\n".join(lines)
     try:
         requests.post(
@@ -206,16 +259,23 @@ def main():
         print(f"  取得中: {name}")
         results[name] = fetch_feed(name, url)
 
+    print("\n各ソースの要約を生成中...")
+    source_summaries = {}
+    for name, entries in results.items():
+        if entries:
+            print(f"  要約中: {name}")
+            source_summaries[name] = summarize_source(name, entries)
+
     print("\n出力を生成中...")
     text = format_output(results)
-    html = format_html(results)
-    txt_path, html_path = save_output(text, html)
+    html = format_html(results, source_summaries)
+    txt_path, html_path = save_output(text, html, source_summaries)
     print(f"\n完了！")
     print(f"  テキスト: {txt_path}")
     print(f"  HTML:     {html_path}")
-    print("\nClaudeで要約中...")
-    summary = summarize_with_groq(results)
-    send_discord_notify(results, summary)
+    print("\n全体の要約を生成中...")
+    summary, summary_error = summarize_with_groq(results)
+    send_discord_notify(results, summary, summary_error)
     if html_path and os.path.exists(html_path):
         webbrowser.open(f"file:///{html_path.replace(os.sep, '/')}")
 
