@@ -2,9 +2,6 @@
 .env.local
 .env
 
-# 出力ファイル
-output/
-
 # Python
 __pycache__/
 *.py[cod]
