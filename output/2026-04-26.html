@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレンドニュース - 2026-04-26</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-start;
+        }
+
+        .stat {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .stat strong {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+        }
+
+        .badge {
+            display: inline-block;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .section-summary {
+            background: var(--bg);
+            padding: 1rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .section-summary strong {
+            font-weight: 600;
+        }
+
+        .section-summary h4 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .article-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .article-title {
+            display: block;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 0.8rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-title:hover {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            opacity: 0.85;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 トレンドニュース</h1>
+        <p>2026-04-26</p>
+    </header>
+
+    <nav>
+        <a href="#0" class="nav-link">Hacker News</a><a href="#1" class="nav-link">Zenn</a><a href="#2" class="nav-link">Qiita</a><a href="#3" class="nav-link">Google News (IT)</a><a href="#4" class="nav-link">Google News (Business)</a><a href="#5" class="nav-link">Reddit / technology</a><a href="#6" class="nav-link">Reddit / business</a>
+    </nav>
+
+    <main>
+        
+        <section class="hero">
+            <h2>📰 今日のトレンド要約</h2>
+            <div class="overall-summary">今日の重要なトレンドは以下の通りです。<br><br>1. <strong>AIの進化とビジネスへの応用</strong>: GoogleはAIスタートアップAnthropicに最大400億ドルを投資する予定です。また、Nvidiaの株価は2025年10月以来の最高値に達し、時価総額は5兆ドルを突破しました。会社はAIサービスの使用量が増えています。<br>2. <strong>AIと労働の未来</strong>: MetaやMicrosoftでは2万人の雇用削減が予想され、AIが仕事を奪うことが懸念されています。企業はAIを活用し、従業員の業務を支援することが重要です。<br>3. <strong>テクノロジーとプライバシー</strong>: EUは携帯電話のバッテリーを簡単に取り外せるように義務付けます。しかし、アップル製品はこの規制の対象から外れる可能性があります。また、ディズニーランドのゲストは顔認証を無効にすることができます。<br>4. <strong>技術の進歩とイノベーション</strong>: 日本ハムはSAPのプラットフォームを使用してAIを活用し、需要予測を強化しています。また、東芝の研究者2名がKaggle Competition Grandmasterを獲得しました。<br>5. <strong>ビジネスと経済の動向</strong>: 日本では経済交流やビジネスマッチングが進んでいます。一方で、燃料高騰は中小企業に影響を与えています。ニトリは27年卒就活生に人気の企業として4年連続で1位となりました。これらのトレンドは、IT業界やビジネス界における最新の動向を反映しています。</div>
+            <div class="stats">
+                <div class="stat"><strong>7</strong> ソース</div>
+                <div class="stat"><strong>70</strong> 記事</div>
+            </div>
+        </section>
+        
+        <section id="0">
+            <div class="section-header">
+                <h2>Hacker News</h2>
+                <span class="badge" style="background-color: #ff6600;">Dev</span>
+            </div>
+            <div class="section-summary">「Hacker News」には、技術や科学に関する様々な記事があります。記事には、アルツハイマー病の進歩のなさや、自由なユニバーサルコンストラクションキット、およびソフトウェアへのエージェントの組み込みに関する記事があります。また、芸術的な1ビットの「神奈川沖浪裏」が紹介されています。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://fabiensanglard.net/usbcheat/index.html" target="_blank" class="article-title">USB Cheat Sheet (2022)</a>
+                    <p class="article-summary">USBの種類や速度についてまとめたチートシートです。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/" target="_blank" class="article-title">Why Has There Been So Little Progress on Alzheimer's Disease?</a>
+                    <p class="article-summary">アルツハイマー病の研究進展が遅れる理由を探る。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://fffff.at/free-universal-construction-kit/" target="_blank" class="article-title">The Free Universal Construction Kit</a>
+                    <p class="article-summary">Free Universal Construction Kitは、さまざまなブロックやパーツを一緒に使用できるようにするオープンソースのアダプターを提供するプロジェクトです。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/" target="_blank" class="article-title">1-Bit Hokusai's "The Great Wave" (2023)</a>
+                    <p class="article-summary">古典的な日本の絵「神奈川沖浪裏」が1ビットの画風でリメイクされました。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.feldera.com/blog/ai-agents-arent-coworkers-embed-them-in-your-software" target="_blank" class="article-title">Agents Aren't Coworkers, Embed Them in Your Software</a>
+                    <p class="article-summary">エージェントをソフトウェアに組み込んで、共働きのチームメンバーのように扱うべきではない。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/" target="_blank" class="article-title">Using coding assistance tools to revive projects you never were going to finish</a>
+                    <p class="article-summary">コーディング支援ツールで未完のプロジェクトを復活させる方法を紹介。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://oilprice.com/Alternative-Energy/Geothermal-Energy/Americas-Geothermal-Breakthrough-Could-Unlock-a-150-Gigawatt-Energy-Revolution.html" target="_blank" class="article-title">America's Geothermal Breakthrough</a>
+                    <p class="article-summary">アメリカは新しい地熱技術の突破口を見出し、地熱エネルギーの未来の可能性が広がりました。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://blog.korny.info/2026/04/19/the-joy-of-folding-bikes" target="_blank" class="article-title">The Joy of Folding Bikes</a>
+                    <p class="article-summary">折り畳み自転車の楽しみを紹介する記事です。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.nytimes.com/2026/04/25/your-money/fidelity-investments-fraud-alert.html" target="_blank" class="article-title">Her Life Savings Mysteriously Disappeared After a Systems Glitch</a>
+                    <p class="article-summary">銀行のシステム障害により、女性の貯蓄が謎のまま消えた。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://petapixel.com/2026/04/22/flickr-the-first-and-last-great-photo-platform/" target="_blank" class="article-title">Flickr: The First and Last Great Photo Platform</a>
+                    <p class="article-summary">Flickrは最初で最後の偉大な写真プラットフォームだった。</p>
+                </div>
+            </div>
+        </section>
+        <section id="1">
+            <div class="section-header">
+                <h2>Zenn</h2>
+                <span class="badge" style="background-color: #3ea8ff;">日本語Tech</span>
+            </div>
+            <div class="section-summary">Zennのニュース記事は、主に開発ツールやプログラミングに関する記事が紹介されています。ハーネスエンジニアリングを支援するMicrosoftの新ツール「APM」や、Claude Code Hooksの基礎編と活用事例、agents-cliの中身について解説しています。また、カスタムエージェントの呼び出し方やRustで開発モニタを作るなどの記事も含まれています。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://zenn.dev/microsoft/articles/agent-package-manager-handson" target="_blank" class="article-title">ハーネスエンジニアリングを楽にする Microsoft 製の新ツール「APM」ハンズオン</a>
+                    <p class="article-summary">Microsoft のハーネスエンジニアリングを支援する新ツール「APM」のハンズオンが開催された。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/masayan1126/books/claude-code-hooks-basic" target="_blank" class="article-title">Claude Code Hooks基礎編、活用事例と設定ぜんぶ見せるで</a>
+                    <p class="article-summary">Claude Code Hooks基礎編と活用事例の解説および設定方法の紹介です。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/makocchan/articles/whats_agents_cli" target="_blank" class="article-title">agents-cliの中身を見てみよう</a>
+                    <p class="article-summary">agents-cliの内部構造とコードを分析します。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/tomokusaba/articles/31e31c57cb051d" target="_blank" class="article-title">カスタムエージェントの呼び出し方で考える Copilot CLI と VS Code Agent Mode</a>
+                    <p class="article-summary">Copilot CLI と VS Code Agent Mode の違いを比較検討します。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/okamyuji/articles/ratatui-real-world-tui-design-patterns" target="_blank" class="article-title">ターミナルで動く開発モニタをRustで作った — Ratatuiで実用TUIを作って見えた5つの設計課題とその解き方</a>
+                    <p class="article-summary">Rustで開発モニタをターミナルで動かすために、Ratatuiを使った実用的なTUIを作成し、設計上の課題と解決策を紹介する記事。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/nka21/articles/claude-code-multi-agent-reviewer" target="_blank" class="article-title">AIレビューの「で、これ合ってんの？」を減らす</a>
+                    <p class="article-summary">AIのレビューで疑問が出ることを減らすための方策を紹介。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/techtrain_blog/articles/0991bc406b58e2" target="_blank" class="article-title">Claude Code と二人七脚 DB 設計</a>
+                    <p class="article-summary">Claude Code は、二人七脚データベース設計を参考にして開発されたデータベース設計手法です。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/renue/articles/4687cb5e5c0031" target="_blank" class="article-title">【renue】社員全員でClaude Codeを使い、自社のデモECをハッキングしてみた</a>
+                    <p class="article-summary">クローデコードを使用したハッキングのデモ実験を行った。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/uniquevision/articles/f2b75b4109ea14" target="_blank" class="article-title">anyhowとthiserrorの内部実装を覗いてみる</a>
+                    <p class="article-summary">Rustのエラー処理ライブラリ「anyhow」と「thiserror」の実装を調べます。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://zenn.dev/nttdata_tech/articles/15290f101cacd2" target="_blank" class="article-title">VS Code 拡張機能の Webview での描画性能をテトリスで検証してみた</a>
+                    <p class="article-summary">VS Code 拡張機能の Webview でテトリスゲームを作成し、描画性能をテストしました。</p>
+                </div>
+            </div>
+        </section>
+        <section id="2">
+            <div class="section-header">
+                <h2>Qiita</h2>
+                <span class="badge" style="background-color: #55c500;">日本語Tech</span>
+            </div>
+            <div class="section-summary">Qiitaの記事は、エンジニアリングに関するさまざまな話題を取り上げています。その中には、プロジェクト設計のやりすぎ問題、AI駆動開発の手法、ProxmoxとTailscaleの統合、WSL2とWindowsアプリの連携、Google Cloudの認定についてです。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://qiita.com/prum_hitomi/items/f94803dd326ef7c3eb25?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">その“親切な設計”、たぶん無駄です  - エンジニアがハマる「やりすぎ問題」-</a>
+                    <p class="article-summary">エンジニアの「やりすぎ問題」を説明し、過度の親切設計の無駄を指摘する記事です。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/ko1-ino/items/ccc64ce6504c77100cfb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">AI駆動開発の手法は分岐するが、本質は一点に収束する ― 現場で6週間議論して辿り着いた結論</a>
+                    <p class="article-summary">AI駆動開発の手法に共通する本質を6週間の議論を通じて探った。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/masa-555/items/889a597b92d213c7ac39?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">ProxmoxにTailscaleを入れたら全VMが見えてしまう話—外部アクセスとラテラルムーブメントのリスク</a>
+                    <p class="article-summary">ProxmoxにTailscaleを入れると、外部アクセスやラテラルムーブメントのリスクが高まる。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/mfunaki/items/37dca9fdb5db427dfd7c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">WSL2からWindowsのブラウザやネイティブアプリをシームレスに起動する(xdg-open / wslu の活用)</a>
+                    <p class="article-summary">WSL2からWindowsのブラウザやアプリをシームレスに起動する方法を紹介。xdg-openやwsluの活用を解説。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/tomokoro/items/eebc8142a85c80873028?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">【2026年4月最新】Google Cloud 認定「全冠」達成まとめ 〜今だけ15冠〜</a>
+                    <p class="article-summary">Google Cloud 認定の全ての資格を取得する方法を紹介。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/wan-code/items/e83414089713891df1a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">n8n × MacroDroid × LINEで「今から帰る」をワンタップ通知する仕組みを作った</a>
+                    <p class="article-summary">「今から帰る」をLINEで1タップ通知する仕組みをn8nとMacroDroidで作る。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/nogataka/items/fed4cba1439d0073f2d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">gpt-image-2でUIを量産する実務プロンプトテンプレート集：ダッシュボード／LP／モバイル／ロゴ／スライドの5パターン</a>
+                    <p class="article-summary">GPT-Image-2を使用して、ダッシュボート、LP、モバイル、ロゴ、スライドなどのUIデザインを自動生成するためのプロンプトテンプレートを紹介。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/Hashimoto-Noriaki/items/f1eab565027d84bc9b0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">知らないとヤバい😱 コードレビューしてもらえる最強ツール! CodeRabbitの導入法</a>
+                    <p class="article-summary">コードレビューツール「CodeRabbit」の導入方法について説明しています。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/nogataka/items/1156e2d3a40c4dab3398?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">同じ Issue を Claude・Codex・Gemini に同時に解かせるとどうなるか — git worktree × tmux で衝突しない並列 AI 開発</a>
+                    <p class="article-summary">並列で AIモデルの開発とテストが可能になる。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://qiita.com/wan-code/items/71b3c3188d19e2429ee0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-title">n8nで「ランチ自動提案Bot」を作ってみた（Google Maps × Discord）</a>
+                    <p class="article-summary">n8nを使用してGoogle MapsとDiscordを連携させたランチ自動提案Botを作成するという記事です。</p>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="section-header">
+                <h2>Google News (IT)</h2>
+                <span class="badge" style="background-color: #4285f4;">ニュース</span>
+            </div>
+            <div class="section-summary">以下のニュース記事の要約です。<br>クラスターテクノロジーは株価に関する情報を公開しました。また、AI技術やイベントに関連するニュースがいくつかあります。さらに、東芝の研究者2名がKaggle Competition Grandmasterを獲得し、AIに関する業績を残しています。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QanZMN21oNS1PRGFzRlVUWV83cGU2OGtlMzJac1ZTa1htYVdkazhDLURVb3ZJRHk5a2J6M0NsUFlCMkU0TXI2bjdZQ05JRFJFWmc?oc=5" target="_blank" class="article-title">クラスターテクノロジー(株)【4240】：株価・株式情報 - Yahoo!ファイナンス</a>
+                    <p class="article-summary">クラスターテクノロジー（4240）の株価や株式情報を提供します。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnRG1TRU5wZTJwQUw2YmJtMmgzY1RBN2ZTSnFiZ0JsTHlubEo0WXQyTXI0aGt2OS04dndqd05YTGNfZnRUdTNPZ1FiY2gyYTd3aUVYVjdzay1HQ0hpN0NIdURnOWI?oc=5" target="_blank" class="article-title">AIエージェントDXPO名古屋'26 - イベント・セミナー - Key Technology｜CTC - ctc-g.co.jp</a>
+                    <p class="article-summary">AIエージェントDXPO名古屋'26のイベント情報が公開。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiQ2FXMk9JT2pVM0U1c0ltMk5zT2F3b3VNS09GN3FHSDRMQWw5U2l5R0x3eTVjZm1STFRaVks5UmZXXzd2dnNmcDhreUgtdjF6NXVsamQtdEUyalFQRnJMbjE5UnY?oc=5" target="_blank" class="article-title">フィジカルAIが加速する製造現場の知能化「Beckhoff Technology Day 2026 in Nagoya」5/21開催 - ロボスタ</a>
+                    <p class="article-summary">Beckhoff Technology Day 2026 in Nagoyaが5月21日に開催され、フィジカルAIを用いた製造現場の知能化を紹介する。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNUFpNRG1XZUlOUGFGQlNRZWdwMkV4WnhIYW13YmdDS19nRDZIOGt0WTUydHdmZllyNzhEbWhPa1k4WnVqWi1XY3dEY19Ja21oa2o3UVZmTjBZZ3c0NmdjNVcwLWZvWlB1YkNVU3UtYmlFamlzTDhZeWZ5NEJ5NTJLYjBwUXZFRE16TjlQNlRTSkNGZzdwd1B3SkdDMlQ3R0t1bzhqUA?oc=5" target="_blank" class="article-title">日本ハム、SAP® Business Technology Platformを活用し、AIによる需要予測・在庫引当業務の高度化を推進 - SAP News Center</a>
+                    <p class="article-summary">日本ハムがSAPのテクノロジーを使用して、AIで需要予測と在庫管理を高度化する。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNVVFrYmJEcXBTaFBubHZmSkQtSGROc192MGR1cEJ3c1hoXzdNejJNdVZyTjRDREVGRGdpRlV4M3Vnb1Y5ZGFoQlN6dTRkM01sbnNyVm5rTjVkVmRSMGtqY1VzWTBPbXJhT0V3cF9WZkVUN1JGcjZzdy1sd3FCWTJONWNOaFlneHM?oc=5" target="_blank" class="article-title">東芝の研究者2名が「Kaggle Competition Grandmaster」を獲得 - global.toshiba</a>
+                    <p class="article-summary">東芝の研究者2人がデータ分析コンペティション「Kaggle Competition Grandmaster」を獲得。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGUUMzb09SbGJqbWpBSjR3WFlNN1NZc3hKc0g4MTFzZEdZaFAwNW1xaTR4YkpBY0t4c0lSZ3djMm92YUZRUjBOeng4U3N5MUZkdEV5cWlrUlBRQWFqSFNHUjhGSQ?oc=5" target="_blank" class="article-title">革新的な蓄電池セル製造技術を有するTeraWatt Technology社との資本提携および協業に関する覚書の締結について - jera.co.jp</a>
+                    <p class="article-summary">JERAが革新的な蓄電池セル製造技術を持つTeraWatt Technology社と資本提携および協業で覚書を締結しました。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNdEsyd0VMWHFVSlktdE95b09Uc21MNkpDR1VMVzlTWl9jNzZ2Rnl1REFYNGljODRVUzRWVzU3SzFjTFdXRFZlYVhteWh2bjNwMW5jWHNCSUFrMjgwZWlXaGVDaXM5Z2d1cnZrdDBJUDI4VGFMa29fY19LLXE5OTY1NA?oc=5" target="_blank" class="article-title">米軍、サウジ空軍基地にウクライナ製対ドローン技術導入＝関係筋 - Reuters</a>
+                    <p class="article-summary">米軍がサウジ空軍基地にウクライナ製対ドローン技術を導入した。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiQkFVX3lxTE54b21MXzFyLWZzcEJDLXJUNjEzUzNaNWpIQ05sSFp0Q2M1aDktbWFKbmwyXzA3TkNsUHhydE1vWlhvUQ?oc=5" target="_blank" class="article-title">レジェンドへの敬意はペンライトで示せ、超会議カオスの中にテクノロジーガバナンスモデル - ニュースイッチ by 日刊工業新聞社</a>
+                    <p class="article-summary">超会議のカオスにテクノロジーが寄与した模様です。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFB2UGlJajEyb2s3cUhfdjFILVBVWkc2WUwxWFpqWEtrQzd1N1c4Nks4alFCSkdwY0t2eld4enFyVjRNeDNQeTJsMnhhSjBqelBMcXR2Z0wxcTBjd09uNlIyOGpnc2dSblFiYzRYR1ZJVQ?oc=5" target="_blank" class="article-title">シリコンフォトニクスと先進パッケージの統合が描く未来 - EE Times Japan</a>
+                    <p class="article-summary">シリコンフォトニクスと先進パッケージの統合による新しい技術の未来を紹介。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkbmwtcjc0OWR2T016MmJScjJnYUluTjhadDZyOUVHSUtiLTZYTmlwMktzOWZUcFdvT2w4MV9Va3V0RG05bURxZFU4UC1CVV84MHFJdGtGMGRncFdmTkZr?oc=5" target="_blank" class="article-title">米AI新興アンソロピックに出資 巨大テクノロジー企業で広がる - NHKニュース</a>
+                    <p class="article-summary">米国の人工知能（AI）スタートアップ「アンソロピック」に、巨大テクノロジー企業からの出資が広がりつつあります。</p>
+                </div>
+            </div>
+        </section>
+        <section id="4">
+            <div class="section-header">
+                <h2>Google News (Business)</h2>
+                <span class="badge" style="background-color: #0f9d58;">ビジネス</span>
+            </div>
+            <div class="section-summary">経済交流や中小企業の課題が取り上げられたニュース記事が複数報じられています。また、AI技術が進化し、新しいビジネス形態が生まれていることにも注目が集まっています。企業の人気ランキングの記事もあり、就活生が注目している企業が紹介されています。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1wMGQ4V2o3Qk1jeU1RNW03MmdlOFp6VVVYYWJvV1FaMU9JYlMtXzdOaVVvUDZRelIwbVRyQzhYaGRQYmNHeFR4UEhfZ1k1TzE3d3pENmsyZw?oc=5" target="_blank" class="article-title">経済交流やビジネスマッチングを目指す 鳥取商工会議所などと台湾企業が基本合意書に調印 - TBS NEWS DIG</a>
+                    <p class="article-summary">鳥取商工会議所と台湾企業が経済交流を目的とした基本合意書に調印。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9MRERmclhldVJ1ZUh6MWRqeHZCUURYY0NWRHlZZ0RrdUlsMDF2QV9nUDJaRGdLc3JvY0dfRXJwdzUzdU1fTF8tSm5VMVlMZFJnMW1fTmpPQW9GM3NiYWR1OFRiLTQ1bTdxZDk5LWRmVjNZdw?oc=5" target="_blank" class="article-title">経営層を説得するエンジニアたち Anthropicが企業AIの「新基準」へと逆転した背景 - ITmedia</a>
+                    <p class="article-summary"> Anthropicsが企業AIの新基準を打ち出すまでの背景とその影響を紹介。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9IcENKczZXYUlZWUI4QjBuaTV6d2ZoQUVhSy16VW56RjBNSGRtamEzd0g0TGVERkVrLUJ3S3docjcwRWJ0QkVzMmlJMEM3LXIyVVZZV0pZUkdLNldsSGxudTJDNS1fWU1NSWVYdGpxaDNPMkJ6eW5yOXByWG1HQVk?oc=5" target="_blank" class="article-title">コーヒー豆からバッグまで、燃料高騰が中小企業を直撃…迫られる価格転嫁の決断（海外） - Yahoo!ニュース</a>
+                    <p class="article-summary">コロナ禍と燃料高で物流コストが上昇し、中小企業が価格転嫁に悩む。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNTDN6RVlFdnZ2ZEZtR3AwZ3g5NmN2T1MwY2VqM21ndzg4cE9pdnJVRVBpengxQmdYVkMwdVdGTU5XMVhJTkpCZ0Q5RDJXX3hFajV5aEpEOXJrVDd2SjRUdEt2UXgyanJJelBJV1EwdTh6czNkVUZweS1CWE1nelkxeUhpWEQ4amhXaDFIeTlGRjdUdWxsc1dfV0FJUdIBnAFBVV95cUxPWXV4N0p1S3FHYXJhbUlhSUMtT2ZfNmRCbnVySFh1aTRpbkN3c2JtNHl4OHQyOWpxQklxcGZYYW93bjU3d25VMnNjNUk5SGJ2WDY0N0RzU2xlUy14V0ZBVlFpY1BsU2EwOVVXdlk2dFgyS1YwcXl6dkY1R2hSZWZOSjRVUE5YdHp4V1MxY0tEeHZDX2wxMjV1dllhWm8?oc=5" target="_blank" class="article-title">27年卒就活生に人気の企業は？　ニトリ4連覇、地域別では地元企業が存在感 - ｄメニューニュース</a>
+                    <p class="article-summary">就職活動の企業の人気ランキングでニトリが4年連続1位を獲得、地域別では地元企業の人気も高まっている。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tZmt3VjZ0MHdUMkNGMkNvSHRuajJPeUItd1JkVEpMVzJoSjlhQXBiZWhON3p1TWpMTW9DQURsTVVyMUtuR2gtQTR2bk50a2xwUTRCcS04cGs?oc=5" target="_blank" class="article-title">大企業の時代は終わる──AI搭載の「1人企業」が切り拓く新しいビジネスの形 - Forbes JAPAN</a>
+                    <p class="article-summary">AIとテクノロジーにより、1人でビジネスを行う「1人企業」が台頭し、大企業の時代に終わりを告げる。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE80cGVfRGJVWXRVSHJtVDhjbEV6WlJzOE8zc2NSNl9UY25ZQW5pYzE1cmU0ZUVBTk9hODQtSW44aFlEVmFaVXZDZmVpM3JVWVhGYzM4Tm4zV2MxV2JWVTB0eDNkZVhyZ0M4cFVXMQ?oc=5" target="_blank" class="article-title">日東電工、「ニッチトップ戦略」で1兆円企業に 技術力で高成長狙う - 日本経済新聞</a>
+                    <p class="article-summary">日東電工が「ニッチトップ戦略」で1兆円企業になることを目指している。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTFBWSGdBZzE1MEhBdGpPRFNMMXdhMGRIbGJocjFjS0I0WjJIdkszdFYtYmJpUFVaSVBBREpKeUJHeG5wbUFZRE5mT2Z5Nkc5ZW1rcHN0aFp4Vi1WZTV5VG5HOFU0anFhWTUwRFNBVExCelpDWFNNWWFkWjFR?oc=5" target="_blank" class="article-title">マクロスコープ：中東緊張の長期化前提に企業が先行対応、政府「供給十分」と温度差 - Reuters</a>
+                    <p class="article-summary">中東情勢の長期化に備え企業が備えを整える一方、政府は供給への影響を否定する温度差が生じている。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFB5aFRxRDJYbmtfeEJXSFRueWZ1OURwXy1aemFDc1dLZVdRU1p6R0lpR3ppZUU0RXZReU9SQXdub3VWYlltSGozbHU5bw?oc=5" target="_blank" class="article-title">ビジネスマナー 室蘭市内の新入社員が学ぶ - 47NEWS</a>
+                    <p class="article-summary">室蘭市内で社員がビジネスマナーを学ぶ講座が行われた。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5QSUNFY24xYnJJZ3lyZDJGSUE3Zmw4YWZYeTZwTjRXM0hSSFJEU3AxTjRLbzluOFY5UVk3TGdnS0pBYXMxWlBFcFlNQURUUU5tNk5Qc015dlRSb1p6dF84SUhjYmNvdjhlMTkyTkF3?oc=5" target="_blank" class="article-title">ビジネス交流拠点「アンカー神戸」、5周年で記念イベント AIで技術革新、国際連携へ意見交換|社会 - 神戸新聞NEXT</a>
+                    <p class="article-summary">ビジネス交流拠点「アンカー神戸」が5周年を記念して、AIに関する記念イベントを開催し、技術革新や国際連携について意見交換が行われた。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rOVlNbHhlenhZWWhYYkpTemRVTmhYeExfSTJuUDRQS3BrOWc4bVZvZjhsVFh0QVA2cmhpNzA5MjYwS3duNzQ5LVVhbV9XQXdVU0RzVnpDcEZzYldE?oc=5" target="_blank" class="article-title">トゥミが目指す“脱ビジネスバッグブランド”戦略 アジア太平洋・中東地域でウィメンズ、若年層獲得目指す - fashionsnap.com</a>
+                    <p class="article-summary">トゥミはアジア太平洋・中東地域で「脱ビジネスバッグブランド」戦略を採用し、ウィメンズと若年層の顧客獲得を目指す。</p>
+                </div>
+            </div>
+        </section>
+        <section id="5">
+            <div class="section-header">
+                <h2>Reddit / technology</h2>
+                <span class="badge" style="background-color: #ff4500;">Community</span>
+            </div>
+            <div class="section-summary">以下の要約です。<br>Palantir社が内部問題を抱えている。ユーザーの保護のために、アルゴリズムとデータ収集の規制に重点を置くべきだと主張する声が出ている。また、EUは携帯電話のバッテリー交換性を規制し、スマートフォンメーカーに「簡単に取り外せる」バッテリーの搭載を義務付けました。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1sve3jw/palantir_employees_are_talking_about_companys/" target="_blank" class="article-title">Palantir employees are talking about company’s “descent into fascism”</a>
+                    <p class="article-summary">パランティール社員は同社の「ファシズムへの転向」について話し合っています。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1sva7qv/age_limits_on_social_media_are_a_dead_end_public/" target="_blank" class="article-title">“Age limits on social media are a dead end”: public authorities should focus on regulating algorithms and imposing stricter controls on data collection instead, argues researcher</a>
+                    <p class="article-summary">ソーシャルメディアの年齢制限は無意味で、アルゴリズム規制とデータ収集を強化することに重点を置くべき。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svg24x/someone_allegedly_used_a_hairdryer_to_rig/" target="_blank" class="article-title">Someone allegedly used a hairdryer to rig Polymarket weather bets</a>
+                    <p class="article-summary">Someone allegedly used a hairdryer to manipulate temperature readings and win weather bets on Polymarket.</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svnqt2/eu_is_mandating_readily_removable_batteries_for/" target="_blank" class="article-title">EU is mandating 'readily removable' batteries for phones — but iPhones may be exempt</a>
+                    <p class="article-summary">EUは、「容易に取り外せる」バッテリーを携帯電話に義務付けましたが、iPhoneは例外となる可能性があります。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svrpgk/disneyland_guests_can_opt_out_of_facial/" target="_blank" class="article-title">Disneyland guests can opt out of facial recognition at park entrances</a>
+                    <p class="article-summary">ディズニーランドでは、ゲストがFacial Recognitionをパークの入口でオプトアウトできます。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svkf61/us_navy_tests_locust_laser_weapon_system_that/" target="_blank" class="article-title">U.S Navy tests LOCUST laser weapon system that shoots down drones on the USS George H.W. Bush supercarrier — "system tracked, engaged, and neutralized multiple target drones," has essentially unlimited power source</a>
+                    <p class="article-summary">米国海軍は、ドローンを破壊できるLOCUSTレーザー兵器システムを試験した。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1sv9wxg/20000_job_cuts_at_meta_microsoft_raise_concern/" target="_blank" class="article-title">20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here</a>
+                    <p class="article-summary">MetaとMicrosoftはそれぞれ20,000人の労働者を削減するという計画を発表し、AIによる労働者危機の到来を懸念させている。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svo4j0/steam_controller_price_leaked_by_early_review_and/" target="_blank" class="article-title">Steam Controller Price Leaked By Early Review - and It’s Expensive</a>
+                    <p class="article-summary">Steam Controllerの価格がリークされ、高額だと判明しました。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svfj27/china_car_giant_byd_says_it_can_thrive_without_us/" target="_blank" class="article-title">China car giant BYD says it can thrive without US</a>
+                    <p class="article-summary">中国の大手自動車メーカーBYDは、アメリカ市場がなくても成長できるとしています。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/technology/comments/1svdrhy/you_dont_need_extra_antivirus_on_windows_11/" target="_blank" class="article-title">You don't need extra antivirus on Windows 11, Microsoft officially says</a>
+                    <p class="article-summary">マイクロソフトは、Windows 11では追加のアンチウイルスソフトウェアが不要だと述べています。</p>
+                </div>
+            </div>
+        </section>
+        <section id="6">
+            <div class="section-header">
+                <h2>Reddit / business</h2>
+                <span class="badge" style="background-color: #ff4500;">Community</span>
+            </div>
+            <div class="section-summary">パラマウントCEOのデビッド・エリソンは2025年に6,320万米ドルの報酬を受け、前社長のジェフ・シェルは6,070万米ドルを得た。GoogleがAnthropicへの最大40億米ドルの投資を計画し、Nvidiaの株価が更新し、時価総額が5兆米ドルを突破した。また、MetaとMicrosoftが合計2万人の雇用を削減する計画を立て、大手企業がAIサービスに従業員予算のすべてを費やす可能性がある。</div>
+            <div class="articles-grid">
+                
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1svkjaw/paramount_ceo_david_ellisons_pay_in_2025_was_632/" target="_blank" class="article-title">Paramount CEO David Ellison’s Pay in 2025 Was $63.2 Million, Former President Jeff Shell Had $60.7 Million in Compensation</a>
+                    <p class="article-summary">Paramount CEO David Ellison は 2025 年に 6,320 万ドルを稼ぎ、元社長 Jeff Shell は 6,070 万ドルで報酬を得た。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1sv8goo/google_to_invest_up_to_40_billion_in_ai_rival/" target="_blank" class="article-title">Google to invest up to $40 billion in AI rival Anthropic</a>
+                    <p class="article-summary">GoogleがAIスタートアップのAnthropicに最大400億円を出資する予定です。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1sut377/20000_job_cuts_at_meta_microsoft_raise_concern/" target="_blank" class="article-title">20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here</a>
+                    <p class="article-summary">メタとマイクロソフトは2万人を解雇、AIが人手不足を引き起こす可能性がある。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1sv4at1/companies_on_track_to_spend_entire_employee/" target="_blank" class="article-title">Companies on track to spend entire employee budget on AI services</a>
+                    <p class="article-summary">企業は、従業員の全予算をAIサービスに費やすかもしれない。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1suxvkd/nvidia_stock_closes_at_record_for_the_first_time/" target="_blank" class="article-title">Nvidia stock closes at record for the first time since October 2025, pushing market cap past $5 trillion</a>
+                    <p class="article-summary">Nvidiaの株価が2025年10月以来の最高値を記録し、時価総額が5兆ドルを超えた。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1suhr44/nike_cuts_1400_roles_in_second_round_of_layoffs/" target="_blank" class="article-title">Nike cuts 1,400 roles in second round of layoffs in 2026</a>
+                    <p class="article-summary">ナイキは、2026年に1400人の役割を削減し、2回目のレイオフを行った。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1sve1jm/how_fast_startups_are_copying_features/" target="_blank" class="article-title">How fast startups are copying features</a>
+                    <p class="article-summary">スタートアップは他社の機能を急速にコピーし、市場での競争を激化させています。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1sv67ax/palantir_inks_300_million_deal_with_usda_to/" target="_blank" class="article-title">Palantir inks $300 million deal with USDA to safeguard food supply</a>
+                    <p class="article-summary">パランティールは、3億ドルでUSDAと契約し、食品供給の安全性を確保する。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1su2doj/lamborghini_just_admitted_its_middle_east_sales/" target="_blank" class="article-title">Lamborghini Just Admitted Its Middle East Sales Are at a Complete Standstill</a>
+                    <p class="article-summary">ランボルギーニの中東での販売が完全に停止したと発表した。</p>
+                </div>
+                <div class="article-card">
+                    <a href="https://www.reddit.com/r/business/comments/1sv1wbr/nvidia_stock_closes_at_record_pushing_market_cap/" target="_blank" class="article-title">Nvidia stock closes at record, pushing market cap past $5 trillion</a>
+                    <p class="article-summary">Nvidiaの株価は過去最高に上昇し、時価総額は5兆ドルを超えた。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-04-26 01:01:04 | API: GROQ</p>
+    </footer>
+</body>
+</html>
