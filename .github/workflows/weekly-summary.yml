@@ -1,0 +1,37 @@
+name: 週間ニュースまとめ
+
+on:
+  schedule:
+    - cron: '0 23 * * 0'  # 毎週日曜23:00 UTC = 月曜朝8:00 JST
+  workflow_dispatch:       # 手動実行も可能
+
+jobs:
+  weekly-summary:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 依存ライブラリをインストール
+        run: pip install -r requirements.txt
+
+      - name: 週間まとめを生成
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python weekly_summary.py
+
+      - name: 出力ファイルをコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/weekly-*.html
+          git diff --staged --quiet || git commit -m "週間まとめ $(python -c 'from datetime import datetime; iso_year, iso_week, _ = datetime.now().isocalendar(); print(f\"{iso_year}-W{iso_week:02d}\")')"
+          git push
