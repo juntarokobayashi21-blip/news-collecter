@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-04-29
+============================================================
+
+【Hacker News】
+  1. Zed 1.0
+     https://zed.dev/blog/zed-1-0
+  2. Copy Fail – CVE-2026-31431
+     https://copy.fail/
+  3. Germany has become the largest ammunition producer in the world
+     https://prm.ua/en/the-us-is-no-longer-the-leader-germany-has-become-the-largest-ammunition-producer-in-the-world/
+  4. HERMES.md in commit messages causes requests to route to extra usage billing
+     https://github.com/anthropics/claude-code/issues/53262
+  5. OpenTrafficMap
+     https://opentrafficmap.org/
+  6. Cursor Camp
+     https://neal.fun/cursor-camp/
+  7. FastCGI: 30 years old and still the better protocol for reverse proxies
+     https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies
+  8. Why I still reach for Lisp and Scheme instead of Haskell
+     https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html
+  9. DRAM Crunch: Lessons for System Design
+     https://www.eetimes.com/what-the-dram-crunch-teaches-us-about-system-design/
+  10. Gooseworks (YC W23) Is Hiring a Founding Growth Engineer
+     https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer
+
+【Zenn】
+  1. 1m精度の標高データを使って、全国の前方後円墳を探してみた
+     https://zenn.dev/tasuku/articles/73bf8c7274208f
+  2. Hono公式の Inertia アダプタが来た！Hono × Inertia × React によるSPA新体験
+     https://zenn.dev/ashunar0/articles/cc351badf8681c
+  3. 97%のPermission確認を自動化するCoding Agent用OSS「ccgate」が誕生した
+     https://zenn.dev/layerx/articles/20260428-ccgate
+  4. エージェントコスト対策としてローカルLLMはアリ？— Ollamaで試してみた
+     https://zenn.dev/headwaters/articles/509a1f83c693ce
+  5. LM Studioで国産OSS大規模言語モデルLLM-jp4を使う
+     https://zenn.dev/hi/articles/64f106cd145fa8
+  6. Claude Code に仕事を譲った日——残ったのは「判断」と「責任」だった
+     https://zenn.dev/tokium_dev/articles/ca6f30192f6379
+  7. Copilot Pro は月300回制限からトークン課金へ—GPT-5.4 × Copilot CLI の実コストを試算した
+     https://zenn.dev/toki_mwc/articles/copilot-pro-token-billing-gpt54
+  8. 大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
+     https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
+  9. AIエージェントを安全に動かすための技術——サンドボックスについて調べてみる
+     https://zenn.dev/layerx/articles/a99cd11af487fc
+  10. AIに会社のGoogleアカウントを渡していませんか
+     https://zenn.dev/finatext/articles/mcp-gateway-google-sa
+
+【Qiita】
+  1. GWも勉強したい方向けに、よくオススメされる技術書をカテゴリ別にまとめてみた
+     https://qiita.com/miruky/items/c2df4f23d73a8e05f37f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 新人エンジニアこそ「個人開発」をやろう。完全無料で始めるCloudflareスタック入門
+     https://qiita.com/t0hara/items/8a669c6e0a76d9b1875d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. API Gateway → Lambda の間で何が行われているかを易しく解説
+     https://qiita.com/hosomatu/items/afdd509365a770598fc4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 【後編】9割の新人エンジニアがやっている 「承知しました」の落とし穴
+     https://qiita.com/hitomin_poke/items/018678abdb0267983fc3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【Claude Code入門】Skills 徹底解説 - 仕組みの解説からハンズオンまで
+     https://qiita.com/i-inose/items/14f212258dc350857a94?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【初学者向け】「どう並べて、どう取り出すか」で変わる - データ構造の基礎
+     https://qiita.com/masa20057/items/3df8598b3ebaf1eb6888?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【書評】Qiita貢献度1位の『技術記事を書く技術』は、エンジニアの机に置いてほしい
+     https://qiita.com/ssaita/items/091cb4ef066abfb1e06b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【入門〜実務】クオンツトレーダーにとって「自己相関」とは何か — 順張り・逆張り仮説を分ける基本検査
+     https://qiita.com/tikeda123/items/3800c4d6542d21508f64?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. API入門
+     https://qiita.com/code_thought/items/f460b08fae3aaa5186d2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. WAFは安心を買う装置ではない
+     https://qiita.com/mochi_cron/items/9ce527df39e7dd6e75fe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 核融合は本当に安くなるのか？ 楽観論に「待った」 をかける新研究 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2loak5jcUZYUjBBUk4xSEt5OEZiWktrbkRhNU91WkVFdEJyU2lLN3UtU3pqM3NvcWxsX1l1RnRrRkNvVHlMU1hCbEp6RnJqRWw1MlZkcjdqSW1abDhsOTBLX19RTVNZYk1zaWE3MWtFS0xyWHZoVEtNaUE4WTlSUkxldTREZ1pteno0aW5CNA?oc=5
+  2. テクノロジーの進化は、基板と素材なしには成り立たない。太陽HDが支える“見えない中核” - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxON1dlZGNKeEdrcGRKQWNYcmJjYzFFc1RxUDNUZnpMZG5JTlAwZWVhU0xkdWI2cXFXVHczYnRNU1pCdldnbVZLTXNHZUhGOXpVaV91RE42VS0zazJrS1lHTzVTSU1Xd0xiV3ZpTlNzTk1GdG9hUGV3U0RJN2Vyd3FJSEpjUnl6NVZ5TEU4?oc=5
+  3. 構えやすい「HIDE ORANGE Technology」搭載！ プロファウンドパターの新モデル「Model B」発売 - ゴルフのニュース
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1vQ2VMaTdBYVVqYm90NWFBUHpKMUg5eFhwemxqTktsMUtsZkV6ZWJNNlVWcElwTnZlZkhiNG1DOXJ0a2M?oc=5
+  4. 科学技術と社会の未来を考える「サイエンスアゴラ連携企画」募集…JST - リセマム
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xWUNJMXBERGJDQXhDcm1MaHpocVFZcDRwUlliXzdvQTZOZHpXR2FKMnVOUTFWVmNPZVM2M2JVNzlUdWpBbDlya3kzTW41SjAwWlFKWGprQVJjMWRLR1VyclZqQ0pXUQ?oc=5
+  5. TSMCがA14発展版となる「A13」と「A12」プロセスを発表、2029年より量産開始を予定 | TECH+（テックプラス） - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nM1RBUWFrZEplVWRvU09lUUJUMEN4elRrWW4zWVFfc0VBbm91TFZKNkloaHBVMERMMllIaUtuRVdZbzRJNGhzNklWYVRaMkhMOFpyYVY4djdLbGFlMW1UMXJEVmxYc3lE?oc=5
+  6. 米陸軍の砲弾増産計画が破綻した原因、新しい砲弾殻生産技術の強行導入 - 航空万能論GF
+     https://news.google.com/rss/articles/CBMikAJBVV95cUxQamYyZ0FqdVRUZndzM1VGaVJFSEVlbGV6S3ZIYTZwejJTX2g3TC0zV2EtYUZXenNQT0h2alozUjFCMHdyd0ZUb2wzNXJhUjRKbkU1QzhMSHRnU0l5V19Lc1JRUHkzRE9jaEhLZ2RDZFNfVjJWbWx4T0JZV2hiTlNzOG9uQWNiR2VDZ0VOTEJjQzBaSm4tOHlnc19yLUF4R18wN3g2czh5NFktVlpjWXFqMEVlQUFmWEM0OXcwcV9UVnFNa21majBaMFhVYVc1RWhjVldwTjN5WFhvTUtHbF9NN0RQOEg4TFMwS1NJTEx2emNiRU02YkROWE1HamdZV0owNmhGR0lMc2RYREV2ZUhzZg?oc=5
+  7. 医療現場に広がるAIツール、 誰の役に立っているのか - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWXU1eGRKanBOWUtqM0FrTldJNFo2NUg4bVJNQVhNek5RVjBFZG5STWo1TWJZMWo4VDRaZFNPNU9xWFNGWFNVUFcwRm53c0FBOE1rYWpPUEhXWGwxekZkNFhEdkVTUGJHSzloR3ZKNnNJNmRjS3QwNldzbmttam16OGFKT2QxX3FjR1BTNHRGVHpnSnBtd25DWE5CRy00TURPVWtNRWFZUXRfcUE?oc=5
+  8. エージェント・オーケストレーション： 知識労働時代の組み立てライン - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMibkFVX3lxTFBNNWFJTFg3dlo4UUVQZHBVV0xnVjlaX2kwZGh4N1prRm1OcXlGc240SU9XWDMtNUdqeEttdzc4bVFNUWU1Vnh1VTJsX0g0clFHVkJJQURYc1VqeXJtYlBqdW9QUlQzaGFKSWxuUElB?oc=5
+  9. (株)ＰＫＳＨＡ Ｔｅｃｈｎｏｌｏｇｙ【3993】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BZzhSLUI4OFFRa3R4aHdYWDBpZmtpMnZzMjNKbzVVOUlrYnZTSW9zNjgyU08xeU1CY0VhUnN5YThlQTBfMTV0eUt0bmFna2RVS3c?oc=5
+  10. Dahua Technology、2025 ESG報告書を発表：デジタル・インテリジェンスによる持続可能な開発の推進 - PR Newswire
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTXViZXgyUHZkZEpjNXZZazAtaGJ2LXhlVHdPUUxRcXQ0cEI1dzVHczhhSnQ3cEh4ZFdtaGU5bUhMek92TWVieGc5a2hIZThJaDRmY2J3cXZIQ1RncXB2azA2Wlp4dG83Q2pWLWpJM2Y5VTFqZHpSM0lzRWZ6RHJjXzVIRFFmZ0ZLX0Fr?oc=5
+
+【Google News (Business)】
+  1. 三菱電機、米レイセオンと空対空ミサイル「AIM-120」の共同生産に向けた協議を開始（ビジネス＋IT） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5oUGl1QVpBUnNtV2xmc0JIUENwc0lVU1ZlTFlUMlpzZVhtQ3dwYkl1RFFkdVFkNGFzNzB4X0E2cHdyZDdIS0FWR0NoWF9qVHBrcUJjX1hYZGZvRVJEMGkwLWxvTDhxcmxSb0U2MGFYVTBGeUU5NFZya3gwVEN1Sjg?oc=5
+  2. 日本はフロリダと同じ構造。日本発・宇宙ビジネスで目指すべき“ロケット”ではなく“この3つの領域” - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxQb2RVVzVmNW1ZSzlIazN0c3pRYTItaW9yWXdSUktaY0Z2ME12Q3EzUnNYNlM3NlBnbDRwQXhPai1LV3ZjTjZXaW1EbzMzcHJWWTdmMzdCai1sel92dVBuMTRqTGVIT0NaMUo0WWY3aFB5SVU2d3FFbndKZnFkM1E0SU1IOG5kdW5jX0E?oc=5
+  3. 講談社が進める「出版社ビジネスの棚卸し」、ファンコミュニティ起点で2Cと2Bを再構築 - media-innovation.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9vUExIeHIzNGc5bHRxOWNEb3BLN1JOUF9zR0JLRUtJU1BrTThXOUpGWUEwV1B0eDg0Ni11cVNXYi1HSHgxa0t1Zzc0QWhpdXU5RHhCZ1ItRFc4Yy0weVJQdzcxbUJ3aExtTXc?oc=5
+  4. トップコスプレイヤーえなこと元アイドル社長、コスプレビジネス化の10年戦略 - 日経クロストレンド
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSX0xlUjhhTnVPZUlMdlhFMlBsN1FiUGVpN3RfQW5xSkFYS3pud2R6WUhZbV90NTNtRUZaajc0dlJRamxXM1FYTVhzaGtTeVFfTTNDVVRDakpEdWt1NUJCRHdNM19Fdw?oc=5
+  5. 【YOUTRUST × RIZAP】 鍛え上げるのは、「揺るぎない自信」。 「人間性」がビジネスを左右する時代に、“自己統制力”がキャリアを切り拓く。 - 北海道新聞デジタル
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aZEJRZVdFcnpJNTg5bHRqczdlVTBRd3JrVTQyNXZRSXp5aWppcUMxdml0TVdLMUpMX2dZQ1hreWZScE5UbU5EcnVsOTg3M0dnNFJ4dmxnVU93QQ?oc=5
+  6. AIに「発見」されなければビジネスは始まらない アドビCEOが語った、AIエージェント活用3つの壁 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE8wdUstWDlsTm1ULVZlQWI0cFVfdVpJeExJQ1RpaE1SOW1pTTJGM3NtRmRtdUJHVHJURWt5OVJHODQ3QnRXNUd5Z0RPN0ZaaHNaSzJKMVdBSjN5Q1dCbE03OG5penZiN3ptOUdmZDhycmVIZw?oc=5
+  7. リユースビジネスで大躍進の力に、他社とは決定的に異なっていたセカンドストリートの「レジ」の秘密 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWRW9KNFBDZUI5MXRSMElQcVFiRW1Wal9RbFRyRUNfbDhnRUxjTnBCLUpoUGhZUFp6ajRua0FwWGhXVFgtODJwZGJUaWZoc1FUUzNnZFZ3?oc=5
+  8. ［クイズ］米企業が新卒採用を避ける理由は？ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uUE1ueFAySXJ3c00yaFJickJXcVU5bGViem5WQl92V000NEd6Q2FfcEZXdndudVB1RjdHTGdvNHFnaXdMUHhZemxQRkN0YzlLWUJPcmVKVUdyOXczanhGVjYtM2NJQk0?oc=5
+  9. あらゆる規模のビジネス向けの新しいオールインワンのプラットフォーム、Apple Businessが登場 - Apple
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE9uc1d4WkVBeEwybDVhWE1mcjgzQktJRHpaS01CdzRTTnY5b1lreWpBWkoxTDdnSUdCSFR0UWV0UjBrYVJaMzBER3hjLWcxX282VUpWeGVmbXlTN0NBd0s1ZUp3aW1YS3BJam43dUpBWlBqbzhQc01XeQ?oc=5
+  10. インターナショナル・ビジネス・マシーンズ【IBM】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DZmpnemJwYzAtUzZjWTNjY3FNMUN4cXA3czhBb1RCdjVzSnU2VkVLWWZ3VzNlYW8xWFQ4WG1kYlktN1dlbDhLRXB2bXpZZw?oc=5
+
+【Reddit / technology】
+  1. Maryland becomes first state to ban surveillance pricing in grocery stores
+     https://www.reddit.com/r/technology/comments/1sz41mb/maryland_becomes_first_state_to_ban_surveillance/
+  2. ‘The cost of compute is far beyond the costs of the employees’: Nvidia exec says right now AI is more expensive than paying human workers
+     https://www.reddit.com/r/technology/comments/1syv6qi/the_cost_of_compute_is_far_beyond_the_costs_of/
+  3. Sam Altman is “the face of evil” for not reporting school shooter, says lawyer
+     https://www.reddit.com/r/technology/comments/1sz00f2/sam_altman_is_the_face_of_evil_for_not_reporting/
+  4. Meta’s Reality Labs lost over $4 billion in first quarter / The Reality Labs unit has now accumulated over $80 billion in total operating losses since late 2020.
+     https://www.reddit.com/r/technology/comments/1szajmt/metas_reality_labs_lost_over_4_billion_in_first/
+  5. A federal agent said WhatsApp's encryption is a lie. Then the investigation was shut down
+     https://www.reddit.com/r/technology/comments/1sz7iuo/a_federal_agent_said_whatsapps_encryption_is_a/
+  6. ‘Dead and depressing’: Meta staff vent about AI and layoffs on Blind
+     https://www.reddit.com/r/technology/comments/1sz5zg7/dead_and_depressing_meta_staff_vent_about_ai_and/
+  7. China's new iron battery hits 99.4 percent efficiency over 6000 cycles
+     https://www.reddit.com/r/technology/comments/1syvehk/chinas_new_iron_battery_hits_994_percent/
+  8. Snap's Evan Spiegel warns tech leaders are underestimating a coming backlash against AI
+     https://www.reddit.com/r/technology/comments/1syrlee/snaps_evan_spiegel_warns_tech_leaders_are/
+  9. The U.S. Wants to Ban China’s High-Tech Cars, but They’re Already Here in El Paso
+     https://www.reddit.com/r/technology/comments/1syunqf/the_us_wants_to_ban_chinas_hightech_cars_but/
+  10. ABC can beat U.S President FCC's license threat if owner Disney is willing to fight | Broadcast license renewals are “all but automatic” due to 1996 change in US law.
+     https://www.reddit.com/r/technology/comments/1szf0gr/abc_can_beat_us_president_fccs_license_threat_if/
+
+【Reddit / business】
+  1. Exclusive: Goldman Sachs stops bankers using Anthropic’s Claude in Hong Kong
+     https://www.reddit.com/r/business/comments/1sz821j/exclusive_goldman_sachs_stops_bankers_using/
+  2. Kalshi fined 3 congressional candidates for “insider trading.” Meanwhile, sitting politicians can still trade. Should businesses have different rules for different people?
+     https://www.reddit.com/r/business/comments/1sz1ais/kalshi_fined_3_congressional_candidates_for/
+  3. Market slumps as OpenAI reportedly misses internal targets for active users and revenue — Nvidia, Oracle, AMD, and CoreWeave shares all tremble on the news
+     https://www.reddit.com/r/business/comments/1syh9t4/market_slumps_as_openai_reportedly_misses/
+  4. Meta’s Reality Labs lost over $4 billion, while bringing in $402 million, in first quarter of 2026
+     https://www.reddit.com/r/business/comments/1szesca/metas_reality_labs_lost_over_4_billion_while/
+  5. Domino’s says sales are dropping. Did fast food just get too expensive, or did something else change?
+     https://www.reddit.com/r/business/comments/1sy3im2/dominos_says_sales_are_dropping_did_fast_food/
+  6. Unilever buys totally unproven, very popular Gruns gummy supplement company - good idea?
+     https://www.reddit.com/r/business/comments/1syum7w/unilever_buys_totally_unproven_very_popular_gruns/
+  7. PayPal's new CEO Enrique Lores makes Venmo a standalone business unit as potential buyers circle
+     https://www.reddit.com/r/business/comments/1sz8hun/paypals_new_ceo_enrique_lores_makes_venmo_a/
+  8. Uber moves toward becoming an ‘everything app’ with hotel bookings powered by Expedia
+     https://www.reddit.com/r/business/comments/1sz4ukx/uber_moves_toward_becoming_an_everything_app_with/
+  9. Quick tip: If you want to succeed in business, start where demand already exists
+     https://www.reddit.com/r/business/comments/1sz2bqb/quick_tip_if_you_want_to_succeed_in_business/
+  10. Amadeus to buy French biometrics firm Idemia Public Security for $1.4 billion
+     https://www.reddit.com/r/business/comments/1syvpwq/amadeus_to_buy_french_biometrics_firm_idemia/

@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-04-28
+============================================================
+
+【Hacker News】
+  1. Ghostty is leaving GitHub
+     https://mitchellh.com/writing/ghostty-leaving-github
+  2. Before GitHub
+     https://lucumr.pocoo.org/2026/4/28/before-github/
+  3. OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs
+     https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/
+  4. Carrot Disclosure: Forgejo
+     https://dustri.org/b/carrot-disclosure-forgejo.html
+  5. Intel Arc Pro B70 Review
+     https://www.pugetsystems.com/labs/articles/intel-arc-pro-b70-review/
+  6. I won a championship that doesn't exist
+     https://ron.stoner.com/How_I_Won_a_Championship_That_Doesnt_Exist/
+  7. Behavioral timescale synaptic plasticity rewires the brain after an experience
+     https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/
+  8. CJIT: C, Just in Time
+     https://dyne.org/cjit/
+  9. GitHub RCE Vulnerability: CVE-2026-3854 Breakdown
+     https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854
+  10. Your phone is about to stop being yours
+     https://keepandroidopen.org/en/
+
+【Zenn】
+  1. Hono公式の Inertia アダプタが来た！Hono × Inertia × React によるSPA新体験
+     https://zenn.dev/ashunar0/articles/cc351badf8681c
+  2. 97%のPermission確認を自動化するCoding Agent用OSS「ccgate」が誕生した
+     https://zenn.dev/layerx/articles/20260428-ccgate
+  3. 大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
+     https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
+  4. AIエージェントを安全に動かすための技術——サンドボックスについて調べてみる
+     https://zenn.dev/layerx/articles/a99cd11af487fc
+  5. AIに会社のGoogleアカウントを渡していませんか
+     https://zenn.dev/finatext/articles/mcp-gateway-google-sa
+  6. Claude Codeのルーチン機能で定期的にパフォーマンスチューニングをさせている
+     https://zenn.dev/yamadashy/articles/claude-code-routines-perf-tuning
+  7. ベクトルを使わないRAG。全てのナレッジを階層化する手法
+     https://zenn.dev/knowledgesense/articles/7dddae04a7d828
+  8. 40%キーボードに移行する前に知っておきたかったこと
+     https://zenn.dev/bilzard/articles/b924d7995b28bc
+  9. 非エンジニアの「作りたい」と「安全に公開したい」を両立する Sandbox MCP を作った
+     https://zenn.dev/aircloset/articles/65efe9614f8e73
+  10. Hono × Inertia.js が作る新しい型貫通体験に触れてみた
+     https://zenn.dev/ashunar0/articles/d4a23d3579331a
+
+【Qiita】
+  1. 【初学者向け】「どう並べて、どう取り出すか」で変わる - データ構造の基礎
+     https://qiita.com/masa20057/items/3df8598b3ebaf1eb6888?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【後編】9割の新人エンジニアがやっている 「承知しました」の落とし穴
+     https://qiita.com/hitomin_poke/items/018678abdb0267983fc3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. API Gateway → Lambda の間で何が行われているかを易しく解説
+     https://qiita.com/hosomatu/items/afdd509365a770598fc4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. GWも勉強したい方向けに、よくオススメされる技術書をカテゴリ別にまとめてみた
+     https://qiita.com/miruky/items/c2df4f23d73a8e05f37f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 新人エンジニアこそ「個人開発」をやろう。完全無料で始めるCloudflareスタック入門
+     https://qiita.com/t0hara/items/8a669c6e0a76d9b1875d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. コードを1行も読ませずに、AIに脆弱性を100%特定させる方法（理論編）
+     https://qiita.com/harupython/items/ed256553d10578cfec2a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【35歳未経験でも理解できた】SQLのJOIN
+     https://qiita.com/wata-sho/items/b0b2bda52d6fc64f7522?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. n8nで毎朝「天気×ビタミンD日光時間」をDiscord通知するリマインダーを作ってみた
+     https://qiita.com/wan-code/items/7ae3b3ea5b2b4a59332d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. n8nでGoogleカレンダーから日報を自動生成してDiscordへ投稿する仕組みを作った
+     https://qiita.com/wan-code/items/1ba7e323398808fa74e2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. SEに必要な説明力
+     https://qiita.com/NSS_FS_ENG/items/017c466d2353e602d8ff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 医療現場に広がるAIツール、 誰の役に立っているのか - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWXU1eGRKanBOWUtqM0FrTldJNFo2NUg4bVJNQVhNek5RVjBFZG5STWo1TWJZMWo4VDRaZFNPNU9xWFNGWFNVUFcwRm53c0FBOE1rYWpPUEhXWGwxekZkNFhEdkVTUGJHSzloR3ZKNnNJNmRjS3QwNldzbmttam16OGFKT2QxX3FjR1BTNHRGVHpnSnBtd25DWE5CRy00TURPVWtNRWFZUXRfcUE?oc=5
+  2. テクノロジーの進化は、基板と素材なしには成り立たない。太陽HDが支える“見えない中核” - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxON1dlZGNKeEdrcGRKQWNYcmJjYzFFc1RxUDNUZnpMZG5JTlAwZWVhU0xkdWI2cXFXVHczYnRNU1pCdldnbVZLTXNHZUhGOXpVaV91RE42VS0zazJrS1lHTzVTSU1Xd0xiV3ZpTlNzTk1GdG9hUGV3U0RJN2Vyd3FJSEpjUnl6NVZ5TEU4?oc=5
+  3. 構えやすい「HIDE ORANGE Technology」搭載！ プロファウンドパターの新モデル「Model B」発売 - ゴルフのニュース
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1vQ2VMaTdBYVVqYm90NWFBUHpKMUg5eFhwemxqTktsMUtsZkV6ZWJNNlVWcElwTnZlZkhiNG1DOXJ0a2M?oc=5
+  4. 科学技術と社会の未来を考える「サイエンスアゴラ連携企画」募集…JST - リセマム
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xWUNJMXBERGJDQXhDcm1MaHpocVFZcDRwUlliXzdvQTZOZHpXR2FKMnVOUTFWVmNPZVM2M2JVNzlUdWpBbDlya3kzTW41SjAwWlFKWGprQVJjMWRLR1VyclZqQ0pXUQ?oc=5
+  5. TSMCがA14発展版となる「A13」と「A12」プロセスを発表、2029年より量産開始を予定 | TECH+（テックプラス） - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nM1RBUWFrZEplVWRvU09lUUJUMEN4elRrWW4zWVFfc0VBbm91TFZKNkloaHBVMERMMllIaUtuRVdZbzRJNGhzNklWYVRaMkhMOFpyYVY4djdLbGFlMW1UMXJEVmxYc3lE?oc=5
+  6. 米陸軍の砲弾増産計画が破綻した原因、新しい砲弾殻生産技術の強行導入 - 航空万能論GF
+     https://news.google.com/rss/articles/CBMikAJBVV95cUxQamYyZ0FqdVRUZndzM1VGaVJFSEVlbGV6S3ZIYTZwejJTX2g3TC0zV2EtYUZXenNQT0h2alozUjFCMHdyd0ZUb2wzNXJhUjRKbkU1QzhMSHRnU0l5V19Lc1JRUHkzRE9jaEhLZ2RDZFNfVjJWbWx4T0JZV2hiTlNzOG9uQWNiR2VDZ0VOTEJjQzBaSm4tOHlnc19yLUF4R18wN3g2czh5NFktVlpjWXFqMEVlQUFmWEM0OXcwcV9UVnFNa21majBaMFhVYVc1RWhjVldwTjN5WFhvTUtHbF9NN0RQOEg4TFMwS1NJTEx2emNiRU02YkROWE1HamdZV0owNmhGR0lMc2RYREV2ZUhzZg?oc=5
+  7. エージェント・オーケストレーション： 知識労働時代の組み立てライン - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMibkFVX3lxTFBNNWFJTFg3dlo4UUVQZHBVV0xnVjlaX2kwZGh4N1prRm1OcXlGc240SU9XWDMtNUdqeEttdzc4bVFNUWU1Vnh1VTJsX0g0clFHVkJJQURYc1VqeXJtYlBqdW9QUlQzaGFKSWxuUElB?oc=5
+  8. U-BX Technologyが455万ドルの登録直接募集を完了 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE55eU5Ka0M1N3N0R0wzd0RYZW8wdmJ6M0habkFlT2w1ZF8xVXB6VjZNbjc1dTF5OHZCaVk5RS1pU0Y1cjRuTmxFbzM3cUtLeERMS0VLSGpwRXhtejFEWG0yNXJUdUd1RW1jSkM3bjIwYkI?oc=5
+  9. 貨物輸送の未来 - 欧州物流業界のエグゼクティブ・ブリーフ - Deloitte
+     https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOE50aGtRbnJfQmlmMWhtVE1wMDkzd251YkVnT2ZNNjNSMnZBMDh4ODFPRGs4VmNNeGxic3RUMDNETktreEJGYVhTTEdBVS1pOVdwTDZhNjkxRURSVy1CWnBSdmxibnhwTUVjeUpEQVlyaFVjM3lMb1FsVVZmSVJYemxQa3lJNVNWY2pnVzZnR0tNSFRrQUV0SEhrZGRqaVlBVUFUV0daVzdXVF8zX1ZGb1FMLWhwN21t?oc=5
+  10. 4月28日のSeagate Technology Holdings PLC (STX) 値動きは3.56%下落：値動きの背後にある事実 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQNTlrazN4bmY4dUNyTU5HdGFxY0k5RkRROGQzNHRLWC1rbnVWbVo3MlItOW94cWtTR0YwRFFQVlVTWVhnMTBLSnVwaS01LUxteVl4SGkwZmdadTNVMEVGck5kZkFmLXRxcnhLakdfeFR3X2tIMU9FZURvOWNBR2pUWnJOME9PeHcxUlRkZHlR?oc=5
+
+【Google News (Business)】
+  1. 大胆な未来を描きバックキャストでビジネスに結び付ける 大企業も注目する「SF思考」とは？ - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TQ0E3Z0tNWndGNW5UcHJQX2p2Um5fb0VCRHIwemF3N3l3NE96VFJQTmxSbU1DYmNIdWZRNlFFSWlzRlpibzVEaGJZNWpkZXpBZDVzeFZn?oc=5
+  2. 元ソニーCTOの北野教授は「私たちは科学が得意なのだろうか」と問いかけた。“AIドリブン科学”時代に日本で起こること - Business Insider Japan
+     https://news.google.com/rss/articles/CBMimAFBVV95cUxPakRTaVl5N2I2M19oMFR0R2ViSEhuR1hOb1BvWURoZGV0SG9LS0ZyX0pDdXdyZURyZjJrZkUtNU9LejNYMDA4TkMwUFlFZ0xaQmRDZkd0aElMMmVGRVg0STBxRGlFWkFnWmtpM21iZzlsWWV0M0FJZmtVUGtQVzJvN1lOTkFGUXV6M2FoMVVBSk91b3JwdjFwcA?oc=5
+  3. トップコスプレイヤーえなこと元アイドル社長、コスプレビジネス化の10年戦略 - 日経クロストレンド
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSX0xlUjhhTnVPZUlMdlhFMlBsN1FiUGVpN3RfQW5xSkFYS3pud2R6WUhZbV90NTNtRUZaajc0dlJRamxXM1FYTVhzaGtTeVFfTTNDVVRDakpEdWt1NUJCRHdNM19Fdw?oc=5
+  4. ＶＰＪ Research Memo（4）：契約件数の増加とともにストック収益が積み上がる安定したビジネスモデル - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxNTFk2b0dfeUFnN1BsMXJHTnlxanZRakFaQzVDbkcxQ0UyVU1GN25qNWppdTJybFoxeW91NktYV3hPMUlNY29DMDViZDBFbzhBMUFmbFRvWFRYaGY1ZlRCWUNINmU1YnVqdlhwTG9VNzY2LUtjQU9BWlRZVDVJUDhqSEdvSHIzSFXSAYwBQVVfeXFMTUh2OEdwMnZ0UWtESk54YTY4VU5FYmhOUG9DaW5fTUp1cjktUnFtbktVR1owSDh0akNzZXZ0R3FHR3VsNVVZTUZzZzhPYURaLUNPUldYOGt6RXl1YmlTOHpha0UxOWg3WDlrTVBELUdOeGlxQ3kwejBZU2Z4cmdTZ2JYSzVrZnFXVWpJNHc?oc=5
+  5. 【YOUTRUST × RIZAP】 鍛え上げるのは、「揺るぎない自信」。 「人間性」がビジネスを左右する時代に、“自己統制力”がキャリアを切り拓く。 - 北海道新聞デジタル
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aZEJRZVdFcnpJNTg5bHRqczdlVTBRd3JrVTQyNXZRSXp5aWppcUMxdml0TVdLMUpMX2dZQ1hreWZScE5UbU5EcnVsOTg3M0dnNFJ4dmxnVU93QQ?oc=5
+  6. 《非会員CRMが変えるファッションビジネス③》 毎月数億円に及ぶ機会ロス - 繊研新聞
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MQ0JGcncwUkJMUzY3YWdiUG1sYmQ5MXVfYmNuaTV3N3pUWGJwSzhSZWV2bFdpZlR2Mzd0TTBYMlhXbFNVLXhEZllYbHgyUQ?oc=5
+  7. AIに「発見」されなければビジネスは始まらない アドビCEOが語った、AIエージェント活用3つの壁 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE8wdUstWDlsTm1ULVZlQWI0cFVfdVpJeExJQ1RpaE1SOW1pTTJGM3NtRmRtdUJHVHJURWt5OVJHODQ3QnRXNUd5Z0RPN0ZaaHNaSzJKMVdBSjN5Q1dCbE03OG5penZiN3ptOUdmZDhycmVIZw?oc=5
+  8. はてな、虚偽の送金指示で11億円詐取被害 ビジネスメール詐欺か - ツギノジダイ
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE55a1VjcjQwd0dxa3V5WXNYV3pLY1JxcTZ0NXJ5d3dmNGwtaFM3N1A2WWNmTjJOdmE4X2lfQll4Vkt5ampRMkVHRFhYMDRseGZOc3c?oc=5
+  9. 講談社が進める「出版社ビジネスの棚卸し」、ファンコミュニティ起点で2Cと2Bを再構築 - media-innovation.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9vUExIeHIzNGc5bHRxOWNEb3BLN1JOUF9zR0JLRUtJU1BrTThXOUpGWUEwV1B0eDg0Ni11cVNXYi1HSHgxa0t1Zzc0QWhpdXU5RHhCZ1ItRFc4Yy0weVJQdzcxbUJ3aExtTXc?oc=5
+  10. ［クイズ］米企業が新卒採用を避ける理由は？ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uUE1ueFAySXJ3c00yaFJickJXcVU5bGViem5WQl92V000NEd6Q2FfcEZXdndudVB1RjdHTGdvNHFnaXdMUHhZemxQRkN0YzlLWUJPcmVKVUdyOXczanhGVjYtM2NJQk0?oc=5
+
+【Reddit / technology】
+  1. ‘Gone in 9 seconds’: Claude-powered AI agent deletes startup’s entire database
+     https://www.reddit.com/r/technology/comments/1sya6jy/gone_in_9_seconds_claudepowered_ai_agent_deletes/
+  2. FCC orders review of ABC licenses after Kimmel joke offends U.S President and first lady | Kimmel joke calling Melania an “expectant widow” followed quickly by FCC order.
+     https://www.reddit.com/r/technology/comments/1sydqbp/fcc_orders_review_of_abc_licenses_after_kimmel/
+  3. Market slumps as OpenAI reportedly misses internal targets for active users and revenue
+     https://www.reddit.com/r/technology/comments/1sy9kav/market_slumps_as_openai_reportedly_misses/
+  4. Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area — four out of the seven town council members have resigned from their positions as town fights back
+     https://www.reddit.com/r/technology/comments/1sy190x/six_ai_data_centers_proposed_for_a_small_town_of/
+  5. Denuvo has been cracked in all single-player games it previously protected — 2K Games and Denuvo reportedly retaliate with mandatory 14-day online checks
+     https://www.reddit.com/r/technology/comments/1syc2jm/denuvo_has_been_cracked_in_all_singleplayer_games/
+  6. New AI data center in Utah will generate and consume more than twice the amount of power the entire state uses — Kevin O'Leary's 9 Gigawatt Utah data center campus approved
+     https://www.reddit.com/r/technology/comments/1sxud96/new_ai_data_center_in_utah_will_generate_and/
+  7. John Oliver on AI chatbots: ‘Behind that machine is a corporation trying to extract a monthly fee from you’ - The Last Week Tonight host dug into the many issues with AI chatbots released on the public without proper safety guardrails, from sycophancy to sexualizing children
+     https://www.reddit.com/r/technology/comments/1sy8mxo/john_oliver_on_ai_chatbots_behind_that_machine_is/
+  8. The Downgrading of the American Tech Worker
+     https://www.reddit.com/r/technology/comments/1syc9e9/the_downgrading_of_the_american_tech_worker/
+  9. Microsoft's GitHub shifts to metered AI billing amid cost crisis -- The all-you-can-eat AI buffet is coming to an end
+     https://www.reddit.com/r/technology/comments/1sy0xjd/microsofts_github_shifts_to_metered_ai_billing/
+  10. One Disney employee calls Claude 51,000 times a day. Internal docs reveal how the Mouse House uses AI.
+     https://www.reddit.com/r/technology/comments/1sxu24v/one_disney_employee_calls_claude_51000_times_a/
+
+【Reddit / business】
+  1. Domino’s says sales are dropping. Did fast food just get too expensive, or did something else change?
+     https://www.reddit.com/r/business/comments/1sy3im2/dominos_says_sales_are_dropping_did_fast_food/
+  2. Paramount-Warner Bros. Discovery Will Be 38.5% Owned by Middle Eastern Funds Following Close: Filing
+     https://www.reddit.com/r/business/comments/1sxs7hd/paramountwarner_bros_discovery_will_be_385_owned/
+  3. Market slumps as OpenAI reportedly misses internal targets for active users and revenue — Nvidia, Oracle, AMD, and CoreWeave shares all tremble on the news
+     https://www.reddit.com/r/business/comments/1syh9t4/market_slumps_as_openai_reportedly_misses/
+  4. Domino's Pizza stock falls on reported disappointing U.S. same-store sales and lowered its full-year forecast — and CEO Russell Weiner thinks more chains will follow
+     https://www.reddit.com/r/business/comments/1sxizwv/dominos_pizza_stock_falls_on_reported/
+  5. Locked, stocked, and losing budget: AI vendor lock-in bites
+     https://www.reddit.com/r/business/comments/1syb2n1/locked_stocked_and_losing_budget_ai_vendor_lockin/
+  6. Coca-Cola tops estimates, raises earnings outlook as global beverage demand rises
+     https://www.reddit.com/r/business/comments/1sxzjze/cocacola_tops_estimates_raises_earnings_outlook/
+  7. "Wrong people kill more projects than bad products" so i have questions
+     https://www.reddit.com/r/business/comments/1syepw1/wrong_people_kill_more_projects_than_bad_products/
+  8. Hopelessness
+     https://www.reddit.com/r/business/comments/1sxzheg/hopelessness/
+  9. Profluent, Lilly partner in genetic medicine deal worth up to $2.25 billion
+     https://www.reddit.com/r/business/comments/1sxzc6p/profluent_lilly_partner_in_genetic_medicine_deal/
+  10. GitHub Copilot shifts to usage-based pricing June 1 - why that's no surprise
+     https://www.reddit.com/r/business/comments/1sxfzn0/github_copilot_shifts_to_usagebased_pricing_june/
