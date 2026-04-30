@@ -25,7 +25,8 @@ jobs:
       - name: 週間まとめを生成
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SUMMARIZE_API: claude
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: python weekly_summary.py
 
       - name: 出力ファイルをコミット
