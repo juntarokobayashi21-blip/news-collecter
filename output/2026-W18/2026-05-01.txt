@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-01
+============================================================
+
+【Hacker News】
+  1. How Mark Klein told the EFF about Room 641A [book excerpt]
+     https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/
+  2. Opus 4.7 knows the real Kelsey
+     https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously
+  3. For Linux kernel vulnerabilities, there is no heads-up to distributions
+     https://www.openwall.com/lists/oss-security/2026/04/30/10
+  4. Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library
+     https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/
+  5. I Got Sick of Remembering Port Numbers
+     https://gregraiz.com/blog/local-vibe/
+  6. Can I disable all data collection from my vehicle?
+     https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle
+  7. Maladaptive Frugality
+     https://herbertlui.net/maladaptive-frugality/
+  8. CPanel and WHM Authentication Bypass – CVE-2026-41940
+     https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/
+  9. I built a Game Boy emulator in F#
+     https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/
+  10. Claude Code refuses requests or charges extra if your commits mention "OpenClaw"
+     https://twitter.com/theo/status/2049645973350363168
+
+【Zenn】
+  1. Linuxカーネルの脆弱性「CopyFail (CVE-2026-31431)」をEC2のUbuntu 22.04で実証してみた
+     https://zenn.dev/aeyesec/articles/7e4a1e3c83e81b
+  2. 全てを可視化する「全部入り走行データビューア」を実現するデータパイプラインとフロントエンド実装スタック
+     https://zenn.dev/turing_motors/articles/38d06cc13690bb
+  3. 宣言的スキーマ管理ツール pistachio を作成しました
+     https://zenn.dev/kanmu_dev/articles/16789ef1f4283a
+  4. Vimの知見共有もできて盛り上がる「Vimペアプロ」を社内勉強会でやってみた
+     https://zenn.dev/canary_techblog/articles/429cae3aaf06c7
+  5. 高品質音楽生成AI【ACE-Step-1.5】で「破綻の微修正」に特化した新機能を提案する【Retake】
+     https://zenn.dev/asap/articles/948526de2faa62
+  6. 【Claude Code】CLAUDE.md・skills・agents を整備して開発体験が劇的に変わった話
+     https://zenn.dev/linkedge/articles/27c38cdd9bedc6
+  7. 1m精度の標高データを使って、全国の前方後円墳を探してみた
+     https://zenn.dev/tasuku/articles/73bf8c7274208f
+  8. "array[i++] = null; は本当に GC を促進するのか — Node.js で実測して確かめる
+     https://zenn.dev/wakame_atsushi/articles/e9b754160d1469
+  9. UIの面倒、実はDBの問題だった ― Local-First と Instant が示す Web 開発の未来
+     https://zenn.dev/sc30gsw/articles/a39bd748caa861
+  10. Hono公式の Inertia アダプタが来た！Hono × Inertia × React によるSPA新体験
+     https://zenn.dev/ashunar0/articles/cc351badf8681c
+
+【Qiita】
+  1. 新人エンジニアこそ「個人開発」をやろう。完全無料で始めるCloudflareスタック入門
+     https://qiita.com/t0hara/items/8a669c6e0a76d9b1875d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【初学者向け】「なんとなくコード書く」を卒業するためのアルゴリズム入門
+     https://qiita.com/masa20057/items/b1a956add6ec342f31b5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【書評】Qiita貢献度1位の『技術記事を書く技術』は、エンジニアの机に置いてほしい
+     https://qiita.com/ssaita/items/091cb4ef066abfb1e06b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. なぜ深層学習は表形式データでツリーモデルに勝てないのか
+     https://qiita.com/KanNishida/items/4b3a0c02e58c3caa4e4b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【Claude Code入門】Skills 徹底解説 - 仕組みの解説からハンズオンまで
+     https://qiita.com/i-inose/items/14f212258dc350857a94?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AWS Security Agentで設計レビュー・コードレビュー・ペネトレーションテストを全部やってみた。リリース後の運用に繋げる
+     https://qiita.com/sh_fukatsu/items/104c8078532c272fb1f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. API Gateway → Lambda の間で何が行われているかを易しく解説
+     https://qiita.com/hosomatu/items/afdd509365a770598fc4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. GitHub神話の6日間 — ガバナンス、稼働率、セキュリティ、コストが同時に揺らいだ一週間
+     https://qiita.com/crowdy/items/c3e06c47b350ef230352?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【後編】9割の新人エンジニアがやっている 「承知しました」の落とし穴
+     https://qiita.com/hitomin_poke/items/018678abdb0267983fc3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 新卒をメンタリングするつもりが、逆にメンタルケアされていた2年目エンジニアの話
+     https://qiita.com/Rabbit_booK/items/e3b7ac45d5cc7699940f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 世界モデル：LLMが苦手な「現実」に挑む次世代AI の核心技術 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsMUhHN3Rhc1BUTEFHbTB1RFVVcVpVZ1IycmFpaHY3bE1aZ2xXdklhNVlVQmtUZXZtNnNCODBhUXUwMVVCUFNieXNONnI5Qml5bFZoUmFYemItSkZRcWU3OW5qTTA?oc=5
+  2. “Technology first”から“Issue first”へ－－マドリードで確認したデータスペースの転換 - NTT Data
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5oSnFjRVcwZTliVmtHenZIckkyeXZnNUpFQWRGdEVhVTZrRVhacmtaaVRDZWpPTTlrMjF1Vkc4ckNHLUhmQ2dvMFdCMHFSNEhVNkxpbEllYS1kSnZZMm4tQWdlNlE2T0lqSE9CTDVfTQ?oc=5
+  3. 科学技術の潮流（336）AI for Scienceの展望（5） - 日刊工業新聞
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YTDVNaUNMOXVzOXBXM3FNMngtU0NBcnhWZks5MXlHSzRoY2RjeW02RENRTmxZNXNsSGJUdnk0YUpLTXVmMVVVNklMWkZxRXpqWXJYUWdycXpEWEk?oc=5
+  4. eムック 『世界を変える10大技術［2026年版］』特集号 - ASCII.jp
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yemtUUEdnRXFjTjFueWN4c19YVmVQMUtLOC1YLXh3VVN2LTJPLXZtOGlyVTh1dDk0b0xrQ0tIeXR3dHRkMVQ2b3dWZXZiWmJLQnc4ZQ?oc=5
+  5. マイクロロケーション技術市場：2036年までに321.8億米ドル、CAGR 11.20％で成長 - アットプレス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uUE44MXZvTmljVURVaVdsM0N2YnVXYWFMU3BTRXk1R2N6T3hSTU1zSmw4QUZJel9NWEhBRGczbTZnRUlqRlRHaVNhQXk4VmM?oc=5
+  6. DXC、AI時代のマネージドサービスを再構築するDXC OASISを発表 - 上毛新聞電子版
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YZmNrajROMnFZdGoyRXlkdEZOUnpVZm84U1BkN0JMZW94MWcyLWk1T0hGcUFyTjZUdkU1RjdVMkY1OWpneTg0MzhjRW8xSG9PS0NQajVuUm4?oc=5
+  7. 構えやすい「HIDE ORANGE Technology」搭載！ プロファウンドパターの新モデル「Model B」発売 - ゴルフのニュース
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1vQ2VMaTdBYVVqYm90NWFBUHpKMUg5eFhwemxqTktsMUtsZkV6ZWJNNlVWcElwTnZlZkhiNG1DOXJ0a2M?oc=5
+  8. 科学技術と社会の未来を考える「サイエンスアゴラ連携企画」募集…JST - リセマム
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xWUNJMXBERGJDQXhDcm1MaHpocVFZcDRwUlliXzdvQTZOZHpXR2FKMnVOUTFWVmNPZVM2M2JVNzlUdWpBbDlya3kzTW41SjAwWlFKWGprQVJjMWRLR1VyclZqQ0pXUQ?oc=5
+  9. 核融合は本当に安くなるのか？ 楽観論に「待った」 をかける新研究 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2loak5jcUZYUjBBUk4xSEt5OEZiWktrbkRhNU91WkVFdEJyU2lLN3UtU3pqM3NvcWxsX1l1RnRrRkNvVHlMU1hCbEp6RnJqRWw1MlZkcjdqSW1abDhsOTBLX19RTVNZYk1zaWE3MWtFS0xyWHZoVEtNaUE4WTlSUkxldTREZ1pteno0aW5CNA?oc=5
+  10. 医療現場に広がるAIツール、 誰の役に立っているのか - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWXU1eGRKanBOWUtqM0FrTldJNFo2NUg4bVJNQVhNek5RVjBFZG5STWo1TWJZMWo4VDRaZFNPNU9xWFNGWFNVUFcwRm53c0FBOE1rYWpPUEhXWGwxekZkNFhEdkVTUGJHSzloR3ZKNnNJNmRjS3QwNldzbmttam16OGFKT2QxX3FjR1BTNHRGVHpnSnBtd25DWE5CRy00TURPVWtNRWFZUXRfcUE?oc=5
+
+【Google News (Business)】
+  1. 企業のビジネスはAI中心の自律型へシフト--ガートナー予測 - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBTSnBuZ29SV2VCc0xScVc3OE9WUzg0UWQtSjFJRk1qeVppWVVma3RnNzhybk5SRHcwcjBLcUhGV0F5MWJIc3l6Z2lHNmM2NlI0WEUyMWN6UFUxajVUN0lvUjRmSGd1d1FZc3Jvb3NBSU5qZFlfb04wdFRRZlJHOE0?oc=5
+  2. なぜ、ビジネスホテルは「寝る場所」→「癒しの空間」に進化した？ “ビジホ飲み”人気急上昇の背景（1/6 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE83eldDVTR4ck84eXlpWlFwWHNiejJPcm1pRzNicjN3NnZJZGEwR3ZQY0xzZXB1LXF3RFpWTG1TWlVZYy12LU1ZZ1A4TjNTNXVocEtmREVOTmp2N1ZrbzFqQnktTmNDcUZNMkVPUEUwb25pZw?oc=5
+  3. Amazonセールで「Microsoft Office Home & Business 2024」がセール - ケータイ Watch
+     https://news.google.com/rss/articles/CBMibkFVX3lxTE80cUZNWERUMW8xR1M1TXptWGk1Q09QaGtSVE83cHpsNGZDYzdiZXA3aEZ2MVlPR2l4ZnVyZGpjZm1RMjJqQWQwT1EyTGNBMXUxLXpFSHJSR1NxTTI4a0NyT2FZTUZsa1AtQkNzODNB?oc=5
+  4. 「たたき台」を作ってビジネス力を伸ばす 仕事の構造を知ってスキルアップする方法 - NIKKEIリスキリング
+     https://news.google.com/rss/articles/CBMickFVX3lxTE90WnR5Q3ZtV1ctcUpuRnJkV296VVhtMDNadV9LTWFoSnRySVlWakw2djNpeU5neU91VHhxZ0U0VUFjSHNkZ0dpcHBrcmZqMmdYbi0tUU5HeGMyNEx5aFNUWjVEcnFsazBlZmh4c19LWnlTdw?oc=5
+  5. AI名刺管理「CAMCARD BUSINESS 2.0」をリリース 新機能「AIインサイト」と「AI音声ノート」を搭載し、ビジネスの成約率向上と情報資産化を支援 - ASCII.jp
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE95UWRPYnhVMFE3TU9vQmpBQk5kZkJ0U2JFR0M0MS1Eb2EzNWVxQlM3OU9rd1hFblBUTG5salRCbmlkcmNBOU8zVkM2cDM1dWxrWEswTg?oc=5
+  6. CROSS Business Producersグループ、育休取得者を支える仲間を応援する「育休職場応援手当」の導入を開始 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE01SHNMNWZ6VkYwQ0lDOXZvbWNZZ2xhU25BNzJPdVY0UnF1cHJIMFIzbzYtNENqQ1NNOWVyY1VrcmhVYW1vQnJSakQwb1BwTGJRUWtYNDlacmRacHYtVEU4bWdPLUxYMjBCcUE?oc=5
+  7. NEXIが拓く輸出ビジネス（4）中堅・中小海外に導く 売掛金の回収不能に対応 - 日刊工業新聞
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fYzhSNEd5cnhzVXV5cnpCa0NSVS03LVdTU0NKT25xTGlxOHJsSl9TOHoyaVAybTNJREJSWGlvZ1Boa2pvUmtPMXR2Q2hWekoxcnF1MU1qZDNJTVU?oc=5
+  8. 講談社が進める「出版社ビジネスの棚卸し」、ファンコミュニティ起点で2Cと2Bを再構築 - media-innovation.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9vUExIeHIzNGc5bHRxOWNEb3BLN1JOUF9zR0JLRUtJU1BrTThXOUpGWUEwV1B0eDg0Ni11cVNXYi1HSHgxa0t1Zzc0QWhpdXU5RHhCZ1ItRFc4Yy0weVJQdzcxbUJ3aExtTXc?oc=5
+  9. 中国を訪れる韓国人が急増、ブームの背景に動画配信＝韓国ネット「多くはビジネス」 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3RTNnJBSUJxVzBTS3lEV3ZiaHZ1NEp1ZFQtVjVUdW90YjFBX3JCckFVWjh4SGJRMXFDZm5uMzNyZlRlLXVrRTBLSXc5Z1N6WTdiSU5QWnp1SXJWcmNaSVI0ZHZzQlBXVUpGWGVNM1FRUTJQTmRtMGREcEdZcGdRWFZPWmRsNUJhZ1HSAY8BQVVfeXFMTnk5ZEl4cHdpTjNJQjRiRDN3ZTloaFBzU1pNN2FrNl9sMWNWdl9oazREM2FLWWFEQ2NuN1ZDS2JGRzRveDZSV2NSMnByWGtCa1lVWXRRaWhtbUI4SzByTTJtQWpxaDBxTEp4dDdXRG1JbDgzNEc0SElNT21ZbEpHTnpaUC1mcFlBcm9JTm9WUjQ?oc=5
+  10. 軽さは超一流。セキュリティも鉄壁。それがビジネスノートPCの本当にあるべき姿 - ギズモード・ジャパン
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE9FNHFHeGEzb09LUnFjTzE4eERtMVBMaGkwLVRDcFpwWHh1dHRiSzNkZXpnbFdUd0ZfU01RQ1ZFRnRlb3NoY2RBdkxBR0VOZUN4dmxRdUowWDlXaFE4cnNBbjU2VF9mdE5rd0phbU94cUY?oc=5
+
+【Reddit / technology】
+  1. The New York Childrens Online Safety Act will ban anyone under 18 from chatting online.
+     https://www.reddit.com/r/technology/comments/1t0bqne/the_new_york_childrens_online_safety_act_will_ban/
+  2. Chinese Courts Rule Companies Cannot Fire Workers Simply to Replace Them With AI
+     https://www.reddit.com/r/technology/comments/1t01wsk/chinese_courts_rule_companies_cannot_fire_workers/
+  3. U.S. Senators Banned From Prediction Markets Trading
+     https://www.reddit.com/r/technology/comments/1t03cj3/us_senators_banned_from_prediction_markets_trading/
+  4. Mark Zuckerberg Says AI Costs Contributed To Layoffs Of 8,000 Staffers, Report Says
+     https://www.reddit.com/r/technology/comments/1t0chdh/mark_zuckerberg_says_ai_costs_contributed_to/
+  5. The more young people use AI, the more they hate it
+     https://www.reddit.com/r/technology/comments/1szusu6/the_more_young_people_use_ai_the_more_they_hate_it/
+  6. Meta lost 20 million users last quarter
+     https://www.reddit.com/r/technology/comments/1sztnuv/meta_lost_20_million_users_last_quarter/
+  7. Big Tech is about to spend $700 billion on AI this year. No one knows where the buildout ends.
+     https://www.reddit.com/r/technology/comments/1t08d76/big_tech_is_about_to_spend_700_billion_on_ai_this/
+  8. Bernie Sanders urges international cooperation to halt AI’s ‘runaway train’
+     https://www.reddit.com/r/technology/comments/1t0blzk/bernie_sanders_urges_international_cooperation_to/
+  9. Utah’s New Law Targeting VPNs Goes Into Effect Next Week
+     https://www.reddit.com/r/technology/comments/1t0crt3/utahs_new_law_targeting_vpns_goes_into_effect/
+  10. Reddit reports 69% jump in revenue, topping analyst estimates
+     https://www.reddit.com/r/technology/comments/1t08mm1/reddit_reports_69_jump_in_revenue_topping_analyst/
+
+【Reddit / business】
+  1. Reddit reports 69% jump in revenue, topping analyst estimates
+     https://www.reddit.com/r/business/comments/1t0b7ks/reddit_reports_69_jump_in_revenue_topping_analyst/
+  2. How Citi’s $52mn hire was forced out of JPMorgan over his behaviour
+     https://www.reddit.com/r/business/comments/1szydw8/how_citis_52mn_hire_was_forced_out_of_jpmorgan/
+  3. United Airlines CEO confirms he approached American Airlines about merger
+     https://www.reddit.com/r/business/comments/1t07rjm/united_airlines_ceo_confirms_he_approached/
+  4. Meta’s Reality Labs lost over $4 billion, while bringing in $402 million, in first quarter of 2026
+     https://www.reddit.com/r/business/comments/1szesca/metas_reality_labs_lost_over_4_billion_while/
+  5. Meta shares fall on concerns over AI spending, legal scrutiny
+     https://www.reddit.com/r/business/comments/1szstvw/meta_shares_fall_on_concerns_over_ai_spending/
+  6. Exclusive: Goldman Sachs stops bankers using Anthropic’s Claude in Hong Kong
+     https://www.reddit.com/r/business/comments/1sz821j/exclusive_goldman_sachs_stops_bankers_using/
+  7. "We're doing the work required to win back fans across Windows and Xbox": Microsoft CEO Satya Nadella says the company is making foundational changes to fix Windows 11 and Xbox
+     https://www.reddit.com/r/business/comments/1t01b8c/were_doing_the_work_required_to_win_back_fans/
+  8. Today I’ve decided to stop being a B2B contractor and risk all into agency
+     https://www.reddit.com/r/business/comments/1t05y2q/today_ive_decided_to_stop_being_a_b2b_contractor/
+  9. Appointment setting app or website
+     https://www.reddit.com/r/business/comments/1t02jbj/appointment_setting_app_or_website/
+  10. OpenAI has effectively abandoned first-party Stargate data centers in favor of more flexible deals — company now prefers to lease compute and says Stargate is an umbrella term
+     https://www.reddit.com/r/business/comments/1szkr5r/openai_has_effectively_abandoned_firstparty/
