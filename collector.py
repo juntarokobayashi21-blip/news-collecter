@@ -13,6 +13,10 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "")
 SUMMARIZE_API = os.environ.get("SUMMARIZE_API", "groq").lower()
+GITHUB_PAGES_BASE = os.environ.get(
+    "GITHUB_PAGES_BASE",
+    "https://juntarokobayashi21-blip.github.io/news-collecter/output"
+)
 
 SOURCES = {
     "Hacker News": "https://news.ycombinator.com/rss",
@@ -708,7 +712,7 @@ def send_discord_notify(results, summary=None, summary_error=None):
         return
     today = datetime.now().strftime("%Y-%m-%d")
     total = sum(len(entries) for entries in results.values())
-    url = f"https://juntarokobayashi21-blip.github.io/news-collecter/output/{today}.html"
+    url = f"{GITHUB_PAGES_BASE}/{today}.html"
     header = f"**【トレンドニュース】{today}**　合計 {total} 件\n{url}\n"
     if summary:
         message = header + "\n" + summary

@@ -10,6 +10,10 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "")
 SUMMARIZE_API = os.environ.get("SUMMARIZE_API", "groq").lower()
+GITHUB_PAGES_BASE = os.environ.get(
+    "GITHUB_PAGES_BASE",
+    "https://juntarokobayashi21-blip.github.io/news-collecter/output"
+)
 
 HEADERS = {
     "User-Agent": "news-collector/1.0"
@@ -141,32 +145,16 @@ def format_weekly_html(week_texts, summary=None):
     """週間まとめのHTMLを生成"""
     week_label = get_week_label()
 
-    # テキストをセクション化
-    sections_html = ""
+    # 日付カードをグリッド生成
+    daily_cards = ""
     for date_str, text in week_texts:
-        # テキストから見出し部分を取り出す
-        lines = text.split('\n')
-        articles_html = ""
-
-        for line in lines:
-            line = line.strip()
-            if not line or line.startswith('='):
-                continue
-            if line.startswith('【') and line.endswith('】'):
-                # セクションヘッダー
-                articles_html += f"<h3>{line}</h3>"
-            elif line and not line.startswith('  '):
-                # 記事の見出し
-                articles_html += f"<p>{line}</p>"
-
-        if articles_html:
-            sections_html += f"""
-        <section>
-            <h2>{date_str}</h2>
-            <div class="daily-content">
-                {articles_html}
-            </div>
-        </section>"""
+        article_count = len([line for line in text.split('\n') if line.strip() and not line.startswith('=') and not line.startswith('【')])
+        daily_cards += f'''
+        <div class="daily-card">
+            <h3>{date_str}</h3>
+            <p class="article-count">{article_count} 件</p>
+            <a href="{GITHUB_PAGES_BASE}/{date_str}.html" class="view-link">詳細レポート →</a>
+        </div>'''
 
     overall_html = ""
     if summary:
@@ -296,15 +284,70 @@ def format_weekly_html(week_texts, summary=None):
             font-size: 1.1rem;
         }}
 
-        .daily-content {{
-            padding-left: 1.5rem;
-            border-left: 4px solid var(--accent);
+        .daily-grid {{
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         }}
 
-        .daily-content p {{
-            margin: 0.8rem 0;
-            font-size: 0.95rem;
-            line-height: 1.6;
+        .daily-grid h2 {{
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }}
+
+        .grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }}
+
+        @media (max-width: 768px) {{
+            .grid {{
+                grid-template-columns: 1fr;
+            }}
+        }}
+
+        .daily-card {{
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }}
+
+        .daily-card:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }}
+
+        .daily-card h3 {{
+            margin: 0;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }}
+
+        .article-count {{
+            margin: 0;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }}
+
+        .view-link {{
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+            margin-top: auto;
+        }}
+
+        .view-link:hover {{
+            color: var(--success);
         }}
 
         footer {{
@@ -325,7 +368,12 @@ def format_weekly_html(week_texts, summary=None):
 
     <main>
         {overall_html}
-        {sections_html}
+        <section class="daily-grid">
+            <h2>毎日のニュース</h2>
+            <div class="grid">
+                {daily_cards}
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -355,7 +403,7 @@ def send_discord_notify(summary=None):
         return
 
     week_label = get_week_label()
-    url = f"https://juntarokobayashi21-blip.github.io/news-collecter/output/weekly-{week_label}.html"
+    url = f"{GITHUB_PAGES_BASE}/weekly-{week_label}.html"
     header = f"**【週間トレンドニュース】{week_label}**\n{url}\n"
 
     if summary:
