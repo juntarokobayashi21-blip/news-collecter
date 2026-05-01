@@ -29,13 +29,13 @@ SOURCES = {
 }
 
 SOURCE_BADGES = {
-    "Hacker News": ("Dev", "#ff6600"),
-    "Zenn": ("日本語Tech", "#3ea8ff"),
-    "Qiita": ("日本語Tech", "#55c500"),
-    "Google News (IT)": ("ニュース", "#4285f4"),
-    "Google News (Business)": ("ビジネス", "#0f9d58"),
-    "Reddit / technology": ("Community", "#ff4500"),
-    "Reddit / business": ("Community", "#ff4500"),
+    "Hacker News": ("Dev", "#ff6600", "🚀"),
+    "Zenn": ("日本語Tech", "#3ea8ff", "📚"),
+    "Qiita": ("日本語Tech", "#55c500", "✏️"),
+    "Google News (IT)": ("ニュース", "#4285f4", "📰"),
+    "Google News (Business)": ("ビジネス", "#0f9d58", "💼"),
+    "Reddit / technology": ("Community", "#ff4500", "💬"),
+    "Reddit / business": ("Community", "#ff4500", "💬"),
 }
 
 ITEMS_PER_SOURCE = 10
@@ -135,7 +135,7 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
 
     sections_html = ""
     for i, (name, entries) in enumerate(results.items()):
-        badge_name, badge_color = SOURCE_BADGES.get(name, ("その他", "#999"))
+        badge_name, badge_color, badge_icon = SOURCE_BADGES.get(name, ("その他", "#999", "📄"))
         article_cards = ""
 
         if entries:
@@ -149,10 +149,10 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
                         summary_text = f'<p class="article-summary">{parse_simple_markdown(summary)}</p>'
 
                 article_cards += f'''
-                <div class="article-card">
-                    <a href="{link}" target="_blank" class="article-title">{title}</a>
+                <a href="{link}" target="_blank" class="article-card">
+                    <span class="article-title">{title}</span>
                     {summary_text}
-                </div>'''
+                </a>'''
 
         section_summary = ""
         if name in source_summaries and source_summaries[name]:
@@ -162,7 +162,7 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
         <section id="{i}">
             <div class="section-header">
                 <h2>{name}</h2>
-                <span class="badge" style="background-color: {badge_color};">{badge_name}</span>
+                <span class="badge" style="background-color: {badge_color};">{badge_icon} {badge_name}</span>
             </div>
             {section_summary}
             <div class="articles-grid">
@@ -389,12 +389,15 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
         }}
 
         .article-card {{
+            display: block;
             background: var(--bg);
             border: 1px solid var(--border);
             border-radius: 8px;
             padding: 1.2rem;
             transition: all 0.3s ease;
             cursor: pointer;
+            text-decoration: none;
+            color: inherit;
         }}
 
         .article-card:hover {{
@@ -406,7 +409,6 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
         .article-title {{
             display: block;
             color: var(--accent);
-            text-decoration: none;
             font-weight: 600;
             font-size: 1rem;
             line-height: 1.4;
@@ -414,7 +416,7 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
             transition: color 0.2s ease;
         }}
 
-        .article-title:hover {{
+        .article-card:hover .article-title {{
             color: var(--success);
             text-decoration: underline;
         }}
