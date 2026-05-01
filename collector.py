@@ -490,7 +490,7 @@ def summarize_article_with_groq(title, retry=3):
                     "messages": [
                         {
                             "role": "system",
-                            "content": "記事のタイトルを読んで、1行（最大100文字）で簡潔に内容を要約してください。",
+                            "content": "記事のタイトルを読んで、1行（最大100文字）で簡潔に内容を要約してください。重要なキーワードやフレーズは **太文字** で強調してください。",
                         },
                         {
                             "role": "user",
@@ -536,7 +536,7 @@ def summarize_article_with_claude(title):
             messages=[
                 {
                     "role": "user",
-                    "content": f"記事のタイトルを読んで、1行（最大100文字）で簡潔に内容を要約してください。\n\n{title}",
+                    "content": f"記事のタイトルを読んで、1行（最大100文字）で簡潔に内容を要約してください。重要なキーワードやフレーズは **太文字** で強調してください。\n\n{title}",
                 }
             ],
         )
@@ -573,7 +573,7 @@ def summarize_source_with_groq(source_name, entries):
                 "messages": [
                     {
                         "role": "system",
-                        "content": "与えられたニュース記事のタイトル一覧から、2〜3行で簡潔に要約してください。",
+                        "content": "与えられたニュース記事のタイトル一覧から、2〜3行で簡潔に要約してください。重要なキーワードやフレーズは **太文字** で強調してください。",
                     },
                     {
                         "role": "user",
@@ -610,7 +610,7 @@ def summarize_source_with_claude(source_name, entries):
             messages=[
                 {
                     "role": "user",
-                    "content": f"「{source_name}」のニュース記事です。与えられたタイトル一覧から、2〜3行で簡潔に要約してください。\n\n{articles_text}",
+                    "content": f"「{source_name}」のニュース記事です。与えられたタイトル一覧から、2〜3行で簡潔に要約してください。重要なキーワードやフレーズは **太文字** で強調してください。\n\n{articles_text}",
                 }
             ],
         )
@@ -649,7 +649,7 @@ def summarize_overall_with_groq(results):
                 "messages": [
                     {
                         "role": "system",
-                        "content": "あなたはIT・ビジネスニュースのキュレーターです。収集したニュース記事のタイトル一覧から、今日の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。",
+                        "content": "あなたはIT・ビジネスニュースのキュレーターです。収集したニュース記事のタイトル一覧から、今日の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。重要なキーワードやフレーズは **太文字** で強調してください。",
                     },
                     {
                         "role": "user",
@@ -690,7 +690,7 @@ def summarize_overall_with_claude(results):
             messages=[
                 {
                     "role": "user",
-                    "content": f"あなたはIT・ビジネスニュースのキュレーターです。以下の記事タイトルから、{today}の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。重要なトレンドを3〜5点に絞って簡潔に要約してください。\n\n{articles_text}",
+                    "content": f"あなたはIT・ビジネスニュースのキュレーターです。以下の記事タイトルから、{today}の重要なトレンドを日本語で簡潔にまとめてください。Discord通知用に1500文字以内でまとめてください。重要なトレンドを3〜5点に絞って簡潔に要約してください。重要なキーワードやフレーズは **太文字** で強調してください。\n\n{articles_text}",
                 }
             ],
         )
