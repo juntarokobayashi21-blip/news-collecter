@@ -462,15 +462,18 @@ def format_html(results, source_summaries=None, article_summaries=None, overall_
 
 
 def save_output(text, html, source_summaries=None, article_summaries=None):
-    today = datetime.now().strftime("%Y-%m-%d")
-    output_dir = os.path.join(os.path.dirname(__file__), "output")
+    today = datetime.now()
+    date_str = today.strftime("%Y-%m-%d")
+    iso_year, iso_week, _ = today.isocalendar()
+    week_label = f"{iso_year}-W{iso_week:02d}"
+    output_dir = os.path.join(os.path.dirname(__file__), "output", week_label)
     os.makedirs(output_dir, exist_ok=True)
 
-    txt_path = os.path.join(output_dir, f"{today}.txt")
+    txt_path = os.path.join(output_dir, f"{date_str}.txt")
     with open(txt_path, "w", encoding="utf-8") as f:
         f.write(text)
 
-    html_path = os.path.join(output_dir, f"{today}.html")
+    html_path = os.path.join(output_dir, f"{date_str}.html")
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
 
@@ -712,10 +715,13 @@ def summarize_overall(results):
 def send_discord_notify(results, summary=None, summary_error=None):
     if not DISCORD_WEBHOOK_URL:
         return
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now()
+    date_str = today.strftime("%Y-%m-%d")
+    iso_year, iso_week, _ = today.isocalendar()
+    week_label = f"{iso_year}-W{iso_week:02d}"
     total = sum(len(entries) for entries in results.values())
-    url = f"{GITHUB_PAGES_BASE}/{today}.html"
-    header = f"**【トレンドニュース】{today}**　合計 {total} 件\n{url}\n"
+    url = f"{GITHUB_PAGES_BASE}/{week_label}/{date_str}.html"
+    header = f"**【トレンドニュース】{date_str}**　合計 {total} 件\n{url}\n"
     if summary:
         message = header + "\n" + summary
     else:

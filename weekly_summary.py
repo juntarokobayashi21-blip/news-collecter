@@ -32,7 +32,7 @@ def parse_simple_markdown(text):
 
 def collect_week_texts():
     """過去7日分の .txt ファイルを取得（存在しない日はスキップ）"""
-    output_dir = os.path.join(os.path.dirname(__file__), "output")
+    output_base = os.path.join(os.path.dirname(__file__), "output")
     week_texts = []
 
     # 実行日から過去7日を遡る
@@ -40,7 +40,9 @@ def collect_week_texts():
     for i in range(7, 0, -1):
         date = today - timedelta(days=i)
         date_str = date.strftime("%Y-%m-%d")
-        txt_path = os.path.join(output_dir, f"{date_str}.txt")
+        iso_year, iso_week, _ = date.isocalendar()
+        week_label = f"{iso_year}-W{iso_week:02d}"
+        txt_path = os.path.join(output_base, week_label, f"{date_str}.txt")
         if os.path.exists(txt_path):
             try:
                 with open(txt_path, "r", encoding="utf-8") as f:
@@ -149,11 +151,14 @@ def format_weekly_html(week_texts, summary=None):
     daily_cards = ""
     for date_str, text in week_texts:
         article_count = len([line for line in text.split('\n') if line.strip() and not line.startswith('=') and not line.startswith('【')])
+        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+        iso_year, iso_week, _ = date_obj.isocalendar()
+        date_week_label = f"{iso_year}-W{iso_week:02d}"
         daily_cards += f'''
         <div class="daily-card">
             <h3>{date_str}</h3>
             <p class="article-count">{article_count} 件</p>
-            <a href="{GITHUB_PAGES_BASE}/{date_str}.html" class="view-link">詳細レポート →</a>
+            <a href="{GITHUB_PAGES_BASE}/{date_week_label}/{date_str}.html" class="view-link">詳細レポート →</a>
         </div>'''
 
     overall_html = ""
@@ -385,10 +390,10 @@ def format_weekly_html(week_texts, summary=None):
 
 def save_weekly_output(html):
     """週間HTMLを保存"""
-    output_dir = os.path.join(os.path.dirname(__file__), "output")
+    week_label = get_week_label()
+    output_dir = os.path.join(os.path.dirname(__file__), "output", week_label)
     os.makedirs(output_dir, exist_ok=True)
 
-    week_label = get_week_label()
     html_path = os.path.join(output_dir, f"weekly-{week_label}.html")
 
     with open(html_path, "w", encoding="utf-8") as f:
@@ -403,7 +408,7 @@ def send_discord_notify(summary=None):
         return
 
     week_label = get_week_label()
-    url = f"{GITHUB_PAGES_BASE}/weekly-{week_label}.html"
+    url = f"{GITHUB_PAGES_BASE}/{week_label}/weekly-{week_label}.html"
     header = f"**【週間トレンドニュース】{week_label}**\n{url}\n"
 
     if summary:

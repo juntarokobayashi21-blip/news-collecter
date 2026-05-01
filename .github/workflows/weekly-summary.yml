@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/weekly-*.html
+          git add "output/*/weekly-*.html"
           git diff --staged --quiet || git commit -m "週間まとめ $(python -c 'from datetime import datetime; iso_year, iso_week, _ = datetime.now().isocalendar(); print(f\"{iso_year}-W{iso_week:02d}\")')"
           git push
