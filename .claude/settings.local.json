@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(schedule)",
+      "Skill(schedule:*)",
+      "WebFetch(domain:gist.github.com)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "WebFetch(domain:b.hatena.ne.jp)",
+      "WebFetch(domain:news.ycombinator.com)",
+      "WebFetch(domain:zenn.dev)",
+      "WebFetch(domain:qiita.com)",
+      "WebFetch(domain:news.google.com)",
+      "WebFetch(domain:discord.com)",
+      "Bash(curl -s -H \"User-Agent: news-collector/1.0\" \"https://www.reddit.com/r/artificial+MachineLearning+netsec+selfhosted+SideProject+ExperiencedDevs+cscareerquestions+webdev+technology/.json\")",
+      "Bash(python weekly_summary.py)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(python3)"
+    ]
+  }
+}

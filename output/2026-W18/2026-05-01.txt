@@ -3,26 +3,26 @@
 ============================================================
 
 【Hacker News】
-  1. How Mark Klein told the EFF about Room 641A [book excerpt]
+  1. Show HN: Winpodx – run Windows apps on Linux as native windows
+     https://github.com/kernalix7/winpodx
+  2. How Mark Klein told the EFF about Room 641A [book excerpt]
      https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/
-  2. Opus 4.7 knows the real Kelsey
+  3. Opus 4.7 knows the real Kelsey
      https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously
-  3. For Linux kernel vulnerabilities, there is no heads-up to distributions
+  4. For Linux kernel vulnerabilities, there is no heads-up to distributions
      https://www.openwall.com/lists/oss-security/2026/04/30/10
-  4. Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library
+  5. Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library
      https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/
-  5. I Got Sick of Remembering Port Numbers
-     https://gregraiz.com/blog/local-vibe/
   6. Can I disable all data collection from my vehicle?
      https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle
-  7. Maladaptive Frugality
+  7. OpenWarp
+     https://openwarp.zerx.dev
+  8. Maladaptive Frugality
      https://herbertlui.net/maladaptive-frugality/
-  8. CPanel and WHM Authentication Bypass – CVE-2026-41940
+  9. I Got Sick of Remembering Port Numbers
+     https://gregraiz.com/blog/local-vibe/
+  10. CPanel and WHM Authentication Bypass – CVE-2026-41940
      https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/
-  9. I built a Game Boy emulator in F#
-     https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/
-  10. Claude Code refuses requests or charges extra if your commits mention "OpenClaw"
-     https://twitter.com/theo/status/2049645973350363168
 
 【Zenn】
   1. Linuxカーネルの脆弱性「CopyFail (CVE-2026-31431)」をEC2のUbuntu 22.04で実証してみた
@@ -97,20 +97,20 @@
      https://news.google.com/rss/articles/CBMickFVX3lxTE83eldDVTR4ck84eXlpWlFwWHNiejJPcm1pRzNicjN3NnZJZGEwR3ZQY0xzZXB1LXF3RFpWTG1TWlVZYy12LU1ZZ1A4TjNTNXVocEtmREVOTmp2N1ZrbzFqQnktTmNDcUZNMkVPUEUwb25pZw?oc=5
   3. Amazonセールで「Microsoft Office Home & Business 2024」がセール - ケータイ Watch
      https://news.google.com/rss/articles/CBMibkFVX3lxTE80cUZNWERUMW8xR1M1TXptWGk1Q09QaGtSVE83cHpsNGZDYzdiZXA3aEZ2MVlPR2l4ZnVyZGpjZm1RMjJqQWQwT1EyTGNBMXUxLXpFSHJSR1NxTTI4a0NyT2FZTUZsa1AtQkNzODNB?oc=5
-  4. 「たたき台」を作ってビジネス力を伸ばす 仕事の構造を知ってスキルアップする方法 - NIKKEIリスキリング
-     https://news.google.com/rss/articles/CBMickFVX3lxTE90WnR5Q3ZtV1ctcUpuRnJkV296VVhtMDNadV9LTWFoSnRySVlWakw2djNpeU5neU91VHhxZ0U0VUFjSHNkZ0dpcHBrcmZqMmdYbi0tUU5HeGMyNEx5aFNUWjVEcnFsazBlZmh4c19LWnlTdw?oc=5
-  5. AI名刺管理「CAMCARD BUSINESS 2.0」をリリース 新機能「AIインサイト」と「AI音声ノート」を搭載し、ビジネスの成約率向上と情報資産化を支援 - ASCII.jp
+  4. AI名刺管理「CAMCARD BUSINESS 2.0」をリリース 新機能「AIインサイト」と「AI音声ノート」を搭載し、ビジネスの成約率向上と情報資産化を支援 - ASCII.jp
      https://news.google.com/rss/articles/CBMiVEFVX3lxTE95UWRPYnhVMFE3TU9vQmpBQk5kZkJ0U2JFR0M0MS1Eb2EzNWVxQlM3OU9rd1hFblBUTG5salRCbmlkcmNBOU8zVkM2cDM1dWxrWEswTg?oc=5
+  5. 「たたき台」を作ってビジネス力を伸ばす 仕事の構造を知ってスキルアップする方法 - NIKKEIリスキリング
+     https://news.google.com/rss/articles/CBMickFVX3lxTE90WnR5Q3ZtV1ctcUpuRnJkV296VVhtMDNadV9LTWFoSnRySVlWakw2djNpeU5neU91VHhxZ0U0VUFjSHNkZ0dpcHBrcmZqMmdYbi0tUU5HeGMyNEx5aFNUWjVEcnFsazBlZmh4c19LWnlTdw?oc=5
   6. CROSS Business Producersグループ、育休取得者を支える仲間を応援する「育休職場応援手当」の導入を開始 - PR TIMES
      https://news.google.com/rss/articles/CBMiakFVX3lxTE01SHNMNWZ6VkYwQ0lDOXZvbWNZZ2xhU25BNzJPdVY0UnF1cHJIMFIzbzYtNENqQ1NNOWVyY1VrcmhVYW1vQnJSakQwb1BwTGJRUWtYNDlacmRacHYtVEU4bWdPLUxYMjBCcUE?oc=5
   7. NEXIが拓く輸出ビジネス（4）中堅・中小海外に導く 売掛金の回収不能に対応 - 日刊工業新聞
      https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fYzhSNEd5cnhzVXV5cnpCa0NSVS03LVdTU0NKT25xTGlxOHJsSl9TOHoyaVAybTNJREJSWGlvZ1Boa2pvUmtPMXR2Q2hWekoxcnF1MU1qZDNJTVU?oc=5
   8. 講談社が進める「出版社ビジネスの棚卸し」、ファンコミュニティ起点で2Cと2Bを再構築 - media-innovation.jp
      https://news.google.com/rss/articles/CBMiakFVX3lxTE9vUExIeHIzNGc5bHRxOWNEb3BLN1JOUF9zR0JLRUtJU1BrTThXOUpGWUEwV1B0eDg0Ni11cVNXYi1HSHgxa0t1Zzc0QWhpdXU5RHhCZ1ItRFc4Yy0weVJQdzcxbUJ3aExtTXc?oc=5
-  9. 中国を訪れる韓国人が急増、ブームの背景に動画配信＝韓国ネット「多くはビジネス」 - ｄメニューニュース
-     https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3RTNnJBSUJxVzBTS3lEV3ZiaHZ1NEp1ZFQtVjVUdW90YjFBX3JCckFVWjh4SGJRMXFDZm5uMzNyZlRlLXVrRTBLSXc5Z1N6WTdiSU5QWnp1SXJWcmNaSVI0ZHZzQlBXVUpGWGVNM1FRUTJQTmRtMGREcEdZcGdRWFZPWmRsNUJhZ1HSAY8BQVVfeXFMTnk5ZEl4cHdpTjNJQjRiRDN3ZTloaFBzU1pNN2FrNl9sMWNWdl9oazREM2FLWWFEQ2NuN1ZDS2JGRzRveDZSV2NSMnByWGtCa1lVWXRRaWhtbUI4SzByTTJtQWpxaDBxTEp4dDdXRG1JbDgzNEc0SElNT21ZbEpHTnpaUC1mcFlBcm9JTm9WUjQ?oc=5
-  10. 軽さは超一流。セキュリティも鉄壁。それがビジネスノートPCの本当にあるべき姿 - ギズモード・ジャパン
+  9. 軽さは超一流。セキュリティも鉄壁。それがビジネスノートPCの本当にあるべき姿 - ギズモード・ジャパン
      https://news.google.com/rss/articles/CBMicEFVX3lxTE9FNHFHeGEzb09LUnFjTzE4eERtMVBMaGkwLVRDcFpwWHh1dHRiSzNkZXpnbFdUd0ZfU01RQ1ZFRnRlb3NoY2RBdkxBR0VOZUN4dmxRdUowWDlXaFE4cnNBbjU2VF9mdE5rd0phbU94cUY?oc=5
+  10. なぜ、ビジネスホテルは「寝る場所」→「癒しの空間」に進化した？　“ビジホ飲み”人気急上昇の背景 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxNV0JKTG5FelNQQjc5OUt2dUtvZDhhMTloZ0huMzRvLW5fWkdyRDJMekFxRnFDYVhrXzFMMlFXWW5VYW1mQkxMNFV1N1FvTWlCZ19JNFo4eGJMUHpuSTlJMHVHdkgyUk9uTWZHYk02WG1EcDhpMG0wTTdhUm04Yl93S1VWWjFwYWxMNThzeGloZ1oyQVZnU1FScGM1QWVuOWhNVGlFV9IBnAFBVV95cUxPMTF5Smtzc1lFTkFDaWZzUDFoellIb3NoVWROcmxIc2d6Vmc2S3I5NUJKODRMV0dBX2tTMndXZHBHODJZZ3hrNWo0SWRITFVScFFhMUFHN2g5amd1anYwSUJYXzZBeUt6cEZkc2xoUUhXXzNJdmhwYUpLRmNGbFdSbzZ6VDBxblJPcnpzMHF2SzRKNlMtWHZ0dnJCR2Y?oc=5
 
 【Reddit / technology】
   1. The New York Childrens Online Safety Act will ban anyone under 18 from chatting online.
@@ -129,10 +129,10 @@
      https://www.reddit.com/r/technology/comments/1t08d76/big_tech_is_about_to_spend_700_billion_on_ai_this/
   8. Bernie Sanders urges international cooperation to halt AI’s ‘runaway train’
      https://www.reddit.com/r/technology/comments/1t0blzk/bernie_sanders_urges_international_cooperation_to/
-  9. Utah’s New Law Targeting VPNs Goes Into Effect Next Week
-     https://www.reddit.com/r/technology/comments/1t0crt3/utahs_new_law_targeting_vpns_goes_into_effect/
-  10. Reddit reports 69% jump in revenue, topping analyst estimates
+  9. Reddit reports 69% jump in revenue, topping analyst estimates
      https://www.reddit.com/r/technology/comments/1t08mm1/reddit_reports_69_jump_in_revenue_topping_analyst/
+  10. Utah’s New Law Targeting VPNs Goes Into Effect Next Week
+     https://www.reddit.com/r/technology/comments/1t0crt3/utahs_new_law_targeting_vpns_goes_into_effect/
 
 【Reddit / business】
   1. Reddit reports 69% jump in revenue, topping analyst estimates

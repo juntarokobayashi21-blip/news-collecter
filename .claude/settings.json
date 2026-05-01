@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/kjunt/.claude/projects/c--Users-kjunt-Documents-news-collector/memory/**)",
+      "WebSearch",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\kjunt\\Documents\\video-generator"
+    ]
+  }
+}
