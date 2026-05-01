@@ -497,7 +497,7 @@ def summarize_article_with_groq(title, retry=3):
                             "content": title,
                         },
                     ],
-                    "max_tokens": 100,
+                    "max_tokens": 150,
                 },
                 timeout=30,
             )
@@ -532,7 +532,7 @@ def summarize_article_with_claude(title):
         client = Anthropic(api_key=CLAUDE_API_KEY)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=100,
+            max_tokens=150,
             messages=[
                 {
                     "role": "user",
@@ -580,7 +580,7 @@ def summarize_source_with_groq(source_name, entries):
                         "content": f"「{source_name}」のニュース記事です。簡潔に要約してください。\n\n{articles_text}",
                     },
                 ],
-                "max_tokens": 256,
+                "max_tokens": 400,
             },
             timeout=30,
         )
@@ -606,7 +606,7 @@ def summarize_source_with_claude(source_name, entries):
         client = Anthropic(api_key=CLAUDE_API_KEY)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=256,
+            max_tokens=400,
             messages=[
                 {
                     "role": "user",
@@ -656,7 +656,7 @@ def summarize_overall_with_groq(results):
                         "content": f"{today}のニュース記事一覧です。重要なトレンドを3〜5点に絞って簡潔に要約してください。\n\n{articles_text}",
                     },
                 ],
-                "max_tokens": 1024,
+                "max_tokens": 1500,
             },
             timeout=30,
         )
@@ -686,7 +686,7 @@ def summarize_overall_with_claude(results):
         client = Anthropic(api_key=CLAUDE_API_KEY)
         message = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=1024,
+            max_tokens=1500,
             messages=[
                 {
                     "role": "user",
