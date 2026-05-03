@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-03
+============================================================
+
+【Hacker News】
+  1. DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper
+     https://github.com/aattaran/deepclaude
+  2. BYOMesh – New LoRa mesh radio offers 100x the bandwidth
+     https://partyon.xyz/@nullagent/116499715071759135
+  3. The 'Hidden' Costs of Great Abstractions
+     https://jdgr.net/the-hidden-costs-of-great-abstractions
+  4. Southwest Headquarters Tour
+     https://katherinemichel.github.io/blog/travel/southwest-headquarters-tour-2026.html
+  5. US–Indian space mission maps extreme subsidence in Mexico City
+     https://phys.org/news/2026-04-usindian-space-mission-extreme-subsidence.html
+  6. OpenAI's o1 correctly diagnosed 67% of ER patients vs. 50-55% by triage doctors
+     https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses
+  7. A desktop made for one
+     https://isene.org/2026/05/Audience-of-One.html
+  8. New statue in London, attributed to Banksy, of a suited man, blinded by a flag
+     https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/
+  9. Make your own microforest (2025)
+     https://ambrook.com/offrange/environment/a-forest-in-your-pocket
+  10. Introduction to Atom
+     https://validator.w3.org/feed/docs/atom.html
+
+【Zenn】
+  1. OpenClaw自動化サーバー構築記 #1 Raspberry Pi 5 + NVMe SSD編
+     https://zenn.dev/harieshokunin/articles/9caa728de35b1f
+  2. サイバーセキュリティの資格ロードマップを作成してみた - 日本資格込み版
+     https://zenn.dev/hinoshiba/articles/made-cybersecurity-certification-roadmap
+  3. 【Go】mapは取り出す順序を「意図的に」ランダム化していた
+     https://zenn.dev/uufu_engineer/articles/e156ddd51f5a80
+  4. 漫画のネームを 3 大 AI に競作させたい — コーディング CLI を並列で走らせる nemu-kaigi の実装事例
+     https://zenn.dev/yatmita/articles/nemu-kaigi-llm-content-voting
+  5. AIに渡す指示書の役割分担: AGENTS.md/SKILL.md/DESIGN.mdと仕様駆動開発の現在地
+     https://zenn.dev/genda_jp/articles/f71d3ed7d4d7e8
+  6. 5人の若手エンジニアの育成メモをClaude Codeに集約したら、1on1の下書きまで書けるようになった
+     https://zenn.dev/sonicgarden/articles/39b9845d13963c
+  7. デジタル庁の生成AI基盤「源内」のOSSをAWS上で動かしてみた話
+     https://zenn.dev/hosoyayusaku/articles/25ec9a4a6fa1c9
+  8. AWS Security AgentでAIによるレビューとペネトレーションテストをやってみた
+     https://zenn.dev/kymx1983/articles/20260502-aws-security-agent-pentest
+  9. コードを書きながら学ぶ プログラミングの原理原則
+     https://zenn.dev/ippe/articles/learn-programming-principles-by-coding
+  10. Remix v3 beta を触ってみる - React 経験者からみたフルスタックの新しい選択肢
+     https://zenn.dev/coji/articles/remix-3-beta-firstlook
+
+【Qiita】
+  1. 個人開発の運用コストを本当に0円にした技術選定と設計判断のすべて
+     https://qiita.com/teppei19980914/items/3c744bb8fd71dc4550af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Excel業務を壊さずAPI化する設計入門：現場を敵にしないDXの作り方
+     https://qiita.com/satoru_higuchi/items/a6aa0300c3a97648c65c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【緊急】Cursorに「git clone」するだけでPCが乗っ取られる脆弱性！CVSS 9.9のヤバすぎる攻撃手法
+     https://qiita.com/emi_ndk/items/8e6607a09cb8ff86c298?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. AIエージェントを会社で使いたい！→「え、セキュリティどうするの？」　企業導入への技術的アプローチ
+     https://qiita.com/sharu389no/items/ede7d1c0be4a14024857?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Claude Codeについて思うこと
+     https://qiita.com/sour23/items/e95f490b6533227fe73c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【個人開発：制作期間1ヶ月】自分の美容（髪型・ヘアカラー・ネイルなど）を記録し、予算も管理するアプリを作成しました！【React/TypeScript/Supabase/Firebase】
+     https://qiita.com/pmpm_nk/items/b74198e39c2cbad358e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. いつの間にかPowerPointのCopilotが劇的に良くなっていた件
+     https://qiita.com/sadabon444/items/f2978f2a79812aff570c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【ついに我が家も】Cloudflareでゼロトラスト環境構築01【Zero Trust】
+     https://qiita.com/hidekko/items/b987f390dd2130bc4bae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 市場は本当に予測不能なのか？――ランダムウォーク仮説とクオンツが探す「小さな歪み」
+     https://qiita.com/tikeda123/items/e777dcadbc850c357419?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Claude Code入りのDockerイメージをDevContainerで動かす
+     https://qiita.com/sour23/items/a86a42a675e27853299b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 東京科学大学、多摩美術大学、一橋大学の3大学によるTechnology Creatives Program（テックリ）第5期開講 - isct.ac.jp
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE83eFRvWVlQbXlLM1hrbVFQZUtfVDk5djZ2UTg1SU85ZzlsWmpCVTRCek1TbXdUQllaOUNnMEdjS3JLT0lHakFkNUNVQWpKZWZrWHMzWm1R?oc=5
+  2. “Technology first”から“Issue first”へ－－マドリードで確認したデータスペースの転換 - NTT Data
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5oSnFjRVcwZTliVmtHenZIckkyeXZnNUpFQWRGdEVhVTZrRVhacmtaaVRDZWpPTTlrMjF1Vkc4ckNHLUhmQ2dvMFdCMHFSNEhVNkxpbEllYS1kSnZZMm4tQWdlNlE2T0lqSE9CTDVfTQ?oc=5
+  3. eムック 『世界を変える10大技術［2026年版］』 特集号 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE5KX2lTRVhMZ3dVSnJlam01SDBmcGtkeVM0MW9TXzVWejlWOGNFcm1FZmFLZ2xXM2tIbFZmZHhLQUp2X3NVV3BncDVmMlRaUTgzVmFERzlVZFZXMTlRV1VVdlpEeUpYd0FjRUdTejc2LXlaQ3JwOG1xU0FIbw?oc=5
+  4. 拡散光トモグラフィによる異常部位診断を大幅に高速化するAIモデルを開発 | テクノロジー・材料 - TSUKUBA JOURNAL - tsukuba.ac.jp
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5iZUNhUHRRSmlaSFNrVmJEOXg2dlROX1lCUGN4aHhfUXpCVmZENjBsV3pxbHpkR05peWRMYVo1Sk5NRDl6SGlqeGtpeTNqWE9lUzg2Qms3dGJWRldXVVVLdVhnYmVQal9GX0l2anFOMVRtOWdNanE0RUJKTWx3SDA?oc=5
+  5. CLEAN TRACK™ LITHIUS Pro DICE™ 世界最高クラスの生産性と革新的な欠陥制御技術 - tel.co.jp
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tdTNFYk40T1lJekJpVXZObXp5aDZtdkR2SUcwYS0xcDlzVmdTTG1aREZtdHZtV0dXa0pRZ1Q2cDJxdHB1a2FpTVY0dUFmRWhSSG4xQS1Xb2h0X2Z5?oc=5
+  6. 革新的な蓄電池セル製造技術を有するTeraWatt Technology社との資本提携および協業に関する覚書の締結について - jera.co.jp
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGUUMzb09SbGJqbWpBSjR3WFlNN1NZc3hKc0g4MTFzZEdZaFAwNW1xaTR4YkpBY0t4c0lSZ3djMm92YUZRUjBOeng4U3N5MUZkdEV5cWlrUlBRQWFqSFNHUjhGSQ?oc=5
+  7. 研究・開発の中核拠点「Technology CUBE」が2026年4月本格稼働 | 技術・研究開発 | 技術・研究開発 | プレスリリース - Panasonic Newsroom Global
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vSmVNRUpvSl9tTkZGcHBSMmFGdVRQMGhVdzU1eXJNM1RjTE83Y0x5TlVxdk1nUzFBN2RKYnpLeFBxbHhMN0lFYU1SMDAzSDRZZGVtdlhCNmlVZw?oc=5
+  8. AIは世界の雇用を代替ではなく再構築へ、新報告書が指摘 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMibkFVX3lxTFBXTnhnQ3NuUDB3ZVJYV0czSENzNUZ5ZTlHWTlkeklwZDVIVTd1ZjUzM0dfLXNyaUFYbGVSNk5uc0ZkQmZWWlYzTFBPTDJlV2pBYVRVMWE2MG9aMUppdzJaQ2Y3NXdlZms3bUZGanVR?oc=5
+  9. 情報処理技術者試験の見直しに異議 DXに重要な職種を消してどうする - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FV3VWTjN6MlpPTmhnY3dncVJsbFljSzZFNzBIQlJUWmNLLTUwdUlOenZHaGxJX1NJZ0E1WWZEWUpOQXRaWXEyMmxFdmVxbEVoWXAzWXZkX1JZQlVCWWVHTEktVFlsZEk?oc=5
+  10. Hiroshi Kondoh Laboratory Department of Chemistry School of Fundamental Science and Technology - 慶應義塾
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1RampEZERoUWlEQ1ExYmRkU045VWxjTk1ybjg5d01WMFJPTXY2amtwS0VDVVFKUFJldXJJX08yTDRCVU1nVHROM2JHa3NtQ0M4OE1mTVMySVoxMkJfTXBOT1ZUWGZlRmppcWx3S21SUnpoamQ0ZmdHb1lQNkk3TXc?oc=5
+
+【Google News (Business)】
+  1. 私と彼氏は、世界旅行中に会社を設立した。1年後には、売上高が約51億円に達している - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiowFBVV95cUxNVVE1bEN0NENfTXBoZzVNMDZnMW1sRmF2SE5Gc2xOYlJ3SjNSRzhseTFwekNDeVBvc3huSHJyZWUwZThBNFdhUDRfOEF1dUx2bWsydWZpT0w4aXdCNWZqLU1CcWxoOEhwNEg4cHZ2TGRvdmdfRV9yX3czWEpsRTQwMzJ3SUpsZzYzNkE1NC1zWUUxSkhEY09QNUFsdFlYVlZiQm9n?oc=5
+  2. なぜ、羽田空港に「文具の自販機」？ コクヨの実証実験が示す、新しい売れ方（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE91T0xSNVJJUGp1ODc3NTJ2ckFGaEgxMVNNd0RkX01yYnNicXB2RkRHSmwtYlk0cFlzUkpVV1U1ZnVtM29LVjNZRmhlWGJNMlJHQ2dQd0s5TXMwV0J4dk52TjNQNE56dkRzUDhQWHZRNENXdw?oc=5
+  3. ドムドムハンバーガー商品開発の会議は“たった3人”で行う理由 競合と差をつける「遊び心」の取り入れ方 [2/2] - ログミーBusiness
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MSWN0eGJEQmNZb1RMVUxrbEhNeFM2OUpBa2xUX0FqNDBWbHpwdVRVaVVXcE1BUlR2S3VSYnM0cTRDTXNyNjdubW1uRmNIekNTMWZKTUxJaWk?oc=5
+  4. Amazonセールで「Microsoft Office Home & Business 2024」がセール - ケータイ Watch
+     https://news.google.com/rss/articles/CBMibkFVX3lxTE80cUZNWERUMW8xR1M1TXptWGk1Q09QaGtSVE83cHpsNGZDYzdiZXA3aEZ2MVlPR2l4ZnVyZGpjZm1RMjJqQWQwT1EyTGNBMXUxLXpFSHJSR1NxTTI4a0NyT2FZTUZsa1AtQkNzODNB?oc=5
+  5. Business News: ティモシー・シャラメがウルバン・ヤーゲンセンの少数株主兼クリエイティブアドバイザーとして参画 - Hodinkee Japan
+     https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ0xGU0wtcFY0YUdJQUR3Ti1yaUNTb2E0LVphekNYeVVlOG9iRTNZUVFZUjBBLWUyMWtsYzQ3X3NlVGsyd3RQQk85ak1Bb2JFMTBVVUJEYUcwamp5QjlvRUhoWTB5dzdJaGRVQ0prcG9YakpMLW11N25ZU0Q1TkN0R1MzbTlHdjJHWloyVnZQbVJKNTlLUFZJam9wWG5CRDc2THdtQlRyRTBaSUZmX2c?oc=5
+  6. 90年代風ヴィンテージリサイクルショップ経営シム「Thrifty Business ヴィンテージショップへようこそ」，5月19日に発売 - 4Gamer.net
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE15cmxNeExKNExPLUpGS3Z5NzVmTU1sTEVSTlA4WjVlSWxJZ0o0c0dQVlZ1aDR6cXFmTUFEbFdVckgwSjlwSkJ4cENTZ3pJYkJiaG1nenJ0N3IzNjVudVZ4VmRSNA?oc=5
+  7. 企業のビジネスはAI中心の自律型へシフト--ガートナー予測 - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBTSnBuZ29SV2VCc0xScVc3OE9WUzg0UWQtSjFJRk1qeVppWVVma3RnNzhybk5SRHcwcjBLcUhGV0F5MWJIc3l6Z2lHNmM2NlI0WEUyMWN6UFUxajVUN0lvUjRmSGd1d1FZc3Jvb3NBSU5qZFlfb04wdFRRZlJHOE0?oc=5
+  8. ポイ活しない人は、やっぱり損なのか 8859億円「取りこぼしポイント」のカラクリ：「ポイント経済圏」定点観測（1/5 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9lNEMzRm5zN3pBT0VqaVVVbU13bjJFbW5vdFk3clNhZTQtN3FoSmtxbTZzNVNvcjI5ZHhjVXdOX1NlbTJtQTRuWEp0OFZHU3ItWFVhd3YwdDRkOGpfcm1veFlPTUZLRVYyejJRajZKQUl1dw?oc=5
+  9. エイリアンは「最近」来ていないだけかも - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OTklldUZDNkVXcUloMjRxclhkSWlxZFdKczRRNUkyTlRjUEN0Q2ZzcFlPYTR2dDhyVVVDR0x3WjNtbE0ydEF5WE1XTERhaXhkdUExd2FiRTJDT3p5WWliS0N3?oc=5
+  10. エージェントAI「Manus」の使い方。調査もアプリ作成もこなせるMetaも欲しがった高い実力 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE5DdXgzNWlaMjRqZDBqbm83V1VUWlVlVGdDU3VhY3F2Y250U25CN2Nfb3NhemVIY0JJbElyTHFYQ1ppZFpSNi14Vm8xRzZLLS14eEVqZGJPRXFyd2pYd3EyVHN5YUM3VVViTHFTZktZMGJicUdDV3JoUjJB?oc=5
+
+【Reddit / technology】
+  1. ‘Silicon Six’ accused of avoiding almost $278bn in US corporation taxes over 10 years | US taxation
+     https://www.reddit.com/r/technology/comments/1t2pbhz/silicon_six_accused_of_avoiding_almost_278bn_in/
+  2. Jensen Huang says Nvidia now has 'zero percent' market share in China — says US export policy 'has already largely backfired'
+     https://www.reddit.com/r/technology/comments/1t2jx8v/jensen_huang_says_nvidia_now_has_zero_percent/
+  3. Utah first state to hold websites liable for users who mask their location with VPNs — law goes into effect, designed to prevent bypassing age checks
+     https://www.reddit.com/r/technology/comments/1t2oy0q/utah_first_state_to_hold_websites_liable_for/
+  4. Sam Altman says the quiet part out loud, confirming some companies are ‘AI washing’ by blaming unrelated layoffs on the technology
+     https://www.reddit.com/r/technology/comments/1t2xz7z/sam_altman_says_the_quiet_part_out_loud/
+  5. Japan is deploying ultra-cheap cardboard drones built for swarm warfare and expendable combat missions — $2,000 expendable combat drones cost less than some gaming PCs
+     https://www.reddit.com/r/technology/comments/1t2sp37/japan_is_deploying_ultracheap_cardboard_drones/
+  6. For the average price of a car in the US, you could buy 5 new Chinese EVs
+     https://www.reddit.com/r/technology/comments/1t2pnty/for_the_average_price_of_a_car_in_the_us_you/
+  7. Valve CEO Gabe Newell was an enthusiastic supporter of OpenAI in 2018, donating $20 million and even acting as the sole member of an "informal advisory board"
+     https://www.reddit.com/r/technology/comments/1t2d1iu/valve_ceo_gabe_newell_was_an_enthusiastic/
+  8. Guilty until proven innocent: shoppers falsely identified by facial recognition system struggle to clear their names | Facial recognition
+     https://www.reddit.com/r/technology/comments/1t2zom1/guilty_until_proven_innocent_shoppers_falsely/
+  9. GameStop Is Offering to Buy eBay for $56 Billion, CEO Ryan Cohen Says
+     https://www.reddit.com/r/technology/comments/1t30ofv/gamestop_is_offering_to_buy_ebay_for_56_billion/
+  10. It’s time to tax AI slop - We are stuck in a deluge of meaningless content that threatens human creativity. Here’s a simple way to mitigate its harms
+     https://www.reddit.com/r/technology/comments/1t2ojbc/its_time_to_tax_ai_slop_we_are_stuck_in_a_deluge/
+
+【Reddit / business】
+  1. Nvidia CEO Jensen Huang says Nvidia now has "zero percent" market share in China — says US export policy "has already largely backfired"
+     https://www.reddit.com/r/business/comments/1t2vpc9/nvidia_ceo_jensen_huang_says_nvidia_now_has_zero/
+  2. MCU Star Evangeline Lilly Blasts Disney for Marvel Layoffs: "Shame on You for Turning Your Back on the People Who" Gave You "Power"
+     https://www.reddit.com/r/business/comments/1t2decq/mcu_star_evangeline_lilly_blasts_disney_for/
+  3. Onetime Google competitor Ask.com, formerly Ask Jeeves, throws in the towel after almost 30 years: "Jeeves' spirit endures"
+     https://www.reddit.com/r/business/comments/1t24esq/onetime_google_competitor_askcom_formerly_ask/
+  4. CEO Greg Abel moves to assure Berkshire shareholders in a post-Buffett world, with record cash
+     https://www.reddit.com/r/business/comments/1t2iccg/ceo_greg_abel_moves_to_assure_berkshire/
+  5. Question for business owners!
+     https://www.reddit.com/r/business/comments/1t30rxi/question_for_business_owners/
+  6. I am in Ontario and want to know how I can branch out and grow my home based business after tax season ?
+     https://www.reddit.com/r/business/comments/1t30ju2/i_am_in_ontario_and_want_to_know_how_i_can_branch/
+  7. Spirit Airlines is closing down. Thousands of employees and travelers are impacted.
+     https://www.reddit.com/r/business/comments/1t1r07z/spirit_airlines_is_closing_down_thousands_of/
+  8. What’s everyone’s favorite way to deal with Sunday scaries?
+     https://www.reddit.com/r/business/comments/1t2xpqm/whats_everyones_favorite_way_to_deal_with_sunday/
+  9. Warner Bros. Discovery CEO David Zaslav’s Pay More Than Tripled in 2025 to a Staggering $165 Million
+     https://www.reddit.com/r/business/comments/1t1z789/warner_bros_discovery_ceo_david_zaslavs_pay_more/
+  10. Best Accountant to work with for my new business?
+     https://www.reddit.com/r/business/comments/1t2reye/best_accountant_to_work_with_for_my_new_business/
