@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレンドニュース - 2026-05-06</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-start;
+        }
+
+        .stat {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .stat strong {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+        }
+
+        .badge {
+            display: inline-block;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .section-summary {
+            background: var(--bg);
+            padding: 1rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .section-summary strong {
+            font-weight: 600;
+        }
+
+        .section-summary h4 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .article-card {
+            display: block;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .article-title {
+            display: block;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 0.8rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-card:hover .article-title {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            opacity: 0.85;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 トレンドニュース</h1>
+        <p>2026-05-06</p>
+    </header>
+
+    <nav>
+        <a href="#0" class="nav-link">Hacker News</a><a href="#1" class="nav-link">Zenn</a><a href="#2" class="nav-link">Qiita</a><a href="#3" class="nav-link">Google News (IT)</a><a href="#4" class="nav-link">Google News (Business)</a><a href="#5" class="nav-link">Reddit / technology</a><a href="#6" class="nav-link">Reddit / business</a>
+    </nav>
+
+    <main>
+        
+        <section class="hero">
+            <h2>📰 今日のトレンド要約</h2>
+            <div class="overall-summary"># 📰 IT・ビジネストレンド速報 2026-05-06<br><br>---<br><br><h4>1. 🤖 AIコーディング時代の加速と現場の葛藤</h4><br><br><strong>Claude Code</strong>や<strong>AIエージェント</strong>によるコード自動生成が開発現場に急速に浸透。「Claude Codeに全部やらせる時代が来た」の検証記事や、<strong>バイブコーディング（Vibe Coding）</strong>と<strong>エージェント型エンジニアリング</strong>の境界が曖昧になりつつあるという警鐘が注目を集めている。AI駆動開発時代に対応したQA技法の見直しも急務となっており、開発者コミュニティで活発な議論が展開中。<br><br>---<br><br><h4>2. 🏗️ データセンター建設をめぐる市民vs.テック企業の衝突</h4><br><br>ミシガン州の農村地域が<strong>OpenAI・Oracle</strong>の巨大データセンター計画を住民投票で否決したにもかかわらず、建設が強行されたと報道。ユタ州でも<strong>Kevin O'Leary</strong>のデータセンター計画に反対運動が発生。<strong>AIインフラ拡大</strong>と地域住民の利害が正面衝突する事案が相次いでいる。<br><br>---<br><br><h4>3. 💼 AI時代に「なくなる仕事」への警戒感が高まる</h4><br><br><strong>管理職・間接部門</strong>がAIに代替されるリスクが現実味を帯びてきた。高給な管理職ほど危険という分析が話題に。一方で企業の<strong>リテンションボーナス</strong>問題も浮上（Spirit航空では一般社員が給与を失う中、経営幹部が1,070万ドルの報酬を要求）、企業内の格差拡大が社会問題化している。<br><br>---<br><br><h4>4. 📱 コンテンツ消費の「つまみ食い化」とプラットフォームの苦悩</h4><br><br><strong>Gen Zの半数以上</strong>がストリーミングサービスを1本の作品のために契約・解約を繰り返すという調査結果が公開。<strong>フルプライスのゲームは買わない</strong>傾向も顕著で、コンテンツビジネスのマネタイズモデルが根本から揺らいでいる。<strong>TikTok</strong>の2024年米大統領選での共和党コンテンツ優遇疑惑も浮上し、プラットフォームの中立性が再び問われている。<br><br>---<br><br><h4>5. 🔐 セキュリティ・オープンソースの動向</h4><br><br><strong>Google</strong>が<strong>reCAPTCHA</strong>の後継となる<strong>Cloud Fraud Defense</strong>を発表、不正対策が次フェーズへ。また<strong>Valve</strong>がSteam Controllerの<strong>CAD設計ファイルをCreative Commonsライセンス</strong>で公開し、オープンハードウェアコミュニティが活性化する見込み。<br><br>---<br>*📌 情報ソース: Hacker News / Zenn / Qiita / Reddit / Google News*</div>
+            <div class="stats">
+                <div class="stat"><strong>7</strong> ソース</div>
+                <div class="stat"><strong>70</strong> 記事</div>
+            </div>
+        </section>
+        
+        <section id="0">
+            <div class="section-header">
+                <h2>Hacker News</h2>
+                <span class="badge" style="background-color: #ff6600;">🚀 Dev</span>
+            </div>
+            <div class="section-summary">- Valveが<strong>SteamコントローラーのCADファイル</strong>を<strong>クリエイティブ・コモンズライセンス</strong>で公開し、ユーザーによる改造・製造が可能に。<br>- <strong>英国企業</strong>が<strong>航空燃料の配給制</strong>に備える動きが広がり、エネルギー供給の逼迫が懸念される。<br>- <strong>職場での生産性の見せ方</strong>や<strong>バイブコーディング</strong>・<strong>エージェント型エンジニアリング</strong>の急接近など、働き方・開発スタイルの変化に関する議論が注目を集める。<br>- Googleが<strong>reCAPTCHA</strong>の次世代版として<strong>Cloud Fraud Defense</strong>を発表し、不正検知の進化を図る。</div>
+            <div class="articles-grid">
+                
+                <a href="https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license" target="_blank" class="article-card">
+                    <span class="article-title">Valve releases Steam Controller CAD files under Creative Commons license</span>
+                    <p class="article-summary"><strong>Valve</strong>が<strong>Steamコントローラー</strong>の<strong>CADファイル</strong>を<strong>クリエイティブ・コモンズライセンス</strong>のもとで公開し、誰でも自由に改変・製造できるようにした。</p>
+                </a>
+                <a href="https://bmmagazine.co.uk/news/uk-jet-fuel-shortage-rationing-goldman-sachs-warning/" target="_blank" class="article-card">
+                    <span class="article-title">UK businesses brace for jet fuel rationing</span>
+                    <p class="article-summary"><strong>ジェット燃料の配給制</strong>導入が迫る中、<strong>英国の航空・運輸業界</strong>が供給不足への対応を迫られている。</p>
+                </a>
+                <a href="https://nooneshappy.com/article/appearing-productive-in-the-workplace/" target="_blank" class="article-card">
+                    <span class="article-title">Appearing productive in the workplace</span>
+                    <p class="article-summary"><strong>職場での生産性の見せ方</strong>に関する記事で、実際の成果よりも<strong>忙しく見せる行動</strong>（例：メール即返信、会議への積極参加）が評価に影響する現象を考察。</p>
+                </a>
+                <a href="https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/" target="_blank" class="article-card">
+                    <span class="article-title">Vibe coding and agentic engineering are getting closer than I'd like</span>
+                    <p class="article-summary"><strong>Vibe coding</strong>（直感的なAI活用開発）と<strong>エージェント型エンジニアリング</strong>が急速に融合しつつあり、その進展に対して筆者が<strong>懸念や複雑な思い</strong>を抱いていることを示唆する記事。</p>
+                </a>
+                <a href="https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/" target="_blank" class="article-card">
+                    <span class="article-title">Google Cloud fraud defense, the next evolution of reCAPTCHA</span>
+                    <p class="article-summary"><strong>Google Cloud</strong>の<strong>不正防止機能</strong>が進化し、<strong>reCAPTCHA</strong>の次世代として、AIを活用したより高度な<strong>フラウド（詐欺）検出・防御</strong>ソリューションを提供。</p>
+                </a>
+                <a href="https://blog.val.town/better-auth" target="_blank" class="article-card">
+                    <span class="article-title">From Supabase to Clerk to Better Auth</span>
+                    <p class="article-summary"><strong>Better Auth</strong>への移行を軸に、<strong>Supabase</strong>と<strong>Clerk</strong>を経た<strong>認証システムの選定・比較プロセス</strong>と最終的な意思決定を解説した記事。</p>
+                </a>
+                <a href="https://www.thetypicalset.com/blog/thoughts-on-coding-agents" target="_blank" class="article-card">
+                    <span class="article-title">The bottleneck was never the code</span>
+                    <p class="article-summary"><strong>ボトルネック</strong>はコードではなく、<strong>コミュニケーション・意思決定・組織構造</strong>などの<strong>人的・プロセス的要因</strong>にあるという主張。</p>
+                </a>
+                <a href="https://sander.ai/2026/05/06/flow-maps.html" target="_blank" class="article-card">
+                    <span class="article-title">Learning the Integral of a Diffusion Model</span>
+                    <p class="article-summary"><strong>拡散モデルの積分</strong>を学習するアプローチを提案し、<strong>サンプリング効率</strong>と<strong>生成品質</strong>の向上を目指した研究。</p>
+                </a>
+                <a href="https://tilde.run/" target="_blank" class="article-card">
+                    <span class="article-title">Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem</span>
+                    <p class="article-summary"><strong>AIエージェント</strong>向けサンドボックス環境「<strong>Tilde.run</strong>」で、<strong>トランザクション処理</strong>と<strong>バージョン管理</strong>を備えたファイルシステムを提供するツール。</p>
+                </a>
+                <a href="https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html" target="_blank" class="article-card">
+                    <span class="article-title">Inkscape 1.4.4</span>
+                    <p class="article-summary">Inkscape 1.4.4 がリリース — <strong>オープンソース</strong>の<strong>ベクターグラフィックエディタ</strong>の最新<strong>バグ修正・安定性向上</strong>アップデート。</p>
+                </a>
+            </div>
+        </section>
+        <section id="1">
+            <div class="section-header">
+                <h2>Zenn</h2>
+                <span class="badge" style="background-color: #3ea8ff;">📚 日本語Tech</span>
+            </div>
+            <div class="section-summary"><h4>Zennニュース要約</h4><br><br><strong>Claude Code</strong>を中心に、AI駆動開発の実践・検証・設計に関する記事が集中しています。<strong>サブエージェントの設計4原則</strong>や公式プラグイン解読など実装レベルの深掘りから、「<strong>Claude Codeに全部やらせる</strong>」時代の到来を実際に検証した考察記事まで幅広く展開。あわせて <strong>OpenCode Go</strong> や <strong>pi-coding-agent</strong> といった代替ツール紹介、<strong>AI時代に対応したQA技法</strong>、さらに普遍的なテーマである<strong>部署マスタ設計</strong>の考え方も取り上げられており、開発・設計・品質保証の各層でAI活用が加速していることが伺えます。</div>
+            <div class="articles-grid">
+                
+                <a href="https://zenn.dev/masayan1126/books/claude-code-subagents-master" target="_blank" class="article-card">
+                    <span class="article-title">Claude Codeサブエージェント完全マスター、設計4原則から公式プラグイン解読までぜんぶ教えたるで</span>
+                    <p class="article-summary"><strong>Claude Codeのサブエージェント機能</strong>を、<strong>設計4原則</strong>の解説から<strong>公式プラグインの読み解き方</strong>まで網羅的に徹底解説する記事。</p>
+                </a>
+                <a href="https://zenn.dev/yuta_enginner/articles/dd6431799cec7f" target="_blank" class="article-card">
+                    <span class="article-title">部署マスタの設計について考えた</span>
+                    <p class="article-summary"><strong>部署マスタ</strong>のテーブル設計における構造・項目・階層関係などの<strong>設計上の考慮点</strong>や工夫についてまとめた記事。</p>
+                </a>
+                <a href="https://zenn.dev/kimuson/articles/pi-coding-agent-with-opencode-go" target="_blank" class="article-card">
+                    <span class="article-title">OpenCode Go + pi-coding-agent のすゝめ</span>
+                    <p class="article-summary"><strong>OpenCode</strong>と<strong>pi-coding-agent</strong>を組み合わせた<strong>AIコーディング環境</strong>の構築・活用方法を紹介する記事。</p>
+                </a>
+                <a href="https://zenn.dev/frontline/articles/3a912df20d9210" target="_blank" class="article-card">
+                    <span class="article-title">AI駆動開発時代に、おさえておきたいQA技法</span>
+                    <p class="article-summary"><strong>AI駆動開発</strong>時代において、品質保証（<strong>QA</strong>）を効果的に行うために押さえておくべき<strong>テスト技法や手法</strong>を解説した記事。</p>
+                </a>
+                <a href="https://zenn.dev/okazu_dm/articles/83957f1623ec4d" target="_blank" class="article-card">
+                    <span class="article-title">「Claude Codeに全部やらせる時代が来た」のか検証してみた</span>
+                    <p class="article-summary"><strong>Claude Code</strong>にソフトウェア開発を<strong>全自動で任せる</strong>ことが実際に可能かどうかを、<strong>実践的な検証</strong>を通じて評価した記事。</p>
+                </a>
+                <a href="https://zenn.dev/microsoft/articles/b081f3ddb93040" target="_blank" class="article-card">
+                    <span class="article-title">AIエージェントの Skill は書くだけでは足りない ⇒ Waza で評価して APM で配ろう!【ハーネスエンジニアリング】</span>
+                    <p class="article-summary"><strong>AIエージェントのSkill</strong>を実装するだけでなく、<strong>Waza</strong>で品質評価を行い、<strong>APM（エージェントパッケージマネージャー）</strong>で効率的に配布・管理する開発フローを解説。</p>
+                </a>
+                <a href="https://zenn.dev/kusuke/articles/25330f7759eba4" target="_blank" class="article-card">
+                    <span class="article-title">外部からアクセス可能なhttpsサイトはドメイン設定後「即」攻撃にさらされる件</span>
+                    <p class="article-summary"><strong>外部公開されたhttpsサイト</strong>は、<strong>ドメイン設定直後から</strong>ボットや攻撃者による<strong>自動スキャン・攻撃</strong>にさらされるリスクがある。</p>
+                </a>
+                <a href="https://zenn.dev/toramutton/articles/uec-enoc2026" target="_blank" class="article-card">
+                    <span class="article-title">インフラ知識ゼロの学生が、イベントNOCで監視システム諸々をキメてきた話</span>
+                    <p class="article-summary"><strong>インフラ知識ゼロ</strong>の学生が<strong>イベントNOC</strong>に参加し、<strong>監視システム</strong>の構築・運用を実践的に経験した取り組みを紹介。</p>
+                </a>
+                <a href="https://zenn.dev/noppe/articles/925fa230b2a8ca" target="_blank" class="article-card">
+                    <span class="article-title">iOS26に向けてナビゲーションバーを整理しよう</span>
+                    <p class="article-summary"><strong>iOS 26</strong>のデザイン変更に備え、<strong>ナビゲーションバー</strong>の構成を見直し・整理することを推奨する内容。</p>
+                </a>
+                <a href="https://zenn.dev/yui540/articles/8d19020640582d" target="_blank" class="article-card">
+                    <span class="article-title">自分なりのCSSアニメーションとの向き合い方</span>
+                    <p class="article-summary"><strong>CSSアニメーション</strong>の実装における筆者独自の<strong>考え方や工夫・ベストプラクティス</strong>を実体験をもとに紹介する記事。</p>
+                </a>
+            </div>
+        </section>
+        <section id="2">
+            <div class="section-header">
+                <h2>Qiita</h2>
+                <span class="badge" style="background-color: #55c500;">✏️ 日本語Tech</span>
+            </div>
+            <div class="section-summary"><h4>Qiita ニュース要約</h4><br><br><strong>コードの「読み方」</strong>を先輩に教わったことで、全く理解できなかったコードが読めるようになった新人エンジニアの成長譚や、<strong>セキュアプログラミング</strong>の基礎から実践までを網羅した教科書的な解説記事が注目を集めている。フロントエンド領域では <strong>Reactの再レンダリング抑制・メモ化・State設計</strong>の最適化手法や、<strong>状態管理ライブラリZustand</strong>を実務で活用して得た7つの知見も紹介されている。また、Pythonベースの<strong>レトロゲームエンジンPyxel</strong>の内部動作の仕組みを公式が解説する記事も公開された。</div>
+            <div class="articles-grid">
+                
+                <a href="https://qiita.com/fe1ix/items/cf13c7c70ae148146fd0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">先輩のコードが1行も理解できなくて泣きそうだった新人が、「読み方」を教わって世界が変わった話</span>
+                    <p class="article-summary"><strong>先輩のコードが読めず挫折しかけた新人</strong>が、コードの<strong>「読み方・解釈の視点」</strong>を教わることで理解力が飛躍的に向上した体験談。</p>
+                </a>
+                <a href="https://qiita.com/miruky/items/6fbb0c0e55835ea79e4d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【徹底解説】セキュリティスペシャリストが教える、セキュアプログラミングの教科書</span>
+                    <p class="article-summary"><strong>セキュリティスペシャリスト</strong>が<strong>セキュアプログラミング</strong>の基礎から実践までを<strong>徹底解説</strong>した、安全なソフトウェア開発のための包括的な教科書的解説記事。</p>
+                </a>
+                <a href="https://qiita.com/tuanphan/items/b05513ade79cef735f90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">[Frontend Performance - Part 12] React最適化の完成：再レンダリング・メモ化・State設計を完全制覇</span>
+                    <p class="article-summary"><strong>React最適化</strong>の集大成として、<strong>再レンダリングの制御</strong>・<strong>メモ化</strong>（`memo`/`useMemo`/`useCallback`）・<strong>State設計</strong>の3要素を体系的に解説するシリーズ最終回。</p>
+                </a>
+                <a href="https://qiita.com/kitao/items/5361d45554872a39da92?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【公式】レトロゲームエンジンPyxelが動く仕組み</span>
+                    <p class="article-summary"><strong>Pyxel</strong>は、<strong>Pythonで動作するレトロゲームエンジン</strong>で、その<strong>内部アーキテクチャや動作原理</strong>（描画・入力・音声処理の仕組み）を公式が解説した記事。</p>
+                </a>
+                <a href="https://qiita.com/nhatcaofedev/items/95b6c49cfdd148898689?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Zustandを使って気づいた、もっと早く知りたかった7つのこと</span>
+                    <p class="article-summary"><strong>Zustand</strong>を使う中で得た、<strong>初心者が陥りやすい落とし穴</strong>や<strong>効率的な使い方</strong>など、事前に知っておくべき<strong>7つの知見・ベストプラクティス</strong>をまとめた記事。</p>
+                </a>
+                <a href="https://qiita.com/NXD139/items/ec04f8d5c110a9927498?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">CORSを一緒に理解しよう（Cross-Origin Resource Sharing）</span>
+                    <p class="article-summary"><strong>CORS（Cross-Origin Resource Sharing）</strong> とは、異なる<strong>オリジン</strong>間でのリソース共有を制御する<strong>ブラウザのセキュリティ機構</strong>で、サーバー側のHTTPヘッダーで許可範囲を設定する仕組み。</p>
+                </a>
+                <a href="https://qiita.com/TOMOSIA-HieuNT/items/74037827ba557a602573?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">ブラウザイベントのデフォルト動作 完全リスト【preventDefault() 対応表】</span>
+                    <p class="article-summary"># 要約<br><br><strong>`preventDefault()`</strong> で制御可能な<strong>ブラウザイベントのデフォルト動作</strong>（フォーム送信・リンク遷移など）を<strong>一覧表形式</strong>でまとめた開発者向けリファレンス。</p>
+                </a>
+                <a href="https://qiita.com/nhatcaofedev/items/387cda18f797938acb6b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Next.js App Routerで多言語対応を最短で実装する — next-intl実践ガイド</span>
+                    <p class="article-summary"><strong>next-intl</strong>を使い、<strong>Next.js App Router</strong>環境に<strong>多言語対応（i18n）</strong>を最短・最小構成で実装する手順を解説した実践ガイド。</p>
+                </a>
+                <a href="https://qiita.com/tetsu3-accord/items/6807dc6c7d2543ac19d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">React + Python + Supabase で AI 株価予測 × ポートフォリオ最適化のフルスタックアプリを作ってみた</span>
+                    <p class="article-summary"><strong>React・Python・Supabase</strong>を組み合わせ、<strong>AI株価予測</strong>と<strong>ポートフォリオ最適化</strong>機能を備えたフルスタックアプリの開発過程を紹介した記事。</p>
+                </a>
+                <a href="https://qiita.com/TOMOSIA-HieuNT/items/615c58a7c9ca27926dea?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">JavaScriptのEvent Flowを理解する — stopPropagation()・stopImmediatePropagation()・preventDefault()</span>
+                    <p class="article-summary"><strong>イベントの伝播（バブリング・キャプチャリング）</strong> の仕組みと、それを制御する <strong>`stopPropagation()`</strong>・<strong>`stopImmediatePropagation()`</strong>・<strong>`preventDefault()`</strong> の違いと使い方を解説。</p>
+                </a>
+            </div>
+        </section>
+        <section id="3">
+            <div class="section-header">
+                <h2>Google News (IT)</h2>
+                <span class="badge" style="background-color: #4285f4;">📰 ニュース</span>
+            </div>
+            <div class="section-summary"><h4>Google News (IT) 要約</h4><br><br><strong>中村文則教授</strong>が<strong>スガウェザリング財団の科学技術奨励賞</strong>を受賞し、長岡技術科学大学の研究成果が評価されました。<br><br><strong>トランプ政権</strong>が米国の主要研究助成機関である<strong>NSF（国立科学財団）の委員22人全員を解任</strong>し、米科学界に大きな打撃を与えていることが報告されています。<br><br><strong>ハノイ</strong>では<strong>5月13日から国際広告設備・技術展示会</strong>が開催予定で、最新の広告技術や設備が紹介される見込みです。また、<strong>AIを活用した駐車場管理技術（HCAI）</strong>や国内IT関連株の動向も注目されています。</div>
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5tZmR5cnQ2N08wa3ZTWFdCTmRQX0xjMk1qYl9HX2RPX0JudDRWZDAySkpZZkYzWV9wRnllaUdMV3hlWkN3NW1BOEQwWTJDUTlQQjQzVHNoME1lU2lOQm51OHY4OGdYYXlSNTRNQTBEWmtidw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">中村文則教授が科学技術奨励賞（スガウェザリング財団）を受賞しました - nagaokaut.ac.jp</span>
+                    <p class="article-summary"><strong>中村文則教授</strong>が、<strong>スガウェザリング財団</strong>の<strong>科学技術奨励賞</strong>を受賞したことを長岡技術科学大学が発表。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNVl9zM2FkQUJybVFHWHNiODFQcVgydDJrZTh5Nkw0cXdiSXNlUHRqLWw5SWszUm94bllZVDlUZ1BJWHpPV0l6ZVhrMS1tTi0xdkhuRVY2S042VnIwdnhnZDAxS1RBMEItVzNZcE5obk5nWGFmZHRxU2FBY2N6dU5aUUpSNms1SFhkVU1Cc0l1eFk0N01IUnRlQUY1T0hXNWllektuSkJUVzBTaXg0V2Z5ZlBXdEU3QQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">$Huachen AI Parking Management Technology (HCAI.US)$ YOLO の時間 - Moomoo</span>
+                    <p class="article-summary"># 要約<br><br><strong>Huachen AI駐車場管理技術（HCAI）</strong>が、物体検出AI技術<strong>「YOLO」</strong>を活用し、スマート駐車管理ソリューションの強化・展開を進めている。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE16R1R4cW8wdnl1Q2owZkIyUGs3WlhReFFiZU1yelNvQmlueHVTOTdqejdhb2E4V0pKLXJNUk1LbGtWT3ZJLW1VWTVadlBvX1dObWc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">(株)テクノロジーズ【5248】：株価・株式情報 - Yahoo!ファイナンス</span>
+                    <p class="article-summary"><strong>(株)テクノロジーズ【5248】</strong>のYahoo!ファイナンスページで、<strong>株価</strong>や<strong>株式情報</strong>をリアルタイムで確認できる。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOdUFVblJMMEVmbmJWWS1MazhnV2JtbEs5UDg4UFpzOElJNEsxZm00ZkZGWi03d0wtM2lzaXVZUEM5RldWLXJuTGZDZHhvREVFaG5IakRkR0JwQnA1MWNhV3RIdGVDRjlJS0pNODFVZDFXOUJENU9oeUVzcVJkdUVGWnAxbzRycE41V0lUMTV0a1hmd2wwck5ValN3QVlVUURaTFk1SjRiYw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">米科学界に打撃、トランプ政権がNSF委員22 人全員を解任 - MITテクノロジーレビュー</span>
+                    <p class="article-summary"><strong>トランプ政権</strong>が<strong>米国科学財団（NSF）</strong>の<strong>国家科学委員会委員22人全員を解任</strong>し、米科学界に大きな打撃を与えた。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCMnpBUlc0d3IyY1A5X0hqaVFvV0QtcmpLbFBkWnYzSUx3bXEzYkNZT01BMTI0ZUlfeGRtQnY3SFZVNGJIZnB1d1lKcXFmemw4cEc2SlNCUUxfemVRSjRRUGtB?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ハノイ：国際広告設備・技術展示会、5月13日から開催［イベント］ - VIETJOベトナムニュース</span>
+                    <p class="article-summary"><strong>ハノイ</strong>で<strong>5月13日</strong>から、<strong>国際広告設備・技術展示会</strong>が開催され、広告業界の最新技術や設備が一堂に集まる。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQbDV5aWZMTjNFTWlHSExLRDhuRi1tSkFydE9WY09YUVdWVkx2S3Z2S1RaRllhd1ZNU3dCS1dBZVE0YzVHSVNQbWNKb3ZHWXJPdDZlaWQ3MTFzZWlmOU5CdTZzVVlld2F2QUZMblhBdUFjZmRsaWp3ZlVoNnJESVhlSNIBlAFBVV95cUxOUXF4cFdvMmVQTEktUkJ2ZS1FSGVNdjZjbmlLNC1VUkhfSlhLRnlQb2ZNdGlOWUxORUloZS10V1B0UVFaU2daNnhueVJmWUpjOE5qQ1VKVVpiajJCVjVZajUtczhGU0k1dVYxdFpjaUFPUnoxTjhRcDQ3Q3VEX3kyQ1BjMjlIT0I5UTZDeldxWldmYW1R?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">Hana Technology再び大型契約取消し CB投資家が元本償還要求 - CHOSUNBIZ - Chosunbiz</span>
+                    <p class="article-summary"><strong>Hana Technology</strong>が再び<strong>大型契約のキャンセル</strong>に見舞われ、<strong>CB（転換社債）投資家</strong>が<strong>元本償還</strong>を要求する事態に発展。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZY1hFdW9BZ0k3TXhpcTEwQXlSbFBaNEQwZ3JvQ21WVEdtUk10bjA4TldmS2RJS2xiRmZPMGFIUi1IVG5OcURwTUJDOVdCSlFSZnYxbGFlUzJrYzVfNUFteUtsT1F0dw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ノーベル賞級成果が量産される時代が到来 - tel.co.jp</span>
+                    <p class="article-summary"><strong>AIがノーベル賞級の科学的発見</strong>を次々と生み出す時代が始まり、研究・イノベーションの加速が現実のものとなりつつある。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vSmVNRUpvSl9tTkZGcHBSMmFGdVRQMGhVdzU1eXJNM1RjTE83Y0x5TlVxdk1nUzFBN2RKYnpLeFBxbHhMN0lFYU1SMDAzSDRZZGVtdlhCNmlVZw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">研究・開発の中核拠点「Technology CUBE」が2026年4月本格稼働 | 技術・研究開発 | 技術・研究開発 | プレスリリース - Panasonic Newsroom Global</span>
+                    <p class="article-summary"><strong>パナソニック</strong>が2026年4月、研究・開発の中核拠点「<strong>Technology CUBE</strong>」を<strong>本格稼働</strong>させることを発表。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE80OVZjc0t3bFV3VU1qUTVhbVZIZW5lVE1wS2xwU1N2VDkyblVCOFhkT0M3U3JKSFRNTkR0NjFqd2d2dENsTUtITG1IRVZjdGJaZVlBTHNFRUtmRk5iRWZjVVZFZktfVHdNdFVieVVrellnRWZrZ0R0eVRTcUliQQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">政府は10の戦略的技術分野を特定した。 - Vietnam.vn</span>
+                    <p class="article-summary"><strong>ベトナム政府</strong>が、国家発展の優先課題として<strong>10の戦略的技術分野</strong>を特定・指定したことを報じる記事。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1TNlJTMVZRRC0ycFJJWmRpU3RQNi1DOEFicjVodE5Td21UVnM2clAtMXlodVVHV0YwWm5tS09ZeWhNeXBIeTBKd1IyLU1JTU5HbXhKOWpYOUkwWGpwRjNkdkFRem14Q09TUUJiWEtjZl9Kdw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">RAV4に搭載されたトヨタの次世代技術【石井昌道の自動車テクノロジー最前線】 - goo-net.com</span>
+                    <p class="article-summary"><strong>トヨタの次世代技術</strong>が新型<strong>RAV4</strong>に搭載され、<strong>自動車テクノロジーの最前線</strong>として注目される最新システムを解説。</p>
+                </a>
+            </div>
+        </section>
+        <section id="4">
+            <div class="section-header">
+                <h2>Google News (Business)</h2>
+                <span class="badge" style="background-color: #0f9d58;">💼 ビジネス</span>
+            </div>
+            <div class="section-summary"><h4>ビジネスニュース要約</h4><br><br><strong>AI時代の管理職リスク</strong>：高給な管理職が担う<strong>間接部門</strong>（人事・経理・総務など）は、AIによる自動化の影響を最も受けやすく、<strong>真っ先に削減される可能性</strong>があると警鐘を鳴らす。<br><br><strong>渋谷の集客力低下</strong>：再開発が続く渋谷が「<strong>飲みたい街</strong>」ランキングで<strong>12位</strong>に転落。他の繁華街と比べて"一人負け"状態となっており、街の<strong>エンタメ・飲食の魅力低下</strong>が背景にあると分析される。<br><br><strong>PS5値上げの影響予測</strong>：従来「<strong>値下げ→販売増</strong>」が定石だったPlayStationが値上げに踏み切り、ソニーのハード・<strong>ソフト販売戦略</strong>への影響を、任天堂の事例も交えて考察。<br><br><strong>ブランド野菜の食べ比べビジネス</strong>：埼玉発の<strong>株式会社モア・フーズ</strong>が展開するブランド野菜の食べ比べサービスが、<strong>「令和の虎」で絶賛</strong>を受け注目を集めている。<br><br><strong>AIビジネス提携</strong>：<strong>LTMとユニフォア</strong>が提携し、**ドメイン特</div>
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9zODRidTRCVnc0azZfYjBTZkdaUHNYOE42VHhqelV4V0lxZEJPaEt0NWJmc2dYbXdWZkVUZFVEWkNHc1UtM0RVdDh3ZmtTOVY0XzVmLUFJSzQweXNvSFAyYUYyXzdBNFRBYU44T19vUVVvQQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">高給な管理職こそあぶない？ AI時代、真っ先になくなる3つの「間接部門」：「キレイごとナシ」のマネジメント論（1/3 ページ） - ITmedia</span>
+                    <p class="article-summary"><strong>AI</strong>の台頭により、<strong>高給な管理職・間接部門</strong>（総務・経理・人事など）が<strong>真っ先に代替されるリスク</strong>があることを警告するマネジメント論。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5uZEhpMWxwZ2tKUDFDUDEtcDlLX3dPek8xLUYwNy0ydEZxQVFnLXBBMkloRmJIbWxXbUJmZ3U2SG0tcXNneXRDN0dTZlZzMEtVSjJtZlVwR2NjODRZbDdpVmtwUnFNVWtQem00ZHdqSGdCMW5zbkNVWg?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">再開発続く「渋谷」人気に異変。「飲みたい街」12位で“一人負け”の理由 - Business Insider Japan</span>
+                    <p class="article-summary"><strong>渋谷の再開発</strong>が続く中、「<strong>飲みたい街</strong>ランキング」で<strong>12位</strong>に低迷し、工事による<strong>利便性低下</strong>や街の雰囲気の変化が集客に影響していると指摘。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE01STRuanhBdmY0OEduUUZ2X0hLcmN4bjcza0ozZWRLNXlqTllsT3F5dHdpY3MzQVhBakFreXJ6ZU90U0paMjBfVWcxX0HSAU9BVV95cUxNdlBhcU1Qb0E1Nnl6N2lid0FWQUkwWW5Vc24tN3g0OW5QU1lZWk9GOXVobDl3Q3ZaM2FTWlpBZVU0bUx1dllQOU5uNDJlVUZr?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ゲーム機値下げ→販売増が普通だったPSで「値上げ」はソニーのビジネスにどう影響する？任天堂の場合やソフト販売の動向も予測 - ダイヤモンド・オンライン</span>
+                    <p class="article-summary"><strong>PS5値上げ</strong>が販売・ソフト動向に与える影響を、従来の<strong>値下げ戦略</strong>や<strong>任天堂</strong>の事例と比較しながら分析。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBpR2Z0RWtzMmg2MUtfajVHamFzNk5CU2xQSVdINzRoNEFaTEFLRFpQamJOVGloZ0NnemVIRDFoRHBaZTFHeGhjeU4xdw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">埼玉発！令和の虎絶賛のブランド野菜食べ比べビジネス「株式会社モア・フーズ」 - TVer</span>
+                    <p class="article-summary"><strong>埼玉発</strong>のスタートアップ「<strong>株式会社モア・フーズ</strong>」が、<strong>令和の虎</strong>で絶賛された<strong>ブランド野菜の食べ比べ</strong>ビジネスを展開している。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE56djhIUU9QX1VPMFc1YmY4WVI0TEVzRDR3eVp2UEhWanNzemNod21ZeGJUTGdKcFRscWIwV1ZaWXNYQ1dUOGNwdGNNbTIwelhDXzE0YTBOeWJScFU5TXczNkVMRQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">LTMとユニフォアが提携し、基幹業務プロセス全体にわたるドメイン特化型AIを拡大 - 時事ドットコム</span>
+                    <p class="article-summary"><strong>LTM</strong>と<strong>ユニフォア</strong>が<strong>戦略的提携</strong>を締結し、<strong>基幹業務プロセス</strong>全体を対象とした<strong>ドメイン特化型AI</strong>ソリューションの展開を拡大する。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oYm9aQ1ZrOHFsVi1oOWxJaVRkSUZ0X1YwWm01OHpwNldmX2RVT1JsY3BrNm5RUEhqTWoweWRQU3YxSG5KWFNSX0d3cmU4SjlSM1RScUlsQkd4bTZXdWVDcld1SFVaOUk?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">中東危機で変わる航路、喜望峰ルートの通航2倍に コスト増もリスク軽減重視 - 日経ビジネス電子版</span>
+                    <p class="article-summary"><strong>フーシ派</strong>による<strong>紅海攻撃</strong>を受け、船舶が<strong>スエズ運河</strong>を避け<strong>喜望峰ルート</strong>へ迂回、通航数が<strong>2倍</strong>に急増しコスト増より<strong>安全性</strong>を優先する動きが拡大。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5DcHNNYW1MWTdpb0tsNnJwZGdKMWY0ZV8xenlrQTBkSjFpVFdTQ1V6ZnVsME9qeGVxWkM1eFcwSnRhdFlteGFMV25NVkJ6a29xb3h0ZGVoQjcwOFhOQ1Q0aWVLUzI2cDVXTUY5MEdFNl94XzVIWURUakx0U2hEWkk?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「大嫌いだった地元」青森で学生起業。留学も東京も経験した早稲田大生は、なぜローカルを選んだのか - Business Insider Japan</span>
+                    <p class="article-summary"><strong>青森出身の早稲田大生</strong>が、かつて嫌っていた<strong>地元・青森</strong>で<strong>学生起業</strong>を選んだ理由と、<strong>留学・東京経験</strong>を経て<strong>ローカル回帰</strong>に至るまでの葛藤と気づきを描く。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9Hby16aHRrYmNCUk5GOEI5Y1FDb1h0OXlRTmRBLV9CalNGTmg1cmpoVkVYc3ZWc29zQlpMdHRHMHRXMjMzd1RLNXlXUkVKVjRGQURPYVQxOFlKVzlRMHNRaGdMeVFydkpmWkhKMlZFTUptUQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">就活人気企業はどう変わったのか 日系企業が見直される理由とコンサルの変化 - ITmedia</span>
+                    <p class="article-summary"><strong>就活人気企業</strong>のランキングに変化が生じており、<strong>日系企業の再評価</strong>が進む一方、かつて人気を集めた<strong>コンサル業界</strong>の位置づけにも変化が見られる。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5QY2FuWDBjSTUyQklPU1dxNlFfRzFwSW5KN0UwLTVhUWxuVTM3ZEJEUnNOaXNFaERZVWtWS2FxMHJpMWRkWW9CaGlKSi03QUZyMXJDNmtHYVdpeU5FcmZ4Z1ZSRVNINXczUmd3blhlMGdueHY3Uk1SeHRsR3M0czQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">Suicaがない“JR最弱”企業、QR切符アプリで会員12万人。地元出身記者が見た「交通系IC空白地帯」JR四国の逆転戦略 - Business Insider Japan</span>
+                    <p class="article-summary"><strong>JR四国</strong>が交通系IC非対応の"弱点"を逆手に取り、<strong>QRコード乗車券アプリ</strong>を導入し<strong>会員12万人</strong>を獲得する独自の<strong>デジタル戦略</strong>で巻き返しを図っている。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFB2MEFvRnlTNGg2RUNFb0hDUzdjN0JDTG5yUGVqYXNYc1dhWU1ycW9OVVQxeGNYcUppc2xIZmY1dDFsaXZwbGQ2UnUtRjQ0clNYRVVFOUJwdHFNaDViTHFpVDFCNWtabDhVSWpLazhBdDBSQQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「学歴は無価値に」 米トップエンジニアが明かす、AI時代に“大化けする人材”の共通点 - ITmedia</span>
+                    <p class="article-summary"><strong>AI時代</strong>では<strong>学歴より実力</strong>が重視され、米トップエンジニアが語る<strong>"大化けする人材"</strong>には特定の共通点があると指摘。</p>
+                </a>
+            </div>
+        </section>
+        <section id="5">
+            <div class="section-header">
+                <h2>Reddit / technology</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            <div class="section-summary"><h4>Reddit / Technology ニュース要約</h4><br><br><strong>Gen Zのストリーミング・ゲーム消費行動</strong>に関する新研究で、Gen Zユーザーの半数以上が<strong>特定の1タイトルのために契約・解約を繰り返し</strong>、フルプライスのビデオゲーム購入を避ける傾向が明らかに。<br><br><strong>OpenAI・Oracleの巨大データセンター</strong>計画をミシガン州の農村町が否決したにもかかわらず、<strong>数週間後に建設が強行</strong>されるという民主的プロセスを無視した事態が発生。<br><br><strong>Spirit航空</strong>では一般従業員が給与・福利厚生を失う一方、経営幹部が<strong>1,070万ドルの「リテンションボーナス」</strong>を要求するという格差問題が浮上。<br><br><strong>TikTokのアルゴリズム</strong>が2024年米国選挙において<strong>共和党寄りのコンテンツを優遇</strong>していたことが研究で判明し、プラットフォームの政治的中立性に疑問符。</div>
+            <div class="articles-grid">
+                
+                <a href="https://www.reddit.com/r/technology/comments/1t5l27r/more_than_half_of_gen_z_users_cancel_and_renew/" target="_blank" class="article-card">
+                    <span class="article-title">More Than Half of Gen Z Users Cancel and Renew Streaming Services for a Single Title, Won’t Purchase Full-Price Video Games, New Study Finds</span>
+                    <p class="article-summary"><strong>Z世代</strong>の半数以上が、<strong>1つのタイトル</strong>目当てに<strong>サブスク動画サービスを解約・再加入</strong>を繰り返し、<strong>ゲームの定価購入</strong>も避ける傾向にあることが新調査で判明。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5p76i/a_michigan_farm_town_voted_down_plans_for_a_giant/" target="_blank" class="article-card">
+                    <span class="article-title">A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began</span>
+                    <p class="article-summary"><strong>OpenAIとOracle</strong>の<strong>巨大データセンター建設</strong>をミシガン州の農村が<strong>住民投票で否決</strong>したにもかかわらず、<strong>数週間後に建設が開始</strong>された。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5e5vf/kevin_oleary_says_opponents_of_his_utah_data/" target="_blank" class="article-card">
+                    <span class="article-title">Kevin O'Leary says opponents of his Utah data center are 'professional protesters' — and some are powered by AI</span>
+                    <p class="article-summary"><strong>ケビン・オレアリー</strong>がユタ州の<strong>データセンター計画</strong>への反対派を「<strong>プロの抗議者</strong>」と批判し、一部は<strong>AIによって動員</strong>されていると主張。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5oq84/spirit_airlines_workers_lose_paychecks_and/" target="_blank" class="article-card">
+                    <span class="article-title">Spirit Airlines' workers lose paychecks and benefits as executives seek $10.7 million in “retention” bonuses</span>
+                    <p class="article-summary"><strong>スピリット航空</strong>が経営難に陥る中、<strong>一般従業員</strong>が給与や福利厚生を失う一方、<strong>経営幹部</strong>には総額<strong>1,070万ドルの「リテンションボーナス」</strong>が支給される予定。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5ggbz/tiktoks_algorithm_favored_republican_content_in/" target="_blank" class="article-card">
+                    <span class="article-title">TikTok’s algorithm favored Republican content in 2024 US elections, study finds</span>
+                    <p class="article-summary"><strong>TikTokのアルゴリズム</strong>が2024年米大統領選において<strong>共和党寄りのコンテンツ</strong>を優遇していたことが、新たな<strong>研究</strong>で明らかになった。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5dk88/kash_patel_claims_ai_has_stopped_school_shootings/" target="_blank" class="article-card">
+                    <span class="article-title">Kash Patel claims AI has stopped school shootings: ‘I’m using it everywhere’</span>
+                    <p class="article-summary"><strong>FBI長官カッシュ・パテル</strong>が、<strong>AI技術</strong>を活用して<strong>学校での銃乱射事件</strong>を未然に防いでいると主張し、「<strong>あらゆる場面で活用している</strong>」と述べた。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5hw04/mozilla_stop_killing_games_and_more_team_up_to/" target="_blank" class="article-card">
+                    <span class="article-title">Mozilla, Stop Killing Games and more team up to tell the UK to stop making the internet worse</span>
+                    <p class="article-summary"><strong>Mozilla</strong>、<strong>Stop Killing Games</strong>などの団体が、<strong>英国政府</strong>に対しインターネットを悪化させる規制や政策をやめるよう共同で訴えた。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5goor/fda_blocked_publication_of_research_finding_covid/" target="_blank" class="article-card">
+                    <span class="article-title">F.D.A. Blocked Publication of Research Finding Covid and Shingles Vaccines Were Safe</span>
+                    <p class="article-summary"><strong>FDA</strong>が<strong>新型コロナ・帯状疱疹ワクチンの安全性</strong>を示す研究の<strong>公表を阻止</strong>していたことが明らかになった。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5ji22/canadian_sues_us_homeland_security_which/" target="_blank" class="article-card">
+                    <span class="article-title">Canadian sues U.S. Homeland Security, which allegedly sought his Google data after critical social media posts</span>
+                    <p class="article-summary"><strong>カナダ人男性</strong>が、<strong>批判的なSNS投稿</strong>をきっかけに米<strong>国土安全保障省</strong>が<strong>Googleに個人データを要求</strong>したとして同省を提訴した。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1t5pzo8/report_spacex_ipo_gives_musk_unchecked_power_and/" target="_blank" class="article-card">
+                    <span class="article-title">Report: SpaceX IPO gives Musk unchecked power and forbids investor lawsuits</span>
+                    <p class="article-summary"><strong>SpaceX</strong>のIPO計画では、<strong>マスク氏に絶対的な経営権</strong>を付与し、<strong>投資家による訴訟を禁止</strong>する異例の条件が盛り込まれていると報告された。</p>
+                </a>
+            </div>
+        </section>
+        <section id="6">
+            <div class="section-header">
+                <h2>Reddit / business</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            <div class="section-summary"><h4>Reddit / Business ニュース要約</h4><br><br><strong>キリスト教系モバイルネットワーク</strong>が<strong>LGBTQ+コンテンツ</strong>をユーザーからブロックする方針を発表し、宗教的価値観に基づくサービス制限として注目を集めている。<br><br><strong>RokuとTCL</strong>が<strong>ソフトウェアアップデート</strong>を通じてスマートTVを<strong>機能停止（ブリック化）</strong>させたとして訴訟に発展、消費者保護の観点から問題視されている。<br><br><strong>DoorDash</strong>が<strong>2026年第1四半期決算</strong>で市場予想を上回り株価が<strong>12%急騰</strong>、好調な<strong>注文成長ガイダンス</strong>も示した。<br><br>一方、<strong>Spirit Airlines</strong>では従業員が<strong>給与・福利厚生を失う</strong>中、経営幹部が<strong>1,070万ドルの「リテンションボーナス」</strong>を要求しており、経営陣と労働者の格差が浮き彫りになっている。<br><br>> また、「<strong>2万ドルで始められるビジネス</strong>」をテーマにした議論スレッドも注目を集めている。</div>
+            <div class="articles-grid">
+                
+                <a href="https://www.reddit.com/r/business/comments/1t5kdfp/christian_mobile_network_will_block_lgbtq_content/" target="_blank" class="article-card">
+                    <span class="article-title">Christian mobile network will block LGBTQ+ content from users</span>
+                    <p class="article-summary"><strong>キリスト教系モバイルネットワーク</strong>が、ユーザーに対して<strong>LGBTQ+関連コンテンツをブロック</strong>するサービスを提供する。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t56g8y/roku_and_tcl_accused_of_bricking_smart_tvs/" target="_blank" class="article-card">
+                    <span class="article-title">Roku and TCL Accused of Bricking Smart TVs Through Software Updates</span>
+                    <p class="article-summary"><strong>RokuとTCL</strong>が<strong>ソフトウェアアップデート</strong>を通じてスマートテレビを<strong>意図的に機能不全（ブリック）</strong>にしたとして非難されている。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t5mbqz/what_business_can_you_start_with_20000/" target="_blank" class="article-card">
+                    <span class="article-title">What business can you start with $20,000?</span>
+                    <p class="article-summary"><strong>2万ドル</strong>で始められるビジネスとして、<strong>フランチャイズ</strong>、<strong>ECサイト</strong>、<strong>フリーランスサービス</strong>、<strong>食品・飲料販売</strong>などの<strong>低コスト起業</strong>の選択肢を紹介する記事。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t5sf4t/doordash_pops_12_on_strong_q1_2026_earnings/" target="_blank" class="article-card">
+                    <span class="article-title">DoorDash pops 12% on strong Q1 2026 earnings, upbeat order growth guidance</span>
+                    <p class="article-summary"><strong>DoorDash</strong>の株価が<strong>12%急騰</strong>、<strong>2026年第1四半期</strong>の好調な決算と<strong>注文成長</strong>に関する強気なガイダンスが好感される。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t4jhq8/spirit_workers_lose_paychecks_and_benefits_as/" target="_blank" class="article-card">
+                    <span class="article-title">Spirit workers lose paychecks and benefits as executives seek $10.7 million in “retention” bonuses</span>
+                    <p class="article-summary"><strong>破産申請中のSpirit航空</strong>で、<strong>一般従業員が給与・福利厚生を失う</strong>一方、<strong>経営幹部には1,070万ドルの「リテンションボーナス」</strong>が支給される見込みで、格差が浮き彫りに。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t52agl/harvard_researchers_quantum_computing_advancing/" target="_blank" class="article-card">
+                    <span class="article-title">Harvard Researchers: Quantum Computing Advancing Faster Than Expected</span>
+                    <p class="article-summary"><strong>量子コンピューティング</strong>の進化がハーバード大学の研究者により<strong>予測を上回るペース</strong>で進んでいることが明らかになった。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t5t2w7/doordash_plans_to_spend_more_than_50_million_on/" target="_blank" class="article-card">
+                    <span class="article-title">DoorDash plans to spend more than $50 million on gas price relief for its drivers this spring</span>
+                    <p class="article-summary"><strong>DoorDash</strong>が、春にドライバーの<strong>ガソリン価格高騰</strong>を緩和するため、<strong>5000万ドル以上</strong>を支援に充てる計画を発表。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t5dz21/the_impact_of_a_b_corporation_fashion_company/" target="_blank" class="article-card">
+                    <span class="article-title">The impact of a B Corporation: fashion company Ecoalf and startup Materra launched a regenerative agriculture project in 2022 in India. So far over 4,000 farmers have switched to regenerative methods.</span>
+                    <p class="article-summary"><strong>B Corp認定</strong>ファッション企業<strong>Ecoalf</strong>とスタートアップ<strong>Materra</strong>が2022年にインドで<strong>再生型農業プロジェクト</strong>を開始し、これまでに<strong>4,000人以上の農家</strong>が転換。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t4rjq4/nearly_1000_employees_laid_off_in_las_vegas/" target="_blank" class="article-card">
+                    <span class="article-title">Nearly 1,000 employees laid off in Las Vegas following Spirit Airlines' end</span>
+                    <p class="article-summary"><strong>スピリット航空の廃業</strong>により、<strong>ラスベガス</strong>で<strong>約1,000人の従業員</strong>が解雇された。</p>
+                </a>
+                <a href="https://www.reddit.com/r/business/comments/1t50l8v/real_estate_titan_compares_tax_the_rich_slogan_to/" target="_blank" class="article-card">
+                    <span class="article-title">Real estate titan compares 'tax the rich' slogan to racial slurs</span>
+                    <p class="article-summary"><strong>「富裕層に課税を」</strong>というスローガンを、不動産界の大物が<strong>人種差別的な侮辱語</strong>と同等に不快だと比較・批判した。</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-05-06 23:58:44 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>

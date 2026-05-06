@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-06
+============================================================
+
+【Hacker News】
+  1. Valve releases Steam Controller CAD files under Creative Commons license
+     https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license
+  2. UK businesses brace for jet fuel rationing
+     https://bmmagazine.co.uk/news/uk-jet-fuel-shortage-rationing-goldman-sachs-warning/
+  3. Appearing productive in the workplace
+     https://nooneshappy.com/article/appearing-productive-in-the-workplace/
+  4. Vibe coding and agentic engineering are getting closer than I'd like
+     https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/
+  5. Google Cloud fraud defense, the next evolution of reCAPTCHA
+     https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/
+  6. From Supabase to Clerk to Better Auth
+     https://blog.val.town/better-auth
+  7. The bottleneck was never the code
+     https://www.thetypicalset.com/blog/thoughts-on-coding-agents
+  8. Learning the Integral of a Diffusion Model
+     https://sander.ai/2026/05/06/flow-maps.html
+  9. Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem
+     https://tilde.run/
+  10. Inkscape 1.4.4
+     https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html
+
+【Zenn】
+  1. Claude Codeサブエージェント完全マスター、設計4原則から公式プラグイン解読までぜんぶ教えたるで
+     https://zenn.dev/masayan1126/books/claude-code-subagents-master
+  2. 部署マスタの設計について考えた
+     https://zenn.dev/yuta_enginner/articles/dd6431799cec7f
+  3. OpenCode Go + pi-coding-agent のすゝめ
+     https://zenn.dev/kimuson/articles/pi-coding-agent-with-opencode-go
+  4. AI駆動開発時代に、おさえておきたいQA技法
+     https://zenn.dev/frontline/articles/3a912df20d9210
+  5. 「Claude Codeに全部やらせる時代が来た」のか検証してみた
+     https://zenn.dev/okazu_dm/articles/83957f1623ec4d
+  6. AIエージェントの Skill は書くだけでは足りない ⇒ Waza で評価して APM で配ろう!【ハーネスエンジニアリング】
+     https://zenn.dev/microsoft/articles/b081f3ddb93040
+  7. 外部からアクセス可能なhttpsサイトはドメイン設定後「即」攻撃にさらされる件
+     https://zenn.dev/kusuke/articles/25330f7759eba4
+  8. インフラ知識ゼロの学生が、イベントNOCで監視システム諸々をキメてきた話
+     https://zenn.dev/toramutton/articles/uec-enoc2026
+  9. iOS26に向けてナビゲーションバーを整理しよう
+     https://zenn.dev/noppe/articles/925fa230b2a8ca
+  10. 自分なりのCSSアニメーションとの向き合い方
+     https://zenn.dev/yui540/articles/8d19020640582d
+
+【Qiita】
+  1. 先輩のコードが1行も理解できなくて泣きそうだった新人が、「読み方」を教わって世界が変わった話
+     https://qiita.com/fe1ix/items/cf13c7c70ae148146fd0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【徹底解説】セキュリティスペシャリストが教える、セキュアプログラミングの教科書
+     https://qiita.com/miruky/items/6fbb0c0e55835ea79e4d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. [Frontend Performance - Part 12] React最適化の完成：再レンダリング・メモ化・State設計を完全制覇
+     https://qiita.com/tuanphan/items/b05513ade79cef735f90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 【公式】レトロゲームエンジンPyxelが動く仕組み
+     https://qiita.com/kitao/items/5361d45554872a39da92?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Zustandを使って気づいた、もっと早く知りたかった7つのこと
+     https://qiita.com/nhatcaofedev/items/95b6c49cfdd148898689?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. CORSを一緒に理解しよう（Cross-Origin Resource Sharing）
+     https://qiita.com/NXD139/items/ec04f8d5c110a9927498?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. ブラウザイベントのデフォルト動作 完全リスト【preventDefault() 対応表】
+     https://qiita.com/TOMOSIA-HieuNT/items/74037827ba557a602573?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Next.js App Routerで多言語対応を最短で実装する — next-intl実践ガイド
+     https://qiita.com/nhatcaofedev/items/387cda18f797938acb6b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. React + Python + Supabase で AI 株価予測 × ポートフォリオ最適化のフルスタックアプリを作ってみた
+     https://qiita.com/tetsu3-accord/items/6807dc6c7d2543ac19d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. JavaScriptのEvent Flowを理解する — stopPropagation()・stopImmediatePropagation()・preventDefault()
+     https://qiita.com/TOMOSIA-HieuNT/items/615c58a7c9ca27926dea?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 中村文則教授が科学技術奨励賞（スガウェザリング財団）を受賞しました - nagaokaut.ac.jp
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5tZmR5cnQ2N08wa3ZTWFdCTmRQX0xjMk1qYl9HX2RPX0JudDRWZDAySkpZZkYzWV9wRnllaUdMV3hlWkN3NW1BOEQwWTJDUTlQQjQzVHNoME1lU2lOQm51OHY4OGdYYXlSNTRNQTBEWmtidw?oc=5
+  2. $Huachen AI Parking Management Technology (HCAI.US)$ YOLO の時間 - Moomoo
+     https://news.google.com/rss/articles/CBMitgFBVV95cUxNVl9zM2FkQUJybVFHWHNiODFQcVgydDJrZTh5Nkw0cXdiSXNlUHRqLWw5SWszUm94bllZVDlUZ1BJWHpPV0l6ZVhrMS1tTi0xdkhuRVY2S042VnIwdnhnZDAxS1RBMEItVzNZcE5obk5nWGFmZHRxU2FBY2N6dU5aUUpSNms1SFhkVU1Cc0l1eFk0N01IUnRlQUY1T0hXNWllektuSkJUVzBTaXg0V2Z5ZlBXdEU3QQ?oc=5
+  3. (株)テクノロジーズ【5248】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE16R1R4cW8wdnl1Q2owZkIyUGs3WlhReFFiZU1yelNvQmlueHVTOTdqejdhb2E4V0pKLXJNUk1LbGtWT3ZJLW1VWTVadlBvX1dObWc?oc=5
+  4. 米科学界に打撃、トランプ政権がNSF委員22 人全員を解任 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMipwFBVV95cUxOdUFVblJMMEVmbmJWWS1MazhnV2JtbEs5UDg4UFpzOElJNEsxZm00ZkZGWi03d0wtM2lzaXVZUEM5RldWLXJuTGZDZHhvREVFaG5IakRkR0JwQnA1MWNhV3RIdGVDRjlJS0pNODFVZDFXOUJENU9oeUVzcVJkdUVGWnAxbzRycE41V0lUMTV0a1hmd2wwck5ValN3QVlVUURaTFk1SjRiYw?oc=5
+  5. ハノイ：国際広告設備・技術展示会、5月13日から開催［イベント］ - VIETJOベトナムニュース
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCMnpBUlc0d3IyY1A5X0hqaVFvV0QtcmpLbFBkWnYzSUx3bXEzYkNZT01BMTI0ZUlfeGRtQnY3SFZVNGJIZnB1d1lKcXFmemw4cEc2SlNCUUxfemVRSjRRUGtB?oc=5
+  6. Hana Technology再び大型契約取消し CB投資家が元本償還要求 - CHOSUNBIZ - Chosunbiz
+     https://news.google.com/rss/articles/CBMigAFBVV95cUxQbDV5aWZMTjNFTWlHSExLRDhuRi1tSkFydE9WY09YUVdWVkx2S3Z2S1RaRllhd1ZNU3dCS1dBZVE0YzVHSVNQbWNKb3ZHWXJPdDZlaWQ3MTFzZWlmOU5CdTZzVVlld2F2QUZMblhBdUFjZmRsaWp3ZlVoNnJESVhlSNIBlAFBVV95cUxOUXF4cFdvMmVQTEktUkJ2ZS1FSGVNdjZjbmlLNC1VUkhfSlhLRnlQb2ZNdGlOWUxORUloZS10V1B0UVFaU2daNnhueVJmWUpjOE5qQ1VKVVpiajJCVjVZajUtczhGU0k1dVYxdFpjaUFPUnoxTjhRcDQ3Q3VEX3kyQ1BjMjlIT0I5UTZDeldxWldmYW1R?oc=5
+  7. ノーベル賞級成果が量産される時代が到来 - tel.co.jp
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZY1hFdW9BZ0k3TXhpcTEwQXlSbFBaNEQwZ3JvQ21WVEdtUk10bjA4TldmS2RJS2xiRmZPMGFIUi1IVG5OcURwTUJDOVdCSlFSZnYxbGFlUzJrYzVfNUFteUtsT1F0dw?oc=5
+  8. 研究・開発の中核拠点「Technology CUBE」が2026年4月本格稼働 | 技術・研究開発 | 技術・研究開発 | プレスリリース - Panasonic Newsroom Global
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vSmVNRUpvSl9tTkZGcHBSMmFGdVRQMGhVdzU1eXJNM1RjTE83Y0x5TlVxdk1nUzFBN2RKYnpLeFBxbHhMN0lFYU1SMDAzSDRZZGVtdlhCNmlVZw?oc=5
+  9. 政府は10の戦略的技術分野を特定した。 - Vietnam.vn
+     https://news.google.com/rss/articles/CBMifkFVX3lxTE80OVZjc0t3bFV3VU1qUTVhbVZIZW5lVE1wS2xwU1N2VDkyblVCOFhkT0M3U3JKSFRNTkR0NjFqd2d2dENsTUtITG1IRVZjdGJaZVlBTHNFRUtmRk5iRWZjVVZFZktfVHdNdFVieVVrellnRWZrZ0R0eVRTcUliQQ?oc=5
+  10. RAV4に搭載されたトヨタの次世代技術【石井昌道の自動車テクノロジー最前線】 - goo-net.com
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1TNlJTMVZRRC0ycFJJWmRpU3RQNi1DOEFicjVodE5Td21UVnM2clAtMXlodVVHV0YwWm5tS09ZeWhNeXBIeTBKd1IyLU1JTU5HbXhKOWpYOUkwWGpwRjNkdkFRem14Q09TUUJiWEtjZl9Kdw?oc=5
+
+【Google News (Business)】
+  1. 高給な管理職こそあぶない？ AI時代、真っ先になくなる3つの「間接部門」：「キレイごとナシ」のマネジメント論（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9zODRidTRCVnc0azZfYjBTZkdaUHNYOE42VHhqelV4V0lxZEJPaEt0NWJmc2dYbXdWZkVUZFVEWkNHc1UtM0RVdDh3ZmtTOVY0XzVmLUFJSzQweXNvSFAyYUYyXzdBNFRBYU44T19vUVVvQQ?oc=5
+  2. 再開発続く「渋谷」人気に異変。「飲みたい街」12位で“一人負け”の理由 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5uZEhpMWxwZ2tKUDFDUDEtcDlLX3dPek8xLUYwNy0ydEZxQVFnLXBBMkloRmJIbWxXbUJmZ3U2SG0tcXNneXRDN0dTZlZzMEtVSjJtZlVwR2NjODRZbDdpVmtwUnFNVWtQem00ZHdqSGdCMW5zbkNVWg?oc=5
+  3. ゲーム機値下げ→販売増が普通だったPSで「値上げ」はソニーのビジネスにどう影響する？任天堂の場合やソフト販売の動向も予測 - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE01STRuanhBdmY0OEduUUZ2X0hLcmN4bjcza0ozZWRLNXlqTllsT3F5dHdpY3MzQVhBakFreXJ6ZU90U0paMjBfVWcxX0HSAU9BVV95cUxNdlBhcU1Qb0E1Nnl6N2lid0FWQUkwWW5Vc24tN3g0OW5QU1lZWk9GOXVobDl3Q3ZaM2FTWlpBZVU0bUx1dllQOU5uNDJlVUZr?oc=5
+  4. 埼玉発！令和の虎絶賛のブランド野菜食べ比べビジネス「株式会社モア・フーズ」 - TVer
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFBpR2Z0RWtzMmg2MUtfajVHamFzNk5CU2xQSVdINzRoNEFaTEFLRFpQamJOVGloZ0NnemVIRDFoRHBaZTFHeGhjeU4xdw?oc=5
+  5. LTMとユニフォアが提携し、基幹業務プロセス全体にわたるドメイン特化型AIを拡大 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE56djhIUU9QX1VPMFc1YmY4WVI0TEVzRDR3eVp2UEhWanNzemNod21ZeGJUTGdKcFRscWIwV1ZaWXNYQ1dUOGNwdGNNbTIwelhDXzE0YTBOeWJScFU5TXczNkVMRQ?oc=5
+  6. 中東危機で変わる航路、喜望峰ルートの通航2倍に コスト増もリスク軽減重視 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oYm9aQ1ZrOHFsVi1oOWxJaVRkSUZ0X1YwWm01OHpwNldmX2RVT1JsY3BrNm5RUEhqTWoweWRQU3YxSG5KWFNSX0d3cmU4SjlSM1RScUlsQkd4bTZXdWVDcld1SFVaOUk?oc=5
+  7. 「大嫌いだった地元」青森で学生起業。留学も東京も経験した早稲田大生は、なぜローカルを選んだのか - Business Insider Japan
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5DcHNNYW1MWTdpb0tsNnJwZGdKMWY0ZV8xenlrQTBkSjFpVFdTQ1V6ZnVsME9qeGVxWkM1eFcwSnRhdFlteGFMV25NVkJ6a29xb3h0ZGVoQjcwOFhOQ1Q0aWVLUzI2cDVXTUY5MEdFNl94XzVIWURUakx0U2hEWkk?oc=5
+  8. 就活人気企業はどう変わったのか 日系企業が見直される理由とコンサルの変化 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9Hby16aHRrYmNCUk5GOEI5Y1FDb1h0OXlRTmRBLV9CalNGTmg1cmpoVkVYc3ZWc29zQlpMdHRHMHRXMjMzd1RLNXlXUkVKVjRGQURPYVQxOFlKVzlRMHNRaGdMeVFydkpmWkhKMlZFTUptUQ?oc=5
+  9. Suicaがない“JR最弱”企業、QR切符アプリで会員12万人。地元出身記者が見た「交通系IC空白地帯」JR四国の逆転戦略 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5QY2FuWDBjSTUyQklPU1dxNlFfRzFwSW5KN0UwLTVhUWxuVTM3ZEJEUnNOaXNFaERZVWtWS2FxMHJpMWRkWW9CaGlKSi03QUZyMXJDNmtHYVdpeU5FcmZ4Z1ZSRVNINXczUmd3blhlMGdueHY3Uk1SeHRsR3M0czQ?oc=5
+  10. 「学歴は無価値に」 米トップエンジニアが明かす、AI時代に“大化けする人材”の共通点 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFB2MEFvRnlTNGg2RUNFb0hDUzdjN0JDTG5yUGVqYXNYc1dhWU1ycW9OVVQxeGNYcUppc2xIZmY1dDFsaXZwbGQ2UnUtRjQ0clNYRVVFOUJwdHFNaDViTHFpVDFCNWtabDhVSWpLazhBdDBSQQ?oc=5
+
+【Reddit / technology】
+  1. More Than Half of Gen Z Users Cancel and Renew Streaming Services for a Single Title, Won’t Purchase Full-Price Video Games, New Study Finds
+     https://www.reddit.com/r/technology/comments/1t5l27r/more_than_half_of_gen_z_users_cancel_and_renew/
+  2. A Michigan farm town voted down plans for a giant OpenAI-Oracle data center. Weeks later, construction began
+     https://www.reddit.com/r/technology/comments/1t5p76i/a_michigan_farm_town_voted_down_plans_for_a_giant/
+  3. Kevin O'Leary says opponents of his Utah data center are 'professional protesters' — and some are powered by AI
+     https://www.reddit.com/r/technology/comments/1t5e5vf/kevin_oleary_says_opponents_of_his_utah_data/
+  4. Spirit Airlines' workers lose paychecks and benefits as executives seek $10.7 million in “retention” bonuses
+     https://www.reddit.com/r/technology/comments/1t5oq84/spirit_airlines_workers_lose_paychecks_and/
+  5. TikTok’s algorithm favored Republican content in 2024 US elections, study finds
+     https://www.reddit.com/r/technology/comments/1t5ggbz/tiktoks_algorithm_favored_republican_content_in/
+  6. Kash Patel claims AI has stopped school shootings: ‘I’m using it everywhere’
+     https://www.reddit.com/r/technology/comments/1t5dk88/kash_patel_claims_ai_has_stopped_school_shootings/
+  7. Mozilla, Stop Killing Games and more team up to tell the UK to stop making the internet worse
+     https://www.reddit.com/r/technology/comments/1t5hw04/mozilla_stop_killing_games_and_more_team_up_to/
+  8. F.D.A. Blocked Publication of Research Finding Covid and Shingles Vaccines Were Safe
+     https://www.reddit.com/r/technology/comments/1t5goor/fda_blocked_publication_of_research_finding_covid/
+  9. Canadian sues U.S. Homeland Security, which allegedly sought his Google data after critical social media posts
+     https://www.reddit.com/r/technology/comments/1t5ji22/canadian_sues_us_homeland_security_which/
+  10. Report: SpaceX IPO gives Musk unchecked power and forbids investor lawsuits
+     https://www.reddit.com/r/technology/comments/1t5pzo8/report_spacex_ipo_gives_musk_unchecked_power_and/
+
+【Reddit / business】
+  1. Christian mobile network will block LGBTQ+ content from users
+     https://www.reddit.com/r/business/comments/1t5kdfp/christian_mobile_network_will_block_lgbtq_content/
+  2. Roku and TCL Accused of Bricking Smart TVs Through Software Updates
+     https://www.reddit.com/r/business/comments/1t56g8y/roku_and_tcl_accused_of_bricking_smart_tvs/
+  3. What business can you start with $20,000?
+     https://www.reddit.com/r/business/comments/1t5mbqz/what_business_can_you_start_with_20000/
+  4. DoorDash pops 12% on strong Q1 2026 earnings, upbeat order growth guidance
+     https://www.reddit.com/r/business/comments/1t5sf4t/doordash_pops_12_on_strong_q1_2026_earnings/
+  5. Spirit workers lose paychecks and benefits as executives seek $10.7 million in “retention” bonuses
+     https://www.reddit.com/r/business/comments/1t4jhq8/spirit_workers_lose_paychecks_and_benefits_as/
+  6. Harvard Researchers: Quantum Computing Advancing Faster Than Expected
+     https://www.reddit.com/r/business/comments/1t52agl/harvard_researchers_quantum_computing_advancing/
+  7. DoorDash plans to spend more than $50 million on gas price relief for its drivers this spring
+     https://www.reddit.com/r/business/comments/1t5t2w7/doordash_plans_to_spend_more_than_50_million_on/
+  8. The impact of a B Corporation: fashion company Ecoalf and startup Materra launched a regenerative agriculture project in 2022 in India. So far over 4,000 farmers have switched to regenerative methods.
+     https://www.reddit.com/r/business/comments/1t5dz21/the_impact_of_a_b_corporation_fashion_company/
+  9. Nearly 1,000 employees laid off in Las Vegas following Spirit Airlines' end
+     https://www.reddit.com/r/business/comments/1t4rjq4/nearly_1000_employees_laid_off_in_las_vegas/
+  10. Real estate titan compares 'tax the rich' slogan to racial slurs
+     https://www.reddit.com/r/business/comments/1t50l8v/real_estate_titan_compares_tax_the_rich_slogan_to/
