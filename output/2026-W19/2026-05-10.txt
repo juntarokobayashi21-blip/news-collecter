@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-10
+============================================================
+
+【Hacker News】
+  1. Hardware Attestation as Monopoly Enabler
+     https://grapheneos.social/@GrapheneOS/116550899908879585
+  2. Local AI needs to be the norm
+     https://unix.foo/posts/local-ai-needs-to-be-norm/
+  3. Incident Report: CVE-2024-YIKES
+     https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html
+  4. Running local models on an M4 with 24GB memory
+     https://jola.dev/posts/running-local-models-on-m4
+  5. Obsidian plugin was abused to deploy a remote access trojan
+     https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/
+  6. First tunnel element of the Fehmarnbelt Tunnel immersed
+     https://www.arup.com/en-us/news/first-fehmarnbelt-tunnel-element-lowered/
+  7. Why modern parents feel more sleep deprived than our ancestors did
+     https://www.bbc.com/future/article/20260508-parents-in-ancient-times-felt-less-sleep-deprived-what-our-ancestors-did-differently-on-baby-sleep
+  8. Ask HN: What are you working on? (May 2026)
+     https://news.ycombinator.com/item?id=48085993
+  9. Traces Of Humanity
+     https://tracesofhumanity.org/hello-world/
+  10. Maryland citizens hit with $2B power grid upgrade for out-of-state AI
+     https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises
+
+【Zenn】
+  1. CodexをローカルLLMで駆動する
+     https://zenn.dev/robustonian/articles/codex_with_local_llm
+  2. ユーザーストレスを低減するローディング体験の4原則
+     https://zenn.dev/akfm/articles/better-loading-ux
+  3. 人間がMarkdownを書いたり修正しない時代に、Claude Code hookでドキュメントを自動でファンシーHTML化する
+     https://zenn.dev/uehaj/articles/claude-code-fancy-html-hook
+  4. Pythonプロジェクトを作るたびに同じ設定をコピペするのをやめたい（Copier使ってみた）
+     https://zenn.dev/zaspa/articles/adf4230e859665
+  5. 自作NASを構築した（Ubuntu Server+OpenZFS）
+     https://zenn.dev/neet/articles/903f811223936a
+  6. ISUNARABE合同演習2026とかいう最高のイベントに参加してきた
+     https://zenn.dev/rail44/articles/932a22e70ef98d
+  7. 「実装はAIに任せた。でも精度は出なかった」
+     https://zenn.dev/beckento/articles/a000216f224e53
+  8. なぜ Tailwind CSS は line-height を leading と呼ぶのか？ 由来や経緯を調べてみた
+     https://zenn.dev/y_ta/articles/why-tailwind-leading-tracking
+  9. 今日からできるAIワークフロー設計シリーズ：LLMアプリを本番業務に入れるための設計パターン集
+     https://zenn.dev/kanaria007/articles/c74aae44ba99fb
+  10. LLMから呼ばれるアプリをMCPファーストで設計するときの3つの原則
+     https://zenn.dev/ykenkou001/articles/mcp-first-regulatory-saas
+
+【Qiita】
+  1. Git初心者の頃わからなかった「pullするな」の意味
+     https://qiita.com/shimitaro/items/bdd7cedde03974a94406?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 「AWS環境にデプロイした際に、Webサーバーって何のためにいるの？」という疑問について調べてみた
+     https://qiita.com/hosomatu/items/9545ee09b2ffbe25057c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. TransformerのSelf AttentionのQKVを直感的に解説する
+     https://qiita.com/kenmatsu4/items/1b3853a3314ab66eb2a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. クオンツトレード入門者のための確率過程――価格予測ではなく、分布・リスク・エッジを見るために
+     https://qiita.com/tikeda123/items/ac378f83a4e7911392d4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Pythonの標準出力をもっと美しく。`Rich` で作るモダンなCLIツール入門
+     https://qiita.com/nozomi2025/items/313779e2d3feadfefa7e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 「自分にエンジニアなんて無理かも」と思ってる人へ。最初に知ってほしい“仕事の進め方”
+     https://qiita.com/prum_hitomi/items/30ed3d885da5bb605460?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. PRを出す前にコミット履歴を整えろと先輩に叩き込まれた話 〜git rebase -i 入門〜
+     https://qiita.com/shimitaro/items/c63073fef7fb87d9f472?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【AWS】Amazon Nova2 Sonicといい感じに日本語でお話ししたかった...
+     https://qiita.com/yakumo_09/items/b3ef71c695080ea8b849?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【AWS AppSync】Amplify Gen 2 の裏側で動く「スマートな中継機能」を理解する
+     https://qiita.com/jus1730/items/a55d79f16dbfe7a805e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【2026年最新】Copilot Studio ライセンス完全ガイド ─ 大企業が「損しない」プラン選びの全知識
+     https://qiita.com/Katayama_Studio/items/b46711e39fb8ab50a708?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. ロボットが胚を作り、AIが精子を選ぶ—— IVF新時代がやってきた - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBMZzVhaUNmS3FhaVRZMGtZUzM1NmpKVkNzdHJmbjdYVUZYRXBiLThGZWxZSEVKVWJTdHU2YVBTSzdpRThlellicWFSVjd2ZG9oNUVVVHp5cTBuOVNIcEhvUy1aWGxKTFNOelZtRA?oc=5
+  2. Microchip Technology Posts $1.31B Quarter: Is Microchip Technology Stock Finally Turning the Corner? - TIKR.com
+     https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmN5Q3FTYlVXbkZNNGdUTnB4OTdNaFFTeDVlQmh2eExONGhrejJOWFg1ajM5XzNhMmFQR2d0QmdIMkJqX2NNRXJ0YlJHdUw3cXdOWDVIQWFPcDFSTklNUlRURUtyQ2Y0RzRQMl9tZ0ZYNERFWWMxaDlVVnBCbHZNUU45d3VybkdoeGlUVDU5cWswaFZ2OWNNcGQwZG5ucnJYWVNKWE5qTmxBbDBxU2JuMlpqYmVlaU1fb1ZJR2ZSRmtFXzlrelE?oc=5
+  3. 情報処理技術者試験が大改定 消える応用・高度試験、難易度は変えない意向 - 日経クロステック
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBGLWJzcHlLSG02QTEtT196T3BVakVEY2pNLS1sV3d5UF9VczR5bVdjUTVMLWs2dXZfTDhvZXFraTdibTkzV1BpY3FxZlVHeVVDOHBlZ2U4eTFKT0ZnTl9fTEVvLXI3VTI0VGVMTQ?oc=5
+  4. みんなのコード×日本女子大学附属中学校、技術科・情報領域に関する指導案を公開 - ICT教育ニュース
+     https://news.google.com/rss/articles/CBMiUEFVX3lxTE54NFNiVEhHeF9pY09leExfOFdlSGgtYjNzbUEtcmhsM1BGRU9Yc3NYMDYzZjc2SEJQRTJQZUVyNzQ5N25QbmgxWVlTZWRFZjR0?oc=5
+  5. AIを進化させる半導体新技術のオンパレード、2026 VLSI Symposium - semiconportal.com
+     https://news.google.com/rss/articles/CBMikgFBVV95cUxOOUFHdEZ0UDR6RzB2ZExNTDljZ0Eyc3FxVkVkeVFJTE1QWWpOajU1WDdaSnA3R20wNnlVS3didkNDaDlRMWNmOHgxRXZVTjNiOE5lWUEtd1dVVzczRDkwSmx6QmR4T2VkMDZpV3Z2QlRHWUE0MkMwY0FiQ196elFmYjRnOFdZMG5LNV9hNXpyNEFOdw?oc=5
+  6. SUNMI Technology (06810.HK)、香港証券取引所のメインボードへ正式上場 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfZjJrdVRuWC11elQzWHJ3T0p5VTRsbzFfYVdaYTNybC1sWHRnaGJfRVpYTC0tQWVTeTZlVmdzQnhRT1RRek16X2V6akx5OE9RbjJZeldMX20wX1dCOVE?oc=5
+  7. ソーファイ・テクノロジーズ【SOFI】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CN3M2My1udE1kY1l2NDZRdVJaTUU1ekRIcVJ5UEpFelgzZExGaWxwR0dYR3JFQXo1dnVpcmZJcVBIQmdVeHpNYWRIbzl1WFk?oc=5
+  8. Tech Trends 2026 日本版 | デロイト トーマツ グループ - Deloitte
+     https://news.google.com/rss/articles/CBMifkFVX3lxTE1yYmcyNDhISUVkLVMzZUJsTlZTZndVU1B5OHFyYnY5N2JNYzF3V2hJcFFnZnl4Q3BxbUhoUk1qWkJCeDh3MGZWaWdTZ2tKVWZRdERldlZUWHFFRmdMdEpxZDZzOERCb1E0ZERKRHNrcVRYQlBZZlNKT1U2enJmZw?oc=5
+  9. 米、イランに衛星画像提供した中国企業に制裁－首脳会談の直前に公表 - Bloomberg.com
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE5MQVFrWEszSlpBN01YaVpHN0U2NW5FU09DNE9rLWZmeW9aV2Nwdm80ZHNvbFVYTkNqT3pUbWJOQTZTaFh5ckc1N0E2eXJwRlZ0akhBSHVuVFh0QnFJY1lPWkE0eFZXNDlCLVZxUjFIZnZPYldRbXBF?oc=5
+  10. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+
+【Google News (Business)】
+  1. 中国とアメリカのスタートアップ企業で20年間働いてきた起業家が、アメリカの方がやりやすいと言う理由（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5DSFhVM3c1emZjLWNOYjJUS2Q2dVF6SXk1RW1GanFoS2hYZ2RmYTZXRndGN0lmbVRwUGJWZ0ZUYXoybExlbURJOHJkNVR0S2tqYjZFVTJfUTJ6WUZGYUhZTFhTZW44NjQ3a3dYOThtWWRwTGt3X0pUMURIQ0hLSUU?oc=5
+  2. 「ビジネスクラスやファーストクラスの廃止」などの効率化で航空業界の炭素排出量を半減できる可能性 - GIGAZINE
+     https://news.google.com/rss/articles/CBMiggFBVV95cUxNbHNHbUtXY1h0RXQ5MjJKSGV1UFhNNHB5R2ZRSEtxT29vekNMb0lRVlBnZFNjZm00QndhNkkwV0Y5aDltTHFOZklqLVZjODc2bllUd1lxa3hGREZxZVBJMzlSOXZSZEpZSEctZGJhUFFwYXluM21lNHAwTmhsTUJ4YXVR?oc=5
+  3. スターバックスはエナジードリンク企業へ進化中…カフェイン補給できるコーヒー以外のメニューが充実 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMizAFBVV95cUxOWXdhT3A4Q21odDg3MW9OYmwwdlNIV3RnbkVpZUpoRXcxd3FGNWM2WDU5WHJVWmNKYldMcjBMeTJPNkQ3bzgwOUUwUlZSR1NyZkRjUGpJNTJBUUhDamkzTVVOUjY5MlBOYjF2MEFzMjNwX216ZHB2WlpMNHNPUHVnWExCcDdCRVB3QmtFLS1oaHhseTNySXRzWG5OVlJGSmc3ZWdRTFJMX0JISkFkM1V5VkhQM2c1MWctTFhieFR0MVlEWVFhRUpKRnBfV2I?oc=5
+  4. クラリオン、日立マクセル…日立製作所はなぜ黒字の優良企業・事業を売却したのか？ - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4TDJLdk1QU191V3A5NUZJdWIzX2F5RDA1Vm5fTmVWNkszN2xHZTBhYnR1VTBwNHpWbTY0emRlRzg0SWRTWjVIYzR2OW1uSjVkSW53TXJR?oc=5
+  5. 「全企業に不可欠になる」 NVIDIAフアンCEOが絶賛した“同僚AI”「OpenClaw」の衝撃 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFA3dVNWVzJYczV3Z1hiSHhXNDltY0VNeDN4SThDVkpmQXJfNDl5NEIxZDNfd2tMaDlkWkhsN1JGeHhMLXEyUnJHX3NnemVheElxYW1zM0lkVS1YYzNqa2hKVkJ6dnRsaFBCOUhNU1k5a2dXZw?oc=5
+  6. 技術向上に役立つ補助金や融資 2026年度の中小企業支援策一覧 - ツギノジダイ
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hMk1wa1RKMVJVNWxvbUo3NWhfN2hRUHdfbjFsdGhXVmRMWkpBdjlWTWgxVGRJdUlRdm5VVzRYNzVrNzRaWGZvaWdsQV9WUVotaHc?oc=5
+  7. ｢バックアップしたのに戻せない！｣備える企業は9割超でも復元成功は約2割という"罠"…問題の本質は｢見えざる分断｣ - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0Y2pFQ3NPbFk3bHprMnZoZ1kwY0E4amw4ZkVkVUVPWDR4eUQycWluNjFPN3hPeFBnRVd5dnNremhyQVFSd29jalBCWmpCUW5tYmc?oc=5
+  8. 研究開発費横ばい、株主還元は伸長 投資及び腰の日本 企業は果敢に攻めよ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NemZzT05VekhqeDZNOEFab3ZoeHFVRXFjRUgwWlZtbDd0UWRDbV9HRmFCYXl3VVpRb3dBMVhVMVlKWDAzdjFzeUF0bXFnWm9fd19KY2h3U3hLOWg2bXVKMkFfaGo?oc=5
+  9. 越印企業が27件の協力合意、航空や観光・ハイテク分野で［経済］ - VIETJOベトナムニュース
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XUGpvQzY5Znl2alRDcFRkWWppQUFJRUt3OUZET1JPNUk1czhBYXlMWHFPSklzV3M2d3pmNmk5VjJkSXZ0b3ZLM0hXV2RLNjlmOWZKdnZBVlRtNDRJeE9pQ0RTWUs?oc=5
+  10. 【ビジネス講座】保税区域と増値税輸出還付の制度変更と現状 - nna.jp
+     https://news.google.com/rss/articles/CBMiRkFVX3lxTE5FRkt1dHhJRG9WMmtDSDBwVXdjeFJJVlRwenJkX193S1owcndseUsxSUxieHE0bmJRWXo2a3Blc0JxeHJaMkE?oc=5
+
+【Reddit / technology】
+  1. Maryland citizens slapped with $2 billion power grid upgrade bill for out-of-state AI data centers — state complains to federal energy regulators, says additional cost breaks ‘ratepayer protection pledge’ promises
+     https://www.reddit.com/r/technology/comments/1t9bwaf/maryland_citizens_slapped_with_2_billion_power/
+  2. AI data centers face increasing complaints about inaudible but 'felt' infrasound — citizens complain high- and low-frequency sounds do not register on decibel meters but cause adverse health effects
+     https://www.reddit.com/r/technology/comments/1t9la8y/ai_data_centers_face_increasing_complaints_about/
+  3. Sony records a $766 million impairment loss against Bungie for the 2025 financial year, a 1-2 punch of Destiny 2 and Marathon failing to meet its expectations | Sony bought Bungie for $3.6 billion in 2022.
+     https://www.reddit.com/r/technology/comments/1t9h75k/sony_records_a_766_million_impairment_loss/
+  4. FCC Attempts to Solve Robocall Problem by Potentially Creating Even Bigger Privacy Problem
+     https://www.reddit.com/r/technology/comments/1t9e0hs/fcc_attempts_to_solve_robocall_problem_by/
+  5. A data center drained 30M gallons of water unnoticed — until residents complained about low water pressure
+     https://www.reddit.com/r/technology/comments/1t8ppsh/a_data_center_drained_30m_gallons_of_water/
+  6. Linux Kernel Killswitch Proposed After Recent Vulnerability Disclosures
+     https://www.reddit.com/r/technology/comments/1t9bpi4/linux_kernel_killswitch_proposed_after_recent/
+  7. Ryan Cohen Says He ‘Isn’t Passionate’ About GameStop As He Makes Desperate Bid For eBay
+     https://www.reddit.com/r/technology/comments/1t92bah/ryan_cohen_says_he_isnt_passionate_about_gamestop/
+  8. Canvas Restored After Hack, Breach Traced to 'Free-For-Teacher' Accounts
+     https://www.reddit.com/r/technology/comments/1t92yae/canvas_restored_after_hack_breach_traced_to/
+  9. Former IT contractor convicted for wiping 96 US government databases
+     https://www.reddit.com/r/technology/comments/1t8urr3/former_it_contractor_convicted_for_wiping_96_us/
+  10. GM agrees to pay $12.75M in California driver privacy settlement
+     https://www.reddit.com/r/technology/comments/1t98348/gm_agrees_to_pay_1275m_in_california_driver/
+
+【Reddit / business】
+  1. McDonald's CEO Chris Kempczinski says consumer spending could be "getting a little bit worse" Kempczinski said on the company’s Q1 2026 earnings conference call.
+     https://www.reddit.com/r/business/comments/1t8ynjz/mcdonalds_ceo_chris_kempczinski_says_consumer/
+  2. Sony records a $766 million impairment loss against Bungie for the 2025 financial year, a 1-2 punch of Destiny 2 and Marathon failing to meet its expectations | Sony bought Bungie for $3.6 billion in 2022.
+     https://www.reddit.com/r/business/comments/1t8pnhv/sony_records_a_766_million_impairment_loss/
+  3. Nvidia embraces role of AI investor, pushing past $40 billion in equity bets in 2026
+     https://www.reddit.com/r/business/comments/1t9m4m0/nvidia_embraces_role_of_ai_investor_pushing_past/
+  4. Looking to Scale New Opportunities
+     https://www.reddit.com/r/business/comments/1t9ghg9/looking_to_scale_new_opportunities/
+  5. New business owner. Anything tips or advice!
+     https://www.reddit.com/r/business/comments/1t8wbcz/new_business_owner_anything_tips_or_advice/
+  6. Nvidia to invest up to $3.2 billion in Corning as part of massive optical fiber deal with 3 new factories focused on AI
+     https://www.reddit.com/r/business/comments/1t7wopa/nvidia_to_invest_up_to_32_billion_in_corning_as/
+  7. I'm looking for something new
+     https://www.reddit.com/r/business/comments/1t8raz9/im_looking_for_something_new/
+  8. Exporting Mechanical Precision parts
+     https://www.reddit.com/r/business/comments/1t8xmd3/exporting_mechanical_precision_parts/
+  9. Bloodbath at Silicon Valley giant as CEO’s savage memo to staff emerges
+     https://www.reddit.com/r/business/comments/1t7dz0y/bloodbath_at_silicon_valley_giant_as_ceos_savage/
+  10. Hegseth aims to cut through the bureaucracy with ‘Deal Team Six’. The Department of Defense launched a team of elite private sector businessmen tasked with handling and approving defense contractor negotiations, aimed at fixing the former “broken Pentagon bureaucracy.”
+     https://www.reddit.com/r/business/comments/1t7jgxf/hegseth_aims_to_cut_through_the_bureaucracy_with/
