@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-12
+============================================================
+
+【Hacker News】
+  1. TanStack NPM Packages Compromised
+     https://github.com/TanStack/router/issues/7383
+  2. UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)
+     https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage
+  3. Library for fast mapping of Java records to native memory
+     https://github.com/mamba-studio/TypedMemory
+  4. GitLab Announces Workforce Reduction and End of Their CREDIT Values
+     https://about.gitlab.com/blog/gitlab-act-2/
+  5. Google says criminal hackers used AI to find a major software flaw
+     https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html
+  6. Nullsoft, 1997-2004 (2004)
+     https://slate.com/technology/2004/11/the-death-of-the-last-maverick-tech-company.html
+  7. Can someone please explain whether Cloudflare blackmailed Canonical?
+     https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/
+  8. Ratty – A terminal emulator with inline 3D graphics
+     https://ratty-term.org/
+  9. Griffin PowerMate driver for modern macOS
+     https://github.com/jameslockman/Griffin-PowerMate-Driver
+  10. Gmail registration now requires scanning a QR code and sending a text message
+     https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082
+
+【Zenn】
+  1. Claude Code に「前に〇〇って言ってたよね」って言ってほしい
+     https://zenn.dev/flinters_blog/articles/d824ce0576dcf2
+  2. Vercelのコストを抑えるためにBot対策する
+     https://zenn.dev/chot/articles/vercel_bot_manager
+  3. 拡張性は「誰が何を変えるか」で設計する
+     https://zenn.dev/dress_code/articles/design-extensibility-who-what
+  4. AI駆動PMの5原則と12の具体例 — Claude Code × Obsidian
+     https://zenn.dev/assign/articles/4ba3d41bf59a61
+  5. コードを書かなくなった我々は何者か —— Product / Platform / Evaluate の3職責でエンジニアの役割を再定義する
+     https://zenn.dev/tokium_dev/articles/engineer-role-triangle-map
+  6. ソフトウェアの「設計原則」を、なぜ一部のエンジニアは生理的に嫌うのか
+     https://zenn.dev/torao/articles/20260502-differences-in-engrs-cognitive-strategies
+  7. クリーンアーキテクチャは変更コストが高い！ YAGNI原則を適用して軽量化する
+     https://zenn.dev/takakiriy/articles/f28aee009d0044
+  8. 書籍のOCRにLLMを組み合わせることで精度を上げるだけでなく文書構造や図も表現した記録
+     https://zenn.dev/phpmyadmin/articles/0dba6fef411e21
+  9. Next.jsからQwikへ丸ごと移行してみた - 個人開発した動的Webアプリのリアーキテクチャ実録
+     https://zenn.dev/connect0459/articles/rearchitect-from-next-to-qwik
+  10. Obsidianで日常の記録を取るようになってから変わったこと - 人生をハックする
+     https://zenn.dev/dip_techblog/articles/d8d58c0f35708a
+
+【Qiita】
+  1. 「今日何してた？」に詰まる新人エンジニアへ。それ、スキルではなく“進め方”の問題です。
+     https://qiita.com/hitomin_poke/items/6dc096a87ac248e93f13?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 「AWS環境にデプロイした際に、Webサーバーって何のためにいるの？」という疑問について調べてみた
+     https://qiita.com/hosomatu/items/9545ee09b2ffbe25057c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. TransformerのSelf AttentionのQKVを直感的に解説する
+     https://qiita.com/kenmatsu4/items/1b3853a3314ab66eb2a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. PRを出す前にコミット履歴を整えろと先輩に叩き込まれた話 〜git rebase -i 入門〜
+     https://qiita.com/shimitaro/items/c63073fef7fb87d9f472?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Pythonの標準出力をもっと美しく。`Rich` で作るモダンなCLIツール入門
+     https://qiita.com/nozomi2025/items/313779e2d3feadfefa7e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AI時代のMoatとは — 「もし明日、競合が同じプロダクトを出したらどう勝つか？」
+     https://qiita.com/mattsershaw/items/e6205673598cdb1ff14d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. クオンツトレード入門者のための確率過程――価格予測ではなく、分布・リスク・エッジを見るために
+     https://qiita.com/tikeda123/items/ac378f83a4e7911392d4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. fix というコミットメッセージを書くなと先輩に叩き込まれた話 〜未来の自分を助けるコミットの書き方〜
+     https://qiita.com/shimitaro/items/d77557170777d79e1fc9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. よく使うUIデザインパターンを全部まとめてみた（ユースケース別に分類・グループ化）
+     https://qiita.com/TOMOSIA-HieuNT/items/5644ff9243ebcdaf08a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 絵が描けない人が気合で３Dモデルを作る方法
+     https://qiita.com/Rin5/items/99fbf5587fb9bd2f4a48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. AI閉塞感の時代、 私たちはまだ何も分かっていない - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE9ndmFuUkZlbWltVTNIZ19YekRMR25KaG5iMF9CSHFLX0pqTHB5RnZpazdlTkUyc2dWbGszTFdZRTBtNnljR1RzMmdRZFZhUlh6cHcwTjh3aU4yazFSTEx4bldnVVpyWmxXMVc5a19QZnU?oc=5
+  2. 北海道デジタル・アンド・コンサルティングLINEヤフー Partner Program Technology Partner コミュニケーション部… - ライブドアニュース
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZWXo4c01Hbk4yYmF4cktmQW02OGlGRm85cExnWGtSOHVTX00wdVhaaFowRkh0aTc3UlNZQ3oyQUlaTTNWWG9ZRk1PUXkweGtpQlFUVlhYMk5RbGZMOTRR?oc=5
+  3. モビルス、「LINEヤフー Partner Program」において「Technology Partner」のコミュニケーション部門「Advanced」に認定 - ニコニコニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTFBhMnBhTUpVNFA1bDVHRnV2Vm53NTZmM0drNHU5MTFsVWtNTlJuSy1sUVl2bnA5dVFYQlpYSHVqekI1UVBPcVZlZGJmc3ZlM1Q3QkJ1TWJKTEN3V3N5TFctd1N1NVZKeXZHTkFWV2JfX0FJeEdfY2NNZjRLYw?oc=5
+  4. フリークアウト、昨年度に続き「LINEヤフー Partner Program」において「Technology Partner」のコミュニケーション部門に認定 - rbbtoday.com
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE1BS2xCZEx5NU9HWDhpVmtOeGQ5b3VDVmJhVTI1akxWT3ZQUkFZMV9zWWhnZFR3QUZLdEFjN004QVl6SURTTDVOeGJXUkFndlNZMEFEU3BCckZuVm05a3ZmdW1qVFRjak9PR3V2OWk0OHo2N0pGWDVwTw?oc=5
+  5. 技術×変革で産業を動かすR&D／PLM CoEの「強み」と「人」 - ニュースイッチ by 日刊工業新聞社
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTFBEOUZjd2hLNVNNbjc5cVR0c3VZTkttdDdWRURfOUU4LTRvV2ROU2w2TWVnYjdOWklfVFlNV0dBSFZHdw?oc=5
+  6. 名大、廃PETボトルから二酸化炭素吸着用MOFを直接合成する技術を開発 - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kWnlsMTI3ODhTRk5OWVZRdk1MTkw5NTdHR0hkdGs1UXd3d3h0OG1HQktRNURnekRyT2h2emVxRXNxWTBpdmlidzdCMVVnb29ZSWNKYUJpREFac1BtMVUtWTVJNEZodTFf?oc=5
+  7. ライフサイエンス情報技術（IT）市場はデジタルR&D、データ統合、規制対応により年平均11.3%で成長 - Excite エキサイト
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE9FV3ZqX2Vmczl0dmpjdWtCcDE5WnJoMEo3emFFbHRrN2Ffcm5RZ3hUczN0NFRWZTJnemZHelVQZ1BVdjM1ZDlpQjVBTWpTOVVVMlRlOXI5OFpYRFhqQi1CaGw0dVl2aXRTbjRF?oc=5
+  8. ギックス、「LINEヤフー Partner Program」において「Technology Partner」の「LINEミニアプリ部門」に3年連続で認定 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9qWnZXbDQyR2lHNFJxakdWaDVlcW4tOHR1bzc0ZG0zVDY4ZGlRNmVsT2ZJT3ZpM2Zkd181ODM3ZEx1OExneEplZWxxN2JmNXY4WjhMRXVnajhyVVNoV0dubDZBd053R2NudHc?oc=5
+  9. クラブネッツ、「LINEヤフー Partner Program」において「Technology Partner」のコミュニケーション部門「Premier」に認定 - zakⅡ
+     https://news.google.com/rss/articles/CBMifkFVX3lxTE5SU1A4NGRxaWZtY3VmWDd0c3FDMENoMVJTaDZrTnY3Vmhzei1fdDdEb0J3T3NTdjVYYXE3T3FBcVFKMThKMkVyaXYwLVVpMEZHT2luUDNtRGJ0LXpONGdjMDBJQ0RGNF9tV0dyUGZid1hfSXk3Nm94MExPcVRtdw?oc=5
+  10. SP EXPERT’S、「LINEヤフー Partner Program」において「Technology Partner」の「LINEミニアプリ部門」に認定 - Excite エキサイト
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFB2aFZnX2E2VFpTVG0wNHh4X0xqdEVoYjJTWGRZc0ZFdEJtX2s5cTgtQzVGdlE1Z0FERzg1LUo3TlRkQmxtd3ZwZGxfc1J0U0NWTnRCQ01tLUZuMkVtUlNCeE5DcG9oUjc2cEk2bEd1VnVILWJL?oc=5
+
+【Google News (Business)】
+  1. 「7月に売って、10月に大きく買え」。ウォール街の大手企業、新たな季節性トレードの標語を掲げる（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1KVG1XakduMGdyOGVPNkNtT1JLVEVMZUltSDFiMWRTUlpiLWVpRWR6WVVNcWlPdlBuajFLa2UwWHFtakE4dDFJNGl3c01RdG9PNWpHaDRaN0hHTkNjT0l2WkpCREdJbEdHalN2a3pvRmF6dnpTS3RzYndTdDZrc28?oc=5
+  2. 「労働災害を増やすだけ」…政府の「70歳まで働ける企業」40％目標 労災対策は企業任せで「酷使」がこわい - 東京新聞デジタル
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkT0NXYkoxVUsxd0kyQXVQU1VsUzM2UC1BVXNjc1hRUG5vdGJfZXhIQzJzN050WlR4ZWF1NW45bTBBSFE0aGExcFA2VTg3VFNmdkNZ?oc=5
+  3. 「日本版iPhone」が生まれても不思議ではなかった…優れた技術を持つ日本企業は、なぜアップルに市場を奪われたか？ - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oaWc4NG8zRV9Od0pOUU9hXzNsQ1h5Vy0wYWtfUXNqOWNaZFJzcDEydkttc1NDZGg1OHR2NTJEUjR3VGlzWFE4WldTLURCUDRGRW1IblhR?oc=5
+  4. OpenAI、企業にコンサル派遣の新会社 投資会社やソフトバンクと - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5CSmd6ZjFFQURDMjl5MDdycTFEeDBGVi1yQ0dnX3E0WGdZcXU4YU0yR0w3T0JPSXFwUTRRWDRrNS1wUXY4VU9KTV9QMVBIWWVfLVR5UFRURzluMmRNbkFfc1h4NU5ab04zZ2psMQ?oc=5
+  5. 2026年5月27日～29日「第3回 SPEXA -Space Business Expo-」出展＆登壇のお知らせ - iQPS, Inc.
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TWkxLZndjaDdsSGhpTklZalZvWEozdS1ZbHNsaVhoSVZON3BNbE91S0lLVkVtME1ZcS1nS3lnRzR3UQ?oc=5
+  6. ジンジブ、Schooと業務提携 「人事部パック」に「Schoo for Business」を導入 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5pWEFEanB6N0pjR05OTjQ4dkp2cFJDVmtZRlZ6MmNzRG9fbDgtT2pUUkRoMUpBeWFaZkk1V1Q1MUU0amZJN2pkTXBEaUViM2FXajNUcGVrMDNGOGJmdGNnajZKSkVmeTlvcnc?oc=5
+  7. 受注先の中小企業が選んだ｢取引先に優しい上場会社｣20社 - 四季報オンライン
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTE4weWxLR3Z3V0ROVnFDNWVvUkJQTGFfZmpqazZTc01QNk5FM292dGstTTFDU0duN0poT1JPOHZ6Qmt0QTRySXJZbmRZakNlalRhYkFMTFA4SQ?oc=5
+  8. 「自分には専門性がない」焦り。17年半勤めた会社を飛び出し、アクセンチュアのマネジャーになった理由 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxNNHBwM2pEQ3ZsLW9ZNWgyVUNkTUtWVUd6YWhoSlZ1YTYyWGlDVkRCUXlHVTNoTTBwNW43YTJpTXZjTUtYUkU4aXlMSmRQWWhKMmxrUDdxdGY3eEhGVjNaS0ZoVWp1RlA1a1BpZkdjQXo5YWNHejhjRk90MkdOT0xtaVJROHVvWDQ5T0V4RVp5U24yOXZCTG94ZmJyVnA4X0xMTEE?oc=5
+  9. 「米政府がAIを没収する日」 異端企業「Palantir」CEOが警告する、シリコンバレー最大の悪夢 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9hM0VEVU9fYWRBbFZKNVRVNi14VVFGd2tJY19Dei1NUkl6YmpsTTY5YzZzU1lBSjFNUGZ1VXVVM2phYnBMS2JLN0F6em9OaW5uMWxyV2hGakRKaGRmZnBVVUY3czNtdnNxU2VONkdabGZjUQ?oc=5
+  10. 「検索」から「AIに相談」へ　Snowflakeが語る企業によるAI活用の現在地 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMizAFBVV95cUxOUExBNDVlRU1kVW1PY055X0NGY2lHdmszaENaUTZydEdwamEtVngwQnBnQmdwOWdhdDRUQ0RkNVczcWFpNTVtbHdVczQwWmRvSXVrdi1icHZDVFlWcWwzTTZXbUUtcW9WelZLU3NranVjSjZ4bm9lb0dfLWh4YWRzbEFKbmJBVG83U2JIRUQ5eEVIb2l4QVA1cFJRdzl3Y0hJY2g4NkpIY05US3phamx6eURXbV9FVFNHZG1uenZLaVBscEd0N2R0ckZvdnfSAXxBVV95cUxOTTdzcmRXdHQtWGF2b08ycXIyTXhlMWxwZ3lxUnB0VENvSzN0enBxa1lJenRhUGs5T3pCeFFKRVBYQTdsbmlSQ0NVbDJHb1BNV3ZSR1FEdExCVVVENUVCLV84eXNUXzF0MTc0SFRIWWhXY2RURlVLOXhGVG5x?oc=5
+
+【Reddit / technology】
+  1. Students Boo Commencement Speaker After She Calls AI the ‘Next Industrial Revolution’
+     https://www.reddit.com/r/technology/comments/1tabgah/students_boo_commencement_speaker_after_she_calls/
+  2. Reddit Starts Blocking Mobile Website, Pushing Users to App Instead
+     https://www.reddit.com/r/technology/comments/1ta2xrk/reddit_starts_blocking_mobile_website_pushing/
+  3. Palantir to be granted ‘unlimited access’ to NHS patient data
+     https://www.reddit.com/r/technology/comments/1tabal4/palantir_to_be_granted_unlimited_access_to_nhs/
+  4. A data center used 29 million gallons of water without a bill, while residents complained about low water pressure
+     https://www.reddit.com/r/technology/comments/1ta3qr9/a_data_center_used_29_million_gallons_of_water/
+  5. Europe is moving to block Microsoft, Amazon, and Google from handling government health, financial, and legal data
+     https://www.reddit.com/r/technology/comments/1taea2v/europe_is_moving_to_block_microsoft_amazon_and/
+  6. AI data center project secretly sucked 29 million gallons of water over 15 months before detected by residents complaining about low water pressure — officials refuse to fine
+     https://www.reddit.com/r/technology/comments/1t9xsaq/ai_data_center_project_secretly_sucked_29_million/
+  7. Oregon data centers now have to pay full costs of expanding the power grid to meet their needs
+     https://www.reddit.com/r/technology/comments/1ta0rcr/oregon_data_centers_now_have_to_pay_full_costs_of/
+  8. Bumble CEO reveals it's killing off the swipe on "The Axios Show"
+     https://www.reddit.com/r/technology/comments/1taels2/bumble_ceo_reveals_its_killing_off_the_swipe_on/
+  9. Meta’s embrace of AI is making its employees miserable
+     https://www.reddit.com/r/technology/comments/1taclke/metas_embrace_of_ai_is_making_its_employees/
+  10. China’s Smart Glasses Are Already Leaving Ray-Bans in the Dust
+     https://www.reddit.com/r/technology/comments/1tahriw/chinas_smart_glasses_are_already_leaving_raybans/
+
+【Reddit / business】
+  1. GM cutting hundreds of salaried IT workers as it trims costs, evaluates needs
+     https://www.reddit.com/r/business/comments/1tagloh/gm_cutting_hundreds_of_salaried_it_workers_as_it/
+  2. MFS owner accused of ‘plundering’ company to fund ‘lavish lifestyle’
+     https://www.reddit.com/r/business/comments/1tabhsy/mfs_owner_accused_of_plundering_company_to_fund/
+  3. Nintendo shares tumble after lackluster Switch 2 games outlook
+     https://www.reddit.com/r/business/comments/1t9q9l5/nintendo_shares_tumble_after_lackluster_switch_2/
+  4. Looking for first business ideas
+     https://www.reddit.com/r/business/comments/1ta3a4x/looking_for_first_business_ideas/
+  5. Need a Website for Your Business?
+     https://www.reddit.com/r/business/comments/1taj98h/need_a_website_for_your_business/
+  6. What do you find most challenging when implementing a startup idea?
+     https://www.reddit.com/r/business/comments/1ta89zh/what_do_you_find_most_challenging_when/
+  7. McDonald's CEO Chris Kempczinski says consumer spending could be "getting a little bit worse" Kempczinski said on the company’s Q1 2026 earnings conference call.
+     https://www.reddit.com/r/business/comments/1t8ynjz/mcdonalds_ceo_chris_kempczinski_says_consumer/
+  8. Nvidia embraces role of AI investor, pushing past $40 billion in equity bets in 2026
+     https://www.reddit.com/r/business/comments/1t9m4m0/nvidia_embraces_role_of_ai_investor_pushing_past/
+  9. I feel like Indian founders underestimate how different “what people say” vs “what people do” actually is
+     https://www.reddit.com/r/business/comments/1tabgyo/i_feel_like_indian_founders_underestimate_how/
+  10. Sony records a $766 million impairment loss against Bungie for the 2025 financial year, a 1-2 punch of Destiny 2 and Marathon failing to meet its expectations | Sony bought Bungie for $3.6 billion in 2022.
+     https://www.reddit.com/r/business/comments/1t8pnhv/sony_records_a_766_million_impairment_loss/
