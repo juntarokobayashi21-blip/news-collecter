@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-14
+============================================================
+
+【Hacker News】
+  1. Linux gaming is faster because Windows APIs are becoming Linux kernel features
+     https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/
+  2. Setting up a free *.city.state.us locality domain (2025)
+     https://fredchan.org/blog/locality-domains-guide/
+  3. A History of IDEs at Google
+     https://laurent.le-brun.eu/blog/a-history-of-ides-at-google
+  4. Princeton mandates proctoring for in-person exams, upending 133 year precedent
+     https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent
+  5. Chess puzzle I found in my dad's old book
+     https://ardoedo.it/kempelen/
+  6. Marco Polo: Finding a friend with only distance and motion
+     https://www.jackhogan.me/blog/marco-polo
+  7. The Emacsification of Software
+     https://sockpuppet.org/blog/2026/05/12/emacsification/
+  8. S-100 Virtual Workbench
+     https://grantmestrength.github.io/S100/
+  9. Xs of Y – roguelike that names itself every run. Written in 4kLoC
+     https://github.com/nooga/xsofy
+  10. Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration
+     https://www.tryardent.com/
+
+【Zenn】
+  1. Claude Codeキーボードショートカット17選、Tier別に全部教えたるで
+     https://zenn.dev/masayan1126/books/claude-code-keyboard-shortcuts
+  2. AIにQAエンジニアとして思考させるエージェントQA設計の思想
+     https://zenn.dev/edash_tech_blog/articles/383410d9a1afba
+  3. ちょっとしたアイデアをAIで長文記事にして公開するのをやめろ
+     https://zenn.dev/todesking/articles/fba4cc93baf0a9
+  4. コードレビューのボトルネックを"する側"と"される側"の両面から解消する
+     https://zenn.dev/atamaplus/articles/resolve-review-bottleneck
+  5. 【RAG】「キーワード検索1回」だけで、精度を出す。
+     https://zenn.dev/knowledgesense/articles/67370650799bc6
+  6. Claude Code Routines で Issue の自動対応をチームで回している話
+     https://zenn.dev/notahotel/articles/claude-routine-auto-fix-issue
+  7. コンパニオンAIの記憶を、普通のRAGじゃない設計にした話
+     https://zenn.dev/haru0416/articles/843c6c29c04c7c
+  8. 手を動かして学ぶ Claude Code 入門ワークショップを公開しました〜！
+     https://zenn.dev/aws_japan/articles/introduction-to-claude-code-workshop
+  9. AIのハーネスを徹底的に整えたら、レビューもシステム運用も自動化され、非エンジニアも開発に参加できるようになった話 ── 連載総論
+     https://zenn.dev/aircloset/articles/d416342f46f16b
+  10. 大学システムのアーキテクチャを見直した話
+     https://zenn.dev/xtm_blog/articles/91099d48d8f130
+
+【Qiita】
+  1. 【エンジニアの教養】なぜかエンジニア界隈で有名な◯◯の法則的なやつをまとめてみた
+     https://qiita.com/miruky/items/cef8169b4a10cdd790b5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. よく使うUIデザインパターンを全部まとめてみた（ユースケース別に分類・グループ化）
+     https://qiita.com/TOMOSIA-HieuNT/items/5644ff9243ebcdaf08a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 1割の "信頼される" エンジニアが実行している 『止めないコミュニケーション』
+     https://qiita.com/hitomin_poke/items/296886c435ebc79a667c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. エンジニアの成長を加速させる3つの考え方
+     https://qiita.com/masa20057/items/92459106b36b33bda66b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. いつも使っている Claude Code の裏側を覗いてみた
+     https://qiita.com/sapeet-lin/items/f9143a90094601631b6b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AIが書くpandasコード、だいたい地雷が混じっている話
+     https://qiita.com/ALeX_EXVS/items/cd2c603abf8b48fc23a8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. リサイズをスムーズに行うFigmaデータの作成方法
+     https://qiita.com/hamada_yzrh/items/bdc316e82f878815da0f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「今日何してた？」に詰まる新人エンジニアへ。それ、スキルではなく“進め方”の問題です。
+     https://qiita.com/hitomin_poke/items/6dc096a87ac248e93f13?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. Whisperベースの無料音声入力ツール「Whispering」のセットアップ方法（Mac）
+     https://qiita.com/akasateru/items/0d2577bf1d1d127033d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Intel AMXの効果を oneDNNと OpenVINO GenAIで確認してみてみた
+     https://qiita.com/shirok/items/e6f8f5f7867d335814dd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. VRライブ視聴アプリ「Xmersive」開発、monoAI technologyとNEXST社が没入型体験を実現 - Koubo
+     https://news.google.com/rss/articles/CBMiREFVX3lxTFBhME9teDBxaU5YODJmVVRJd3dqUXhKSjIwTnFqQ3hxSFp1ejc2TXB5RjNUY01xanhicHBEV1ZURDd6VzNj?oc=5
+  2. ブイ・テクノロジー[7717]：Notice Regarding Acquisition of Shares of Core Technology Co., Ltd. 2026年5月12日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMizAFBVV95cUxNTzJuT0lnS2hydnJuTW1FbzE4T3g5NHFRdHpCZDJDRGtVUUlYMnRJMWEtOGlaV29Lb1hPbFp0anZMZkFWOUMtOUowSVlERlIxNG9ycEluTVZGd05rQm0tUTZrMTNoYWxKck13cUxBZUtDX01ZSXlSbGljbEJNazFqRmZLQW9NdkxtYnZmVGRZUVZTcHBuRTVXUkhQTTZaYTBGTnltamlQclpoTUdscTdpMVNzeTdzd1RVaDQ5XzdMTm9CdjRoN24xVGRwRFc?oc=5
+  3. 株式会社ブレインラボ｜「LINEヤフー Partner Program」において「Technology Partner」のコミュニケーション部門に認定 - 株式会社じげん || ZIGExN Co., Ltd.
+     https://news.google.com/rss/articles/CBMiQEFVX3lxTE52QTlSUUVKZDdxMU93NkJQeXBGSFV6Z1FFREVTbjhBallKaWtjQjZ6ZG1PYzV2amZBX09acjdkUm8?oc=5
+  4. monoAI technology、NEXST社のVRライブ視聴アプリ「Xmersive」とデジタルフォトカードアプリ「PhotoEX」を開発 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFA1dlJmcHMyRGx1QXhJWGJCaWZjXzVXRGs3QXNKTVhTdFl1eGY5b2haU2lpcFJZc1Y1aV9ReEpqbmpuYng1OW9XU3Q4ZUEtTG5ZNEk3VWtUajVJREdZakVTXzBWRjdWSUltU1E?oc=5
+  5. 知る、行動する、参加する——民主主義の「AI対応」に必要な3 層設計 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWYyeFl0ZV9tblBSWTFTTVVyMWEtVDh1WTlTdXhHNVJrOXNMNzBtWUZsZDNrYVBqamo4dHZLYVVNV3l1eU52LW80clRTWkxSUENtLTFQNjZpVlBsQlBIbzdQaTJsYzhvZFJDdVZsaEdkX2JKRTNzTk1ockxzb2pTV2I0OGp1c3ZUX3Nfd3ZaZFRpT2pC?oc=5
+  6. 電通プロモーション、「LINEヤフー Partner Program」にて 「Technology Partner」を継続認定 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SVk1ILWl2bXM2MjdJWVltVE0xdFk1NmxGd2hmbnJNUjJVd1hCR2R1T2JfWWJfd2ZNb1JES0Utc2tvWWNfTXBtbU0ySTJwMHFIWlpuOXh1VkRfMlU?oc=5
+  7. Ispire Technology、Jincheng Pharmaとの戦略的合弁事業により高成長のニコチンパウチ市場に進出 - PR Newswire
+     https://news.google.com/rss/articles/CBMilgFBVV95cUxNWkxfdzhaeHB0V3lzbG1WamJlaEZVejZPTnNQMDlRWmd0WEowUXZWWDFqckt1ZTJpbGgyNUZfTU81MHZtbEZJOTdicUtLVTVwekprWW9sQllUMHNaT3V2VGhGWVVmUFNfU2FKTTNHUUpLWUFDLVRRcjktWE5FU01kV2ZkakJHWmRCTlRmdkRNek5SUUNic2c?oc=5
+  8. KULR Technologyは、未実現損失が1,800万ドルに迫る中、Coinbase Primeに300 BTCを預託しました。 - Bitcoin News
+     https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcXhOdUFwQUF6Z1RyUGd3MWZwQVBQN1d3RFRhU2lNWGcxMWRzSThyaGJCRlpVNkFMWmw5d1RxbDltckdFQUtleDhQcEdySG04U3BabFRPRDVQdFNsdHJRa3dCUVBUNDJBV2tZRE84aFB3NjBFTzBudFVUc2NvQXJKYS0ta0o4UW4wQlowc25NazFXMGdwTlVXTmhNVXFvMG1FWkREYmpKWlp5MFMyRmFtV3VtZDBvaU11dG1OU3VQNVJhQTR1WHc2T1JmclhwZjFUUUYzaA?oc=5
+  9. Dobot、「Robot Technology Japan 2026」に出展 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5VWk82dTFGQTBlN2pFZXRsRjNGUVR1T3p3Rkt1VDVIZnl1bDctQkdObTNOYm5YLUNmSmt5aTRXZmxXVFd4bmVSdDNXdXE0dWlTbHpDMzRVbGNRb1RuVmdjdXBwa3RuUkt1a3c?oc=5
+  10. 微小重力が生む新薬の結晶、「宇宙で作る」 商業化へ初の本格契約 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGJqLUk0NjhFMXdXOVZlaFdES2R4dzBIWXR5Q3VvYlExT29NSXdNbnJTMnNaNGJWX3YzcGx6cDNNM25EQ2NBTlVNS1RhUmUyalJseGtLNXU0N082dVN4S2RwdU5WNmNxX2FBOHdrbmx2QWp5WlBMd0pDZkp3QVJLR2djeTBpbzZGUVRSZ0d1dVU4MU5UcEE?oc=5
+
+【Google News (Business)】
+  1. 日本のアニメ、ハリウッドで最も「熱い」ビジネスに - WSJ
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxPUjF0LXFrcGhkQ0RqOWJfUnFTV2Jha0cxSlFYbWxHZFBtc0lteFVJcHhDYWExSEtra1JtMmlacElUOXdYMDJ3VG0zbkZ1V1BmTmViVzlXSnE4SlJkdlVYckR6bjhWdThrWEpuQmxyN1lhc0EwZWxMRnlEMGxBQVZ5ZjVWRG9PbHE4ZHRyeQ?oc=5
+  2. 「Starlink Business」をアクティオ長野ちくまテクノパーク統括工場に設置 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5MNTdQU0lmbWRsZERkdC1mb09FUEpCb29MNk90WDE3V0VlSVY0VXNhSkE1TmNEcUdySW9UVzF1bU9sTTg5NVppZlZHck9TdmhwdUVfVFpRQzYyV2wxQXJqTnZleWp2WHN5elE?oc=5
+  3. オイシイファームが240億円調達。CEOが語る2度目の大型資金調達と「第3次植物工場ブーム」の勝ち筋 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMingFBVV95cUxPSTJkWlJBaWpPY1lWR2kxQ29fNk9Vc1l3NkExU0ZhbldKZXJ0bW9wemxlOU45LU9yYUs1OGs2d0dRLXh5RkIzZm5zekc1dlRfdUF4RW0zLUJLNjR6LVgyQWlxelNVaUp5UU9COXphQ2hIYVRJZlF2Q1dzVlpBUDc0cjR5SmhSZVdYR2M3OGJmR1BfcWdpX3Z6aHctTGVtUQ?oc=5
+  4. Anthropic「Claude for Small Business」発表 中小企業の経理・営業・マーケ支援へ - ニコニコニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE9vcGs4cWoyRmZlZk1KYjRxUGZEWTh0bWtNY2NZUE5HU3k5bThCcVZVYkRCVkF2SHpYR2lJckduMWM1WGpUczc1aVJodGFta2w1cWdQSk9fRlVkRGJPYjc4TUtHMFd1QlhhTmp4bFRzdVhzYlN3aUplS3YyRQ?oc=5
+  5. 後発のFacebookがなぜ成長できたのか？ 先駆けて取り組んでいた勝因 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBISk55Y2N0SGplRHRTNVY0b0lDLVctYXFwX3lhYkpMa2gtY0xzTWZ5U2dCbHVUV3F6eTV5OGdqZjUtc0NOaFlGcTl4VWdzZUxHakZnX0lQMEVUMnNDTjA0NlpuZjM5VHM?oc=5
+  6. 2026年5月27日～29日「第3回 SPEXA -Space Business Expo-」出展＆登壇のお知らせ - iQPS, Inc.
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TWkxLZndjaDdsSGhpTklZalZvWEozdS1ZbHNsaVhoSVZON3BNbE91S0lLVkVtME1ZcS1nS3lnRzR3UQ?oc=5
+  7. Next Level Aviation（R）、Clive Rankin氏をグローバル・ビジネス開発担当上級副社長に任命:共同通信PRワイヤー - 福島民友新聞社
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE9NSVJzd3NWQjJieGY0eUliMnJjUC12X3VzdmV5ODBRZUMwZEkyU0dsLUxRQTh3UHJEdWpPelQ3NXZ1cGh5VVhXdWNuQkl4Y3F0QlE0MFRKZXdrS3JRdU0zblBrWEsyNjlyVWNlcw?oc=5
+  8. 元BCGのコンサルタントが独学でプログラミングを習得し、25歳でAIロボティクス企業を起業した方法（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE84WTE3NkZnenNrSGJsN0NJUHVCQklVVE9tTDhvVkhlcHo5QkhOTmloNnBnR2FrZVlwRWtCWVhnNzRrNVI5ZXVpRE5Dd2xKTmxCdERXODlWTEU4eEdMd29fbGJySnJLZzQwSVViVm56cHJpSUstenZFM2lGYW1tSEU?oc=5
+  9. OpenAI裁判で浮上した、職場のビジネスメッセンジャーにまつわる厳しい現実…どんなデバイスも訴訟の対象になる - Business Insider Japan
+     https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3JXSmZ3aXJ6ay1XaG83REpRLXJ6ZlZkaVFYQ3daczBnTDhONkJNV0YxSUhscWlyUktocS1YUnZNSGZfM0h5dXB0YUJMRkNoV1NDcnlUTVdqeFhnTGZOOTctUlRGNVNlYlhnbm1FQ3ZYcDBrN19ic1hqUXhIWkNsQ1VhUG9RM1Q5YTF3Qlp4N2lVNWZBckNiSw?oc=5
+  10. 中国とアメリカのスタートアップ企業で20年間働いてきた起業家が、アメリカの方がやりやすいと言う理由（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5DSFhVM3c1emZjLWNOYjJUS2Q2dVF6SXk1RW1GanFoS2hYZ2RmYTZXRndGN0lmbVRwUGJWZ0ZUYXoybExlbURJOHJkNVR0S2tqYjZFVTJfUTJ6WUZGYUhZTFhTZW44NjQ3a3dYOThtWWRwTGt3X0pUMURIQ0hLSUU?oc=5
+
+【Reddit / technology】
+  1. 'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers
+     https://www.reddit.com/r/technology/comments/1tc66gv/its_like_we_dont_exist_nearly_50000_lake_tahoe/
+  2. Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password
+     https://www.reddit.com/r/technology/comments/1tca196/claude_helps_man_recover_400000_in_btc_11_years/
+  3. Data center drained 30 million gallons of water without reporting or paying for it, investigation reveals
+     https://www.reddit.com/r/technology/comments/1tby9bn/data_center_drained_30_million_gallons_of_water/
+  4. ‘Irresponsible’: backlash as Utah approves datacenter twice the size of Manhattan
+     https://www.reddit.com/r/technology/comments/1tby0nw/irresponsible_backlash_as_utah_approves/
+  5. As the U.S. starves it of oil, Cuba is pulling off one of the fastest solar revolutions on the planet — with China’s help
+     https://www.reddit.com/r/technology/comments/1tc0jml/as_the_us_starves_it_of_oil_cuba_is_pulling_off/
+  6. Tech Layoff Wave Has Already Hit 100,000 Jobs This Year
+     https://www.reddit.com/r/technology/comments/1tc5muu/tech_layoff_wave_has_already_hit_100000_jobs_this/
+  7. Software Developers Say AI Is Rotting Their Brains
+     https://www.reddit.com/r/technology/comments/1tbzz8u/software_developers_say_ai_is_rotting_their_brains/
+  8. Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds
+     https://www.reddit.com/r/technology/comments/1tc94v7/data_centers_could_account_for_up_to_9_of_texas/
+  9. I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI
+     https://www.reddit.com/r/technology/comments/1tcbjus/i_work_in_hollywood_everyone_who_used_to_make_tv/
+  10. The balcony solar boom is coming to the US
+     https://www.reddit.com/r/technology/comments/1tc9qgv/the_balcony_solar_boom_is_coming_to_the_us/
+
+【Reddit / business】
+  1. Condé Nast CEO: Plan As If Search Traffic Will Be Zero
+     https://www.reddit.com/r/business/comments/1tc3624/condé_nast_ceo_plan_as_if_search_traffic_will_be/
+  2. Anduril doubles valuation to over $60 billion as defense tech funding boom continues
+     https://www.reddit.com/r/business/comments/1tc6iva/anduril_doubles_valuation_to_over_60_billion_as/
+  3. Disneyland's likely 3rd theme park has been nearly 30 years in the making
+     https://www.reddit.com/r/business/comments/1tc446r/disneylands_likely_3rd_theme_park_has_been_nearly/
+  4. Oracle Forced to Cancel Incredibly Polluting Natural Gas Plant to Power AI Data Center
+     https://www.reddit.com/r/business/comments/1tbmoue/oracle_forced_to_cancel_incredibly_polluting/
+  5. Former Starbucks CEO Howard Schultz calls Seattle ‘hostile’ to business
+     https://www.reddit.com/r/business/comments/1tbbtyb/former_starbucks_ceo_howard_schultz_calls_seattle/
+  6. eBay rejects GameStop's $56B offer: "Your proposal is neither credible nor attractive" | eBay board doubts GameStop’s ability to buy and operate the much larger firm.
+     https://www.reddit.com/r/business/comments/1tbciuk/ebay_rejects_gamestops_56b_offer_your_proposal_is/
+  7. Getting a non tobacco product into vape shops / head shops
+     https://www.reddit.com/r/business/comments/1tc3fwa/getting_a_non_tobacco_product_into_vape_shops/
+  8. Advice on Leadgen - Struggle with it
+     https://www.reddit.com/r/business/comments/1tbwcx6/advice_on_leadgen_struggle_with_it/
+  9. How long should I be shaking someone's hand?
+     https://www.reddit.com/r/business/comments/1tbza5a/how_long_should_i_be_shaking_someones_hand/
+  10. Googlebook Is Google’s New AI-Powered Laptop Platform Built on Android | They won’t replace Chromebooks, but Googlebooks have an Android-centered operating system, AI-first features like the Magic Pointer, and a promise of desktop-grade apps.
+     https://www.reddit.com/r/business/comments/1tbkcsn/googlebook_is_googles_new_aipowered_laptop/
