@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-16
+============================================================
+
+【Hacker News】
+  1. Project Gutenberg – keeps getting better
+     https://www.gutenberg.org/
+  2. I believe there are entire companies right now under AI psychosis
+     https://twitter.com/mitchellh/status/2055380239711457578
+  3. The Zulip Foundation
+     https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/
+  4. Naturally Occurring Quasicrystals
+     https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/
+  5. How to Write to SSDs [pdf]
+     https://www.vldb.org/pvldb/vol19/p1469-lee.pdf
+  6. A 0-click exploit chain for the Pixel 10
+     https://projectzero.google/2026/05/pixel-10-exploit.html
+  7. California bill would require patches or refunds when online games shut down
+     https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/
+  8. The sigmoids won't save you
+     https://www.astralcodexten.com/p/the-sigmoids-wont-save-you
+  9. I designed a nibble-oriented CPU in Verilog to build a scientific calculator
+     https://github.com/gdevic/FPGA-Calculator
+  10. U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app
+     https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/
+
+【Zenn】
+  1. Andrej Karpathy氏のLLM Wikiを1ヶ月運用してわかった、LLMの知識を『繋げる力』
+     https://zenn.dev/tsurubee/articles/llm-wiki-connecting-knowledge
+  2. 熟達と設計原則 - 圧縮型や展開型をレッテルにしない
+     https://zenn.dev/339/articles/e1d536aec1bf33
+  3. Agent Registry で動的に Harness (MCP/Skill) や A2A Agent を検索・実行する Agent の実装
+     https://zenn.dev/aws_japan/articles/005-bedrock-agent-registry-dynamic-loading
+  4. Claudeに魂を吹き込む人 —Amanda Askellという哲学者の眼差し
+     https://zenn.dev/noah33/articles/amanda-askell-claude-soul
+  5. 五反田式: スティグマジーを応用した自律型マルチエージェントシステム【日本語訳】
+     https://zenn.dev/iroha1203/articles/93ee3d4c5d5174
+  6. AI×Unityゲーム開発スターターキット
+     https://zenn.dev/ohbashunsuke/books/unity-ai-starter-kit
+  7. セキュリティを学ぶ学生、"孤高の狼"になってませんか? — 学生コミュニティを作りたい話
+     https://zenn.dev/sabakan1/articles/ee464595c9ddc7
+  8. Amazon S3 Vectors で、ベクトル DB を立てずに画像検索 PoC を作る
+     https://zenn.dev/aldagram_tech/articles/3318a924758852
+  9. ログラスにおけるAI時代の新卒エンジニアの研修設計
+     https://zenn.dev/ohnoeight/articles/737f3226df1fb8
+  10. Notion Developer Platform発表を読み解く：Workers/Agents/CLIで「誰がどう嬉しいのか」を整理する
+     https://zenn.dev/truestar/articles/97be4dca3620d7
+
+【Qiita】
+  1. AIにコードを書かせ続けて気づいた、エンジニアの"分かったつもり"の怖さ
+     https://qiita.com/jinxin4869/items/786af70f2697dfac4329?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AI時代に生き残る「最強の武器」
+     https://qiita.com/prum_hitomi/items/a2238e2ac6d842581b2e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 要件定義とは何か？開発メンバー初心者向けガイド
+     https://qiita.com/Nao52/items/996735e9b8ff4b3b1255?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Vibe Coding のトークン消費量の40-60%を占めることもある、Markdownファイルの読み込みトークン消費量を最大98%以上圧縮する markdown-query スキル
+     https://qiita.com/dahatake/items/ce9917268d8d18aa9b6c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 1割の "信頼される" エンジニアが実行している 『止めないコミュニケーション』
+     https://qiita.com/hitomin_poke/items/296886c435ebc79a667c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Claude Code はセッションをまたぐと記憶がリセットされる — 5分で永続記憶を仕込む方法
+     https://qiita.com/jqit_suwa/items/8607bf9f2683fb8442de?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Better Search Replaceを使ったWordPressのDB置換
+     https://qiita.com/matsumura-yzrh/items/16d8576c1536a7f337a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 関数型プログラミングを知らない人向けに、「Haskellって何が面白いの?」と聞かれた時の回答
+     https://qiita.com/sigma_devsecops/items/3f2a397e944401fcc6cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. [Frontend Performance - Part 16] 配信最適化の総仕上げ：Code Splitting・Cache・CDN戦略まとめ
+     https://qiita.com/tuanphan/items/e332db235525cfb9d10b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. [Frontend Performance - Part 17] 最適化の前に計測せよ：Chrome DevToolsで性能問題を見つける方法
+     https://qiita.com/tuanphan/items/fa88ac0b9b7eb7fd7b7e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. ｍｏｎｏＡＩ ｔｅｃｈｎｏｌｏｇｙ[5240]：2026年12月期第１四半期決算説明資料 2026年5月15日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMizAFBVV95cUxPbnRWaWxmMlV2UXVBN0I1NUx3bzBrQ0RzUnhmVFBVc1lVeV9DZ3p2UU1XQzYyYzZVWUJ1QVFUVXA1MnM3UVdubl95LWtxSDVqNkZJWTVFYlVwY082ZVpmZU03MFpZMHVOcnlsWi1hUG0zX2ltY0dnTVVlclA2WXhaN1g0UDNBTnhCR1NHMnp6QXB0a21sRDU0UkRqMTBoNnFpTG1JZThoSmVuYVZKdXN6MzhzRXdQZnFiMHVtQzFNcDljNjRoVV9hTFF6ZVA?oc=5
+  2. TBグローバルテクノロジーズ株式会社OTC 「Spotlight on New Technology Award」を受賞 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1mZVRyR2JTS3d0X050eDZKWXhnMUs4Q3dTclhyZDlxSGprUWtFaHV3cmdxVFQ4OG5YY1I5cmZId1NJRkFGaGF6QUVWWWtBT2NRNzBRWHJsMGRoSHlhRTQxVUJ4R3pRSWk4QVE?oc=5
+  3. Figure Technology Solutions取締役のMichael Scott Cagney氏、約134万ドル相当の株式を売却 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE9GcnNoNG0wcTFxQjM0cWpTbTRiM2ZOXzVub2JkdnpFbUpURVMycjdVdngzV1ZqNVg5ak0xY3VjZTFaR1l5MXNla1FpUUNPZHdvQ3h3b3Q2NHlqTll2a3k3R3dWVXh0Njd2RjFSU2ZicmU0Q2NkaG1MN0c4MA?oc=5
+  4. ｍｏｎｏＡＩ ｔｅｃｈｎｏｌｏｇｙ(株)【5240】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uUnBzQVhDbVNfWTRhbkEybzI1U0ZwN29wWTd1QnZKT2ZUVmxwMjRKUzU3ZkRacnBOazFfTjNhQXhYTWZQc1ZrQTI3SnJtdTNnN3c?oc=5
+  5. 株式会社ブレインラボ｜「LINEヤフー Partner Program」において「Technology Partner」のコミュニケーション部門に認定 - 株式会社じげん || ZIGExN Co., Ltd.
+     https://news.google.com/rss/articles/CBMiQEFVX3lxTE52QTlSUUVKZDdxMU93NkJQeXBGSFV6Z1FFREVTbjhBallKaWtjQjZ6ZG1PYzV2amZBX09acjdkUm8?oc=5
+  6. ギャラリー：新型メルセデス・ベンツ G 580 with EQ Technology Edition 1 - GQ Japan
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5hNVJCM2FoeXdCQWkyeFdHWi1BczFJVjJaOWxDUUxTenVkcnhTNTNPUkZ3TUF2c3dOV2dtaGdwMF96a212RjhSeHE4MThGOFNWYjFDMWo1OUJUMlF6ZDB6eGlMMllnanY0WHc?oc=5
+  7. 電通プロモーション、「LINEヤフー Partner Program」にて 「Technology Partner」を継続認定 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SVk1ILWl2bXM2MjdJWVltVE0xdFk1NmxGd2hmbnJNUjJVd1hCR2R1T2JfWWJfd2ZNb1JES0Utc2tvWWNfTXBtbU0ySTJwMHFIWlpuOXh1VkRfMlU?oc=5
+  8. 5月15日のMicron Technology Inc (MU) 始値は4.37%下落：主な推進要因が明らかにされました - TradingKey
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTkwWU56Z01MTURSaXNoYUhsYXA3UDhyYjhFS3hVOGlBMG9RNm1mUTRQTnlhU29xSzFYb1QzalFOMUJvcXhHWU1Pa0prRTFiRGplSlpERVFqemh4NEdEdzRGbUZqN0ExUDJrMmUyOUlqOU5kX3UxS3dVZzFvWjNSYkN3eXMxNTRZWEJENQ?oc=5
+  9. 「今日なに作る？」がすぐ決まる。レシピサイト「CookGo」オープン。SNSレシピの取り込み機能も搭載 - アットプレス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lQUVsS0NyX0YtWlROaU5QV1FyVmVvWTUzaktiVXBRLTFDUW90YjQwUW1LVVFBMWJDU1pvWWwwRVlPQ2VRWmM4aDdBNllQbWs?oc=5
+  10. 水素産業国際展示会「Hydrogen Technology World Expo 2026」東京都パビリオン出展企業の募集について - my.metro.tokyo.lg.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aX3dYNDZUM1I4TXNteHRCZ1RNMjl3eXVzOTZhbXk4SVFUQWdsSmZjcnBOWkp3Z0hmWGlTV2FWd25EU2RxQ2RsODBqd3BxbThQRkl0UkEtVDRpTHhOT3pPUlNLamplSDdV?oc=5
+
+【Google News (Business)】
+  1. トランプ氏訪中に米企業CEO同行 対中ビジネス重視の姿勢鮮明に - CNN.co.jp
+     https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtRWFMTFE3eE0wdjBFaEpzT19SdEYzMzctVXRJY2drWGc3TDVEVlV5QVlVVlJMejBBc2drcXZIcHVXdDRLOVV3TGFDZ1luazZf?oc=5
+  2. 無料の「Apple Business」 Appleデバイス、独自ドメイン管理機能を統合：「ゼロタッチデプロイ」にも対応 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1HZDg1Q3FPME9TNDBBR1BOTWhMekFuX25RZnBKLUFFdEl5QVhrYjlwZnpkcFF2aXA0NTVpOVFOdjFiUTJ0R1d6T3hZZldlY0FGZlNueEdqeWMtek5tbDRid055MmdwTEdGQmpOVWRMYUo1dw?oc=5
+  3. 2026 ビジネスアップデート 説明概要 - Honda Global
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rWnpJRmJvQVJqWkFHNDZVRE00SWZXUGxFSFZVeGljNEc4X3NkWjAtZk43R0tPLUs2MFctcVZFMFFOaDluWXpIblBEY085TkpBT05ObjBpclk2OE0?oc=5
+  4. 「人生がうまくいくビジネスパーソン」と「いつも忙しいだけの人」の決定的な違い - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE5sblBOUlpkTFVYa09JN2l4bThxYnVxOUFzZjhYS3FZUjJNQXhySkdOSWhsaGNTamkzMjk1RS1LUi1UT21tanFTTnIyN3PSAU9BVV95cUxNSUJZRUdfdzlXOGtxSzBfTm5lNThSWmpQZG52WFprM3pUcWNWRUFZOHRpY2FpSkFrc3YtZU9yeTNkdzBMd05MWU93NW1nS0tJ?oc=5
+  5. スモールビジネス向けClaudeが登場 営業施策・請求対応など支援 - Impress Watch
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LM0Y1alBjT1E5aHkxb2p1NmdSZW9rR002aGp0d25sUl93M1dFTGJZeU1hZlhoUmlmUmFQcktRdXZRSlBDUTJhVFViaWZpejBQX1lDbHRsZ1JzbDA0eHlvcFhyR2g?oc=5
+  6. Anthropic、中小企業用AI業務支援「Claude for Small Business」発表 15種のAIエージェントが作業を肩代わり - ITmedia
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE5XWE55N2wwb2FLdnZ3UV9iS25fNmhLRGdlb0xFbEZSNXNNRklCQm5xaWl3MDllV3F5b0o1UmNkcFh4ZFFFcUt6YS0zVUJNRmpDWFVuTURmcjl1b3o5TGZubVBXSFU2blFieDBJYmRuR0tiVThI?oc=5
+  7. 中小企業・起業家のためのAIが登場！「Claude for Small Business」とは何か - sogyotecho.jp
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qVVMzUEhKWFdKdExnbW1BZDhIdXY5a0NRaXdiRVFoWE9JeVVBTWE4d2JWM3I3djdJMkRSaVUyMnlxQlB3aEJoNjg0bllWWmpZRXlUVUc5ZF9EbTQ2?oc=5
+  8. 日本のアニメ、ハリウッドで最も「熱い」ビジネスに - WSJ
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxPUjF0LXFrcGhkQ0RqOWJfUnFTV2Jha0cxSlFYbWxHZFBtc0lteFVJcHhDYWExSEtra1JtMmlacElUOXdYMDJ3VG0zbkZ1V1BmTmViVzlXSnE4SlJkdlVYckR6bjhWdThrWEpuQmxyN1lhc0EwZWxMRnlEMGxBQVZ5ZjVWRG9PbHE4ZHRyeQ?oc=5
+  9. カリスマ暴走 ニデックが残した教訓 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFAySXF4cGxJVjRWUm1Cdl95MUV3V3FfTmhEUEl3M0JOWUUySzBrX3lmOGU4V2VpSDJ1ZFhZYWs0T2s2a1lNWlcxMV96VDlYbGlYRlkwdktyQ1pSQjBLQ1NFeVNWQW8?oc=5
+  10. VRChat、『コンテンツ東京2026』の特設エリアで「VRChatをビジネスで活用するソリューション」を展示 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1uTmMzWnZMb2s4WnFhM2t6dEREZWZtN0ZSWXRvbEF4YVB1SFAxNE5FT1FWdTAycWtHa0RVWXFuUm9oZ3RfZno2ejNOdzhnUTRKeUFhc29tNTNsZnhaSkdzYXc4bnNLbmtNUlE?oc=5
+
+【Reddit / technology】
+  1. Cisco announces record revenue and 4,000 layoffs in the same day
+     https://www.reddit.com/r/technology/comments/1tdzxp5/cisco_announces_record_revenue_and_4000_layoffs/
+  2. Nearly 50,000 Lake Tahoe residents have one year to find new power as their utility pivots to data centers
+     https://www.reddit.com/r/technology/comments/1tdv27d/nearly_50000_lake_tahoe_residents_have_one_year/
+  3. Power Prices in Eastern U.S. Spike 76% Thanks to AI Data Centers / A new report calls the impact significant and "irreversible."
+     https://www.reddit.com/r/technology/comments/1te537j/power_prices_in_eastern_us_spike_76_thanks_to_ai/
+  4. Exclusive: Hackers have breached tank readers at US gas stations; officials suspect Iran is responsible
+     https://www.reddit.com/r/technology/comments/1te9yia/exclusive_hackers_have_breached_tank_readers_at/
+  5. The AI Backlash Could Get Very Ugly
+     https://www.reddit.com/r/technology/comments/1te9liw/the_ai_backlash_could_get_very_ugly/
+  6. OpenAI CEO Sam Altman holds more than $2 billion in companies that have done business with the company, a court document showed as Altman faces claims of self-dealing from state attorneys general.
+     https://www.reddit.com/r/technology/comments/1tdwfuj/openai_ceo_sam_altman_holds_more_than_2_billion/
+  7. 'Everyone is unhappy': Meta employees describe a grim environment as the company reportedly prepares to axe roughly 8,000 workers
+     https://www.reddit.com/r/technology/comments/1tdn512/everyone_is_unhappy_meta_employees_describe_a/
+  8. The Feed Is Fake | That “viral” song, movie, meme, influencer, and celebrity drama was probably the product of a stealth marketing campaign
+     https://www.reddit.com/r/technology/comments/1te2df2/the_feed_is_fake_that_viral_song_movie_meme/
+  9. The era of 15GB free Gmail storage is ending
+     https://www.reddit.com/r/technology/comments/1tdnxxm/the_era_of_15gb_free_gmail_storage_is_ending/
+  10. Linux devs are fighting the new age-gated internet
+     https://www.reddit.com/r/technology/comments/1te7996/linux_devs_are_fighting_the_new_agegated_internet/
+
+【Reddit / business】
+  1. Magnum owns Ben & Jerry's. Now it's destroying what made the brand worth buying
+     https://www.reddit.com/r/business/comments/1tdxqg2/magnum_owns_ben_jerrys_now_its_destroying_what/
+  2. Starbucks to lay off 300 U.S. employees, shutter some regional support offices
+     https://www.reddit.com/r/business/comments/1tdxw9q/starbucks_to_lay_off_300_us_employees_shutter/
+  3. Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge support and boycotts, Snapmaker donates equipment to embattled developer
+     https://www.reddit.com/r/business/comments/1tdj1ve/louis_rossmann_taunts_bambu_lab_by_hosting_banned/
+  4. Jury orders Boeing to pay $49.5 million to family of 737 MAX crash victim
+     https://www.reddit.com/r/business/comments/1tdaudi/jury_orders_boeing_to_pay_495_million_to_family/
+  5. GM CEO Mary Barra talks economy, AI and more
+     https://www.reddit.com/r/business/comments/1te2i2l/gm_ceo_mary_barra_talks_economy_ai_and_more/
+  6. Honda just lost money for the first time in 70 years
+     https://www.reddit.com/r/business/comments/1tcyw6e/honda_just_lost_money_for_the_first_time_in_70/
+  7. cleaning businesses look way easier from the outside
+     https://www.reddit.com/r/business/comments/1tdw49c/cleaning_businesses_look_way_easier_from_the/
+  8. Takeaways from Fed Chair Jerome Powell's tenure as he steps down
+     https://www.reddit.com/r/business/comments/1tdyf3n/takeaways_from_fed_chair_jerome_powells_tenure_as/
+  9. Citadel tells key researchers to relocate from Hong Kong or quit
+     https://www.reddit.com/r/business/comments/1tcylfy/citadel_tells_key_researchers_to_relocate_from/
+  10. [Looking for Co-Founder] Sales/GTM co-founder for AI automation studio — Ahmedabad / Remote
+     https://www.reddit.com/r/business/comments/1tdsn91/looking_for_cofounder_salesgtm_cofounder_for_ai/
