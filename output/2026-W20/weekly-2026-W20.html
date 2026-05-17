@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>週間トレンドニュース - 2026-W20</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        section h3 {
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.8rem;
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .daily-grid {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .daily-grid h2 {
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .daily-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .daily-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .daily-card h3 {
+            margin: 0;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        .article-count {
+            margin: 0;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .view-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+            margin-top: auto;
+        }
+
+        .view-link:hover {
+            color: var(--success);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📰 週間トレンドニュース</h1>
+        <p>2026-W20</p>
+    </header>
+
+    <main>
+        
+        <section class="hero">
+            <h2>📰 今週のトレンド要約</h2>
+            <div class="overall-summary"># 📰 今週のITビジネストレンド｜2026年5月第2週<br><br>---<br><br><h4>🏭 1. AIデータセンターの環境・社会コスト問題が深刻化</h4><br>AIデータセンターによる電力・水資源の大量消費への批判が各地で噴出。メリーランド州では州外AI施設のために市民が<strong>20億ドルの電力網整備費</strong>を負担させられる問題が浮上。テキサス・ユタ・ケニアでも同様の摩擦が続発し、「データセンターは原発より嫌だ」という世論調査結果も登場。水問題では施設が<strong>3000万ガロン超を無断使用</strong>するケースも発覚。AI投資の社会的コスト分担が大きな論点に。<br><br>---<br><br><h4>🤖 2. AIの"実効性"への懐疑と業務活用の本格化が同時進行</h4><br>「AI自動化による人員削減が期待通りの収益をもたらしていない」という研究結果が注目を集めた一方、AnthropicはSMB向け「<strong>Claude for Small Business</strong>」を発表（会計・営業・マーケなど15業務を自動化）。企業のAI採用率でAnthropicがOpenAIを初めて上回ったとの報道も。開発者コミュニティでは<strong>Claude Code/Codex</strong>を軸にしたAI駆動開発の実践記事が急増。「AIに実装を任せたら精度が出なかった」という反省記事もトレンド入り。<br><br>---<br><br><h4>🔒 3. セキュリティインシデントが多発</h4><br>TanStack NPMパッケージへの不正アクセス、ObsidianプラグインによるRAT（遠隔操作ウイルス）配布、<strong>Microsoft BitLockerのゼロデイ脆弱性</strong>（USBで解錠可能）、Apple M5初のカーネルメモリ破壊エクスプロイト（なんとAnthropicのAIが発見に貢献）など、重大インシデントが連発。GoogleもAIがソフト脆弱性発見に使われたと公表。AI活用がサイバー攻撃の高度化にも直結しつつある。<br><br>---<br><br><h4>📉 4. テックレイオフ加速＆大手の業績悪化</h4><br>2026年のテック業界の人員削減はすでに<strong>10万人超</strong>。GMがIT部門の大規模削減を実施、GitLabが人員削減とCREDIT価値観の廃止を発表、Sonyは<strong>Bungie買収で7.66億ドルの評価損</strong>を計上。Hondaは<strong>70年ぶりの最終赤字</strong>、Samsungは工場ストライキ危機と経営非常態勢に突入。消費者支出の悪化懸念（McDonald's CEO発言）も重なり、企業収益の先行き不透明感が広がる。<br><br>---<br><br><h4>🌐 5. ローカルAI・データ主権・プライバシー規制の台頭</h4><br>「<strong>ローカルAIを標準に</strong>」という議論が高まり、M4 MacでのローカルLLM実行やCodexのローカル駆動実践記事が人気に。EUはMicrosoft・Amazon・Googleによる政府の医療・金融・法律データ処理の禁止へ動き出し、PalantirのNHSデータ無制限アクセス付与への批判も。</div>
+        </section>
+        <section class="daily-grid">
+            <h2>毎日のニュース</h2>
+            <div class="grid">
+                
+        <div class="daily-card">
+            <h3>2026-05-10</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W19/2026-05-10.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-05-12</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W20/2026-05-12.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-05-13</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W20/2026-05-13.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-05-14</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W20/2026-05-14.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-05-15</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W20/2026-05-15.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-05-16</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W20/2026-05-16.html" class="view-link">詳細レポート →</a>
+        </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-05-17 23:44:36 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>
