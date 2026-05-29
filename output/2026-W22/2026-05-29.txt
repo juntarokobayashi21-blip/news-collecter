@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-05-29
+============================================================
+
+【Hacker News】
+  1. Claude Opus 4.8
+     https://www.anthropic.com/news/claude-opus-4-8
+  2. Bricks and Minifigs Stole a Man's $200k Lego Collection
+     https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection
+  3. I made a million dollar product from my dorm room (2025)
+     https://nick.winans.io/blog/nice-nano/
+  4. Garnix (A Nix CI) is shutting down
+     https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895
+  5. Various LLM Smells
+     https://shvbsle.in/various-llm-smells/
+  6. Nitpicking the shell history scene in 'Tron: Legacy'
+     https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/
+  7. Ten Basic Clouds
+     https://www.noaa.gov/jetstream/clouds/ten-basic-clouds
+  8. Building durable workflows on Postgres
+     https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution
+  9. I hated writing until I learned there’s a science to it (2024)
+     https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it
+  10. News about Raspberry Pi 6 and Microcontroller Development
+     https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/
+
+【Zenn】
+  1. 論理削除をやめて状態をテーブルで分けるDB設計
+     https://zenn.dev/mstn_/articles/af99d216639b30
+  2. 思想と仕様を分けて要件定義する
+     https://zenn.dev/rehabforjapan/articles/requirements-engineering
+  3. Codexを使い始めて長時間稼働させるまで
+     https://zenn.dev/genda_jp/articles/b7fe56ce2fc60f
+  4. お前達にも教えよう。SnowflakeのAgent Sharingがすごくすごいことを。
+     https://zenn.dev/truestar/articles/72183e3b2e619c
+  5. Tips: Containerを利用したDL分散学習Libraryの開発環境
+     https://zenn.dev/kaz20/articles/ff41dfdcd48613
+  6. 1 行渡すと Claude Code が 1 時間自走する ─ E2E テスト駆動で新機能を作らせた話
+     https://zenn.dev/canly/articles/c7da70a520d1b8
+  7. インフラプログラマが Claude Code をどう使っていくか － AWS マルチアカウント管理
+     https://zenn.dev/sonicgarden/articles/ef6268318d256f
+  8. 「JWT を localStorage に置くな」はなぜ言われるのか、Cookie 回帰までの時系列整理
+     https://zenn.dev/khale/articles/web-session-jwt-cookie-history
+  9. Opus 4.7 と GPT-5.5 のレビュー特性を統計的に明らかにした（オトナの自由研究 #19）
+     https://zenn.dev/nnakapa/articles/lab-19-opus47-gpt55-code-review
+  10. 会議で知ったかするためのAIエージェント「知ったかくん」を作った
+     https://zenn.dev/wildchild_hiro/articles/065ae3386d9c16
+
+【Qiita】
+  1. 【完全版】AIセキュリティ地獄絵図2026 - CVE・攻撃手法・防御策を全部解説する
+     https://qiita.com/emi_ndk/items/a36051a97d3b0670bedd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 1割の“信頼される”エンジニアがやっている「何の話かを省略しない説明」
+     https://qiita.com/hitomin_poke/items/a8c2c14a72a417619c1d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 16万スター超のCLAUDE.mdに学ぶ、Claude Codeを暴走させない運用術
+     https://qiita.com/4q_sano/items/dc26f7468dcd39fbe62f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. オンチップ学習可能なエンドポイントAI IPのPythonシミュレータを公開しました
+     https://qiita.com/nhnhnh/items/243d9adbd4e79c44ca29?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【Claude Code / Codex × GAS】コピペ脱出！Google Workspace自動化レシピ7選
+     https://qiita.com/TMiyamoto/items/47a13155032f716a43bd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【図解】IT初心者でもわかる！クリーンアーキテクチャの基本
+     https://qiita.com/Yamashita_Sosuke/items/f4531c7266702b1419f8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Copilot Studio 自律型エージェントのクレジット消費を改めて整理してみる - 365 Copilot ライセンスだけでは判断できないケース
+     https://qiita.com/Takashi_Masumori/items/353fee8310b0cd36c8f0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. これがいいとは言わないが。私が普段 Vibe Coding で実際に投入しているPromptを晒す
+     https://qiita.com/dahatake/items/ef5cb2ad8d0e27dd976a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. AWS AI-DLC Unicorn Gym ワークショップで気づいた「モチベーター」という第三の役割
+     https://qiita.com/Tom-Panasonic/items/14509edbf2e5e1d2a0e9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. AWS CDK入門 - Lambda × S3 署名URLでファイルアップロードAPIを作る
+     https://qiita.com/sugumura/items/2b1bc35997d4c5d0d8d2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 「コーディングを学べ」もう通用せず、AI が若者の雇用を奪い始めた - technologyreview.jp
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxQY0dpRjF1Nks1XzdZNFNrZUtjaDd2VDdNM3RUb1k2aHVIcHdqVmhndV9lNW55TFM0U25YZnREbkR0cUFLWjByU1N1NmxWQ3JfQVhMbGVheGRuNHMzTUJ0QkhtV0JBQ0ctaU1NZ2NwbE9HcVFGMDA5NU52Q0k3bTZFTWM5Wk81ZFFYZ1JjRFpuRDZFSS1jUDVRYjJaZzZaaVlCU3c?oc=5
+  2. 日産、人とくるまのテクノロジー展2026で「AIDV技術」「電動化技術」を中心に紹介 - Car Watch
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE02WDNTeDF6Umh5Ykc1Q044VTZBY1kzeGdXV1h1WEdwbmhBcUIyWDNFUEdxamlPUlNmM3FPVEphdGNrXzVrWUJfWWxzN2xoUDFoYi1SX00xbHU4Skd4Qy1DalRfVmE?oc=5
+  3. 部品数削減・工程集約…自動車部品メーカー、原価低減へ画期的な技術提案 - ニュースイッチ by 日刊工業新聞社
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTE1JVzFYSncyaXo3aTc0UWxLVFpibUN4eGJvbmxUMEJGdkhjZEVjemRTWEYtWnZUWmQxTjRPMV9EdlNoZw?oc=5
+  4. 人とくるまのテクノロジー展 2026 YOKOHAMA(3) Ryzen AI Embedde ProとVersalで未来のクルマの技術を提案するAMD - マイナビニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxObXIybDB0WkJBVE9TSHJWN3RYSzFaaF9qem1lV0t6ejdJX2ptUUY4YThnSHlfa3VDTXVrYnpEcmFUX0U3MGg4X2hXQWg2c05yNFMwOXdCdlhGdkpDNnZvMWhBRmhyV1duQ0szNjRJUkszdXVrQ1E2enNyNHo4akUwMzg3eHp3ZFE?oc=5
+  5. ワコールが新技術「メループ」研究開発拠点を開設、スポーツブラ用ブラカップの量産開始 - fashionsnap.com
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE4yTlNkbzF0bHZuTXhPQ2tOUXBUSVpGLXlVd3M2cGV2UDhJYlZjeDh5bll0SDRRVlhkcTVIYlR3NnVvR0JPU0YxZ0V1YS14a1NvcnphNnhTOS14WUxZczJuUEZCOHQ5dXFBUnoybDRkbTlVR05C?oc=5
+  6. 人とくるまのテクノロジー展開幕 部品各社、コスト減提案 - 日刊工業新聞
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE96TE5wUTVQVmtyeVRsSm9yMGVuY1hKQjRyWTJUdmRsWVNrTWVUelRsU19EUVMwZ2MxRHRHQWlKWDEwdFFoVWdjSGhCQzJjWWFxbnVkRDRla0NOWEU?oc=5
+  7. 気候テック「冬の時代」になぜエネ企業のIPOが相次ぐのか？ - technologyreview.jp
+     https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjh4R1Q2MGxFdzVTUlk3bmhQcW1KUUZuNUU5VlhRYnF4QnhHdTBFaExfdTFsU3FmcnZwMmlILXFvbmtPb2xTR1FtVzUyRmxGYkp0cW1zV0Q1V3pNaGtJcFdYcUM2UHpFUEJMSUZPVHlONXlvTmNtdTlEVUI1VDFoejVQZ1V5eVJiMGlUNFNrb0lTZ2xfdEp3?oc=5
+  8. 「ホワイトカラー消滅」 まだデータに兆候なし ——ただし若者に警戒信号 - technologyreview.jp
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxObjhSNFpqeFJsYVlaVy1oakFyV2pkVTVBZ3oyZzROLU4tb2lhb1BYMFNxeUVtQUt4SFM2MmVVazZBeVdRdTVWb3k0aVhCek9aR1NyS0pDblFvT3VaUjlqaWdDSmYxV0Z4T2FGV1pUTThSQjhyZENwM0J6QklHTHNDVlQtVnRheVRZ?oc=5
+  9. 「臓器袋」から全身置換へ——ステルス企業R3が隠す「脳なし」クローン計画 - technologyreview.jp
+     https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYU5WVm4yaEhqS3hBYUhlamhkY21wSXFmVjhOZ2dseDNnc2tfbEpNTTRESzVvS0FGVlVldmxmMXpjMk55UVFwLU9fdjVyMzVjWW9RS19lNUJfbUtmbHlISnlGTVlSOVFadXRLQXBMOWFiN2UwLWpqNzZqZXZNNTZNZFgxZFlDSmQ2LTJCX1ByODl5dklDN0NTQ2RRTHR0cGtRd09vNGg2Sks?oc=5
+  10. クレド・テクノロジー・グループ・ホールディング【CRDO】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yZDhWeFU3T1N2VVpjSUU3RWl1VzlxVElVVHhjUzczaW1hSmN1MVh1dDQ4aXl6bldzU1h4MEJneGs5ZmQ1OE1aUkxoMklFeDg?oc=5
+
+【Google News (Business)】
+  1. グーグルはインターネットを破壊しようとしている…新しい検索機能はまるでAIによる「管理組合」に制御された世界のようだ - Business Insider Japan
+     https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmg2TkhPM3hjdVF0UEczdE5QM05INmV5THJSa0h2azMwQU12aFU3T0k1c3VIRG9XTzF6Vm5LSHFVbnB5dkpMcU1MMFlaU2Nyb2lYbERTdjVCOVVXcmdPcmdSUUMwU3I4YkVWVXlRVUlTeUZGdWVDdmNGb3ZTekJmTlNKcnhQTlFMUk94NlNIRXJJUQ?oc=5
+  2. 逆行型マーケティング 景気後退のさなか、直後に有効 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDTWVORHVQcXVTcEEwWURqWFZ1YXptblQ2djFTNFdqbW11V1lwandZdnlXYi1zamQwcjFLU01SZXBPMjdOTWFLNEZqM0FCdmRYZzV2Q3RUYk5NVXdWMkxiZUx3dzRwSzQ?oc=5
+  3. 【アタッカーズ・ビジネススクール創立30周年記念】起業の登竜門、世界へ。 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5LbEk4MkZLNk9tVEhhRWNDaTVhcGJNZ0s3aVpaYzBYTTdNazh2MkR6bU5IMVJySHA5YndmbkZhVUVfYXZ4Z1l5MWxaV01DNTlCbTR4NUN0LUhoSGJoWUJ5U1lvckY2dFp3c3c?oc=5
+  4. GREE reports record-high quarterly sales in its VTuber business, expressing confidence in the expansion of the VTuber market. - Mogura VR
+     https://news.google.com/rss/articles/CBMic0FVX3lxTFB2WV8ySUhSa0k2bWthVlBOMEpyTjBhZGx4dno3bEVyVTNjRkw0RE5iei13dmcxbjRYNFRpeTdKN1J6dWZxSHZ1c09DSG8yVHJlU1BhMUN3T1ltVFpoMGdVVU51ZVZwNDJtbVFGOHNVY0dPcnc?oc=5
+  5. キタムラHD、推し活市場に本格参入 展示会でビジネス提案 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNDY0SEFGZTRSWDFBM3NXX1Z0T0h0ejA3bVVsQzdPMTVoU1U3RERvMFJfU3pnUUxiS3QxN2RJamdOdmcxTThNTVhtLWRCMnBhNUUtVWpVUTNNZW53V2NWVzI0bi11ZmRTVGE4bkloWTl4amxoNVFmOFN1X3NrbGZlOXo2Ylp0TEN0UThrU2toSzZHWG5sc25UbFJyQ05uT3VENFhQcVM4Yl9uQWNfZk54MWo5Uy1NSzdrYUlqaDlXUVdIbFlBV1NzZS15RGtmMWZHOUg4ONIBhAFBVV95cUxQUXhRYkFHNkVHS2czUnl2MEk0ZjFGSWszclQ3OWtZZ29LZzdPTjVQRjIyR0pJNlY4QmxlNmlHakR2VGZQN2xQdmdqZjFVTGxLVlNZY3BtZkJXdVc0TDMwQjdkNjYzTlJvRWNuLUxXUTJYODkyV1k0bElfbFFERGMyV3RvV08?oc=5
+  6. 伊藤忠IPビジネス解体新書。「おぱんちゅうさぎ」権利取得、海外展開も実は意外ではない理由 - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE51N3dPQmF5aXJMWTlEaHR3Zl9LT0luUlZLSWdFU3Y4SXUzRGRtaWdfVUs1N0lyMWFqSUZ2Q3B1c1RvLTJhVzl0U1NldWZtNlFPcHRSbS1jS3oxc1M0Nm80UmdLLXp2dy1pNGotcktEVnF5WWE3d242ZEJKdDhIVms?oc=5
+  7. Officeは買い切り派！「Home & Business 2024」がAmazonで6％オフ／スマイル Sale - 週刊アスキー
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE9DOGlBbzFCYmNLTFI3cFQtd1Z5NmE5b1pEWW1KVks4TjVUSmV3Wi12RlJWLWhEb1l0TDEtbXRqdW8zdnFVXzZXTFpqS0tuZk9uZ2hIZVpwd1MzeUlZWHc?oc=5
+  8. 【動画】IPを軸に独自ポジションを築くサイバーエージェント、山内隆裕社長が描く次の成長モデル - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSE9PdzJCNm5wazIzdjBXbjlJNUFKUWNxcTlPTHRiOS1RSVQxb1VodmQ0eEd1a2U3SEJBYlZ0UWRpWWNzWVd4bzRTU1RualNSNElmZXJ3?oc=5
+  9. 「コーポレートガバナンス・コード改訂案」に関する想定問答例 - BUSINESS LAWYERS
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfNkVNbS1qc2dJU3daOUU3WndKbjFxTGxjT0o0LVJEVFI1bVNseUxYbGlyd3EyR0l1SmNNa3RsUFh3RkFhcWFfOGp1Qzcyenp6Vk1sQ0lMZw?oc=5
+  10. 「系統用蓄電所ビジネス」の運用・収益化を解説 宣伝会議、6月24日に開催 - kankyo-business.jp
+     https://news.google.com/rss/articles/CBMifEFVX3lxTFB6TDZfelpFOEdvbVN3Ry1uSjVaWHd3TWU4bThQcTU5MXpGLWlIUlVLY0RpQlNmVXpMVWRHTk4tSFBHckRyRjZ6UnAyU2hleTQxNl9MT1d3SlJMRkRfRU8wV2h6ZVBlWlBnRkQwRHAyN0FSdWJNY2xFaDExTlA?oc=5
+
+【Reddit / technology】
+  1. Cities Are Covering Flock Cameras With Trash Bags / Regretful cities aren't sure how to cancel their surveillance contracts, so they are literally covering their cameras.
+     https://www.reddit.com/r/technology/comments/1tq8dn2/cities_are_covering_flock_cameras_with_trash_bags/
+  2. 95% of canceled annual app subscribers never come back, per report
+     https://www.reddit.com/r/technology/comments/1tqctnv/95_of_canceled_annual_app_subscribers_never_come/
+  3. The Netherlands just blocked a US company from buying the app Dutch citizens use for everything
+     https://www.reddit.com/r/technology/comments/1tq0zk7/the_netherlands_just_blocked_a_us_company_from/
+  4. Anthropic secures $965 billion valuation after raising $65 billion
+     https://www.reddit.com/r/technology/comments/1tqdcku/anthropic_secures_965_billion_valuation_after/
+  5. AI Is Eroding Critical Thinking At Work. The Window Is Closing.
+     https://www.reddit.com/r/technology/comments/1tqhc2d/ai_is_eroding_critical_thinking_at_work_the/
+  6. Workplace data reveals ChatGPT losing ground rapidly as people diversify
+     https://www.reddit.com/r/technology/comments/1tqcw4i/workplace_data_reveals_chatgpt_losing_ground/
+  7. Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM applicants
+     https://www.reddit.com/r/technology/comments/1tq2cua/citing_severe_math_deficits_uc_faculty_demand_a/
+  8. Microsoft's GitHub bans security researcher who posted zero-day Windows exploits because company "ruined their life" — expert claims action is vindictive and promises further retaliation
+     https://www.reddit.com/r/technology/comments/1tqg00u/microsofts_github_bans_security_researcher_who/
+  9. AI sticker shock hits corporate America
+     https://www.reddit.com/r/technology/comments/1tpy3lq/ai_sticker_shock_hits_corporate_america/
+  10. Researchers let AI models run a simulated society. Claude was the safest—and Grok committed 180 crimes and went extinct within 4 days
+     https://www.reddit.com/r/technology/comments/1tq4m5y/researchers_let_ai_models_run_a_simulated_society/
+
+【Reddit / business】
+  1. Exclusive: Amazon scraps AI leaderboard to stop workers chasing usage scores
+     https://www.reddit.com/r/business/comments/1tqg1hd/exclusive_amazon_scraps_ai_leaderboard_to_stop/
+  2. Meta shares jump after company announces premium subscriptions for Facebook and Instagram
+     https://www.reddit.com/r/business/comments/1tpunpi/meta_shares_jump_after_company_announces_premium/
+  3. AI is changing software engineering jobs so fast the interview process can’t keep up
+     https://www.reddit.com/r/business/comments/1tq40aw/ai_is_changing_software_engineering_jobs_so_fast/
+  4. How Venture Capital Benefits From Zombie Bankruptcies
+     https://www.reddit.com/r/business/comments/1tqb3l7/how_venture_capital_benefits_from_zombie/
+  5. Journalists slam proposed Paramount merger as threat to press freedom
+     https://www.reddit.com/r/business/comments/1tqffpi/journalists_slam_proposed_paramount_merger_as/
+  6. Snowflake rockets 36% on earnings beat and plan to spend $6 billion on Amazon cloud
+     https://www.reddit.com/r/business/comments/1tptm74/snowflake_rockets_36_on_earnings_beat_and_plan_to/
+  7. Dell shares jump 31% after server maker reports fastest quarter 2026 sales growth since return to public market in 2018
+     https://www.reddit.com/r/business/comments/1tqkv26/dell_shares_jump_31_after_server_maker_reports/
+  8. Barnes & Noble’s Private Equity Owners Pulled Off a Rare Retail Comeback
+     https://www.reddit.com/r/business/comments/1tp9xwl/barnes_nobles_private_equity_owners_pulled_off_a/
+  9. Is this worth trying?
+     https://www.reddit.com/r/business/comments/1tq8urj/is_this_worth_trying/
+  10. Looking to Win Government Contracts?
+     https://www.reddit.com/r/business/comments/1tqkrr5/looking_to_win_government_contracts/
