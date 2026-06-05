@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-05
+============================================================
+
+【Hacker News】
+  1. Do transformers need three projections? Systematic study of QKV variants
+     https://arxiv.org/abs/2606.04032
+  2. Anthropic's open-source framework for AI-powered vulnerability discovery
+     https://github.com/anthropics/defending-code-reference-harness
+  3. IPv6 zones in URLs are a mistake
+     https://xeiaso.net/notes/2026/ipv6-zones-go-url/
+  4. VoidZero Is Joining Cloudflare
+     https://blog.cloudflare.com/voidzero-joins-cloudflare/
+  5. When AI Builds Itself: Our progress toward recursive self-improvement
+     https://www.anthropic.com/institute/recursive-self-improvement
+  6. Branchless Quicksort faster than std:sort and pdqsort with C and C++ API
+     https://tiki.li/blog/blqsort
+  7. Queen bees emerge from special wax chambers
+     https://cen.acs.org/materials/biobased-materials/queen-bees-special-wax/104/web/2026/06
+  8. Ian's Secure Shoelace Knot
+     https://www.fieggen.com/shoelace/secureknot.htm
+  9. Retro-Tech Parenting
+     https://havenweb.org/2026/05/28/retro-tech.html
+  10. KVarN: Native vLLM backend for KV-cache quantization by Huawei
+     https://github.com/huawei-csl/KVarN
+
+【Zenn】
+  1. CUDA Programming Guide Part 1
+     https://zenn.dev/kaz20/articles/1e622ef249d133
+  2. Claude Managed Agentsで「まずエンジニアに聞こう」を「まずbotに聞こう」に変えた
+     https://zenn.dev/dinii/articles/d7be3acc43d868
+  3. PR 前後で AI レビューを2段構えにしたら、レビュー待ちが約70%減った話
+     https://zenn.dev/estie/articles/4f06bde08a90d4
+  4. Gemini・Claude・ChatGPT・Copilot の4つのAIにそれらの使い分けを聞いたら、全員が自分をハブだと思っていた
+     https://zenn.dev/minipoisson/articles/ai-self-cognition
+  5. C++23入門 基本編
+     https://zenn.dev/yaito3014/books/introduction-to-cpp23-basic
+  6. RTX 4080でローカルLLM 7モデルを実測したら「16GB VRAMの壁」が見えた
+     https://zenn.dev/seeda_yuto/articles/ollama-vs-vllm-rtx4080-benchmark
+  7. 型の表現力はタダ: Rustのニッチ最適化を追う【第2部: MIR・LLVM IR・ASMを追う】
+     https://zenn.dev/fast/articles/28c49ba5f38dae
+  8. データサイエンティストのためのAGENTS.mdとSkills
+     https://zenn.dev/green_tea/articles/d310e5cf809190
+  9. 受け身な速さしかないエンジニアが、開発組織の設計をしている話
+     https://zenn.dev/nexta_/articles/82392d461bcb14
+  10. セマンティックな型宣言に意味はない
+     https://zenn.dev/toms74209200/articles/semantic-type-is-meaningless
+
+【Qiita】
+  （取得できませんでした）
+
+【Google News (IT)】
+  1. PwC Japan、先端技術を保有する企業や研究機関向けに重要技術流出対策サービスを提供 - クラウド Watch
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zYTFMUHhMTU5zejlqcUF3blh0UGdXRFlUYjh5c0RkUHlrbHJqalUxbXR6WTFlT0JHSWxLOEtqQ1UtbWlLaDJ4anpzbVRqb3RlT2pKUTgwY3NqS1F4TlRlTWE3dF8wYUE?oc=5
+  2. MIT Technology Review [日本版] 特別編集『ポスト都市時代の社会デザイン 社会実装都市 ひろしま』を発売 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFB6Q24zNVJXVy1PNU1ZUGdHR3ZaRkJMazZ3RzBhN2ozZUR4YWNoNzFyNXFBNDZSaldtWU9aMGZFNkhqT3l2S01HR0cyY2pMOVRMNjFmMXFyX0FjZWw2VXlQYTdOYjlTb2hHSVE?oc=5
+  3. データセンターからフィジカルAIへ Microchipが見据える技術進化と製品戦略：エッジとクラウド両軸を攻める - EDN Japan
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE41WDlram8xTFBLREtWOTdtc1lfLVpGNzBEQ2lTZzVIaFd2V1BJRV9HREZhVjBqemxuYkExNEdhQzZnVlpRRzdZOGxJWjFlbFVBU0ZNckxtTElRUFVyM0ZYekxjdWVIektzXzVF?oc=5
+  4. 中国、BCIを国家戦略に——世界初の商用化でイーロン・マスクにも先行 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcEJqQ2diUTNuZDZTT2RXX1A0b3M4V3N2c2dkQ2RtZWZEUmNVdFZmdWRYVnFxcG5va0pLN1VFSDRjeWxnTi1VMUktUE5sY3M1VXl6V1pyNzFVMU83TUo3SnR0ZnA4d2xyR1hHTnRWbGVmQl9OY0t3Z3NVSHdWVTFsVEpNNGVxWU5XUmdUclF3UGFvcGJvZlZtb244LVBkX211X0J4R29yb2V2UUJKNEtBQlVoelBPQWVZZjVXaVlJbW4?oc=5
+  5. 【世界初】「水素を運べる液体」でグリーン水素の製造・輸送・利用まで一貫実証に成功―「常温常圧で運べる」水素の新たな未来へ - rcast.u-tokyo.ac.jp
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE9TTWdQODFFNU1xekpxamJ2MVZOaFFvdFd6cGJQWkxhTlVrdnBYOU9Qb3BMcm9hdVNWODk3Wlg4cFpaa05ZdlE2T2E2ZGR2Q2JtNVowRmhyVEZ5YUNTaWo1aFV6clpLMmtGTXF1U3p0VQ?oc=5
+  6. ダイナテック、「LINEヤフー Partner Program」の「Technology Partner」に継続認定 - ニコニコニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTFBQbERJZDdCNU9TV2taYkpDbnY1WjZ0TmxRbHZwT0pkTVZNbzZfZjBNa09zVkpDQ1JCUzdwSkFpbmxRX0VYUHFvaEpWSkUxNUJTR0kzTVJydEZLalE5aWNmV05qcXZ5TmFoTlo3SmRKMEJxNkhmcGZVaVlJMA?oc=5
+  7. “映えない部品”が主役の「人とくるまのテクノロジー展2026」。マニア必見、今年の自動車メーカーの推し技術をレポート！ - carview!
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcmF0dXRmVzY1N19HVVFFVVFCbFZHUmFMaXBWeWdack5ETmlvT0ttVzNpRFpDVG1HQk12eXI1cnJVOXB0WkNjbHNvU0lqb1M2X2J5elBrRVlwTjd3UXhoU19CRzJock9NVzEwd0Y5QjZZR3h3NVVFMG5pN25LZE40a3hVV1pBc3RD?oc=5
+  8. 【ブライセン/COOOLa WES】来週開催！ロボットテクノロジージャパンに出展します(6/11~6/13開催) - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yZndFVnFuTlU3RE9qRkt4TzQ5YTgzU2h1dk02WFk0S09lNzA2TEh5Z0tIREJSdU1kaDgxUHd3UllCeUpoU2hQX18zMW1ZMjBKMTVxbFBDTlctUTVqN0E?oc=5
+  9. 日本フィールドコムグループ、7/13-7/14に「フィールド通信技術セミナー」を開催 - オートメーション新聞
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EVDdJREVDWWttOHdzUDdoNWxGdTZvanNXcjVpZWRIZVduWEJLZDJLWU5TSEZtaWE4T3RYQTAydkl2V2czTnJ3OGxSaVNwdnkwU3MtS3FvZGwzQQ?oc=5
+  10. 次世代科学技術プログラム、阪大など5機関を採択 - リセマム
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VVkpZNVF4Wk92MzVXNmNiZkU5QnJvZ3VYUUNkQjMwZk0wRUJxWWZWa3llMUlTMU5QbUo1TWp3QUpYLW1BWnppM0xUS3VLQVlONktXQVh5VDhqSFBmRnoxbS1YaHJiQQ?oc=5
+
+【Google News (Business)】
+  1. 今期の売上高増加率が大きい企業ランキングTOP20 - 四季報オンライン
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uNVlTVnZPcmhTSHpqOHlxbnlZSWhDRjBUVVJJZU5MUGJZeDlHLUhSNUh0OHhuUFo2S2h5ZF9Vb0xJSG4wZWpCQktWcHBtYUJUakwxbWJEOA?oc=5
+  2. 中小企業向け「デジタル化・AI導入補助金」対応サービスを開始。株式会社とくじコンピュータサービスがAI導入から運用定着まで支援 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5UYzdfYUtwRHNNX1BMYzl3UWY0SFlFQ21HbkFsVmYwMDBQWl9MaTZ2QXVnaVpxa1RfcGhJTlg4MGtBYkozaUp4ZWh3NHRUWlc1RndRQUhaTjJaLTNOYWpLUzJsZ2lUSk1SQ1E?oc=5
+  3. ＵＳＴＲ代表、日欧との関税上限尊重を再表明 「合意は合意」 - Reuters
+     https://news.google.com/rss/articles/CBMiekFVX3lxTFBuaFR2c1A5QVBHbEoxUzlOb3Fya3JkVDVvclFyYjJ4a09MUThWR3Rya0g4SjRycE9uSzRiVUJDRG1jVkNqX3NoWmxJemJubFdtQm83RnpTTFU1Rk8xUnJJbVFiamhLRW54WHo2RUNBWjVzTDB0ZG1uSUdR?oc=5
+  4. 裁量労働制、「残業代減らせる」は企業の誤解 裁判所は乱用に厳しく - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5aTkFhSENBaGFQUVVtZmJvLVQyTVppeFR3MHVERXlhLVdic3NQUUF0a2ZKSDlKcWxtX3p6YzYwcWthV0RsNHRjQ3dVaVpIV2stRFNock52ZkJIbEFUUUZjMlU3ZUFmRUZYcHNTVw?oc=5
+  5. 「今なら総工費5000億円規模」廃虚化進む“中野サンプラザ”問題、大手デベロッパーが明かす4つの深刻課題…再開発ビジネスは限界が近い - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBOMWx6a0RkYUxWR1BWbTZaSWxZUDlhT2V1UlVBd1lDWUhpS1owcDhFcVlRMUU0SDVLVXBBMzFYV0ZQWExJa2NKaTBkYUs0dFBrSkFzVzhkZ2pTYTVjQmRwQlpUMHA5ODN2aXNsRzluX1VTMk5TYm1EaVozNjdmdlk?oc=5
+  6. メモリー熱狂の韓国企業利益、日本を18年ぶり逆転へ－自動車斜陽映す - Bloomberg.com
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE5IRHAzWXdjLXBOeFlBc3dYeWpMNG1vbzVmaXdDWmktZkFOVVlzYlBfa281U2E5SzhucEdpblQtUmxOeWl5c000WUhsc213TXFBbmdiaFhQSkdqWUQ3eE5sYmNSR0NuTmJZWjMzc21raVBJLUJL?oc=5
+  7. PayPay to Enter Life Insurance Business - 時事通信ニュース
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vcU5KZmNWbzBvY2FaTmVpblBXZFZYSjBzMEVIaU9hcUM1MTRRZkdIajFzTUpzbFA0d0NaYTZmdThzMmhROG5GRktZbGk4bUtWWXc?oc=5
+  8. Claudeを使って4時間でポストカードビジネスを構築 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMirwFBVV95cUxPNGJ1aTd5bGVBazE5al9SWEd2VkR4bWludGhZNkZzMkdYX1MyakR4amItckFETXRwbUxZOEg3Y2t1UnN4TVlPN1RwX2J6emlmeUYtUGxISDR6S2ZiSzhkR2xkUW5oZmFFT2JaNTkzQzQ3YTVFQlZEal9SQ3J0eWRfREdGeEU0cjdJT09pU05oSk1yMERiTk1yZFEyTzhCaE1PRnhmRDJLbVpHUFVTQXhz?oc=5
+  9. 「AIを使え」から「あまり使うな」へ、米企業が半年で生成AIの利用制限に動き始めた理由 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SdHN6WE94dC11M1VJb043LUQwb0ZPNV9rVEwtU08xc1k0dmk0Q25NSEQxWmM0SE1RUkptR3kyb2h0MWdTRGJOYUdPYWFtbGVmYksxNDRB?oc=5
+  10. パートナー主導の勢いと、広がるアクセス：新しい Microsoft 365 Business with Copilot SKU - Windows Blog
+     https://news.google.com/rss/articles/CBMilgJBVV95cUxQWUJLTWJfdjgyMTdEVE41b1ZGeVN6THNSS3pTcFdqTUtvbHNVVGxxMnBsdEZBSF9DNk5IYV9mS2dWd2g5dXA4c0IxdG4wWEdxRjdPSTJJWDBKN1B0amJkZjBtZHZVa3Q3dUQ4X0tpU3JGZkZ3RzF3SDB6bW1pcUFXTlVJTzF5MWItbEoyWGtFRkNxSlNKOTFRY1hPeTZ5bTJHZDFhMTRCVmdmQUg3eXJ6Vi1lV01pZmo4VnBqYURrb0VzV2Z1RE5NRWR4aDBjLU1ONDJyU3pFXzVYTkdSZ21NZXhPZUhWVTdQelNrOFpUckxOeExTaHFJN0s4dGlnRnFjZ29yTEhzRkpEazl5Tl9lNUM4OHZ2dw?oc=5
+
+【Reddit / technology】
+  1. Spammers are flooding Reddit with fake posts designed to show up in AI search results
+     https://www.reddit.com/r/technology/comments/1twzntr/spammers_are_flooding_reddit_with_fake_posts/
+  2. Seattle poised to ban new datacenters, the largest city yet in the US to consider such a moratorium
+     https://www.reddit.com/r/technology/comments/1twqfax/seattle_poised_to_ban_new_datacenters_the_largest/
+  3. A CEO told employees they won't get raises in 2026 because the budget is going to AI
+     https://www.reddit.com/r/technology/comments/1twl47q/a_ceo_told_employees_they_wont_get_raises_in_2026/
+  4. GitHub just switched Copilot to metered billing, and developers are watching months of credits vanish in a single day
+     https://www.reddit.com/r/technology/comments/1twmt4e/github_just_switched_copilot_to_metered_billing/
+  5. Kevin O’Leary says he will shrink his Utah AI data center project after political backlash / The “Shark Tank” mogul said he would cut the 40,000-acre project by roughly half in a letter sent Thursday to Utah’s Senate President.
+     https://www.reddit.com/r/technology/comments/1twwjly/kevin_oleary_says_he_will_shrink_his_utah_ai_data/
+  6. Watch These Judges Rip Into Lawyers For Citing Cases That Don't Exist
+     https://www.reddit.com/r/technology/comments/1twurph/watch_these_judges_rip_into_lawyers_for_citing/
+  7. YouTube hikes Premium subscription cost again while adding advanced video features
+     https://www.reddit.com/r/technology/comments/1twxc1x/youtube_hikes_premium_subscription_cost_again/
+  8. ‘Bots have now passed human traffic online,’ Cloudflare boss laments — says agentic traffic wasn’t expected to eclipse real people until next year
+     https://www.reddit.com/r/technology/comments/1twloj9/bots_have_now_passed_human_traffic_online/
+  9. GoPro is in serious financial trouble. Action camera giant is at risk for potential bankruptcy
+     https://www.reddit.com/r/technology/comments/1twjxjk/gopro_is_in_serious_financial_trouble_action/
+  10. Premier says no to massive AI data centre proposed for south of Winnipeg — Big AI centres offer little economic benefit while impacting people, environment: Kinew
+     https://www.reddit.com/r/technology/comments/1tx243b/premier_says_no_to_massive_ai_data_centre/
+
+【Reddit / business】
+  1. Harley-Davidson's being attacked for not excluding customers
+     https://www.reddit.com/r/business/comments/1twwa77/harleydavidsons_being_attacked_for_not_excluding/
+  2. OpenAI CEO Sam Altman admits AI token costs are becoming "a huge issue" — company seeks improved value as overspending becomes a meme
+     https://www.reddit.com/r/business/comments/1twmxzd/openai_ceo_sam_altman_admits_ai_token_costs_are/
+  3. Bitcoin is weathering its ugliest week in months as narrative fades and liquidity rotates
+     https://www.reddit.com/r/business/comments/1tww7br/bitcoin_is_weathering_its_ugliest_week_in_months/
+  4. Goldman Sachs expects SpaceX’s AI revenue to surge 100 times by 2030
+     https://www.reddit.com/r/business/comments/1twq21m/goldman_sachs_expects_spacexs_ai_revenue_to_surge/
+  5. US Tech Sector Announces Most Job Cuts in Nearly Two Years
+     https://www.reddit.com/r/business/comments/1twrfab/us_tech_sector_announces_most_job_cuts_in_nearly/
+  6. SpaceX targets $135 IPO price at valuation of $1.77 trillion
+     https://www.reddit.com/r/business/comments/1twdd4k/spacex_targets_135_ipo_price_at_valuation_of_177/
+  7. SpaceX IPO Set to Give Investors Window Into Crypto Volatility
+     https://www.reddit.com/r/business/comments/1twnkqm/spacex_ipo_set_to_give_investors_window_into/
+  8. SpaceX prospectus: "Many of the innovative products and services described elsewhere in this prospectus may ultimately be unsuccessful and may require great expense."
+     https://www.reddit.com/r/business/comments/1tvodai/spacex_prospectus_many_of_the_innovative_products/
+  9. what do you use spreadsheets for that you wish was a proper tool?
+     https://www.reddit.com/r/business/comments/1twy7rp/what_do_you_use_spreadsheets_for_that_you_wish/
+  10. What's a business expense that looked expensive at first but ended up saving you money?
+     https://www.reddit.com/r/business/comments/1tw1hqh/whats_a_business_expense_that_looked_expensive_at/
