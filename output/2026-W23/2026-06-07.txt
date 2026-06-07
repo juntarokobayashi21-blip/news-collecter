@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-06-07
+============================================================
+
+【Hacker News】
+  1. Ntsc-rs – open-source video emulation of analog TV and VHS artifacts
+     https://ntsc.rs/
+  2. Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot
+     https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/
+  3. Moving beyond fork() + exec()
+     https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/
+  4. Zeroserve: A zero-config web server you can script with eBPF
+     https://su3.io/posts/introducing-zeroserve
+  5. Nvidia is proposing a beast of a CPU system for Windows PCs
+     https://twitter.com/lemire/status/2062880075117113739
+  6. DoD Officially Drops 180 Faiths from Military's Recognized Religion List
+     https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list
+  7. New U.S. college grads now have higher unemployment than the average worker
+     https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/
+  8. Sem: New primitive for code understanding – not LSPs, but entities on top of Git
+     https://ataraxy-labs.github.io/sem/
+  9. You Can Run
+     https://magazine.atavist.com/2026/mccann-cocaine-fugitives
+  10. Computex 2026: Are We Heading for the Agentic PC Era Yet?
+     https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/
+
+【Zenn】
+  1. Rustでエラー原因をsourceとDisplayの両方に書いてはいけない理由
+     https://zenn.dev/ultimatile/articles/rust-error-source-display-duplication
+  2. 現代の GPU アーキテクチャとシェーダー最適化の考え方
+     https://zenn.dev/ruccho/articles/shader-optimization
+  3. Claude Code と Codex を使い比べて見えた設計思想の違い
+     https://zenn.dev/tark_ann/articles/e8b09c6db73bfb
+  4. AI時代のサーバーサイド開発を考えて、Next.jsフルスタックからRustへ移行した話
+     https://zenn.dev/shtrchkw/articles/438accc201f16a
+  5. 開発者が攻撃対象になった時代に、開発環境とCI/CDについて考えていること
+     https://zenn.dev/catatsuy/articles/e2fc71d810613a
+  6. Claude Code Skill「cc-rsg」をWeb化した話 — OpenHandsという発見
+     https://zenn.dev/daishiro/articles/openhands-cc-rsg-webapp
+  7. 自宅ルーターのポート443を開放したら、ISPによる遮断(推定)でインターネットが死んだ話
+     https://zenn.dev/c4n4242/articles/5ab1f510d8c946
+  8. Snowflake App Runtime 入門 - プロンプトひとつでデータの隣に本格Webアプリをデプロイする！
+     https://zenn.dev/snowflakejp/articles/9e5b8fa393ccd8
+  9. フロントエンド開発で使えるMCPサーバーを徹底的にまとめてみた
+     https://zenn.dev/actbe_tech/articles/a0f1f3609cfc9d
+  10. Claude を使って Gemini 議事録から必要な情報を抽出する仕組み
+     https://zenn.dev/tokium_dev/articles/d806c7ad4fd458
+
+【Qiita】
+  1. GitHub Copilotの料金改定で大騒ぎになっているので、トークン削減の最新手法をまとめてみた
+     https://qiita.com/shinkai_/items/626dfa7857f2d554784e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AI時代、“ITを知らない”が普通に危険になってきた話
+     https://qiita.com/prum_hitomi/items/01defe8188de2123b25c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Microsoft 365 Copilot の ROI、どう考える？
+     https://qiita.com/Takashi_Masumori/items/70030a76b2b634f1166a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 海外ベンダーが作成したテスト方針やテストケースに対する品質改善業務に従事して得た学び
+     https://qiita.com/fj_qaengineer/items/cabe6aea0be459f7d97b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. AIエージェントに絶対に任せてはいけないことと、私がプロジェクトで使っているAGENTS.mdのルール
+     https://qiita.com/TOMOSIA-HieuNT/items/411d47f0d03b2fc7d20b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【React】フォームにonChangeもvalueも不要！全てuseActionStateで解決する
+     https://qiita.com/BRSF/items/206c141f06cd94b724c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AI時代、「作れる」より「何を作るか」が面白くなってきた
+     https://qiita.com/muu3/items/19f39c1f113830e3d902?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. CVE-2026-49975「HTTP/2 Bomb」をわかりやすく解説——AIが人間より先に気づいた脆弱性
+     https://qiita.com/long-910/items/76779fc1d8602dab73b3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 問い合わせ業務を生成AIで効率化する：Outlookアドイン活用事例
+     https://qiita.com/Yuki_Yamada4/items/13f5e584a34987e59a5a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Codex + Oracle DB SkillsでOracle Databaseの実行計画レビューをしてみてみた
+     https://qiita.com/shirok/items/45e2c49630fd002cf493?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. Sony Women in Technology Award with Natureを通してつくる、よりよい未来 - Sony
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE94SXc0d3ZaYjA4YkJWeG90WWtVdS1Oek96dzFiYXQ3c3hmRWdPMXZjdFM4SEcxOFVJbnBFUUYtVDlOa09FMUxNcGJrbmtMbXBPTURhcjVSdUR3QkZqZERmNFhhZlJFNHFvOTFGT0RBYmc2NTRu?oc=5
+  2. アイサンテクノロジー(株)【4667】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EZHlSUm9HN3I3c2pVaTNPM3ZuVDM3c1AtOHc1a3k3aDZsZmRXLVpINExFM2FnUGhVT2RsZ3JxZG5YX1BBbTFnVFBkUms1NmxCVnc?oc=5
+  3. AI / Data Technology Map Web版を公開 - cyberagent.co.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE54TUVSYWtTb3owZjBRSUZYMldmVjlwaWhsckRiQ01LRGtoZjRDUzFmYzlENlVvVUY4Wl9lVm80QWlOMmZoMi13eFVDdjZBOVg1b1k4YXZIX2hHanhZV0l3NUFJM21adWJXMmc?oc=5
+  4. PwC Japan、重要技術流出対策のサービス提供を開始 - PwC
+     https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFh5bFBZUUJHVHNCWERCa01UOUxnOTVhY01fQ3EyZXBBSUltT3l5TV9yd3ZndFdFczEzb1J3bElCenZUNkpWWEtaMXhXb0N5TDhKY3ZYT3M0NXE5dEltTUlxSU5HaDFxaFpTMVM5aDBZNmhzbEJ6R1FNM1llYVdjM2lQNlktUFl2cTJFM0RCejVPY19yZXBZ?oc=5
+  5. Marvell Technology Inc、S&P 500採用発表を受けて株価が急騰 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMicEFVX3lxTFBEYkFWaU5pdUEzVEU1YVk5NXV1MktJVHRlYko2SWc2ZXFIeW1sQm9RY0JtRWp3c21Vd00yTjFnTmR5SXk3Y245RkRXanFzdW5HZGFITnJzeE13cGtPR3VYb0MxQ2xWMUhySVhsTldyV2g?oc=5
+  6. 激変する情報処理技術者試験、「IT資格」の真実 - 日経クロステック
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mR2pKbHk4ek9NZFd1b2NCZ1p5ZUN4R2JDb2RaRVVCVnJWdkEtSlRHZlNKSW9vTWxDODBOX3dLelREV1N5OWFKV0RIUlUybU5kYkkxa2FhLWkwem5JRFlB?oc=5
+  7. デンソーウェーブ「ROBOT TECHNOLOGY JAPAN 2026」に出展予定 工場向けロボット活用や3DビジョンAI技術を披露 - ロボスタ
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tcE5pUWw3VjRSV0VEakxjMXZJVzF6bjdsbXFOb0NVNWJSYjFjNVVvUU9nSGhnQzA1aHJLSHRCZnFXQW1TUUNmR2RPSEJLSXZGVXRUVmVhdFd4b3FMbWsxTnZFOTQ?oc=5
+  8. 京都から世界へ 欧州最大級スタートアップカンファレンス「Viva Technology 2026」に出展します - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1RZnppei1PY0h6RTlSSnVmWkJuY1psMUtkTDhWTjFTTGJ0d0RLYW15dzN2MHc4MWlyMWMxa2hlX3hJcWYySlJYd2U0bHBYQmZfcUk4ZTRZX3k2VkpjX25CeWpiVmJNYXNQY2c?oc=5
+  9. ROBOT TECHNOLOGY JAPAN 2026 6/11〜愛知県常滑市のAichi Sky Expoで開催 過去最多の270社超が出展 - オートメーション新聞
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE52NWRxT0ZGNXd5U3VtS2k3WmVBbDFXZFlTdU1BN01rN2FTbVlFT2VLVHJya2lFV0t1T2JUTi10ODVVRkc0OElfVHdtbXBoMldNNnUxMmw0RGg2Zw?oc=5
+  10. DXC to Simplify and Strengthen If's Technology Estate Across the Nordics with DXC OASIS - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hbmEtUjhfQVR4bXQ3Q2pBZjFybHBPQ3dQRFZNdTRpNkhxVVBfN0dqQlNBME54VEZDRWhEN25PaWlLeDVNb1dYQTE2ZnI0Z0tPcVpwa1U0eE5Vd1U?oc=5
+
+【Google News (Business)】
+  1. 米アリゾナ州にある世界最大級の「航空機の墓場」を見てみよう…急成長する数百万ドルビジネスの舞台裏 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMinwFBVV95cUxQSm5sVTVLZzVhZXRyMkg0U1ZIanhtM0dKLWxlaUtJWWF3MXNrZmNNMEN3LTJ5S1pZMjA0OGhqUHNyNEhNWWJlVjFJWDhGZWk5TWI0YXhrVUVUT1U3cll6dlgzeXcwMzVCVEZOZnFTN1JhVV9iclVPSDhlSjl6LWNtUEljTUlGLXEwSmoyS0hiZ2hQRHJRZXREaVczOW5zX1U?oc=5
+  2. ソニーもパナも変わる中、三菱電機が「家電」を続ける理由：家電ビジネス（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5PZUpnQzJ2a2x1R09UcUp2ZnVOQVUxbnZiWm9Way1YUjZoOVppcnVUbWQyWTVfRVF5MnNuSGw1eDBVcnNqOTBjdkpKWUJJZnpFUG5GUnpYbzlHUk9TbEdlaElCZG5td3V1VUpqUl9RMUZUdw?oc=5
+  3. 「今なら総工費5000億円規模」廃虚化進む“中野サンプラザ”問題、大手デベロッパーが明かす4つの深刻課題…再開発ビジネスは限界が近い - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBOMWx6a0RkYUxWR1BWbTZaSWxZUDlhT2V1UlVBd1lDWUhpS1owcDhFcVlRMUU0SDVLVXBBMzFYV0ZQWExJa2NKaTBkYUs0dFBrSkFzVzhkZ2pTYTVjQmRwQlpUMHA5ODN2aXNsRzluX1VTMk5TYm1EaVozNjdmdlk?oc=5
+  4. 4年後に“市場規模150兆円”　宇宙ビジネスに参入相次ぐ - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxPQzJFUENNcFliS2hGX0VmN1R1ZVNfNlJNenZ3UHA1OHlkbDJFa19TenEzbVJnamdfQWdYMHhjd1J6aU43T1A3VFRhOG1rY01KSlhpeWotT0tlOFV2T0xvQ2lHUmV3TXFmdkVyRWt3eTl6ZHpjSFhxamczeEswWTFFV3IzRG1JNHJOVGfSAY8BQVVfeXFMTjlPdVpONjZxUVRKM29qdlg1bmhVenA0bEtETlQwem5abmFaUWZjZ2ZtX1M2VXV6a3FsSEY4UlJwcnB2VGpPdE9tS2djVlZGd09ZMzcyZFlWa0x4Rkgxd1JCSW41Sk0zZ2xHcDFkMENiVDJLYWNCZnJaSEFEcW1HaHFMZmNmOTBNZG9wVHA2YlE?oc=5
+  5. 村田製作所 人事 - 京都新聞デジタル
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE92MEdPV1YxdERLTW04QXc3RjBfcWQyYzhMU3dXcDRIM2RyaVRhc2JHZTN2SkZVdldaZUNJWXJ2bzlmUWRtTHF0dmZLdk9QYVdDYWxRTWFvV1FnY1E?oc=5
+  6. JALとispace、弱点を補完し合う提携…月面輸送ビジネスが問う「本業の限界」 - ビジネスジャーナル
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE56SDdGTExYYlBmbGg2eFY2VWVYNzE2U1RjNmhvcXFWVG5yaUxkdU1BbENnaF9scGw4ZFMwRVpZSmJ3TUg5UzVUZ0VDd0dLNWlHajdEQ2dycVl6MGc?oc=5
+  7. メルカリ、ウーバーが弁護士登用 新興企業の道しるべ ルールメークで一役 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqTGNRNjJOZDVpc2ZNWi04X3J6dFN6a3NIRUVqTkFIeUgxSHZQTVdWNXJfT0M4d3R4SkhPNFBoRFVrelFKd2oyYlp6MGdabmdQM1JYZktHMlVvakU5VHZiWmJvQmo?oc=5
+  8. PayPay to Enter Life Insurance Business - 時事通信ニュース
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vcU5KZmNWbzBvY2FaTmVpblBXZFZYSjBzMEVIaU9hcUM1MTRRZkdIajFzTUpzbFA0d0NaYTZmdThzMmhROG5GRktZbGk4bUtWWXc?oc=5
+  9. JALとispace、弱点を補完し合う提携…月面輸送ビジネスが問う「本業の限界」 | チバテレ＋プラス - 千葉テレビ放送株式会社
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zNVhJNE1yQm1sTXNadmJMMFlXTGdrRC0tTG4ydzJ2UG1Ubl9FQUFobkFjcFRzOVQyYXVSYnpsUEt1Zms3WG1MR09MUEZoZ0lReHZNV3ZNaHQxUmNVNnow0gFkQVVfeXFMTkxKSVFseXFLLWdDTWljZ0txZ21EMzJHZ0puWFY4M0psWGhzdTBYeVJnd19malU3RUxsWDdSQ243WUlfRVlhYS1XMFBmQWNpdUlWMGc3ZXc4RkdLS0JJN1BQbklyaA?oc=5
+  10. 【毎日書評】世界のビジネスエリートが歴史から学ぶこと。「人文知」が正解のない時代の答えになる - ライフハッカー・ジャパン
+     https://news.google.com/rss/articles/CBMickFVX3lxTE42UV9yWTlpTHYycFo5ajVfMDNzX3ZUMUVJWDA4OXdaRnVQb1ZyZkpOOVVMamZBVTJFVW0yODZfSEF3SWVyU3dCeDV0SEUxZEhMX1A3UTE5Tl9CRXJhVWlPTkxzNENmanltN2RGY090X0VPUQ?oc=5
+
+【Reddit / technology】
+  1. Anthropic is blacklisted by the Pentagon and being used by the NSA at the same time
+     https://www.reddit.com/r/technology/comments/1tynzoc/anthropic_is_blacklisted_by_the_pentagon_and/
+  2. Jeff Bezos says it's 'absurd' to tax someone making $50K — and wants their tax bill dropped to zero
+     https://www.reddit.com/r/technology/comments/1tyv6r8/jeff_bezos_says_its_absurd_to_tax_someone_making/
+  3. Women in Brussels 'filmed without their knowledge' by men wearing Meta smart glasses — Some of the footage was allegedly intended for social media content linked to so-called dating or "seduction" coaching
+     https://www.reddit.com/r/technology/comments/1tys72o/women_in_brussels_filmed_without_their_knowledge/
+  4. Nashville Zoo tries to halt data center project next door over animal safety concerns
+     https://www.reddit.com/r/technology/comments/1tyvhy8/nashville_zoo_tries_to_halt_data_center_project/
+  5. Americans lost nearly $900 million to AI-generated scams last year. It will likely only get worse
+     https://www.reddit.com/r/technology/comments/1tyndlz/americans_lost_nearly_900_million_to_aigenerated/
+  6. Massachusetts House passes strong data privacy bill banning sale of cell phone location data
+     https://www.reddit.com/r/technology/comments/1tyddax/massachusetts_house_passes_strong_data_privacy/
+  7. Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones
+     https://www.reddit.com/r/technology/comments/1tyqpvb/meta_silently_added_facerecognition_code_for_its/
+  8. McDonald's Introduces AI Drive-Thru System, Sparking Customer Backlash
+     https://www.reddit.com/r/technology/comments/1ty9fyo/mcdonalds_introduces_ai_drivethru_system_sparking/
+  9. Anthropic Says We Must Stop Authoritarian AI. But What About Its Authoritarian Investors?
+     https://www.reddit.com/r/technology/comments/1tyixz9/anthropic_says_we_must_stop_authoritarian_ai_but/
+  10. YouTube Premium just got more expensive again: now $16 a month, or $27 for families
+     https://www.reddit.com/r/technology/comments/1tyg8yb/youtube_premium_just_got_more_expensive_again_now/
+
+【Reddit / business】
+  1. SpaceX has to grow 60x in a decade to justify a $1.75 trillion valuation. It's an impossible bar
+     https://www.reddit.com/r/business/comments/1tynock/spacex_has_to_grow_60x_in_a_decade_to_justify_a/
+  2. Google to pay SpaceX $920 million a month for compute capacity at xAI data centers
+     https://www.reddit.com/r/business/comments/1tyhar7/google_to_pay_spacex_920_million_a_month_for/
+  3. Valve says Steam Machine and Steam Frame "shipping this summer" in 2026 — company confirms release window as it expands Verified program
+     https://www.reddit.com/r/business/comments/1tyb5u7/valve_says_steam_machine_and_steam_frame_shipping/
+  4. Google is quietly laying off staff in its cloud division.
+     https://www.reddit.com/r/business/comments/1txfcac/google_is_quietly_laying_off_staff_in_its_cloud/
+  5. Anthropic warns that AI will soon be able to improve itself without human intervention
+     https://www.reddit.com/r/business/comments/1txkjfu/anthropic_warns_that_ai_will_soon_be_able_to/
+  6. The US economy added a stronger-than-expected 172,000 jobs last month
+     https://www.reddit.com/r/business/comments/1txjsrb/the_us_economy_added_a_strongerthanexpected/
+  7. Harley-Davidson's being attacked for not excluding customers
+     https://www.reddit.com/r/business/comments/1twwa77/harleydavidsons_being_attacked_for_not_excluding/
+  8. what's an interesting management topic?
+     https://www.reddit.com/r/business/comments/1tygdwp/whats_an_interesting_management_topic/
+  9. OpenAI CEO Sam Altman admits AI token costs are becoming "a huge issue" — company seeks improved value as overspending becomes a meme
+     https://www.reddit.com/r/business/comments/1twmxzd/openai_ceo_sam_altman_admits_ai_token_costs_are/
+  10. Europe has no time to wait on payments, BLIK CEO warns
+     https://www.reddit.com/r/business/comments/1txerj7/europe_has_no_time_to_wait_on_payments_blik_ceo/
