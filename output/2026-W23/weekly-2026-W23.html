@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>週間トレンドニュース - 2026-W23</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        section h3 {
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.8rem;
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .daily-grid {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .daily-grid h2 {
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .daily-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .daily-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .daily-card h3 {
+            margin: 0;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+
+        .article-count {
+            margin: 0;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .view-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+            margin-top: auto;
+        }
+
+        .view-link:hover {
+            color: var(--success);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📰 週間トレンドニュース</h1>
+        <p>2026-W23</p>
+    </header>
+
+    <main>
+        
+        <section class="hero">
+            <h2>📰 今週のトレンド要約</h2>
+            <div class="overall-summary"># 📰 週間ITニュース要約（2026年5月31日〜6月6日）<br><br>---<br><br><h4>🤖 1. AI開発ツール（Claude/Codex）が開発現場を席巻</h4><br><br>Claude CodeやCodexを活用した開発事例が日本のZenn・Qiitaで爆発的に増加。UnityゲームのフルAI開発、PDMの思考をAIに移植、AIによるGitHub Actionsの自己修復パイプラインなど、実務レベルの活用が急速に広がっている。一方で「某社がClaudeに月500万ドルを誤って溶かした」事件が話題に。AIツールのコスト管理が新たな経営課題として浮上している。<br><br>---<br><br><h4>🏭 2. データセンター建設をめぐる社会的反発が激化</h4><br><br>米国各地で住民・自治体によるデータセンター反対運動が拡大。カリフォルニア州の都市が永久禁止を可決し、シアトルも検討中。テネシー州は電力インフラ費用の自己負担を義務化、イリノイ州は税優遇措置を停止。Alphabetが$800億ドルの株式売却でAIインフラ投資を加速する一方、「データセンターへの投資額が政府の交通インフラ支出を超えた」という統計も。エネルギー・環境問題が深刻化している。<br><br>---<br><br><h4>💼 3. AIによる雇用・職場への影響が現実化</h4><br><br>Wix・Cloudflare・SentinelOneなどテック企業がAI投資名目でリストラを敢行。MITの専門家は「AIを言い訳にしているだけ」と指摘。トラックドライバーへの影響を懸念した米国法案も提出。一方MITテクノロジーレビューは「コーディングを学べ」という助言がAIにより通用しなくなったと報告。若年層・エンジニア職への影響が顕在化し始めている。<br><br>---<br><br><h4>🚀 4. AI企業のIPO・資金調達が市場を動かす</h4><br><br>AnthropicがIPOを正式申請、OpenRouterが$1.13億シリーズBを調達、SpaceXが$1.77兆ドル評価額でIPOを検討。Alphabetが$800億ドルの株式売却を計画。Dellのサーバー売上が急増（株価+31%）するなどAIインフラ需要が株式市場を牽引。「AI企業の株式を国民が保有すべき」というバーニー・サンダース上院議員の法案も話題に。<br><br>---<br><br><h4>⚖️ 5. AI規制・倫理・セキュリティへの懸念が高まる</h4><br><br>カリフォルニア州がAIチャットボット玩具を禁止（子どもの安全）、フロリダ州がOpenAIとAltman CEOを提訴。Meta AIがInstagramアカウント乗っ取りに利用された脆弱性が発覚。Anthropicは「AIが人間の介入なしに自己改善できる段階に近づいている」と警告。一方でAI検索を嫌うユーザーによるDuckDuckGoのトラフィックが3倍増という逆張りトレンドも注目される。<br><br>---<br>*📅 集計期間：2026年5月31日〜6月6日 / 文字数：約1,</div>
+        </section>
+        <section class="daily-grid">
+            <h2>毎日のニュース</h2>
+            <div class="grid">
+                
+        <div class="daily-card">
+            <h3>2026-05-31</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W22/2026-05-31.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-06-01</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W23/2026-06-01.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-06-02</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W23/2026-06-02.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-06-03</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W23/2026-06-03.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-06-04</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W23/2026-06-04.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-06-05</h3>
+            <p class="article-count">122 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W23/2026-06-05.html" class="view-link">詳細レポート →</a>
+        </div>
+        <div class="daily-card">
+            <h3>2026-06-06</h3>
+            <p class="article-count">141 件</p>
+            <a href="https://juntarokobayashi21-blip.github.io/news-collecter/output/2026-W23/2026-06-06.html" class="view-link">詳細レポート →</a>
+        </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-06-07 23:55:23 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>
