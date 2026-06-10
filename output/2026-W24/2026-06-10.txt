@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-06-10
+============================================================
+
+【Hacker News】
+  1. Claude Fable 5
+     https://www.anthropic.com/news/claude-fable-5-mythos-5
+  2. Upcoming breaking changes for NPM v12
+     https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/
+  3. Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks
+     https://aarushgupta.io/posts/kan-fpga/
+  4. If Claude Fable stops helping you, you'll never know
+     https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html
+  5. Making Graphics Like it's 1993
+     https://staniks.github.io/articles/catlantean-3d-blog-1/
+  6. Grit: Rewriting Git in Rust with Agents
+     https://blog.gitbutler.com/true-grit
+  7. Exif Smuggling
+     https://github.com/signalblur/exifsmugglingpoc
+  8. CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs
+     https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/
+  9. Lies We Tell Ourselves About Email Addresses
+     https://gitpush--force.com/commits/2026/06/lies-we-tell-ourselves-about-email/
+  10. RIP software hackathons. Long live the hardware hackathon
+     https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/
+
+【Zenn】
+  1. Claude Managed Agents で社内データ・ログ・コードを横断調査する Slack bot を安定運用する方法
+     https://zenn.dev/dinii/articles/1cfac1ca8b46c3
+  2. データエンジニアこそ組織のオントロジーに向き合うべき
+     https://zenn.dev/dely_jp/articles/data-engineer-context-action-layer
+  3. 難解な条文すら関西弁なら理解できる説。試せるサイト「おおさかけんぽう」を作った話
+     https://zenn.dev/kako_jun/articles/4fe547a1b95b1e
+  4. マルチテナント化のために本番稼働中のMySQLをPostgreSQLに移行した話（マルチテナント化連載 第2回・PostgreSQL移行編）
+     https://zenn.dev/counterworks/articles/0eb98271af2991
+  5. 「Claude Code」を支える技術
+     https://zenn.dev/knowledgesense/articles/7ce72924c0050f
+  6. Claude Code のトークン削減を実測した — semble 93%・cacheRead 1800倍の内訳
+     https://zenn.dev/pepabo/articles/claude-code-token-reduction-measured
+  7. ExcelVBA開発をAIエージェントで自律化させるAll-in-Oneな開発ランタイムを作りました
+     https://zenn.dev/harumikun/articles/cd898e4032ca37
+  8. どこからでもAIで仕事をできるようにしたけど、疲れてやめた話
+     https://zenn.dev/g2/articles/7aeb22e8ebbf82
+  9. Docker Buildを106秒→44秒、32秒→3秒に高速化した3つの改善
+     https://zenn.dev/engharu/articles/b3aa073c3694de
+  10. 生成AI時代のエンジニアの生存戦略
+     https://zenn.dev/counterworks/articles/62667be5a186b8
+
+【Qiita】
+  1. 未経験からエンジニアになるために必要な3つの知識
+     https://qiita.com/masa20057/items/39ad448983e2ba8406da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 9割のエンジニア未経験者がつまずく『最初の壁』 。それでもアプリを作りたい #2
+     https://qiita.com/hitomin_poke/items/ffcc67d985d4ab47631e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. なぜCatBoostはカテゴリ変数に強いのか？LightGBM・XGBoostとの違いから理解する
+     https://qiita.com/KanNishida/items/72a7fd6854e99506cdff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. なぜBraveは拡張機能なしで広告を消せるのか？仕組みを5分でゆるく整理する
+     https://qiita.com/ktdatascience/items/6f7e861f0cc7df3de4c0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. [Bedrock AgentCore Gateway × Keycloak]MCP 2025-11-25 認可仕様に準拠したKeycloakでCIMDと認可コードフローを利用したMCP認可を試してみた
+     https://qiita.com/mitsu3333/items/0ca5bd39c4dba6a8c6eb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 落語で学ぶ『AI時代のDDD』ドメインプリミティブ編
+     https://qiita.com/Yametaro/items/226e7c06bc9d5877e64e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. ping、tracerouteコマンドを使用した、SSHできない時の切り分け方
+     https://qiita.com/M_waowaowao/items/803300d3453daaaf48ce?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「そのpromptちょうだい」と言われるけど、たぶん同じ設計書は出てこない ── engineer to delegate to で本当に効いていたもの
+     https://qiita.com/ntaka329/items/c153d50810f2945897d8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 経験浅いエンジニアが AI に React 書かせてると、進化に取り残される説
+     https://qiita.com/Yamada040/items/be9684ba52ae88f76dda?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 生成 AI 時代の人材像と、その評価について考えてみる
+     https://qiita.com/Takashi_Masumori/items/2e2a3f8e16c8601de2c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 高度な「AIハッカー」心配の影で、あまりにもお粗末にAI は騙されていた - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxOdDVaRHl5SmI5RGxlR1JYT3lMUGFWU2dCR3FSX19qQWJtRHFqWjBEb1dnLXE3V1RPck4wV3BfaXdMb0xQUDV6N0F6RGhDX0xkVTBDRDJSaWVDNDNJY0RjYVpSZXc2S21yQ3pJTkIwRkhrRll1aTVCWklCY1FBbjZKT1lnNnBvZDFMUFNwOVd6R1MyN1FDYU1qaUVpVmNLRl9QN2c?oc=5
+  2. TECHNOLOGY（360ページ目） - ギズモード・ジャパン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Tc0d0dXFFOFNEMzl1ZTllaFVaenpIQnhQenBWLUFjUnl4d01OT0Y0N0UycEczcEEzeVE0SV9wOWMzM1FUSXBLYy1BTk5KSy12U0lsQ0FLMWtkN0k?oc=5
+  3. AIへの反発が高まるなか、米当局が「反テクノロジー過激主義」への警戒を強める - WIRED.jp
+     https://news.google.com/rss/articles/CBMifkFVX3lxTE9sY1ZzaDFvX1JvYXhmd0psdjdtTGNyWHQ1OVJ1MDRPSm5MSm15TG5RS2loQnpSdWV6THhKS1I3VnUxQVJNVndFZVg0NVhJSlN4TnFwZ1JQSFlNS2d1ZzgzckVnRnU1S1BzUDFVcjc1Z2dibWNlLWxoSEh0NTBrdw?oc=5
+  4. AIは「短距離走」ではない、いま知っておくべき5つのこと - ASCII.jp
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYZDRLc3RaMlBsbThBOWx2ZzhXWFhHLTVwc25xdmtFeGEwN3Rjem9wNGJTUEdDS3BCdHYxLThQaXl1cVVzSE10dThLVnptdEhNNm9iQg?oc=5
+  5. “映えない部品”が主役の「人とくるまのテクノロジー展2026」。マニア必見、今年の自動車メーカーの推し技術をレポート！ - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE82VDdTY0d3YmsyODdoamJkOG1PTTBZWHBLeTZCOFV6U1dmRURvOWlKYmdNd1ZRWVVlOGl2UWlQdEVXSHdKdkx6eVFWaUoyNk45QVBHbHNGYzkwNHFUX2NTY0NQa191dF91MW5WRmpjczJ5M01NNEk1V2dhY0VCMlk?oc=5
+  6. この20年で大幅低下した集中力、AIで脳はさらに「萎縮」 するか - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMimgFBVV95cUxNcFZWUEprcEtpcC1kMUU2ZlZyTll3MXlOdDdPdFkwS2RQbmgzVGwtM3E1QzZISVBjVEFfVDh3UTRwaUFSTGFJNnJFTndYRzJmV3lhRU1LUnFHZ1U1bFRxMldOYnptRmFKZGs0aGtlUF9FbHp4ZDczUnBLMzYtZm1VZmVoZncwdWhORE9XWklhS3VMUTZBLXpGQVlB?oc=5
+  7. PwC Japan、重要技術流出対策のサービス提供を開始 - PwC
+     https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFh5bFBZUUJHVHNCWERCa01UOUxnOTVhY01fQ3EyZXBBSUltT3l5TV9yd3ZndFdFczEzb1J3bElCenZUNkpWWEtaMXhXb0N5TDhKY3ZYT3M0NXE5dEltTUlxSU5HaDFxaFpTMVM5aDBZNmhzbEJ6R1FNM1llYVdjM2lQNlktUFl2cTJFM0RCejVPY19yZXBZ?oc=5
+  8. Forcesteed Robotics、Robot Technology Japan 2026にて、ロボットSIer向け汎用ヒューマノイドロボットコントローラForcesteed-LEIVORを展示 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBmaFhLZWtJWkd0aHBNVHJMb2dIWWdFUXRDZTIxNGZhUkJFc1hfaDN6Zl9Jb0UwWk51T0dLU2FDRTBBRlZOYXAtcFdPOTAya2stdURWQW9YMGxmS1RqX1YxTTBVZHlwMGxnOHc?oc=5
+  9. AIは「短距離走」ではない、いま知っておくべき5 つのこと - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxNQnR6bi1qWDltR3RnV0NEd2d4djk4Z1dQX3FhalhMWEVEc1Q2b3lsM2JUYWFZbEpiSHVYbzVMeVVyelloOWJXcVF0MWl2dmJ3Q1NnTDg3b1pDQ2g3bnBIOUZ3RG5jMHVUNUFuVG9XN2ZlZzA0cXNDV0pPSEVuSzRRbUZ3Mk1QQQ?oc=5
+  10. 6月9日のSeagate Technology Holdings PLC (STX) 終値は3.49%下落：値動きの背後にある事実 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQaHUzYlgtbnNseXlUV1ZuV3lqbHFtT3dKdy1lTXl0TU91ZVhoX3ZVUUdtSHpmN0F3Y2d6c1JwLUZKVnphbmY2MnZXcldscWU5aDdTNEptM01SR2EtNHJ5UzIxY1VVMGZCU2FYVlBPeF9rdzBtX3Z1VWwtc3RpMWRsbURvOWVxbVdOUDJGX2R3?oc=5
+
+【Google News (Business)】
+  1. AI浪費、社員1人で月1000万円 企業活用「やってる感」の落とし穴 - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5JaDJUUEc4eFNLY09fZVNMYTMzNnR0ZTE3SWJMRVhjSXN3V3VkNk4zQ0M3Zk9XamhrTW9pLWk1cDZHRUpwUVo2d2RHU0psRXFTZFFzQk5YVEc1UzRmUW44bG84UkU4MzVQdmQ2Qw?oc=5
+  2. 伊藤園、純利益「75.5％減」 139億円減損が告げる「自販機ビジネス」の曲がり角：古田拓也「今更聞けないお金とビジネス」 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9ZRHE2ZGNZY0l6WUsySUJaejNtUHJXei12WkplemhIZFYwQ0g2X1g1aW9uS2hfc0JrbWpPd3d4NkdPXzRUSkNGTlQ3N3RFbGM4d2JvME9iYnFEb2I4Y2R3SEU2ZWEwNmZCWl96dXkxRGFDZw?oc=5
+  3. Phoenix Consulting、グローバル人材育成ソリューション「Business English Intelligence」を提供開始 - ニコニコニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE43Y2VsSXdjeXNUeVJOLWRMSkVGN055MFFSZ3A3OUlOYmVTb21CbFFub1d5dG1Od3loZjY1dVkxQ1NjZVpmSlZrcmFnUWVGek5QNVdpYTNwZFo2LTVmTVZBdkFKdDA3cE4t?oc=5
+  4. IP Business HEADLINE No.6 - 宣伝会議
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE9HUThKaFdCT25TSExqOUluYVRuc2pWNG1uQnIySnpOd1FxTWVPSm0wNUx0TUN3cE85anhoRFpsODRsTlFJNEpQeUF0dzU2TXhOcDY3blZ4c3BOWkVhTEZNbF9XdUp2TG1sUEdfV243aVdzTDJESHdn?oc=5
+  5. ノスタルジーを収益化…28歳の起業家が仕掛ける「デジタルデトックス」ビジネス - Business Insider Japan
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxNZWZRY1BweUVVUkludE5UeXF5UXBJam9oUVJ3WnZqR3IwdTNDWVZpZVNsYjZ1dS1nVDZRV2xxMWV6TjhBZWhjaG1nNUYwbGhWMHVjQUtPQ2Z2X2szZUVHVGtwYS04ZW5ZRkpXNk9NSXlDUDJFc0phbkwtV1ZmZktoNEpRTG04cEo0NkhBaGNFQWJGd3dodHlvR19IWFVGeTNxZFJGTw?oc=5
+  6. 株式会社インフォセンス、GRANDIT AWARD 2025にて「Business Partner of the Year」を獲得 - 西日本新聞me
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE45NjNOQ1FZaUhZa2RnYmNaclZESzVTTHFQcmNrdlZubnZfaEdLcUlZaElVbER0TlBuUWpmanMzZEIzRDAwSFlzcG5TQXNnMjAtQ2FWcVZB?oc=5
+  7. パートナープロップ共催オンラインセミナー「AI時代のパートナービジネス最前線〜従量課金モデルを加速させる、次世代エコシステムと関係構築の形〜」を2026年7月7日（火）に開催 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBNMnN0YlpPU21OU1dpbnFSSWlwcVRyRHNyX1VvRERzOVotZ2pzT0VtQWxiZ2VqWGROcVo1Zm5zRDNGRFY0eGRYblZadks5bFBRVVBBcVE5a0NSdHRNT29NdmgtTWRSM3lYX2c?oc=5
+  8. 第10期 大学生・専門学生対象 横浜スポーツビジネススクール2days 〜イベント制作の裏側〜 開催決定！ - 横浜DeNAベイスターズ
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE54NHJfNk5Dc2s5aDRHRWg1enVzclEzRU1QVUZQelFDckdLRl9iR0lTamlUbG9vWGJLTXFGNjBodjJhZ1o0b0luLWY5N2U0REcwR2E1MXprLTFVWVV0UkQ3Wg?oc=5
+  9. 東海3県で増える物流倉庫 立地見直す企業相次ぐ 働き方改善の拠点：ニュース - 中日BIZナビ
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3SVQzQm0zU0tiOTZkdlRRYW9hZzl6SGpLTFdQazZadnQ4eWhSUXcxSkxuZmVEOWxiRGhmS0EzZ29Ua1VMSVRXZmdRNTFiRG5TMEV6UW9aUkFrSnpENGpF?oc=5
+  10. 《私のビジネス日記帳》数字には、映らないもの JR西日本SC開発社長 竹中靖 - 繊研新聞
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jTTB4R1cxdmtPdmFSY19kaUV2NnlqZ3U3YjExMkxnWFBTbW5qaDdDVzItWjc4Zms1RmFILTB2QmJsZWNIOTNpNU9tMXlDbk9GOGJJSngxY3JucjhCOWdOVw?oc=5
+
+【Reddit / technology】
+  1. Judge Learns Lawyers on Both Sides of Case Used AI, Cancels Trial, Kicks Everyone Off the Case
+     https://www.reddit.com/r/technology/comments/1u18o6n/judge_learns_lawyers_on_both_sides_of_case_used/
+  2. Man jailed for a month despite Flock showing he was 5 miles from crime scene
+     https://www.reddit.com/r/technology/comments/1u1b73u/man_jailed_for_a_month_despite_flock_showing_he/
+  3. Last Month, Salesforce Announced It Hit $1.2 Billion in AI Revenue—Now It’s Laying Off Staff Tied to the Product
+     https://www.reddit.com/r/technology/comments/1u1ghs0/last_month_salesforce_announced_it_hit_12_billion/
+  4. Microsoft admits Game Pass price hike drove away "millions" of subscribers
+     https://www.reddit.com/r/technology/comments/1u132wq/microsoft_admits_game_pass_price_hike_drove_away/
+  5. Reddit ads pose as news stories to promote AI investment scams
+     https://www.reddit.com/r/technology/comments/1u16j7f/reddit_ads_pose_as_news_stories_to_promote_ai/
+  6. FCC Wants to Kill Burner Phones By Forcing Telecoms to Get All Customers’ IDs
+     https://www.reddit.com/r/technology/comments/1u1ca2d/fcc_wants_to_kill_burner_phones_by_forcing/
+  7. Signal says UK plan to scan devices for nude images 'endangers us all'
+     https://www.reddit.com/r/technology/comments/1u18z4c/signal_says_uk_plan_to_scan_devices_for_nude/
+  8. New York Passes Legislation Requiring AI Disclosures in News Content
+     https://www.reddit.com/r/technology/comments/1u1934l/new_york_passes_legislation_requiring_ai/
+  9. "Sloppenheimer" - Amazon Employees Mock the Company’s AI on Slack
+     https://www.reddit.com/r/technology/comments/1u1est9/sloppenheimer_amazon_employees_mock_the_companys/
+  10. Tests suggest Russian satellites can jam GPS on a continental scale | Mystery of GPS interference across Europe raises questions about Russian motives
+     https://www.reddit.com/r/technology/comments/1u14qb8/tests_suggest_russian_satellites_can_jam_gps_on_a/
+
+【Reddit / business】
+  1. Lululemon cuts annual 2026 outlook, as interim CEO Meghan Frank citing "negative media commentary" and disappointing product launches
+     https://www.reddit.com/r/business/comments/1u0uttx/lululemon_cuts_annual_2026_outlook_as_interim_ceo/
+  2. Virginia Woman Sues Outback Steakhouse for $1.5M After Allegedly Slipping on Mashed Potatoes and Falling at Restaurant
+     https://www.reddit.com/r/business/comments/1u15mbo/virginia_woman_sues_outback_steakhouse_for_15m/
+  3. A CEO told employees they won't get raises in 2026 because the budget is going to AI
+     https://www.reddit.com/r/business/comments/1u0jcar/a_ceo_told_employees_they_wont_get_raises_in_2026/
+  4. SEC to Grapple With Ill-Gotten Gains Even After Justices’ Ruling
+     https://www.reddit.com/r/business/comments/1u13a65/sec_to_grapple_with_illgotten_gains_even_after/
+  5. Anyone know a decent registered agent in Queens county, NY?
+     https://www.reddit.com/r/business/comments/1u1bl9f/anyone_know_a_decent_registered_agent_in_queens/
+  6. People love working from home. But does it love them back? A new study says no
+     https://www.reddit.com/r/business/comments/1u09cko/people_love_working_from_home_but_does_it_love/
+  7. Quantum Computing Investment for Business Leaders: What to Ask First
+     https://www.reddit.com/r/business/comments/1u0vmhx/quantum_computing_investment_for_business_leaders/
+  8. How does a importer get their cut?
+     https://www.reddit.com/r/business/comments/1u0w5ix/how_does_a_importer_get_their_cut/
+  9. How 1 tech company created 13 new types of jobs because of AI
+     https://www.reddit.com/r/business/comments/1u0k2r3/how_1_tech_company_created_13_new_types_of_jobs/
+  10. ‘The Super Mario Galaxy Movie’ Becomes First Movie to Cross $1B in 2026
+     https://www.reddit.com/r/business/comments/1u01o3t/the_super_mario_galaxy_movie_becomes_first_movie/
