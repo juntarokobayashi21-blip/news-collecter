@@ -1,0 +1,157 @@
+============================================================
+  トレンドニュース - 2026-06-11
+============================================================
+
+【Hacker News】
+  1. Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable
+     https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/
+  2. πFS
+     https://github.com/philipl/pifs
+  3. A Written Language for the Cherokee So Efficient It Was Thought to Be Magic
+     https://www.smithsonianmag.com/innovation/man-created-written-language-cherokee-did-efficiently-elegantly-peers-thought-magic-180988850/
+  4. Raspberry Pi 5 – 16GB RAM
+     https://www.adafruit.com/product/6125?src=raspberrypi
+  5. Anthropic requires 30 day data retention for Fable and Mythos
+     https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models
+  6. Aws.com and google.com don't have DNSSEC enabled
+     https://gist.github.com/acetousk/3c17d2aefde9175ffef21a8ec4673053
+  7. How JPL keeps the 13-year-old Curiosity rover doing science
+     https://spectrum.ieee.org/curiosity-rover-jpl-mars-science
+  8. I'm Eric Ries, author of "The Lean Startup" and new book "Incorruptible" – AMA
+     https://news.ycombinator.com/item?id=48477135
+  9. What is it like to be a bat? (1974) [pdf]
+     https://www.sas.upenn.edu/~cavitch/pdf-library/Nagel_Bat.pdf
+  10. L'Affaire Siloxane
+     https://mceglowski.substack.com/p/laffaire-siloxane
+
+【Zenn】
+  1. 新規事業を牽引する技術選定 〜フルスタックTypeScript開発の実践事例〜
+     https://zenn.dev/katsumanarisawa/articles/c3dd3e8371d4d7
+  2. ollama + qwenで、PDFを読み取る環境を構築
+     https://zenn.dev/yuta_enginner/articles/4fb1d8b8d43923
+  3. ログラス5daysインターンシップ参加体験記：価値のあるエンジニアとは
+     https://zenn.dev/maropook/articles/b9697fc676d3be
+  4. プロダクトより先に「自分の環境」を守る ─ 今日からできるセキュリティ対策
+     https://zenn.dev/contrea/articles/87aaecea6e8ae2
+  5. そのテスト、本当にバグを検出できますか？——Mutation Testingでテストの質を測る
+     https://zenn.dev/explaza/articles/b04ad08bca46e1
+  6. Claude Managed Agents で社内データ・ログ・コードを横断調査する Slack bot を安定運用する方法
+     https://zenn.dev/dinii/articles/1cfac1ca8b46c3
+  7. データエンジニアこそ組織のオントロジーに向き合うべき
+     https://zenn.dev/dely_jp/articles/data-engineer-context-action-layer
+  8. 難解な条文すら関西弁なら理解できる説。試せるサイト「おおさかけんぽう」を作った話
+     https://zenn.dev/kako_jun/articles/4fe547a1b95b1e
+  9. Maestro MCPとClaude Code Skillsによる自律的なE2Eテスト作成
+     https://zenn.dev/flierinc/articles/fcf32bfa82524e
+  10. マルチテナント化のために本番稼働中のMySQLをPostgreSQLに移行した話（マルチテナント化連載 第2回・PostgreSQL移行編）
+     https://zenn.dev/counterworks/articles/0eb98271af2991
+
+【Qiita】
+  1. 未経験からエンジニアになるために必要な3つの知識
+     https://qiita.com/masa20057/items/39ad448983e2ba8406da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 週末なにしてますか？忙しいですか？非IT業界の友達に「燃える」が通じなかったので、IT業界の謎用語を教えてもらってもいいですか？
+     https://qiita.com/miruky/items/2d4fcb9ed4bee7ee25fe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Claude Code と Codex のレート残量を確認するためにブラウザを開くのをやめた話
+     https://qiita.com/tatsuya582/items/5ca0c12a8495530f7d09?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. [ハンズオン手順書] Claude + Microsoft Foundry で AI エージェントを構築する #CodeWithClaude
+     https://qiita.com/chomado/items/a072528364883ae7bb96?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 経験浅いエンジニアが AI に React 書かせてると、進化に取り残される説
+     https://qiita.com/Yamada040/items/be9684ba52ae88f76dda?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 9割のエンジニア未経験者がつまずく『最初の壁』 。それでもアプリを作りたい #2
+     https://qiita.com/hitomin_poke/items/ffcc67d985d4ab47631e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 落語で学ぶ『AI時代のDDD』ドメインプリミティブ編
+     https://qiita.com/Yametaro/items/226e7c06bc9d5877e64e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. なぜCatBoostはカテゴリ変数に強いのか？LightGBM・XGBoostとの違いから理解する
+     https://qiita.com/KanNishida/items/72a7fd6854e99506cdff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. ClaudeとOSカーネルを作り始めた
+     https://qiita.com/segfo/items/970f068161f19cfacc6e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. AIエージェントのトークン代を節約する CLAUDE.md と copilot-instructions.md 実践ガイド  AIエージェントでは毎ターン何が起きているのか
+     https://qiita.com/shinkai_/items/8f88307b7cb13b748e57?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. NTT 次世代のIT技術 実用化や事業展開が課題に - NHKニュース
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE13bVhSYkNGRXktbGZHYXhXMnUyQUlaUDZiX0ZLUlRqaXd4QUVpSS1mWUF0WW50cEl2eFBxWmNlcnhOdEhaVXRzdnJhLXVsVDlIQWwtTmdtLVNGRnVBeVU0?oc=5
+  2. PKSHA Technology、奈良先端科学技術大学院大学（NAIST）と次世代の音声合成技術に関する共同研究を開始 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5tZWxWV1B3NFdheWFXM21RUzQ1czljWFJyME9uM0JaZjM3ODJMRkFZN3FObTc4SnV6WkZGenNVVEJtWG9mU0lrRUV6UXB2LXZlUDFGNXF6LUZzMVVBME9JdkdjcHUyV0Zkc2c?oc=5
+  3. トヨタ、AIバスケットボールロボット「CUE7」展示へ…ROBOT TECHNOLOGY JAPAN 2026 - レスポンス（Response.jp）
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNWjdyU3EtLXFvdTJDSXA2Q010RUh0aXJ5TkROMVRSakVyMFFEbVZiQnM3T0NMVWFqN1NObjVCekdvRlFBeE5IanN5TmlhZHdLWHdLM0FjN19HSWFUX2o0?oc=5
+  4. AIは「短距離走」ではない、いま知っておくべき5 つのこと - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxNQnR6bi1qWDltR3RnV0NEd2d4djk4Z1dQX3FhalhMWEVEc1Q2b3lsM2JUYWFZbEpiSHVYbzVMeVVyelloOWJXcVF0MWl2dmJ3Q1NnTDg3b1pDQ2g3bnBIOUZ3RG5jMHVUNUFuVG9XN2ZlZzA0cXNDV0pPSEVuSzRRbUZ3Mk1QQQ?oc=5
+  5. 科学技術人材の育成へ、数理教育拠点を拡充…文科省 - リセマム
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MYWZWQkRJNjgtMFEyV2tDVlVVTmVOaDMwd3dCbnFWX1ZYZTJ1Vzg3aUtyVHZ5dFoxeFZmTlNuNS1OSzN1em1TSzVLRXlVRTd4aS1SQlN3a1Zsek1ISTltQ09VSGtUdw?oc=5
+  6. 北中米W杯を技術で支えるレノボ - “三笘の1mm”も瞬時に判別可能に？ - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pX05hZUFxN3dnMDR2NG1WNER2ZklBRG15cWNBZDBTckxFS0dwc0ZldzZLZFlNMXpSd2VKakk2MlRoYmRfOWhVRzlLOW1YSDZZVFptNk5SVkhFUTdXRmdXZTBGYUNrcHJZ?oc=5
+  7. AIへの反発が高まるなか、米当局が「反テクノロジー過激主義」への警戒を強める - WIRED.jp
+     https://news.google.com/rss/articles/CBMifkFVX3lxTE9sY1ZzaDFvX1JvYXhmd0psdjdtTGNyWHQ1OVJ1MDRPSm5MSm15TG5RS2loQnpSdWV6THhKS1I3VnUxQVJNVndFZVg0NVhJSlN4TnFwZ1JQSFlNS2d1ZzgzckVnRnU1S1BzUDFVcjc1Z2dibWNlLWxoSEh0NTBrdw?oc=5
+  8. この20年で大幅低下した集中力、AIで脳はさらに「萎縮」 するか - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMimgFBVV95cUxNcFZWUEprcEtpcC1kMUU2ZlZyTll3MXlOdDdPdFkwS2RQbmgzVGwtM3E1QzZISVBjVEFfVDh3UTRwaUFSTGFJNnJFTndYRzJmV3lhRU1LUnFHZ1U1bFRxMldOYnptRmFKZGs0aGtlUF9FbHp4ZDczUnBLMzYtZm1VZmVoZncwdWhORE9XWklhS3VMUTZBLXpGQVlB?oc=5
+  9. 高度な「AIハッカー」心配の影で、あまりにもお粗末にAI は騙されていた - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxOdDVaRHl5SmI5RGxlR1JYT3lMUGFWU2dCR3FSX19qQWJtRHFqWjBEb1dnLXE3V1RPck4wV3BfaXdMb0xQUDV6N0F6RGhDX0xkVTBDRDJSaWVDNDNJY0RjYVpSZXc2S21yQ3pJTkIwRkhrRll1aTVCWklCY1FBbjZKT1lnNnBvZDFMUFNwOVd6R1MyN1FDYU1qaUVpVmNLRl9QN2c?oc=5
+  10. 6月10日のMicron Technology Inc (MU) 値動きは3.85%下落：どのようなシグナルを示しているのか？ - TradingKey
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxPcFptNE9EaE5YN1EwVDdORDNoRXRCRm1GbUVvMV9zc1otdzctYzNwRWRxcVJfS2labGJsbFRSdUVBcFJoRGZVUDRLRnlsZXpfMFAtbmFiS0QzQWdGR3dHMW1CSmNQMWtaZlg3Nno5dlR0czl2X0NCTUN6bTdLdWJCSGNIOUNyV3ZZWGFKNA?oc=5
+
+【Google News (Business)】
+  1. 駐車場に停めたままの軽EVが「月1万円超」を稼ぐ？ 自動車メーカーが挑む“電力ビジネス”、始まる次の競争とは - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMigwFBVV95cUxQWlh4d2MzWGNiS3Q4MmRPZExRUm1kcUFHQXg0eTFsSHJqcFhVdzRmUExyc3ZkbW9TbUpvNURlVmtLMHExeEYwYVF3M25oZWdZb3JTdDBCd2dpa3BPdjJTUDVGSy1ocmRMd2tPNU1DOXFSYmNYdUI0bVJCSVhnQ2R1YTZYNNIBiAFBVV95cUxQNllzUlRQNVFfcE14ZUdLQzhhREk0bHJ4QklNdWc5Ni1KN3ZkcVlMOUVZWUNLcXUteGVVbU9CcWF0cXliMFFWeTJtWU4zNGlzTlpvdXMzUmpRZk1PbU9BMnJMaVUxRGM0RUIzM0lrNDFLdWQ2MXEwOGlGdU8tYmRQSGpLTlVwM3Jv?oc=5
+  2. AIは生産性よりも過剰労働を招く--ハーバード・ビジネス・レビュー調査 - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5rWmV2cWQ1bUJxMjZYWGtqb3RtMXJJYkN0YzdrcEkyLWlRcmdCNld6bGVEZzBQLTV4S0c2eGJnUFp5QW0ybDBmV1FvRHpmazhtUWVN?oc=5
+  3. “コンビニ書店化”はなぜ広がらなかったのか 本を売るほど「本離れ」が進む理由：スピン経済の歩き方（1/7 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE42WVBWNEI2SUxoVkZGOTZjMWgzWUMyc0JKaE1ocU95d1lfTHhrV0xYM1lrLXRhd1Q5OUFVSm1yXzJQUVNzMmhJdDJIR1JWNlB0VFlVWG5uUUVOX3l3VVM4dnlNck0tMzltSEtUN3pqaEtKdw?oc=5
+  4. 「giftee for Business」、横浜市が実施する「ヨコハマ生活応援クーポン(横浜市食料品等価格高騰対応給付事業)」に採択 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5POU80VEQ1aGg4Wk51QWdUY2poN1p5WkQydVp4QlRBdkpEWk5QVzBUZ3AtRWlLVkRvRnNOZ25mU0J2RXNSbDhfZElLOEt0bXc4aGpnQlRjaklLTTZNV2I5N3Q4SnlBVlZsSXc?oc=5
+  5. ノスタルジーを収益化…28歳の起業家が仕掛ける「デジタルデトックス」ビジネス - Business Insider Japan
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxNZWZRY1BweUVVUkludE5UeXF5UXBJam9oUVJ3WnZqR3IwdTNDWVZpZVNsYjZ1dS1nVDZRV2xxMWV6TjhBZWhjaG1nNUYwbGhWMHVjQUtPQ2Z2X2szZUVHVGtwYS04ZW5ZRkpXNk9NSXlDUDJFc0phbkwtV1ZmZktoNEpRTG04cEo0NkhBaGNFQWJGd3dodHlvR19IWFVGeTNxZFJGTw?oc=5
+  6. 第10期 大学生・専門学生対象 横浜スポーツビジネススクール2days 〜イベント制作の裏側〜 開催決定！ - 横浜DeNAベイスターズ
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE54NHJfNk5Dc2s5aDRHRWg1enVzclEzRU1QVUZQelFDckdLRl9iR0lTamlUbG9vWGJLTXFGNjBodjJhZ1o0b0luLWY5N2U0REcwR2E1MXprLTFVWVV0UkQ3Wg?oc=5
+  7. 【BUSINESS BIBLE SELECTION】インフレに負けないマーケティングを学べる本3選 - @DIME アットダイム
+     https://news.google.com/rss/articles/CBMiREFVX3lxTE93MzhfYTZfem1mM3VndWJQN0hnb0NsdWp5TDFlTTJ5V0xGMXNndzJUS0VKU05HdHlkRjJ4ZmthOFoyM1Zt?oc=5
+  8. 【葬儀・終活のDX】オースタンス代表 菊川が「フューネラルビジネスシンポジウム2026」に登壇。AI時代の葬儀DXとは - RBB TODAY
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5kWW5pdHo2aFc3NzhqSjYzb1lXWWd5Z19tdk9VLTVSUFZ2aHQwc3dmMnotYkx1ZFhyOUhLMjFnQ1pRSDhZT2xKSkhHaHQ4eDYtYkFwU21oRkRZWmYyVmkzMUZueUhQaGp3bHgxQ0tlV1ZSUS04VHltcw?oc=5
+  9. AI搭載のスマートグラスはビジネスに使える？ そのポイントや注意点を紹介【2026年6月版】 - Mogura VR
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBlek9GZHZvdzlQVkdialhMVlhKV0NxSDl6TkR0YTZNYzlFQWNqT0tPY2JqbGxYVnpKR3FGMk5FRGJBWldzNXdwN1RMY1hWbkVwRmYzSUltY25oUFZFNmtSS1UySU56ZUoyM0tqWg?oc=5
+  10. 7/7開催「経営者AI討論会」 『チップス ハゲタカ6』真山仁氏が特別講演 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLTWxSV1N1c0ZOajV2Nm9YeHdqVXlVV0FmdlRQemJKTGxQb1BjUmlseFMzQ0Ewc2xzOXpHbkQ1bkhVWjVScF96LUJEWENmSnc2V0NLYThHdTRhQkI3aVFWNFQ0dDl3a2s?oc=5
+
+【Reddit / technology】
+  1. Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance
+     https://www.reddit.com/r/technology/comments/1u2b6z8/cheap_iranian_drone_downed_25_million_us_army/
+  2. Nobody needs AI to search the Internet, court says in ruling against Google
+     https://www.reddit.com/r/technology/comments/1u28nhm/nobody_needs_ai_to_search_the_internet_court_says/
+  3. Google Chrome is killing all uBlock Origin bypasses, Microsoft Edge, Opera to follow
+     https://www.reddit.com/r/technology/comments/1u2fxig/google_chrome_is_killing_all_ublock_origin/
+  4. College students are rapidly losing the ability to read — “There is a measurable, generational collapse in sustained reading and writing”: professor
+     https://www.reddit.com/r/technology/comments/1u2i8zx/college_students_are_rapidly_losing_the_ability/
+  5. Mississippi Residents Sue xAI Over 'Near Constant Noise' From Data Centers
+     https://www.reddit.com/r/technology/comments/1u2d00j/mississippi_residents_sue_xai_over_near_constant/
+  6. One day after discovery, Meta pulls facial recognition code from its smart glasses
+     https://www.reddit.com/r/technology/comments/1u20s8a/one_day_after_discovery_meta_pulls_facial/
+  7. Angry bug hunter with Microsoft beef drops new Windows 0-day
+     https://www.reddit.com/r/technology/comments/1u2dn61/angry_bug_hunter_with_microsoft_beef_drops_new/
+  8. Bucking RFK Jr., OB-GYNs release vaccine guidance that conflicts with CDC / Thirteen other medical groups have already endorsed the independent schedule.
+     https://www.reddit.com/r/technology/comments/1u27wim/bucking_rfk_jr_obgyns_release_vaccine_guidance/
+  9. Tesla Apparently Won't Let Cybertruck Buyers Transfer FSD Without Spending Another $20k
+     https://www.reddit.com/r/technology/comments/1u2a2yo/tesla_apparently_wont_let_cybertruck_buyers/
+  10. Diabetes org apologizes for ejecting scientists over criticism of POTUS
+     https://www.reddit.com/r/technology/comments/1u2her4/diabetes_org_apologizes_for_ejecting_scientists/
+
+【Reddit / business】
+  1. 'Feels like harassment': Montreal café owner says years of language inspections taking a toll | Woman says she was told to change "thank you" on receipts to "merci" and find a French equivalent for the word "nachos"
+     https://www.reddit.com/r/business/comments/1u24unc/feels_like_harassment_montreal_café_owner_says/
+  2. US inflation tops 4% for first time in three years as oil prices jump
+     https://www.reddit.com/r/business/comments/1u22kan/us_inflation_tops_4_for_first_time_in_three_years/
+  3. Apollo executive says private equity got ‘a little out of whack’
+     https://www.reddit.com/r/business/comments/1u24mjg/apollo_executive_says_private_equity_got_a_little/
+  4. Macy's posts strongest Q1 2026 growth in four years, raises guidance despite consumer worries
+     https://www.reddit.com/r/business/comments/1u1xf2g/macys_posts_strongest_q1_2026_growth_in_four/
+  5. 22 Years Old, Running Most of a Jewelry Business for $200/Month — Should I Keep Building Someone Else's Dream?
+     https://www.reddit.com/r/business/comments/1u1xndz/22_years_old_running_most_of_a_jewelry_business/
+  6. 70% of the world’s footballs – including 2026 World Cup balls come from this city
+     https://www.reddit.com/r/business/comments/1u2fjb7/70_of_the_worlds_footballs_including_2026_world/
+  7. EIN confusion
+     https://www.reddit.com/r/business/comments/1u2edst/ein_confusion/
+  8. Why does Europe build so much compliance software?
+     https://www.reddit.com/r/business/comments/1u27wj8/why_does_europe_build_so_much_compliance_software/
+  9. Lululemon cuts annual 2026 outlook, as interim CEO Meghan Frank citing "negative media commentary" and disappointing product launches
+     https://www.reddit.com/r/business/comments/1u0uttx/lululemon_cuts_annual_2026_outlook_as_interim_ceo/
+  10. Virginia Woman Sues Outback Steakhouse for $1.5M After Allegedly Slipping on Mashed Potatoes and Falling at Restaurant
+     https://www.reddit.com/r/business/comments/1u15mbo/virginia_woman_sues_outback_steakhouse_for_15m/
