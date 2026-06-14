@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-14
+============================================================
+
+【Hacker News】
+  1. Show HN: I built 80 mini-games using Fable before it was shut down
+     https://minigames.world/en
+  2. Noise infusion banned from statistical products published by Census Bureau
+     https://desfontain.es/blog/banning-noise.html
+  3. GLM 5.2 Is Out
+     https://twitter.com/jietang/status/2065784751345287314
+  4. Every Frame Perfect
+     https://tonsky.me/blog/every-frame-perfect/
+  5. Treating pancreatic tumours may have revealed cancer's master switch
+     https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch
+  6. Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI
+     https://blog.pyodide.org/posts/314-release/
+  7. GameBoy Workboy
+     https://tcrf.net/Workboy
+  8. Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch
+     https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/
+  9. Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models
+     https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink
+  10. Resurrecting a Soaked, corroded, and damaged Commodore SX‑64 (2025)
+     https://jerrylparker.com/blogs/posts/sx-64.html
+
+【Zenn】
+  1. Claude Fable 5が突然使えなくなった(輸出管理指令によるアクセス停止)
+     https://zenn.dev/yamadatt/articles/20260613-fable5-access-suspended
+  2. 散らばるAI開発ログを一か所へ：agentsviewで検索・コスト確認・振り返り
+     https://zenn.dev/53able/articles/6514f44e72be7f
+  3. 高性能モデルの使いどころは『実装者』でなく『レビュアー』 — Fable 5 実機評価
+     https://zenn.dev/znet/articles/2026-stronger-model-as-reviewer
+  4. メイン環境をUbuntuにして2年経っての感想
+     https://zenn.dev/paradoia/articles/312ff4e71b7f35
+  5. 別モデルによるクロスレビューは有効なのか？同一モデルの継続セッション・別セッションと比較する（React習熟度スコア基準）
+     https://zenn.dev/imaimai17468/articles/c5440b98a6e766
+  6. インフラストラクチャTLDの歴史
+     https://zenn.dev/yamaya/articles/845bed978f7120
+  7. Claude Code × Trivy MCPで依存ライブラリの脆弱性を検出→修正→再スキャンする
+     https://zenn.dev/virtualcraft/articles/claude-code-trivy-mcp-security-check
+  8. Bedrock AgentCore + Strands Agents SDK で作る、使うほど賢くなる社内RAGボット
+     https://zenn.dev/pksha/articles/agentcore-strands-self-improving-rag
+  9. アプリ層とDB層の二重防御でテナント分離を担保する（マルチテナント化連載 第3回・二重防御編）
+     https://zenn.dev/counterworks/articles/1887cb36a1b701
+  10. QAエンジニアが「自分でテストやりきる」のをやめようとしている話
+     https://zenn.dev/yasuhiro_test/articles/65eba13298c9c2
+
+【Qiita】
+  1. 信頼されるエンジニアが実践する「聴く技術」4選
+     https://qiita.com/prum_hitomi/items/77e2a48e4189bd5ddc3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【保存版】Linux作業を爆速化する便利コマンド5選
+     https://qiita.com/K_TAKETO/items/66d70ce4ed54139998a9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Claude Codeに人生を管理させて3ヶ月、一番効いたのは自動化じゃなかった
+     https://qiita.com/ktdatascience/items/3c8949b62ce1dfe7a024?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 【AWS】AI-DLCを実際にチームでやってみてわかったことをまとめてみました
+     https://qiita.com/yakumo_09/items/76e416a5ae28f18ad976?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Claude Code × OpenSCAD × 3Dプリンターで、憧れの3Dプリンター住宅を施工してみた
+     https://qiita.com/issey_dotlog/items/19b84d3a38c1c9aa9567?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AI Readyな設計書を目指して。人もAIも読みやすい設計書管理
+     https://qiita.com/grhg/items/eee10528b403baf89631?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 自治体のガバメントクラウド AWS 環境で現在 Bedrock をどこまで使えるのか（2026 年 6 月版）
+     https://qiita.com/takeda_h/items/b5ccdb0f2f7c6c09f0b2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Smithyがすごい！AgentCoreゲートウェイとBedrockナレッジベースが直接つながる！！（LambdaやAgentCoreランタイムいらない）
+     https://qiita.com/moritalous/items/a3ac103480966ccec75d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. ワイ「ヘイ、AI！お仕事を奪わんといて！」
+     https://qiita.com/Yametaro/items/3dfe149b4b8cb91ed898?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. AIに有利なプログラミング言語は？
+     https://qiita.com/nekoya404/items/244363f06ba89200a762?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. AIエージェントが拡張する個の圧倒的な生産性と、次世代組織に向けた「オーグメンテッド・エンタープライズ」への転換 - PwC
+     https://news.google.com/rss/articles/CBMingFBVV95cUxOSUd4SUVqN2JhckdISGhtcTZtZENoWTQtOVFLcWotNTM2MFJQY0d2SEFEb3VvZFhXWmdyZC1TS3RpUjN3WmZLNXd6b0ZqVGE4TENmTE16LWpadktfbVVFQjE5QXRJcmNRQ2stWkRMQ2F3amFtNDJTMlFHZnhvM3V5RE8tSDFzSHBTSzk3Mzdfc3JpQjFLLUFodnh6amx5Zw?oc=5
+  3. Datasection、欧州最大級のテックイベント「Viva Technology 2026」に登壇 〜「次世代AIデバイス」を世界初公開〜 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5kOTJMYzhzNkdsVlhiM2gyYjRiZUxoUTIwTndaSm0wbmdheUUzaVNhOW5aM1RNdlZ3aUFPTmpwUG03MklKODNseWFCaU82Z3RfeG9CbldBcTlTQ19DRm1kcG14dE5HVHFkMGc?oc=5
+  4. 分散型トラクション技術市場需要と将来のスコープ - Spherical Insights
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeklBbk0wOEhCNmloNExJY1JmN25tbHBrWFJjU1B4TG1INjlSNnNEbzNWeDF2SEM2ejZNdThOUXVjLXF0RExyVi1yMXk4MDFvMmhLMk9fS2luMVI2Z0pFU2E4NG9ZQXlQUXZqS0FqN0dRTHdPcjFtekEzV1dJaU5YYzVCWFRqbEZaTkRJ?oc=5
+  5. Amkor Technology Stock Rises to an All-Time High. Can It Keep Going? - TIKR.com
+     https://news.google.com/rss/articles/CBMimwFBVV95cUxPNm02Rk9nbzJkNXM5WUdTT0YwYXcycm1TZ1NvWk1oOWF1Tno3OGZKNU5GM0pXd1liNW05Yk80TGpnZm1PQWVValc2eDhtczlILWZoNU84eW9FRENYbmVGOTZWbVo4WWNlM3dyNXlFY0cya1pNSXNrdTJXRGNfSG05Q2R3cFlmbWVIc2hDVm9iRHpIQXVfVXVid2Q0SQ?oc=5
+  6. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  7. Putting our technology to the test - NetApp
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxOVWh1MWVZR25MZzJfX0NyYzFzeDJFWmZsTFp3eWl2NWxwVXJlTHNyaTVvYU8tM1B2NXdtc29henFJOW9VYjdubVlaMmRnMVJTVVplLTRIMWs2eHFEV0Q5ZGJybUNpcmVieFVYNkNIOVQ1Y3BhMG1zcFVIYUdSS0NLT1V1Vy0zQQ?oc=5
+  8. 韓国の先端産業を支える技術拠点 「イノベーションキャンパス」を開設 - shimadzu.co.jp
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBQ0dxemgzRV9MUjlrZ0ZxQldBNXVzSGxEMDJzMzktQzVhTmlJZm4xLXctVjFhUzRXYjZneTZNN2l0TmczcU9RaTZLTXJldzBUeDNXWUUwRWdLTHk3?oc=5
+  9. コナカ／6～7月、オーダースーツ「FUTURE SUIT TECHNOLOGY」4店舗オープン - 流通ニュース
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXN1ZibmVNdmhWODF6VjJRelRrckFGV1ViSTAyUEk0VTAwQWhYY3Y1bTZvT3FfWHdCNF9ZQVNYcmY1MjdLS1cyVzN2akFveDU1bm1HUQ?oc=5
+  10. 「理系は男子？」東京都が“思い込み解消”女性活躍の技術職見学ツアー 中高生が参加 - TOKYO MX
+     https://news.google.com/rss/articles/CBMibkFVX3lxTFBOM3FLUVJCTnZZRUJkMlFOTUIwdnIyUXNyUVJ0WHFrQlJGdkE5VklsNkl6RmN3clpuTGhVMmhteEhybDZKUkp4bXdrM0dtaGNzWHNVeFJWUmhpZGRGNVkxVWtCWmRlelVEelBvWklR?oc=5
+
+【Google News (Business)】
+  1. 私は16歳で単身日本に移住したが、ずっと居場所がなかった。移動式キャビンの宿泊ビジネスを起業したのは「運命」かもしれない（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWHJTYXZ5emhuS3VHOGFqMDlmR3BGMTBFSmhMLWJ0OWJjNDAzZTFQMDRDV2dlaWNpWVh6U213VnNGRWV4MmFoc0VzY3BwalZ4bjRtTEViV2ZIc042Y0RQZmtPRUEwOXc5YWxobEUzOGk3S1hIeWNLV01SZWpVVDA?oc=5
+  2. PayPay for Businessの入金サイクル表示およびサブユーザー権限の仕様変更のお知らせ - PayPay
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nZXRLTFpoekVBemR3S0R5c0RYVkcxcDdqYlMzQ3JMalpKV1hvazdwWUl5NEpoazVaX0RIbEhRZ0cybGlLTUxrUDlYN0hFVjlvN0VjQ01KbUVxeUZQd2NnOQ?oc=5
+  3. 「SaaSの死」に会計ソフトfreeeが逆張りして見えた、AIエージェント時代の「正解」【Code with Claude 2026】 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMigAFBVV95cUxQcHhTZThwYmx0bDJ4Q0lxWGZqMncyZzBjcS02MlpyU0RiSTZjR1hTUy0xdE1UQ01NeGNjWWlSbzFqUkdzNHJubDVSRGJ1UjFaQjE1ZkdvRjNDclBTdWtqVXFIWWhkcHAtbnYtYjNGSEVPQ1NaU2FGR2R3WWw4ak11NQ?oc=5
+  4. Google、中小ビジネス向けに「Gemini」活用の新機能 - ケータイ Watch
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEUDBldm5MNnIxSWR1YmZFdDV2SnJ3ekhPU0cyRnVUaUxKWXR5WGtXWDJHMmNGbUE1My1uczItZkZqXzF4R09hRUctRllZRVlZakhDT0xEcTJpNWdMSjBkR3VfbERVd1E?oc=5
+  5. 白物家電の特許価値、中国勢が1位と2位 日本企業買収で進む高機能化 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHeHdTRVZUS2d2NHZKaUZZQVROaklwSmJFRVRadEFIcW5GSmtBMWZzWTJNX0xRaldCTFc5aThVeHBhVFhFTlJ5RGF1QnhDR0E2R00xaG44U2xOMFdmR19ZTnhFMXllVm8?oc=5
+  6. なぜカー用品店で女性の「つきそい」が2割強を占めるのか？──見過ごされてきた来店実態が映す店舗ビジネスの変化、加速する新たな動き - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMigwFBVV95cUxOYWFMVl9uX2hXRldqVUZIazF4VVRFR1FsdVoyVTduOUFFeFdELTJRS0d3c21ORG0wSTVJaVkxT3BGcTA3THFWQkg5dGpCb2hZSlo0cEhJSk0tN3N5bE9pMUpxZjVvd3dtYW12X0xGZkZoaUxOUWpiNy1xeEZCdmMxS04xZ9IBiAFBVV95cUxPRXNBbEU2NE1MeDF5X1Vqb0g4Tl9QLUxWQnRRWmFkbWhsUXlKVkpCaEY0N3JRbjE3ZVhqQXE4Njh1Ri01ZFRYbnpWX3FCby10ekJ6MURKU1FrdHRWdGcxb0lyWk9uNElfWmRfVTNSbElzSnZoRkZ5N190N25KTHQzQnBkWElxTnh3?oc=5
+  7. 世界最大手マリオットが日本で見いだす｢ビジネスホテル｣での勝ち筋…APEC最高執行責任者インタビュー - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oTTl6NFJISnRyejB1TEdfZ2ZsQnNYMWRKb2JKd2tSQ1hPeFVmb3lfNkdoU2ZOSVNsb24ybHg4ci1vaURRcEx4NkpsOXBrd2FWX1E?oc=5
+  8. AIは生産性よりも過剰労働を招く--ハーバード・ビジネス・レビュー調査 - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5rWmV2cWQ1bUJxMjZYWGtqb3RtMXJJYkN0YzdrcEkyLWlRcmdCNld6bGVEZzBQLTV4S0c2eGJnUFp5QW0ybDBmV1FvRHpmazhtUWVN?oc=5
+  9. 三菱電機「海からCO2を回収」する技術を開発。脱炭素は“コスト”ではない…収益化の鍵握るビジネスモデル - Business Insider Japan
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE1seERoeF9SVUNpbUZTci1HaHpSSHlWZEQwa0FTRGhpZGozYUVId3hWSnpUMmRuTE11UnJtUnhpcVI4b2U2bG56SjFPRU13NlAwRlRaUGJHRDQ1ZGxybzlpY0JKaHlfczZua21uUTlLZlhlQVNVT3c?oc=5
+  10. ロシアの「自国領土への誤爆」が止まらない…過去3年で最低330回、兵士の疲弊と訓練不足が原因と英国防省 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMirwFBVV95cUxNbk1BN2l4ZWRrb29wN05uY09yaVJhS3J2R2c5QXpWS1VJNlJkc0M2c3VBMVg5M19nMmFJeXlFNjdFTWNsaUpydWJhZGhiRzJnNUgzSllIZUROaTAwdnVOdm9CSGJfdkZYbnV3bnc5bnNZeUpXVDFQUjZMVVR1dGdGa0RYS3VkSVY4Rk5UN25NZmI2UGFxbDB2T1NuZkpTQUJVVXh3RXdIMXJhSFpUVmZZ?oc=5
+
+【Reddit / technology】
+  1. How to kick SpaceX out of your retirement savings account — “Right now, just a handful of A.I.-related stocks represent almost half the value of the total stock market index. If A.I. stocks collapse, so will the worth of your index fund”: economist
+     https://www.reddit.com/r/technology/comments/1u4qcxi/how_to_kick_spacex_out_of_your_retirement_savings/
+  2. Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon
+     https://www.reddit.com/r/technology/comments/1u50lt3/meta_employees_absolutely_hate_mark_zuckerbergs/
+  3. WhatsApp is the worst app on your Windows 11 PC right now, eating 1.2GB of RAM doing nothing
+     https://www.reddit.com/r/technology/comments/1u4nf92/whatsapp_is_the_worst_app_on_your_windows_11_pc/
+  4. Nintendo reportedly has “zero chance” against current Palworld after major lawsuit change it is now targeting older versions of the game instead
+     https://www.reddit.com/r/technology/comments/1u545bu/nintendo_reportedly_has_zero_chance_against/
+  5. Microsoft president says AI backlash at graduation events should be wake-up call for the tech industry
+     https://www.reddit.com/r/technology/comments/1u4ttdf/microsoft_president_says_ai_backlash_at/
+  6. The end of uBlock Origin in Chrome is now weeks away, not months
+     https://www.reddit.com/r/technology/comments/1u4q5e0/the_end_of_ublock_origin_in_chrome_is_now_weeks/
+  7. Solar generates more energy than coal in US for 1st time
+     https://www.reddit.com/r/technology/comments/1u4ox6p/solar_generates_more_energy_than_coal_in_us_for/
+  8. More than 75 data center build-outs worth $130 billion have been successfully blocked in the first four months of 2026 — bipartisan opposition mounts nationwide over fears of soaring power and water costs
+     https://www.reddit.com/r/technology/comments/1u4u473/more_than_75_data_center_buildouts_worth_130/
+  9. AI costs spike as subscriptions hit pricing wall — firms turn towards Chinese LLMs, open-source models to extend budget
+     https://www.reddit.com/r/technology/comments/1u4rddj/ai_costs_spike_as_subscriptions_hit_pricing_wall/
+  10. Russia wrapped a whole building in an anti-drone cage, satellite imagery shows. Ukraine fired on it with cruise missiles.
+     https://www.reddit.com/r/technology/comments/1u532n4/russia_wrapped_a_whole_building_in_an_antidrone/
+
+【Reddit / business】
+  （取得できませんでした）
