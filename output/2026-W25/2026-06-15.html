@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレンドニュース - 2026-06-15</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-start;
+        }
+
+        .stat {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .stat strong {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+        }
+
+        .badge {
+            display: inline-block;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .section-summary {
+            background: var(--bg);
+            padding: 1rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .section-summary strong {
+            font-weight: 600;
+        }
+
+        .section-summary h4 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .article-card {
+            display: block;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .article-title {
+            display: block;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 0.8rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-card:hover .article-title {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            opacity: 0.85;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 トレンドニュース</h1>
+        <p>2026-06-15</p>
+    </header>
+
+    <nav>
+        <a href="#0" class="nav-link">Hacker News</a><a href="#1" class="nav-link">Zenn</a><a href="#2" class="nav-link">Qiita</a><a href="#3" class="nav-link">Google News (IT)</a><a href="#4" class="nav-link">Google News (Business)</a><a href="#5" class="nav-link">Reddit / technology</a><a href="#6" class="nav-link">Reddit / business</a>
+    </nav>
+
+    <main>
+        
+        <section class="hero">
+            <h2>📰 今日のトレンド要約</h2>
+            <div class="overall-summary"># 📰 IT・ビジネストレンド速報 2026-06-15<br><br>---<br><br><h4>1. 🤖 AI開発ツール競争と「GitHub Copilot離れ」が加速</h4><br><br><strong>GitHub Copilotの従量制移行</strong>を機に、開発者たちが<strong>Claude Code・Google AI Studio・Codex</strong>など代替ツールへの移行を本格化。<strong>OpenCode Go</strong>をカスタムプロバイダとして活用する事例も登場。AIコーディング支援の選択肢が急増し、ツール競争が新フェーズに突入している。<br><br>---<br><br><h4>2. 💼 AIエージェント時代の「仕事・雇用」への影響が深刻化</h4><br><br>Redditでは「<strong>$200のChatGPT契約が実際にはOpenAIに$14,000のコストを生む</strong>」という衝撃的な試算が話題に。さらに<strong>AI による雇用喪失が既に現実化</strong>しており、失業給付申請者が約75%に留まることで問題が表面化しにくい構造的課題も指摘。中国では<strong>大学が1.2万の"時代遅れ"学部を廃止</strong>し、AI対応教育へ舵を切るなど、社会全体での再編が加速。<br><br>---<br><br><h4>3. 🏗️ AI活用の「設計・品質保証」が次の焦点へ</h4><br><br>単にAIで開発するだけでなく、<strong>「AI Readyな設計書」</strong>や<strong>「監査駆動フィードバック開発（ADF）」</strong>といった品質保証・設計管理の方法論が注目を集める。3年間のAI要件定義の実践録や、AIエージェント時代のQA手法など、<strong>AI活用の"深化フェーズ"</strong>に移行しつつあることを示している。<br><br>---<br><br><h4>4. 🌐 SaaS・AIビジネスモデルの再定義</h4><br><br>会計ソフト<strong>freeeが「SaaSの死」に逆張り</strong>し、AIエージェント時代の新モデルで成果を出しているとの報告が注目。<strong>GoogleもGeminiを中小企業向けに展開</strong>し、ビジネス活用を加速。AIが業務の中核に組み込まれるにつれ、従来型SaaSの価値提案が根本から問い直されている。<br><br>---<br><br><h4>5. 🛠️ オフライン・ローカルAIへの関心上昇</h4><br><br><strong>Kobo/Adobe</strong>のePub互換問題やウェブサイトをオフライン閲覧用バイナリ化する<strong>「Kage」</strong>の登場、UbuntuでのローカルLLM（<strong>Gemma 4 E2B</strong>）動作記録など、クラウド依存からの脱却・<strong>ローカル実行への需要</strong>が静かに高まっている。リオデジャネイロの「自前LLM」が既存モデルの改変と判明した件も、AI透明性の問題を提起。<br><br>---<br>*📌 情報ソース: Hacker News / Zenn / Qiita / Google News / Reddit*</div>
+            <div class="stats">
+                <div class="stat"><strong>7</strong> ソース</div>
+                <div class="stat"><strong>60</strong> 記事</div>
+            </div>
+        </section>
+        
+        <section id="0">
+            <div class="section-header">
+                <h2>Hacker News</h2>
+                <span class="badge" style="background-color: #ff6600;">🚀 Dev</span>
+            </div>
+            <div class="section-summary"># Hacker News 記事まとめ<br><br>---<br><br><strong>Your ePub Is Fine. Kobo Disagrees. Blame Adobe</strong><br><strong>Kobo</strong>の電子書籍リーダーが正常な<strong>ePubファイル</strong>を拒否する問題が発生しており、その原因は<strong>Adobe</strong>のDRM・検証システムにあるとされる。ユーザー側のファイルには問題がなく、規格の実装差異が引き起こす互換性の闇を浮き彫りにしている。<br><br>---<br><br><strong>Show HN: Kage – Shadow any website to a single binary for offline viewing</strong><br><strong>Kage</strong>は任意のウェブサイトを<strong>単一バイナリにまるごと保存</strong>し、オフラインで閲覧できるようにするツール。インターネット接続なしでサイトを持ち運べる点が特徴で、アーカイブや開発用途に有用。<br><br>---<br><br><strong>Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model</strong><br>リオデジャネイロが「<strong>独自開発</strong>」と称していた<strong>LLM</strong>が、実際には既存モデルの<strong>マージ（合成）</strong>に過ぎないと指摘されている。自治体によるAI開発の透明性と信頼性に疑問が呈されている。<br><br>---<br><br><strong>What even is food authenticity? Why we guard carbonara, and flatten chicken rice</strong><br>**カルボナ</div>
+            <div class="articles-grid">
+                
+                <a href="https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/" target="_blank" class="article-card">
+                    <span class="article-title">Your ePub Is Fine. Kobo Disagrees. Blame Adobe</span>
+                    <p class="article-summary"><strong>Kobo</strong>のePubリーダーが<strong>Adobe</strong>の規格に起因する問題で、正常なePubファイルを<strong>誤ってエラー</strong>と判定してしまうという互換性の問題を解説した記事。</p>
+                </a>
+                <a href="https://github.com/tamnd/kage" target="_blank" class="article-card">
+                    <span class="article-title">Show HN: Kage – Shadow any website to a single binary for offline viewing</span>
+                    <p class="article-summary"><strong>Kage</strong>は、任意のウェブサイトを<strong>単一バイナリ</strong>にパッケージ化し、<strong>オフラインで閲覧</strong>できるようにするツール。</p>
+                </a>
+                <a href="https://github.com/nex-agi/Nex-N2/issues/4" target="_blank" class="article-card">
+                    <span class="article-title">Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model</span>
+                    <p class="article-summary"><strong>リオデジャネイロ</strong>が発表した「自前開発」の<strong>LLM</strong>は、実際には<strong>既存モデルのマージ</strong>（組み合わせ）に過ぎないことが明らかになった。</p>
+                </a>
+                <a href="https://iza.ac/posts/2026/06/food-authenticity/" target="_blank" class="article-card">
+                    <span class="article-title">What even is food authenticity? Why we guard carbonara, and flatten chicken rice</span>
+                    <p class="article-summary"><strong>フードの「正統性」</strong>とは何かを問い直し、<strong>カルボナーラ</strong>や<strong>チキンライス</strong>を例に、料理の起源や変化に対して人々がこだわる理由を探る。</p>
+                </a>
+                <a href="https://screen.toys/firewood/" target="_blank" class="article-card">
+                    <span class="article-title">Firewood Splitting Simulator</span>
+                    <p class="article-summary"><strong>薪割りシミュレーター</strong>を体験できるゲームで、リアルな物理演算で<strong>斧を使った薪割り</strong>の爽快感を再現した作品。</p>
+                </a>
+                <a href="https://0xkrt26.github.io/math_behind_security/2026/06/09/the-story-of-the-hash-function.html" target="_blank" class="article-card">
+                    <span class="article-title">Chopped, Stored, Secured – The Story of the Hash Function</span>
+                    <p class="article-summary"><strong>ハッシュ関数</strong>の仕組みと歴史を解説し、データを<strong>固定長の値に変換</strong>することで<strong>セキュリティや整合性の検証</strong>に活用される技術を紹介する記事。</p>
+                </a>
+                <a href="https://tumbleweed.nu/r/lm-3/uv/amber.html" target="_blank" class="article-card">
+                    <span class="article-title">Chaosnet (1981)</span>
+                    <p class="article-summary"><strong>Chaosnet</strong>は、1981年にMITが開発した<strong>初期のローカルエリアネットワーク(LAN)プロトコル</strong>で、<strong>Lispマシン</strong>環境向けに設計された先駆的なネットワーク技術。</p>
+                </a>
+                <a href="https://traceapp.info" target="_blank" class="article-card">
+                    <span class="article-title">Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call</span>
+                    <p class="article-summary"><strong>オフライン動作</strong>のMac向け会議文字起こしツール「<strong>Trace</strong>」— 通話中にリアルタイムで<strong>フラグ付け</strong>が可能。</p>
+                </a>
+                <a href="https://news.ycombinator.com/item?id=48528779" target="_blank" class="article-card">
+                    <span class="article-title">Ask HN: What are you working on? (June 2026)</span>
+                    <p class="article-summary"><strong>HackerNews</strong>の月次スレッド「<strong>What are you working on?</strong>」の<strong>2026年6月版</strong>で、開発者やエンジニアが現在取り組む<strong>個人プロジェクトや仕事</strong>を共有し合うコミュニティ投稿。</p>
+                </a>
+                <a href="https://www.verysane.ai/p/did-anthropic-ask-for-this" target="_blank" class="article-card">
+                    <span class="article-title">Did Anthropic ask for this?</span>
+                    <p class="article-summary">記事のタイトルのみでは内容を判断するのが難しいですが、おそらく<strong>Anthropic</strong>が何らかの要求や依頼をしたかどうかについて問う内容と思われます。<br><br>タイトルだけでなく、<strong>記事の本文</strong>を共有いただければ、より正確な要約が可能です。</p>
+                </a>
+            </div>
+        </section>
+        <section id="1">
+            <div class="section-header">
+                <h2>Zenn</h2>
+                <span class="badge" style="background-color: #3ea8ff;">📚 日本語Tech</span>
+            </div>
+            <div class="section-summary"><h4>Zenn ニュース要約</h4><br><br><strong>GitHub Copilotの従量制移行</strong>を受け、代替手段を模索する動きが活発化している。<strong>OpenCode Go</strong>をCopilot Chatのカスタムプロバイダとして活用する方法や、<strong>Claude Code・Google AI Studio・Codex</strong>といったツールを渡り歩く"Copilot難民"の体験談が注目を集めている。<br><br>ローカルAI環境の構築では、<strong>Fable 5の停止</strong>をきっかけに<strong>Ubuntu上でGemma 4 E2B</strong>を動かした記録が共有されるなど、自前のAI実行環境への関心も高まっている。<br><br>一方、AIが「<strong>作る壁</strong>」を取り除いた時代における個人開発の課題（なぜ使われないか）や、<strong>AIエージェント時代の品質保証</strong>として「<strong>監査駆動フィードバック開発</strong>」という新たな考え方も提唱されており、開発効率だけでなく<strong>品質・ユーザー獲得</strong>の重要性が改めて問われている。</div>
+            <div class="articles-grid">
+                
+                <a href="https://zenn.dev/kusuke/articles/82129236caa5f8" target="_blank" class="article-card">
+                    <span class="article-title">従量制になったGithub Copilotの代わりにOpenCode GoをCopilot Chatのカスタムプロバイダとして使う</span>
+                    <p class="article-summary"><strong>GitHub Copilotの従量制移行</strong>を機に、無料の<strong>OpenCode Go</strong>をCopilot Chatの<strong>カスタムプロバイダ</strong>として設定し代替利用する方法を紹介。</p>
+                </a>
+                <a href="https://zenn.dev/yun_bow/articles/6e6bcbf127072a" target="_blank" class="article-card">
+                    <span class="article-title">個人開発はなぜ誰も使わないのか──AIで「作る壁」が消えた時代に大事になること</span>
+                    <p class="article-summary"><strong>個人開発のプロダクトが使われない根本原因</strong>は「作る技術」ではなく、<strong>ユーザー理解・課題設定・届ける力</strong>の欠如にあり、AI時代にはそれらが一層重要になる。</p>
+                </a>
+                <a href="https://zenn.dev/yamadatt/articles/20260614-ubuntu-gemma4-ollama" target="_blank" class="article-card">
+                    <span class="article-title">Fable 5停止をきっかけにUbuntuでGemma 4 E2Bを動かした記録</span>
+                    <p class="article-summary"><strong>Fable 5のプレイ停止</strong>をきっかけに、<strong>Ubuntu</strong>環境で<strong>Googleの軽量AI「Gemma 4 E2B」</strong>をローカル動作させた手順・体験の記録。</p>
+                </a>
+                <a href="https://zenn.dev/ichikawa_y/articles/audit-driven-feedback-development" target="_blank" class="article-card">
+                    <span class="article-title">AIエージェント時代の品質保証 ― 監査駆動フィードバック開発という考え方</span>
+                    <p class="article-summary"><strong>AIエージェント</strong>の自律的な動作に対し、<strong>監査駆動フィードバック</strong>の仕組みを導入することで<strong>品質保証</strong>を実現する開発アプローチを提唱した記事。</p>
+                </a>
+                <a href="https://zenn.dev/ssknaoya/articles/d9becba1164230" target="_blank" class="article-card">
+                    <span class="article-title">GitHub Copilot 難民 ～ Cluade Code ～ Google AI Studio ～ そして Codex へ</span>
+                    <p class="article-summary"><strong>GitHub Copilot</strong>から<strong>Claude Code</strong>、<strong>Google AI Studio</strong>を経て<strong>Codex</strong>へと渡り歩いた、AIコーディングツール移行の体験記。</p>
+                </a>
+                <a href="https://zenn.dev/microsoft/articles/github-copilot-sdk-dotnet-ga" target="_blank" class="article-card">
+                    <span class="article-title">GA した GitHub Copilot SDK (.NET) を試してみた</span>
+                    <p class="article-summary"><strong>GitHub Copilot SDK (.NET)</strong> がGAになったことを受け、実際に<strong>.NETプロジェクトへ導入・動作確認</strong>した手順や使い心地をまとめた記事。</p>
+                </a>
+                <a href="https://zenn.dev/takao2704/articles/devicelocker-mac-usage-control" target="_blank" class="article-card">
+                    <span class="article-title">勉強した分だけ Mac を使える家庭内ツールを作った</span>
+                    <p class="article-summary"><strong>子供の学習時間に応じてMacの使用時間を付与する</strong>家庭内管理ツールを自作した取り組みの紹介。</p>
+                </a>
+                <a href="https://zenn.dev/tomoq/articles/9b3db390594cc0" target="_blank" class="article-card">
+                    <span class="article-title">黄金整数環とゾムツール</span>
+                    <p class="article-summary"># 黄金整数環とゾムツール<br><br><strong>黄金比</strong>に基づく<strong>黄金整数環</strong>の数学的構造と、それを視覚的に体現する<strong>ゾムツール</strong>（幾何学的構築玩具）との深い関係を解説。</p>
+                </a>
+                <a href="https://zenn.dev/lotation/articles/a1e0a8658d29ba" target="_blank" class="article-card">
+                    <span class="article-title">Pythonばかり書いてきた私の視点で、JavaScriptの世界観を理解するための用語(Node.js等)を整理した</span>
+                    <p class="article-summary"><strong>Python経験者向け</strong>に、<strong>JavaScript</strong>の生態系を理解するための<strong>Node.js</strong>などの<strong>主要用語・概念</strong>をわかりやすく整理・解説した記事。</p>
+                </a>
+                <a href="https://zenn.dev/yy7613/articles/173404d60a6150" target="_blank" class="article-card">
+                    <span class="article-title">Fable 5にローカルLLMで動くコーディングエージェントを作らせてた話</span>
+                    <p class="article-summary"><strong>Fable 5</strong>（Pythonテスト自動化フレームワーク）に、<strong>ローカルLLM</strong>を活用した<strong>コーディングエージェント</strong>を構築・統合した取り組みの紹介。</p>
+                </a>
+            </div>
+        </section>
+        <section id="2">
+            <div class="section-header">
+                <h2>Qiita</h2>
+                <span class="badge" style="background-color: #55c500;">✏️ 日本語Tech</span>
+            </div>
+            <div class="section-summary"># Qiita ニュース要約<br><br><strong>AI活用</strong>と<strong>機械学習の実践知識</strong>に関する記事が中心のラインナップです。<strong>AI要件定義の3年間の取り組み</strong>や<strong>AI Readyな設計書管理</strong>など、開発現場でのAI導入・運用ノウハウを扱った記事が目立ちます。また、<strong>K-Meansのシルエット法</strong>による最適クラスタ数の決定や、<strong>RAGの仕組み（ベクトル化）</strong>の解説、<strong>AWS AI-DLC</strong>のチーム実践レポートなど、技術的な基礎から応用まで幅広くカバーされています。</div>
+            <div class="articles-grid">
+                
+                <a href="https://qiita.com/kumai_yu/items/831717856fd24981799d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">3年間、AI要件定義に取り組んできた全記録</span>
+                    <p class="article-summary"># 要約<br><br><strong>AI要件定義</strong>に<strong>3年間</strong>取り組んだ実践者が、試行錯誤の過程・得られた知見・手法を<strong>全記録</strong>としてまとめた総括記事。</p>
+                </a>
+                <a href="https://qiita.com/KanNishida/items/3779701ad40b74b491c5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">K-Meansのクラスタ数はどう決める？シルエット法で最適なKを見つける方法</span>
+                    <p class="article-summary"><strong>K-Means</strong>のクラスタ数Kを決めるために、<strong>シルエット法</strong>（各データの凝集度と分離度を数値化）を用いて<strong>最適なK</strong>を客観的に選定する手法を解説。</p>
+                </a>
+                <a href="https://qiita.com/miruky/items/c3d6277ff99afb214b19?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【解説】実際の値をもとに、ベクトル化などのRAGの仕組みを根本から理解しましょう</span>
+                    <p class="article-summary"><strong>RAG（検索拡張生成）</strong>の仕組みを、<strong>実際の数値データ</strong>を用いて<strong>ベクトル化</strong>などの処理を根本から丁寧に解説する記事。</p>
+                </a>
+                <a href="https://qiita.com/yakumo_09/items/76e416a5ae28f18ad976?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【AWS】AI-DLCを実際にチームでやってみてわかったことをまとめてみました</span>
+                    <p class="article-summary"><strong>AWS AI-DLC</strong>（AIデータラベリングチャレンジ）をチームで実践した際の<strong>気づき・学び・注意点</strong>を実体験ベースでまとめた記事。</p>
+                </a>
+                <a href="https://qiita.com/grhg/items/eee10528b403baf89631?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">AI Readyな設計書を目指して。人もAIも読みやすい設計書管理</span>
+                    <p class="article-summary"># 要約<br><br><strong>人間とAIの両方</strong>が読みやすい<strong>設計書</strong>を作るため、構造化・標準化された<strong>AI Ready</strong>な設計書管理の考え方と実践を紹介。</p>
+                </a>
+                <a href="https://qiita.com/kamo-shika/items/edad802613b45b3d18f1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Amazon Bedrock AgentCore ハーネスでRAG検索機能付きAIエージェントを爆速で構築する</span>
+                    <p class="article-summary"><strong>Amazon Bedrock AgentCore</strong>のハーネス機能を活用し、<strong>RAG検索</strong>を組み込んだ<strong>AIエージェント</strong>を迅速かつ効率的に構築する方法を解説。</p>
+                </a>
+                <a href="https://qiita.com/ymd65536/items/1f8b1ac21186d841cd48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">ハンズオン！夢が詰まったサンドボックスシステム、Microsoft Execution Containers（MXC）とは</span>
+                    <p class="article-summary"><strong>Microsoft Execution Containers（MXC）</strong>は、Microsoftが開発中の<strong>サンドボックスシステム</strong>で、安全な実行環境を提供する<strong>コンテナ技術</strong>のハンズオン紹介記事。</p>
+                </a>
+                <a href="https://qiita.com/tomoki-miso/items/a754fff1885f6cf0a146?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【まとめ】「良い命名」できていますか？ ― ITの名前の由来をAからZまでアルファベット順に集めてみたから、インスピレーションしてください。</span>
+                    <p class="article-summary"><strong>プログラミング・IT用語の命名センス</strong>を磨くため、<strong>AからZ</strong>までアルファベット順に技術用語・製品名の<strong>由来や語源</strong>をまとめた参考集。</p>
+                </a>
+                <a href="https://qiita.com/nekoya404/items/244363f06ba89200a762?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">AIに有利なプログラミング言語は？</span>
+                    <p class="article-summary"><strong>AI開発</strong>に適した<strong>プログラミング言語</strong>（<strong>Python</strong>・R・Juliaなど）の特徴や用途を比較し、AI活用に最適な選択肢を解説。</p>
+                </a>
+                <a href="https://qiita.com/Kudo_panda/items/509bdc7e9ab639abf0b4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">テストアーキテクチャの全体戦略：品質定義から継続的改善まで</span>
+                    <p class="article-summary"># 要約<br><br><strong>品質定義</strong>を起点に、<strong>テスト設計・自動化・モニタリング</strong>を体系化し、<strong>継続的改善サイクル</strong>でソフトウェア品質を維持・向上させる全体戦略を解説。</p>
+                </a>
+            </div>
+        </section>
+        <section id="3">
+            <div class="section-header">
+                <h2>Google News (IT)</h2>
+                <span class="badge" style="background-color: #4285f4;">📰 ニュース</span>
+            </div>
+            <div class="section-summary"><h4>Google News (IT) 要約</h4><br><br><strong>マイクロン・テクノロジー（MU）</strong> の株価動向が注目される中、<strong>NetApp</strong> はDXC Technologyとの顧客事例を発信。日本企業 <strong>Datasection</strong> はパリ開催の<strong>欧州最大級テックイベント「Viva Technology 2026」</strong>に登壇し、<strong>次世代AIデバイスを世界初公開</strong>予定。また、<strong>ROBOT TECHNOLOGY JAPAN 2026</strong>（愛知国際展示場）の開催も予定されており、製造・ロボット分野の最新技術が集結する見通し。さらに <strong>MITテクノロジーレビュー</strong> は、<strong>中国の原子力戦略</strong>において「大型炉が優位」とする方針を取り上げ、大型・小型原子炉をめぐる国際的な議論に一石を投じている。</div>
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス</span>
+                    <p class="article-summary"><strong>マイクロン・テクノロジー（ticker: MU）</strong>の<strong>株価</strong>や<strong>株式情報</strong>（チャート・配当・財務データ等）をYahoo!ファイナンスで確認できるページ。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPaEFJTmZqMjZwWWt2c1RJWnNMR3BQQVFwdE1UakpGSEdOa3EtemllOGJDTDNZSTRsa1dzTTQ3cWNMUUR4OGNFTEVEUzd3QmQwZDQ2ZFhWLTRBclRwSmdHMW51S096QzRSWml6WDlKbDNLUk9Dc0dUa2sxWFQtUjN3SzFKLTdSUWhoRDBSS1pQeFM?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">Customer Conversations with DXC Technology - NetApp</span>
+                    <p class="article-summary">記事タイトルに基づく要約：<br><br><strong>DXC Technology</strong>と<strong>NetApp</strong>が、<strong>デジタルトランスフォーメーション（DX）</strong>推進に向けた顧客との対話や連携事例について紹介しています。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5kOTJMYzhzNkdsVlhiM2gyYjRiZUxoUTIwTndaSm0wbmdheUUzaVNhOW5aM1RNdlZ3aUFPTmpwUG03MklKODNseWFCaU82Z3RfeG9CbldBcTlTQ19DRm1kcG14dE5HVHFkMGc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">Datasection、欧州最大級のテックイベント「Viva Technology 2026」に登壇 〜「次世代AIデバイス」を世界初公開〜 - PR TIMES</span>
+                    <p class="article-summary"><strong>Datasection</strong>が欧州最大級テックイベント<strong>「Viva Technology 2026」</strong>に登壇し、<strong>次世代AIデバイス</strong>を<strong>世界初公開</strong>すると発表。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyc1dDTEVXQ1VSaXdIY3BBa0FQYXVhMXpxRWx0aFhMY0RlQXdFZDNxbDFtQURmaWhicUxSd1ZkNEQxTlNIS3UtQ08tQWQydXlFZV8yX3pXWWZaUHpEWk9fXzBrODQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ROBOT TECHNOLOGY JAPAN 2026（愛知国際展示場）｜熊田茂雄 - mbp-japan.com</span>
+                    <p class="article-summary"><strong>ROBOT TECHNOLOGY JAPAN 2026</strong>が<strong>愛知国際展示場</strong>で開催予定であり、<strong>熊田茂雄</strong>氏が関連情報をmbp-japan.comで紹介している。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNRmt6WXNtWUJ2RTcwN1Zja29SZTRaellwS1VISU9Sek5hQTBNUHVacUhVYzVlSzVvc296TGVGQXhqcF9ER1I1OUlaRTJNWXFMVmczcXpZQURPb0M2TlJDWVB6UHlBOWJ3V0Q1NFprWGJXRmxiV1hHbm1DOTlLY3MyeUY5Wk5BT3VuVjRvaGFOTQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">大型か小型か、原子力の2つの戦略——中国が示す「大きいほど優位」 - MITテクノロジーレビュー</span>
+                    <p class="article-summary"><strong>中国</strong>の原子力戦略において、<strong>大型炉</strong>と<strong>小型モジュール炉（SMR）</strong>の両路線が比較され、スケールメリットから<strong>大型炉優位</strong>の傾向が示されている。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOSUd4SUVqN2JhckdISGhtcTZtZENoWTQtOVFLcWotNTM2MFJQY0d2SEFEb3VvZFhXWmdyZC1TS3RpUjN3WmZLNXd6b0ZqVGE4TENmTE16LWpadktfbVVFQjE5QXRJcmNRQ2stWkRMQ2F3amFtNDJTMlFHZnhvM3V5RE8tSDFzSHBTSzk3Mzdfc3JpQjFLLUFodnh6amx5Zw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AIエージェントが拡張する個の圧倒的な生産性と、次世代組織に向けた「オーグメンテッド・エンタープライズ」への転換 - PwC</span>
+                    <p class="article-summary"><strong>AIエージェント</strong>が個人の生産性を飛躍的に高め、企業が<strong>「オーグメンテッド・エンタープライズ」</strong>へ進化する次世代組織変革の方向性を示す。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス</span>
+                    <p class="article-summary"><strong>マーベル・テクノロジー（MRVL）</strong>の<strong>株価</strong>・<strong>株式情報</strong>（チャート、配当、財務データ等）をYahoo!ファイナンスで確認できる。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1RVGUyNWt5dmVUTF9aMVJBckNBVXhxUXB1OFZJNEJLQXBQNjQ5UEw1MXFoLXd2RnpOQm9lYVJBbjFlYWJET041cFJMR190Nno4dWJqbF9OSEkwUGxNSjMzcWJoY1I0WW13ZURj?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">16ビット分解能のUSB-C接続オシロ、Pico Technology：デバッグや検証向け機能も豊富 - EDN Japan</span>
+                    <p class="article-summary"><strong>16ビット分解能</strong>と<strong>USB-C接続</strong>を備えたPico Technology製オシロスコープで、<strong>デバッグ・検証向け</strong>の豊富な機能を搭載。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE02Y2w0ZFN2dk5sOG1tSUZIeGp4a1NTd2ZqNHhuNTFid25kUUU3Y3J1N1Ryd0NVQlFJdXJYRXAxakV4WVBuWW1aOVZ3VTF6QWR1c2c?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">【やさしい業界知識11】電子機器の進化支える表面実装機 日本勢が技術力で世界主導 - 電波新聞デジタル</span>
+                    <p class="article-summary"><strong>表面実装機</strong>（SMT）は電子機器製造に不可欠な装置で、<strong>日本メーカー</strong>が高い<strong>技術力</strong>により<strong>世界市場をリード</strong>している。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBQ0dxemgzRV9MUjlrZ0ZxQldBNXVzSGxEMDJzMzktQzVhTmlJZm4xLXctVjFhUzRXYjZneTZNN2l0TmczcU9RaTZLTXJldzBUeDNXWUUwRWdLTHk3?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">韓国の先端産業を支える技術拠点 「イノベーションキャンパス」を開設 - shimadzu.co.jp</span>
+                    <p class="article-summary"><strong>島津製作所</strong>が韓国に<strong>先端産業向け技術支援拠点</strong>「<strong>イノベーションキャンパス</strong>」を新たに開設。</p>
+                </a>
+            </div>
+        </section>
+        <section id="4">
+            <div class="section-header">
+                <h2>Google News (Business)</h2>
+                <span class="badge" style="background-color: #0f9d58;">💼 ビジネス</span>
+            </div>
+            <div class="section-summary"><h4>Google News (Business) 要約</h4><br><br><strong>freee</strong>は「SaaSの死」が叫ばれる中、<strong>AIエージェント時代</strong>に逆張り戦略で対応し、会計ソフトとしての新たな方向性を模索している。一方、<strong>Google</strong>は<strong>中小ビジネス向け</strong>に生成AI「<strong>Gemini</strong>」を活用した新機能を提供し、AI活用の裾野を広げている。<br><br>また、<strong>SUBARU</strong>が<strong>CHRO（最高人事責任者）</strong>を設置し、<strong>人的資本経営</strong>の強化を図るほか、ビジネスパーソンの時間感覚として「ちょっと遅くなる」が<strong>20年前より約15分短縮</strong>されているという調査結果も話題となっている。</div>
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQcHhTZThwYmx0bDJ4Q0lxWGZqMncyZzBjcS02MlpyU0RiSTZjR1hTUy0xdE1UQ01NeGNjWWlSbzFqUkdzNHJubDVSRGJ1UjFaQjE1ZkdvRjNDclBTdWtqVXFIWWhkcHAtbnYtYjNGSEVPQ1NaU2FGR2R3WWw4ak11NQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「SaaSの死」に会計ソフトfreeeが逆張りして見えた、AIエージェント時代の「正解」【Code with Claude 2026】 - Business Insider Japan</span>
+                    <p class="article-summary"><strong>AIエージェント時代</strong>においてSaaS衰退論に逆行し、会計ソフト<strong>freee</strong>が示した<strong>AI活用の新戦略</strong>が注目を集めている。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWHJTYXZ5emhuS3VHOGFqMDlmR3BGMTBFSmhMLWJ0OWJjNDAzZTFQMDRDV2dlaWNpWVh6U213VnNGRWV4MmFoc0VzY3BwalZ4bjRtTEViV2ZIc042Y0RQZmtPRUEwOXc5YWxobEUzOGk3S1hIeWNLV01SZWpVVDA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">私は16歳で単身日本に移住したが、ずっと居場所がなかった。移動式キャビンの宿泊ビジネスを起業したのは「運命」かもしれない（海外） - Yahoo!ニュース</span>
+                    <p class="article-summary"><strong>16歳で単身来日</strong>した外国人が、長年の<strong>居場所のなさ</strong>という経験を活かし、<strong>移動式キャビンの宿泊ビジネス</strong>を起業したという異色の起業ストーリー。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE53ajZUVmtMYnZqUndpMkFzQXBCcDlBWEp6cTFRRkM4ZS1lamtwQzRhVlZHc011dTItV3Jra1lsT0JhcThmdTd1ZGVPQnpGRC1vRzRDMXRn?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">【動画】SUBARUがCHROを設置、つながりの強化で組織を変える人的資本経営の新フェーズ - JBpress</span>
+                    <p class="article-summary"><strong>SUBARU</strong>が<strong>CHRO（最高人事責任者）</strong>を新設し、<strong>人的資本経営</strong>を強化することで、組織のつながりを深め新たなフェーズへ移行。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQQkVnRzJBYnY1UUZELS0tLXozcWVVVERDY2IxaFVFaVl2SGpwTE9ZS2dRTDJXNjZGTDBCUXQ0WVFwY0F5R21ISXpsX3psbnJaN3dMSldyQVVNUWhISzNhWmQ2X0JwRVZfVUtPRk8wMnNzMG5mbHA2OTF1MnBsSTZhcnZldlU2ZDVNNmtLTWxyWE5TajJSM2NCZjIwcXpUNWY4ZGtpMdIBnAFBVV95cUxPUVN1Y01KMUlXZDVuUFJXV214d29fOVB2b3U4aHpPTzNPWEZla1diSmx1a05HX2F6LUJjdHZ6Nk12VEVHbWlaR0EyUEIweDBpWnVkbWRxTURqRDJlQ1pnNFFyMVpHVlpVaGJib1hjVUFlU1k2MHhSTjhWeEdhRlYxMU1iakZyOG1iVGRvZ0FRV1VtTTc5eVg0S1YtRFE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「ちょっと遅くなる」は何分？　20年前より15分短くなったビジネスパーソンの時間感覚 - ｄメニューニュース</span>
+                    <p class="article-summary"><strong>「ちょっと遅くなる」の許容時間</strong>が20年前より<strong>約15分短縮</strong>され、現代ビジネスパーソンの<strong>時間感覚が厳格化</strong>していることが判明。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEUDBldm5MNnIxSWR1YmZFdDV2SnJ3ekhPU0cyRnVUaUxKWXR5WGtXWDJHMmNGbUE1My1uczItZkZqXzF4R09hRUctRllZRVlZakhDT0xEcTJpNWdMSjBkR3VfbERVd1E?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">Google、中小ビジネス向けに「Gemini」活用の新機能 - ケータイ Watch</span>
+                    <p class="article-summary"><strong>Google</strong>が<strong>中小ビジネス</strong>向けに、AIモデル「<strong>Gemini</strong>」を活用した<strong>新機能</strong>を提供開始。業務効率化を支援。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nZXRLTFpoekVBemR3S0R5c0RYVkcxcDdqYlMzQ3JMalpKV1hvazdwWUl5NEpoazVaX0RIbEhRZ0cybGlLTUxrUDlYN0hFVjlvN0VjQ01KbUVxeUZQd2NnOQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">PayPay for Businessの入金サイクル表示およびサブユーザー権限の仕様変更のお知らせ - PayPay</span>
+                    <p class="article-summary"><strong>PayPay for Business</strong>において、<strong>入金サイクルの表示方法</strong>および<strong>サブユーザーの権限設定</strong>に関する<strong>仕様変更</strong>が実施される。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1nSG1kcjNuazhEc1FPRFBOdVA0RFBwR21iVXlYc0dTNDdaUTJnaExKTUJOd1NMSkktRFNLbjdQczV6Z1ZscWxCVzJNaFFZdUYteHhiWS14ZERiVkxiNVprMHByWHJtdEsta1czZGh0UXhNUQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「ちょっと遅くなる」は何分？ 20年前より15分短くなったビジネスパーソンの時間感覚（1/3 ページ） - ITmedia</span>
+                    <p class="article-summary"><strong>「ちょっと遅くなる」の許容時間</strong>が20年前と比べて約<strong>15分短縮</strong>され、現代のビジネスパーソンの<strong>時間感覚が厳格化</strong>していることを調査データで解説。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE90UmE0Z3BFdFo4cEswVFlpRnJTQk5LWDFxOHR0d3Rub2NwSnNEd2xtOS13aE5sZnN6c29jaEJfNTFwN3pWZTJLa18wYkRGSU50UG1J?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">医療機器受託開発製造およびリサイクル市場調査：日本の医療製造環境と将来の機会を理解する - ドリームニュース</span>
+                    <p class="article-summary"><strong>医療機器の受託開発・製造およびリサイクル市場</strong>における<strong>日本の製造環境の現状</strong>と<strong>将来的なビジネス機会</strong>を調査・分析した市場レポート。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oTTl6NFJISnRyejB1TEdfZ2ZsQnNYMWRKb2JKd2tSQ1hPeFVmb3lfNkdoU2ZOSVNsb24ybHg4ci1vaURRcEx4NkpsOXBrd2FWX1E?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">世界最大手マリオットが日本で見いだす｢ビジネスホテル｣での勝ち筋…APEC最高執行責任者インタビュー - 東洋経済オンライン</span>
+                    <p class="article-summary"><strong>マリオット</strong>（世界最大手）が日本の<strong>ビジネスホテル市場</strong>に活路を見出し、成長戦略を<strong>APEC地区COO</strong>が語る。</p>
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1seERoeF9SVUNpbUZTci1HaHpSSHlWZEQwa0FTRGhpZGozYUVId3hWSnpUMmRuTE11UnJtUnhpcVI4b2U2bG56SjFPRU13NlAwRlRaUGJHRDQ1ZGxybzlpY0JKaHlfczZua21uUTlLZlhlQVNVT3c?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">三菱電機「海からCO2を回収」する技術を開発。脱炭素は“コスト”ではない…収益化の鍵握るビジネスモデル - Business Insider Japan</span>
+                    <p class="article-summary"><strong>三菱電機</strong>が<strong>海水からCO2を回収する技術</strong>を開発し、<strong>脱炭素をコストではなく収益化</strong>できるビジネスモデルの構築に取り組んでいる。</p>
+                </a>
+            </div>
+        </section>
+        <section id="5">
+            <div class="section-header">
+                <h2>Reddit / technology</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            <div class="section-summary"><strong>ChatGPT</strong>の月額<strong>200ドルのサブスクリプション</strong>はフル活用すると<strong>OpenAIに1万4千ドルのコスト</strong>をかける可能性があり、ビジネスモデルの持続性に疑問が呈されている。一方、<strong>AIによる雇用破壊</strong>が現実化しつつあるが、失業者の<strong>約75%が失業給付を申請しない</strong>という問題が事態を悪化させている。<br><br>スマートフォン分野では、<strong>RAMがコストの50%以上</strong>を占めるようになり<strong>Nothing</strong>のCEOが<strong>端末価格の上昇</strong>が続くと警告。また、<strong>エミリー・ブラント</strong>は映画『<strong>Disclosure Day</strong>』で<strong>スピルバーグ</strong>からのAI音声使用オファーを拒否し、AIの創作利用への抵抗を示した。さらに<strong>中国</strong>では<strong>AI時代</strong>への対応として大学で<strong>1万2千の「時代遅れ」学位課程</strong>が廃止されるなど、AI対応が世界規模で加速している。</div>
+            <div class="articles-grid">
+                
+                <a href="https://www.reddit.com/r/technology/comments/1u5ufgs/a_200_chatgpt_subscription_could_cost_openai/" target="_blank" class="article-card">
+                    <span class="article-title">A $200 ChatGPT subscription could cost OpenAI $14,000 if you actually used it to its full potential</span>
+                    <p class="article-summary"><strong>ChatGPT</strong>の<strong>月額200ドルのサブスク</strong>は、フル活用した場合、OpenAIに<strong>最大1万4000ドルのコスト</strong>を生じさせる可能性があり、収益モデルに課題を抱えている。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5rmbf/ai_job_disruption_is_here_the_problem_may_be/" target="_blank" class="article-card">
+                    <span class="article-title">AI job disruption is here. The problem may be compounded because nearly 75% of people don’t apply for unemployment benefits</span>
+                    <p class="article-summary"><strong>AI による雇用破壊</strong>が現実化する中、失業者の約<strong>75%が失業給付を申請しない</strong>という問題が、経済的打撃をさらに深刻化させる可能性がある。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5ucnt/nothing_ceo_says_phone_prices_are_going_to_keep/" target="_blank" class="article-card">
+                    <span class="article-title">Nothing CEO says phone prices are going to keep going up: RAM now accounts for over 50 percent of the cost of a new phone</span>
+                    <p class="article-summary"><strong>スマートフォンの価格上昇</strong>が続くとNothingのCEOが警告。<strong>RAM</strong>がコスト全体の<strong>50%超</strong>を占めるまでに高騰していることが主な要因。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5yz3y/emily_blunt_refused_steven_spielbergs_offer_to/" target="_blank" class="article-card">
+                    <span class="article-title">Emily Blunt refused Steven Spielberg's offer to use AI for her alien voice in 'Disclosure Day'</span>
+                    <p class="article-summary"><strong>エミリー・ブラント</strong>が、スティーブン・スピルバーグ監督作『<strong>Disclosure Day</strong>』でエイリアンの声に<strong>AIを使用する提案を拒否</strong>したことが明らかになった。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5i8dn/chinas_universities_cut_12000_obsolete_degrees/" target="_blank" class="article-card">
+                    <span class="article-title">China’s universities cut 12,000 ‘obsolete’ degrees amid race to embrace AI era</span>
+                    <p class="article-summary">中国の大学が<strong>AI時代</strong>への対応を急ぐ中、<strong>時代遅れ</strong>とされる<strong>約1万2,000の学位課程</strong>を廃止する動きが加速している。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5vf8j/all_the_ways_europe_is_ditching_american/" target="_blank" class="article-card">
+                    <span class="article-title">All the Ways Europe Is Ditching American Technology</span>
+                    <p class="article-summary"><strong>ヨーロッパ</strong>がアメリカのテクノロジーへの依存から脱却し、<strong>独自のデジタルインフラ・ソフトウェア</strong>への移行を加速させている動きを紹介。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5fjs7/x_accused_of_giving_racists_impunity_after/" target="_blank" class="article-card">
+                    <span class="article-title">X accused of giving racists ‘impunity’ after refusing to bar N- and P-word posts</span>
+                    <p class="article-summary"><strong>X（旧Twitter）</strong>が、<strong>人種差別的な侮辱語</strong>（N語・P語）を含む投稿の禁止を拒否したとして、<strong>人種差別者に「免責特権」を与えている</strong>と批判を受けている。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5q98e/chinese_drivers_are_using_tiny_plastic_heads_to/" target="_blank" class="article-card">
+                    <span class="article-title">Chinese Drivers Are Using Tiny Plastic Heads to Fool Tesla’s Autopilot Safeguards</span>
+                    <p class="article-summary"><strong>テスラのオートパイロット</strong>の安全機能（ドライバー監視）を回避するため、中国のドライバーが<strong>小さなプラスチック製の人形の頭</strong>をステアリングに取り付けるという手口が横行している。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5k5zr/zuckerberg_says_meta_made_mistakes_in_ai/" target="_blank" class="article-card">
+                    <span class="article-title">Zuckerberg says Meta made 'mistakes' in AI workforce shift</span>
+                    <p class="article-summary"><strong>Meta</strong>のザッカーバーグCEOが、<strong>AI人材へのシフト</strong>に伴う<strong>人員削減</strong>において会社側に<strong>「ミスがあった」</strong>と認めた。</p>
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1u5jxft/metas_monthsold_ai_unit_is_a_soulcrushing_gulag/" target="_blank" class="article-card">
+                    <span class="article-title">Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it</span>
+                    <p class="article-summary"><strong>Meta</strong>の<strong>AI部門</strong>は設立からわずか数ヶ月で、内部エンジニアたちから<strong>劣悪な労働環境</strong>と<strong>管理体制</strong>への不満が噴出していると報じられている。</p>
+                </a>
+            </div>
+        </section>
+        <section id="6">
+            <div class="section-header">
+                <h2>Reddit / business</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-06-15 00:13:53 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>
