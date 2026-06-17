@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-17
+============================================================
+
+【Hacker News】
+  1. GrapheneOS has been ported to Android 17
+     https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon
+  2. Running local models is good now
+     https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/
+  3. Humiliating IIS servers for fun and jail time
+     https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/
+  4. SpaceX to buy Cursor for $60B
+     https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/
+  5. Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More
+     https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/
+  6. TIL: You can make HTTP requests without curl using Bash /dev/TCP
+     https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/
+  7. Calvin and Hobbes and the price of integrity
+     https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of
+  8. Mechanical Watch (2022)
+     https://ciechanow.ski/mechanical-watch/
+  9. Stop Using JWTs
+     https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452
+  10. GPT‑NL: a sovereign language model for the Netherlands
+     https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/
+
+【Zenn】
+  1. `cp`はディスク上ではデータをコピーしないことがある
+     https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86
+  2. 2026年6月現在の Claude Code 開発フロー
+     https://zenn.dev/arm_techblog/articles/7712cde19988c8
+  3. AI の不時着 ~ コードの国を追われ、要求の国へ ~
+     https://zenn.dev/layerx/articles/947ce6d31701cf
+  4. ローカルLLMをいつ使うべきか？
+     https://zenn.dev/sompojapan_dx/articles/74624afa03040c
+  5. カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい
+     https://zenn.dev/kaseken/articles/3913ba30af4d46
+  6. M365 Copilot で実践するハーネス エンジニアリングのループ
+     https://zenn.dev/microsoft/articles/m365-copilot-harness-engineering
+  7. AI が大量にアウトプットしてくるので認知負荷を下げる Skill を作った
+     https://zenn.dev/hataluck/articles/0752919b305a9f
+  8. ねえパパ、ほとんどのエンジニアは四則演算を計算するプログラムすら書けないってホント？
+     https://zenn.dev/aldagram_tech/articles/124d14d59bc595
+  9. データ基盤にDagsterを導入した話
+     https://zenn.dev/gatechnologies/articles/76b3f400c26d1a
+  10. フロントエンドエンジニアがFigmaのオートレイアウトを駆使して、実装に直結するUIを設計した話
+     https://zenn.dev/gakken_leap/articles/71256fe15dd354
+
+【Qiita】
+  1. 未経験からエンジニアを目指すなら知っておきたい、職種の広がり方と成長を続けるコツ
+     https://qiita.com/masa20057/items/78b5387e7dacf4aba403?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 3年間、AI要件定義に取り組んできた全記録
+     https://qiita.com/kumai_yu/items/831717856fd24981799d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 「正規表現が0.002ミリ秒遅かった」という理由だけで、全角/半角判定をすべて『ビット演算』で実装した話
+     https://qiita.com/Shiro_Shihi/items/d18bf49f0c7a168baa19?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 文系エンジニアがClaude Codeで学習アプリを自作して3か月でCISSP合格した話
+     https://qiita.com/hiyoshiz/items/b63c2e7ff52b5554a8a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. VRAM 12GBでQwen 35Bを動かす — エキスパートをGPUに載せないほど速くなった話
+     https://qiita.com/kenimo49/items/dff3c8a2a0ee563ca16f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. CVSS 9.8ってどれくらい危ない？脆弱性情報を読むためのものさし
+     https://qiita.com/mo__mo/items/49f9601481aec596f545?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【まとめ】世は大AIブラウザ時代！12種類全部使って徹底レビュー！【乗るしかねえ、このBIG WAVEに🌊】
+     https://qiita.com/issey_dotlog/items/b59c083cf053e605e8e6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 9割のエンジニア未経験者がつまずく『最初の壁』 。それでもアプリを作りたい #3
+     https://qiita.com/hitomin_poke/items/621a19d6a1a6500eaca6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【PHP】PHP最大の問題点はこれだ！！
+     https://qiita.com/rana_kualu/items/d1c08a55a373897d38d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【個人開発】本を読んだままにしない実践支援アプリを作った【React / TypeScript / Firebase / Supabase】
+     https://qiita.com/o68606007/items/9c7ac3a086ebccc4a32b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 若手研究者3万人を海外へ 政府の5カ年計画、科学技術人材を育成 - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBabU84d25EOFE4aWZwcUtSZ0lYbmV4LThoZGQ2SjdoYWlOeUIyRVRMSGlOY19wS3E1b3RxU2VjSmpmTFNLWFRzbUpsTi1DLWppVUlpb2lGUWlQY0tySFZhd3YxVi1LSlRhTTdQMQ?oc=5
+  2. テクノロジー業界のリーダーたちが「魅力的なオタク」から「嫌な金持ち」へと変貌を遂げた経緯とは？ - GIGAZINE
+     https://news.google.com/rss/articles/CBMikgFBVV95cUxOT0pkLWVBdlg4VnRpTnpjb3BVcVVNdUkyVm0zekZKbzJ3eUVPSXRyeG5reURERlpIUlNIZEQ4SlBNQmxTdVpLazBpdkx2ekhmRVdrRnFiSk1vRjhlekU5cFVDa3dGR2JfX0MxQm1wZm9jR0tMa3dxbzdiY3dLbW10QjdMTmtTNEc5clAtemN1dklDQQ?oc=5
+  3. LINEヤフー、技術カンファレンス「Tech-Verse 2026」を開催｜LINEヤフー株式会社 - lycorp.co.jp
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OMjlIN2FnbVRGOXhmenlublpoUXZUaUM0dGRiLWhFMGt2bjFsZTZKa3pOdVl6bVRIUkxJSW1SYmJCeFg3RDRYTUlLMGk2VXJFOVdhSUFaRmpWWmJk?oc=5
+  4. 技術変化の速度に、ついていけない政治…未来予測の専門家の提言 「核兵器より深刻」な脅威とは - ニューズウィーク日本版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BVW5BSXoxR1FhX2VrelUxMWxGbWhLWFIyUGozdzRIVTZFenVCd01RbWdlTU0tRjhpbmxMZC16YlRVRDRLQlRBUlluOEQ3QkxYcG5uTzFKX0dld0VDNjV3MVpkNXd5QlU?oc=5
+  5. ロボットバンク、最先端ロボティクス技術を披露へ…人とくるまのテクノロジー展2026 NAGOYA（レスポンス） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE05TGlvSy1PS3JxMGZhWXhVckpWZkRzRnJvTUVDNllGUUpQdEdLalRmb1dzZ0dCVXB3bTVsWm9qMHBIZVZFTXNNY3NQZFpCdE14Vm12d2hnODVrVWNKWHV6LUFhZ1dWMjVNWm5aQlVXSDdIN1A5RWF3aTJ5Z2laLWs?oc=5
+  6. 巨額が集まる若返り技術「リプログラミング」、今度こそ本物か - ASCII.jp
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE94dE02RzdIWUVmWDZXblN1TFVvQlgtVmpxVUtzVFFEYlhCcnB1NGFrSmVrYzJtY0dxcHY4bXNMS1d3cm1hZ2xSZ05VRG9aRklQdnFiQg?oc=5
+  7. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  8. Datasection、欧州最大級のテックイベント「Viva Technology 2026」に登壇 〜「次世代AIデバイス」を世界初公開〜 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5kOTJMYzhzNkdsVlhiM2gyYjRiZUxoUTIwTndaSm0wbmdheUUzaVNhOW5aM1RNdlZ3aUFPTmpwUG03MklKODNseWFCaU82Z3RfeG9CbldBcTlTQ19DRm1kcG14dE5HVHFkMGc?oc=5
+  9. 6月16日のCredo Technology Group Holding Ltd (CRDO) 終値は7.61%下落：主な推進要因が明らかにされました - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxPNFBmMXAtdWhVSm1BS1V2RlQwWjhNODQ1d1RFMjJxZTM5UzlCZ2pKNWlpTmlaYkZYQldVNDZqdzFnM1JfV2hlb3JEdVZPN2VoU1VYaklNMy11VkZXZ0JUX2c1MWJrMEdFVkZqVnNxZENvUzRtTHdBWlk0VmVIZEZjTllFNm9wRGwxUkZLQkpSNA?oc=5
+  10. 米中に並ぶ「AI3大強国」へ、 世界一楽観的な韓国の野心 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMihAFBVV95cUxOUkpkcFdITUxNV2h4MktsX05BYmJoZjBDLWNEOGh2X19WZ0VpN0FpUGJjWERkTFJiRDRCd0syY0Jsd29LVVJxa3UxVWtIUmZSQkVZVEY0XzNkNGZkMmZTUTMtSmVueGs0MzdoaHA0M3BYUU55OVMwWGg0Mk9BdEVkNkFNRkM?oc=5
+
+【Google News (Business)】
+  1. 夏のボーナスはいくら？ 大企業と中小企業で広がる差（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1JOU80TTlOUUpKblo1LXBqU3ZsUkV3blM3QnpQdTlLLVlHbDcteG42TGhMTFo3R1R2cnNDRV9mRXFVazBiWFkzazVMM2JQbjEtdERwd05rbTdKYy1rSGFQalN1cldhaGlrc2RzbnhGSnZXdw?oc=5
+  2. 初めてクルーズ旅行を体験したが、ひどいものだった - Business Insider Japan
+     https://news.google.com/rss/articles/CBMimwFBVV95cUxQeTdpMzFzenp1T0dpUk9IcDFHMmZCTm5iWlJpVHBNSjRueHlqZlhCTGk3UEticHhBaUhmR3ZJX3A1ZU9CVW5kN2liaTNyQkk3Y0x0NGs3dFpaa1hSMmlzbFVJVzF2NndEcDYySlpRMEx4WWVienlQTjliWUpDMDVTRlR6elVKdXY3VHhadHRIV3o3VWlMcUhEOEo3MA?oc=5
+  3. 半導体・データセンター投資の次に来る「AIの主戦場」とは？PwCコンサルティングが示す、企業が勝つための設計図 - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4UGJKbjFyRDdRZ2dsdURTVHIwZGdSbWRITUVxUC1IZFI2MHAzcThwTU0xZkNGVWFMOTNKT3RNd0pUVkpWdkhiVWdOZ1I?oc=5
+  4. セールスフォース元幹部が50代で独立起業…後押ししてくれたのは「AIの力」だった（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE43T19nU0lkbkNtdVg3dXR6V093c0RzYUkwWFQzbXZmQkxpc055RXFaeHJ0Z2pfd2FxWGJyRndUY1ZBSlg2eDVxMWZMZFU1dEJmNnJBZHl2dGJQRDZuY0loYjBzQmlxNDM2cmRZSkNaRGJiRV9mbVd2RDdEZFRGUDg?oc=5
+  5. 日本で存在感を増す「中国人社長」 上場企業にも広がる - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yc1l4c25tTm1TSzdQQXpYa3lTbDQ1SFpMSDZDODhGNlNNa0xodUFhWHlwdXF1YjBGcFBITWtSRGZ1Y21TbDhuU2tybXYwdldDdjNxVjl0WGp1bGN5T3NINU9pM0ZuYzg?oc=5
+  6. CROSS Business Producers、「AI研究開発チーム」を本格始動。プロフェッショナルを支える「次世代コンサルタント」の採用・育成を強化へ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBpQVRFRlA1X0NBdVRhMlkyUk0xYnkxcERnQzBEOWVYZHpCc2hnVVdfMk54aHB2NERjMWtLeWNCbnByOUhWQ18wZlFEMzdkUVd0ajFwYXVGd1d3WjJYUU1VRHhqRzRfaFRmblE?oc=5
+  7. Mujuryoku and Kotobukiya establish joint venture "VEID" to fully launch VTuber business. - Mogura VR
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE0yaC1yRFVoOFVCWlJfNUpGRXYtdGxjdGZNVDlidHBIa05EbE5McXlsNkYtZ0xfRHI0T00wV1BnUUJ1dkNkcXEwZFJfdkdTaUVNMVc1djMwZHZzaVZybDl6d3NoTWp3SWtTLWhmLU4tbUtkTEwtSUJV?oc=5
+  8. 大手SIerがなぜパートナービジネスを？日鉄ソリューションズ×ネオキャリアが生むシナジー (1/3)：saleszine - MarkeZine
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zOFRKSmMxSTZsV3k3c0pxUUR6RUZlbERLSGNfTzB2QzFxWVdaZTZERUp5QlRuWWVIMS05cXdJaHhVMjIwTWthVTFLZlhWZUhGMTNB?oc=5
+  9. 「上場」がゴールではない――東証アンケートから見えるグロース企業の現在地 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMioAFBVV95cUxPQlZRVG9GWFZLb3BZYVdJdC1CSWprNmZ3RjkxbGN2TjNYSzc5OEZHa1FJR2p4bFcyUnFwS244UEJEZkpKMVBmYVhocUtOWHc4NzNaZl9LVGFiS3N0TGZibTJIU1JrOUZpTTRpdFI4SzlUNmk0ZTUtenZwcVR4TURaZFJTRW9UQzUtWWpLRTRtay1KcWFwSHE0THllMTJ2NVV60gGTAUFVX3lxTFBVWVRkNkd0WDNSQnEyMnhQM01zRXY1a1NLcUhCTWhVcmktX0hsSy0xYUlrZDBPVjNDSWladjVORm5Sb21RQ2hvUEJidVJGbkRFSUpsT0syMmlPTFhPLXZlREU1NmJzdHZGaVF4czIzWndrcnhxc2RPTDVDVGpkNW0wNE9fcUhjX083dG1QU0ptX2kwdw?oc=5
+  10. 60代のCEOが新たな常識に 企業はなぜ年配のリーダーを求めるのか - クーリエ・ジャポン
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EYlRlRXJvYkFpNUZwamRwdXl1dV91ZFhSeW4wVWFoS3p6N1ItYThCZEVSUUxrdVl3ZlRBSUVhWUpBOE5vcUlyRDN1NV91ZjdieGIw?oc=5
+
+【Reddit / technology】
+  1. Mark Zuckerberg Orders His Employees to Start Having Fun Again After Brutal Layoffs Culled Their Colleagues
+     https://www.reddit.com/r/technology/comments/1u7jtpj/mark_zuckerberg_orders_his_employees_to_start/
+  2. Leaked financial docs show OpenAI is losing billions of dollars a year
+     https://www.reddit.com/r/technology/comments/1u7pzpn/leaked_financial_docs_show_openai_is_losing/
+  3. Leak Exposes Members of Peter Thiel’s Secretive ‘Dialog’ Society
+     https://www.reddit.com/r/technology/comments/1u7sln8/leak_exposes_members_of_peter_thiels_secretive/
+  4. A Single Polymarket Trader Lost $4.2 Million on the World Cup in Less Than 24 Hours
+     https://www.reddit.com/r/technology/comments/1u788nt/a_single_polymarket_trader_lost_42_million_on_the/
+  5. DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’
+     https://www.reddit.com/r/technology/comments/1u7ss99/doj_claims_xais_unpermitted_gas_turbines_are_a/
+  6. French spy service drops Palantir
+     https://www.reddit.com/r/technology/comments/1u7ckoq/french_spy_service_drops_palantir/
+  7. ChatGPT's market share slips below 50% for first time
+     https://www.reddit.com/r/technology/comments/1u79t34/chatgpts_market_share_slips_below_50_for_first/
+  8. ‘Reeks of Corruption’: Top DOJ Officials Reportedly Cleared Paramount-Warner Bros. Merger Before Staff Lawyers, Who Were ‘Leaning’ Toward Antitrust Lawsuit, Could Object
+     https://www.reddit.com/r/technology/comments/1u7d4ht/reeks_of_corruption_top_doj_officials_reportedly/
+  9. Imperial Valley data center developer files lawsuit seeking access to Colorado River water
+     https://www.reddit.com/r/technology/comments/1u7djtq/imperial_valley_data_center_developer_files/
+  10. SpaceX is buying Cursor for $60 billion
+     https://www.reddit.com/r/technology/comments/1u7clts/spacex_is_buying_cursor_for_60_billion/
+
+【Reddit / business】
+  （取得できませんでした）
