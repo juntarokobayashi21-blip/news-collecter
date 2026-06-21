@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-21
+============================================================
+
+【Hacker News】
+  1. Pre-2022 Books
+     https://notes.lorenzogravina.com/musings/pre-2022-books
+  2. Not just books: renting a sewing machine from the library can improve democracy
+     https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland
+  3. Epoll vs. Io_uring in Linux
+     https://sibexi.co/posts/epoll-vs-io_uring/
+  4. SMPTE Makes Its Standards Freely Accessible
+     https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community
+  5. Alice is impatient
+     https://brooker.co.za/blog/2026/06/19/waiting.html
+  6. Show HN: TownSquare, a tiny presence layer for websites
+     https://townsquare.cauenapier.com/
+  7. Slow breathing modulates brain function and risk behavior
+     https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9
+  8. UHF X11: X11 Built for VisionOS and Apple Vision Pro
+     https://www.lispm.net/apps/uhf-x11/
+  9. PostgresBench: A Reproducible Benchmark for Postgres Services
+     https://clickhouse.com/blog/postgresbench
+  10. DOS Game "F-15 Strike Eagle II" reversing project needs DOS test pilots
+     https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html
+
+【Zenn】
+  1. AI以後の受託システム開発はどうなっていくのか（2026年6月版）
+     https://zenn.dev/terurou/articles/eb9e7a4ca7b364
+  2. Obsidian(Markdown) よりも快適に書く: vscode-scb で Cosense 記法
+     https://zenn.dev/sta/articles/2026-06-20-vscode-scb
+  3. GitHub Copilotのクレジット消費がユーザー単位でAPI取得可能に：監視を自動化する ai_credits_used の使い方
+     https://zenn.dev/headwaters/articles/github-copilot-ai-credits-usage-metrics-2026
+  4. Claude Code の PreToolUse フックで操作ログを自動保存する — 個人環境のセキュリティ強化
+     https://zenn.dev/tottoko_hamu/articles/2026-06-11-164130
+  5. Obsidian Weave から Yasumaro へ — ブラウザの記録を、もっと自由に
+     https://zenn.dev/ar1/articles/yasumaro-02-from-weave-to-yasumaro
+  6. Claude Design がclaudeアプリに対応したので触ってみた
+     https://zenn.dev/91works/articles/bb03f5adb45dea
+  7. Claude Code に、自分が考えていそうなことを言語化してもらった
+     https://zenn.dev/estie/articles/f90d498d21a798
+  8. LLM はマークダウンファイル全体を読んでいる。その必要はない。
+     https://zenn.dev/oubakiou/articles/b9db61885cd7be
+  9. リファクタリングにドメイン知識が要るなら、その知識はどこに置くのか
+     https://zenn.dev/417/articles/ai-era-domain-knowledge-placement
+  10. TypeScriptの型のみでオセロの型を実装したので解説する
+     https://zenn.dev/forcia_tech/articles/202606_tskaigi_othello_hatano
+
+【Qiita】
+  1. ダッシュボードを作ったのに誰も見てくれないので、オントロジーについて考えてみた
+     https://qiita.com/KYoshiyama/items/52dc298122587969b39c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. ベテランさんが教えてくれない「クリーンアーキテクチャー」を小学生でもわかるように解説
+     https://qiita.com/Hashimoto-Noriaki/items/f451a4ecb49a9476f09b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【| ! ~ ` ^ * \】← これ、なんと読む？ 地味に困る、記号の読み方。24個一挙に確認してみないか？【まとめ】
+     https://qiita.com/tomoki-miso/items/690bf3299706d40d4532?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 「なぜ評価されないんだろ…」と悩むそこの君へ。優秀なエンジニアに共通する考え方。
+     https://qiita.com/issey_dotlog/items/2f57fda20f559b2e54ae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Ollamaで月額0円のローカルLLM環境を構築してみた
+     https://qiita.com/Hinata-H/items/ff98d92ca5eafee31226?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Copilot Coworkが一般公開したと思ったら従量課金でこわーくなっちゃった話
+     https://qiita.com/Oyu3m/items/473ff0aacea13ad2fdd3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 入門から実践 -「🔁 ループエンジニアリング」
+     https://qiita.com/Syoitu/items/97ed37e7ba9c38dc75d8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Elixir 1.20の型システムをRust,TypeScriptと比べたら特徴が見えてきた
+     https://qiita.com/GeekMasahiro/items/3f8e66db661f8a2f97a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. RAGを本当に使うために、処理段階ごとに優秀手法を整理してみた
+     https://qiita.com/engchina/items/3060140b10a9a35021f4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 論文を読むAIの精度を90%に引き上げた — AI for Scienceのための知識グラフRAGシステム開発記
+     https://qiita.com/hisaho/items/4dbbcd41e83f9575cd28?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. WIPO日本事務所、「WIPO GREEN Technology Forum 2026」を開催 - World Intellectual Property Organization (WIPO)
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmtsdzlkTUJJaW1DRzJNc2tHLURjN041cUpQaWpIMXpPM1NLcHJjTlhYQmI5NlZHQjJVYnVBRUkwWk9qSDBmWEEtT21oN0FnSkEteVRWSkN5dDBFZXQ5eHpiZFJLVEs5QUFmdm11b2FkQktySDUzUkRaVzBSQlROMDBqUTlGZ2w5Mkdzb0Q5RDhEUE1BOWFSWnhHM3VfTzJReHdMRA?oc=5
+  3. AI時代における企業変革の指針を示すDynamic transformationを核に「Fujitsu Technology and Service Vision 2026」を策定 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NOEUtdVVBU1FxTmtqQXppVlRaZHZoeHBSNWtDNHhoRERnbk4xd1Z6dTBtc003dFp2cm1SVjk1YUVqangxSlV2Q3lmYTBLcFdnZ0VNZFJXRmN2S2N3bGZz?oc=5
+  4. 6月20日のASE Technology Holding Co Ltd (ASX) 値動きは8.39%上昇：完全な分析 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxOd1pFMnVRQUI5ZXFUejYtZU1oVE1TU1hYaGhqUkxUaWVCVFdGT1JGUGRsQXAwUjltVjIxQzdjWWRJN3ZMdkdzaW42Xy1USG02eHRmMXFibmRrbFJrSXdqNXdtQTVkVF9kVEZCNDUzMzFDU1lLQzM2YVBiSVFQR3NRMG80MXh6ZnZpSTVobVZ3?oc=5
+  5. 脳インプラントの臨床試験が急増、BCI はついに離陸期に - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMikgFBVV95cUxNVWp1cDVVWVFSOS0za3U3R3BLQmphQnR1WEVIM1FhWkYtMTIzNjlwNzl3eG5UQUIxaGs4Nk5IV0hnVDY5Y3Z6YVpyUGtCekc2bVl4UjE4MEItTVJUa1NubGpHa2cyTXFIS2tjM2ZoOEdndXNya0s1SG42TkNkTDZVWnFYcVZMSEN2ZWJibWI0RnVVQQ?oc=5
+  6. Up 218% in the Last 12 Months, Can Credo Technology Stock Keep Climbing in 2026? - TIKR.com
+     https://news.google.com/rss/articles/CBMiuwFBVV95cUxON24xR2pab0ozR1Q1M0w0M0J1QkJPOE5tYkJaQUtwOGFoWWdqbWZBeG4yeGJNZ2Y4cUM1ZklGdS1US05TeEZKV241NmJnSmpJS3U3VUdLUGtSdDdDZWtfM2dMUDZVVy1USWlQWnVkZnd0eC1XVHFNZUNPaUx3UmdLWUpZLXk4QkJDdjVHZ0lsa2l5ZzBnX2tQS05qaTZZMzhwOUhsZl9DaF9tS1pwaTFMM0trWWpDZElETlFB?oc=5
+  7. アマゾンで出会った、森林を“測る”テクノロジー。「社会的正義のカギ」としての科学とは - IDEAS FOR GOOD
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZWpuMUVhdUxHaDd2UWtBMVNsY3laNlRCSS1xNGFEcVdpNHZBTDVadm5BM2hCVzNQSVJPa3V6UmZJMnJKSmNTSkpGNkp3T0hqLVhHZzduSHBvQngyeVkxMjhnZkRTWjNrYzFYUnVmcV9CYm05WlNJd0hIV25lVnVSRm9DaGk2V1BnVDRz?oc=5
+  8. EcoFlow、「TOKYO OUTDOOR SHOW 2026」に出展 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9DX0FvQW5sNTZLRDZFVDNXMi1BRHpRdUE0amRHVk5RWUFRODJqdjE2VXM1V3NNLWRzcTVHMXlPa2NuWVpPb0VRYTI2bHhOZ1lRaGJUdjdZMzRzN1E5eFNUMlRKZzBZYzJOQ0E?oc=5
+  9. 激変する情報処理技術者試験、「IT資格」の真実 - 日経クロステック
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mR2pKbHk4ek9NZFd1b2NCZ1p5ZUN4R2JDb2RaRVVCVnJWdkEtSlRHZlNKSW9vTWxDODBOX3dLelREV1N5OWFKV0RIUlUybU5kYkkxa2FhLWkwem5JRFlB?oc=5
+  10. 富士通、「Fujitsu Technology and Service Vision 2026」を策定 AI時代で企業変革の指針を示す「Dynamic transformation」 - 株式会社インプレス
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE00Nlg1Y3ZXYVhfd0MxblJnYWhHWlhkSVJyTzhtR1BpQjVXdG10V0xBWUpxYnRjSl9tcHowSFRXSjcwSFYtZzlObnhnczU1N2pIUnhGV0pPN3hIckFfTFQ2M2p5bw?oc=5
+
+【Google News (Business)】
+  1. ウクライナの防衛企業、次世代迎撃ドローンを開発中 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMixwFBVV95cUxOV0lrRXZVSnRocHc3VDdSRXQxczBQaVVzWEpQU0JILXU1cjRydml0TmRCWUNIcWR6U1AtaExaSi1MYzdBTVVUVEJyYkxIMWltRFJWZGVmRXdZRkZnaTNsbkJKV2pFVEZscHJJWkptRVNzc0NxQlN3aWJwMGtXXzdleTFtOE5kamFsa09NVEpaNC1ORUdUQ0Q5VVd1N19YeWR0QjdHdXVhUFFQbkVJVUV1MDgyVlpRakFaNzBXdTA4cEVBYzNka1U4?oc=5
+  2. 京都府北部の学校教材販売企業、破産手続き開始決定 創業131年の老舗、教科書や事務機器など扱う - 京都新聞デジタル
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE8ybUNEaHVTbUVxSWRXMzBwVXU4SXBsYW9iWkp0WmVib2VoWHZZNmNLYXRaeUZGVGUwdlpreEVhbGVfZHZ3ajdranJBTXdHYXNBN3FKcTFMN2RIQlU?oc=5
+  3. 退職金を減らした企業、そのお金はどこへ消えたのか（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBTRDRfVDF1d3AtNXZzVlltLXdsYW95aEZvekJQdzc1Nm42RzdxSFBQdEVBLWRFcUlJdTYydF9IbFgyc2dpaEgweXVGWjMzSlF4WlZfU21SRmRkQ29lRWlpRHZTek9PNkpKTlNZUk83ZnJSQQ?oc=5
+  4. AI失業の逆風のなか、「13の職種」を新設して採用を増やす米企業の戦略 - クーリエ・ジャポン
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DX3lJZ2xuYlhscHZGckRnX1RWM2g3b1ZyRXBPNFg2UmlnWXR0UXRkUWFQQVI4YUptMXo0OVBoTi0wdlJYbkJTV2pyQkF6M0RxUGZF?oc=5
+  5. 出張費「足りない」社員が7割超 平均値示し上限維持とコスト減図る企業も - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VSm1QNmdmVE9lNmNqQzNISEpBR18wakdrUGJZZUhfM3FBcENlUU1TYUdRSDUxaGJDdTZDRS16bTdFZm05cFNzVU5ReDd2VkpTWm0xckNZM3NNLWk2NXo3WGI1ODBVLTQ?oc=5
+  6. [Delayed]FY2026 Q3 Business Report 投稿日時： 2026/06/19 15:30[適時開示] - みんかぶ
+     https://news.google.com/rss/articles/CBMiRkFVX3lxTFBVaXFrTXJTb2I3aER1dkF4Sm45VzJoQW1hY09GZ0dCTE9rbkduZ05tTzJwOW94R09qWWgwRDB1SU9WTEkydmc?oc=5
+  7. なぜ福岡に上場企業も海外スタートアップも向かうのか…人口増､開業率トップを誇る都市の｢磁力｣の正体 - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE43SnFMOHFJM0xBam9Kd0IyQ0VFUTJEOFhQb2ZUX3I3SDdfWXlCTzZ4cm52QlZGWmNCd1EwT1B3dHd1MmRJYzJ5S1pNNjZtS0szTlMyMk8zUkFRWm8?oc=5
+  8. サントリーBF、自販機を「推し活」の販路に。年3倍成長、IPビジネスと好相性のわけ - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFAyUDQ4RUNmVVROeU1KaUE5TnpYSElkLWk1ckRIZUFsaHdRSTZHWGgxTkJ4QzdQVEdoRUNKX0tMTGh4TEpEMTFReWdHXzdVcDZLRHhRZFFkeTVNTTZxNE40NTgzSzlTOGhoRjgtYVUtM05jOFdRUVdPZ3JFSTVvVm8?oc=5
+  9. ヤマトグループ中国・四国地方最大の統合型ビジネスソリューション拠点を岡山県に開設 - ヤマトホールディングス株式会社
+     https://news.google.com/rss/articles/CBMic0FVX3lxTE4tX3M5Y2lmV3JHQy1XLTBLT3hfaXBnVjFBQTc5elNjVVBNVkc4LUZLRkxPUkVnZ2d0ZWFMY1ZvVWctdGhwYzhIcUdFMDlIY3I4b1pWZllmcllWdWRCUzROQml5ZlhEN2tjT2tRQ3E3SmFkNGM?oc=5
+  10. スペースX株のオプション取引から見えてくる「短期かつ劇的な株価変動」に期待する個人投資家の本音 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxPbEdXazlvOVdNMUkxX3RrTVFSMlA3bmxMOU9nanJPY3F0dktVZ1ZONUxxdTFfYy01TkZpd3huZ2prbmc4ZGx6V3BRXzZmN0VBZzdGc2Q1UmlZZXZvU1BEVVd5c3NmVE54cVFXNi1hUEtJV1JpUlBtaC1IZnR0V296bWxaaklNdmR6QjBFWGF0eHB0bW5xOHZzendkQS1WbjFybWM5UQ?oc=5
+
+【Reddit / technology】
+  1. Morale is so bad at Mark Zuckerberg's Meta even the company's own CTO admits it's 'probably the worst it's ever been'
+     https://www.reddit.com/r/technology/comments/1ub7r1y/morale_is_so_bad_at_mark_zuckerbergs_meta_even/
+  2. The average SpaceX buyer post-IPO is almost under water after two-day slide
+     https://www.reddit.com/r/technology/comments/1ub1fwj/the_average_spacex_buyer_postipo_is_almost_under/
+  3. EXCLUSIVE: White House delays release of US voting machine study as midterms near
+     https://www.reddit.com/r/technology/comments/1uax7b1/exclusive_white_house_delays_release_of_us_voting/
+  4. College Students Consumed by “Resignation and Despair” as They’re Relentlessly Pressured to Use AI
+     https://www.reddit.com/r/technology/comments/1ub0p69/college_students_consumed_by_resignation_and/
+  5. SpaceX stock sinks for a second day as company slips below Amazon in market cap
+     https://www.reddit.com/r/technology/comments/1ub5k7g/spacex_stock_sinks_for_a_second_day_as_company/
+  6. Former Dragon Age writer says AI could make gamedev 'frustrating as hell': 'How are we going to train up the next generation of devs if we eliminate every entry-level task?'
+     https://www.reddit.com/r/technology/comments/1ub23av/former_dragon_age_writer_says_ai_could_make/
+  7. Windows 11's New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs
+     https://www.reddit.com/r/technology/comments/1uaqz0i/windows_11s_new_media_player_uses_35x_more_ram/
+  8. Nvidia’s CEO Jensen Huang says electricians and plumbers will be needed by the hundreds of thousands in the new working world
+     https://www.reddit.com/r/technology/comments/1ub919d/nvidias_ceo_jensen_huang_says_electricians_and/
+  9. Microsoft confirms Recycle Bin glitch affecting all supported Windows versions — yes, even the trash needs debugging
+     https://www.reddit.com/r/technology/comments/1ub78qa/microsoft_confirms_recycle_bin_glitch_affecting/
+  10. Wearable jacket extracts 900 ml of drinking water daily from the air
+     https://www.reddit.com/r/technology/comments/1uav3zh/wearable_jacket_extracts_900_ml_of_drinking_water/
+
+【Reddit / business】
+  （取得できませんでした）
