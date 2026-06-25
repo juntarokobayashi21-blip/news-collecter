@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-25
+============================================================
+
+【Hacker News】
+  1. PostgreSQL Is Enough
+     https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb
+  2. OpenAI unveils its first custom chip, built by Broadcom
+     https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/
+  3. Qualcomm to Acquire Modular
+     https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/
+  4. RubyLLM: A Ruby framework for all major AI providers
+     https://rubyllm.com/
+  5. We’re making Bunny DNS free
+     https://bunny.net/blog/were-making-bunny-dns-free/
+  6. PR spam today looks like email spam in the early 2000s
+     https://www.greptile.com/blog/prs-on-openclaw
+  7. Computer use in Gemini 3.5 Flash
+     https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/
+  8. The Xteink X4 E-Ink Reader
+     https://blog.omgmog.net/post/xteink-x4-e-ink-reader/
+  9. Crawling BitTorrent DHTs for Fun and Profit [pdf]
+     https://www.usenix.org/legacy/event/woot10/tech/full_papers/Wolchok.pdf
+  10. 45°C cooling design cuts data center water use to near zero
+     https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/
+
+【Zenn】
+  1. MulmoClaudeで自分専用の天気アプリをVibe Craftingしてみた
+     https://zenn.dev/michiof/articles/mulmoclaude-weather-app
+  2. Tauri ライブラリの意外な使い道 — headless な CLI を作ってみた
+     https://zenn.dev/olibrauma/articles/tauri-library-for-cli-tool
+  3. iOSアプリでSwift・Rust・Goの実行速度を比較してみた
+     https://zenn.dev/oba_shion/articles/872ce1434f5fc7
+  4. GAしたGitHub Copilot Appを触ってみた　～Issueから実装・PR・マージまでをエージェントに任せる～
+     https://zenn.dev/nomhiro/articles/poc-develop-use-github-copilot-app
+  5. なぜ LLM に大喜利が難しいのか
+     https://zenn.dev/nttdata_tech/articles/3241a46dca47b2
+  6. AWS13冠は、何を証明して、何を証明しないのか
+     https://zenn.dev/honey_aws/articles/certifications-and-tradeoff-judgment
+  7. 個人のプロンプト術をやめて、チームで回るAI駆動開発ループを作った話
+     https://zenn.dev/explaza/articles/d0aeb08fcd1888
+  8. AI時代のナレッジ管理手法 - Googleの「OKF」を解説
+     https://zenn.dev/knowledgesense/articles/14a874a9f423bb
+  9. 標準CSSは美しくなった、もはやTailwindは不要
+     https://zenn.dev/higakijin/articles/06276828c81546
+  10. タスクを割り振る開発は終わった
+     https://zenn.dev/awesome_kou/articles/end-of-task-assignment-dev
+
+【Qiita】
+  1. 「言った・言わない」を防ぐ。要件定義で使うべき質問の技術
+     https://qiita.com/prum_hitomi/items/d06e7479122150ee0ad9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. バイブコーディングが「RPA問題」を再演している。属人化・重複・ブラックボックスを防ぐ最小ガバナンス設計
+     https://qiita.com/hirashima-gmoconnect/items/cfe5ba40a56b3dbf6a4b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Railsで学ぶ計算量（Big-O）入門 〜「なんとなく速い／遅い」を言葉にする〜
+     https://qiita.com/akachiryo/items/90db7bf21b6546fce911?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 新人エンジニアが最初に専門分野を決めた話
+     https://qiita.com/masa20057/items/0c1da2b7431aa73a798a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. oracle-ai-ready-data Skill で Oracle Database のスキーマを AI Ready Data 評価してみてみた
+     https://qiita.com/shirok/items/3b9ccefff059ff1ab40d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. バズってる「STORMプロンプト」、実は一番大事な部分が抜けてます【Stanford論文ベース】
+     https://qiita.com/jqit_suwa/items/8168cd532e692ebcd4b0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Copilot Coworkでブラウザ操作できるようになったのはもっと話題になっていい
+     https://qiita.com/Oyu3m/items/b2d530aa21b6c998370b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. キャッチアップしないと不安。── AI時代のエンジニアが罹る病 「FOMO」 と付き合う。
+     https://qiita.com/tomoki-miso/items/8290227346c099e84b1c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. Claude Code セキュリティガードレール 実装テンプレ集 — コピペで使える settings.json と hook スクリプト
+     https://qiita.com/nogataka/items/bab35c7b58a664d3b8f1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 工数では見積もれない時代へ—AI時代の受託開発の見積もり・契約・成果物定義
+     https://qiita.com/nogataka/items/b76868fbabb1aa2d81e1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. テクノ・ネガティブ──テクノロジー廃絶主義の思想を読む - WIRED.jp
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE1TUmY5ZW1UdnZFVGVFakZEcDZwTDhmUWMwampNcXJyRW53cEZxc2FjOEdtRGRRTzVVYTF1Q3piREFhbFZmN2kwVmxGclJ2cXJ2Uy1DUkd5UUxucG81dS0tdm9udzhGdUc1SmRXcVBlSlFTbkhhOEE?oc=5
+  3. 6月24日のSeagate Technology Holdings PLC (STX) 値動きは5.58%下落：主な推進要因が明らかにされました - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQT1pkX20xX01hOF9sWW9QWktHSG1CNzhfOGYyRUhCR0NERWNvV1lUVUk0djNFQnNHaVFUSFRIWDZYcmpPeWplbTU2c2xYZXFKWFpzMVBzcWg5cGx3enhqRkQ1LWhScmJJekIxTGlxT2RLZ2o1Rlk4WnkxSk81X0xoMmlUekpiUkxvYXYtNmZ3?oc=5
+  4. Scaling an MSP in 2026: Why Sales, Technology, and Marketing Must Move Together - Sophos
+     https://news.google.com/rss/articles/CBMiugFBVV95cUxPaFQxZHJqY2F4c2dkTlVSRlBGOHVEdTVGN3paeTZ3UkFubVh1NW4wd09kQl9QUDdSQ2FWaGlHcnozbkFuSUJYeFZ1RzZyaGp6Q09KUTQ3eGhXN0NsLVJkOHYyVHBES0FLb196U0tFbkNDUmdzRFlfc2VsMkRyWXNNNWNnb1dnRzRNTFBOYW9tZlFjSnBxSGdhcUVDUmVQdGZ1NVY3NnNDOWxSYzQ1dVM5bWdJVXNkTEd6ZHc?oc=5
+  5. 中高生ロボットチーム「Yabusame Technology」が Maker Faire Tokyo 2026 に出展します - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE4ybThMSXZXLVNfOWFDdGNSYUxKWWhoVjl6a2M4SW1zRW1vd3JQdk1BMHdPVXNuN0NUNl9fbU1xT1R4LURNdXZKcWFraThQZw?oc=5
+  6. 測るほどに見えなくなる—— 「数値化」 で失うもの - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiggFBVV95cUxQMWhBa2RVR25wTFFFQTV6bXJFSkkteW11RUNhT0c4Vk11QTNnXzQwM0w2WVFydjB3WEc3NThJTFZEamVJYlg3czU2UE1LNWdWcHpIVENLUkswSDdZZjFVZnJTRE9oZTJ1ZWlzWnI0eXlSTnJxWDF3bkJzMWJUSm9HbjlR?oc=5
+  7. 中高生ロボットチーム「Yabusame Technology」がMaker Faire Tokyo 2026 に出展します | チバテレ＋プラス - 千葉テレビ放送株式会社
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GTXowY2RjQ0d3eVJoRTJfZDNadzdaMzhZVjJ2dDd5LUxNZUhyaGZDV1NvYzFvQlUxZWpNMU92aUxXOF9wQ1psS1V1OHlFN1BKa1BjY19SdGRndmZ3aXA40gFkQVVfeXFMTXdyYmlfUGcyaXpVRWNZUkl6aldpYXR4QlRZYnM1X0dRa1MyWFVVdEEtLW1lczBVNDRQVUU1anF3MTY1SU9oeXNRQTh0YlNETEdaaGdHVGFfOTBvV3dZQVY3cnQ5Mw?oc=5
+  8. 【ベクター・ジャパン】Vector Embedded Technology Day 2026を開催 - ニコニコニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE82dVUzSGMwTDI4U2pwQVlrWFFZNG1hYU5LRGdKRXk5MHl1aklDbmQ0VFVMa2VQcEVaV090dTdGTGgxM1VFQW1BMjB2b0RiTUllanI5aFFNdDE3QUJmM2JSc1BNWnNUT0NvZ3ZHcXU2STNwLUJ2Y0Fla0VHNA?oc=5
+  9. DXC Collects $213,560,494.98 in Landmark IP Theft Case From TCS - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yc3dTV01oV2dQVmFoWVVLRk1WSlU1akNqRkpsdVFqMHJ3U1RETWhRaXBNWUV0QlhsemE3eGhmWW9idkZPc29NbkhBeGsteko3UlpvRFBXZmxKams?oc=5
+  10. Datasection、欧州最大級のテックイベント「Viva Technology 2026」に登壇 〜「次世代AIデバイス」を世界初公開〜 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5kOTJMYzhzNkdsVlhiM2gyYjRiZUxoUTIwTndaSm0wbmdheUUzaVNhOW5aM1RNdlZ3aUFPTmpwUG03MklKODNseWFCaU82Z3RfeG9CbldBcTlTQ19DRm1kcG14dE5HVHFkMGc?oc=5
+
+【Google News (Business)】
+  1. 若手管理職の3人に1人がバーンアウト 仕事量だけではない“燃え尽き”の要因：職場の課題（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE94bHpTZGZ5d3lKWGNOeHVwTkpLWE9QaXYxRXFQWlpOWkJrWkVCTkxOdDdUN1lESDBuemd6YlA0UTJTdmhxLVBKZVk2RVQtUElMME9QbDVnQW9RQmZ4aE1IZGxVWFhPTlFBRFl3enpKTXpiQQ?oc=5
+  2. 武田薬品ウェバーCEO退任 グローバル企業へ変革、目利き力に懸念も - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5YUndXRWFqaWg1ekRxVWtwY0R6bEQ5UG9rb2s4TXZvMnpYNTZDNktDUjlIeTdfVEtaVW8yNU5ESlk5ekgyUWJMR3ZhMF9JV3ZSaGFhaWFGSWszZHRLT2FYWVFWUC0wVnE0bGF6dw?oc=5
+  3. 6月28日放送のゲストはJERA西日本支社長の坂充貴さん【BUSINESS CRUISING】：ニュース - 中日BIZナビ
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VWlhOU3VoSWpUZkFYSW1RNnB5Z2VzU1pDTHVZQzhSQVZNNHdGdU9RU2lIUXc3SDFrcHBpRDZkRm5iUjZaMmVRd1FHTXVIaTJod2pSSjRsMjNhZ2JNZURF?oc=5
+  4. GOの次の戦略は自動運転ビジネスか…「オートテック カテゴリ別資金調達動向」・「TECHBLITZ厳選企業リスト」を公開 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1EZFJFdGJNRHhLbGRlMml5UkNEMG16bE5McnVON3BmZXRwTE00NGt0VVJwMEY0MmxjdnZOSlZnamVmLThFYXdjUG9hdmVUeFJmSGF1TVdwdG5vMVNpbUxBazJqTVBDanY5ZXZDTzhpRlJBdF83d185SUMzQ0FQTDDSAYQBQVVfeXFMUE02SE9PWEIyNlZwVDloalVSN3VLMVNNcDhvRHk5Z1hzZ1JJVVV0MjlNWHc4UUc5VkRwS3Rxb3d6WERTTjQyd3BFQUVKWHZhclFRSUViSWNCaTBfbHloemw3WWFpX3ZiQ182V3pQOVJmSTA3M0hWSUtzX1lrclVBUjRqUXBO?oc=5
+  5. ヤマハが新規事業開発部を新設、「プロイノベーター」の部門トップが指摘する「大企業が直面する壁」と突破の条件 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBZnJZc2pvelZWVHlDa2kyX2tpa0lOempsTTV4OHY1dk5rUjhCVUxEVm1iS0VSc25Pblo1SG45SFFRekdTSloybW9FV3V5cEI0SmhGcGZn?oc=5
+  6. AIトークンへの支出が人件費を上回った！ - Business Insider Japan
+     https://news.google.com/rss/articles/CBMingFBVV95cUxQTjk3THFual90MjJtQXBzMFUxYUlJNXBrZGx4c2pab2kyWHhWaVQ3UlVSbFYxeUs1OVdITXJPNjhSc09OVkxWbFAweXRpdkxwTjlxWFRscW1xbFpwN3lsVkU1LWpSREc0cTRTb0E2RXNwOFFqTHBaRXhPeGNCSUtDUm8wbTdmUGJsN29Vc0tvM3l1X0xUVEZrWHB0T0NGZw?oc=5
+  7. 「取引先の商号変更」 5割の企業が経験 「ポジティブ」約4割、事務負担や先行き不安視も - Manegy[マネジー]
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pQ1I4Sm4zdHZLVWc0ajEydjF4SUwwWWg0V1VFR0FTTzBUNzNIZmliUmdlTzRMZFEzUlMxMDJkRnU2amExai1pMF93Y3I3d3A3SWFj?oc=5
+  8. 【愛媛県松前町】学校形式で地域課題をビジネスとして議論する「MASAKI BIZ HACK SCHOOL」開催！ - ガジェット通信 GetNews
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPcnpBdW5pTXJfZDlhX2VRRnZjaUJ4T19LdFJldU9tR1AxSzUxLVByR0RJQVN6Zld3bXVuWGtGNllZSjcxT1hqcnVvNA?oc=5
+  9. FTTHの「次の市場」を拓く NTT東日本が国内初の25Gbpsサービス - ビジネスネットワーク
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PeEFYUnF3cW9YYkkxTzVFaFE2ZXltN3dVQ2Z2X29MbHBXMFhzNXp5bURSX1pJWmJEdnB4eWFyVzJzb2tSQWRhR016SndBMkkyTUVJ?oc=5
+  10. 10歳の息子と私は、自販機ビジネスを共同経営している。彼は厳しい教訓を学んでいるようだ（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFB3bjJnWmZBbkdfRnN3ZmpZQWtXTGl0dlhyU1htc2lzcFppLTdBQzJmd1duM3lsSklQS3Bub3NGSk5FYTlvWUJSLTBVdHA2V1MxNXZZdVZyMGxuQktMUzBaU3R2NWdEQzRjdm56V19SdXZTTVRJYVhpTUxzZC1kcHc?oc=5
+
+【Reddit / technology】
+  1. White House app auto-downloads to government phones, can't be uninstalled. “It’s shooting pure unadulterated propaganda into our veins,” says one worker.
+     https://www.reddit.com/r/technology/comments/1uedu5i/white_house_app_autodownloads_to_government/
+  2. Meta gave 6 executives options worth up to $921M each, then cut 8,000 jobs after a record $56.3B quarter
+     https://www.reddit.com/r/technology/comments/1uehchb/meta_gave_6_executives_options_worth_up_to_921m/
+  3. Software engineers are facing an 'identity crisis bordering on depression,' Menlo Ventures partner says
+     https://www.reddit.com/r/technology/comments/1ueidyv/software_engineers_are_facing_an_identity_crisis/
+  4. A24 Fans Mourn Its Death Following $75 Million Google AI Deal
+     https://www.reddit.com/r/technology/comments/1uegcx5/a24_fans_mourn_its_death_following_75_million/
+  5. Tech companies would have to pay AI data center energy costs under bill moving in Congress
+     https://www.reddit.com/r/technology/comments/1ueqovv/tech_companies_would_have_to_pay_ai_data_center/
+  6. SpaceX’s stock slide costs founder his trillionaire title
+     https://www.reddit.com/r/technology/comments/1uehs2g/spacexs_stock_slide_costs_founder_his/
+  7. Reid Hoffman: xAI Is a Train Wreck and SpaceX Is Just Buying Its AI Cred
+     https://www.reddit.com/r/technology/comments/1uer54l/reid_hoffman_xai_is_a_train_wreck_and_spacex_is/
+  8. Nvidia liquid cooling design claims 100% reduction in water use
+     https://www.reddit.com/r/technology/comments/1ueb115/nvidia_liquid_cooling_design_claims_100_reduction/
+  9. Meta cut 8,000 jobs after its best quarter ever — months earlier, 6 executives got options worth up to $921 million each
+     https://www.reddit.com/r/technology/comments/1uejnjg/meta_cut_8000_jobs_after_its_best_quarter_ever/
+  10. ‘You can’t make billions without hurting people’ — Cory Doctorow on the trillionaire, the AI bubble, and bosses’ cruel fantasies
+     https://www.reddit.com/r/technology/comments/1ueg9iv/you_cant_make_billions_without_hurting_people/
+
+【Reddit / business】
+  （取得できませんでした）
