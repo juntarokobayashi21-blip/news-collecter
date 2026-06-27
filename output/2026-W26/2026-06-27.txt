@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-27
+============================================================
+
+【Hacker News】
+  1. Previewing GPT‑5.6 Sol: a next-generation model
+     https://openai.com/index/previewing-gpt-5-6-sol/
+  2. A C++ implementation of a fast hash map and hash set using hopscotch hashing
+     https://github.com/Tessil/hopscotch-map
+  3. US allows Anthropic to release Mythos to 'trusted partners'
+     https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/
+  4. U.S. government will decide who gets to use GPT-5.6
+     https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/
+  5. The gap between open weights LLMs and closed source LLMs
+     https://blog.doubleword.ai/frontier-os-llm
+  6. MicroVMs: Run isolated sandboxes with full lifecycle control
+     https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
+  7. We can still stop California's 3D printer surveillance scheme
+     https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme
+  8. A Tiny Compiler for Data-Parallel Kernels
+     https://healeycodes.com/a-tiny-compiler-for-data-parallel-kernels
+  9. The "Bizarre Headgear" exhibit at the Sam Noble museum
+     https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/
+  10. Why does kinetic energy increase quadratically, not linearly, with speed? (2011)
+     https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed
+
+【Zenn】
+  1. Kaggleコンペ紹介：NVIDIA Nemotron Model Reasoning Challenge
+     https://zenn.dev/mkj/articles/3a4d70ac4e8fb4
+  2. AWS Summit Japan 2026 GameDay参戦レポ：データサイエンティストが当日滑り込みで銅メダルを獲得するまで
+     https://zenn.dev/gatechnologies/articles/aws-summit2026-gameday
+  3. マイクラを声で動かそうとしたら令和の「ピカチュウげんきでちゅう」になった話
+     https://zenn.dev/m2lab/articles/koe-craft-agent-amivoice
+  4. Astro 7 移行で main マージしても本番が更新されない。Cloudflare Pages から Workers Builds へ
+     https://zenn.dev/redamoon/articles/article47-astro7-cloudflare-workers-migration
+  5. 【AWS Summit Japan 2026】 1日目参加レポート
+     https://zenn.dev/yukorido/articles/23befd1166c0a5
+  6. 【Claude Code × OpenTelemetry】Splunk でエージェント・スキル・モデル別にコストを確認する方法
+     https://zenn.dev/yukurash/articles/19ece516497d40
+  7. プログラムの純粋性について考える —— Clojure/Haskellとともに
+     https://zenn.dev/studist/articles/program-purity-clojure-haskell
+  8. Gemini を Claude の「サブエージェント」に —— 大規模開発でコストを実測
+     https://zenn.dev/google_cloud_jp/articles/63205d90345627
+  9. LLMが書いた「正しそうな言葉」に感じる違和感
+     https://zenn.dev/mkj/articles/40a6c187d2dbc9
+  10. AI 時代だからこそコードを読もう
+     https://zenn.dev/layerx/articles/6f510abfc3fa72
+
+【Qiita】
+  1. 「言った・言わない」を防ぐ。要件定義で使うべき質問の技術
+     https://qiita.com/prum_hitomi/items/d06e7479122150ee0ad9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 勉強が続かないのは、あなたの意志が弱いからじゃない。
+     https://qiita.com/hitomin_poke/items/7a69883e9e70fc5ad853?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 読み方を間違えがちなエンジニア用語集 ~ 会議で恥ずかしい思いをしないために ~
+     https://qiita.com/n-isd/items/46eeee2dbc282cb16e2f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. AWSの"俯瞰"構成図を自動生成する ── 見やすさを機械チェックしながら量産した話
+     https://qiita.com/ntaka329/items/d457f309e33c4602a693?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. AIエージェントを“セキュリティのプロ”に変える817個のスキル集 — Claude Code / Codex / Cursor / Copilot対応OSSを読み解く
+     https://qiita.com/nogataka/items/8f99cc6fc97541a14b76?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 正直に言う。お前のClaude Codeの使い方は間違っている
+     https://qiita.com/tehito/items/356e5f1dba112a075be1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. ティックデータから推定するOrder Imbalanceの性質
+     https://qiita.com/newleaf/items/9f0b7adc57b99a998879?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 油絵から学んだ、デザイン・コード・働き方に共通する「余白理論」
+     https://qiita.com/Minotaurasu/items/7ac59c9034cac5e9e935?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 「マネコン開いてどないしたらええんや…？」から半年。2026 Japan AWS Jr.Championに選出されるまで
+     https://qiita.com/usanchuu/items/a3d907841022e0555813?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【Frontend CSS – パート14】Style Query・Container Naming・実践パターンまで徹底解説
+     https://qiita.com/tuanphan/items/5179c23d9b5a25ceeb2f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 6月26日のSeagate Technology Holdings PLC (STX) 値動きは10.80%下落：値動きの背後にある事実 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxPYUZBM0hqYTZJUV9hVWkwb29GeUxQQUhjaEhNMGVYVkkya0gwWVlMdWFyOVJwbTB3YjIzcTVqUTQ5c3J3VUhJcnJTaU9obTNsSnZpVEpxUDBEcm5BSU5GOWYwWUFRWGRUOWpRVjlMUUFMZFNSQ09EalV1cmNzdEJMV0Z1R1hycGRVek90LW53?oc=5
+  2. ルクセンブルクのOQ Technology、LEO衛星経由でドローン映像の伝送に成功 欧州初 - spacemedia.jp
+     https://news.google.com/rss/articles/CBMiR0FVX3lxTFA5UmJFNERGcGRPTzlPdU4wdDg3aURzUEJtdU44MUVOMWRmQU5Zdm1yODFXUkk3TEV2SUYzUncwVW5aM3A0cDVr?oc=5
+  3. Figure TechnologyのCFO、Kgil Minchungが約11万ドル相当の株式を売却 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE51SWZSZDBydVYwdDc5M0d6VmR1OXNmWFhoT3dXcjV6YzllZUtENlNrRERvS2JuTHp4eVU2WE5ZMEpib1hLa0F2cnNBbFF4M1VGTEpORkFYaGJyMVZ3bmhTVHlFck9KTWJKQ1RhLWtfX1hoTDRzZ0Z1UFBjbw?oc=5
+  4. monoAI technology、企業向けAI人材育成研修『AIブートキャンプ』の本格展開を開始。助成金最大75％活用可能、実務に直結したAI活用を支援。 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9XRjdOTUhFZnJTLXNjUk8yeEMtWC1yWGxwNnViSTJRSmplbkhqYU5XMHpXX2xhM0ZiWXFrM1Y1dzd1X1BsSWdmMlBXMkVRMDhnYlVGdzB4NkhrWk5PMUJnRk9Ca0RHUXctTlE?oc=5
+  5. ピクセラ[6731]：Selepu Technology Limitedとの戦略的テクノロジー協業に関する基本合意書（MOU）締結のお知らせ 2026年6月25日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5BRDB0N0F5V2JwUXNrT1BzelpFOFpGaU95STluUlA2NU5IOFJObmw4RU4yZUZISy1JU0FZdHd1WmNsOERFU3dLYXJqck0tQUNNVFFqUV9LTl9VREFKcS0xOW1YUm9FdHNsSnc?oc=5
+  6. ピクセラ、香港Selepu Technology社と ブレインテック領域で戦略的協業 - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKeWdiWkZnLTNTdVN5NjZSdEIycDk0aVhkSE4wMnFDb0N0eU5VTkJUb2ttdV9Sc2luYmNvc216SE5QU1BkQVc3cFdvemw2Zw?oc=5
+  7. AI時代における企業変革の指針を示すDynamic transformationを核に「Fujitsu Technology and Service Vision 2026」を策定 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NOEUtdVVBU1FxTmtqQXppVlRaZHZoeHBSNWtDNHhoRERnbk4xd1Z6dTBtc003dFp2cm1SVjk1YUVqangxSlV2Q3lmYTBLcFdnZ0VNZFJXRmN2S2N3bGZz?oc=5
+  8. Spacewalker Technology Japan MOVA S70 Rollerロボット掃除機を検証レビュー！ロボット掃除機の選び方も紹介 - マイベスト
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ESldMU05hcm1Sb2dXcFMya3JlNTlSMnFqdFhvMExOdzJFcmhJeUFJenExU2VldDFkLTdHYS1CN2QtSjdBVElROFNSN2xRdw?oc=5
+  9. テクノ・ネガティブ──テクノロジー廃絶主義の思想を読む - WIRED.jp
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE1TUmY5ZW1UdnZFVGVFakZEcDZwTDhmUWMwampNcXJyRW53cEZxc2FjOEdtRGRRTzVVYTF1Q3piREFhbFZmN2kwVmxGclJ2cXJ2Uy1DUkd5UUxucG81dS0tdm9udzhGdUc1SmRXcVBlSlFTbkhhOEE?oc=5
+  10. IMO、Shanghai Qiyao Technology Group Co., Ltd.の提案を承認し、海運業界は船上での炭素鉱化処理の実現に一歩接近 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xVk5rNDQzVEJnanM3c3ctRUhlaEdIN3Jmd1RuZm5wZEV4VmJmaXZDQ05aYUlUS1ZHVFFldjFUU0JKUDBUaDRBbGVidHQ0UlduWG8yTEJoZW13MUE?oc=5
+
+【Google News (Business)】
+  1. 日本代表が戦うスタジアムの屋根、手がけたのは日本企業…W杯4会場で採用、創業100年超え企業が作る「1mmの屋根」の正体【北中米ワールドカップ2026】 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMilgFBVV95cUxOMTBobFdKWFFvNm5oMElGNFYwZy15X180Wm56OVZfSDl0Z2RPZ3dVWGpEbTVON2V1WnJ6dUZaSW5HTm5qTGpTdm1oYUl1WUpVR2ZEYWhCeHFmbGs2MXJfTGkzWFdTUVRtVTRlWWhzOHUxOFczRzhTOW5tOTNIbldNVWV1Z1o4S0prcmkxWXp3cWNfMTlNNWc?oc=5
+  2. 藤井聡太が語った「強くなる秘訣」全ビジネスマン必読レベルで参考になる…！ - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVZ3B1OFZKNUg0MVpVT3h6eXgzSTAzZjZ4aWRUOGZfT3FBY0dYVENkVm04N01JWDFBWXM5NnNWNEh4bWRDb2lMdTFiV2HSAU9BVV95cUxQZ0doUUFPNE5GeXhjLVVvcS0tNGt6TFU5dmNnMzRiMU1rN2lYUzk4LW9ETEtYMERNYk9iRlByb0R0SVluR280clB2Y2VfSXk0?oc=5
+  3. 各分野で活躍するAIカンファレンス登壇者を一挙公開！7月16日(木)17日(金)NEXT BUSINESS EXPOで社内のAI/DX変革 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9OTEdUaTViZWVUWjBhSlJXeDY5eW0tVHd4TnBMVVBxX2VPN1dxekdxRjFRX0JDYzdPWGkzdUUzNmcwbXJJSzlpb2RndGFnTDZFLVpRSUt5dFNCWmFYQndTVEpOVlJHMWxGUXc?oc=5
+  4. 野村総合研究所・柳澤花芽社長「DXからAI変革企業に進化」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE13NDRka3FFVUtRcnBNRGE5ZXljVVItczJ2OHE2LTdOeWdrYlQ3TE1DSE1mYV9FOVAwUVpsYUpadm16ZThFVXpKdzdocF9SbTNMU25LTkh0cWFuTzFvbHhJcU9B?oc=5
+  5. 国産に続き、海外企業製も「JC-STAR」認証が増える - ニュース - メガソーラービジネス plus - 日経BP
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9WODZ6UmhGU3pDSkRtdnpPTG9TcElQZzc5RHJEX0pZOWhKR1BreXBNdHU4ZnZmVEs4MU1vejI3UmEzMnRhU2hWOFlHYlNKejBBT0FMTVhwYnJBZWNVQ1ZCd3hVNnhYMmswdnFCbk00TkNfQUYx?oc=5
+  6. フィード・ワン Research Memo（3）：大規模インフラと研究開発型メーカーを融合したビジネスモデル（1） - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxQcUxxblptNjhVN1V4VkpJRjU1bUJKRVhqZFZ1WXN4aDJlakhSOFlITjZrT0xYUzJjaFlmSldkcVRBaWpTVy0xYnpneVRDOTJQY2V2SFctN1ZkZXRnXzhQc2JhQUY3RzhsQVllNFRYNDFIdGtvTlB3LXFhQUtnejI1cGdrb05FcWfSAYwBQVVfeXFMT2M4YXlBcDdxaVJ0YjY3Q2tDbDVfNmdSVk1kMUtYLXBoWmp1U0g4dHBJWjNsV29XYVJSYTd0ZmxsSEViejlXQUo0c0xmamVMbmpxOC1lNWdKM2FSSXV0bjk4WnRIVjhBbnI2MFZpQ3RvLTN0cHRYTS1Rc3Y0SUtCV3pPd3BfM1k0azdqc3k?oc=5
+  7. 中小企業の約半数、ITツール導入で「かえって不効率」に 成否の分岐点は？ - ITmedia
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE1uczVZRlRtZXNaVVUxYXQ5bEx6NE1Mb3U2Tkp0cTRjTmpaVkNveS05V2ZsTWs2MTFkQW1wMUEtS0p0WjVoSkxPeHZKekkwb0hRZm82cl9mS1pJLVlfTEpULTNuV2pvMWFsTkNqRlpCYThONm43?oc=5
+  8. ヤマハが新規事業開発部を新設、「プロイノベーター」の部門トップが指摘する「大企業が直面する壁」と突破の条件 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBZnJZc2pvelZWVHlDa2kyX2tpa0lOempsTTV4OHY1dk5rUjhCVUxEVm1iS0VSc25Pblo1SG45SFFRekdTSloybW9FV3V5cEI0SmhGcGZn?oc=5
+  9. パートナービジネスの本質は「人を動かす」こと。取引が伸びる担当者の共通行動を才流の調査から紐解く (1/3)：saleszine - MarkeZine
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UdVd2ZlVmd2FQOGRhUHZIaEdwYlpFSE94QTl6ODBwODZLaXNzSmx1RnlmVUttUmdudTZOdUYzbnVIcXZHQVBNUGpSQmx5RVBvZWhZ?oc=5
+  10. 【半導体ビジネスを解剖】収益の源泉、投資効率のリアルとは？ - マネクリ
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mZmd1VUxOVVhVN19LV1B5UzgxRnBaMENrNTlWY2lpNW9GOHM2RHdEd3poOUlBTWd1bm0zYU5rMktMN1FMUm5uUEVIQnFrRkt0dFRqS9IBV0FVX3lxTE1IUHhOU1U2Q3BGb09QMy0tS09Rd2lSWDUxVV9LdGJVeHZzSktNY29IV2YtRzRFU0t4bUxyY0Njb0ZhVk5jUElFeFZBRVMwRmltTlozQ253dw?oc=5
+
+【Reddit / technology】
+  1. PlayStation is Deleting 551 Movies From Customers’ Accounts, Reminding Us Nothing Digital is Ever Truly Ours
+     https://www.reddit.com/r/technology/comments/1ugfjmc/playstation_is_deleting_551_movies_from_customers/
+  2. The AI backlash is only getting started
+     https://www.reddit.com/r/technology/comments/1ug4lut/the_ai_backlash_is_only_getting_started/
+  3. Mark Cuban gets dragged after saying people don't really hate data centers — “The fight against data centers has nothing to do with data centers. They have become a proxy for the hate towards AI”
+     https://www.reddit.com/r/technology/comments/1ugfx7m/mark_cuban_gets_dragged_after_saying_people_dont/
+  4. Netflix now requires every user profile to be tied to unique email address
+     https://www.reddit.com/r/technology/comments/1ugexxj/netflix_now_requires_every_user_profile_to_be/
+  5. The ‘papers, please’ era of the internet will decimate your privacy. Americans, be warned: Age verification is identity verification.
+     https://www.reddit.com/r/technology/comments/1ugbdje/the_papers_please_era_of_the_internet_will/
+  6. Anthropic says Alibaba must be punished for largest Claude cloning attack
+     https://www.reddit.com/r/technology/comments/1ug6qbs/anthropic_says_alibaba_must_be_punished_for/
+  7. ‘No evidence’: Kevin O’Leary walks back claims that data center opposition is funded by China
+     https://www.reddit.com/r/technology/comments/1ug7skn/no_evidence_kevin_oleary_walks_back_claims_that/
+  8. Wikipedia co-founder is permanently banned from editing the website
+     https://www.reddit.com/r/technology/comments/1ug66jc/wikipedia_cofounder_is_permanently_banned_from/
+  9. Anthropic hires economist with interesting views on human survival — “It is optimal to take a 1 in 3 chance of ending human existence in exchange for a 2/3 chance of dramatically raising living standards by a factor of 55”: Chad Jones
+     https://www.reddit.com/r/technology/comments/1ug543j/anthropic_hires_economist_with_interesting_views/
+  10. Ocasio-Cortez and Sanders introduce AI Data Center Moratorium Act
+     https://www.reddit.com/r/technology/comments/1ug47yl/ocasiocortez_and_sanders_introduce_ai_data_center/
+
+【Reddit / business】
+  （取得できませんでした）
