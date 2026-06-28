@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-06-28
+============================================================
+
+【Hacker News】
+  1. IP Crawl: Living atlas of open webcams discovered on the public internet
+     https://ipcrawl.com/
+  2. Anonymous GitHub account mass-dropping undisclosed 0-days
+     https://github.com/bikini/exploitarium
+  3. OpenRA
+     https://www.openra.net/
+  4. DSpark: Speculative decoding accelerates LLM inference [pdf]
+     https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf
+  5. Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work
+     https://github.com/kageroumado/adrafinil
+  6. AI learns the “dark art” of RFIC design
+     https://spectrum.ieee.org/ai-radio-chip-design
+  7. Enhancing X11 Application Security with LXC
+     https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/
+  8. Fintech Engineering Handbook
+     https://w.pitula.me/fintech-engineering-handbook/
+  9. Choosing a Public DNS Resolver
+     https://evilbit.de/dns-resolver-guide.html
+  10. Turn your site into a place people can bump into each other
+     https://cauenapier.com/blog/townsquare_release/
+
+【Zenn】
+  1. Spring Boot で Claude API 呼び出しを OpenTelemetry で計測する
+     https://zenn.dev/propagandist/articles/0004-spring-boot-otel-claude-observability
+  2. デュアルブート備忘録
+     https://zenn.dev/qnighy/articles/09136afbf27bf3
+  3. コードを書かずに、MulmoClaude で note 記事をアニメーション付き動画にする
+     https://zenn.dev/singularity/articles/2026-06-26-mulmoclaude-html-tailwind-animation
+  4. Windows EC2のWindows Update失敗から再構築を決めるまで
+     https://zenn.dev/yamadatt/articles/20260627-windows-ec2-update-rebuild
+  5. 明日から始める、コーディングエージェント時代のフルスタック開発 — AWS Blocks のソースコードを読む
+     https://zenn.dev/aws_japan/articles/aws-blocks-source-reading
+  6. AWS Summit Japan 2026 6/25 基調講演＋セッションまとめ①
+     https://zenn.dev/mortrainer/articles/6d6ad63b8501a7
+  7. 会議中に Claude が“次に聞くべきこと”を提案してくれる議事録アプリを作った
+     https://zenn.dev/uguisu_blog/articles/d777bd252bab6b
+  8. Generative UIにJSONは最適なのか？ OpenUIという選択肢
+     https://zenn.dev/sc30gsw/articles/d7320f1247b785
+  9. シニアエンジニアがコードをほぼ書かなくなった理由
+     https://zenn.dev/acntechjp/articles/22f7b6f9258008
+  10. ViteのresolveIdで特定環境のビルドだけ不要モジュールをstub化してバンドル軽量化
+     https://zenn.dev/dress_code/articles/78667afa7c4fd9
+
+【Qiita】
+  1. 正直に言う。お前のClaude Codeの使い方は間違っている
+     https://qiita.com/tehito/items/356e5f1dba112a075be1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 勉強が続かないのは、あなたの意志が弱いからじゃない。
+     https://qiita.com/hitomin_poke/items/7a69883e9e70fc5ad853?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 読み方を間違えがちなエンジニア用語集 ~ 会議で恥ずかしい思いをしないために ~
+     https://qiita.com/n-isd/items/46eeee2dbc282cb16e2f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 【M365 Copilot】自由にツールを使えない現場で始めるちょいRPA
+     https://qiita.com/yuyanz/items/5c96232d188ecfb2544b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 私がループエンジニアリングにあまり興味がない理由
+     https://qiita.com/magicant/items/77361a0b1694ba629bec?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AWS Summit 2026  Builder Community セッション資料まとめ
+     https://qiita.com/tetutetu214/items/2af4f788bd0d1963eec7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AIエージェントを“セキュリティのプロ”に変える817個のスキル集 — Claude Code / Codex / Cursor / Copilot対応OSSを読み解く
+     https://qiita.com/nogataka/items/8f99cc6fc97541a14b76?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 10ヶ月停滞した大学生が、ある日突然黄色perfを出して入水しました
+     https://qiita.com/TrueRyoB/items/124d3d9d494b17a7c263?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【AWS】DevOpsAgentでレビューを自動化する【DevOpsAgent】
+     https://qiita.com/Nana_777/items/31ef1d637150409a1990?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. AIエージェントを実装して気づいた「ガードレールを敷ける設計力」の重要性
+     https://qiita.com/ryuichi000persol/items/27789cbca88bd4bf11e0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. AI時代における企業変革の指針を示すDynamic transformationを核に「Fujitsu Technology and Service Vision 2026」を策定 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NOEUtdVVBU1FxTmtqQXppVlRaZHZoeHBSNWtDNHhoRERnbk4xd1Z6dTBtc003dFp2cm1SVjk1YUVqangxSlV2Q3lmYTBLcFdnZ0VNZFJXRmN2S2N3bGZz?oc=5
+  2. ピクセラ[6731]：Selepu Technology Limitedとの戦略的テクノロジー協業に関する基本合意書（MOU）締結のお知らせ 2026年6月25日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5BRDB0N0F5V2JwUXNrT1BzelpFOFpGaU95STluUlA2NU5IOFJObmw4RU4yZUZISy1JU0FZdHd1WmNsOERFU3dLYXJqck0tQUNNVFFqUV9LTl9VREFKcS0xOW1YUm9FdHNsSnc?oc=5
+  3. 『鳴潮』アップデートVer.3.5「遺志を紡ぐは剣、夢に響くは歌」、7月10日より配信開始！ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5sdGNYblZlRUVSVlRYaFVJb1R1ckdZYjZ3NXM5My14ZElKakFlc3hOUkRkby10LXFpc05ERTE3cGpOaXEzVFlTbW5vNXVLLW16Q2NiVjZlZHIyZlZWbjVkTFlNYm96UnBKd1E?oc=5
+  4. テクノ・ネガティブ──テクノロジー廃絶主義の思想を読む - WIRED.jp
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE1TUmY5ZW1UdnZFVGVFakZEcDZwTDhmUWMwampNcXJyRW53cEZxc2FjOEdtRGRRTzVVYTF1Q3piREFhbFZmN2kwVmxGclJ2cXJ2Uy1DUkd5UUxucG81dS0tdm9udzhGdUc1SmRXcVBlSlFTbkhhOEE?oc=5
+  5. ピクセラ、香港Selepu Technology社と ブレインテック領域で戦略的協業 - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKeWdiWkZnLTNTdVN5NjZSdEIycDk0aVhkSE4wMnFDb0N0eU5VTkJUb2ttdV9Sc2luYmNvc216SE5QU1BkQVc3cFdvemw2Zw?oc=5
+  6. $マイクロン・テクノロジー (MU.US)$$サンディスク (SNDK.US)$ 中国市場 [めまい] - Moomoo
+     https://news.google.com/rss/articles/CBMirgFBVV95cUxNRjRhTlNmOWo4NEJSdXQ5bXBpOGRrQ3AzRXlnR0txRlNCcTlmbDlHSm5oMlJFeEVDSGliMDZBWWUwQ0Z0QlpnMG5mT095dl9TdnBaUGRrVXR3dG9zYU54LVRNNk5sRktuWk52TmQ5SS1kMlRURW1tOFFILVlyUlQydl82RHM2elI2RjMyenBMR0VkMHR3UVJKd29rYXJLUjFLRjVfeGpjMnd1dDk4YlE?oc=5
+  7. ブラックスカイ・テクノロジー【BKSY】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zSkdObWdyemtMMkNFLVF4MXdhbGJEZWFHWkJkMFpCNjZoTkozTUwwZFNMRkhlcmlpQVM3eVI2Tmp1OUdRbWpvdzhYNl9QWms?oc=5
+  8. 電気系工学専攻 御手洗 勇輝さん（D1）が IEEE Symposium on VLSI Technology & Circuit best student paper Nominee を受賞されました - t.u-tokyo.ac.jp
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SMFF4OE1UTUhnTloxQk9NMV9KT1NvUWVZRHI4c2FNLUIzUWtaelRSWmwwam5Zak5Pd3hkSkpMMWpPa1lpZElmdlNzX284bFdpY3Q3REhoVU4waEJtNnJYLdIBcEFVX3lxTE1kbkJONFYta3pVRzdOU1NhSE44YTE2ajBIRDZtVWVNME5nd0dRc0VpSkJIUFBKMFJhQ0VFZ1Q0X3FHM3ZJUUE4MzQtczNwVUpVYlByWjBhcDdtLTk4VU92Ry1xS2JxQlY2bl9hcDlOeTA?oc=5
+  9. WIPO GREEN Technology Forum 2026 - WIPO - World Intellectual Property Organization
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVpJeG9ZbDhEQndBdHpxZ1FwVlc3anVmcHJqaEEyZEJWRDZMVy1YWlpMYzlOWHR6OV9PNXE0SW02SGg1T3RBZHJkYmhVb0JfZmFRTGhpTVAxVURYY09aMHJaSGM4NUtlRmN0amk4ZFdGNkVPYW5oR0lqRE1IOWJzNEZRZWRwUXJZQkw4M1YwSQ?oc=5
+  10. Scaling an MSP in 2026: Why Sales, Technology, and Marketing Must Move Together - Sophos
+     https://news.google.com/rss/articles/CBMiugFBVV95cUxPaFQxZHJqY2F4c2dkTlVSRlBGOHVEdTVGN3paeTZ3UkFubVh1NW4wd09kQl9QUDdSQ2FWaGlHcnozbkFuSUJYeFZ1RzZyaGp6Q09KUTQ3eGhXN0NsLVJkOHYyVHBES0FLb196U0tFbkNDUmdzRFlfc2VsMkRyWXNNNWNnb1dnRzRNTFBOYW9tZlFjSnBxSGdhcUVDUmVQdGZ1NVY3NnNDOWxSYzQ1dVM5bWdJVXNkTEd6ZHc?oc=5
+
+【Google News (Business)】
+  1. 稼げる中小企業へ再編促進　経産省、M＆A仲介国家資格創設 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWpfcHZtdFNpN0hzNzB0NExIWC1iTXRRY1B0N00td3UtaklMWm1TLTd1cmZiSG9qY0lUa21EUFpFYjNZTmxNWXE2bWl4VmNsYnpvYXpsTWpYZElQVUtOeFVTcmpVTFBmWHBZTUZ6Q1lQUV9od1hZQzJsc3lSZE01WHFyck14ZGlOLXU1MklR0gGTAUFVX3lxTE5SZVFyb2NxcVE2RXVyVlg2Rm1xNllyNGdKeWhVbUViVGZEb01DNVdxc1NrNXdXTFpNdF9nX1RmaFluTl9rUC1acEpUT3VrSXNOUzB0cTFYS0k5bFBJci1BaHdzQzZra2h0dXNuZGxZQ21fR3pwWlk3ZWZGVGpidHQ5dmlXbjQzTmpYTUVMSzRwOEc4aw?oc=5
+  2. Amazonビジネス連携で1.1兆円の間接材購買にメスパナソニックグループがDXで挑む間接材調達改革 - ps.nikkei.com
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BaUlNTnRubWphczJjeGJ3dnY5VFprdWY4em5MWWw5amNfY3Rkd0NiNjZhVW54bDZmUC1JYUVScFdGaTdhWjVxRnRRRUh1eTl6R3lGQ2ZaandoTEhwUUZ5cw?oc=5
+  3. 藤井聡太が語った「強くなる秘訣」全ビジネスマン必読レベルで参考になる…！ - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVZ3B1OFZKNUg0MVpVT3h6eXgzSTAzZjZ4aWRUOGZfT3FBY0dYVENkVm04N01JWDFBWXM5NnNWNEh4bWRDb2lMdTFiV2HSAU9BVV95cUxQZ0doUUFPNE5GeXhjLVVvcS0tNGt6TFU5dmNnMzRiMU1rN2lYUzk4LW9ETEtYMERNYk9iRlByb0R0SVluR280clB2Y2VfSXk0?oc=5
+  4. Gensparkが7月に大規模アップデートを予告。累計1000億円調達のAI新興企業が日韓市場を狙うワケ - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE0xeGlrVjlxTVJsSGpZenhFZjJzbjYyNEJrZHktczFjcVRLNFBGMUtCMXBfbnNHSU5SY2djQ0VDZ2lfWlVJeHFDV3FLeDV1bExiYUVsaFAydDNFUmJjQ3pQNk5IdGRGcktxS3EtRTNXOU5DYmFRc3lZeFpmM0o4REU?oc=5
+  5. サントリーはなぜ「飲み方」を教えるのか 5万人超が受講したセミナー、人気のワケは？（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1kZ29NcTdvZFNFRzhqdHVxc2ZfdGZiclNpbEF1aklFbi1mR0UyRUJ5elZrUnhXbXRUeGlmMF96SnRBblhlVTV5MUFfVTg5bXliY0lkZkEwenJjUmFsVU5jWjVvUkZ3VS1HMTdGVHV2UUZjUQ?oc=5
+  6. 変革進める米陸軍、「兵器同士で通信」技術の構築急ぐ…ウクライナに触発され、防衛企業と協力 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxPREUyLWFnUm50ajlIRDRILXVDY3VnSTZTQ1hVXy1QeDNFbmJOODcwb2YtdDNzQm52YXljYU1yeWstRktKQ015RzFMZDg2YlFHNkotWXI0Q0lGS3U4NDdSZUR3Z3R0bWRLNHRyZDhTSkhsWEJXSjR3eVl6Tk5ybko1TVJIanlqU2RkQ0FyaGw4VVlDVFlPQnNQbm1MTHlucFBXSEE?oc=5
+  7. 「航空宇宙産業」強化へ協議会設立 福島県、ビジネスマッチングの機会創出:福島ニュース - 福島民友新聞社
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oN2Vyc0RhaVRIVDBXWUpCUFFxNWNtU3RpQTNzTVpqYTZZd0MyZXZfVnVXSHNwV09sU3Vwd1VPY0p5OXNUNWVMTmFNVjVuRy1qQXBPWmxtd0g5R3U0YTI1cG9MMVpreFh4?oc=5
+  8. 各分野で活躍するAIカンファレンス登壇者を一挙公開！7月16日(木)17日(金)NEXT BUSINESS EXPOで社内のAI/DX変革 - RBB TODAY
+     https://news.google.com/rss/articles/CBMieEFVX3lxTFBBUHQ1SDY1UGFlOXh5elNjd3pOVmkwQ0poRTIxZzhYM240ZU51azVYRkthRFZNa2NVUEhkak1oaTNNVERSR1ZuWFJ0N0lHYkZsRFVpR0ZPRkFZMnZTNlVwRTBhMlNHY2hXcjRfWGpRNjZkZ1I3amVqeA?oc=5
+  9. スポーツファンの熱量をビジネス成果へ。 DAZNと拓く新たなスポーツマーケティング - 電通報
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkTlU1NFhvcjNDX2dUai0yS3V1UXdSY0hMWTNWSTlNMXZCRUIyalVUZVFSZXBSOUlORVNpbUhkQ2FDNzl0Mnd0eU12bw?oc=5
+  10. 事業継続計画（BCP）に対する企業の意識調査（2026年） - tdb.co.jp
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aR1pRaTdFR0RDRnFULWsxRmh6ZmRaeHd3QjNlbHo1LUxjcjdMd3FPZmpmc3F0QmtHV0xhS2FMTzUxeHJ4V19rNEZ5dHdraUh3SDFNWFB0UGMyeHFsTTh3VFZBQ1hUUQ?oc=5
+
+【Reddit / technology】
+  1. Grok is more important than clean air, DOJ says
+     https://www.reddit.com/r/technology/comments/1uh6i69/grok_is_more_important_than_clean_air_doj_says/
+  2. Scientists found a cannabis compound that relieves pain without the high
+     https://www.reddit.com/r/technology/comments/1uh1pky/scientists_found_a_cannabis_compound_that/
+  3. Anthropic and OpenAI waged a $27 million proxy war in a Manhattan congressional race. The winner told them both to get lost.
+     https://www.reddit.com/r/technology/comments/1uhf8xb/anthropic_and_openai_waged_a_27_million_proxy_war/
+  4. Mark Zuckerberg Is Selflessly Building Yet Another Horrible Product Nobody Asked For
+     https://www.reddit.com/r/technology/comments/1uh868l/mark_zuckerberg_is_selflessly_building_yet/
+  5. Lenovo Warns PC RAM Prices Will "Never" Go Back to Normal
+     https://www.reddit.com/r/technology/comments/1uh5qcy/lenovo_warns_pc_ram_prices_will_never_go_back_to/
+  6. AI companies are learning an ironic lesson as the people they pay to improve their chatbots are just feeding AI slop into them
+     https://www.reddit.com/r/technology/comments/1uh8kj7/ai_companies_are_learning_an_ironic_lesson_as_the/
+  7. Ford Asked AI To Build Better Cars, Then Rehired Humans To Fix What AI Broke
+     https://www.reddit.com/r/technology/comments/1uha7tx/ford_asked_ai_to_build_better_cars_then_rehired/
+  8. Waterloo City Hall abandons X. Says the platform is 'not a welcoming space'
+     https://www.reddit.com/r/technology/comments/1uhblcf/waterloo_city_hall_abandons_x_says_the_platform/
+  9. AI is creating America’s next underclass
+     https://www.reddit.com/r/technology/comments/1uhc7sa/ai_is_creating_americas_next_underclass/
+  10. 'It's not going away': The Stanford economist who called the AI entry-level jobs crisis early has the receipts
+     https://www.reddit.com/r/technology/comments/1uh79qd/its_not_going_away_the_stanford_economist_who/
+
+【Reddit / business】
+  （取得できませんでした）
