@@ -1,0 +1,100 @@
+============================================================
+  トレンドニュース - 2026-07-05
+============================================================
+
+【Hacker News】
+  1. Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable
+     https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main
+  2. GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance
+     https://github.com/openai/codex/issues/30364
+  3. Google Books (or similar) all book scans – $200k bounty (2025)
+     https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234
+  4. Leaking YouTube creators' private videos
+     https://javoriuski.com/post/youtube
+  5. Better Models: Worse Tools
+     https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/
+  6. Scientists reverse brain aging, with a nasal spray
+     https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/
+  7. Potential session/cache leakage between workspace instances or consumer accounts
+     https://github.com/anthropics/claude-code/issues/74066
+  8. Verizon is About to Break our Watches
+     https://www.jefftk.com/p/verizon-is-about-to-break-our-watches
+  9. Explanation of everything you can see in htop/top on Linux (2019)
+     https://peteris.rocks/blog/htop/
+  10. Zig: All Package Management Functionality Moved from Compiler to Build System
+     https://ziglang.org/devlog/2026/#2026-06-30
+
+【Zenn】
+  1. Next.jsのpreloadが生成するHTTPヘッダーに日本語ファイル名が紛れて本番だけエラーが出た話
+     https://zenn.dev/hidechannu/articles/20260703-japanese-filename-bytestring
+  2. C++の謎めいたHello WorldをPythonで再実装して理解を深めよう
+     https://zenn.dev/sirasagi62/articles/59db634940ba80
+  3. Generative UIとそれを実現するOpenUIのイメージを掴む！
+     https://zenn.dev/peishim/articles/37ff4d894f8fbc
+  4. とある部長のObsidian
+     https://zenn.dev/canly/articles/173479ac3e9824
+  5. グラフニューラルネットワーク(GNN)の基礎から多層化を阻む「オーバースムージング」への対策を解説
+     https://zenn.dev/dalab/articles/80ce9a10d507b8
+  6. 非同期処理のアーキテクチャに想いを馳せた
+     https://zenn.dev/dress_code/articles/62524f2e5dbd3c
+  7. Claude Fable 5 が使えるうちに Agent SOP を導入して整備させる
+     https://zenn.dev/ryu1maniwa25/articles/fable5-agent-sop-setup
+  8. Fable 5をトークン破産させずに使い倒す — オーケストレーターに徹させる運用
+     https://zenn.dev/yui/articles/740da24e9ee419
+  9. AgentCore で Agent をプロダクション利用する際の実装ノウハウ (AWS Summit Japan 2026)
+     https://zenn.dev/aws_japan/articles/006-aws-specialist-agent
+  10. 私が今DGX Sparkを購入した理由
+     https://zenn.dev/asap/articles/1a267ec154c14d
+
+【Qiita】
+  1. 手順不足と知識不足は分けて考えた方がいいと思う話
+     https://qiita.com/shige-h/items/97d9d9b7ed0064f7433e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 新しいHTTPメソッド「QUERY」をHono + Bunで実装してみる
+     https://qiita.com/maaaashi/items/6eefccb7361f64607865?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. バイブコーディングで本当にアプリはリリースできるのか？エンジニアが実際にアプリをリリースして感じたこと
+     https://qiita.com/yutaka_kozuka/items/cc3be5930b972130885d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 「日本企業風GitHub」のパロディに学ぶ、なぜJTC業務システムは「警告と文字」で埋め尽くされるのか
+     https://qiita.com/Shiro_Shihi/items/4928640d01c78480962b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Fable 5の消費が激しすぎたので、設計とレビューだけに使う仕組みをClaude Codeで作ってみた
+     https://qiita.com/fwatanab/items/e2c51c2a783915b275a9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AIと英会話できる学習アプリを個人開発してリリースした話【Agentcore / Strands / Bedrock】
+     https://qiita.com/yutaka_kozuka/items/7ccb66fc5c149ac30702?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. このプロンプトをAIエージェントに貼り付けて、Kaggleのベースラインを作ろう！
+     https://qiita.com/Isaka-code/items/8fafc5cc522b5eb655da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. curlが7月の脆弱性報告をまるごと停止、AIスロップが優秀になった逆説
+     https://qiita.com/okssusucha/items/d17ac3c49e568266123d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 世界で最も長い時間思考するプロンプトは何か？
+     https://qiita.com/relu/items/9a5e54a15f70988e468d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 『脅威ハンティングとは、脅威インテリジェンスとの違い』〜能動的な「狩り」がSOCの守備範囲を押し広げる〜
+     https://qiita.com/suzukengo/items/d75131b0e3590afd76cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  （取得できませんでした）
+
+【Google News (Business)】
+  （取得できませんでした）
+
+【Reddit / technology】
+  1. Meta data center water discharges suspended after contaminating the city's reclamation water supply with bacterium
+     https://www.reddit.com/r/technology/comments/1unc5f1/meta_data_center_water_discharges_suspended_after/
+  2. White House deletes thousands of web pages about energy conservation as heatwave slams US
+     https://www.reddit.com/r/technology/comments/1und74u/white_house_deletes_thousands_of_web_pages_about/
+  3. Meta Paid Hundreds of Contractors to Pretend to Be Teenagers While Barraging Its Competitors’ AI With Disturbing Content
+     https://www.reddit.com/r/technology/comments/1unfa9q/meta_paid_hundreds_of_contractors_to_pretend_to/
+  4. US Air Force Engineer Charged With Sawing Down Flock Surveillance Cameras Receives Thousands of Dollars from Supporters Across the Country
+     https://www.reddit.com/r/technology/comments/1une1cr/us_air_force_engineer_charged_with_sawing_down/
+  5. Gamers push back: 71% say they’re not ready to let physical games die as PlayStation and Xbox move toward a digital-only future”
+     https://www.reddit.com/r/technology/comments/1unj87s/gamers_push_back_71_say_theyre_not_ready_to_let/
+  6. Wisconsin residents sue Microsoft over noise caused by new data center
+     https://www.reddit.com/r/technology/comments/1unen8k/wisconsin_residents_sue_microsoft_over_noise/
+  7. Nearly a Million Investors Lost a Total of $3.8 Billion on Trump Crypto Coin
+     https://www.reddit.com/r/technology/comments/1unf7k1/nearly_a_million_investors_lost_a_total_of_38/
+  8. Almost 1 million without power across the country as US is blanketed by heatwave
+     https://www.reddit.com/r/technology/comments/1un75d8/almost_1_million_without_power_across_the_country/
+  9. US Air Force Engineer Charged With Sawing Down Flock Surveillance Cameras Receives Thousands of Dollars from Supporters Across the Country
+     https://www.reddit.com/r/technology/comments/1unfbdu/us_air_force_engineer_charged_with_sawing_down/
+  10. Bernie Sanders Saw This Coming
+     https://www.reddit.com/r/technology/comments/1undlrn/bernie_sanders_saw_this_coming/
+
+【Reddit / business】
+  （取得できませんでした）
