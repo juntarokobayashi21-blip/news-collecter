@@ -3,98 +3,136 @@
 ============================================================
 
 【Hacker News】
-  1. Fable turned remarkable into Tom Riddle's diary from Harry Potter
-     https://github.com/MaximeRivest/Riddle
-  2. OpenWrt One – Open Hardware Router
-     https://openwrt.org/toh/openwrt/one
-  3. CoMaps – FOSS Offline Maps
-     https://www.comaps.app/
-  4. Ternlight – 7 MB embedding model that runs in browser (WASM)
-     https://ternlight-demo.vercel.app/
-  5. GLM 5.2 and the coming AI margin collapse
-     https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/
-  6. A global workspace in language models
-     https://www.anthropic.com/research/global-workspace
-  7. Pruning RAG context down to what the answer actually needs
-     https://www.kapa.ai/blog/how-we-prune-rag-context
-  8. A 2048-spin bulk acoustic wave Ising machine for number partitioning and Sudoku
-     https://arxiv.org/abs/2607.02112
-  9. Full Writeup of the Windows GDID
-     https://github.com/SmtimesIWndr/gdid-reversal
-  10. Linux on the Atari Jaguar
-     https://cakehonolulu.github.io/linux-for-jaguar/
+  1. Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro
+     https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/
+  2. StreetComplete: Fixing OpenStreetMap, one tiny quest at a time
+     https://streetcomplete.app/
+  3. Chat Control 1.0 and 2.0 Explained
+     https://fightchatcontrol.eu/chat-control-overview
+  4. GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup
+     https://www.gao.gov/products/gao-26-108193
+  5. Show HN: Davit, a Apple Containers UI
+     https://davit.app
+  6. Every new car sold in the European Union must include a driver monitoring camera
+     https://allaboutcookies.org/eu-mandatory-distracted-driver-system
+  7. Why Vancouver is always a stand-in for San Francisco in movies and TV shows (2021)
+     https://www.sfgate.com/sf-culture/article/vancouver-stand-in-movie-tv-sf-16613821.php
+  8. Herdr: One terminal to rule them all
+     https://herdr.dev/
+  9. A better way to tie gym shorts (or any drawstring) [video]
+     https://www.youtube.com/watch?v=3R0Lp86GEBk
+  10. 30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format
+     https://30papers.com/
 
 【Zenn】
-  1. ClaudeがSlackに書く文字装飾が崩れる問題をSkillで直す
-     https://zenn.dev/elements/articles/a86509157c243a
-  2. Claude Fable 5の挙動をOpus 4.8で再現する — 「賢さ」を検証ループの工程に置き換える
-     https://zenn.dev/ait/articles/fable-emu-opus-harness
-  3. スマートグラス「Even G2」でAIコーディングツールを使う方法
+  1. Fable時代のAI活用法を、Anthropicの開発者が公開
+     https://zenn.dev/knowledgesense/articles/283244af941a2d
+  2. Vitestで始めるシンプルなVRT
+     https://zenn.dev/cybozu_frontend/articles/vitest-simple-vrt
+  3. AIエージェントの決済履歴は「戦略ログ」になる ─ 誰が誰に払ったかを隠す private x402 "SubEtha"を作った
+     https://zenn.dev/peaceandwhisky/articles/6f0b8b672a6f78
+  4. AI時代のObservability設計 - アプリケーション / インフラ / CI / LLMすべてを監視する（設計編）
+     https://zenn.dev/aircloset/articles/d4c32cff8cb230
+  5. Fable 5が使えなくなる前に、その「働き方」をOpus/Sonnetに引き継がせた
+     https://zenn.dev/yui/articles/e4f8268ab5c6c1
+  6. Git 感覚で AWS / Google Cloud / Azure のシークレットを管理できる CLI/GUI ツール「suve」を作った
+     https://zenn.dev/yumemi_inc/articles/suve-git-like-secret-management
+  7. AI Agentに自由な開発環境を渡す、Proxmox+LXCで。
+     https://zenn.dev/uzulla/articles/91272997a7c668
+  8. 自動テストの肥大化とどう向き合うか
+     https://zenn.dev/frontendflat/articles/automated-test-size-tradeoff
+  9. 複数リポジトリを単一のdev containerで開発する Claude Code 環境を構築する
+     https://zenn.dev/finatext/articles/whole-dev-container
+  10. スマートグラス「Even G2」でAIコーディングツールを使う方法
      https://zenn.dev/karaage0703/articles/2d61434fceb867
-  4. Codexに丸投げで高速縦型リリックビデオを作ってみた
-     https://zenn.dev/kairininja/articles/zenn-codex-vertical-mv-quality-gate
-  5. C# で出来ること一覧 2026年版（.NET 10）
-     https://zenn.dev/microsoft/articles/what-can-you-do-on-dotnet10
-  6. AIコーディング時代の生き抜き方
-     https://zenn.dev/garasubo/articles/9b9548ebab5a67
-  7. JavaScriptのメソッドチェインが遅い理由
-     https://zenn.dev/dameyodamedame/articles/0bd949354baf6e
-  8. Cloudflare Workers + better-auth で全リクエストが無応答になる - hanging promise の罠
-     https://zenn.dev/coji/articles/cloudflare-workers-better-auth-hanging-promise
-  9. ELDEN RING NIGHTREIGNのマルチがラグいのは、ハズレのSteam中継サーバーを引いているからだった
-     https://zenn.dev/kikurage7/articles/8b4d12fe0b7198
-  10. dotfiles のススメ; mise と Renovate で開発環境を安全に最新に保つ編
-     https://zenn.dev/himkt/articles/b811e1ea846f99
 
 【Qiita】
-  1. 「日本企業風GitHub」のパロディに学ぶ、なぜJTC業務システムは「警告と文字」で埋め尽くされるのか
-     https://qiita.com/Shiro_Shihi/items/4928640d01c78480962b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  2. 「保守業務って地味…」と思っていた新人の自分へ
-     https://qiita.com/masa20057/items/d3c540c868c3413704b7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  3. 1Passwordは、あなたのマスターパスワードを一度も受信していません
-     https://qiita.com/kenimo49/items/d1151389d17e50ad5564?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  4. OCI Speechでリアルタイム英日翻訳アプリを作ってみた：途中で変わる文字起こしを字幕にする工夫
-     https://qiita.com/araidon/items/a742200d67e8018cda91?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  5. Dockerfileは分けない〜本番用とローカル用を1つに保つ方法🐳
-     https://qiita.com/H-Hoshihara/items/82798a46964718f6bdb0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  6. 『めっちゃカメレオン』のサーバー代0円ってまじ？
+  1. 『めっちゃカメレオン』のサーバー代0円ってまじ？
      https://qiita.com/i-icc/items/fb02ae5fa0848f4c511e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  7. 『秩序ある共生』は実現できるのか？ ― 制度設計・財源幻想・社会統合を考える : Pythonで学ぶ マクロ経済学入門 (96)
-     https://qiita.com/maskot1977/items/c3fe81175a1206abf1f8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  8. 生成 AI 利用率〇パーセント達成した、次は AI エージェント〇個作成が目標？
-     https://qiita.com/Takashi_Masumori/items/a1ae3d4cbb03aa5a2387?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  9. 【DevOps Agent】VPC 内のセルフホスト GitLab に Private Connections で繋いでみた〜ついでにリリース前コードレビュー機能も試す〜
-     https://qiita.com/ryu-ki/items/e2c94f68b4bd17c1514d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  10. 🤖 【Claude】自作Skillが「Claude Codeでは動くのにCoworkに出てこない」を解決する
-     https://qiita.com/imamu123/items/2baf3f2f047e912dab48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 1Passwordは、あなたのマスターパスワードを一度も受信していません
+     https://qiita.com/kenimo49/items/d1151389d17e50ad5564?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 「保守業務って地味…」と思っていた新人の自分へ
+     https://qiita.com/masa20057/items/d3c540c868c3413704b7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Claude Code の無料セキュリティ監査プラグインで脆弱性を自動検出・修正してみる
+     https://qiita.com/nogataka/items/4d2a551f89f6b4f94b01?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 売上は DB、ログは S3、契約書は SharePoint、バラバラなデータを AI で使う方法を調べてみてみた
+     https://qiita.com/shirok/items/0e42854634b2c5a371fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. New Relic MCPの回答精度を向上させるプロファイルのご紹介
+     https://qiita.com/seamoooooo/items/e458d2a7969e8c92d9ba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AI-BPRで業務そのものを再設計する
+     https://qiita.com/licux/items/25e87077b6ef29162a93?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【Windows標準OCR】窓キー + Shift + T キー押してますか？
+     https://qiita.com/kaga-yasumitsu/items/e9ce46596969983cdb4e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. PL/SQLのバッチ処理をTemplate Methodパターンで共通化する
+     https://qiita.com/take-yoda/items/a8e097a488923360b03b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？
+     https://qiita.com/ryu-ki/items/2cd37256824b54022bdb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
 
 【Google News (IT)】
-  （取得できませんでした）
+  1. Green Hydrogen: Technology, Market Developments, and 10-Year Growth Outlook - IDTechEx
+     https://news.google.com/rss/articles/CBMic0FVX3lxTFB3aHE5UFRmenRnUGh6cVRYOS1CR21OeEVYMXRaZ0o5Vk1Dd0tKNlExSWxHM19CdUxuNXZmSmRucUNLWkd2RjhaQlpHYnhnMU81NXM1eElNLTgyNTJWQ19fWDBrb2Qyd3RxMV9XYktmbkpSaTA?oc=5
+  2. Nothing、Ear (3a)を発表 | Nothing Technology Japan株式会社のプレスリリース - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE91TENlMW1ySkdUblh6d0RmVE5XM2IzUHRkMkNPYkpJakFfUXZ1dVdSR01IY05KNGp1VFQwaFpVcjgtNld5Z0NydkEyc0lMVVdkUUFhWFVmeDh0SGRsQUVOT2hWUUMyLW84c2c?oc=5
+  3. 7月7日のSeagate Technology Holdings PLC (STX) 終値は4.68%下落：値動きの背後にある事実 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQZloxSFhDVXY1MEQtUkY2RDVsS29UVEdMcm9zWHpuS2M4QzFqYlRNV3kyZy1NeGNLYjBIdE5XNkk1eDNSdTZBYVQ3MUVNRjNxdEcyamtpR0FYUmVyRjRVZUgyWmw3U2tib3NRNTdBSUJwa3J4MkxyRExpQTVuSzYzSVNzblFtdldBWHpnWnNB?oc=5
+  4. オープンAI株を米政府に？ アルトマン「AI配当」 構想の真意 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE4tNW8xLWRJUFRBNXlQM0d0UGNQT3BDNWhYQk1NUXFlbTZyT0Ytc1BCSlNPTUd4dE4xdTFmSUxja1Q4ODVGVHVubW1Cc0I3cVBxUDhndzY2QzVXbE5ETTZSekVNRFBMLXVFSndORmxFNG5ZU3BXbDZUZkdGQk5CV1E?oc=5
+  5. 住友化学コーポレート広告が読売広告大賞Technology部門優秀賞を受賞 - 住友化学株式会社
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE1VRXAtWFRVcG42c0NZaGJKZEM3ZUNIRUgtc0VldjhrYXdoVHJ0bW9yeHRDeVNtdFI0WEd4anFERFpqcTFnNmFHQXVVZkwwZ2M3dW5NUUwwOV9yWE9uanUzR1ZrR0tJLWpFUmQ0?oc=5
+  6. 【欧州市況】株は続落、テクノロジー銘柄に売り－国債は下落 - Bloomberg.com
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxPQW5yem5xODd2dkZaMnE3STZFQ2lMYWxnM1BiZ0RtNXFmaHM2ZTlWTUdScUpMZkNXX1hsX1drLVVHX0lCcDZtanpfQXZOaUs4N0ZoeWo1TmFJRml3ZTBkMUJXLXlqQ05MZTUzLXFubTdnOExuaGVfenp1UVlyYnYtWkZnWnRHNXA5NEwyTA?oc=5
+  7. GMとMicron Technology、次世代車両向けメモリ・ストレージの長期供給協定を締結 - レスポンス（Response.jp）
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE14dWhOVWxCVElLOW5NOHU3N1BpVm9yak5MT2RxUVRtWnY4bTBUbkMwSmZ1ZFdURlhaajdWbmZkb2s1Rkp5elNJOE41QjRhVmpXcmNNSU94NUhZSGoweTdr?oc=5
+  8. $マイクロン・テクノロジー (MU.US)$ - Moomoo
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxNQzEtRDU2eHBYejV6WW1mRUV4TEJkdllrLUg5bkhmWC1kMWx3RVJfWThvbkt3Yl9YZVBZMC1rTDBEMXp6YmtGeHlfWmE0dTlzd3FrTi1mSndWWTU2UWRIc0hwckt0YmVGVWEzVXBwV0txRXlJRkxVSE9DOGpLNnpiY0JEaUxhVXc?oc=5
+  9. AIをめぐる神々の争い｜テクノロジーの哲学マップから考える〈技術哲学入門〉 - WIRED.jp
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBaLS1veGhwUmgzcDMxR0ZzUDRmQ0YwTzVWWnZDLWpsamxfamhYTU5ha1JVdXNRMzJJM2NGSzF4LU55ZlBKQVB4dmVudV93SDllR21jR3VQbi1JbC1JYm1mX3Z0dFJEbk1oaG10NA?oc=5
+  10. キーワードは「テクノロジーと人間以外」 川崎和也が描く、持続可能なファッションの未来 - fashionsnap.com
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE10LTJKNzcxMHJjWU03SGxFUWo0UGhfblAwWHZlNEVpd0RySldNS0lkRXlrZGRHYjhfSGNUNExHLWdUV0FSOFpVZmcwS2lBUTc2WVdJYU9SLWQ0SXNtamhXZDBOY3pVSDhtZldSSl9OQVlWSmxuUU5nNA?oc=5
 
 【Google News (Business)】
-  （取得できませんでした）
+  1. SHIFT、440人の採用ストップ 新卒はAI活用で10年分スキルを1年で習得 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aXzdSenVod3RiWmczLTBvQmcwZ0FlOGxuWGFqbDFwc2ZQZWJPZFJEU3daTHlrX1RCbnV5cTljdTFFdHVZYlBLRnlNS2loMExqLWVCTGZrWUVpcGhMRzQ1azBVemY2OWM?oc=5
+  2. 「30万人企業」AI化の内幕。AIに社員番号を振り、生産性が低ければ容赦なくクビ…中国ケンタッキー運営元が明かす - Business Insider Japan
+     https://news.google.com/rss/articles/CBMikgFBVV95cUxOSl8tQ1AtZ3Z0bzdrM0ItSGNZcmJkS0FNaENLX0hzek9QZV9KMnRUZEFRejlSTWQwaXFybFd3RDBWS2NlUXpNXzdaZzdoWXp2c19LbDhaX1VYUTdXSGFHMjRad3R4WG0tU01qNGRQelJlQTRIWVlkTncwYTNTX1FydWZlS2xuQ2V0a1NQc1BmOVQwQQ?oc=5
+  3. 「心の不調」増加も……企業のストレスチェック、本音回答わずか35％ 形骸化させないための最初の一手 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5XbHJUaFVuRnJTN3ZoY3lfNlZKQ1BsTF9SQ0pwcXpQYWdhRGctekgweWRidVVsMnVuZmJQcDdMd1J2alhQYlJCamNEQVF2RnVRTVZoZExwQ1VOMjJEWUpYN3VrSlBrU3piZTBhLUZwYlhiZw?oc=5
+  4. なぜ「AI PC」はビジネス価値に転換しきれていないのか？ ――クラウドの課題を克服し、ローカル処理が迫る「業務基盤の再設計」 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMikAFBVV95cUxPWnRUVGREWkFjRXJBbXNRUVBrUTNFR3E1MkhlZEhNbkFENnlOdU1Hc1dtTXlPaEI4VGFzekFpLXV5NXMtSTIwQ3hSd0NkVGhDUjd2RXNGczJKbWd3T0ExOVFYNnQ4VlpuV21YSEhMZU1MMlBCRnFHRmZSemZEQUgyVFFlQlBFRkxMNklLTG9FRljSAZYBQVVfeXFMUEJvQ1dIbHFqZHJVNmRUSVFEU3VzM3N1Y0lFRkNmNnZReG9uNS0xdmgzeVAxU3k2RjNuMEw5WE52U191LXRrSTRjN19EWjNaaEJ5QnhEcThQYTU2V0Y3TUdnU2hXZzZIM3E2NFQybk95eFVvVXo3VXlYVWxNMFV4UjVXdlpGSEdVWTFnYXRWbld6bmhLWjZ3?oc=5
+  5. パートナービジネスに100％振り切るBox Japan。300社以上と事業を成長させた独自戦略に迫る (1/3)：saleszine - MarkeZine
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kWFNpbnpyV1puZ3AzNmFCMDUwNm5FcXVlb1BraDRaSHpRR0lwejBRR1VDdEtCWHJmc0ZmLUJDUzZ5VmVxZno1bDV6Y3RHYnFUbUVV?oc=5
+  6. 「インドは安い」は10年前の話。フォーチュン 500企業では特許の25％以上をインドのGCCが生み出す今、日本企業だけが乗り遅れている理由 - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IWnloVlBDY0w5bDNyLXhzVnpHeDg3dUJYbmVFUC15dTFaNG1kdWNWZk5JYURfUFNQbDJORWc2SmczM2RLMDRscDBPdErSAU9BVV95cUxOWVFaaTFJSE9nZGhkTEozWWRGa24yRTh0NVlWNkg0TWIya3J1ZVBybWJoazMzTC0tU3I1bkVhdG5qR1A0NjlHS3VvcnJkRlRn?oc=5
+  7. 建国250年、アメリカ企業は「アメリカらしさ」を失いつつある - Forbes JAPAN
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XMW5sUE9iczhZR003YXBVVjF4OENidW5vVUxIUkFSc3JTNllDbjQzQ1Y1U29LM01URTRvZFZ5ZFBldXJCbXlERzJDYjRrWmlEdnR2YVFPTnoxZw?oc=5
+  8. 宅配便が資源インフラに変わる？都市鉱山ビジネスの限界費用をどう崩すか - ビジネスジャーナル
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBcGdrUG9ZenNWUm9qbnZHSVYxZVdOQmNjbWNlRkRHMkloMENsM3VjMHVkUzEybFJXbnN3b0xtY21ZQTI5bGtfWGFTMXlZaUg1ZFhlY2JWTnRKUUk?oc=5
+  9. ヤマハ、リチウムイオンバッテリー搭載のビジネス用電動スクーター「GEAREV」発売 - マイナビニュース
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JZy1udkozZ1BMbFBnM0hoRU51WF91S1ZDLUxvZDFHMVRMZTlVTENsUGtpbEYxMHJuamJLSnBLQ2h0YmFOZmN6ZFlXaHBpY3B4LTF2ZXBtMlMtREVh?oc=5
+  10. 新しさはゼロから生み出さなくていい コツは「ちょっとだけずらす」こと - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GUG5tbndXMU5XcjVuNjBmRm93MmdOLVk2UmljSUl4MzVuUU02UjhCMHVSQUxseHpMOU9rTDBIalpZajZuYzE1d1RTeWdndnZpRnRhcjRnT2FRT3BWYnU5WFhaX3NCWWs?oc=5
 
 【Reddit / technology】
-  1. FCC to end Biden-era rule that forces ISPs to list all their fees
-     https://www.reddit.com/r/technology/comments/1upagpq/fcc_to_end_bidenera_rule_that_forces_isps_to_list/
-  2. Footage Shows Cop Stalking Woman He Met on a TV Set After Surveilling Her With a License Plate Reader
-     https://www.reddit.com/r/technology/comments/1uoxvxo/footage_shows_cop_stalking_woman_he_met_on_a_tv/
-  3. Meta’s AI Data Center Caught Infecting Town Water Supply With Deadly Bacteria
-     https://www.reddit.com/r/technology/comments/1upbor5/metas_ai_data_center_caught_infecting_town_water/
-  4. Dev tells Valve to fix Steam's exploitable 2-hour refund policy as "over 55,000" players refund his short game and even brag about it in reviews
-     https://www.reddit.com/r/technology/comments/1up68no/dev_tells_valve_to_fix_steams_exploitable_2hour/
-  5. Gov. Pritzker puts signature on Senate Bill 315, one of toughest AI laws in country
-     https://www.reddit.com/r/technology/comments/1up55tp/gov_pritzker_puts_signature_on_senate_bill_315/
-  6. The Nationwide Backlash Against Cameras Watching Your Car
-     https://www.reddit.com/r/technology/comments/1up0z1g/the_nationwide_backlash_against_cameras_watching/
-  7. Florida Sheriff Installs 40+ Flock License Plate Cameras Into Rural Wilderness
-     https://www.reddit.com/r/technology/comments/1up55x9/florida_sheriff_installs_40_flock_license_plate/
-  8. Microsoft is laying off 4,800 employees
-     https://www.reddit.com/r/technology/comments/1up32f6/microsoft_is_laying_off_4800_employees/
-  9. PlayStation Unlikely to U-Turn on Its Decision to Kill Discs, Despite Backlash
-     https://www.reddit.com/r/technology/comments/1uouywl/playstation_unlikely_to_uturn_on_its_decision_to/
-  10. AI bills are baffling the C-suite after shift to usage-based pricing
-     https://www.reddit.com/r/technology/comments/1uorwo1/ai_bills_are_baffling_the_csuite_after_shift_to/
+  1. Thieves Are Now Targeting AI Data Center Construction Sites for Copper and Expensive Equipment
+     https://www.reddit.com/r/technology/comments/1uq558s/thieves_are_now_targeting_ai_data_center/
+  2. Switzerland bolted 5,000 solar panels onto a dam wall 8,000 feet up in the freezing Alps where everyone said solar made no sense, and the plant now makes three times more winter power than any farm down in the valleys
+     https://www.reddit.com/r/technology/comments/1uq42av/switzerland_bolted_5000_solar_panels_onto_a_dam/
+  3. The Supreme Court just ruled that police need a warrant to use phone location data
+     https://www.reddit.com/r/technology/comments/1upuztz/the_supreme_court_just_ruled_that_police_need_a/
+  4. All Cars Sold in the EU Now Require a Camera Aimed at Your Face. It’s Still Not Clear Where That Data Goes
+     https://www.reddit.com/r/technology/comments/1uq7r82/all_cars_sold_in_the_eu_now_require_a_camera/
+  5. Zuckerberg Admits That AI Is Not Working Out the Way He Imagined
+     https://www.reddit.com/r/technology/comments/1uq1g44/zuckerberg_admits_that_ai_is_not_working_out_the/
+  6. Microsoft Expected Game Pass Would Have 77 Million Subscribers by Now but It Reportedly Only Has 30 Million, as Xbox Boss Admits the Strategy Has Failed
+     https://www.reddit.com/r/technology/comments/1upth7d/microsoft_expected_game_pass_would_have_77/
+  7. New York to ban smart glasses from all courthouses
+     https://www.reddit.com/r/technology/comments/1uq51a7/new_york_to_ban_smart_glasses_from_all_courthouses/
+  8. Waymo car delivers misbehaving teen passengers to San Mateo police
+     https://www.reddit.com/r/technology/comments/1uq82nc/waymo_car_delivers_misbehaving_teen_passengers_to/
+  9. Microsoft 365 Copilot adoption is under 4.5% after 3 years, only 1% use it weekly, yet prices went up
+     https://www.reddit.com/r/technology/comments/1upw6k9/microsoft_365_copilot_adoption_is_under_45_after/
+  10. Mark Zuckerberg’s biggest legal nightmare yet could cost Meta $1.4 trillion
+     https://www.reddit.com/r/technology/comments/1uqak51/mark_zuckerbergs_biggest_legal_nightmare_yet/
 
 【Reddit / business】
   （取得できませんでした）
