@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-09
+============================================================
+
+【Hacker News】
+  1. John Deere owners will get the right to repair equipment under FTC settlement
+     https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02
+  2. Separating signal from noise in coding evaluations
+     https://openai.com/index/separating-signal-from-noise-coding-evaluations/
+  3. FAANG Simulator
+     https://www.abeyk.com/escape-the-rat-race/
+  4. Chatto is now open source
+     https://www.hmans.dev/blog/chatto-is-open-source
+  5. Decoding the obfuscated bash script on a Uniqlo t-shirt
+     https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/
+  6. Rewriting Bun in Rust
+     https://bun.com/blog/bun-in-rust
+  7. Cloudflare Drop
+     https://www.cloudflare.com/drop/
+  8. Mistral's Robostral Navigate: a state of the art robotics navigation model
+     https://mistral.ai/news/robostral-navigate/
+  9. Grok 4.5
+     https://x.ai/news/grok-4-5
+  10. Show HN: Microsoft releases Flint, a visualization language for AI agents
+     https://microsoft.github.io/flint-chart/#/
+
+【Zenn】
+  1. 設計判断を属人化させないために、DDDの判断フローをWebアプリにしてみた
+     https://zenn.dev/shimpei_takeda/articles/b63ecf44777fab
+  2. Agent Skills自動最適化の研究、中身はほぼ深層学習の訓練ループだった
+     https://zenn.dev/layerx/articles/9f25ec86a31730
+  3. Claude codeと論文書いたら良い論文“は”できた
+     https://zenn.dev/mkj/articles/cco-paper_20260531
+  4. 個人タスク管理を「判断は人間、更新はエージェント、計算はスクリプト」で設計する
+     https://zenn.dev/layerx/articles/797bb5b8935bf6
+  5. Unity 6時代のR3運用ルール：SubscribeAwait・EveryUpdate・禁止パターンを整理する
+     https://zenn.dev/gamedev_toollab/articles/88cbe9d9110202
+  6. アプリ層から低レイヤーを打ち抜く：WhatsApp GIF脆弱性(CVE-2019-11932)をGemini×Claudeで徹底検証
+     https://zenn.dev/inlet_back/articles/2069cb693dd737
+  7. 複数のサービスを支える集約データベースの設計と未来
+     https://zenn.dev/estie/articles/c6ab2270eaab31
+  8. VS Code DevContainer を使わなくなった私の、LLM エージェント向け開発環境
+     https://zenn.dev/kenfdev/articles/1febc0052b0d71
+  9. APIもDBも東京なのに、全クエリが太平洋横断していた話
+     https://zenn.dev/avaintelligence/articles/b7d4743a448485
+  10. Fable時代のAI活用法を、Anthropicの開発者が公開
+     https://zenn.dev/knowledgesense/articles/283244af941a2d
+
+【Qiita】
+  1. 『めっちゃカメレオン』のサーバー代0円ってまじ？
+     https://qiita.com/i-icc/items/fb02ae5fa0848f4c511e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 未経験からエンジニアを目指す方へ。「早く独立したい」と焦っていた頃の話
+     https://qiita.com/masa20057/items/daef8174d2f43485371f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 「保守業務って地味…」と思っていた新人の自分へ
+     https://qiita.com/masa20057/items/d3c540c868c3413704b7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Claude Code の無料セキュリティ監査プラグインで脆弱性を自動検出・修正してみる
+     https://qiita.com/nogataka/items/4d2a551f89f6b4f94b01?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【Windows標準OCR】窓キー + Shift + T キー押してますか？
+     https://qiita.com/kaga-yasumitsu/items/e9ce46596969983cdb4e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 売上は DB、ログは S3、契約書は SharePoint、バラバラなデータを AI で使う方法を調べてみてみた
+     https://qiita.com/shirok/items/0e42854634b2c5a371fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. LambdaからS3 Filesを使った時の読み書き速度を検証してみた
+     https://qiita.com/ry-harada/items/dc52d546c0c52c84b866?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. SQL Indexing 用 AI エージェントスキル集
+     https://qiita.com/TOMOSIA-HieuNT/items/6cf51ac079b9bfad2155?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【実測比較】日本語RAGのOCR、結局どれを使う？ glm-ocr / dots.ocr / Unlimited-OCR / MinerU を社内ドライブの実データでガチ評価
+     https://qiita.com/engchina/items/6dff7010af1b28e8c30a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. PL/SQLのバッチ処理をTemplate Methodパターンで共通化する
+     https://qiita.com/take-yoda/items/a8e097a488923360b03b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. Nothing、Ear (3a)を発表 | Nothing Technology Japan株式会社のプレスリリース - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE91TENlMW1ySkdUblh6d0RmVE5XM2IzUHRkMkNPYkpJakFfUXZ1dVdSR01IY05KNGp1VFQwaFpVcjgtNld5Z0NydkEyc0lMVVdkUUFhWFVmeDh0SGRsQUVOT2hWUUMyLW84c2c?oc=5
+  2. キーワードは「テクノロジーと人間以外」 川崎和也が描く、持続可能なファッションの未来 - fashionsnap.com
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE10LTJKNzcxMHJjWU03SGxFUWo0UGhfblAwWHZlNEVpd0RySldNS0lkRXlrZGRHYjhfSGNUNExHLWdUV0FSOFpVZmcwS2lBUTc2WVdJYU9SLWQ0SXNtamhXZDBOY3pVSDhtZldSSl9OQVlWSmxuUU5nNA?oc=5
+  3. AIをめぐる神々の争い｜テクノロジーの哲学マップから考える〈技術哲学入門〉 - WIRED.jp
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBaLS1veGhwUmgzcDMxR0ZzUDRmQ0YwTzVWWnZDLWpsamxfamhYTU5ha1JVdXNRMzJJM2NGSzF4LU55ZlBKQVB4dmVudV93SDllR21jR3VQbi1JbC1JYm1mX3Z0dFJEbk1oaG10NA?oc=5
+  4. 理工学部「デジタルグリーンテクノロジー学科」を2027年4月に開設します - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kdTREaXE4SWp4VEN4cnM2TFJRNUJIMVZ4aHZWMWVaekRWQnhubm5lalEyemNDZ3hmd1hLdW1Bd0UzWGRCQWNWMmhJWWY3Nk91T0FWOWpUZUpZX2haSVE?oc=5
+  5. eムック『人体拡張』 特集号 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE5tdXdvMFhxU3Y0RURQWG1OQ0FWcWEyNjg2RS1fMjN5a3lFdl8xcE9Ta3hnX3VBd2FMbHRTNmEtcnJCSm9UZkd4ekZGcXc4X0RKN3lEUzVTSlRfNTFvOHVlVDdGZXZhS29zNFNmcXFyb0JqNTEtS3Y3WXVQaw?oc=5
+  6. TSMCが語るAI時代の半導体戦略、A13/CoWoS/COUPEで激増する演算需要に対応 | TECH+（テックプラス） - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiZ01wb0lrY29Ha3JUVXVDRUgxeF95M01DdHcwRkNXdEE3bkVPM0VOM0s0UElHN0c1R3NXYW96VmJodkVzLWtfalZBOUc1WWlCeWh1bm1IWU1SQTI3VXRQeFlKM0d6Tkt4?oc=5
+  7. 東大松尾研・PKSHA・Anthropic、AIが雇用・産業・経済・教育に与える影響を可視化する「Japan AI Index」を構築へ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFAyQUFGNU91UHU0Q1NlRkdkQkRfUThGTk9rbWRFeWwxd0ZjbGZrS290MVFLanEtV09wVDJlZE15NUJtUV9NSF9KVUtOc3loRUZVZ3pVc0NaOGRZM1dMTmtLNkg2clJWRmpxaWc?oc=5
+  8. 「AIの帝国」とは何か？ 元MITTR記者が描く、 権力集中の実態 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxPdC1CdjVCcE12TlBQZUU2WE9DcVI4T0JoSnBhbkFoaDVNVl9KNzg2dlhadUJpNFZyWUdfVk9SSHdfN1Z3OVBEMDZUblRxdXhKbkFZclRyOTJxdzJ3bXE2UU9zVXpfeFFHUTd0TWRIOFhESk9UWEw2a2FVZTEzR3JOam8zY21RZw?oc=5
+  9. COROS、女子800m世界トップ中距離ランナー キーリー・ホジキンソン選手とのパートナーシップを発表 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBVSVRvVDlDangxNG5GdE5fWmZTU0VlUjVEQ3EzbmFKdkFDZ3R4amFuWXU0dkM0U0VRYUYxYXNvb2N6dXVtY3psNk1kY1IybmZfbmdEellTMGxsOEN6UXdheDZWRUtNbnU3emc?oc=5
+  10. ニードハム、好調な融資実績を受けFigure Technology株の買い推奨を維持 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9SQnBlUm9GRzRtZjE5TlRkMmMzUURUUVNWWWd6OTRja2UtWVNMbFhoQTI5SjlnYndYUUt3MkYweERFSm5ENzBOVk5VS0FrRF85ZUl4bGF4amNfVHliUHlPbW9zZ3dUYkljalRsUGx2dVl3UGdj?oc=5
+
+【Google News (Business)】
+  1. 「公文式」が営業利益165億円の“爆益ビジネス”に急成長 無駄のない「もうかる仕組み」がすごかった - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE12MXU5ZkZoR29HQURhdlFla1NvN3FTaXJnc3dEWEtjQTQzdnJMcHlDUi10c1VwdmowY2Z2QW4yaHZzNjBTMFBTRnJKT2FmUUJKVHZpeFNvOHloSE8yRHNRNGp5T0xYM2owSkg0b09iMUJ1QQ?oc=5
+  2. 官民投資4.6兆円で、植物工場は「次の輸出産業」になるか。プランテックスが挑む採算の壁 - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1FUWdDM2VzUF9seE5BUk9adVNLckFsWVdVOG5lYTZmZElPWW4wUl8yQ2I0ZkhTcDRILTNsM2dJU2NCMEdBM2RzSGhDSjllZTB4N1VsdjRUNjJMNm1RTkI2REYxSUg4S01CeHIzR2NWcFFIeENHc1BwdUZTdk1nRW8?oc=5
+  3. ニトリ、20万円の「シアターソファ」投入 家具と家電を融合した狙いとは：プロダクトInsights（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE90LXUybmJxZWhQUlBJdFdNenpDbTF6UDFZMF9FTkdPSVNhWktZeFlUVUo0V2p6NEFJUzF5d2RTamJTV0FNVUhuSWdZSURQYXo4bFRFampZMjVDclJ0SUowVHJyc3dvQzFNXzNiTE1IUkM4QQ?oc=5
+  4. 中小企業向け「Microsoft 365 Copilot Business」追加、従来プランよりお得 - 日経クロステック
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5HRDluc0NMVTRKek1nTTdiT0otdGFSZ2lpRmlabEVtZXpsclk3Qjg2QVpDQ2IxMlhxOUl1anVVcmZZZkxGSDVtTUJ6a3RaNkZrdjgtalo5MWdsNE43ckppOUtBdUtGTkQ3NGxjVw?oc=5
+  5. アングル：レアアースに警戒強める日本企業、有報などへの記載5月から急増 - ロイター
+     https://news.google.com/rss/articles/CBMiekFVX3lxTFAzM1NCTTVuYjlUbDB0Y3VJSlZqYXF1V196aHdvLW52dVozc0RQRVo4cTdqM0JTaVg5YjJUTGU5NklyWE5rcWpsQnpSVTA3OGZyV3dMOWZKS1NvTkZoQ2tTbzQwWFdtMml4SzJhSDQzcG1VeGp6X1dSRjN3?oc=5
+  6. 30万人企業はいかにして「AIファースト化」したか - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOFdCNTRlMUVER05nbUJkTUlpUndxdDhjb2hNdC1jQVQxcTFWM3ZFaFFDeHkwNU1Ndkx6OFBXSHdScjdRdW1RLUpPV3N4bUFOUGxzak1NbDk0QjJ3enRXbV9TenYzc2dMS09MZ2JYTUNSODdhN0VlN1Z4M3lRTDlUTnBPWjJZdk9XUThF?oc=5
+  7. AIヒアリングエージェント「Kikuvi」、「NEXT BUSINESS EXPO SUMMER 2026」に出展・登壇 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE52R2E0c3FCREo1VWFLbDZNWWJ4OW9OaXJkYi02bUJNUnNrRHkyaXd4eGQ0SkF6dkdzOFYzb0R5T3Q0bjJuWWVQWnByYy1KQl83RDNCWVFqeDRMWlRFXzlRb3lmN3B2UG1melE?oc=5
+  8. パートナービジネスに100％振り切るBox Japan。300社以上と事業を成長させた独自戦略に迫る (1/3)：saleszine - MarkeZine
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kWFNpbnpyV1puZ3AzNmFCMDUwNm5FcXVlb1BraDRaSHpRR0lwejBRR1VDdEtCWHJmc0ZmLUJDUzZ5VmVxZno1bDV6Y3RHYnFUbUVV?oc=5
+  9. サンシャイン政策、中国企業を追い出すドナルド・トランプ、技術は米国内に囲い込み(1/4) - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTdXZiQkh4dW9vTTdaQ3JZZ05Icnh4Z3g3UjhLbkQ3RDNWS293QjhfSVJGWUh3QVk3X1hsa09RaXB2VEx3WUVJZ21TczVlUU1nd21iLWpR?oc=5
+  10. ジンベイ、「NEXT BUSINESS EXPO SUMMER 2026」に出展：時事ドットコム - 時事ドットコム
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE9vLUdZcGd1bERsdXJtMldId3dfUkVyOWp6OFA1MHpwbEVGck5pUHU1OVFmVW41WmJaQVlMTy0tQUVCY2wwakEwbHJGcklMQUt3SnFGNVRwdDUtNTlYdlViYUpzUFVGQUlGbU13?oc=5
+
+【Reddit / technology】
+  1. Execs confused and horrified by the huge AI bills after thinking they could replace workers for free
+     https://www.reddit.com/r/technology/comments/1uqvcpx/execs_confused_and_horrified_by_the_huge_ai_bills/
+  2. 'It Never Trickles Down' — Bernie Sanders Hits Out at Microsoft Over Xbox Layoffs and Console Price Rises, Says They Prove Corporate Tax Breaks Do Not Create Jobs
+     https://www.reddit.com/r/technology/comments/1uqvmrc/it_never_trickles_down_bernie_sanders_hits_out_at/
+  3. DuckDuckGo brags its free web browser now blocks YouTube video ads just weeks after YouTube hiked Premium prices again
+     https://www.reddit.com/r/technology/comments/1uqttau/duckduckgo_brags_its_free_web_browser_now_blocks/
+  4. Sony CEO Sells Over Half His Stock Following PlayStation Disc Announcement
+     https://www.reddit.com/r/technology/comments/1uqw7ad/sony_ceo_sells_over_half_his_stock_following/
+  5. PlayStation can delete all your digital games after 3 years of inactivity
+     https://www.reddit.com/r/technology/comments/1uqqbow/playstation_can_delete_all_your_digital_games/
+  6. Bryan Johnson, the millionaire biohacker who wants to live forever, diagnosed with incurable autoimmune disease
+     https://www.reddit.com/r/technology/comments/1uqrowt/bryan_johnson_the_millionaire_biohacker_who_wants/
+  7. Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself / More young girls sue X over Grok CSAM; X accused of shielding child predators.
+     https://www.reddit.com/r/technology/comments/1ur3r5w/lawsuit_man_used_grok_to_make_7k_sex_images_of/
+  8. DuckDuckGo's Browser Now Blocks YouTube Ads for Free – No Extension Required
+     https://www.reddit.com/r/technology/comments/1ur6ulo/duckduckgos_browser_now_blocks_youtube_ads_for/
+  9. Power company hikes data center bills by 30%, cuts residential electricity costs by 1.3%. Oregon approves change through POWER Act, pushes developments using more than 20 Megawatts of power to pay their fair share
+     https://www.reddit.com/r/technology/comments/1uquuw0/power_company_hikes_data_center_bills_by_30_cuts/
+  10. Bank of America Warns That AI Investors Are in for a Nasty Reality Check
+     https://www.reddit.com/r/technology/comments/1uqz1io/bank_of_america_warns_that_ai_investors_are_in/
+
+【Reddit / business】
+  （取得できませんでした）
