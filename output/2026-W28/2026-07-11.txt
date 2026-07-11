@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-11
+============================================================
+
+【Hacker News】
+  1. Stop Telling Me to Ask an LLM
+     https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/
+  2. Weightlifting beats running for blood sugar control, researchers find
+     https://news.vt.edu/articles/2025/11/research_fralinbiomed_yanweightlifting.html
+  3. Show HN: Ant – A JavaScript runtime and ecosystem
+     https://antjs.org
+  4. Mesh LLM: distributed AI computing on iroh
+     https://www.iroh.computer/blog/mesh-llm
+  5. RISCBoy is an open-source portable games console, designed from scratch
+     https://github.com/Wren6991/RISCBoy
+  6. Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom
+     https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom
+  7. We scaled PgBouncer to 4x throughput
+     https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres
+  8. Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts
+     https://arxiv.org/abs/2607.07267
+  9. UPI: Anatomy of a Payment Transaction
+     https://timeseriesofindia.com/economy/reads/upi-architecture/
+  10. Prefer strict tables in SQLite
+     https://evanhahn.com/prefer-strict-tables-in-sqlite/
+
+【Zenn】
+  1. ナレッジグラフだけじゃない。AIエージェントが使う5種類のグラフ
+     https://zenn.dev/knowledge_graph/articles/ai-agent-five-graph-types
+  2. Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (1) - 文字列のハッシュ値生成
+     https://zenn.dev/xin9le/articles/6fb2045805996c
+  3. ボードゲーム「ナショナルエコノミー」をブラウザで遊べる非公式サービスを作った
+     https://zenn.dev/lambdalisue/articles/introduce-unofficial-national-economy
+  4. agent-cost-bench でコーディングエージェントの品質とコストを測ってみる
+     https://zenn.dev/aws_japan/articles/agent-cost-bench-model-compare
+  5. AI-DLC Workflows 2.0 とは何か、そしてどう実装されているか
+     https://zenn.dev/aws_japan/articles/aidlc-workflows-v2-harness-engineering
+  6. ループエンジニアリングをGitHub Copilotで組めるか調べてみた
+     https://zenn.dev/jodycraft/articles/3f7548173dcb55
+  7. GitHub Actions の parallel でデプロイは8分→3分、CI はコスト3割減になった
+     https://zenn.dev/hatsu/articles/github-actions-steps-parallel
+  8. Claude CodeでAgentic Engineeringを個人開発での本番運用につなぐ
+     https://zenn.dev/okamyuji/articles/agent-driven-workflow-feedflow
+  9. 3Dプリンターを買って4ヶ月、208回印刷して分かった「使いみち」と「続く理由」(実例つき)
+     https://zenn.dev/optimisuke/articles/6d5119908cc14a
+  10. Loop Engineeringで失敗しないためのハーネス設計
+     https://zenn.dev/kamo78/articles/kaji-guarded-loop-engineering
+
+【Qiita】
+  1. そのスキル、本当に効いてる？ Agent Skills を「評価」する3つのツールを比べてみた
+     https://qiita.com/Syoitu/items/78d45bee1160d059c972?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AWS MCP Serverが普通に使えるようになったよ！
+     https://qiita.com/moritalous/items/6102ef63dc60c7e6ee3d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 新人エンジニアが進捗報告のたびに思考停止しちゃう話
+     https://qiita.com/prumnn/items/08eddaf8e9e7cec2f390?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 15年前の『アジャイルサムライ』、AI時代に古びたのは"作るコスト"の教えだけだった
+     https://qiita.com/tatsuya582/items/88508215a8e22b169166?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法
+     https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Unity 6.7 の CoreCLR Player が爆速しすぎて笑ってしまった件
+     https://qiita.com/hez2010/items/4c608360c73fc6293bf1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【AWS】DevOpsAgentで変革する自動テスト【DevOpsAgent】
+     https://qiita.com/Nana_777/items/8e2bba602339e5fc930a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 攻撃者はブラウザを開いて最初の5分で何を見るのか〜バグバウンティで認可不備（P1/P2）を報告してきた視点で書く、フロントエンドの実装防御ガイド〜
+     https://qiita.com/sei_official/items/3ce11ea5faed795d47fc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. LM StudioでローカルLLM環境を構築してみた
+     https://qiita.com/Hinata-H/items/00542a07b227f79635f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方
+     https://qiita.com/aktsmm/items/7b92f95325893cb4e5a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 【脱炭素・SDGs・ESG】EcoFlow Technology Japan：青森ねぶた祭で日立の「脱炭素ねぶた」を支援、ポータブル電源8台で夜間運行を支える - みんなの広報宣伝部
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1zb0pwV1JtVGlGcmJvV09JZGRkblhteU03SmdTNzZ2WlJfTGF4ZWVSZE1jS3d6QW9tZV9IMlRJZVctWGd0OUJ0MDExZFNEcjE5MlRQSEJ2Mkg4TnlvdC1OUlpNUjV5dUM1cWtyU0thczRvdw?oc=5
+  2. $サンディスク (SNDK.US)$ $マイクロン・テクノロジー (MU.US)$ - Moomoo
+     https://news.google.com/rss/articles/CBMinAFBVV95cUxQc21EZFR5c1REWjJnRWFZMTZjd010UjRGeEN6NjlrYTVsV29XX2hOMzhmVUdxbjhtVVprcFhBZFprOTV4eXRJUHI3bm9kR19fWTI3b0lFUlJSM2Y2QThNSjRoUWZodUM1MjNCZDZxX3JScklCWC14UXFzV1paN3QxbDJvVmpUOFF0MXQ5NUZldmhxSjVXdHM1SWxPVzU?oc=5
+  3. Rokid、AI グラス「日本 本格展開」を発表 | Hangzhou Lingban Technology Co. Ltd.のプレスリリース - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5YT1lWdm5ISmdtYVpsMURNeE9pMklsTlY5S25oS1ZhSGhvNnpDT2hBNlJyZGwtTlpKZC1NQ3dmMVBDcHo0ajRNYzNIVnF2ejhVU3RBbjBYaWtzTnlCYl9hdnBKUE5FQUEtQ3c?oc=5
+  4. AIをめぐる神々の争い｜テクノロジーの哲学マップから考える〈技術哲学入門〉 - WIRED.jp
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBaLS1veGhwUmgzcDMxR0ZzUDRmQ0YwTzVWWnZDLWpsamxfamhYTU5ha1JVdXNRMzJJM2NGSzF4LU55ZlBKQVB4dmVudV93SDllR21jR3VQbi1JbC1JYm1mX3Z0dFJEbk1oaG10NA?oc=5
+  5. WIPO GREEN Technology Forum 2026 - WIPO - World Intellectual Property Organization
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVpJeG9ZbDhEQndBdHpxZ1FwVlc3anVmcHJqaEEyZEJWRDZMVy1YWlpMYzlOWHR6OV9PNXE0SW02SGg1T3RBZHJkYmhVb0JfZmFRTGhpTVAxVURYY09aMHJaSGM4NUtlRmN0amk4ZFdGNkVPYW5oR0lqRE1IOWJzNEZRZWRwUXJZQkw4M1YwSQ?oc=5
+  6. プレスリリース：Dahua Technology、「HDCVI X Fusion」を発表（PR TIMES） - 毎日新聞
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzSVd4S0lRNDIwSDZFRWYwUGV4R19FSXA1QVhiOEdLRjV3clZZejZDc2RWZ1pkaTI2Wlc2Nm9pOWhJTnhBNkVyZHdqaVpFRmJVY2tGYWk0OXAtdUZVWUpoRFBCSlhpQ28w?oc=5
+  7. AI時代における企業変革の指針を示すDynamic transformationを核に「Fujitsu Technology and Service Vision 2026」を策定 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NOEUtdVVBU1FxTmtqQXppVlRaZHZoeHBSNWtDNHhoRERnbk4xd1Z6dTBtc003dFp2cm1SVjk1YUVqangxSlV2Q3lmYTBLcFdnZ0VNZFJXRmN2S2N3bGZz?oc=5
+  8. Micron Technology Stock Climbs 7% on $3 Billion Domestic Supply Chain Investment - TIKR.com
+     https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjQ2b3NiRHdZN2ROa0hYbmdTZUpvaV9zLTdzX3EzLUpUOXhVZ0QwQ3pOM2hWXzZveGJMZGtxdzA2b0Q3VWJxVGZ5VzEzTmFGY3RzU19ybmZNS0pLWDIwem9reXU5OFphTERfdFZHOXE3TlBjaVFqNVdoaHBFRF9YdU5ES0kyV2hfSzdKcllxSjZ1dktHejZaVTB6Qk1iekd0dDY4SW5vOHpqcm1UX2xxR0Riano3OXN3RXBVcllrYkM3X001NHc?oc=5
+  9. Rackspace TechnologyがPalantirとの提携発表で株価8%上昇 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE5sRElsUWt0YW91RktBMVRYanN0VUZJaGZPTl9XZFRsQ1BvbnFYUEdCdm0xYTM1MG1RRnEyVUE1Wld5M08zQVhZbHBSRHlUbzFBdW5xRnJYTkp5Q0NDYTA1UE5xRWJBdWFVREphUHhKSWpyZ0hUdVpZ?oc=5
+  10. GMとMicron Technology、次世代車両向けメモリ・ストレージの長期供給協定を締結 - レスポンス（Response.jp）
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE14dWhOVWxCVElLOW5NOHU3N1BpVm9yak5MT2RxUVRtWnY4bTBUbkMwSmZ1ZFdURlhaajdWbmZkb2s1Rkp5elNJOE41QjRhVmpXcmNNSU94NUhZSGoweTdr?oc=5
+
+【Google News (Business)】
+  1. アストロスケールHD岡田社長「スペースX上場で民間宇宙ビジネスの幕開く」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE16LXhjS3dnTmhaS3RJYTB6bkRqSkdBY1U0ZU9ueG9DVG9Lb3BTSFdKVFAweFBLLTg5UEhxSEhoSlNIdzg0T3NQRkpoanVBMHRxbVA4UkRFdjRkSnVQbjYycGZR?oc=5
+  2. 【イベントレポート】その技術、ロケットに使えるかもしれない——福岡企業に広がる宇宙輸送ビジネスへの参入機会 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5MWFFnU01xdGpPTVZ0ekhhaGh6MFJfTDJaaEhlTUV2c2lwVUtzcXFXWXctT3NId3Q4VURVZjI0eWFDd0l0bkV4Z1NkM0VFSkVRWnd3by1KQ3JCdGNzS2RmbmRtaG9sV2RZYXc?oc=5
+  3. 「モンスト」欧州での展開検討…「なるべく早く」とＭＩＸＩ木村弘毅社長、ＩＰビジネス拡大にも意欲 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxPVUxUN2ctR240MmUzeGJ3QjRSMzRkdXkyVEFsUWtvZDFtLVRqUnhUTE05V3dwMzNmTmd0dEdoYWU5RGU2Y2VkMU1lem9lUVVfc1Fmakp3ejRXUEtZaWctb0FQWW82MVMtalFWdVhHXy0tN3FhN21naWdhb0Y1bWhHLUg5RXM2aU3SAYwBQVVfeXFMTS1pNktaZkpRZVJyRVVjSGhSQ0FVRzVTOUdzSm0yeWVPM05HOG05NUZUTkRKMDFZWmVOVGZvUmpnMkRGQWVjbGlxNjBNOGNDNkw3bDRxcXM2ZUxma0hQT1BIaWw2eTBCOGNJNkd4UVlMQVlkX2RxMmZSX0IxTzlVMzNYQ2lVdW9xQXlKdGw?oc=5
+  4. 【佐藤優の1分読書】ビジネスパーソンが出世競争を勝ち抜くための「意外な最強セオリー」とは？ - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE03blRJVUhvMnM3VnF4SEtlMVZNc3l1N2puLW0wMHVXVzJmVWV6TG9xT1NyRUxrNGZIR2xqbUNjY3VUakZxMExfMGFQSkbSAU9BVV95cUxNSlpjZTZwTXJYcGVLN05TRExfdWZmQS11bThfbTlpTTI0eDhwMGpuaFRyLW5vWjVsU0FwQV9saU5qWHpmVmVGZFpkZFhaeHRn?oc=5
+  5. なぜ二股ソケットは大ヒットしたのか パナ創業者の商売術：大阪ビジネス（3/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE0wLV8ya3BEakxkMmVZbWQ1TE56QjlvV1FGYTZHdzNlVlVXN1F1TUFGWUZJSEh5ZnhWSi12c1Z3OFFQUXVvMVQ4ak5xY25nUjlWR1hTYTBCSjdXYVVQSnR3aDB6R2M0SU01V2dWV0JoTTNBSDhk?oc=5
+  6. 大手テック企業、リストラ費用に数千億円を計上…AI投資の裏で進む人員削減（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1zN2RLcHJUU1NMNnU1RDBhamdEb3lYbW9sT05IUUhGdDk0NDFUOU5nVVRuNnhqOWs5SjJtN1lCUFoxV005Y0xTVDUya3p4bl9uM25kVWRRem9VNHI5c3ZiT0tURC05QWR5dVJ5Tnc1cU5uNDh4cmtYTWpzaUNQbnc?oc=5
+  7. 「持つべきものは自分の会社」…私がGoogleでの年収100万ドルを手放し、AI起業を選んだ理由 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMipwFBVV95cUxOUHBXUVNLRFUyYnpzSllLOWdCamJJRWJxMThKS2xHRkdycmkybjJtQmNIWmQyN2w5YkxmMnJzUGNXY2JNNlNoeUdiaGNPaFhuYnNHRVplY3R4aFlZQnBsNUtWZFlSdGVMVWIyMGJENVRpOG5yZE4tMG5HUGJyc3pRVVpXTnQ0YUVJSzF6b1NWUjh1b194UVc5bDFnVFRxTnpFZVVPeF9Jbw?oc=5
+  8. 失われた30年を長引かせた根深い理由…日本企業に染み付いた「会社の利益は返さなくていいお金」という致命的な誤解 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRYk5xT20yM3RNWkpwUUNnWXFNNjBqRmNVb1RsT3JMNFBWUUlTU3d3LUFJRkxDdnVhd3laa0hKNC1MVlUyd0d6MlNGMmlmd0F1QkdUSU5n?oc=5
+  9. Niigata Case Crossing#3《新潟発イノベーション創出ピッチイベント》 - city.niigata.lg.jp
+     https://news.google.com/rss/articles/CBMimgFBVV95cUxPSnozZDRSN19VNFpISDUwUV81WFVacW5RUnZPVTJxS2haUUdBMllXQjZTWFZNNkhJT0k1MEwzeFZjNlRIamNrbW1nQmEwdHhHdy0tTjZjcEdMSmpjNjhId0xrc1hCcGdhbEJ0R2dFaUFHNElzNmFWaV9qUXVqdG93aTIzR0cyblJmRzlRWmdqU20wcGdablV0SlhR?oc=5
+  10. 東レ、脱PFASの電解質膜開発 規制味方にデュポンの牙城崩しへ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3YVRRejAzZ2UxZURDTTl1R3hwMEFHTVNzNExxazJKUHdTRW5LLVZ6Y040SEhZa250elZQem40b3ZydjJQTmpsaW82bTFfcWp6a2NkM2JxMzJLWDBxeHFHSkNQZXVVZGs?oc=5
+
+【Reddit / technology】
+  1. Traffic Camera Captures Woman Driving With Her Phone on Her Lap (Face Down), The State Mailed Her a $1251 'Public Safety' Ticket
+     https://www.reddit.com/r/technology/comments/1uts82m/traffic_camera_captures_woman_driving_with_her/
+  2. Ukrainians are using VPNs to cause havoc in Russia by changing fuel station statuses on maps in a bid to cause chaos and confusion
+     https://www.reddit.com/r/technology/comments/1utue6h/ukrainians_are_using_vpns_to_cause_havoc_in/
+  3. Microsoft loses Brazilian court case after telling hacked Xbox user to re-purchase games — tech giant ordered to restore Xbox account with all games and pay $400 in damages
+     https://www.reddit.com/r/technology/comments/1utm9nv/microsoft_loses_brazilian_court_case_after/
+  4. DOGE officially shuts down
+     https://www.reddit.com/r/technology/comments/1utgevw/doge_officially_shuts_down/
+  5. Chinese courts allow heirs to inherit accounts of deceased gamers — multiple cases spanning years establish precedent for digital ownership of games, in-game items, and microtransactions.
+     https://www.reddit.com/r/technology/comments/1utvojo/chinese_courts_allow_heirs_to_inherit_accounts_of/
+  6. Steam now has 50% more users than PlayStation, and Sony's own decisions might be pushing more players there
+     https://www.reddit.com/r/technology/comments/1utjcdg/steam_now_has_50_more_users_than_playstation_and/
+  7. Tech bros puzzled by why AI hasn’t “massively disrupted” books yet — The answer, as some pointed out in r/singularity, has to do with LLMs’ lack of an ability to concentrate
+     https://www.reddit.com/r/technology/comments/1utjvvf/tech_bros_puzzled_by_why_ai_hasnt_massively/
+  8. America’s AI revolution could end in disaster
+     https://www.reddit.com/r/technology/comments/1utx0il/americas_ai_revolution_could_end_in_disaster/
+  9. AI Fiction Is Easy to Detect Because It's Stupid and Bad, Research Finds
+     https://www.reddit.com/r/technology/comments/1utmgpn/ai_fiction_is_easy_to_detect_because_its_stupid/
+  10. EA Removes College Football 27 Microtransactions After Player Boycott
+     https://www.reddit.com/r/technology/comments/1utjp4x/ea_removes_college_football_27_microtransactions/
+
+【Reddit / business】
+  （取得できませんでした）
