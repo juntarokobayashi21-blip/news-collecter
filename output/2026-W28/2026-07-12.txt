@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-12
+============================================================
+
+【Hacker News】
+  1. Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS
+     https://scrapfly.dev/posts/browser-math-os-fingerprint/
+  2. Tiny Emulators
+     https://floooh.github.io/tiny8bit-preview/index.html
+  3. Cyberpunk Comics, Manga and Graphic Novels
+     https://shellzine.net/cyberpunk-comics/
+  4. So you want to learn physics (second edition, 2021)
+     https://www.susanrigetti.com/physics
+  5. Ask HN: What Are You Working On? (July 2026)
+     https://news.ycombinator.com/item?id=48884984
+  6. Designing and assembling my first PCB
+     https://vilkeliskis.com/b/2026/0711.html
+  7. Kode Dot Programmable pocket device for makers, pentesters and geeks
+     https://kode.diy
+  8. Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k
+     https://systima.ai/blog/claude-code-vs-opencode-token-overhead
+  9. Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper
+     https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6
+  10. Old and new apps, via modern coding agents
+     https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/
+
+【Zenn】
+  1. ハーネスエンジニアリングとループエンジニアリングの違いとは？ aws aidlc workflow kitから整理する
+     https://zenn.dev/tacky_exception/articles/4d77fef5a36e42
+  2. 情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話
+     https://zenn.dev/seiuchi3939/articles/b12d6746d9f187
+  3. Excel/VBAとモダン開発のあいだ ─ 2026年に相次いだ XLIDE・xlflow・xlsm_devkit
+     https://zenn.dev/minipoisson/articles/excel-vba-modern-dev
+  4. Rust + Tauri で古い Mac 風のシステムモニタを作ってみた
+     https://zenn.dev/m2lab/articles/rust-tauri-sysgauge
+  5. Cloudflare Registrar + R2 で個人開発アプリの公開基盤を構築した記録
+     https://zenn.dev/unsoluble_sugar/articles/a6fb2c3efd5a66
+  6. Markdownをpushするだけで社内資料PDFを常に最新に — WIF×Google Driveで鍵レス自動配信
+     https://zenn.dev/o2wsu9/articles/36dea065f5d73c
+  7. ナレッジグラフだけじゃない。AIエージェントが使う5種類のグラフ
+     https://zenn.dev/knowledge_graph/articles/ai-agent-five-graph-types
+  8. Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (1) - 文字列のハッシュ値生成
+     https://zenn.dev/xin9le/articles/6fb2045805996c
+  9. ボードゲーム「ナショナルエコノミー」をブラウザで遊べる非公式サービスを作った
+     https://zenn.dev/lambdalisue/articles/introduce-unofficial-national-economy
+  10. AI-DLC Workflows 2.0 とは何か、そしてどう実装されているか
+     https://zenn.dev/aws_japan/articles/aidlc-workflows-v2-harness-engineering
+
+【Qiita】
+  1. AWS MCP Serverが普通に使えるようになったよ！
+     https://qiita.com/moritalous/items/6102ef63dc60c7e6ee3d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 15年前の『アジャイルサムライ』、AI時代に古びたのは"作るコスト"の教えだけだった
+     https://qiita.com/tatsuya582/items/88508215a8e22b169166?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法
+     https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 攻撃者はブラウザを開いて最初の5分で何を見るのか〜バグバウンティで認可不備（P1/P2）を報告してきた視点で書く、フロントエンドの実装防御ガイド〜
+     https://qiita.com/sei_official/items/3ce11ea5faed795d47fc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Unity 6.7 の CoreCLR Player が爆速しすぎて笑ってしまった件
+     https://qiita.com/hez2010/items/4c608360c73fc6293bf1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. ollama-pythonで文章校正
+     https://qiita.com/AzukiImo/items/8aae8d912a016eea7683?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【実験】AWS 東京と大阪を閉域で繋ぐ3つの方法、実際どれくらい速さが違うのか
+     https://qiita.com/sh_fukatsu/items/541051be6cbd4a90f2a6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）
+     https://qiita.com/fuyunoki/items/5818688d20225aa8088a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい
+     https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Azure Durable Functions入門｜非同期処理を「順番・並列・待機」でシンプルに書く方法（Python編）
+     https://qiita.com/Hinata-H/items/acdc8ed745e44cf9c90f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. LLMは何を考えているのか？ アンソロピックが見つけた「隠れた領域」 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT29UMTliSXduWmlIajhLUUdKMUlYVjZZVjQ5WFQ1ZDkxbTFPa0hmX21pajhVeHZUNlVwZlpnckNvUmJ5M0NaZVAxWUxHdWxjUXZJMmZtT3pLeG9NdVFtUjYwa0xDYTFkUzlDX0hqZzdtMnF4LUU5c2ZYLXZGMzBrMlRwNU1OVWpyV0Z4V0xIQnpETEdzUVJjbE9YNWVVVEw2MlRHdENpdWlGYlk?oc=5
+  2. AIメモリ・スーパーサイクル、台湾にも恩恵…Nanya Technologyの営業利益率74%突破 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE5aSndmMXA3aEc4Q0JVZVRjd0ZOYmpiYmp0dGJFU3gzd3daX0l5Tmc4MjF0T216NUF0bnhhb1VMcjVaendTYndmbHJHdVhXZEFYdHJEZWwxS3ZGUWlBR0xiSE1fbzI4N3g2YTB1TU9MWXItTURS?oc=5
+  3. (株)ＰＫＳＨＡ Ｔｅｃｈｎｏｌｏｇｙ【3993】：掲示板 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE8ydlN1eXU2a1JPTGVtaXEtNkhQQVdCa1ZOMDU5aFZUVWhJTU9mbmVTclJNREJPUnRwYnQ3aW9PcGRfdllRdWhTTTlWUUh5aFhlam9QWGl1TXVYZw?oc=5
+  4. $マイクロン・テクノロジー (MU.US)$ $サンディスク (SNDK.US)$ $ウェスタン・デジタル (WDC.US)$ - Moomoo
+     https://news.google.com/rss/articles/CBMitwFBVV95cUxNbG52TlY3d0thV3lWZ25iRHpGcHlWR0tXNE9JYnhzOHhlT0x0NzJaWVpOT250b1RLWG12bGZnWHB4eHdUU0VyeUJmelQzSE5IaldSQmgyRTFpdmNiUU9DTllYVGhaa25jQ1BZR001Sk5EN2taRkt6S09mQ011NW1xel9hM182anZBbjk4dVpJaFJUS0VkM2J6U1lndm04OUc5WmhZM3A0VjM2V1NBN2JsUWpXODNpa2s?oc=5
+  5. アメリカ化するサッカー W杯から見える「テクノロジーによる変化」【西田宗千佳のイマトミライ】 - Impress Watch
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1wU1pKV053THlta0o0YkFMRDNKNTJSbGo1Z3lFbExqRHJDOXZUTDVqTU1pd2tka3l6ZXh4Q0wzMG1nMkhkRjBMcXdPaU83QlB2Z3hkSktVRC04bWRRbW9FaV9wOUZDWmhIb19laWY1VlFzQQ?oc=5
+  6. 日本のSaaS事業者、オラクルのテクノロジーで次世代のAI搭載サービスを構築 - Oracle
+     https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUk9nSUhXUW1WZnBLeUxROTA5clZVdDV0MlN6MGU3aU9RbU9TM2l5MXBTUXpVcWlNM0tKZzJ6YThlcUZXZ2N0aWtXdHNvY1BxbUZ6TXZQUGRrVlByUzFrcVp1MUN5M19DTDlpVFVibTk2X3pTVWtYS2tTVTVIejducElaMWphVUl1ZFZJSEhqS1VqLWl5alZkZnh4MUlrcUtldWFJdUg1S3BpNmh4ZUN1ZTFwejRya2x3cERuUFhNVGFxSG5oYW9sYUp1cm5hNUVmUDZV?oc=5
+  7. AIをめぐる神々の争い｜テクノロジーの哲学マップから考える〈技術哲学入門〉 - WIRED.jp
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBaLS1veGhwUmgzcDMxR0ZzUDRmQ0YwTzVWWnZDLWpsamxfamhYTU5ha1JVdXNRMzJJM2NGSzF4LU55ZlBKQVB4dmVudV93SDllR21jR3VQbi1JbC1JYm1mX3Z0dFJEbk1oaG10NA?oc=5
+  8. Rokid、AI グラス「日本 本格展開」を発表 | Hangzhou Lingban Technology Co. Ltd.のプレスリリース - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5YT1lWdm5ISmdtYVpsMURNeE9pMklsTlY5S25oS1ZhSGhvNnpDT2hBNlJyZGwtTlpKZC1NQ3dmMVBDcHo0ajRNYzNIVnF2ejhVU3RBbjBYaWtzTnlCYl9hdnBKUE5FQUEtQ3c?oc=5
+  9. WIPO GREEN Technology Forum 2026 - WIPO - World Intellectual Property Organization
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVpJeG9ZbDhEQndBdHpxZ1FwVlc3anVmcHJqaEEyZEJWRDZMVy1YWlpMYzlOWHR6OV9PNXE0SW02SGg1T3RBZHJkYmhVb0JfZmFRTGhpTVAxVURYY09aMHJaSGM4NUtlRmN0amk4ZFdGNkVPYW5oR0lqRE1IOWJzNEZRZWRwUXJZQkw4M1YwSQ?oc=5
+  10. 【脱炭素・SDGs・ESG】EcoFlow Technology Japan：青森ねぶた祭で日立の「脱炭素ねぶた」を支援、ポータブル電源8台で夜間運行を支える - みんなの広報宣伝部
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1zb0pwV1JtVGlGcmJvV09JZGRkblhteU03SmdTNzZ2WlJfTGF4ZWVSZE1jS3d6QW9tZV9IMlRJZVctWGd0OUJ0MDExZFNEcjE5MlRQSEJ2Mkg4TnlvdC1OUlpNUjV5dUM1cWtyU0thczRvdw?oc=5
+
+【Google News (Business)】
+  1. ｢サポート詐欺｣が猛威､企業向け詐欺の横行で億単位の資金だまし取られる被害…学校･自治体も注意､変化する犯罪の構図 - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xNUNINVdUVm9ibkNRN2FVdVlBSlV1cEZMTkRlUzZkRXFpaWc3WE40aGNnSFlyR09jZFg3TEl5X3pTbWhFVi11eVFoQ1J3NUh5TEpSTm5JNEpuRjg?oc=5
+  2. ［独自］株主提案賛成率ランキング、日鉄狙うアクティビストの奇策が上位に - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNSnFoT2hTVGxHaVI0dXlhOXVNczRsc1JBTExCQTZLNGJyNTlQU1RZcG1Ec0NLNjRJel91cXppUWxOZDZhY1NDZkd3ZmNTcURWRmh6NjFkNjhTOEJES3JYaEFvYXJMc1k?oc=5
+  3. 「ジブリですら儲からない」…アニメビジネスの常識を覆したソニー、『鬼滅の刃』で結実した収益化の仕組みとは - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjM1ZzUXVkNURNLWpWX0JLeDRYQWpDWG5CamxsX3R5MEJRMnYxZmJHZDFRYmV0cjRRLVJRbl8yaUxYdDAxQjNVZFNKRVdYMENTN1hGOGxB?oc=5
+  4. 【日立製作所】日本の企業文化を変えた「選択と集中」の次に来るもの｜ビジネスパーソンのための占星術 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxQdl95OHk2VHdGa0lBaXZuYXdHeTRrdm82SmxmZUhlTDFvMHhYZkVtdkRyVWU2aS1RTWlGQVRxVVpEYzBxT3JTTlpKQjU2UzBTYk9jczd4MF9DS3V3NHdpSDI4eFR2WmRaZ2tYR2hYV3pmcHV4bmd4QmtjaXVodXo5d1pTUmFSMEpRY2fSAY8BQVVfeXFMT0tqRGZjMXR6VVBmT0E3ZlA3bEl3MlAtcDcydFlyY2lOLUdNWkJEdE5Vdk9qd1kzUU1ZakVIU1M3T096QV9mYlRUWjkwT2dva1ZvNWtBZ1ZiVDRKUDY4cmZrZEw3Unp2dVEwSjNqa2dDN01JeHBCbG4tNG9vNHl0TER0NXpPdG05WThGLXdySkk?oc=5
+  5. 【三菱UFJ銀行】MUFGグループのタイの大手銀行Krungsriと「Japan-ASEAN Startup Business Matching Fair 2026」を共同開催 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9RVHh1c240LUVkVkNjZ1pERFdwLU8wbC03YVBrRUs4T0Q3VHN3NTVycVlVNXdpYVJucS1hRHA0OE5wTmozR0EzcmQ2eFJmSkZ1Nk5lYW9aaVhtVmx2M0lyTGdNMDVqYmtPd3c?oc=5
+  6. デルタ航空が「ベーシック」ビジネスクラスを導入…その仕組みと、手頃な価格で座席を利用できるようになる可能性について - Business Insider Japan
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQRC1BdEVYNnBVc1VGM3dVc1E1SkpjcnVvYkpqNVByc1BpY2x5VEh1SzR3Y2I2anplY2hNUHRkMGxHNHFDN0xGVnpUSVM3ZFNsSlA0T2VCR1FyQUVaT21QcVBtSGxGRDVnVkZvRW9UYTBQamowS1ZnS0dpbGpoQ09pU3FPZThvQXZJUTZvOHdn?oc=5
+  7. 【イベントレポート】その技術、ロケットに使えるかもしれない--福岡企業に広がる宇宙輸送ビジネスへの参入機会 - 西日本新聞me
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KS3lNTlVlOVJWQmZDcWx1aTJYcTFmbUZCSzloTVhfRFNHYXh1cThtUk9Ed1ZGbjM5UWNucHZSRGQ2ZWI0cjBWZHcycFlzcE9vLWxxQ3Bn?oc=5
+  8. 【佐藤優の1分読書】ビジネスパーソンが出世競争を勝ち抜くための「意外な最強セオリー」とは？ - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE03blRJVUhvMnM3VnF4SEtlMVZNc3l1N2puLW0wMHVXVzJmVWV6TG9xT1NyRUxrNGZIR2xqbUNjY3VUakZxMExfMGFQSkbSAU9BVV95cUxNSlpjZTZwTXJYcGVLN05TRExfdWZmQS11bThfbTlpTTI0eDhwMGpuaFRyLW5vWjVsU0FwQV9saU5qWHpmVmVGZFpkZFhaeHRn?oc=5
+  9. 週5日勤務も当たり前 65歳以上の“ハッスルシニア”が担う仕事の中身（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9BX2lBT1JMeXgxSVk5bFF5ZlRGdTVEcnQ0YWFpdEVZc3dSUGhUTGF5bkJsVTNoTk5ya1VvVlZYTUd5U2NlUER1NzV5dUNscDlxMGhOdjFvT1JWa3hzNGdGM1N0NnZ5TWliMTVWa1NfWUhhQQ?oc=5
+  10. AI時代に求められるFDE--技術とビジネスをつなぐ「前線エンジニア」の条件 - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxM3UxeHVVczdHZUZNZnZHNFhxUmxqZkNZVTBDU0k1T3hLX21pLTJ6R1Nleml6N3FFMXo5MjdOQ3Z2SWxTd3N0ZGhhZ21pZDJnblhz?oc=5
+
+【Reddit / technology】
+  1. Peter Thiel and other tech billionaires are publicly shielding their children from the products that made them rich
+     https://www.reddit.com/r/technology/comments/1uul4qu/peter_thiel_and_other_tech_billionaires_are/
+  2. New sodium metal battery design charges in just 4 minutes and retains its capacity for years
+     https://www.reddit.com/r/technology/comments/1uufxgh/new_sodium_metal_battery_design_charges_in_just_4/
+  3. They steal our data, they steal our democracy. The moral catastrophe of Big Tech’s totalitarians-for-profit
+     https://www.reddit.com/r/technology/comments/1uuq15z/they_steal_our_data_they_steal_our_democracy_the/
+  4. Rare bacteria traced back to Meta data center construction in Wyoming
+     https://www.reddit.com/r/technology/comments/1uuf8l1/rare_bacteria_traced_back_to_meta_data_center/
+  5. Journalist Alarmed When He’s Fired, But Company Keeps Posting AI Slop Under His Name
+     https://www.reddit.com/r/technology/comments/1uuo83h/journalist_alarmed_when_hes_fired_but_company/
+  6. IT admins feel overwhelmingly "sick of" Microsoft and Windows 11 "garbage" apps, products
+     https://www.reddit.com/r/technology/comments/1uuas5j/it_admins_feel_overwhelmingly_sick_of_microsoft/
+  7. 'Fuck the Glasses': Lorde says Ray-Ban Meta AI glasses are ‘not sexy’
+     https://www.reddit.com/r/technology/comments/1uurce3/fuck_the_glasses_lorde_says_rayban_meta_ai/
+  8. Three States Passed Laws Against Grocery ‘Surveillance Pricing’ Last Month—Here’s What It Means
+     https://www.reddit.com/r/technology/comments/1uusynw/three_states_passed_laws_against_grocery/
+  9. Windows 11 Copilot now tells you what’s slowing down your PC, while using 1GB RAM itself
+     https://www.reddit.com/r/technology/comments/1uujcry/windows_11_copilot_now_tells_you_whats_slowing/
+  10. The Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media
+     https://www.reddit.com/r/technology/comments/1uu48xt/the_death_of_the_status_update_why_55_of/
+
+【Reddit / business】
+  （取得できませんでした）
