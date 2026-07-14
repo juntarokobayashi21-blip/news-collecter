@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-14
+============================================================
+
+【Hacker News】
+  1. Bonsai 27B: A 27B-Class model that runs on a phone
+     https://prismml.com/news/bonsai-27b
+  2. Dependabot version updates introduce default package cooldown
+     https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/
+  3. Financing the AI boom: from cash flows to debt [pdf]
+     https://www.bis.org/publ/bisbull120.pdf
+  4. The Tower Keeps Rising
+     https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
+  5. Cursor 0day: When Full Disclosure Becomes the Only Protection Left
+     https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left
+  6. How I use HTMX with Go
+     https://www.alexedwards.net/blog/how-i-use-htmx-with-go
+  7. Your 'app' could have been a webpage (so I fixed it for you)
+     https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/
+  8. Mathematical texts from a Maya site in Guatemala identify an ancient astronomer
+     https://www.nature.com/articles/d41586-026-02170-8
+  9. The largest available Minecraft world, totalling 15 TB
+     https://2b2t.place/1million
+  10. The Estranged Worlds of J. G. Ballard
+     https://lareviewofbooks.org/article/jg-ballard-illuminated-man-christopher-priest-nina-allan/
+
+【Zenn】
+  1. ローカル LLM を構築した
+     https://zenn.dev/neet/articles/11bafab8645995
+  2. NotebookLMが作成したスライドを編集可能なスライドにする方法の検証
+     https://zenn.dev/hirata_infosys/articles/81bc35da78fa1d
+  3. バラバラだった staleTime を、データの性質で選ぶ4プリセットに集約した
+     https://zenn.dev/dress_code/articles/78ce46997dfe96
+  4. Claude Codeでレガシーシステムの刷新を進めた方法
+     https://zenn.dev/knowledgesense/articles/67c61463d9c664
+  5. AI時代のObservability設計 - PIIとAIの検索性を両立させ、自動修復する（実践編）
+     https://zenn.dev/aircloset/articles/3b8e60fcaab4b7
+  6. AIにルールファイルを数ヶ月自動更新させ続けたら、ルールは"良く"育ったのか
+     https://zenn.dev/r_kaga/articles/c9fcb75f1ff284
+  7. 調査用スキルを作ってみた
+     https://zenn.dev/tokium_dev/articles/building-a-research-skill
+  8. Agent-as-a-Judgeは本当に必要なのか — 評価にエージェントを使う意味を考える
+     https://zenn.dev/takkuhiro/articles/agent-as-a-judge-necessity
+  9. AI臭は語彙よりリズムに出る - 自然な日本語を書くAgent Skillと7モデル×406本の実測
+     https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint
+  10. 後付けでいいから、自分の行動に理由をつける
+     https://zenn.dev/kamos/articles/reason_after_action
+
+【Qiita】
+  1. 「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい
+     https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. あなたの技術ブログの「AI臭さ」を抜くスキル公開します
+     https://qiita.com/minorun365/items/699e89544da8b0de300d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Railsで学ぶ 暗号化とハッシュ 〜master.keyやDeviseは内部で何をしている？〜
+     https://qiita.com/akachiryo/items/5a1deaa541d70e11d85f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. エラー対応理由考えてる？コピペしてAIに聞いてるでしょ
+     https://qiita.com/prum_sumomo/items/535a697aeaea41515de9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 「めっちゃカメレオン」が教えてくれた、アイディア力こそAI時代の最強武器
+     https://qiita.com/prum_sumomo/items/dbabb5c130aae2566f0f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. # 僕より入社同期メンバーが先輩に可愛がられる理由、後から気づいた小さな差
+     https://qiita.com/prumnn/items/3b1e01cf7a2d77b45da1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AI⇔人間 がdiff上にコメントを書き合える「hunk」がすごい
+     https://qiita.com/kuma_3838/items/14df505c7023f665c585?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. ECS と Kubernetes の違いを多方面から徹底比較
+     https://qiita.com/keitah/items/b35fc1c3b0dd8f6d7052?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. OCI の Cohere Embed 4 のミックスモーダル埋め込みの威力を試してみた！
+     https://qiita.com/yuji-arakawa/items/a41759c419b51c83c567?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Amazon S3上の大量ログを Autonomous AI Lakehouseで分析する：外部表、Parquet、SQL、Vector Search、RAGの使い分け
+     https://qiita.com/shirok/items/2eafd347f90e80c46005?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. "倉庫"を舞台に、ソニーのテクノロジーの力でアーティストの魅力を届ける体験型企画「SixTONES STock」 - Sony
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TEFPLXVoUE1JbWJQU3JZRFMzU2VqdC05OHlRU1p3dzdCRkEtTEtKYXMtNEJ5N1Jibl8xLURPY1ZnMlY1bmhoNmNIZ1FNTHBzR2dvZDF3YUpUQjlabWc?oc=5
+  2. イーソル、7/17に東京・品川でPBフォーラム「eSOL Technology Forum 2026」開催 - オートメーション新聞
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jZFcwOFE4R09qMnV2SjdPNGRDY0VKZFFIak82RGlLNnRDZEM1VkNyck9jLXB5NnlybDlTSTA4aDhFWWNrZ3J6UDR4a3RYZ0hibmIwZTZialBJQQ?oc=5
+  3. (株)ＰＫＳＨＡ Ｔｅｃｈｎｏｌｏｇｙ【3993】：今の株価の理由は？値動きの背景をAIが解説 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtWkd5UEhhSXAxNDVLZnpkaEgtU2F1ajZqZVlraWpUcUtKR3BfX3p2enAtQjJBNm1hZ0NqRnBleWVweEVHWUZUQVljYW1kbVdBdFV3UGxiYVpWbkVTczNZ?oc=5
+  4. $マイクロン・テクノロジー (MU.US)$ ケビン・ウォッシュ氏スピーチ要約 - Moomoo
+     https://news.google.com/rss/articles/CBMiqgFBVV95cUxNajlYOUZZaVlhbHdRZmxKLWpMUlFtb1JzZFFsWDdKbkRlTWYya3ByY2daNDk3TGkwcVVQbHg1T1p4ZFVrLTVqeXNyd09MWmFfZ2JRVzRXMUxVYXVySGF4TVEyS3I0VlJraUxrU0hCODJETDJuTVI4WEIwZUFubm8tWWlacG1rZ21FLXNfUkxPY043Q0tqVzhJR1pYSTRNZy1FYlphdU1IWGFwUQ?oc=5
+  5. 心臓カテーテル治療における高画質と患者負担の軽減を追求したイメージングテクノロジー「SmartIQ Technology」を販売開始 - Digital PR Platform
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1Dem4wUGhNLTI5eW9JZEZEOTlmaGlweHVOMGxOMFU3NHF0NnMxQnhsRUUzYXhWOG1yMFI0QURwXy1lX2c?oc=5
+  6. MITテクノロジーレビュー「エージェント信頼度レポート」10の要点 - Forbes JAPAN
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE42X09iNFZJNVl3Rk5ZQUREamdXRVZrT1dZR18yODlTZGZmaUJqRDRGSU50UFA0RUlFOEFnaXNlMEQxajFkTTgtS19XLVhyUnZRaFh2eWlzelJtUQ?oc=5
+  7. フィリップス・ジャパン，心臓カテーテル治療における高画質と患者負担の軽減を追求したイメージングテクノロジー「SmartIQ Technology」を販売開始 - innavi net
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFAyXzZVbDJZVk10VnA2a1lmZHNHUGxJNXNuZmk2bUxzX2tKU1IwVUFwTmFqTjZuOTZCdVBTRE5UODhHX2ZxWmZZTnpvUjRTbmxsa0pVU3FDVW4yZ2NvQ0UyYWZqQ1RPSkdEY3c?oc=5
+  8. 公益テクノロジーは国家に奉仕するのか――AI時代のテクノロジーと権力 - WirelessWire
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwWkRBbG9hdEJlS2o3YXkzR01KNHdaa2w2cTlWZGwwcF91WElmVFpJN3VvN3lpN3BWZi1TYUp2SVFmWS1naUVjck9sMmFrREU?oc=5
+  9. ELSA deploys Indonesia's first offshore CEOR technology - IDNFinancials.com
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxPYXA5N2s3TFNIcWx5bHdRcXBFRWJ2Y0hoYUJXMGdROGd0WFM5cUtLUlZENFBWMXVHanpENzJISmFUazVaOVdoZEU0S1drNUF6S0Z5Tk5kSGczZWNCTlY0eVBwcTE4UE1seVFFUkxLMElhcXVXOXRDUjU4NFY4ay1SendUWHhOeU5LSlBreVRTNjY3eEJNSlVDSGRDd1dKNTh3RU1Wag?oc=5
+  10. アップルのMacチップ戦略転換、自動運転車の「失敗」がAI基盤築く－Power On - Bloomberg.com
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE4ycXFXbVcyY1JPa21jQ1J2YXVDTmxQSm1YQS13TlI1bFJoWG9abXdEVkN0WV9VVnptOWVjdzVWWlFwVXlPVVpLaWNIWUJyYXVWWEdYUUFjczljN0FYRU1GU2FMYldvOWdRbDRhdWFGWTFzaWdJWW10LXdzMA?oc=5
+
+【Google News (Business)】
+  1. AIを「積極活用」する中小企業は3割にとどまる 「AI必要ない」と考えている職種は？ - ITmedia
+     https://news.google.com/rss/articles/CBMia0FVX3lxTFBJcWhNWVJEWTlrTDg1a0hKR1djZzJPTFozRWE0Vk0yNjhWOWhzX3Z2UUlpWlBSU2R4Qzh1UjFzZmpEWHBPNEdnRlR4WEhnWmFQQ0NBSTBmb0oyWnJQV0ppR042N3d5cTZpbW5N?oc=5
+  2. 「世界初の上場核融合企業」が誕生。200億円超調達も年50億円の赤字が示す現実 - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE41U2w3WHpwUnZINk5kNWxBZXI5VVhvMmNuSUpLR2FwNXRlRTJiREZCUTBuMkd0OFFILTRDUU8xVEtKZnpaa3ZrMDdBVmFiZFZLZURJeS1FNmZFQ3BNTlU2NldZdGNDQlpwVk1aUDB1NlFFQ044N2htTDhFZ3l4NUE?oc=5
+  3. 日本の特許競争力、G7で最低 産学連携のビジネス活用弱く - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFBtY2JwNG1ZTHMwZ2t1aWppTWQ1eWh0a3JKM2lYY0E3cWxad2MwUlByNjNfTk9yZTFSLVlGMTBBb1N6MDA0UGpfdHhiNk5aUDhwVGZjMC1kMGhRYl9uejBQVXVaOE9qTUV0ZjVQeA?oc=5
+  4. 企業の集中、頭でっかちな経済にご用心(1/4) - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FWmlEUGVIZFZUUVR6a0lmVjRwSERjMXFWanVGcm54SDJsbDhxQ2VxdE55WjE5b1lwRFYyamIzZUcxbFFjVmctM1JTbXVNRk1nbURicFpn?oc=5
+  5. 【8/27開催】「FASTAR13th DEMODAY & Business Matching」 - sogyotecho.jp
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PMU02TU5qSTRRTlJuOHh3eW92R0gzbF9Bb2xPMGpwcVN6UU9IRWVxUi1xMUVTTml1Y0tISmY5SG5DX1BHWllNZ1JLb043emtLMHhaeA?oc=5
+  6. マッキンゼー、BCG、デロイトの新たな競合は「コンサル出身者」たちのAIブティックファーム。巨頭に挑む7社のビジネスを探る - Business Insider Japan
+     https://news.google.com/rss/articles/CBMigAFBVV95cUxQNG1wRFRGTnV6ekhuaVQzcEhONjZtRzZrMVVpT1BpY2dQNlhtbEw0SmZTamstb2g2Z1RDbG1seHk4R0hhMU9PSkQ2azdZOHJ5TkhocmxJaFZTQ0s5bllUd0t0WWh3TVdON1ZIWkJqcHlNdERBbHI5TGN2R2cxMGNxZg?oc=5
+  7. 孫正義氏が予測する2040年--「AI企業に仕事を奪われる」時代の経営戦略 - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EdnliakNYMlNsbW8tcGdDSFFkbjd3dVd1NmVHbFZKRXE4U0N5amlrdlVKVEZHQmFSZllrSTVYQVdROUxxMFZ1bmZtOTBnRmRfTUpV?oc=5
+  8. 「NEXT BUSINESS EXPO SUMMER 2026」に出展します - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9OMTVTeVRPVW52bGVwcnRNdGxPdjlqYmVobGNjcy1fb011TEJGTWJfQkt0ZjkxVGJmSjBLVHQybExCaUxLNXBxSlNHVVBVaWo3dXZ3YUpVRzBZVG1vTDVodUtxcEcxWE9pWUE?oc=5
+  9. Udemy Business 導入事例 1人当たり週4時間のリサーチ時間を削減 営業の提案力と顧客からの信頼度を向上 - BOXIL
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTE5QekRYakhoeDIyajdLTE9FaTF5NXBJcW9MeUlNMnoyUlh5RDB1a1ZUVHc3Und1dW1FYmpyZi1SekdjQQ?oc=5
+  10. タクマ Research Memo（4）：長期にわたる一連の業務を継続して受注する安定したビジネスモデル（2） - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxQaWlVVXoyV0YyaS0teEx4al8wVjZCN3haZjI3dXNSVkRSWkRDWHNjYVE2RGlXd0hJajhacjhaVERRRWRHMTVDeXItb0tXNXhNZDljSXdIZjdnZFZEalhBNHlkbnJZUjZybXhyRVF1akw2clBRZENGUU1vUDk1YmJWcXdpQXlnSmvSAYwBQVVfeXFMTXlidkNFVGtnbzFaR29WNWNHNEJvdHhKNi1FdUpRV2YtU0owUVZqSjVnT21qa0FRUlBpNFlWbFgza0dERWI4Y3kzMVpKRTc5MkJmemRMN3Q4UGRxbzFuVWxsdlNOUU83YkJ1S2tXUmRnNUk5czAzVW00MGdDR2VGSmNwNVVNV0RHSl84VGY?oc=5
+
+【Reddit / technology】
+  1. A majority of Americans now support seizing wealth from AI industry
+     https://www.reddit.com/r/technology/comments/1uwbf4d/a_majority_of_americans_now_support_seizing/
+  2. Colossus 2 data center installed 59 natural gas turbines without permission, report claims thousands of tons of pollutants reportedly impact Black communities in Mississippi already suffering from elevated lung disease rates
+     https://www.reddit.com/r/technology/comments/1uwdjja/colossus_2_data_center_installed_59_natural_gas/
+  3. A Majority of Americans Now Support Seizing Wealth From AI Industry
+     https://www.reddit.com/r/technology/comments/1uwgqol/a_majority_of_americans_now_support_seizing/
+  4. Sony's Social Media Still Toxic Two Weeks After PS5 Discs Debacle
+     https://www.reddit.com/r/technology/comments/1uwaye6/sonys_social_media_still_toxic_two_weeks_after/
+  5. The U.S. spent $30 billion to ditch textbooks for laptops and tablets: The result is the first generation less cognitively capable than their parents
+     https://www.reddit.com/r/technology/comments/1uw2idx/the_us_spent_30_billion_to_ditch_textbooks_for/
+  6. Flock's Surveillance Cameras Face Another Blow as LAPD Won't Renew The Contract
+     https://www.reddit.com/r/technology/comments/1uwl0o0/flocks_surveillance_cameras_face_another_blow_as/
+  7. New York imposes first-in-the-nation statewide freeze on data centers
+     https://www.reddit.com/r/technology/comments/1uw3zm1/new_york_imposes_firstinthenation_statewide/
+  8. Data centers have already hiked electricity prices on the public by $23 billion. Good luck clawing that back
+     https://www.reddit.com/r/technology/comments/1uwm6us/data_centers_have_already_hiked_electricity/
+  9. Sony's attack on physical goods spreads to Crunchyroll as it adds a $14 subscription requirement just to access its store
+     https://www.reddit.com/r/technology/comments/1uwncnt/sonys_attack_on_physical_goods_spreads_to/
+  10. He rallied pastors to defend Flock cameras. He’s also a paid political operative
+     https://www.reddit.com/r/technology/comments/1uwf9sv/he_rallied_pastors_to_defend_flock_cameras_hes/
+
+【Reddit / business】
+  （取得できませんでした）
