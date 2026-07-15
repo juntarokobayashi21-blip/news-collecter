@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-15
+============================================================
+
+【Hacker News】
+  1. Inkling: Our Open-Weights Model
+     https://thinkingmachines.ai/news/introducing-inkling/
+  2. SQLite should have (Rust-style) editions
+     https://mort.coffee/home/sqlite-editions/
+  3. Grok Build is open source
+     https://github.com/xai-org/grok-build
+  4. Metal-Organic Frameworks, Chemistry's New Miracle Materials
+     https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials
+  5. The Anti-Mac User Interface (1996)
+     https://www.nngroup.com/articles/anti-mac-interface/
+  6. Governments, companies, nonprofits should invest in free, open source AI [pdf]
+     https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf
+  7. Stripe and Advent have made a joint offer to acquire PayPal – sources
+     https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/
+  8. LLM Networking with MikroTik
+     https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html
+  9. P2P local file transfer based on WebRTC
+     https://pairdrop.net/
+  10. Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU
+     https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/
+
+【Zenn】
+  1. RunCat Neo カスタムメトリクス入門
+     https://zenn.dev/kyome/articles/eb4a9f664002ad
+  2. FigmaデザインをReact実装に落とし込むときの確認ポイント
+     https://zenn.dev/sre_holdings/articles/c994b1db6ff812
+  3. WSL Containers（wslc）入門｜Docker Desktop不要
+     https://zenn.dev/var/articles/wsl-containers-windows-wslc-hands-on
+  4. 一人前のエンジニアなら、PRでコメントをもらうな。
+     https://zenn.dev/headwaters/articles/72c39ad735038d
+  5. 夏休みが始まる前に知っておきたい、Reactエンジニアに優しくなったモバイルアプリ開発の世界
+     https://zenn.dev/cybozu_frontend/articles/rn-devmap-in-2026
+  6. ローカル LLM を構築した
+     https://zenn.dev/neet/articles/11bafab8645995
+  7. Claude Codeでレガシーシステムの刷新を進めた方法
+     https://zenn.dev/knowledgesense/articles/67c61463d9c664
+  8. AIにルールファイルを数ヶ月自動更新させ続けたら、ルールは"良く"育ったのか
+     https://zenn.dev/r_kaga/articles/c9fcb75f1ff284
+  9. 最近、テックブログの高齢化について考えるようになりました
+     https://zenn.dev/tkithrta/articles/afb24ea1326211
+  10. 調査用スキルを作ってみた
+     https://zenn.dev/tokium_dev/articles/building-a-research-skill
+
+【Qiita】
+  1. あなたの技術ブログの「AI臭さ」を抜くスキル公開します
+     https://qiita.com/minorun365/items/699e89544da8b0de300d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. # Railsで学ぶ データ構造入門 〜配列・ハッシュ・木・グラフは実は毎日使っている〜
+     https://qiita.com/akachiryo/items/b431a74f1cde18d45ad3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. AI人材は２つに分かれる。あなたが目指すべきはどっち？
+     https://qiita.com/prum_sumomo/items/b7bfe27efae0231a09af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. コピペ最強｜UiverseのUI素材でプログラミング初心者の悩みが即解決した話
+     https://qiita.com/prumnn/items/7bd599311fd75227101f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 「めっちゃカメレオン」が教えてくれた、アイディア力こそAI時代の最強武器
+     https://qiita.com/prum_sumomo/items/dbabb5c130aae2566f0f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. エラー対応理由考えてる？コピペしてAIに聞いてるでしょ
+     https://qiita.com/prum_sumomo/items/535a697aeaea41515de9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AI⇔人間 がdiff上にコメントを書き合える「hunk」がすごい
+     https://qiita.com/kuma_3838/items/14df505c7023f665c585?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「頑張ってます」はもう卒業。エンジニアが今日から使える『数値化の鬼』の思考法
+     https://qiita.com/Nao52/items/ced302095c8ddd3c8213?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. # 僕より入社同期メンバーが先輩に可愛がられる理由、後から気づいた小さな差
+     https://qiita.com/prumnn/items/3b1e01cf7a2d77b45da1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. コードを書かせるだけは、正直もったいない。Claude Codeを「先生」として使い倒す5つのプロンプト
+     https://qiita.com/jqit_suwa/items/2f38d32328996d826d48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. "倉庫"を舞台に、ソニーのテクノロジーの力でアーティストの魅力を届ける体験型企画「SixTONES STock」 - Sony
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TEFPLXVoUE1JbWJQU3JZRFMzU2VqdC05OHlRU1p3dzdCRkEtTEtKYXMtNEJ5N1Jibl8xLURPY1ZnMlY1bmhoNmNIZ1FNTHBzR2dvZDF3YUpUQjlabWc?oc=5
+  2. 公益テクノロジーは国家に奉仕するのか――AI時代のテクノロジーと権力 - WirelessWire
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwWkRBbG9hdEJlS2o3YXkzR01KNHdaa2w2cTlWZGwwcF91WElmVFpJN3VvN3lpN3BWZi1TYUp2SVFmWS1naUVjck9sMmFrREU?oc=5
+  3. AIの守りはAIの攻撃で鍛える、オープンAIが「LLMハッカー」 を開発 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMisgFBVV95cUxORXpHOXZENHRVTDUwOVQwLUdmSkFud1JCbS03c0t5UWNXaFhGRHFrZF9tY3JlVWZuMFFaSW93azRKYmVsS0s1Z19VLVo0NzQzOEFOSnIyeGFwcWU5cjktUFpLcF9qNUtHTGFOYWc4SUYwcDhrUEdwbWRKMTFiTy1wN3ljT0dZTmpianhydlFlTHJ3X0lWb2Vyek5hSGViQm5meWFGdGpuakpGTDNuV1BJYmdR?oc=5
+  4. テクノロジーが支えるW杯の舞台裏､AI審判や戦術分析はサッカーをどこまで進化させたのか 4ページ目 | ビジネス - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE85N0lMLVJKZkloZWx4MkZubG5aNk5SNFp6VDFpQ3JMQTRzS0ZrSWlnYk96Ri1LVnZQMnpObS1ybGhZT2hUbW1JMEVDaExJRWdGUlBxU0FlYzE0MGc?oc=5
+  5. アップルのMacチップ戦略転換、自動運転車の「失敗」がAI基盤築く－Power On - Bloomberg.com
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE4ycXFXbVcyY1JPa21jQ1J2YXVDTmxQSm1YQS13TlI1bFJoWG9abXdEVkN0WV9VVnptOWVjdzVWWlFwVXlPVVpLaWNIWUJyYXVWWEdYUUFjczljN0FYRU1GU2FMYldvOWdRbDRhdWFGWTFzaWdJWW10LXdzMA?oc=5
+  6. アスメック株式会社はPercipio Technology社製、産業用3Dビジョンカメラ「GMシリーズ」の取り扱いを開始します。 - valuepress
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWRXpTQm5rWHI2cm1kVVRZdWZfUVcwTEtiNU5vMWxiOVBoWnN0ano4WFNhTGZYUVlEaHk1WEJhQ044dzV3TVBsNUdxQkdDajE4TUNfcWw1M3JMYzA?oc=5
+  7. 心臓カテーテル治療における高画質と患者負担の軽減を追求したイメージングテクノロジー「SmartIQ Technology」を販売開始 - Digital PR Platform
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1Dem4wUGhNLTI5eW9JZEZEOTlmaGlweHVOMGxOMFU3NHF0NnMxQnhsRUUzYXhWOG1yMFI0QURwXy1lX2c?oc=5
+  8. LLMは何を考えているのか？ アンソロピックが見つけた「隠れた領域」 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT29UMTliSXduWmlIajhLUUdKMUlYVjZZVjQ5WFQ1ZDkxbTFPa0hmX21pajhVeHZUNlVwZlpnckNvUmJ5M0NaZVAxWUxHdWxjUXZJMmZtT3pLeG9NdVFtUjYwa0xDYTFkUzlDX0hqZzdtMnF4LUU5c2ZYLXZGMzBrMlRwNU1OVWpyV0Z4V0xIQnpETEdzUVJjbE9YNWVVVEw2MlRHdENpdWlGYlk?oc=5
+  9. 7月15日のSeagate Technology Holdings PLC (STX) 値動きは6.72%下落：値動きの背後にある要因 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxOS0ptQ1lSUzhNQXVpdkVHWTFjTi1RMWtaY29vRTgwaGhWQkdFdlFKRl9ZSEZYeXY4dHNkUXNmZk9KRDh3TkIxdXRvMnJYWWtxYkticHp6S2lVZGh4QUE2dHRUQmcxUG5UR2hGR2s1dGlOaHp5Rk1FbEZBOHlvWWtabF9yUWdYNk5udHRqRXBn?oc=5
+  10. IFRS、SASB改訂（Phase2）の検討資料を公表 テクノロジー・通信分野を次期優先候補に - ESG Journal
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmR0JzZ2FRNV9PcEVfQ1hRUk0wamdsNjFfZm91bmRMckl4clNRNkt3bWtCdE5OVjU4OXBZdGZQNW1uM2Z2bjVZVEVNbFN4NzQzTnJEVGZPUQ?oc=5
+
+【Google News (Business)】
+  1. 人口減少下の地方を支える地域密着ビジネスの底力 生産性だけじゃない、中小企業を評価する「ものさし」 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE56Y0xOQmxRdnc3MUs4YjRqbzYyRHhXUGs4RV9HU3lrUy1lWEdscFhCZVBqWmZjUS03V09YTWlzOVcwTXVreFFYbEdMbS1QWjlEMFVnRmdn?oc=5
+  2. 「帝人」事業モデルを転換、炭素繊維など素材中心ビジネスの行き詰まりを受け - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYW4wQkJzZUpGM0w1dE5lOWpHbEstVkhYbnB4Z1hwMVdjZG5jb0RpZmFIa0xjajl2NW1XSWpvR042aHNDQ1E5bFppZHRPak00UmJoV3pETTMxeHdSN3liSGU0Q0M1TFRVdTZJX01pRVNvNXk1QkN4elZzWlh0c3I3LWQ5RnF5eVBSLVdZZzhJa0ZEelEyeGtaYjVRbnZwTzVjWm56S0F6Mm9ydEJ4YVBlLU8wMXZsbXRyc1R5TEFBemt6anF0cjFzOXZ6TmNCbTZXTXF6a2xnWnh3YkhQSFE4TDVLMURtY0RadlJwd2FlWjXSAaABQVVfeXFMTWZ5YVRSZDM3MndfcnUzMGxZeFNqMGtKeTdockxBOEZKSUUtV203LTVDeThyRU5OamxMOVBocWZGQy1xTHcyVFJUU0dqZTh6VlBaeHRLb1Q4SlVVS21XYkNzS2w3TjhqNWxhWWdTYm9xcmd1WDBLdFpJVElsYlI1OUNXZ3VSVFhjNU90czIyc2NMTFNaV0hlX2ZkVW5iZUl1Vw?oc=5
+  3. 英エネルギー企業BP、地政学リスクで得た「棚ぼた」利益。だが低炭素戦略の「あざ」は隠せない - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxNa1VONEZod24wN3hCZkJWcVZDYWZBbjdHNktGVjBCcXRGM2lsZnBiRjJZenR4MnV6ZXpJeEhJZDFidXd0TXRJQXdyMFNlM3oxSmMwZnBYQnotQUxCTWN1SjNvdzlyWVdTb3c2S1Mxbm9WSVRmYVVOTkNsZlpkVnRkYXZSS0pkV2Y3aVk4elNzWjNOOUNzd1ZsNjgxZEFVamZjTkE?oc=5
+  4. ウクライナ撃墜のロシア製ドローン、搭載部品の過半が米国製 日本企業も10社 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RQXgtODd2eVNWUElsODVwbENNeXFwRlIyVG9QZmdub04tQnkwQW51OHY1cU40aEdEZ3BqcE1SMUZmZWNPUE91ZmZ1ZlE2SW5MQmFPdmFQbzRCU3BEdmVoRFJfYms1bTA?oc=5
+  5. LUUP、法人向けサービス開始 1人2500円の「Businessプラン」も（Impress Watch） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5yTzQ2QTduN1dNR1hyLWhGUDl5OTROMWhGUUY3RW5pN3VmejVBOG1OWmkzbkluUXc0dFVvWkhEeTBwZXBBUFBBYVBHZEVtT1lKNTB2N3dDNUxhWWtpTkx1aW4yWnd3cUZFQ19XOC04TGZrSkExTmJGZWhvcGFhS00?oc=5
+  6. 「お父さんがかわいそうで…」M＆A仲介最大手企業が関わった事業承継で創業一族が味わった苦汁と後悔、社長のメモに残されていた“本心” - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVMGZybExpV2htSWFFQjZZUy1tWGo3dHgyTFNLaC1INGtsUVlHeE51bEVSS1ZpQjh2M2JoSXRkUUlNNlpFR2ZPVE1JUUzSAU9BVV95cUxOSWhSZERLdXZiMlg3dVNRa0kyckRyVWM3TTY0ek1VclVndUpQWGVTRWJKWkRTZWFhclAxV2pRZDhhOTdTZ0ZnNHF1UHJMZ3VB?oc=5
+  7. スポーツビジネスの展望語らう グランパスなどステーションAiでイベント：ニュース - 中日BIZナビ
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE1peVY5RDlRelF6a05HSlEwSG9GeHAxVndBRkk4WmtSODQ3LUhWSEtYTjJ2ZFl4QWs4MmsxRjNsRXYzaHFoN1Z0VTVvZU9WZjUtRk96RUk2Ti11eXRKZDY0?oc=5
+  8. 「NEXT BUSINESS EXPO SUMMER 2026」にthomas株式会社が出展 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9obDVHRjFrZGVMbnhMeUdXeGoyOXJFalh1cWNnSTFXb3BodXQtcFRWRVBTbFhUN3U2UkV1WU5HeUdzVTJkdkRpZE1GcUt6cTAxQkFkSzJlOXptZUZIdHpPRVIyR0NaQmtYMkE?oc=5
+  9. AIを「積極活用」する中小企業は3割にとどまる 「AI必要ない」と考えている職種は？（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5VOWJyaGRSRUNtNFEzRG1jOEJYQ0wyclN3TWh4dmlRUTlsV25qQzgwQjd4TEdHRHNIc1M5TFpvLVQ4cThVRmVLTW1wZEhQekNxR25LR21Ma29VLVhqQTRsV0g1RDliWVVmZGhfYi1paS1OZw?oc=5
+  10. PwC Japan、プライベートビジネスへの支援を「PwC Private」としてグループ横断・グローバル連動で提供開始 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Ud0hUSUxnSzFUOV93azNlbUxoRzJSVnFPZzFTVGpTU1NCcUI4LVhBMWZrbjhTX2lTbXd0RVFMVW1ueTZid0Q4YTJHSlJqTjk1S0pyZ1RrZTRVLUotTEE?oc=5
+
+【Reddit / technology】
+  1. Kylie Jenner’s dystopian Meta glasses get brutal backlash: ‘It’s giving fascism, not fashion’ — Meta is testing a prototype to “continuously record audio while taking photos every few seconds” without any warning light
+     https://www.reddit.com/r/technology/comments/1ux8ej9/kylie_jenners_dystopian_meta_glasses_get_brutal/
+  2. SpaceX stock sinks below $135 IPO price for the first time
+     https://www.reddit.com/r/technology/comments/1uxapr3/spacex_stock_sinks_below_135_ipo_price_for_the/
+  3. SpaceX Investors Are Lamenting All the Money They’ve Lost
+     https://www.reddit.com/r/technology/comments/1uxgyim/spacex_investors_are_lamenting_all_the_money/
+  4. "There are no benefits to being owned by Microsoft," says Doom dev: "They have destroyed immense amounts of value that I don't even think that they're aware of"
+     https://www.reddit.com/r/technology/comments/1ux52t0/there_are_no_benefits_to_being_owned_by_microsoft/
+  5. Generative AI Is an Engineering Disaster | A shockingly inefficient trillion-dollar project
+     https://www.reddit.com/r/technology/comments/1ux9qoi/generative_ai_is_an_engineering_disaster_a/
+  6. Smart Glasses Are Getting People Charged With Crimes
+     https://www.reddit.com/r/technology/comments/1uxf1vf/smart_glasses_are_getting_people_charged_with/
+  7. Layoffs might offer "better short-term financial results," late Nintendo president Satoru Iwata admitted in 2013, but "employees who fear that they may be laid off" will never produce the same results
+     https://www.reddit.com/r/technology/comments/1ux0kka/layoffs_might_offer_better_shortterm_financial/
+  8. Woman Got a Rental Car From Audi, Was Greeted By a Massive Dystopian Camera Pointed at Her Face
+     https://www.reddit.com/r/technology/comments/1uxc8la/woman_got_a_rental_car_from_audi_was_greeted_by_a/
+  9. PC gamer turns Steam games into cartridges with ingenious 2.5-inch SSD system — games are stored on 128GB drives alongside a script to auto-start the title once plugged in
+     https://www.reddit.com/r/technology/comments/1uxjttl/pc_gamer_turns_steam_games_into_cartridges_with/
+  10. Hinge founder announces new AI dating app straight out of Black Mirror
+     https://www.reddit.com/r/technology/comments/1ux5res/hinge_founder_announces_new_ai_dating_app/
+
+【Reddit / business】
+  （取得できませんでした）

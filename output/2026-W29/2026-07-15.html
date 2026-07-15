@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレンドニュース - 2026-07-15</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-start;
+        }
+
+        .stat {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .stat strong {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+        }
+
+        .badge {
+            display: inline-block;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .section-summary {
+            background: var(--bg);
+            padding: 1rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .section-summary strong {
+            font-weight: 600;
+        }
+
+        .section-summary h4 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .article-card {
+            display: block;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .article-title {
+            display: block;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 0.8rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-card:hover .article-title {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            opacity: 0.85;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 トレンドニュース</h1>
+        <p>2026-07-15</p>
+    </header>
+
+    <nav>
+        <a href="#0" class="nav-link">Hacker News</a><a href="#1" class="nav-link">Zenn</a><a href="#2" class="nav-link">Qiita</a><a href="#3" class="nav-link">Google News (IT)</a><a href="#4" class="nav-link">Google News (Business)</a><a href="#5" class="nav-link">Reddit / technology</a><a href="#6" class="nav-link">Reddit / business</a>
+    </nav>
+
+    <main>
+        
+        
+        <section id="0">
+            <div class="section-header">
+                <h2>Hacker News</h2>
+                <span class="badge" style="background-color: #ff6600;">🚀 Dev</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://thinkingmachines.ai/news/introducing-inkling/" target="_blank" class="article-card">
+                    <span class="article-title">Inkling: Our Open-Weights Model</span>
+                    
+                </a>
+                <a href="https://mort.coffee/home/sqlite-editions/" target="_blank" class="article-card">
+                    <span class="article-title">SQLite should have (Rust-style) editions</span>
+                    
+                </a>
+                <a href="https://github.com/xai-org/grok-build" target="_blank" class="article-card">
+                    <span class="article-title">Grok Build is open source</span>
+                    
+                </a>
+                <a href="https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials" target="_blank" class="article-card">
+                    <span class="article-title">Metal-Organic Frameworks, Chemistry's New Miracle Materials</span>
+                    
+                </a>
+                <a href="https://www.nngroup.com/articles/anti-mac-interface/" target="_blank" class="article-card">
+                    <span class="article-title">The Anti-Mac User Interface (1996)</span>
+                    
+                </a>
+                <a href="https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf" target="_blank" class="article-card">
+                    <span class="article-title">Governments, companies, nonprofits should invest in free, open source AI [pdf]</span>
+                    
+                </a>
+                <a href="https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/" target="_blank" class="article-card">
+                    <span class="article-title">Stripe and Advent have made a joint offer to acquire PayPal – sources</span>
+                    
+                </a>
+                <a href="https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html" target="_blank" class="article-card">
+                    <span class="article-title">LLM Networking with MikroTik</span>
+                    
+                </a>
+                <a href="https://pairdrop.net/" target="_blank" class="article-card">
+                    <span class="article-title">P2P local file transfer based on WebRTC</span>
+                    
+                </a>
+                <a href="https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/" target="_blank" class="article-card">
+                    <span class="article-title">Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="1">
+            <div class="section-header">
+                <h2>Zenn</h2>
+                <span class="badge" style="background-color: #3ea8ff;">📚 日本語Tech</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://zenn.dev/kyome/articles/eb4a9f664002ad" target="_blank" class="article-card">
+                    <span class="article-title">RunCat Neo カスタムメトリクス入門</span>
+                    
+                </a>
+                <a href="https://zenn.dev/sre_holdings/articles/c994b1db6ff812" target="_blank" class="article-card">
+                    <span class="article-title">FigmaデザインをReact実装に落とし込むときの確認ポイント</span>
+                    
+                </a>
+                <a href="https://zenn.dev/var/articles/wsl-containers-windows-wslc-hands-on" target="_blank" class="article-card">
+                    <span class="article-title">WSL Containers（wslc）入門｜Docker Desktop不要</span>
+                    
+                </a>
+                <a href="https://zenn.dev/headwaters/articles/72c39ad735038d" target="_blank" class="article-card">
+                    <span class="article-title">一人前のエンジニアなら、PRでコメントをもらうな。</span>
+                    
+                </a>
+                <a href="https://zenn.dev/cybozu_frontend/articles/rn-devmap-in-2026" target="_blank" class="article-card">
+                    <span class="article-title">夏休みが始まる前に知っておきたい、Reactエンジニアに優しくなったモバイルアプリ開発の世界</span>
+                    
+                </a>
+                <a href="https://zenn.dev/neet/articles/11bafab8645995" target="_blank" class="article-card">
+                    <span class="article-title">ローカル LLM を構築した</span>
+                    
+                </a>
+                <a href="https://zenn.dev/knowledgesense/articles/67c61463d9c664" target="_blank" class="article-card">
+                    <span class="article-title">Claude Codeでレガシーシステムの刷新を進めた方法</span>
+                    
+                </a>
+                <a href="https://zenn.dev/r_kaga/articles/c9fcb75f1ff284" target="_blank" class="article-card">
+                    <span class="article-title">AIにルールファイルを数ヶ月自動更新させ続けたら、ルールは"良く"育ったのか</span>
+                    
+                </a>
+                <a href="https://zenn.dev/tkithrta/articles/afb24ea1326211" target="_blank" class="article-card">
+                    <span class="article-title">最近、テックブログの高齢化について考えるようになりました</span>
+                    
+                </a>
+                <a href="https://zenn.dev/tokium_dev/articles/building-a-research-skill" target="_blank" class="article-card">
+                    <span class="article-title">調査用スキルを作ってみた</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="2">
+            <div class="section-header">
+                <h2>Qiita</h2>
+                <span class="badge" style="background-color: #55c500;">✏️ 日本語Tech</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://qiita.com/minorun365/items/699e89544da8b0de300d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">あなたの技術ブログの「AI臭さ」を抜くスキル公開します</span>
+                    
+                </a>
+                <a href="https://qiita.com/akachiryo/items/b431a74f1cde18d45ad3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title"># Railsで学ぶ データ構造入門 〜配列・ハッシュ・木・グラフは実は毎日使っている〜</span>
+                    
+                </a>
+                <a href="https://qiita.com/prum_sumomo/items/b7bfe27efae0231a09af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">AI人材は２つに分かれる。あなたが目指すべきはどっち？</span>
+                    
+                </a>
+                <a href="https://qiita.com/prumnn/items/7bd599311fd75227101f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">コピペ最強｜UiverseのUI素材でプログラミング初心者の悩みが即解決した話</span>
+                    
+                </a>
+                <a href="https://qiita.com/prum_sumomo/items/dbabb5c130aae2566f0f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">「めっちゃカメレオン」が教えてくれた、アイディア力こそAI時代の最強武器</span>
+                    
+                </a>
+                <a href="https://qiita.com/prum_sumomo/items/535a697aeaea41515de9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">エラー対応理由考えてる？コピペしてAIに聞いてるでしょ</span>
+                    
+                </a>
+                <a href="https://qiita.com/kuma_3838/items/14df505c7023f665c585?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">AI⇔人間 がdiff上にコメントを書き合える「hunk」がすごい</span>
+                    
+                </a>
+                <a href="https://qiita.com/Nao52/items/ced302095c8ddd3c8213?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">「頑張ってます」はもう卒業。エンジニアが今日から使える『数値化の鬼』の思考法</span>
+                    
+                </a>
+                <a href="https://qiita.com/prumnn/items/3b1e01cf7a2d77b45da1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title"># 僕より入社同期メンバーが先輩に可愛がられる理由、後から気づいた小さな差</span>
+                    
+                </a>
+                <a href="https://qiita.com/jqit_suwa/items/2f38d32328996d826d48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">コードを書かせるだけは、正直もったいない。Claude Codeを「先生」として使い倒す5つのプロンプト</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="3">
+            <div class="section-header">
+                <h2>Google News (IT)</h2>
+                <span class="badge" style="background-color: #4285f4;">📰 ニュース</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TEFPLXVoUE1JbWJQU3JZRFMzU2VqdC05OHlRU1p3dzdCRkEtTEtKYXMtNEJ5N1Jibl8xLURPY1ZnMlY1bmhoNmNIZ1FNTHBzR2dvZDF3YUpUQjlabWc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">"倉庫"を舞台に、ソニーのテクノロジーの力でアーティストの魅力を届ける体験型企画「SixTONES STock」 - Sony</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwWkRBbG9hdEJlS2o3YXkzR01KNHdaa2w2cTlWZGwwcF91WElmVFpJN3VvN3lpN3BWZi1TYUp2SVFmWS1naUVjck9sMmFrREU?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">公益テクノロジーは国家に奉仕するのか――AI時代のテクノロジーと権力 - WirelessWire</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxORXpHOXZENHRVTDUwOVQwLUdmSkFud1JCbS03c0t5UWNXaFhGRHFrZF9tY3JlVWZuMFFaSW93azRKYmVsS0s1Z19VLVo0NzQzOEFOSnIyeGFwcWU5cjktUFpLcF9qNUtHTGFOYWc4SUYwcDhrUEdwbWRKMTFiTy1wN3ljT0dZTmpianhydlFlTHJ3X0lWb2Vyek5hSGViQm5meWFGdGpuakpGTDNuV1BJYmdR?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AIの守りはAIの攻撃で鍛える、オープンAIが「LLMハッカー」 を開発 - MITテクノロジーレビュー</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE85N0lMLVJKZkloZWx4MkZubG5aNk5SNFp6VDFpQ3JMQTRzS0ZrSWlnYk96Ri1LVnZQMnpObS1ybGhZT2hUbW1JMEVDaExJRWdGUlBxU0FlYzE0MGc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">テクノロジーが支えるW杯の舞台裏､AI審判や戦術分析はサッカーをどこまで進化させたのか 4ページ目 | ビジネス - 東洋経済オンライン</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE4ycXFXbVcyY1JPa21jQ1J2YXVDTmxQSm1YQS13TlI1bFJoWG9abXdEVkN0WV9VVnptOWVjdzVWWlFwVXlPVVpLaWNIWUJyYXVWWEdYUUFjczljN0FYRU1GU2FMYldvOWdRbDRhdWFGWTFzaWdJWW10LXdzMA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">アップルのMacチップ戦略転換、自動運転車の「失敗」がAI基盤築く－Power On - Bloomberg.com</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWRXpTQm5rWHI2cm1kVVRZdWZfUVcwTEtiNU5vMWxiOVBoWnN0ano4WFNhTGZYUVlEaHk1WEJhQ044dzV3TVBsNUdxQkdDajE4TUNfcWw1M3JMYzA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">アスメック株式会社はPercipio Technology社製、産業用3Dビジョンカメラ「GMシリーズ」の取り扱いを開始します。 - valuepress</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1Dem4wUGhNLTI5eW9JZEZEOTlmaGlweHVOMGxOMFU3NHF0NnMxQnhsRUUzYXhWOG1yMFI0QURwXy1lX2c?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">心臓カテーテル治療における高画質と患者負担の軽減を追求したイメージングテクノロジー「SmartIQ Technology」を販売開始 - Digital PR Platform</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT29UMTliSXduWmlIajhLUUdKMUlYVjZZVjQ5WFQ1ZDkxbTFPa0hmX21pajhVeHZUNlVwZlpnckNvUmJ5M0NaZVAxWUxHdWxjUXZJMmZtT3pLeG9NdVFtUjYwa0xDYTFkUzlDX0hqZzdtMnF4LUU5c2ZYLXZGMzBrMlRwNU1OVWpyV0Z4V0xIQnpETEdzUVJjbE9YNWVVVEw2MlRHdENpdWlGYlk?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">LLMは何を考えているのか？ アンソロピックが見つけた「隠れた領域」 - MITテクノロジーレビュー</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOS0ptQ1lSUzhNQXVpdkVHWTFjTi1RMWtaY29vRTgwaGhWQkdFdlFKRl9ZSEZYeXY4dHNkUXNmZk9KRDh3TkIxdXRvMnJYWWtxYkticHp6S2lVZGh4QUE2dHRUQmcxUG5UR2hGR2s1dGlOaHp5Rk1FbEZBOHlvWWtabF9yUWdYNk5udHRqRXBn?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">7月15日のSeagate Technology Holdings PLC (STX) 値動きは6.72%下落：値動きの背後にある要因 - TradingKey</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmR0JzZ2FRNV9PcEVfQ1hRUk0wamdsNjFfZm91bmRMckl4clNRNkt3bWtCdE5OVjU4OXBZdGZQNW1uM2Z2bjVZVEVNbFN4NzQzTnJEVGZPUQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">IFRS、SASB改訂（Phase2）の検討資料を公表 テクノロジー・通信分野を次期優先候補に - ESG Journal</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="4">
+            <div class="section-header">
+                <h2>Google News (Business)</h2>
+                <span class="badge" style="background-color: #0f9d58;">💼 ビジネス</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE56Y0xOQmxRdnc3MUs4YjRqbzYyRHhXUGs4RV9HU3lrUy1lWEdscFhCZVBqWmZjUS03V09YTWlzOVcwTXVreFFYbEdMbS1QWjlEMFVnRmdn?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">人口減少下の地方を支える地域密着ビジネスの底力 生産性だけじゃない、中小企業を評価する「ものさし」 - JBpress</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYW4wQkJzZUpGM0w1dE5lOWpHbEstVkhYbnB4Z1hwMVdjZG5jb0RpZmFIa0xjajl2NW1XSWpvR042aHNDQ1E5bFppZHRPak00UmJoV3pETTMxeHdSN3liSGU0Q0M1TFRVdTZJX01pRVNvNXk1QkN4elZzWlh0c3I3LWQ5RnF5eVBSLVdZZzhJa0ZEelEyeGtaYjVRbnZwTzVjWm56S0F6Mm9ydEJ4YVBlLU8wMXZsbXRyc1R5TEFBemt6anF0cjFzOXZ6TmNCbTZXTXF6a2xnWnh3YkhQSFE4TDVLMURtY0RadlJwd2FlWjXSAaABQVVfeXFMTWZ5YVRSZDM3MndfcnUzMGxZeFNqMGtKeTdockxBOEZKSUUtV203LTVDeThyRU5OamxMOVBocWZGQy1xTHcyVFJUU0dqZTh6VlBaeHRLb1Q4SlVVS21XYkNzS2w3TjhqNWxhWWdTYm9xcmd1WDBLdFpJVElsYlI1OUNXZ3VSVFhjNU90czIyc2NMTFNaV0hlX2ZkVW5iZUl1Vw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「帝人」事業モデルを転換、炭素繊維など素材中心ビジネスの行き詰まりを受け - ｄメニューニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNa1VONEZod24wN3hCZkJWcVZDYWZBbjdHNktGVjBCcXRGM2lsZnBiRjJZenR4MnV6ZXpJeEhJZDFidXd0TXRJQXdyMFNlM3oxSmMwZnBYQnotQUxCTWN1SjNvdzlyWVdTb3c2S1Mxbm9WSVRmYVVOTkNsZlpkVnRkYXZSS0pkV2Y3aVk4elNzWjNOOUNzd1ZsNjgxZEFVamZjTkE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">英エネルギー企業BP、地政学リスクで得た「棚ぼた」利益。だが低炭素戦略の「あざ」は隠せない - Business Insider Japan</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RQXgtODd2eVNWUElsODVwbENNeXFwRlIyVG9QZmdub04tQnkwQW51OHY1cU40aEdEZ3BqcE1SMUZmZWNPUE91ZmZ1ZlE2SW5MQmFPdmFQbzRCU3BEdmVoRFJfYms1bTA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ウクライナ撃墜のロシア製ドローン、搭載部品の過半が米国製 日本企業も10社 - 日経ビジネス電子版</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5yTzQ2QTduN1dNR1hyLWhGUDl5OTROMWhGUUY3RW5pN3VmejVBOG1OWmkzbkluUXc0dFVvWkhEeTBwZXBBUFBBYVBHZEVtT1lKNTB2N3dDNUxhWWtpTkx1aW4yWnd3cUZFQ19XOC04TGZrSkExTmJGZWhvcGFhS00?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">LUUP、法人向けサービス開始 1人2500円の「Businessプラン」も（Impress Watch） - Yahoo!ニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVMGZybExpV2htSWFFQjZZUy1tWGo3dHgyTFNLaC1INGtsUVlHeE51bEVSS1ZpQjh2M2JoSXRkUUlNNlpFR2ZPVE1JUUzSAU9BVV95cUxOSWhSZERLdXZiMlg3dVNRa0kyckRyVWM3TTY0ek1VclVndUpQWGVTRWJKWkRTZWFhclAxV2pRZDhhOTdTZ0ZnNHF1UHJMZ3VB?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「お父さんがかわいそうで…」M＆A仲介最大手企業が関わった事業承継で創業一族が味わった苦汁と後悔、社長のメモに残されていた“本心” - ダイヤモンド・オンライン</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1peVY5RDlRelF6a05HSlEwSG9GeHAxVndBRkk4WmtSODQ3LUhWSEtYTjJ2ZFl4QWs4MmsxRjNsRXYzaHFoN1Z0VTVvZU9WZjUtRk96RUk2Ti11eXRKZDY0?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">スポーツビジネスの展望語らう グランパスなどステーションAiでイベント：ニュース - 中日BIZナビ</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9obDVHRjFrZGVMbnhMeUdXeGoyOXJFalh1cWNnSTFXb3BodXQtcFRWRVBTbFhUN3U2UkV1WU5HeUdzVTJkdkRpZE1GcUt6cTAxQkFkSzJlOXptZUZIdHpPRVIyR0NaQmtYMkE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">「NEXT BUSINESS EXPO SUMMER 2026」にthomas株式会社が出展 - PR TIMES</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5VOWJyaGRSRUNtNFEzRG1jOEJYQ0wyclN3TWh4dmlRUTlsV25qQzgwQjd4TEdHRHNIc1M5TFpvLVQ4cThVRmVLTW1wZEhQekNxR25LR21Ma29VLVhqQTRsV0g1RDliWVVmZGhfYi1paS1OZw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AIを「積極活用」する中小企業は3割にとどまる 「AI必要ない」と考えている職種は？（1/2 ページ） - ITmedia</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Ud0hUSUxnSzFUOV93azNlbUxoRzJSVnFPZzFTVGpTU1NCcUI4LVhBMWZrbjhTX2lTbXd0RVFMVW1ueTZid0Q4YTJHSlJqTjk1S0pyZ1RrZTRVLUotTEE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">PwC Japan、プライベートビジネスへの支援を「PwC Private」としてグループ横断・グローバル連動で提供開始 - 沖縄タイムス社</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="5">
+            <div class="section-header">
+                <h2>Reddit / technology</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://www.reddit.com/r/technology/comments/1ux8ej9/kylie_jenners_dystopian_meta_glasses_get_brutal/" target="_blank" class="article-card">
+                    <span class="article-title">Kylie Jenner’s dystopian Meta glasses get brutal backlash: ‘It’s giving fascism, not fashion’ — Meta is testing a prototype to “continuously record audio while taking photos every few seconds” without any warning light</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1uxapr3/spacex_stock_sinks_below_135_ipo_price_for_the/" target="_blank" class="article-card">
+                    <span class="article-title">SpaceX stock sinks below $135 IPO price for the first time</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1uxgyim/spacex_investors_are_lamenting_all_the_money/" target="_blank" class="article-card">
+                    <span class="article-title">SpaceX Investors Are Lamenting All the Money They’ve Lost</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1ux52t0/there_are_no_benefits_to_being_owned_by_microsoft/" target="_blank" class="article-card">
+                    <span class="article-title">"There are no benefits to being owned by Microsoft," says Doom dev: "They have destroyed immense amounts of value that I don't even think that they're aware of"</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1ux9qoi/generative_ai_is_an_engineering_disaster_a/" target="_blank" class="article-card">
+                    <span class="article-title">Generative AI Is an Engineering Disaster | A shockingly inefficient trillion-dollar project</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1uxf1vf/smart_glasses_are_getting_people_charged_with/" target="_blank" class="article-card">
+                    <span class="article-title">Smart Glasses Are Getting People Charged With Crimes</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1ux0kka/layoffs_might_offer_better_shortterm_financial/" target="_blank" class="article-card">
+                    <span class="article-title">Layoffs might offer "better short-term financial results," late Nintendo president Satoru Iwata admitted in 2013, but "employees who fear that they may be laid off" will never produce the same results</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1uxc8la/woman_got_a_rental_car_from_audi_was_greeted_by_a/" target="_blank" class="article-card">
+                    <span class="article-title">Woman Got a Rental Car From Audi, Was Greeted By a Massive Dystopian Camera Pointed at Her Face</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1uxjttl/pc_gamer_turns_steam_games_into_cartridges_with/" target="_blank" class="article-card">
+                    <span class="article-title">PC gamer turns Steam games into cartridges with ingenious 2.5-inch SSD system — games are stored on 128GB drives alongside a script to auto-start the title once plugged in</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1ux5res/hinge_founder_announces_new_ai_dating_app/" target="_blank" class="article-card">
+                    <span class="article-title">Hinge founder announces new AI dating app straight out of Black Mirror</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="6">
+            <div class="section-header">
+                <h2>Reddit / business</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-07-15 23:59:13 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>
