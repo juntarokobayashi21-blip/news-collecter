@@ -3,136 +3,136 @@
 ============================================================
 
 【Hacker News】
-  1. Kimi K3: Open Frontier Intelligence
-     https://www.kimi.com/blog/kimi-k3
-  2. LM Studio Bionic: the AI agent for open models
-     https://lmstudio.ai/blog/introducing-lm-studio-bionic
-  3. Microsoft Comic Chat is now open source
-     https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/
-  4. The Little Book of Reinforcement Learning
-     https://github.com/alxndrTL/little-book-rl/
-  5. Decoy Font
-     https://www.mixfont.com/experiments/decoy-font
-  6. My car's OTA update broke Android Auto, and it's a indictment of modern software
-     https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/
-  7. Mathematics of Data Science
-     https://arxiv.org/abs/2607.11938
-  8. NotebookLM is now Gemini Notebook
-     https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/
-  9. Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning
-     https://arxiv.org/abs/2607.12395
-  10. 'Likweli': A new monkey species discovered in the Congo Basin
-     https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin
+  1. Kaiser nurses say AI, workplace surveillance are making their jobs, care worse
+     https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/
+  2. AWS: Inaccurate Estimated Billing Data – $1.7 billion
+     https://news.ycombinator.com/item?id=48945241
+  3. The Zilog Z80 has turned 50
+     https://goliath32.com/blog/z80.html
+  4. Texas wins court order to suspend domain name for violating age-verification law
+     https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and
+  5. Thanks HN for 15 years of support and helping me find my life's work
+     https://news.ycombinator.com/item?id=48949551
+  6. First atmosphere found on Earth-like planet in habitable zone of distant star
+     https://www.bbc.com/news/articles/cy4kdd1e0ejo
+  7. Learning a few things about running SQLite
+     https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/
+  8. Kimi K3, and what we can still learn from the pelican benchmark
+     https://simonwillison.net/2026/Jul/16/kimi-k3/
+  9. Open Book Touch: open-source e-reader
+     https://www.crowdsupply.com/oddly-specific-objects/open-book-touch
+  10. Topcoat: The full full-stack framework for Rust
+     https://github.com/tokio-rs/topcoat
 
 【Zenn】
-  1. Claude Code の Plan モードをループエンジニアリングで楽にする
+  1. AIに「レビューして」はもう古い？「敵対的検証」のすすめ
+     https://zenn.dev/loglass/articles/6aa18c80496ec6
+  2. OpenTelemetryのConsistent Probability Samplingを理解する
+     https://zenn.dev/ymotongpoo/articles/20260717-cps
+  3. Fable 5はeffort=lowでも“使える”のか？　React習熟度ベンチマーク
+     https://zenn.dev/uhyo/articles/react-profession-bench-13
+  4. "LLMに「読み進められる説明文」を書かせる設計：cognitive-rhythm-writingの構造を読む"
+     https://zenn.dev/nobmake/articles/394d8b42da48a1
+  5. 頂上決戦！　effort=max同士の対決でGPT-5.6はClaudeに勝てるのか（React習熟度ベンチマーク）
+     https://zenn.dev/uhyo/articles/react-profession-bench-12
+  6. Claude Code の Plan モードをループエンジニアリングで楽にする
      https://zenn.dev/k_yoshiya/articles/claude-code-plan-mode-loop
-  2. Metaの公式ドキュメント、いつの間にかcurl一発でMarkdownが返るようになっていた
-     https://zenn.dev/yomogi_cat/articles/78cbf4fc74d025
-  3. SQL MCP Server が GA したらしい
+  7. docker compose up だけでシークレットを注入する docker-valsの紹介
+     https://zenn.dev/estie/articles/df0fd5f0326f9a
+  8. SQL MCP Server が GA したらしい
      https://zenn.dev/microsoft/articles/1113250e1e63dc
-  4. 非同期パーソナルエージェントのススメ
-     https://zenn.dev/mkj/articles/7a8f55591e6baf
-  5. GoMLX による Go 単独での手書き数字分類 ― 学習から推論まで Python を用いない実装
-     https://zenn.dev/c6h1ocao6/articles/7e41873f3a9668
-  6. Claude Codeのskillをskillでレビューする ― 静的チェック×LLMレビュー×git hooksの3層ゲート
-     https://zenn.dev/aldagram_tech/articles/c407ae672c9c0e
-  7. 【衝撃】GPT-5.6のReact習熟度を測った結果……
+  9. 【衝撃】GPT-5.6のReact習熟度を測った結果……
      https://zenn.dev/uhyo/articles/react-profession-bench-11
-  8. 検索の5年前と、今と、これから考えること
+  10. 検索の5年前と、今と、これから考えること
      https://zenn.dev/rejasupotaro/articles/c55722ca8aa2ca
-  9. RunCat Neo カスタムメトリクス入門
-     https://zenn.dev/kyome/articles/eb4a9f664002ad
-  10. Claude Codeが化けた。今使っている3つのプラグイン+標準機能の活用法
-     https://zenn.dev/sonicmoov/articles/8712598f532b18
 
 【Qiita】
   1. 「頑張ってます」はもう卒業。エンジニアが今日から使える『数値化の鬼』の思考法
      https://qiita.com/Nao52/items/ced302095c8ddd3c8213?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  2. 面接相手に「未来」を想像させる。未経験でも信用される伝え方
-     https://qiita.com/prum_sumomo/items/c1a219a3156a4214828d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  3. 完璧主義を手放したら評価が変わった、新人の優先順位の付け方
-     https://qiita.com/prumnn/items/b9a128b0e71382979f08?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  4. Claude Codeで技術面接の壁打ち相手を作ってみませんか
-     https://qiita.com/kuma_3838/items/e07a4d45ca5cf2ff14ef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 数学苦手な文系でも大丈夫、ITの論理的思考・条件分岐を克服せよ
+     https://qiita.com/sumomoo/items/abf53976ec072511a4ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 新人がすぐにできるセキュリティ対策、損害賠償になったら怖いね
+     https://qiita.com/prumnn/items/6d7dc1bed369c567df22?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 面接相手に「未来」を想像させる。未経験でも信用される伝え方
+     https://qiita.com/sumomoo/items/c1a219a3156a4214828d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
   5. AI人材は２つに分かれる。あなたが目指すべきはどっち？
-     https://qiita.com/prum_sumomo/items/b7bfe27efae0231a09af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  6. ComfyUI × 動画生成AI × Codex で、ゲーム用スプライトアニメを量産するパイプラインを作った話
-     https://qiita.com/archeleeds/items/2efad73069b54288deb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  7. AIから事実を、本から考えを学ぶ。『本を読む人はうまくいく』を読んだ
-     https://qiita.com/kuma_3838/items/7d73ee9456dcec649580?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  8. エンジニアが知っておくべきIPアドレスの話
-     https://qiita.com/AkiraTakasaki/items/cd426dbd97a66dea11cd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  9. エラー対応理由考えてる？コピペしてAIに聞いてるでしょ
-     https://qiita.com/prum_sumomo/items/535a697aeaea41515de9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
-  10. コードを書かせるだけは、正直もったいない。Claude Codeを「先生」として使い倒す5つのプロンプト
-     https://qiita.com/jqit_suwa/items/2f38d32328996d826d48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+     https://qiita.com/sumomoo/items/b7bfe27efae0231a09af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 完璧主義を手放したら評価が変わった、新人の優先順位の付け方
+     https://qiita.com/prumnn/items/b9a128b0e71382979f08?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. そのSQL、本当に大丈夫？実務で意識したい5つの基本ルール
+     https://qiita.com/T-furukubo/items/3ace375e1b8aafd014a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. ログイン成功率を上げるためのパスキー設計・実装
+     https://qiita.com/rio-song/items/f60b7045c4cba9cc225b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. レーベンシュタイン距離を動的計画法を使用して実装してみた（Python/JavaScript）
+     https://qiita.com/tattttt/items/7221f323920b1bd4d2d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Claude Codeで技術面接の壁打ち相手を作ってみませんか
+     https://qiita.com/kuma_3838/items/e07a4d45ca5cf2ff14ef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
 
 【Google News (IT)】
-  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
-     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
-  2. Marvell Technology (bStocks Tokenized Stock) (MRVLB) 価格, 時価総額, 図表およびファンダメンタルズ情報 - BeInCrypto
-     https://news.google.com/rss/articles/CBMiggFBVV95cUxOejVqY0JzLTJKdGtja0lLRTdlVUg5YVdNQm16QUJtWDR4QW5RTWZVRU5hUW01Zkt3ek91NElRald2N1RWRjFKVjU1UlJ3bDBYdGQ3dGdzZDdYNEI2WG9fUzRHOVFRcFJwcHNJamxoYmVLTVRPb2xYU0U4X21MTlltUHdB?oc=5
-  3. "倉庫"を舞台に、ソニーのテクノロジーの力でアーティストの魅力を届ける体験型企画「SixTONES STock」 - Sony
+  1. 7月17日のSeagate Technology Holdings PLC (STX) 値動きは5.61%上昇：どのようなシグナルを示しているのか？ - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxOU01XTnZTaVBmek96QUZWbF9XUXNmRUNIblF1MVBkRkp6Rk1HVENRR2tYdnpyOVhnc0M5R0s1S19OX1paamVLMW56d0hhSmJNY01abmItSlhHY2VJcjRwQU1vRGRxUkE1RkF6cWlHbVcxVkFSSENwZTNGRUhMdFNzWlJhU0hNNDg4N2Jfb0dR?oc=5
+  2. フィリップス，低侵襲PCIを支援する「SmartIQ Technology」の上市に合わせプレスセミナーを開催 - innavi net
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xQzAyRFJJdDVrR0tkemE5U0ZDX3Vad2hWLVVHY3pacFAtOU1zQmVKeUdCaGFHN2tWNEZLMUZJTnBfalpWbU53Y1pYZi1GaEh5Z3BYMDJUV3l6ZHVWLU04Tng1UTg?oc=5
+  3. $マイクロン・テクノロジー (MU.US)$ - Moomoo
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxOUHhZaWFXVHRqb2FDQlpKbWpmMGxQUy1tSWlIMWlkemp1ZUVKVXN5ak5lTEZWdmNwNnhVT1F5SW96cVI0Y0dZVjM3dlhRZXd5bFJaVktUSjlrUWh0d3NVaGtGdVZTLUVmX1diTV9RZEsteEdiaVZNS2RWRUhBV3lYU1JWbnZWdTA?oc=5
+  4. (NEXT FUNDS) 台湾イノベイティブ・テクノロジー50【412A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GaFdpVEl4VWdMZTZTTzZCaE10dkpOcDJncXN2b3h2ZGUwejQwZk9mZUhGR0JudU9IdnJGZm1PaVVWeFFONnF1RGJKY2IwV1BHd0E?oc=5
+  5. "倉庫"を舞台に、ソニーのテクノロジーの力でアーティストの魅力を届ける体験型企画「SixTONES STock」 - Sony
      https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TEFPLXVoUE1JbWJQU3JZRFMzU2VqdC05OHlRU1p3dzdCRkEtTEtKYXMtNEJ5N1Jibl8xLURPY1ZnMlY1bmhoNmNIZ1FNTHBzR2dvZDF3YUpUQjlabWc?oc=5
-  4. Ariel Green Pays Technology Performance Insurance Claim for Plastic Recycling Facility, Demonstrating Protection for Clean Energy Projects - 共同通信PRワイヤー
-     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jTjFHMkxRRjVVS1JQeGhyaWpBMnFEMy1UcHZNWDRCb3pha0poZk9XQUNnRm1YVUtUNGsyaXdBV2s3SW9kUHR3R3F2bUJoQzNFM2FWZUF3SHpPblk?oc=5
-  5. [Faculty of Global Management] On July 9th, Dr. Amro Aljbour from the Queensland University of Technology and the University of Queensland in Australia delivered an online lecture during the Strategic Management course - chuo-u.ac.jp
-     https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVXFTSTJiSm1KOXlBclUtcWtqZUI0V2FjaHNMNmp6aDBvVDZEd2djeUpPR3lQcG5jYWZJbUJkblB3SDFpLXE1bGxJVnluaDdSbi1fSnM0RWRvY2lMR3ZBZzZxUm9TQUg1VTA0UTJwMUI1Z09wYktPWGxlUEd4bEJ1UnM5aTFuajhR?oc=5
-  6. 楽天＆Roktが「NRF APAC」を総括！ AI活用は「概念」から「実装」のフェーズへ - ダイヤモンド・チェーンストアオンライン
-     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nWmV5enZ1UGp6bFdpWmU5Nm12eHJZS2JWc3NjSkY4VU42MmNmaHJSZnpvTzdkUFN2ZnNoenkwMUpuVl9aeF9uc19sVU5XUngyOTFB?oc=5
-  7. 育休中に資産1億円を築いたママ投資家・ちょる子氏が登壇。女性36名が資産形成を学ぶ1DAY金融イベントを開催 - PR TIMES
-     https://news.google.com/rss/articles/CBMiakFVX3lxTE9SZWhjVFpZVEtZREZTTTcycnlXbjg1RWp6T1pVRmVMb2ZMSjRwYVh3TnZ1ZFE0UnVVNWZ6dGRETHlyMzNvSm5nM1lNLUY1TkdLVWxheHUzd21qWFkxS2VnblNVRWt1aTROMWc?oc=5
-  8. アップルのMacチップ戦略転換、自動運転車の「失敗」がAI基盤築く－Power On - Bloomberg.com
-     https://news.google.com/rss/articles/CBMie0FVX3lxTE4ycXFXbVcyY1JPa21jQ1J2YXVDTmxQSm1YQS13TlI1bFJoWG9abXdEVkN0WV9VVnptOWVjdzVWWlFwVXlPVVpLaWNIWUJyYXVWWEdYUUFjczljN0FYRU1GU2FMYldvOWdRbDRhdWFGWTFzaWdJWW10LXdzMA?oc=5
-  9. 7月15日のSeagate Technology Holdings PLC (STX) 値動きは6.72%下落：値動きの背後にある要因 - TradingKey
-     https://news.google.com/rss/articles/CBMijgFBVV95cUxOS0ptQ1lSUzhNQXVpdkVHWTFjTi1RMWtaY29vRTgwaGhWQkdFdlFKRl9ZSEZYeXY4dHNkUXNmZk9KRDh3TkIxdXRvMnJYWWtxYkticHp6S2lVZGh4QUE2dHRUQmcxUG5UR2hGR2s1dGlOaHp5Rk1FbEZBOHlvWWtabF9yUWdYNk5udHRqRXBn?oc=5
-  10. 心臓カテーテル治療における高画質と患者負担の軽減を追求したイメージングテクノロジー「SmartIQ Technology」を販売開始 - Digital PR Platform
-     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1Dem4wUGhNLTI5eW9JZEZEOTlmaGlweHVOMGxOMFU3NHF0NnMxQnhsRUUzYXhWOG1yMFI0QURwXy1lX2c?oc=5
+  6. フォレンジック技術市場：ソリューションタイプ、技術、展開モード、用途、エンドユーザー別―2026年～2032年の世界市場予測 - newscast.jp
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zbng4UXU2MHk0dm9DVnlEY1l4bzYxZHAtMldST3ozd0dVMDRGR2I5T2hNbHg1aEx0WkFqSDhlSTJJUXVOZzFFSl9pY2lSTUk?oc=5
+  7. AI-RANを実証から商用展開へ ～ソフトバンクが進めるAI時代の分散型インフラ構築～ - ソフトバンク
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE4tWVhCcVdXSmtkWmJHYXI4V2NmdnM5QW9TQmhOS1VFVk9qM0w0djNDS1h4bXk5RDU1RVhrVGZKQ3BDTFRZbHVJYWEzSDAtRWFQUlBvUkpaMGltWmc5UEpFemdsX0FhYXpZWVZ3bw?oc=5
+  8. 国土交通省 国土技術政策総合研究所から優良業務表彰と優秀技術者表彰を受けました - jwa.or.jp
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlemJnb3lpWFJuSXI0aDl4cExqSTh4UEJ4Qnp2RjFQR2g3RnFFbnFtMXpsZ1RGbVZLZWV5M2xteUQxM3hoY2FLNFkzSHJvVTB1c0k0?oc=5
+  9. 大学院医歯保健学研究科細菌学分野の松本壮吉教授がGlobal Health Innovative Technology Fund （GHIT Fund）に採択されました－結核菌の休眠を標的とした、薬剤耐性結核の治療および治療期間短縮に資する抗結核薬リードの創出－ | トピックス | ニュース - niigata-u.ac.jp
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rM2RLanpUN2o1S1hQV0FQTHBvX1Mxcm5GRl9TSDNkdklUVmEyb3BaaHFrUjZpTXJ3TDVLSE94LXdyeVY4MWdVanM2dDNUNGZLRWVtMHdQY0tEQQ?oc=5
+  10. オムロン、NVIDIA Omniverse™との連携で検査技術を革新 | ニュースルーム | オムロン株式会社 - omron.com
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RY3VaUUd2WS1raEVYRFhnV05MTlV0Tks5bTgxdVdFNWlqdmR3TXQwZFducktJZkhfQVVNRU44WEZwdGN3eGpudVhsLS00WndiVlVzQUhtVFRKSzBFTElBNkY0cw?oc=5
 
 【Google News (Business)】
-  1. 「コンサル業界カオスマップ2026」を公開｜主要67社の得意領域が一目でわかる - PR TIMES
-     https://news.google.com/rss/articles/CBMiakFVX3lxTE85ai05R1VTak1Vc19hV2dfdDVTSVRITTBWTnNxeUd5ZGVjb0djX3NucGtjb00tZDJJVmJvUUlJdlVSd2I5YjhrNG9uV1doSEthLUE4ZUlwYUVsVHhnbTdZV3lxN05EN1QwVFE?oc=5
+  1. 魚肉ソーセージは、なぜ「あの形」のままなのか　縮小市場で見えてきた、ロングセラー商品の戦い方 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOW5sam1jaXlCRUVyeHo5bUlvVkxNRkhTZVBsSXJPZVJwOXdvTlFJUEEwdzNrZnA5a3h3NTlCWno0RXZPcm8zMVBFM2FrMVI2SEF5NXhXSDBTRzJnQ2dpVms4cERTTlEwV3l0enR2VHNFcXpKdGs0Rk1LZ3BJaGRXODNBOHozM0d3ZWR1WENDaElvNTBIV2szbFYxNmpMelR2cDVsZkZkUlJ2Y0J4bzFPNlBCS0JhRFdiRHd6ODZDaUZLLXY3THVrZUlYNTNueEN2OVdBdFNiZ1hBajA0NDR4MTNSMmFlUdIBnAFBVV95cUxPdVRTMUctTHhVOVBBZERhUDZNVEJWVm1SSDNpTUlVZkF3czEteGpiMlY3SHZoeUxHQ2tpZV9mU1JUVDVGWVViTHJxakduTGNIWlh5eHBJRGFlSDVGb21QWUdpV1BRa212blNncG85aHkyQURaenpxWS15THN4emRTMUJtOVN6SlV2bU1zeU9iWjc2dFhOTkw4UnN5UXU?oc=5
   2. ウクライナ撃墜のロシア製ドローン、搭載部品の過半が米国製 日本企業も10社 - 日経ビジネス電子版
      https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RQXgtODd2eVNWUElsODVwbENNeXFwRlIyVG9QZmdub04tQnkwQW51OHY1cU40aEdEZ3BqcE1SMUZmZWNPUE91ZmZ1ZlE2SW5MQmFPdmFQbzRCU3BEdmVoRFJfYms1bTA?oc=5
-  3. NVIDIAファンCEOが日本企業との提携発表「次の産業革命はメイド・イン・ジャパンに」 - ビジネス+IT
+  3. 【写真5】福住仁嶺（NTT docomo Business ROOKIE） - autosport web
+     https://news.google.com/rss/articles/CBMid0FVX3lxTFBBYUNtemtwRlBmUGIwZzBOWl8taDZwRTJVMlpUWWsxWWZ5a0xKd0tLVE0yeUg0YzVEX2JFTHJVYlYwWjZtWEQ5M2NlWGVSb3JtZVhTVXZQMjlwRDI3OEhFQzVYYTRSc1JKaFZmQ0gtSW5wRWJCc3Jz?oc=5
+  4. 【再配信決定】AIエージェントで激変のIT・SaaSビジネス 『THE MODEL』著者・福田康隆氏に聞く「勝敗を分ける条件」 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nVk5VeV9jMm5rMkg4Q1pnNzlzVkwxRTZoemJrU0dVZzRqc0JvUUE0dlFsQ2xlRzlpaTUzdFYxTEJOQmROcERtVFQtMHVUUC00YWRWbFh3?oc=5
+  5. NVIDIAファンCEOが日本企業との提携発表「次の産業革命はメイド・イン・ジャパンに」 - ビジネス+IT
      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HeTFLQVRKSGFOdGpJVEF2dGdNZmlmSjhxNEhDU05fXy00Y3Q2ZnlnWURCWlh3VjhOR3BwLWluT3JrZGNTUS1uXy1lay12WUN1T21z?oc=5
-  4. 人口減少下の地方を支える地域密着ビジネスの底力 生産性だけじゃない、中小企業を評価する「ものさし」 - JBpress
-     https://news.google.com/rss/articles/CBMiVkFVX3lxTE56Y0xOQmxRdnc3MUs4YjRqbzYyRHhXUGs4RV9HU3lrUy1lWEdscFhCZVBqWmZjUS03V09YTWlzOVcwTXVreFFYbEdMbS1QWjlEMFVnRmdn?oc=5
-  5. オープンAIは「暗黙の了解」をぶち壊そうとしている。だからアップルは激怒し、強烈な訴状を提出した - Business Insider Japan
-     https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWjh2a2ZpakMxS04zblFrUzNNcmpNYWR1VmpibGNyTnZUM1FNU0tOVDNRa2FGZUZ1eC1ya2dNejlCOFR0SGhMTTRGTFhOLU9KNXk5dHlPZDBjZ3g2bGhoWXVkc2RQazh3LWNRSkx6cUFvMHh0SC11MDhkUjdYLWNtYTBBb25rSE9FdHRsRHUyYXZmZzRWUEE0ajlNdTFSenQ5R1RVN1FGdFloWEp6NmxrWmZsWkl3ZTM4REdv?oc=5
-  6. フォーバル---香川県の「インドネシアビジネスマッチング等開催業務」を受託 - ｄメニューニュース
-     https://news.google.com/rss/articles/CBMihwFBVV95cUxOTE9kSy1yZzY1LW5TaktNRDVuc3F0WVlSTXdBUkxLaGlReGx5ci1tVkRneUt0SzlaTHNaaXFWUVRCZXRoVG8ya2JYUGIySUk1c3FmYXYyMDhYMXlBaGQxR0d2aWQyRTd2RW1rdUk1VlBjLTRxTEFEaTVQMjZMQjRvbzlOTHlEUzTSAYwBQVVfeXFMTXJTZVJodEpkU21QUXVWcmR4UHA4RHFkajRtSXh5dTZfYnlPRkZabXhtZm9sTUkwSTlBZ0MtOVhmbHc0cEdGSjBRQ1FhdzZaRkZKTlhGSjIydUo3RmR0d2pSa3J3Wi1Rd28tUDBJZ1g0WjdqS19YMmxlams5VkFZZnQzV0dQaF9Xc25WYTY?oc=5
-  7. 山忠 Research Memo（7）：ビジネスホテルを新設するとともに、想定される諸問題に取り組む(フィスコ) - Yahoo!ファイナンス
-     https://news.google.com/rss/articles/CBMihwFBVV95cUxPWGhTVWJPRVhHRTk0ZnRCXzdPemZwdDZKbmt3UUdLU2VxSHM5S3JQc1hpQi1iS2thMHlFRjhLaExkZzFCVXliVjJiSzJsOWh6S19WWmw1RzhwSDdSRnhCSDVaaFVIZnlEd1R6UWcyeDZwOWNEX0QxM2R6NlhvVDQ4MUpzMzdJTTA?oc=5
-  8. 「難しい仕事」と「カンタンな仕事」先にやるべきはどっち？ハーバード大ビジネススクールが出した結論 - ダイヤモンド・オンライン
-     https://news.google.com/rss/articles/CBMiTEFVX3lxTE9BdFNEN3hGSmlaNUtRR0RZSk5VTmVzOXZBc0ZOQ2MzVDVyN2w1a2xrTnhZWF82TVFXNHB3OWFDRGh6NlVvSTY4YXlwNTHSAU9BVV95cUxNQVFjb2tCbEFBNVAzUUNYaHI2bU1HX1I0M2M2S2c5elhkUkNud0M0T3RKTlN5Uk1ORlVmeGdCUTVpZThLd0I5NDNfMjY5alhn?oc=5
-  9. 2026年上半期の「医療機関」倒産、過去最多ペースに 6割超が小規模倒産 - ITmedia
-     https://news.google.com/rss/articles/CBMia0FVX3lxTE5Uc2cyVDFjQ0FQR0Rzd0xIUmZaQzNCRUxadjAwY3A5TnlmVVIxdDUwWndMM3lSNnk1cGNtNm5QUV9ZeUdTTnNERGVXN2F0Z2h4ZTZoRXNaWFVteXhiNF9CRzJJcDhTU09objI4?oc=5
-  10. この教室では全員が起業家、そして投資家 ビジネスアイデア・デザイン - waseda.jp
-     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fcWNrMHltT2c5SUxqdkRlcjJ5c3pwWlR0N0Q5QXZTUS0xazdUNlFjZ2t2UWxPSGYycDk1bjJ6alNEV2JCUVVRRm9SVE9Jb2Y1V28xb3FrWVk3VE00M1VBamNDQWl1a2M?oc=5
+  6. CCC運営の「TIB SHOP」、「フィガロジャポン Business with Attitude（BWA）ピッチコンテスト2026」に連携参画 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9uWnBubEZTRDBnZ2NLb09OU1VwZm1rYUZvTnlWWVB6UEFIQTgxay0tUC1PVFNyUmotTU1lelJ1ZmhYQmM2MWhxWTZEYk80SURNd05tdjZtU01JVktodnA0ZnJhbS10SGRwM1E?oc=5
+  7. INTERVIEW: Nikon to Focus Investment on Semiconductor Business - 時事通信ニュース
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2TmpabzI0eFJKQk9neW8wN2RXaUN0REhTcTdWc1FuTHBUb1dvSkE1SWZTN1hYbmw5c19CejFDVklWUEdPelRfNGhnVm81WF9UU1E?oc=5
+  8. マッキンゼーも指摘する「AIにはできない力」は意外なもの - Business Insider Japan
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE1JT0gyaDh4NUxFT3c5UHNPb1pQdUhBTWc0elh3QndyZkU1R1d6QWtoaEZ2OWFOclhDNzM2OG5LNDcweGtRb1ZCaFhON2J4NnVzUlh2amYwcjA5S3Z0cDVOTlhldVBuZXFFREZkM2pKU1lYS2pRT1pwYg?oc=5
+  9. 結婚式場ビジネスが“曲がり角”に？ 婚姻数は増加も、収益増につながりにくい原因 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE40cDdQNUZxbUkzLW9iVExiMVhXVVgxUFM1QjZIQ1IzZVk3YUoyR01ESTljQWtJSTJScXJ1dGRzVWtXVThnVk9YbU1hc0JkdmlYZER2bHY1SHZFT2pEYnJWTDVzU3Q0c3NZTk1OYjNUSy1tUQ?oc=5
+  10. AIヒアリングエージェント「Kikuvi」、「NEXT BUSINESS EXPO SUMMER 2026」に出展・登壇 - 朝日新聞
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hOXlsLUtNeDZrRmsteEU4Snlfem9ZeHo0WEIxdC1SaUVaQzlTTktUWUMxcnVSMVhBdkQ4dXlpX0dJMEN6MF8zWlY0U3YtYzBOcWctZ01XU3dEa0E?oc=5
 
 【Reddit / technology】
-  1. Mamdani is targeting deceptive AI-made apartment listings
-     https://www.reddit.com/r/technology/comments/1uybxvi/mamdani_is_targeting_deceptive_aimade_apartment/
-  2. Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms
-     https://www.reddit.com/r/technology/comments/1uxzpaj/tesla_driver_in_fatal_texas_crash_pressed/
-  3. The AI Backlash Has Tech Executives Fearing for Their Lives
-     https://www.reddit.com/r/technology/comments/1uy0v5s/the_ai_backlash_has_tech_executives_fearing_for/
-  4. GameStop CEO Says Games Are "Irrelevant" to Company Revenue
-     https://www.reddit.com/r/technology/comments/1uyfiqb/gamestop_ceo_says_games_are_irrelevant_to_company/
-  5. Microsoft Restores Player's 25-Year-Old Account With Son's Baby Photos After Nuking It Due to Hacker
-     https://www.reddit.com/r/technology/comments/1uyi03r/microsoft_restores_players_25yearold_account_with/
-  6. 'Going to be killed': Why world's top AI executives are fearing for their lives
-     https://www.reddit.com/r/technology/comments/1uy52l0/going_to_be_killed_why_worlds_top_ai_executives/
-  7. ‘I couldn’t stop crying’: Ontario woman loses $83,000 after watching AI deepfake videos
-     https://www.reddit.com/r/technology/comments/1uy9xn7/i_couldnt_stop_crying_ontario_woman_loses_83000/
-  8. Truck Drivers Allegedly Ramming Flock Safety Cameras To Destroy Them
-     https://www.reddit.com/r/technology/comments/1uxucne/truck_drivers_allegedly_ramming_flock_safety/
-  9. The KIDS Act Is Just as Unconstitutional as KOSA ... Just in Different Words
-     https://www.reddit.com/r/technology/comments/1uyahlw/the_kids_act_is_just_as_unconstitutional_as_kosa/
-  10. Korea's molten salt nuclear-powered container ship design wins US approval
-     https://www.reddit.com/r/technology/comments/1uycyr4/koreas_molten_salt_nuclearpowered_container_ship/
+  1. SpaceX stock drops to a new low and loses $1 trillion in value in a month
+     https://www.reddit.com/r/technology/comments/1uz6zsr/spacex_stock_drops_to_a_new_low_and_loses_1/
+  2. Kevin O’Leary claimed opposition to his Utah data center was fueled by Chinese money. Now he and Fox News are being sued for defamation
+     https://www.reddit.com/r/technology/comments/1uzac76/kevin_oleary_claimed_opposition_to_his_utah_data/
+  3. Flock Said Its Cameras Don't Track People. Then a Reporter Proved Them Wrong On Video
+     https://www.reddit.com/r/technology/comments/1uz5y37/flock_said_its_cameras_dont_track_people_then_a/
+  4. US president says ABC and NBC should lose broadcast licenses because they didn’t carry his primetime address on election claims
+     https://www.reddit.com/r/technology/comments/1uyxfmg/us_president_says_abc_and_nbc_should_lose/
+  5. Terrified Tech Execs Are Traveling With Armed Bodyguards as AI Backlash Grows
+     https://www.reddit.com/r/technology/comments/1uzed27/terrified_tech_execs_are_traveling_with_armed/
+  6. Xi offers AI olive branch to the world, calling for 'symphony of global cooperation' | Development and governance of artificial intelligence should be a global effort, Chinese President Xi Jinping said Friday
+     https://www.reddit.com/r/technology/comments/1uz4tog/xi_offers_ai_olive_branch_to_the_world_calling/
+  7. ICE to Pay Thomson Reuters $125 Million to Find "Voter Fraud" | A new procurement record says ICE wants access to personal data, including names, Social Security numbers, and ethnicity, to investigate in part what the agency calls “voters fraud.”
+     https://www.reddit.com/r/technology/comments/1uz73i2/ice_to_pay_thomson_reuters_125_million_to_find/
+  8. With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises | Fortune
+     https://www.reddit.com/r/technology/comments/1uzb3et/with_a_15_billion_net_worth_palantir_ceo_alex/
+  9. Data Centers Officially Overbuilt: Meta Offloads $10 billion of Data Center Space to Anthropic
+     https://www.reddit.com/r/technology/comments/1uzdriu/data_centers_officially_overbuilt_meta_offloads/
+  10. AI data centers must produce as much power as they use, Australia PM says. New national AI framework will also ensure water efficiency and protect intellectual property rights
+     https://www.reddit.com/r/technology/comments/1uyzk4x/ai_data_centers_must_produce_as_much_power_as/
 
 【Reddit / business】
   （取得できませんでした）
