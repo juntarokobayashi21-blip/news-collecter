@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-25
+============================================================
+
+【Hacker News】
+  1. Claude Opus 5
+     https://www.anthropic.com/news/claude-opus-5
+  2. Postgres LISTEN/NOTIFY actually scales
+     https://www.dbos.dev/blog/postgres-listen-notify-scalability
+  3. SpaceX Starship Flight 13 livestream [video]
+     https://www.spacex.com/launches/starship-flight-13
+  4. Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard
+     https://artificialanalysis.ai/models
+  5. Show HN: I simulated closing the Strait of Hormuz on real oil trade data
+     https://globaloilnetwork.staffinganalytics.io/
+  6. My security camera shipped a GitHub admin token in its login page
+     https://hhh.hn/hanwha-github-token/
+  7. India's first privately-developed rocket reaches orbit on debut launch
+     https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/
+  8. Designing an Ethernet Switch ASIC
+     https://essenceia.github.io/projects/ethernet_switch_asic/
+  9. Nvidia, Microsoft, Meta warn against overregulating open-weight models
+     https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html
+  10. An old patent inspired the new "Y-zipper", a three-sided fastener
+     https://news.mit.edu/2026/three-sided-y-zipper-design-0504
+
+【Zenn】
+  1. ターミナルを自作したら、1日のコミット数が500を超えて、生産性がバグった話
+     https://zenn.dev/singularity/articles/diy-terminal-500-commits
+  2. ソフトウェア設計は、「誰がどこまで考えるか」を決める仕事である - 変数名からDDD、DB設計、マイクロサービス、組織構造までを同じ枠組みで
+     https://zenn.dev/kanaria007/articles/c392cbd1c1fc21
+  3. 受託小規模向けの技術選定と考えたこと
+     https://zenn.dev/fukke/articles/20260723_nextjs-structure
+  4. Go 1.27 から uuid 実装がサポートされる！ので個人的に気になった議論とその着地をまとめてみた
+     https://zenn.dev/layerx/articles/f7124d4e761c1f
+  5. Go の設計、どこまでやる？〜小さく作って、壊さず育てる〜
+     https://zenn.dev/135yshr/books/go-service-design
+  6. 設計を、技術の話から始めない
+     https://zenn.dev/team_lab/articles/31ec1e630ab28b
+  7. 開発しているだけで進捗が更新される。Linear × Claude Code × GitHubで作る開発フロー
+     https://zenn.dev/explaza/articles/500ded8ea67252
+  8. WebエディタのTab問題について調べてみた
+     https://zenn.dev/cybozu_frontend/articles/contenteditable-tab
+  9. Rust 1.97.0で変わったmanglingの仕組みについて
+     https://zenn.dev/estie/articles/f310f04c5fe5cc
+  10. Rust に書き直さなくても C 言語をメモリ安全にできる Fil-C を試した
+     https://zenn.dev/mattn/articles/cace8c5a00b9cc
+
+【Qiita】
+  1. AI時代のポートフォリオ、転職で本当に見られているのは「言語化力」
+     https://qiita.com/sumomoo/items/d8c22cb512d9ba036154?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. ITパスポートと基本情報の違いは？どちらを勉強すべき？
+     https://qiita.com/prumnn/items/b5b8a10713e2a96a2861?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 「何から始めるか問題」で、結局何も始められなかった話
+     https://qiita.com/sumomoo/items/516da72f0627c3728fbe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 個人開発に活かせる、動画生成AIで需要を確かめてから作成するという発想
+     https://qiita.com/sumomoo/items/700e37b3240717217b37?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 新人エンジニアは"忘れる前提"で仕事をするのがベストだと気がついた
+     https://qiita.com/prumnn/items/ceb0f115dfe9459315bf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 先輩の「なぜこうしたの？」に毎回パニックになってたけど、整理するだけで上手に話せるようになった
+     https://qiita.com/prumnn/items/0fe99e9afff2c9f79fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 狩野英孝さんのポストは、なぜ1992年へ飛んだのか？整数オーバーフローが起こす時刻バグ
+     https://qiita.com/miruky/items/4be4d7e683632ba8c396?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. AI時代、デザインはこれからどうなるのだろうか 〜エンジニア視点で考える〜
+     https://qiita.com/kimuchi_a/items/d0cc21f56660cbad5457?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. go.sumって何のためにあんの？
+     https://qiita.com/kanzawa_kentaro/items/3a2b7cba67f4d8e0a7c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 生成AIを活用した自動化に必要な権限設計の考え方
+     https://qiita.com/inamuu/items/8439fcee712184740608?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 7月24日のSeagate Technology Holdings PLC (STX) 値動きは3.78%下落：主な推進要因が明らかにされました - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxNLV9UWm41Yk5OaExzYTRTRVVJSTlwa1g2eHNwZjd2ZVRoS3NNaE1yQ1VxcWpQcUVmSi1GUlJwSzlyZDlnclpaQXE5eHp6d3FVc3RfVENCVzJBUTRZbEwtTDdlQkxzUUFaQzJQUTRFXy03aDBMenVoTUV0ME96UmdweExHanNIdHJLSGEtT0ZB?oc=5
+  2. 《24日のストップ高・ストップ安銘柄》：monoAI technologyがストップ高(フィスコ) - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxOVE1lM3ZwSmRneUVsME9JLTJlWTgwSWJ5NnN1ZXB6OFV0LVNtbWNENGtuTWprSzV0VnBJZHVxaVFMUjRHa1RRNWRDdGJzOGhwQi1ON1NkQ19GZkdnUHVRTEtobmRxSXM3V1ZicnFLWjV1ZHBwU1FWLVJLM3QtX0ZXUGc0RGtBR2M?oc=5
+  3. Winners in Third Annual Stevie® Awards for Technology Excellence Announced - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkdzRKTGVFS0JmUGtob2JTMGZTMmI5dmFUQkNyUDhnOGRWc3NCN3FHUXlCYTNRWWt1R09SMVI3WjlNal9jVG5Yb3lBQjBqYnZwMGNjUmk4eUkzVUE?oc=5
+  4. 高齢化で高度化する循環器治療、患者負担の少ない治療の実現へ フィリップス・ジャパン、次世代画像技術「SmartIQ Technology」 プレスセミナーを開催 | 株式会社フィリップス・ジャパン - Digital PR Platform
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE16STVtdmlLeXozZEtlc1JXZ0ctYk1Va24tbWdDMVdBV2VIaEVUOFZoSGxXeHRyaGVJbDhod0lQNlV3Rms?oc=5
+  5. InfiMotion Technologyが無錫で本格始動、EV駆動システムのフルスタック能力を披露 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE5WaEhwcko0dmhhN0JfaThWZGd6OHFwZGFxNHd6R3Rabk55dzJ1dW1rdDcxVDNnT29wUDVraWhpMktHaEhVVkNTSHlJMk1ScXlpRGNkRzJwU3JBbkk1WDQ0ZEtJM21aNWJLX1liRm9RTU9TZU13?oc=5
+  6. Viant Technology：Capital V LLCがNASDAQ:DSP株式を412,932ドル相当売却 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE1oYW1mTm10M0RBUGlhMlRtYWJRSVc1eFNlSS14YWxKLVNnN2ZpMEw2U0VGbHNHNGNhSWtaNVBxYVFmTFc2S2REUnZlb2FIUzdPclh1Vi02NmYtSU1fRGh4eGMyWkpuWkpWekNoNG9hVVNIOTBiZ2VFb0Q4cw?oc=5
+  7. マーチャント・バンカーズ[3121]：AI TECHNOLOGY 株式会社との合弁会社設立のお知らせ ～ＡＩ防犯カメラのトップメーカーを目指す～ 2026年7月21日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFB3NTVrdkRpWnNOemd1c1d1T1l5dzhFVEdIZjUzWXlRTUt6WnRWNERhQXNRSHFuMVVSYW5zUXE0cnR3ZTZYOXBnSXBXLWxZTXhDUUJoZXo0ZEZJMG1ld0xWb2pzcDZjSjFhRFE?oc=5
+  8. トランプ政権の技術顧問、中国AIモデルが米競合から技術を盗んだと非難 - BBC
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE16U0NWMHZMeEFYYTB1Y2hqZ1dPLWgyMXJuNWd0UUU2TlBnNlQ1RTlQM1E1a05pSXE0Ty10SFQ0X2RGa05BQmF0UjFnTjVkVVpoVWUtWDNTSndEakJkNVNz0gFkQVVfeXFMUFJhdllOWWI2SlZMRF9qZWtudFU2bFR4WFBwaDNEZDBNUlFRQlloUUJ5ZzRJS3FKSmQzZTB5NldSZWJQZVAwNXV4dDlRZXFvVkFDWk9hWkUtSmIybG1iaXoxdDJHYQ?oc=5
+  9. 日本政府の科学技術・イノベーション政策：福田昭のデバイス通信（519） 2026年度版実装技術ロードマップ（2）（1/2 ページ） - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTFAyUUFvX3ZrYmxicGRtSVdGMklHRVNieEVFNWN5MVN6cjdDY0FuS0VNcGRFZnA2Tkc1cmlkMnlTdFlQVmQ4ZERZSDZGMFpvNFF3SkRRbEhBbjRFXzN4bWJnSzB0OWhUOFJRdFp0ZWotbw?oc=5
+  10. 【アイサンテクノロジー】第3回ATM’Sユーザー会を福岡で開催しました - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5HeUc1OGZEdXJTTnZrUEhsNUZ0VTZJUlJWbi1pTTg4bXJucDNUbll2Q0N3Z1puS2hNSmUtR3l3Z2hQYXhTSE1fWHdiLUN4c3FYSl9adkJ2bTVkREtENER3emxxQ3RscmJRNXc?oc=5
+
+【Google News (Business)】
+  1. なぜ人は出世すると“残念な上司”に化けるのか？ 日本企業をむしばむ「オールド・ボーイズ・ネットワーク」の正体 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1qeFNNelNGY3lYbTM0YkZJSXJIaEhBU1VLUFhkOXZVc0tMTlVSMzVFSkdDeC1qSWFOMWV3RS1iWTNrZUNaOEVEU2pTODUwOERCUllPY3d0SHVyTnBvajNKQkE0dXhNbGkwSER6QklNNlhDQQ?oc=5
+  2. 「出社 vs. リモート」論争の本質 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxQQWdEYVFXeFVhX3YyTlYxRmZKdl95YnpnTEMxNTVvSDVOREhXclJNb0xBdUlNcEMzY3M2QWlpTjBnc0IyaTlWV1dYQkhZdThMczJsS3NlWC1tQjI0cjhTVTh2T3RkZ0d5Z3JkeWJHeXhPNlRnaEFWZFBNTlNHTzFMVE8xV1lUU1E?oc=5
+  3. 【EUビジネスハブ イベントレポート】EUパビリオン、WHX Osaka 2026（World Health Expo Osaka 2026）で欧州のヘルスケアイノベーションを発信 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5GdDRzZmV5eGk3WGhQVTIxZjNZZS1EY0QtLUFCaEYzSjhtYml0ejJ5LVlKdy1MSGh5blc2VlBQb3JqZlExMVA2b0c0U3dwWEFlYzdKbzhNRGJRamVhOWFqdTZGRWhKb21UVWc?oc=5
+  4. タンカー通過10隻→60隻→一桁、停戦合意もホルムズ危機再び 韓国は中国頼る - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmSW1hUERkV3RzQW4yZzFQQVhDVkRFazE1UlFNSkNDRWRVN2V1dUk5UWRON2hteWFDZkhNbjJRS2ZnRXBGN296VG5uQmpXaXBvZm94Z2xMZGNjZS1BckptUnhvYjdGTXc?oc=5
+  5. なぜ経済学は「机上の空論」と思われるのか？ 今井誠、坂井豊貴、ジョン・A・リストらが示すビジネスへの生かし方 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qUmFLTlBJTHhSejhSaFpTZ1luejFQNnIyVXRRVnBuUGNwd2VtTWM4eEhOc0tMTmRNNlk5bjlKUlhUNFZBUDlWZmROay1EOFBXQVJDejZR?oc=5
+  6. 【年間猛暑日数が急増】熱中症対策ビジネス拡大 義務化、企業さらに注力 - 山陽新聞
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wQmEybFNOSWctbVBXNHh6Vm1ld0Z6OVl4d0YzUUhPcWZpSmxRLXAtcjJRLXBsZEcxcmVEUE8tYVpNVXFFZEFzQ3N5bWdEY1Brdnc?oc=5
+  7. 「ビジネスクラスにしか乗らない」と決めた老後…。〈貯蓄6,300万円・69歳元会社員〉帰国後に募った後悔 - ゴールドオンライン
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YRlZKbnJnaE1XMDJKZFl6QTZNSWVWdDFtbDVLN3JXTWJLYzRXZUxIRzRmUEd5WlBFeUlSZ0JSeXBhR0g5T1o3SzJGejF2aHpSdlE?oc=5
+  8. GYOMUHACK株式会社、ビジネスアーキテクトの職能と市場を育てる「Business Architect Community」を発足 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMia0FVX3lxTFA4ZG1XRVVqdTN0UVliTlZNNGxuWW1Pd2xvYVpuMzJIOEgtTVhMU2IyNjczN2RSNXhnNTBaNmthVG41dXljUklYdWgtaFNQRDVwQ1dMbk1aVVFkTFlsZzVoaEN4VGZrS1lkekFv?oc=5
+  9. 幹細胞・免疫細胞を凍結保存するビジネス…富裕層が殺到する「細胞の預金口座」 - ビジネスジャーナル
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBieEFxMmNBV2JURXhJd3lNLTZVdWhGRmt0cXNZbERqN1NqM2NEZDN5RjhYdnpfZ0lMMHNZOVZhTG9jWEpwZnRyNTVyYUZKMllOVkljRElyQUd1T0E?oc=5
+  10. ニチレイ、低温物流完全復旧／全拠点で通常稼働再開 - 四国新聞
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVXZIMzR5Tm1PV0JOQy1nMGRudVJzZUZ4eDlpaE9qcXB3TlFXXzZyMDV4UGVQY1l5ZlZXNDF1cFdkRUJzbU1TZGk2RnFLLUxEYXN1RlMwWk94YWlTbTN0QTdUSUEzbzhRUF9aUURxWGVQY1IzVUdFOUdiQWpsTDlISTMzcHNQc2o5?oc=5
+
+【Reddit / technology】
+  1. It’s Looking Like the Cybertruck Is the Biggest Flop in Automotive History
+     https://www.reddit.com/r/technology/comments/1v5hegw/its_looking_like_the_cybertruck_is_the_biggest/
+  2. US accuses American of allegedly wiping his phone using a ‘duress’ password during border search
+     https://www.reddit.com/r/technology/comments/1v5mels/us_accuses_american_of_allegedly_wiping_his_phone/
+  3. New Jersey bans grocery stores from using shoppers' personal data to set prices
+     https://www.reddit.com/r/technology/comments/1v5brhk/new_jersey_bans_grocery_stores_from_using/
+  4. Turns out Dead Internet Theory was right: AI agents are eating the Web, growing by nearly 8,000% and rewiring the Internet’s business model
+     https://www.reddit.com/r/technology/comments/1v5fxac/turns_out_dead_internet_theory_was_right_ai/
+  5. Flock cameras go up in flames as cops hunt suspected firebugs
+     https://www.reddit.com/r/technology/comments/1v5ea2h/flock_cameras_go_up_in_flames_as_cops_hunt/
+  6. Sony's Nightmare Month Gets Worse as PlayStation Network Goes Down, Leaving Fans Unable to Play Digital Games Just Weeks After Killing Disc Controversy Erupted
+     https://www.reddit.com/r/technology/comments/1v5engg/sonys_nightmare_month_gets_worse_as_playstation/
+  7. White House offers its science blueprint: More AI, less life sciences. ‘Science: A New Golden Age’ report calls for shifting billions from universities to tech companies
+     https://www.reddit.com/r/technology/comments/1v5oocf/white_house_offers_its_science_blueprint_more_ai/
+  8. The Pentagon Just Threw Larry Ellison a $7 Billion Lifeline. Will It Be Enough to Stop the Oracle Crash?
+     https://www.reddit.com/r/technology/comments/1v5igop/the_pentagon_just_threw_larry_ellison_a_7_billion/
+  9. Bad Door Handles Are Trapping People in Cars. The Feds Are Finally Stepping in
+     https://www.reddit.com/r/technology/comments/1v5fwqk/bad_door_handles_are_trapping_people_in_cars_the/
+  10. Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight
+     https://www.reddit.com/r/technology/comments/1v5pi43/tesla_suffers_worst_slump_since_2022_spacex_drops/
+
+【Reddit / business】
+  （取得できませんでした）
