@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-07-31
+============================================================
+
+【Hacker News】
+  1. Read this before you buy that TV streaming stick
+     https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+  2. Investigating three real-world incidents in our cybersecurity evaluations
+     https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+  3. Agent Skill to Force Docs in ASD-STE100 Simplified Technical English
+     https://github.com/AminBlg/SimpleEnglish
+  4. Stacked PRs are now live on GitHub
+     https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/
+  5. I flagged two research papers for fake authors and both were accepted as orals
+     https://geospatialml.com/posts/reviewing-ai-slop/
+  6. Gemini Robotics 2 brings whole body intelligence to robots
+     https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+  7. Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free
+     https://rune.build/blog/rune-1-1-release
+  8. CodePen 2.0
+     https://chriscoyier.net/2026/07/30/codepen-2-0/
+  9. UEFA and its national associations will not participate in FIFA competitions
+     https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/
+  10. Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up
+     https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/
+
+【Zenn】
+  1. 生成AIにおけるHTML/画像出力の必要性と改善案としてのRHW(reviewable-html-workbench)の紹介
+     https://zenn.dev/u1/articles/rhw-reviewable-html-workbench
+  2. リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方
+     https://zenn.dev/estie/articles/c5503dfe56f7a1
+  3. GitHub Actionsのコストが増えているなら、Namespaceを使えばいいじゃない
+     https://zenn.dev/aircloset/articles/6b47018589df0f
+  4. MCPの大型アップデート（2026-07-28）で何が変わったか —— TypeScript SDK v2で試す
+     https://zenn.dev/komlock_lab/articles/mcp-stateless-spec-2026
+  5. agent-browserはもう古い？ Web調査をコマンドに変えるOpenCLI
+     https://zenn.dev/nasubikun/articles/opencli-web-research
+  6. GPT-5.6とBlender MCPで、多少マシな3Dモデリングをさせるまで
+     https://zenn.dev/test_myname/articles/gpt-5-6-blender-mcp-modeling
+  7. 【Claude Code】planモードはもう使っていない
+     https://zenn.dev/notahotel/articles/0c28638945aa32
+  8. 自分で作るクラウド競技
+     https://zenn.dev/bull/books/cloud-competition
+  9. AI時代に感じた危機感と、エンジニアがこれから考えるべきこと
+     https://zenn.dev/nabewata/articles/8cef1bd4cbae3f
+  10. ソフトウェアエンジニアとして視野を広げるためのブックガイド
+     https://zenn.dev/shotaro_tsuji/articles/091517e89ab17d
+
+【Qiita】
+  1. CLAUDE.md は21セクションか、8行か — 公式ドキュメントで決着をつけた
+     https://qiita.com/jqit_suwa/items/cea574550613de33a114?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. ITの資格勉強で綺麗にノートまとめてるけど、その時間で過去問といた方がマシ
+     https://qiita.com/prumnn/items/7d9877f2f7ba3b26b56c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 合理的に生きる、AIに「人生をシミュレーション」させるという使い方
+     https://qiita.com/sumomoo/items/190cfe2f89c5f30e0a9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. オーダーメイドで九九の計算プリントを作ろう（ローテクAI）
+     https://qiita.com/Kaitou/items/33e9a09af8ea5bdeebeb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【ClaudeCode】コスト発生要因から考えるトークン消費最適化術【トークン】
+     https://qiita.com/Nana_777/items/1766dd6bbd308222f71b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. モーター制御基板で考える、電流の流れと保護回路の基本
+     https://qiita.com/hikarijlcpcb/items/f1d1993b15bf85acf2ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. リプレイ機能付きオセロを作って、AWS（EC2/RDS）にデプロイしてみた
+     https://qiita.com/KyosukeTakahagi/items/aae3889fb1dacf6892c8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Elixir と Livebook で学ぶ LLM / Transformer 入門 〜 トークン化からミニGPTの自作学習まで
+     https://qiita.com/RyoWakabayashi/items/ca95db1982c78e40a907?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. oracle-ai-ready-data Skill 第2回: Databaseのメタデータを整備してAI Readyスコアを0.22から0.97へ改善し、Select AIで確認してみてみた
+     https://qiita.com/shirok/items/6a2a3e6992ab0eb93d7a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 「パスキー対応できますか？」と聞かれたら ── 要件を詰めずに実装すると、登録済みのパスキーが全部無効になる
+     https://qiita.com/ntaka329/items/bfd8535d8f64a9ecd0fb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. NTT e-Drone Technology×ブルーイノベーション共同開催「No Entry下水道点検 実践セミナー」 - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9NZ3NsNGhWdVJUci1XMWxBd3JiTnJLWXlSQ1otVklPSFBObS1aRjNkYmhUbXBHWUhGYjNoVnhoOGxmMVQ2b0ZPeDFEWU9OX05HamJ6bHpkaEVZdnp4TWV3Q2lUNWlPTTJOUWc?oc=5
+  2. 2607grqw-mercedes-benz-cla-16 - Motor Fan
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE4wNDlCbXNBb2ZKdUN5Yk5tOWdnQTRvc0diZ0JKMUl2NXFsaWluTXBaNUF0NXgwRXM1bWdBZVpsdFlJQWxPaXFWVWpPbllLcGxkZnlWcWFTcVVVTGtFc1dUZmUwZ180NDhObEJBMlpYb1dWMThxYUE?oc=5
+  3. 核廃棄物は「地上ウラン鉱山」、 レーザー濃縮で再生を狙う - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMingFBVV95cUxQYTFPWVJDTGVGNENvR2lNbVhKaG0xT2UxZW54bzdyTU50eUc0M0VhN3psSlR6WTh2Vzgyb3kwMXVqQkVHb3hnM24zUlNFS3Q2bHFpMERoMWVVM0xfZmFNVU1UWUF3M2JfSzlCLUlqX2NkQndUSkVfSG5OSXlDS3M3a2dqVGNmVW4tbnlQM3d0QWtlU0h3UlozZ3BhODBGdw?oc=5
+  4. 国際間の競争が激化する研究開発：福田昭のデバイス通信（520） 2026年度版実装技術ロードマップ（3）（1/2 ページ） - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE1jYTI3OHRfeDZLQkJ0N2lLeVItUHozNnlmOERkZE9MeFAxWGZOenFrdkJTa1lVYWF6U1EyTFdDSEJySllqdVNjLVFnWDJzRE1ZakFOZzZXNlV0ZXQzNUN4SXBaNjkxN3VkVUY0QjFiYw?oc=5
+  5. メルセデス・ベンツ新型「4ドアクーペ」＆「ステーションワゴン」発表！ "流麗デザイン"採用した新型「CLA with EQ Technology」受注スタート！ - くるまのニュース
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTE84R1dBT01lMk5JUWlwNkV4SHJHNGZpOVhpWVl1cGktdWZOQTZHeWlSSUNncmV6TlRQUXNNdTFfZ09MQmd6aks0dnYxQQ?oc=5
+  6. 「テクノロジーを前に進められる能力を持っている」――レノボISG幹部が語る、フルスタックと水冷技術の強み - クラウド Watch
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwZnExWXdsV05mNE5Mai1IMVZKMTVFN29JZEQ1bW1JenZrSW0tNjhVS0lDLXQ0QjlmX2VwS2JKcFJlS0x2ZmNHZjdOMDl6MGtQMXNWNV9YSzJCb3d1NmJpd0dKcWE3VEE?oc=5
+  7. AI特需に沸く韓国半導体、なぜサムスンの技術者はライバルへ去るのか - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMinwFBVV95cUxOa2U2R2pkMVNyLWlOOTlwSHhtd2w4TWg5bWkxa3JwaDRoU2dXOXVTaGx4bGtkM2VVSXdrWXVTOWRUM2ZVbEVXRlZ0LTRvZmZyTm1YaGZoVUdCM25IOG9jNHA4cTNpblhJU1FhSEdkSTFzSTVUdHdKZG9OMzV0OHRWcDZwNExiRndvODZrLVNtMVdjY3FlR3hVWi1admNJTzg?oc=5
+  8. 臓器を「貯蔵」できる日は来るか？ 体外保存技術の現在地 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMikwFBVV95cUxPOXA1SU9DbXpFTkI4bHN5TlFQZm5iNlowUUtqQm9sOTFzeEdqNHpoamdEelNaT2tGTXFIWDh2T0JoY1RrUGgtSHN6cTI5ZzRDOC1fQTYxeEYwV2VwX1hFR0VxbUZTUV9VNVN1UHZ0YVd1ZE4weThUQVZCS2NTYnFuOFZaQnphaGJwQVZ3ZDRhY09uQ1U?oc=5
+  9. 広島発スタートアップの株式会社Scale Technology、シードラウンドにて初の資金調達を実施 - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBZeGZYMHRWSHVoM0JUOGVjSU9xZ0hnVG9CR09LaTlUM2RGakRxckZrWC12bVhDVEdjM2xlaHViMl9lYUdEUzNHQkE4aUNDRHllMmdMS2tHeG00bGlmYmtZMm4wYWNZdDFrVGc?oc=5
+  10. 【新製品】イメージングテクノロジー「SmartIQ Technology」の販売開始 フィリップス・ジャパン - daiunji-nobeoka.or.jp
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxalhZNWhObk10Q0VKeEdCUGVWNDFlVTh0dVl1SHRFM01GOW11VXVma1hLVFQyQndhbDh2SlFISW9oNmdYX2xtbGNNbE5sQTl2eFgw?oc=5
+
+【Google News (Business)】
+  1. AI企業の幹部が過重労働とストレスで辞任…10人のビジネスリーダーに学ぶバーンアウト対策（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1uYURLRmM3cnZHYlBFNU5LNGdBVnJwU1U2ZGR6a3FMdUNKZWpJQ0RaV2MxQVU2OUppTGExSUtvVUI1T0VxYTJYOTRzbi0yVFJJeUxQUW43X3FCbk5XcXVPSmROR00weHc2RXV5MVBkaFlrRTdsc19fYzJ0QzRueVU?oc=5
+  2. 旧帝大・早慶生が選ぶ人気企業 2位「伊藤忠商事」、1位は？（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9aX195NTBGVHRRUXFsLVAzVDY0dXpMLXhGYzhXMUNRSld1WGtHM2dJNDlGNDdoZnk1eW56NmJQRFl2RnJLSktURnNwSjZHRzlBazhxTU5pQUJ5RXdHZzR0VlhjTXI5RnlQclpwN0VYd0xtZw?oc=5
+  3. 松本工業会長「成功の反対は『何もしないこと』、下請けの悲哀をバネに挑戦」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wQWUtT1Q5UHZNMndZNVMxRlN2S3JTSHpyRE11ZGh0dHBwMTZfbGdjZGpQN3NPMDdlUTRlMlZpZi1NRjJuWWFpLVZ3cURfd3BXQk5sRklqTl9vSEM2anZrQjB3?oc=5
+  4. 中国内陸部主要都市で存在感を失う日本企業の深刻な現実 日本企業の若手エリートを縛るワークライフバランス規制の弊害も - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ta0w4Q1ljYUN1SlBtTWJfNzRrOFZIM1I5ZlpWUDlCZ29QRG1Wb3gwLUduV3lNOENoMjFTMmV4NC1QNDY0eHp0LUVYVGV6VDNrcVJhMmR3?oc=5
+  5. ビジネスパーソンから学生まで。自主勉強・読書に使えるノートの書き方3選 - STUDY HACKER
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE91SFFpenQ0VWNwNVFLYmJ2aU5MdnJuNVp5dUc4SzFpNVlNMmVCWVh5X1UzT0hacjVHS2hhVFhNYThTWWI0VlhkVjY4aUtpalNfWDdvZFRkR1Mydw?oc=5
+  6. 岡山市×ボーダレス・ジャパン、地域課題をビジネスで解決する担い手を育成する「コミュニティビジネスカレッジOKAYAMA」を始動 - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5Oa3NYMjVyN0FEbDNLVndfZ1lOM0Y2NjJmWWw3a0VkMVFjanFmMWRuYTV5RS13dURGRlNMWlZwcUxOQV9LRGd4ZUtFVWp3WGJaRXNYVXd0bDRxVWg0MUtUSjRfLXdJNC1BOFE?oc=5
+  7. 外資広告・WEB企業執行役員からセレッソ大阪へ。Jクラブの経営企画で活きるポータブルスキル - HALF TIMEマガジン
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE12eFhfT0d1MlRUazZfcldyejIxMWpDUTItcEpJN05TWjR4RWlta1k1bFVxRTF3dGhzVHgtMGh3S2phZUJTVk5OTHk5T1ZRVTZLNDFEVXJoRnNWMDl3c2NwQi13?oc=5
+  8. 100億企業創出経営者ネットワークを群馬県で開催 - J-Net21[中小企業ビジネス支援サイト]
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWS05OMmRuRGdWUG9sUzhnd0N1N1NWMVQzZm90eFJCZjhlZnNRU28zdG5xNHNCU3Mxc2dsaGtTOElTbXBscEhyTl9mRlI1MGd5RWtnRWl3MXVOanNxdmYxM0l0TQ?oc=5
+  9. GMO-PG、Amazonビジネスに法人向け新決済手段「請求書の口座振替払い」提供 - ECのミカタ
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnOTBZNmpkS2Vkc2ZQajZ1YWtSSjNYZ0trWUY5am8zOU51RERyUTVjTlJLa1NBYXNkaG44VGVhcDVleWFRblk0QzlaZGFKek0zby1NSmpGaE55U1JhMHR0Qks4NHU?oc=5
+  10. なぜ、サンリオの「昭和・平成キャラ」は再び人気なのか ポムポムプリン30周年が映す愛される理由 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE82a2pPOC0yMmRycE83U0Y0Nkc1VDRvTzhxZFd0bGdCdWRpOHphWno3SkpXdTFDeUMzOV9qcHMtNHVHNXpqeGJSMmJzNkhldnkxYTU4N2o1RDFmbFAzZ1R5cGM4YktCQWNJOXY3cTFURmpvQQ?oc=5
+
+【Reddit / technology】
+  1. A Texas Deputy Searched 83,000 Flock Cameras To Track Down a Woman Who Had an Abortion
+     https://www.reddit.com/r/technology/comments/1vb1s8f/a_texas_deputy_searched_83000_flock_cameras_to/
+  2. Amazon accidentally spent $1.8 million using Claude for menial coding task, went 860% over budget — 'catastrophically expensive' coding blunders discovered in internal Amazon AI usage metrics
+     https://www.reddit.com/r/technology/comments/1vay198/amazon_accidentally_spent_18_million_using_claude/
+  3. Flock cameras are getting mobbed
+     https://www.reddit.com/r/technology/comments/1vau9wh/flock_cameras_are_getting_mobbed/
+  4. Meta earnings reveal cash flow drops 91% — while Zuckerberg writes op-eds about superintelligence
+     https://www.reddit.com/r/technology/comments/1vawm7w/meta_earnings_reveal_cash_flow_drops_91_while/
+  5. U.S President FCC faces blowback in attempt to police speech on broadcast TV: “Chilling message to all broadcasters: carry speech we don’t like at your peril.”
+     https://www.reddit.com/r/technology/comments/1vb7ayk/us_president_fcc_faces_blowback_in_attempt_to/
+  6. AI Company Sues City for Opposing Data Center Next to National Park | Local governments are pushing back against AI data centers. Some AI companies are suing them to force construction — with or without public support.
+     https://www.reddit.com/r/technology/comments/1vasiw0/ai_company_sues_city_for_opposing_data_center/
+  7. Mark Zuckerberg’s Fortune Drops $18 Billion as Wall Street Sours on Meta’s AI Spending
+     https://www.reddit.com/r/technology/comments/1vay6q6/mark_zuckerbergs_fortune_drops_18_billion_as_wall/
+  8. GrapheneOS says its data-wiping password is perfectly legal, after user faces federal charges
+     https://www.reddit.com/r/technology/comments/1vamqi9/grapheneos_says_its_datawiping_password_is/
+  9. FCC bans future Roombas from being sold in the US
+     https://www.reddit.com/r/technology/comments/1vb63kq/fcc_bans_future_roombas_from_being_sold_in_the_us/
+  10. Flock cameras are getting mobbed
+     https://www.reddit.com/r/technology/comments/1vb3moh/flock_cameras_are_getting_mobbed/
+
+【Reddit / business】
+  （取得できませんでした）
