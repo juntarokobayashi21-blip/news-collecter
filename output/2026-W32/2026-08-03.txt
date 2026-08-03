@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-03
+============================================================
+
+【Hacker News】
+  1. AI poster wins Ohio State Fair contest
+     https://www.ohiostatefair.com/p/get-involved/arts/poster-contest
+  2. Karpathy’s Pelican
+     https://twitter.com/karpathy/status/2083749667410727319
+  3. Autoregressive Language Model on the 6502 Processor
+     https://mattbeton.com/blog/bitnet-6502.html
+  4. Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours
+     https://github.com/pg83/shitty
+  5. Note-Taking and Personal Knowledge Management
+     https://unattributed.cc/note-taking-and-personal-knowledge-management
+  6. Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM
+     https://github.com/wie-project/kakehashi
+  7. Read the Novels and Forget Everything Else
+     https://hedgehogreview.com/web-features/thr/posts/read-the-novels-and-forget-everything-else
+  8. Developers are attached to tools because tools encode trust
+     https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/
+  9. Sharing an X11 Server Across Hosts with FamilyWild
+     https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/
+  10. The Computational Theory of Mind (2015)
+     https://plato.stanford.edu/entries/computational-mind/
+
+【Zenn】
+  1. Kimi K3を441GBに枝刈りして、Mac Studio 1台で動かした
+     https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac
+  2. AI フレンドリーな CLI を開発するテクニック
+     https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly
+  3. ローカルタスク管理アプリを設計してみた
+     https://zenn.dev/headwaters/articles/76f20490b76952
+  4. GitHubにスタック型プルリクエストが登場。gh stackでPRを分割して積み上げよう
+     https://zenn.dev/ubie_dev/articles/gh-stack-introduction
+  5. メテオフォール開発
+     https://zenn.dev/hisaju01/books/meteorfall-development
+  6. Web Streams API 入門 ― 基本概念から実践まで
+     https://zenn.dev/cybozu_frontend/articles/web-streams-api-guide
+  7. Copilot Chat（Microsoft 365）の会話を Markdown に保存・エクスポートする方法（拡張機能不要）
+     https://zenn.dev/dxclab/articles/bdc3935d10706c
+  8. 0.5くらいから始めるPersonal Knowledge Base 構築実践
+     https://zenn.dev/mkj/articles/claudian-orchestra-build_20260720
+  9. GitHub Actionsのコストが増えているなら、Namespaceを使えばいいじゃない
+     https://zenn.dev/aircloset/articles/6b47018589df0f
+  10. MCPの大型アップデート（2026-07-28）で何が変わったか —— TypeScript SDK v2で試す
+     https://zenn.dev/komlock_lab/articles/mcp-stateless-spec-2026
+
+【Qiita】
+  1. 社内IT推進で「作っても使われない」をゼロにするために、僕が現場で学んだ5つのこと
+     https://qiita.com/rira__/items/dab9765ffd6aae8f0c07?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AIのアウトプットをそのまま出すだけの人にならないために
+     https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【開催！】2026 Japan AWS Jr. Champions 真夏のQiitaリレー
+     https://qiita.com/ys-yoshida/items/6f7c7f85155a993e2c86?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Podcast Client って作れるんですけど知ってました？
+     https://qiita.com/i-icc/items/f505055cbc13f03b1fd7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 検証！Claude Codeのサブエージェント並列はお得なのか
+     https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Claude Code／Codexに中～大規模開発を任せるためのタスク管理
+     https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. DeepSeek V4 Flash 0731 のロスレスMXFP4版をSSDストリーミングで動かしてみた
+     https://qiita.com/sukimaengineer/items/c97f3e6aafdc63b7ac17?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【AWS】Managed Knowledge Baseでの検索フィルターを確認しました
+     https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. ガバメント AI 源内（genai-web）を Entra ID シングルサインオン + カスタムドメインで運用する
+     https://qiita.com/takeda_h/items/74e0d6802dafeda4a7b1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【YAMAHAルーター】RTX1300を2台でHA構成。VRRPの基本から（1回目）
+     https://qiita.com/Heizo_Hasegawa/items/8ea5d459681f7f7ac2a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. Technology and the Future of Hiroshima & Nagasaki Memory - Asia-Pacific Journal: Japan Focus
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4UFRmXzRpYnFZNjNvMnFmT3o2dDg2MUF2SE9ZX2xTYmFrbmJOZmhFcEVqRDJUZlJrd0k5TlhERlA3RVpZeEtCU2VobTJycklPZ0FlaExoQmE?oc=5
+  2. 「思考の連鎖」偽装でLLMを騙す新手法、 訓練では防げない構造的欠陥 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMipwFBVV95cUxPYWZfdTAyTkNaTkJfVUpRejlObnIxc3FGNTUwRzlLeWsycFBNUng4bFFpdDlOSXdTdVFzbHlzYTY0T0UyeEhneUZDc2ZGNkFjTHJFTWE3MWFtNjNqeTRFNHdSeW5LRDVRV1N5Uzd3S1JkcUF6QWJCekJ3X0NQY2ZReDRnTFdsU2lsemxzdzdaQ21rQ1hjZWJNbmdJSWk2V2RxYkNSOHM0OA?oc=5
+  3. 中・長期技術開発戦略 | テクノロジー | エプソン - Epson Corporate
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBib3B3SXp5VlgxTXBoWC1HWjdCbmFOcjBHYWJ0ck9QRV9Vck16bGNKSWd4NUticDVleUZzRUFKMXFvaVYtcnVhRkZoYjdudG1qNm53UlpxMTVJNVk?oc=5
+  4. Technology Innovation Story Technologies for the Electricity Era：日立 - Hitachi Global
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5tWHc0T3k1X3V3TXh4YVZhU0J6OXo5YU1WX1V0MnhGV2p1c2dpb0NoSEh6N01lTVA3aGV5cGF4VVFVYlNoLUE3WGt4ZlFnRVdBLTVUelZETnRUa29rY284Z1A0X1dFbTJ0bTI2VHFvTldBZjdwRGdUcg?oc=5
+  5. ARマイクロOLEDの世界市場（2026年～2032年）、市場規模（物質移動技術、モノリシック集積技術）・分析レポートを発表 - アットプレス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MV2pRcFNEeUswanVzSE5Uc0NVN1ZOQWJBN2NZYVEwNlRmUkdmSG9nd3JRYkMyWk9VYkZvOE5IQUY5TlRWZ1U0OUYyeUxVSUE?oc=5
+  6. NTT e-Drone Technology×ブルーイノベーション共同開催「No Entry下水道点検 実践セミナー」 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9NZ3NsNGhWdVJUci1XMWxBd3JiTnJLWXlSQ1otVklPSFBObS1aRjNkYmhUbXBHWUhGYjNoVnhoOGxmMVQ2b0ZPeDFEWU9OX05HamJ6bHpkaEVZdnp4TWV3Q2lUNWlPTTJOUWc?oc=5
+  7. メルセデス・ベンツ、新型『CLA』の電動モデル“with EQ Technology”を導入。最大航続は771kmに（オートスポーツweb） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBNTEJfVGxFSmJIaFMwZzlrNHlFdmlWNDlpbk9qdDJ2YU1qZGpxTHUzdmNWZ3VhZ0xEcjl1OWJjMk0zRklkZ3pVRnlLTGpzeldKb2stN0xRRHRXTVFvT2s0bFdyRGwyQzlGbnI0N3ZvdThkRFZfQnF6XzhVQWk2ZHM?oc=5
+  8. テクノロジーガバナンス - NTT Data
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUNkxPQmk1RUR2UV96S1N2QWI1b2wwbzduVDdpazB6UngtaDZCSWFhX0hBNVdpVk53enRZSF84R1JmUjhzbkFKWWdNV2oyRDN1d2FVRnNRNFE1NV96ZGRjNQ?oc=5
+  9. 7月31日のSeagate Technology Holdings PLC (STX) 値動きは3.68%上昇：完全な分析 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjJHZzBfbWMzMkNVcjhJRnRhbjBxNkx1QWl5dm1VWE92MGdHOENuem1YUmlhQk02TDVyZ3Ftc3ZwVUtfOUF4SnJsMmtGMlVyYXlSY3NPbXVYcDNiNlA1YUtMMlVqVmxxTFBLcEtNTG1lQWk2RjRHNzRBREMzdlFqRWZoRGZrWXhqVzgzNTlR?oc=5
+  10. 新型「メルセデス・ベンツCLA」の100％電動モデル「CLA with EQテクノロジー」上陸　セダンとワゴンが同時に発売 【ニュース】 - webCG
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vZXVtRXZfNXhVanE1SDRNUGtKcWhQMUVCQmVDNTBtamhBaWV5cUhaQzd3ak5ZRGlNN1hoZ21tRDJhM2ZLa3lLclhZeElXdzTSAVJBVV95cUxQZmU5Z2RNU201OThDaG51S2JsUVJrOW1JTlpqZUxIUmFMdHZFbmV6empkMExYREluVF9TTmlYNlg4Y2Zhb0NEWWltMmg4U2xlbi13?oc=5
+
+【Google News (Business)】
+  1. 役員報酬1億円超が過去最多 セブン元取締役の134億円が史上最高額に（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE83cjFKRlV2NFlKYmxnN3EwRDMtaXVIYVVaRVNrY3JGM3lMcFozYkJGSHBHTnZ0WUhFc0tCb294UDJJNG9hSURhMXJWQ3lnUGJiWTRHTXBEd1dFUkRqWm1aOGpLTS1JRFo5LUNpTkJEWnZWUQ?oc=5
+  2. 各地の駅に「係長ハイジ」登場　ネスレ日本、企業姿勢伝える広告を展開 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLUUxdXJKbnJxWDVnZlRTOWEzYWtNdVNoQWYxTXFScFZlRDZGMVdQWXh4NlUtaU9nODVhcGdOek9Zbl85UXg4VF9OMTN1YWZfZjFFcXc4RmFfOWxpeUIxRUhrNllaT0tocVZ1SHRRQV9ac0tYT0NYUFJlU19oWTRSZG96anY4MVZK0gGEAUFVX3lxTE1BdGZVTG5ZZVpRVjFSRjFUYWlWeE93bjJMQzRfdWNpSC1WbzhDVmh0T3RXSGZUYXBUSl8zdzZ3RmlZQUJHSTVYeXdLdDA3V0ZTUXFYb0VkREx0VmtGZnNSSW5iUUNJWktrVU4xRTFBZDUwWS1KOVgtbnpCaVc1Tll5cjNtaQ?oc=5
+  3. コンプライアンス業務は「内製」から「戦略的アウトソーシング」へ。企業を守る次世代のリスク管理体制とは - Manegy[マネジー]
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZdmhZaW5UNGJHbjh4eWQ4VUd5UzRyWElTLURmeXY2djNXOU1nX1VyT0pOVW0wc3V2cXEzYVRScWhkYXkxTDdtcXdZZjJtalhGRDdZ?oc=5
+  4. ホンダ、EV「プロローグ」のオーナーに「次はハイブリッド車を」と提案 - businessinsider.jp
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRWJvTHNYbzV6SzRtMUtKdG4yckdXOW02d1gxRTRla3YxdTlOdzkzbTRfQU5TWldVUG9OOUN5Y0NhTEZCU1dvSDgxNDUyQlQyRF9FSWRHV01ENEd3M2ZfNVhRRDMzdHdSWjB2ZnpBYng5S3lwUGVHVk9iaEhVNWtoS3BGa09leGE3ZElr?oc=5
+  5. 7月の〈e-pub電子版〉論文販売リリースタイトルのお知らせ | HBRセレクション - DIAMOND ハーバード・ビジネス・レビュー
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KMGMzN0R2LU1hbFdNN2IwaUN6dk83TFkwU3NDXzVoQ2VPaVJHVndseXBNSzlpZjNEa2ZSNWUxdFpaVjg1ZmZiUVNWSmZ0amdRdnc?oc=5
+  6. 地域課題どう解決する 「香川ビジネスコンペ」へシンポ - 四国新聞
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxPX210YjNDSmlFWkdmQmpjMnRBTEVTUGRnb1RuU1ZxWFUyOGFaamVfSXhYdFpLaXF2cnJFd2lVRnVXc25wRlJqd2RNaE00MjRaLVRqQ0FIUkUzY1BaZThSemUxWHdILWgycEVOeGo3Sk04U1RxRV9VTHBvXzYwNEI4OGxIQjZlZG1qd3c?oc=5
+  7. 「物流は企業価値創造のエンジン」 メーカー物流から販売物流まで一気通貫、花王が挑む商品設計から見直すSCM改革 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtLVVtNU9SdXFBNEhzQ1V1UTZCNEF2RWw5NmdXX0Zwd1dqSktzWTFYSGJtSEh6MEFBdE40N2h5XzFhZEZyNmJ0Ry1iMkJWLUxjYmxGZ1JR?oc=5
+  8. ビジネスで「スマートウォッチ」は失礼？ 相手に「悪印象」与えるNG行為とは【マナーの専門家に聞く】 - オトナンサー
+     https://news.google.com/rss/articles/CBMiSkFVX3lxTE04Z2NqVEVvemhReDRURDBldE1CVjJYb0Q3aGFtZHJQQ3ZaRFpEY1VlRzUwTU5VNXFTelZPM1hScDREOWZJNHlxNkt3?oc=5
+  9. AI企業の幹部が過重労働とストレスで辞任…10人のビジネスリーダーに学ぶバーンアウト対策（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1uYURLRmM3cnZHYlBFNU5LNGdBVnJwU1U2ZGR6a3FMdUNKZWpJQ0RaV2MxQVU2OUppTGExSUtvVUI1T0VxYTJYOTRzbi0yVFJJeUxQUW43X3FCbk5XcXVPSmROR00weHc2RXV5MVBkaFlrRTdsc19fYzJ0QzRueVU?oc=5
+  10. 【11/5開催】「外国人材向け合同企業説明会」 - sogyotecho.jp
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGa25GQlFYSjl0RlB0TUszd1doejc0MUtUQ0x5eUNNTXo2UDZzYy1SaGNxYjZrS2tQSHgwYThrQ05rQTJHeDhZaUhhbEgycnNMdFE?oc=5
+
+【Reddit / technology】
+  1. New York files $36 billion lawsuit against Kalshi, alleging it's running an "illegal gambling operation"
+     https://www.reddit.com/r/technology/comments/1vdleip/new_york_files_36_billion_lawsuit_against_kalshi/
+  2. California researchers turn to OnlyFans as their funding dries up — OnlyMarms account promises near-daily photos and videos of chubby, personable marmots
+     https://www.reddit.com/r/technology/comments/1vdvhhp/california_researchers_turn_to_onlyfans_as_their/
+  3. California data brokers must start deleting personal data requests Aug. 1
+     https://www.reddit.com/r/technology/comments/1vdrugg/california_data_brokers_must_start_deleting/
+  4. YouTuber Hank Green says his AI usage is ‘not healthy’
+     https://www.reddit.com/r/technology/comments/1vdguq8/youtuber_hank_green_says_his_ai_usage_is_not/
+  5. Enshittification Relies on Broken Economic Math
+     https://www.reddit.com/r/technology/comments/1vdirp1/enshittification_relies_on_broken_economic_math/
+  6. If you live in California you can now tell data brokers to delete your personal information. Here’s how to do it
+     https://www.reddit.com/r/technology/comments/1vds56z/if_you_live_in_california_you_can_now_tell_data/
+  7. Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?
+     https://www.reddit.com/r/technology/comments/1vduu4b/larry_ellison_bet_it_all_on_the_ai_boom_will_he/
+  8. Linux's market share in North America has breached 10% for the first time, says StatCounter
+     https://www.reddit.com/r/technology/comments/1vdcapg/linuxs_market_share_in_north_america_has_breached/
+  9. Illinois Governor Signs School Cellphone Ban to Avoid Student Distractions
+     https://www.reddit.com/r/technology/comments/1vdq9gz/illinois_governor_signs_school_cellphone_ban_to/
+  10. How rogue officers turned a nationwide camera network into a tool for stalking
+     https://www.reddit.com/r/technology/comments/1vdqaaz/how_rogue_officers_turned_a_nationwide_camera/
+
+【Reddit / business】
+  （取得できませんでした）
