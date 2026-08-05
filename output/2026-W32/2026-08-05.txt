@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-05
+============================================================
+
+【Hacker News】
+  1. libexpat now funded by the City of Munich for up to 6 months
+     https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/
+  2. I am retiring from fulltime writing (& pseudonymity) to launch Guardian Angel
+     https://twitter.com/gwern/status/2084739205071343837
+  3. We finally learned to center a div, then browsers added sidebars
+     https://seg6.space/posts/center-div/
+  4. Mistral's Shieldstral: 3B open-weights model for multimodal moderation
+     https://mistral.ai/news/shieldstral/
+  5. DuckDB – Data power tools for your laptop, now in Clojure (2023)
+     https://techascent.com/blog/just-ducking-around.html
+  6. Pi's Minimalism Is Its Advantage
+     https://earendil.com/posts/pi-autoresearch-and-databricks/
+  7. AI fuels more than half of cybercrime in Africa as scams surge – Interpol
+     https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/
+  8. Show HN: Simple algorithm and color space to generate diverse skin tones
+     https://toneyalexander.github.io/inclusive-color-space/
+  9. In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years
+     https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/
+  10. Pass the Passkey: A Novel Attack Surface in Passwordless Authentication
+     https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
+
+【Zenn】
+  1. Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？
+     https://zenn.dev/benjuwan/articles/c2ba48e7662f92
+  2. 生成AIの品質保証をどう設計する？ ― 「全部QAで見る」をやめて、機械とAIと人に分けた話
+     https://zenn.dev/wn_engineering/articles/95911ca28a7b1f
+  3. Rust のテストを実行するとき、裏側で何が起きているか
+     https://zenn.dev/estie/articles/882e14dcad0d46
+  4. 【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理
+     https://zenn.dev/knowledgesense/articles/7c1a8f7720b119
+  5. AIエージェント向けのツールを、MCPではなくCLIとして作った — 設計の3原則
+     https://zenn.dev/codatum/articles/80b99faba75704
+  6. Web を iOS に乗せると仕様書に載っていない WebKit にボコボコにされる
+     https://zenn.dev/tamat_llc/articles/ios-webkit-invisible-specs
+  7. Web 標準動向 2026年7月版
+     https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202607
+  8. オントロジーで AI に業務知識を渡す — AWS の OSS「Context Ontology Accelerator」を試してみた
+     https://zenn.dev/aws_japan/articles/context-ontology-accelerator-deploy
+  9. Herdr で止まらず、精度の高い開発を進める工夫 ─ intent-cli で意図をもとに開発する
+     https://zenn.dev/jtechjapan_pub/articles/intent-cli-herdr-orchestration
+  10. UnityのDIは本当に必要か：Zenject継続・Reflex新規採用・VContainer比較の判断軸
+     https://zenn.dev/gamedev_toollab/articles/945a5084be2a38
+
+【Qiita】
+  1. Claude Code／Codexに中～大規模開発を任せるためのタスク管理
+     https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 日本産AI「FRONTia」、日本の技術✕エンタメ力に期待したくなるフィジカルロボット
+     https://qiita.com/sumomoo/items/255d77e0a1baa74c5f36?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 50音を全部作って繋いだのに、（　´∀｀）になった話
+     https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 「デバッグ」、挟まった虫がきっかけだったって知ってました？【ITパスポート】
+     https://qiita.com/prumnn/items/8e154a792445fa2c063e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 新しい Copilot Studio が GA したので「ハーネス」とクレジット課金体系を改めて整理してみる
+     https://qiita.com/Takashi_Masumori/items/e6f1678b41483943fc04?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【PHP9】PHP9がリリースされた
+     https://qiita.com/rana_kualu/items/8b350ada6dc831207d14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Data CatalogでObject Storage内のCSVとParquetを自動カタログ化してみてみた
+     https://qiita.com/shirok/items/d23855d5634f528f796c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 中国産Kimi3｜Claudeなどの有料プラン級が無料で使える最新AIとは？
+     https://qiita.com/sumomoo/items/4efb8d1abd340c0bec28?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. AWSで作った洗濯botを2ヶ月使い続けた話
+     https://qiita.com/SakiFukutani/items/82209a2a8b9cc603ec57?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 図解で解説！Anthropic Claude Certified Architect (CCAR-F) 試験ガイド
+     https://qiita.com/DeepTama/items/075b66cd7332870a042a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 東京工科大学 NVIDIA AI Technology Center Joint Lab設立記念 国際シンポジウム「Computing the Physical World」を開催 - teu.ac.jp
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CY2ZNNlVPc01wWWxuWXlrVkdBaGNjTnc2S1Y0a1dieDc3YXI2cG9iWGl4V1R6eTRNU0JhSEptbzYzUWdyeE1hOG1hbnFSSFQ2WkNrTWQ0aWRqbWxtQnFz?oc=5
+  2. Technology and the Future of War Memory - Asia-Pacific Journal: Japan Focus
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MUW13Ny02aGdVYm5LTkN5S2JZaVNjeUZDc3dNem1RREdremdMeVBBWUs4R1lJcEVTbERBNUNjTENHOXV6ZG1uZUZGN0xfZnFWMHBfUmJhVWJOUQ?oc=5
+  3. 少ないX線や造影剤でも高画質に、心臓カテーテル向けの新画像技術：医療機器ニュース - MONOist
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5wd1FqOUdrUVBzLUlNbVEwRHM5NmlOdmZMQ25GeWUyVjdLTlUxR2o3bVhYSzhrTlVoRENKYTVsbzJUNHdfZnQ3ODNQdmRJZUxpbnBBd19URTU5aHhvTlFUUDE1MFpUVDMyQnBPenQwVQ?oc=5
+  4. 中・長期技術開発戦略 | テクノロジー | エプソン - Epson Corporate
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBib3B3SXp5VlgxTXBoWC1HWjdCbmFOcjBHYWJ0ck9QRV9Vck16bGNKSWd4NUticDVleUZzRUFKMXFvaVYtcnVhRkZoYjdudG1qNm53UlpxMTVJNVk?oc=5
+  5. Kalowave Technology開催の国際イベント「KACE 2026」に京極琉氏ら日本トッププレイヤーの参加が決定 - netkeizai.com
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fQUxzSkh1ZmFIZmZvNTVQM0FtSXVUWE9wSVFSOFBYcy05cmZxQTlFWDlwWjN6aGFXcElTWHE1ZUZLY0FkU2JJMFZKNGRLSGFOZGtJWnNB?oc=5
+  6. MITテクノロジーレビュー[日本版] 特別編集『ポスト都市時代の社会デザイン 社会実装都市 ひろしま』 ―出版記念イベントを叡啓大学（広島県）で開催― - 山陽新聞
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOQUsyUDRlLWpMZkRvS2VnZmpjS3F5U01mekttcXl3ZnBiTmlEMExmSU9DeUNjeTJwODhxTVpWZkx4eHJUVFh5MG1mU0FTUEVab3c?oc=5
+  7. 生成AIと数理最適化技術で、生産ラインの構成を自動立案する技術を開発 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE8teEpKdEdMQXpvT0VlOGlfLVg0SlRGRWJFRkJBTkE3Z1NBNExuRGU5d3N5cE1TWFpsS1NqOUNwN0E1cXd6RzFFdnhKeVRqRW95OWpZV2VOWGJla3FFSzdkeC1OZWJjcWRjY1E?oc=5
+  8. Technology Innovation Story Technologies for the Electricity Era：日立 - Hitachi Global
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5tWHc0T3k1X3V3TXh4YVZhU0J6OXo5YU1WX1V0MnhGV2p1c2dpb0NoSEh6N01lTVA3aGV5cGF4VVFVYlNoLUE3WGt4ZlFnRVdBLTVUelZETnRUa29rY284Z1A0X1dFbTJ0bTI2VHFvTldBZjdwRGdUcg?oc=5
+  9. 8月3日のSeagate Technology Holdings PLC (STX) 値動きは5.32%下落：値動きの背後にある要因 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1g0SDBaQ3o0cnlIZUpWdVJTeGJxM2x2MlFiNzN0U2NTRnEzY21RdnlVMlRGNUJRekdObTVtNm40MDNsZlBKMGJCZGZoZWViUER4WGxQQmwyZDR0WnpCQ1dYNHNnMHVDR194aWlaUUVfVEp4V0s4OWx0alliZDBTSGh4TFZfeVp4aFNzblJn?oc=5
+  10. メルセデス・ベンツ、新型『CLA』の電動モデル“with EQ Technology”を導入。最大航続は771kmに（オートスポーツweb） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBNTEJfVGxFSmJIaFMwZzlrNHlFdmlWNDlpbk9qdDJ2YU1qZGpxTHUzdmNWZ3VhZ0xEcjl1OWJjMk0zRklkZ3pVRnlLTGpzeldKb2stN0xRRHRXTVFvT2s0bFdyRGwyQzlGbnI0N3ZvdThkRFZfQnF6XzhVQWk2ZHM?oc=5
+
+【Google News (Business)】
+  1. ［新連載］消費減税、外食は10％減収リスク すかいらーく谷会長「食文化崩れる」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9nbE1uVjNBREduUFBNdjdKQ09QS3JoSV9ibzB1akxVcS0tMDhwMnlxdEJLVkpOSzFmaU5fd0dObkY1MGVWWDdEbFQxQ0MtcVQweURFbF9PMlRaRG84NHphTzNCLXR5S1k?oc=5
+  2. 「ウェザーニュース for business」GoogleのAI予測を追加し台風予測を強化 - 株式会社インプレス
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lcWhZWFlCWVVtMENmcVhuaDNraV9kTjgtdEx2SGVic1VpV2dsNkFUSDFmcG1nelNsdExFNThkWFVyNW54X3ZqaVFTMHJFUzI3dWRRMWxsZzZnY3BfZi1odjVpbw?oc=5
+  3. ユーグレナ、黒字なき成長からの決別。選択と集中、人事改革に希望退職…CEOが語る改革の2年間 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE52RFJOam1UdWg2S2szMnBiRWY4OEFlclVCR1R0TWpFUm5Pc2lWVEl4V015aWZGQm1ZUm1tN1BrcUpFLVc5eU5LZ1VxVm5WaF80Y19oMUUtYjFmZXV5M1JFY2tiQjNLd3phcWtzeDcxZ0ltNHVhR3JncA?oc=5
+  4. 若手の離職をほぼゼロにした中小企業、相次ぐ「ホワイト離職」を食い止める効果絶大の取り組みとは？ - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE91TXhFV2hfaGlSMC1XdkF3b09RZ211NVQzM0ZEaUVfYUsxN2RvZFN2VXNQMGRXS3BGUEdJRHhiQ1N5NEpua2Vqbl8xWnZKSUVFQXk5TmV3?oc=5
+  5. 大企業の国内投資19％増　26年度、AI関連けん引 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQVTc3UEh2aGgzMTlrb19fNWx5TnV4dmJ2dEpNMlkyTmcyeEx2SzJlNkVISW10S3JrMTg4cUpGelVqV0NWV2N2MlIyVUFOYnJqTWI5Um53WmpIVHdfb0YwV1FPN2Nad0JWckdXZ0x2UVgzbVZIX3E0Z0hoUlMzTTBybEZUdElPdGFudEhsWjl30gGTAUFVX3lxTFB1ZlZCOFdWWVlXWHNZcFc0YVR4ZjVuOG1ZVHJmNDRxS2x1ZXZWVndHTDdtVTk1ZkZMd1k1bWx6UTJybG81RTc4MDgwX1dndi1DeWNnQUVNanFHdU15T0Q3dEJjTnpuZU1JWU5vUTFxdk9aOHhVdHhzbFNLMWhQbXdnVUdDejFMY2dwOGpoREJYM2RkYw?oc=5
+  6. パランティアCEO、AI業界を「マルクス主義的」と批判（ビジネス＋IT） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5aell1Sk1MTGlrRmtJSFZuMTl4WWNLOUVrLTYxUHJtUHl4blVYcUVPOGdMc0hReE5KeDRLQ0x0X1F3QWYxZnAwalMtSG4wLVdBZG41cTFEOFZyTEVkNlp0RmtnUFc0UG40cW5LWUY5SEo3dnowZTVHZXdObGg0SWs?oc=5
+  7. 《私のビジネス日記帳》葛藤から融合、そして独自性へ 文化ファッション大学院大学学長 櫛下町伸一 - 繊研新聞
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwMGRldWhkdU1RSHZWTGd2THRKdkUxSUUyelhBdFo1a0RSaUFEY0t4Z1dUSi15NEVzYThVVFZXYXFzY1EwSXBCUUx5TGpFcFdEb1FyZl9ER2plbGJNRGV6bw?oc=5
+  8. 最低賃金改定前に中小企業がやるべきこと｜人件費増への備え方を解説 - sogyotecho.jp
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GeWZTUWhnemlsdnVhQ2JyZXZFT3ctTHZqNjVkV2M1OE0tejVOWmM3c1JCMnIxazlKUHQ3aUdhQkZzejBRU291c01RQ0FOR0ZOQUtUOWxacmtreU1O?oc=5
+  9. なぜ、カラオケの第一興商が「介護現場のインフラ」に？ 10年間の不遇を乗り越え“高収益・安定ビジネス”へ化けたワケ - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE0xQkxPbzB2M0FmSTNLaFlldGhFRXoya3JvUnpuQ0xrNW1hVmQ0cTBmLUZ2RGFVXzZWMW1uQmlTV1puZ2pzdUdPTEtfc0ZkLTEtY3J1ckt6UmFTaF9WTzBVMVRlU1d6cmtYZFVKOEREU1pLQQ?oc=5
+  10. コンプライアンス業務は「内製」から「戦略的アウトソーシング」へ。企業を守る次世代のリスク管理体制とは - Manegy[マネジー]
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZdmhZaW5UNGJHbjh4eWQ4VUd5UzRyWElTLURmeXY2djNXOU1nX1VyT0pOVW0wc3V2cXEzYVRScWhkYXkxTDdtcXdZZjJtalhGRDdZ?oc=5
+
+【Reddit / technology】
+  1. Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium
+     https://www.reddit.com/r/technology/comments/1vfg2dp/texas_slams_on_the_brakes_for_1800_data_centers/
+  2. EA is now officially owned by Saudi Arabia's Public Investment Fund and private equity
+     https://www.reddit.com/r/technology/comments/1vfnz7s/ea_is_now_officially_owned_by_saudi_arabias/
+  3. ‘DO NOT MENTION ALPR USAGE’: How Cops Are Trying to Hide Their Use of Flock
+     https://www.reddit.com/r/technology/comments/1vff9bf/do_not_mention_alpr_usage_how_cops_are_trying_to/
+  4. DuckDuckGo Is Selling Anti Pervert Glasses That Contain Zero AI, Cameras, or Even Electronics Whatsoever
+     https://www.reddit.com/r/technology/comments/1vfls91/duckduckgo_is_selling_anti_pervert_glasses_that/
+  5. Mexico’s Gamer Congresswoman Killed a Game Tax – Now She’s Coming After Sony
+     https://www.reddit.com/r/technology/comments/1vfjfy7/mexicos_gamer_congresswoman_killed_a_game_tax_now/
+  6. The House of Ellison is on the Brink Everything the world’s briefly richest man built is failing at once.
+     https://www.reddit.com/r/technology/comments/1vf5pmg/the_house_of_ellison_is_on_the_brink_everything/
+  7. Waymo CEO explains why Tesla’s camera-only self-driving falls short
+     https://www.reddit.com/r/technology/comments/1vfhm7l/waymo_ceo_explains_why_teslas_cameraonly/
+  8. Microsoft Tells Engineers ‘Tokenmaxxing Is Not What We Are Optimizing For’ - Microsoft is introducing budget limits for AI use but says it still wants to be an ‘AI-first’ company.
+     https://www.reddit.com/r/technology/comments/1vfhoh9/microsoft_tells_engineers_tokenmaxxing_is_not/
+  9. The SCREEN Act is a Christian Nationalist Nightmare
+     https://www.reddit.com/r/technology/comments/1vfp5nm/the_screen_act_is_a_christian_nationalist/
+  10. Microsoft never learns, IT admins rage as a new OneDrive app invades Windows 11 and keeps coming back when you remove it
+     https://www.reddit.com/r/technology/comments/1vfjea7/microsoft_never_learns_it_admins_rage_as_a_new/
+
+【Reddit / business】
+  （取得できませんでした）
