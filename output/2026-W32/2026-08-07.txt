@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-07
+============================================================
+
+【Hacker News】
+  1. AMD acquires Taalas to boost inference performance by etching models in silicon
+     https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344
+  2. New Orleans will use AI to answer 911 calls instead of a human
+     https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/
+  3. Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun
+     https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/
+  4. Mario Meets Pareto
+     https://www.mayerowitz.io/blog/mario-meets-pareto
+  5. Welcoming the Nepalese Government to Have I Been Pwned
+     https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/
+  6. Bioengineered chewing gum may offer a way to fight HPV and other microbes
+     https://www.sciencedaily.com/releases/2026/08/260803080917.htm
+  7. Taste Is All That's Left
+     https://notashelf.dev/posts/taste-is-all-thats-left
+  8. I stopped trusting USB-C cable labels and started testing them
+     https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/
+  9. Herdr is joining Y Combinator. The runtime stays open
+     https://herdr.dev/blog/herdr-is-joining-y-combinator/
+  10. Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks
+     https://provenmetal.com
+
+【Zenn】
+  1. DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた
+     https://zenn.dev/ait/articles/google-design-md-measured
+  2. gpt-5.6-sol の high に「ウルトラ」と入力して「ソウル」と話させる技術
+     https://zenn.dev/microsoft/articles/agent-framework-ultra-soul
+  3. 脆弱性を作り込まないために、Claude公式「Security Guidance Plugin」を導入した話
+     https://zenn.dev/rakko_inc/articles/claude-code-security-guidance-intro
+  4. SkillをGitHub Copilotで"育てる" — 実証的プロンプト改善の実践レポート
+     https://zenn.dev/aiforall/articles/cb36b724e20a43
+  5. 仕様書から保証台帳へ、GDD（保証駆動開発）のすすめ
+     https://zenn.dev/yktsnet/articles/202608-guarantee-driven-development
+  6. Claude Code の「無駄」を可視化するツール cclens を作った
+     https://zenn.dev/lambdalisue/articles/introduce-cclens
+  7. Claude が書く長いコメントは、Claude 自身の役に立っていなかった
+     https://zenn.dev/uzu_tech/articles/86a2ef05a7d649
+  8. 散らばった議論を LLM-Wiki でフル活用する AI 時代のデザインシステムのカタチ
+     https://zenn.dev/cybozu_frontend/articles/llm-wiki-for-design-systems
+  9. プロンプトエンジニアリングのすすめかた
+     https://zenn.dev/nrs/articles/70db94beb7b76d
+  10. Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？
+     https://zenn.dev/benjuwan/articles/c2ba48e7662f92
+
+【Qiita】
+  1. 50音を全部作って繋いだのに、（　´∀｀）になった話
+     https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. ずぼらAI駆動開発、爆誕
+     https://qiita.com/nobu34/items/224f55bc85b813930f61?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. AI僧侶ロボット「ブッダロイド」が見せた、"代行"というフィジカルAIの伸びしろ
+     https://qiita.com/sumomoo/items/a5c8d7625488a57c2303?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 「Cookie」はお店の会員カードみたいなもの【ITパスポート】
+     https://qiita.com/prumnn/items/7e57897f62b84ee9c662?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. AI が原因を当てても、「思いついた」わけじゃない —— 推論の3分類で見分ける
+     https://qiita.com/jqit_suwa/items/aefb1adac27a34646cf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. プロンプトの次は何を学べばいい？ AIとの付き合い方を4段階で整理する
+     https://qiita.com/jqit_suwa/items/cb785917d2661858f7b7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【新卒エンジニアが考える】「読みやすさ」の正体とは？大学で学んだ認知心理学をUI実装とJavaのコード設計にあてはめてみた
+     https://qiita.com/tkmrtkm/items/f6f6c10b802372a53c0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 新人エンジニア、定年まで続く勉強量に震えてやばいと思った話
+     https://qiita.com/prumnn/items/942eaafa9b9435fcc896?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【初心者向け】「セキュリティを担保できてる？」とは何なのか
+     https://qiita.com/sai029/items/a837b6706911d1a0b33a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 「試してみよう」が毎回「後回し」になるのは怠惰ではなく、情報渋滞のせい【AI時代の弊害】
+     https://qiita.com/sumomoo/items/d5cb8ed4935a8df88811?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  2. セゾンテクノロジー、ファイル転送ツール分野パッケージカテゴリーで23年連続*1国内市場ベンダーシェア1位を獲得 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBCV2ZWNkdRb2FwcUpPRmVUdTJtUktra2ZJQV83ZVl4U09WMjNZU3BCcTc5ZFZoWEk5blNOZkU0YW1GcnRlclVRS2doY2MzOUtxNGIteHk5ZTFVWVQwUkw4WWl4WUhUNkw3OXc?oc=5
+  3. CLASSYS Appoints Former Samsung Electronics and Vuno Executive Dr. Taek-Soo Kim as Chief Technology Officer, Accelerating Its Evolution into a Global Medical Aesthetics Technology Company - kyodonewsprwire.jp
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LZl95cGRyY1pianVEWUwzTjFhSUh6cENsSjZERFB0ZWh1d1RtMXdZUVhXeTdvdlppSjlvWlJGZ3IwWmE2ZUY3X3dBZkxUMVNtRmJJOGpMSmlnaHM?oc=5
+  4. グローバル・スマート・インハラー・テクノロジー・マーケットのトップ20企業 - Spherical Insights
+     https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVEQtSE9OUUJGSU9PUmZwelFDdGx4VzFkdFlLSm55N1M1RFlONTFzdDhfeVo1dG1OVk12NGpvN3BWcUtOcElENGcyd2VMTTdycVdzVlhXNFc2ZXZMQnZiYkhJWlFTVHBOYkJXc3g4V0piRUZoblhraWtBa0hJY05KT3hpYVpuYVVORUJHMUtNU01POGVQQm5PMTdzVF83bENxX0xnUE5qOWRkWHFxQlZ0OG5neTg1RjEtenAyTTVJdHV0TmU2WXNYUDJ4Uk5ZeHRxSEZKbUxB?oc=5
+  5. 東京工科大学 NVIDIA AI Technology Center Joint Lab設立記念 国際シンポジウム「Computing the Physical World」を開催 - teu.ac.jp
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CY2ZNNlVPc01wWWxuWXlrVkdBaGNjTnc2S1Y0a1dieDc3YXI2cG9iWGl4V1R6eTRNU0JhSEptbzYzUWdyeE1hOG1hbnFSSFQ2WkNrTWQ0aWRqbWxtQnFz?oc=5
+  6. 【GPECリポート⑦】色化技術やプラスチック加工技術を応用した高機能内張りカーテン - アグリジャーナル
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wek1HbmtUeXNNZGFoSmlwbTVFbFNVZ3hvTXNJTTNtTVF3WDh0RjdkamwzY1JuNEdtWmVKYXN1U1dIcnRBYzJtU2F3bC16bTdyaWc?oc=5
+  7. Technology and the Future of War Memory - Asia-Pacific Journal: Japan Focus
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MUW13Ny02aGdVYm5LTkN5S2JZaVNjeUZDc3dNem1RREdremdMeVBBWUs4R1lJcEVTbERBNUNjTENHOXV6ZG1uZUZGN0xfZnFWMHBfUmJhVWJOUQ?oc=5
+  8. MITテクノロジーレビュー[日本版] 特別編集『ポスト都市時代の社会デザイン 社会実装都市 ひろしま』 ―出版記念イベントを叡啓大学（広島県）で開催― - 山陽新聞
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOQUsyUDRlLWpMZkRvS2VnZmpjS3F5U01mekttcXl3ZnBiTmlEMExmSU9DeUNjeTJwODhxTVpWZkx4eHJUVFh5MG1mU0FTUEVab3c?oc=5
+  9. 【Hatch Technology NAGOYA】 名古屋市と連携しRoblox上に構築した防災教育メタバース「シェルタークエスト」の実証実験を完了 - 株式会社ビーライズ
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE43MEt3U1I2YjVMekNJX2hSc1Y4U1FtUENNMWR5MWpHdXhBUlVmcm1yU3NIYWJha3NYQkZOVEFoQ0xyY2FSYUtSVTBIRFhYSGFDMXF0a2lEaDN1TUZlZDhpZWlB?oc=5
+  10. 「鎖国するのか」の声も 中国、技術流出阻止で「出国禁止」明記 - mainichi.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Vb2JaRVQ3eExkM1pXaDN0dS1mR0oyXzFTTVpGb3hqc3VreXpTSmhCNEtqOFFBRnZYeWhTdVBHRU9INUNKcHVmbTVLNlIxQUwzR283UDdubHFOMEQ5WGJMSVAwVC1rMGpG?oc=5
+
+【Google News (Business)】
+  1. 復活したソニーと凋落したモトローラ…「ビジョナリー企業」の盛衰に見る生き残る企業が利益より大切にしていること - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmcEZaZW9lTXZ4VmkyQ2VrWWlkVnpHNDhBUUladlJyR2k1THVHV0ZHaUZwbXpCUS1nTUlpUGc1SndCN1UxX2RoOW5FSFVHeHNVZml3TlVR?oc=5
+  2. 225社2700人の開示スキル分析 AI記載はわずか8社、「全マル取締役」は29人 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yelBnbkNyQXU4WllwSUhSc2o3bWkzVDRDcnpFRk9zdThTUVJhRnBMRnYycDZPRHNXaDFQZjlQMXlzclVJZkJtOVVEYUh5cDFQUmVUaWdsRHZrLWpkZ1p6MmxyaXJOdFk?oc=5
+  3. 年商100万ドルを稼ぐ「一人企業」の台頭 - WSJ
+     https://news.google.com/rss/articles/CBMinAFBVV95cUxPdk1kazF6ajFZalFqbkV2YlJ2WlFKLUtTYkJQSWRJcEE5RDNMMGtVM0g2Y1BoN0FyNl82RXZyWTNrWUsyXzltemNGcWlETzlNXzlpOXltUDhtTE9QWTJLaXg3bHlDeGNNNDFCM0xmenFiaWlyMHc3a2NoWXM1M0pMVnRmdllsTEdkSXZvQUJxVXFRXzVrQjlZbFRVZVk?oc=5
+  4. 「Rakuten AI for Business」にAIモデル「Claude」を導入 リサーチ・データ分析機能を追加・強化 - ai.watch.impress.co.jp
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tUUV3WFA1ajNWUllqbGhzTGt6dDZVb3piV0cwUjZYcmFjeWdVNXhhQWJvb0pDVVphNTJzdUFBcUxyeXoxZERfUFUtMlltaHY5R1YtZDVWbWFFYWRMUFVxekdFWQ?oc=5
+  5. 上場企業、最高益更新か　27年3月期、7年連続 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxONmh4N1pXUDRDeDNySVhrQnVmMmpxc1BsSUhxeF91a19lV292QnBteUNQNUpaS0JtQ3hLZ2prcE1kZ3lVQjlLQTVYZU5WdE50ay1vQWEtNFZHT1hBSlRrSThOR3Z5MTBYWE9tRHZJVGlub3MyTDhpYUZrQVMwYWVJWjdJd0hSQzB4aXoxekhR0gGTAUFVX3lxTE5zVi04OFk3ZUNkSkp3dFRBUS04Mld5Y0NkSnBCVXM0a0pPMkEwcUNGanJFTU1MelM2Y2toczBxclpDOXNjVjdTRUNmczJOSUtjSWI3Y2Z4WFpHZWNDbDhzRThGYVRxbEFvZVRtaUQzd1g0YW5lemVtaFQxd3RCMUNnY1dZM3BFdVlVZU5vbzN0S0t5Zw?oc=5
+  6. ビジネスジャーナル、韓国語版メディアを公開 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1UVWlROVNxeHliRU82LTFwRGVrUnhMMXlVeHZoUV9VU0MzS2hQR3huOURvNzBXLWpHa3JYaS1qTXNCMUNNNXA0TFVlOTRFM3ZZY2NHMFQ5RWhtM3NRcWpQM2lHQ2RZSUdoMXc?oc=5
+  7. ファミマ先行の「広告ビジネス」にセブンが参入、勝算は？ 全国約2万店舗と約1億人の顧客データを武器に - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9xUlVSN0pDQVgyZDJIaGt5akZmX3RrU0JsSzgwRUpyYzJSaHRvQ29PWEt5NDFWeWZRYXhpUU9xcklaZHczbm9OWDU1RHJMaTljWVRYVGFSc2twSUVzRnFjSjh3dE1UbU5qRTRnUGRtTzRoUQ?oc=5
+  8. 【決算おさらい】26年1〜6月期、外資ラグジュアリー企業4社の注目トピックを解説 - fashionsnap.com
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE51T2NRVzNZaUlzX3BUb3BVRERWa3BpRC1LNEdHRXpfZ0VFem5MdXZ5T29JUzVlZFFqb2V1di05MmZlZjdwWkc1S1ZJMFVma3JCVHRNVGlRY2lLSEdnR0JDazZFdFZRenZYb0E?oc=5
+  9. 東経連ビジネスセンター、中小のグローバル成長支援 第4期活動スタート - 日刊工業新聞
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE93SHp0cFQyX21LWmFxdi1fRGotbXctdlpmdWRRQVBGRkJEeUlIMm9PT2FNdHBVNzVVX1N2NFVDYmowLXFGRFdoSXZMQjhlZEdqR3BwMUZjcG1nRlU?oc=5
+  10. ｢中国経済は改善する」回答は１パーセント…日系企業1364社の告白 - 現代ビジネス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VX1RZZ1c1TTVkWDJPeW4zSEtEdXNmNkRQOGZrVGFWNDdpNjRxSllfS3BDYV8zYlZITHFOTk5lVzlUSWs0VjNMRHFrNXZTS1k?oc=5
+
+【Reddit / technology】
+  1. 20,000 People Are Publicly Vouching For a Man Accused of Cutting Down Flock Cameras
+     https://www.reddit.com/r/technology/comments/1vhhurs/20000_people_are_publicly_vouching_for_a_man/
+  2. Salem Brought a Guillotine To Oppose New Data Center. Company Reps Left, Feeling “Unsafe”.
+     https://www.reddit.com/r/technology/comments/1vhjll5/salem_brought_a_guillotine_to_oppose_new_data/
+  3. Google's AI told people Flock cameras were full of gold. They weren't
+     https://www.reddit.com/r/technology/comments/1vhbtci/googles_ai_told_people_flock_cameras_were_full_of/
+  4. New Orleans will use AI to answer 911 calls instead of a human
+     https://www.reddit.com/r/technology/comments/1vhkoaf/new_orleans_will_use_ai_to_answer_911_calls/
+  5. DuckDuckGo made sunglasses that do absolutely nothing, and they sold out
+     https://www.reddit.com/r/technology/comments/1vh0yv7/duckduckgo_made_sunglasses_that_do_absolutely/
+  6. Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears
+     https://www.reddit.com/r/technology/comments/1vh28cx/restaurants_pubs_and_theatres_ban_metas_spy/
+  7. Senators demand crackdown on wildfire “prediction market” bets | Fire experts warn such markets could incentivize arson.
+     https://www.reddit.com/r/technology/comments/1vh5up2/senators_demand_crackdown_on_wildfire_prediction/
+  8. Americans are rallying against data centers. Surprisingly few are actually getting built
+     https://www.reddit.com/r/technology/comments/1vhjadj/americans_are_rallying_against_data_centers/
+  9. AI slop, privacy fears, and endless scrolling are making people fall out of love with the internet
+     https://www.reddit.com/r/technology/comments/1vh8do6/ai_slop_privacy_fears_and_endless_scrolling_are/
+  10. FCC Removes Key Limit on Media Ownership, Raising Potential of Major Consolidation of Broadcast TV Stations
+     https://www.reddit.com/r/technology/comments/1vh7ba6/fcc_removes_key_limit_on_media_ownership_raising/
+
+【Reddit / business】
+  （取得できませんでした）
