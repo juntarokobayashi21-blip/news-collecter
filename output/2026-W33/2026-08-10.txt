@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-10
+============================================================
+
+【Hacker News】
+  1. Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows
+     https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model
+  2. Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models
+     https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878
+  3. Rust SIMD on the GPU
+     https://www.vectorware.com/blog/simd-on-gpu/
+  4. Sonic Pi v5
+     https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392
+  5. Publishing Schematics Before “Open Source” Was a Word
+     https://fabscene.medium.com/publishing-schematics-before-open-source-was-a-word-55-years-of-akizuki-denshi-japans-be7ca9629704
+  6. Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots
+     https://cactuscompute.com/needle
+  7. Confessions of a Long-Distance Sailor
+     https://arachnoid.com/lutusp/sailbook.html
+  8. Stop Killing Games: It's time to sue Sony, join us
+     https://www.massaschadeconsument.nl/collectieve-acties/playstation/
+  9. Exploiting System Management Mode with a very long interrupt
+     https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii
+  10. Stowaway – take the window seat on any plane or satellite overhead
+     https://stowaway.live/
+
+【Zenn】
+  1. Agent Plugins 1.0.0 は何を標準化し、何を標準化しなかったのか
+     https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive
+  2. 型の表現力はタダ: Rustのニッチ最適化を追う【第3部: コンパイラ内部を読む】
+     https://zenn.dev/fast/articles/44f261437d706c
+  3. CAPMの使い方
+     https://zenn.dev/ageonsen/articles/bae0be293199f7
+  4. Cloudflare OSをVRAM 8GBのゲーミングPCで動かしたら、三目並べ1個に5ラウンドかかった話
+     https://zenn.dev/akari1106/articles/20109e62a4b8b7
+  5. 自分専用の仕事用デスクトップアプリを作って自分に適した情報網を作ろう
+     https://zenn.dev/nana/articles/9d2f3c85ef3692
+  6. UKIさん、Hohetoさんの「勝てる戦略は誰が負けてくれるかを説明できる」をクオンツ視点で読み解く
+     https://zenn.dev/gamella/articles/d5ad80722d01ae
+  7. Raspberry Pi 5でClaude Codeを動かす
+     https://zenn.dev/gsy0911/articles/a4dc76f0639576
+  8. C# 15+の新DIパターン: 内部はinterfaceで疎結合、公開APIはunionで型の許容範囲を制御
+     https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed
+  9. Claude Code で「ループエンジニアリング」を実践してみた
+     https://zenn.dev/tetsu_don/articles/e40b95dfc726ac
+  10. 経費精算アプリもExcelも捨てる。Claude Desktop（MCP）＋マネーフォワードAPIで経理を完全自動化した話
+     https://zenn.dev/yuichirominato/articles/dc8cf3915f1c6f
+
+【Qiita】
+  1. 新人エンジニア、AIがないと役に立たないハリボテ人間にならないか不安
+     https://qiita.com/prumnn/items/b3302efec6a8d8b50197?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 「後回しにしたら詰んでいた」を防ぐ。待ち時間で決めるタスクの優先順位
+     https://qiita.com/sumomoo/items/b4a550002ebf1e5b8af8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【備忘録】AIで編集しやすいWBSの作り方 - 機能軸・工程軸で工数を集計するMarkdown表
+     https://qiita.com/Tadataka_Takahashi/items/6be2bf42e6b9751accc8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. わかったようでわからないアロー関数の完全理解
+     https://qiita.com/yuki_crossroad/items/dffb06c5e5cd1ef73463?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【FinOps Agent】身に覚えのない請求の調査を任せてみる
+     https://qiita.com/ryu-ki/items/94c478b2642ac525c6c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 富士山登頂記念に、AWS Blocks という山も少しずつ登ってみる（第1弾：五合目から八合目の山小屋へ ── 「地名→標高」アプリをローカル完結で）
+     https://qiita.com/ShikoMaehara/items/6a8adc79a26b23a128ff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. OCI Data Catalog 第3回：Object Storage上のOracle DatabaseマニュアルPDFでSelect AI with RAGを構築してみてみた
+     https://qiita.com/shirok/items/704f8f380fee205e06d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. AWS認定を1年延長できる維持制度の登録、延長方法について
+     https://qiita.com/kiwi-dev/items/60dca34eccf785744a1d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 今更だけど、DynamoDBの設計の勘所をサクッとまとめてみた
+     https://qiita.com/miruky/items/c7beb2fbed6492d195d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 新人エンジニアにとって大切なことは技術力だけではない話
+     https://qiita.com/teppei19980914/items/d8c00eff5cbf870c606c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. GigaCloud Technology、CEOの関連会社による株式取引計画を更新 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5YYm5GQUktYXBaRDlONVNiNUZsd2x3aE9SaEVTWFlsNzlfcTgxeHBIRUVnb2RWRVFJQWo0azJYMklYZlVURGFla21hc0VQbnI4cEs1NGUtNFNCVVd4LWZ0M1d3akZlT1hSTjlYWWp6bw?oc=5
+  2. 8月10日のMarvell Technology Inc (MRVL) 始値は4.03%上昇：どのようなシグナルを示しているのか？ - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxQMkRIR2l6bXluN3JzdFpHXzF5RE80X2Y2WXh1ZWlUdEgtLURjZ1dVMDFnUzNIM3pEYmtWbzVwalBmQUJSMDJKcnRXRWZpRHBodWdKUkpKd1ZNZ1pFTC1fdnlpdFJDdkcxN2NxSlNXYUxGWktpWWtKVm9TQTVXbXRzc01rRWZIZ09zOFdsMFhtVQ?oc=5
+  3. Point2、アーム、LBインベストメント、マーベリック・シリコンから1億3600万ドルのシリーズB資金調達を完了 - businesswire.com
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FT09mdXNEM2VvUGs5WnlfSW16SzN0UklHdWJMeXlZVG5PblFQazJnaXl3Wld3MFNvSEl5dDRNekFpVllMTWNMelJldDRFZzBqMUQyYUloOEFpTXVYZ1Q0RE0yWkpmVnM?oc=5
+  4. テクノロジー - PwC
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6bTd6YlVfU0lMZnJuYm5Hc3FRT1ZvdTQ0SHlISTJ4Q0oxSklTeE5MTm0yZ0FpWkZ6U3MyZU1MZTduZENEMGJyQnNzMTNoeU5ndldpN2FXbVRETGJTWVNKUkNB?oc=5
+  5. シリコン・モーション、AIインフラストラクチャ向けのSSDリファレンスデザインキット「MonTitan™」をFMS2026で発表 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBKcWFFYi1DQzI0ZWZGUlBIM2RGZF8yZGRmR3FKRXZJUjRyZ1piVHc1dlZnbmxjQXdoTmdkOGFTSzdCN3VKaDFtbk1xLU8wbUZFNy02M0NYTDJEWmhlV0tqM2RyZm03eEJRVXc?oc=5
+  6. Conor Signs Strategic Technology Partnership Agreement with ACS - ペイメントナビ
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBPRmZlbUdERlpHNDhvdFNNM3A4SUVjbjlZNWxRcV9Zb003NzBiakh0UVFNMzRLWjhvNGpuMERYQTNiLWVkVzltV3F0aS1ubTF1dFRtY1pOWGF5RlZDX1E?oc=5
+  7. Coolita launches Indonesia's first FAST Media Alliance with leading broadcasters - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WTVRfM0JYcEQ4dnBxdEtJczdxMTZiQ3duRm5iSlhBcWJxVGdqLTJJdGRGMFRvODZzczZuc1hENXU1dFBDbHlVeFVpY0pEdEdMclpiUzllUTg3R28?oc=5
+  8. 【欧州市況】株は最高値、テクノロジーやエネルギー株上昇－国債下落 - Bloomberg.com
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOUy0wbmEzVnlRUzl2RU1ialFkd0d0M08xUUhkUGw1ekFrZ0t0dG92N0xISHV1SkpSVkE5MXFwTGN3enB0WDRqS2tTWXZMeFlkM0NGaE1tNmZjaEItc3FISmN1WmUxSGk4NF9laldlSmZJRFV0V0ZYb2Q4WFMybDNTU0R1dlM3STRFNndvOUx6QQ?oc=5
+  9. 令和8年度介護業務における介護テクノロジー導入支援事業の実施 - pref.hyogo.lg.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DSGxjX0Jub3VUMy1NWWoxSl9IcmVVWGFTMm1DRFI2WTJBeUE0Y1VPMTJHMHhCY2o5M2RmdFB4QmJCVGZqZklqTm5RejNWb09SS3lvSGN0eGowcjVvaW1RVnFLWVZxYXJs?oc=5
+  10. Snowflake World Tour Tokyo - イベント・セミナー - Key Technology｜CTC - ctc-g.co.jp
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pd2ZzQ0JHNGZUNlpHQWlocE1hVVJVdmZrQkZNU3NxV0JhWUdDcmhhdW5BU0JjenNZMWV6T1lQeFdVSk1Hdl9sQ3huQi1xYVJiaXRlRjBlU1NDdUVjQXB3RXUyaXJjUQ?oc=5
+
+【Google News (Business)】
+  1. 決算:上場企業の稼ぐ力、円安・AI投資が追い風 4〜6月期の純利益7割増 - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE00b0d2M045bjh5OXdMMW1CcEx1UzVmZWthRDBlNy1FMUU0cm4zazdUbjFReHV0OFhPOU9zbFZ6Ty05WDVXQXdfanJFYmtIWUJzZGpsa3ZpSEpQZDY0bUpJNVV3SEdIMlNpajZYWA?oc=5
+  2. 元マイクロソフトエンジニアの起業家が、AI活用を率いる人材として採用したいのは「クラフター」（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE40Y1lvNFRoM0kyV0FTMnZ5SWlfdE5pTGctVzlybll2dGEySHdLa3pWRVJxVHZyY0d6NU9NTG1kM2dUbmtCR09Yd3hQOVRZRk9vY0plVVBIeWs0UUtocmZfeXF2UF96UVpoVmE5ZnZTUjhuUVdTNU8xZ3dGbThMRjg?oc=5
+  3. 「ウェザーニュース for business」にAIエージェントを搭載 - 株式会社インプレス
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Pci05ZmZJQUpHbDdxZFo4Q0VYZVQ3TW0tT3pnTDlWMkI4WnRYRlJnWGJ3aS0tZVpjQVhRcHIwT3p0Q0UyWldTbGE5YXlEeUpkUm9hQUdGQUlRLTJZcHhkRTlMUQ?oc=5
+  4. デロイト、EY、PwC。AIが引き付ける「ビッグ4人材」…コンサル上級幹部の転職先が「スタートアップ」「中堅企業」になり始めた - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiggFBVV95cUxNSVFiVFcxUGtrRF9PRURpVm9lWGo0TWRpb0txanFrY3RGOU9WYVdTLTdaaFV3LU1qZ05zUFJZZ2dyRjhjUU5keGctTGVpSzczTGNFQ0dFNTVZV1N5dXRNaGo0aC1NNnhoLVFIZHNOcHl3c0FvT3MtdWJwblFNTlpZcVNR?oc=5
+  5. 台湾｢新型新幹線｣で見えた日台ビジネスのリアル 製造費めぐり交渉難航｢破談の危機｣乗り越え完成 - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ta2RfakVFQkY3LUFkcTVPS2NrWHBDNTNzUnZhb3VQUm1ZVWZyUl9oS1dFeGRfbGtOajJJdURWeUE5eWRHSkxLM1BaQkhiVHk4WG5jWGxXMDdUamc?oc=5
+  6. 枠組みを超えて変革を起こす、外食企業の「持続的成長戦略」：ニュース - 中日BIZナビ
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VQUN2NVg0b3RtLWRObjVUZ2tRQld0TThCcjBtX05OSlRWd3RJczhHU2UzT1A5d0J4YmJpM3QtZm5jdmVqVTIzZkxMd2hEYTF5Mk1wMS16aXZEMk91a2Vn?oc=5
+  7. 年収が高い小売り企業ランキング2025【トップ5】ファストリが2位に転落、注目の1位は？ - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE45bWwtRGdGc3dKWFFuY1B6UjhhcV9ILXJiTGhaWmdpSXEzWEFLUllITkJweEtPRTlkRjdKS2FZREJiTFA5ZkV1YWhwRGo1cTZuVmRkVWxCWUdwMXZMX1VGSS1sMjV0dWkxMXpJQklzR3oyam9kbVRlZUZJRdIBgAFBVV95cUxPYnctTklIcU12X21jSUF0bGlTQUpQbzdZYmhTUmhGMDNRcVBZcFBLRVhwWWkyMnRSdXRVekpKU2RNTmZQUjVJY3dhcWdGeTBkTC10cjYzRjU5cnNSNEFaQ001TTBsSFh1cHVka2RoNUFZYXlMd2o2QWZQdFp6dUkwNw?oc=5
+  8. 【第2期始動】大手電機メーカー・製薬大手の若手社員が挑む企業横断プログラム「U30 Business Bootcamp」、9月26日ピッチデーへ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBrZjZUSGZ3MDMybHZwa1VNYy1uUHk4d2h4djU4Tk9WSE5HYlB5RzBPVjRCMFF6SFlaQWFfTEJ0dWVVcS1zZld2U0I5OFNZbEJla0UxVV82RktXY01kZUJ1M2U0VHl6eS1zWFE?oc=5
+  9. 青山商事の第1四半期はビジネスウェア事業が赤字転落 本業の苦戦をフランチャイジー事業などが補う - SEVENTIE TWO
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE5LSkF3dFMzU1hhLWxfVi0zLVVrRHhBMkl3RlpuRTkxSGZGQnRuU25BMkpaUjNSdzdJSW11ZG5kLUxVZnQ5bW94TndNNDVCUkZsVE1GUnNTWlVjN3l6eXRJX1BSU1lfSzhoVjE1SDlsT3JXUW43c3c?oc=5
+  10. 経済産業省「成長投資ガイダンス―価値創造の拡大を通じた企業の持続的成長に向けて―」を公表 - BUSINESS LAWYERS
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTE03eG8xTE9GdXdkV2l5c29qNU5jUG5JQjhaMXJ2NWhGSG5XVWtOcWdoTVhtbFB4UnU2azFFR0RWOE5rOEs0Vk56RVhNNnBhVEstLUVzZFhFdw?oc=5
+
+【Reddit / technology】
+  1. Farmer trusted AI after it gave good advice, then it helped wipe out 25 acres of his crops
+     https://www.reddit.com/r/technology/comments/1vku8wv/farmer_trusted_ai_after_it_gave_good_advice_then/
+  2. Mark Zuckerberg posts deranged 6,500-word essay about giving everyone AI ‘superintelligence’ — “The future is for everyone,” he says, describing future that is primarily good for Meta
+     https://www.reddit.com/r/technology/comments/1vkx0sh/mark_zuckerberg_posts_deranged_6500word_essay/
+  3. YouTube announces monetization changes that make it harder for new creators to make money
+     https://www.reddit.com/r/technology/comments/1vkvwxs/youtube_announces_monetization_changes_that_make/
+  4. California wants to ban AI therapists as thousands turn to chatbots for mental healthcare
+     https://www.reddit.com/r/technology/comments/1vkpy52/california_wants_to_ban_ai_therapists_as/
+  5. The ‘Manosphere’ Isn’t a Movement. It’s a Multibillion-Dollar Grievance Industry | Many young men are driven to resentment and are financially exploited as influencers sell them classes, pills, and the illusion of clout, a new report reveals.
+     https://www.reddit.com/r/technology/comments/1vkhkcw/the_manosphere_isnt_a_movement_its_a/
+  6. Top economist warns that the AI math doesn’t make sense: 'Profits are currently being funded by investors rather than earned from customers'
+     https://www.reddit.com/r/technology/comments/1vkg571/top_economist_warns_that_the_ai_math_doesnt_make/
+  7. Battlefield 6 player gets Steam refund after 470 hours because their favorite mode was removed
+     https://www.reddit.com/r/technology/comments/1vkyk6p/battlefield_6_player_gets_steam_refund_after_470/
+  8. The AI Slop Backlash Is Actually Having an Impact
+     https://www.reddit.com/r/technology/comments/1vkm7ei/the_ai_slop_backlash_is_actually_having_an_impact/
+  9. 'It's ridiculous that we pay for an operating system and still get served ads': Windows 11's Weather app comes under fire for pushing ads and eating way too much RAM
+     https://www.reddit.com/r/technology/comments/1vkk07q/its_ridiculous_that_we_pay_for_an_operating/
+  10. US hires over 2,000 video gamers as air traffic controllers
+     https://www.reddit.com/r/technology/comments/1vksfau/us_hires_over_2000_video_gamers_as_air_traffic/
+
+【Reddit / business】
+  （取得できませんでした）
