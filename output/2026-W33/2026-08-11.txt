@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-11
+============================================================
+
+【Hacker News】
+  1. WorldClaw Agentic 3D open-world generation at scale
+     https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/
+  2. Nvidia Nemotron 3.5 Lightning and NeMo Switchyard
+     https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/
+  3. Compression is prediction
+     https://ngrok.com/blog/compression-is-prediction
+  4. Mojo 1.0
+     https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here
+  5. Stealing Reasoning Traces from Proprietary LLM APIs
+     https://stolen-thoughts.com/
+  6. Making holograms with a pen plotter
+     https://blog.jordan.matelsky.com/Penplotter-holography/
+  7. Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo
+     https://photosynthesis.camera
+  8. pg_clickhouse v0.10: Subquery pushdown and 1000x faster TPC-H queries
+     https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026
+  9. OpenAI’s head of ethics leaves less than a year after joining
+     https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0
+  10. Suzanne: AI tool for designing and manufacturing physical products
+     https://www.suzanne3d.com/
+
+【Zenn】
+  1. BM25を使用してCodexのトークンの消費を30%抑える
+     https://zenn.dev/knowledgesense/articles/9e55a3bb67729c
+  2. N+1 問題を、発行される SQL を数えて理解する
+     https://zenn.dev/mtmtdack/articles/2026-08-11-n-plus-one-counting-queries
+  3. 曖昧に使っていたAI周りの言葉を理解する
+     https://zenn.dev/yoshipon_tech/articles/a51bbfcc068c1f
+  4. ドメインモデル図がすぐ古くなるので、Storybookっぽくコードと関連付けて見れるようにしてみた
+     https://zenn.dev/dress_code/articles/34f18afe1464e8
+  5. Cloudflareは16年間ずっと同じことをしている。「通り道を支配する」という設計思想を知る
+     https://zenn.dev/akari1106/articles/9d2abbc63a4abb
+  6. Agent Plugins 1.0.0 は何を標準化し、何を標準化しなかったのか
+     https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive
+  7. Proxmox VEでAMD SEV-SNPを試してみる
+     https://zenn.dev/ciffelia/articles/pve-amd-sec-snp
+  8. CLI 上の Claude Code で Computer Use を再現する（追加課金ゼロ、441 行のエージェント）
+     https://zenn.dev/tokium_dev/articles/gui-agent-zero-extra-cost
+  9. 型の表現力はタダ: Rustのニッチ最適化を追う【第3部: コンパイラ内部を読む】
+     https://zenn.dev/fast/articles/44f261437d706c
+  10. Next.js + Cloudflareで「サボる」ためのWebツール集を個人開発した
+     https://zenn.dev/ikuosaito1989/articles/47a9b4d4177d87
+
+【Qiita】
+  1. 【備忘録】AIで編集しやすいWBSの作り方 - 機能軸・工程軸で工数を集計するMarkdown表
+     https://qiita.com/Tadataka_Takahashi/items/6be2bf42e6b9751accc8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 新人エンジニア、AIがないと役に立たないハリボテ人間にならないか不安
+     https://qiita.com/prumnn/items/b3302efec6a8d8b50197?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. AWS認定を1年延長できる維持制度の登録、延長方法について
+     https://qiita.com/kiwi-dev/items/60dca34eccf785744a1d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 【PHP8.6】PHP8.6の新機能全部紹介するよ
+     https://qiita.com/rana_kualu/items/a50907007c868b807750?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. .NET 11 Runtime Async はなぜ速いのか
+     https://qiita.com/hez2010/items/2aff0b2b40b9d0bfda91?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【全統計学博士号泣】ガウス過程、撃沈。高度で柔軟なモデルがボロ負けする惨劇をどうぞ
+     https://qiita.com/Gotoubun_taiwan/items/9a2d123e796f447b882d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. RAGに古い情報で答えさせないためには？"コンバージド"データベースから考えるAI時代のデータ基盤
+     https://qiita.com/yushibats/items/9dd91baaa89c919d0992?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 相続税と固定資産税は何を生み、何を失うのか？ ― 資産循環と日本の供給力から考える国家OSのリファクタリング : システム設計視点の行動経済学 (12)
+     https://qiita.com/maskot1977/items/4ccfecebcce9dd790050?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. DynamoDB のベクトル検索を1万件で試してみた
+     https://qiita.com/asahide/items/7828054c74bb187552d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 新人エンジニアにとって大切なことは技術力だけではない話
+     https://qiita.com/teppei19980914/items/d8c00eff5cbf870c606c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. トランスフォーマーに限界、 次世代LLMを担う 4つの最新アプローチ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMimwFBVV95cUxQcVBvQjN5enZORVVaZjdVZU40TDE3UFRTTTIyODVXODJtM3pmWm5PU1NveTR6SXRHWVJqaW9MZVJzY1FKOEdJWXZEZnJoYTU4Z3QzSURvTHZ5aFVoRWZBY2FlaF9ZOVRfYm9YbEVfT1dmNmpDNnBIQnlwak9hVlBhQXhOSmhnN3N5bEFfSFVMVGw2MHYwUTBIZXVwSQ?oc=5
+  2. エボルブ・テクノロジーの2026年第2四半期決算：増収が見通し引き上げを後押し - TradingKey
+     https://news.google.com/rss/articles/CBMickFVX3lxTE85SjZrdzRabkpEeU02Q2hXQ1pPVG1RakNZM1BpUFZUc2RHdzdMTXdENHlpZkNXLUZJWnhaeC1qQVZnSjQtM3MxZE9zbURzTC01WUJBeEJDT0ZWa0xrQzhpSl9TRzQ4Ukh6VHpmLTg4eVZiUQ?oc=5
+  3. 技術者育成を戦略的に推進する「技術研修課」を発足。現場知見の体系化と継続的な人材育成・技術継承を強化 - アットプレス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE51UUVKSmxhMUFpX2kycWZDcEphMmV5VDVXeFI0MzNwMldKWkVBRml1UGY0cFFoX2lKNEpkN0ttQlpxeFJHYmhCV3BhT1E2LVk?oc=5
+  4. テクノロジー - PwC
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6bTd6YlVfU0lMZnJuYm5Hc3FRT1ZvdTQ0SHlISTJ4Q0oxSklTeE5MTm0yZ0FpWkZ6U3MyZU1MZTduZENEMGJyQnNzMTNoeU5ndldpN2FXbVRETGJTWVNKUkNB?oc=5
+  5. 建設・土木現場の電源確保やBCP対策を支援 EcoFlow、「JAPAN BUILD OSAKA 2026」に出展 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1nd0dlTTF6YjkxblpZLURxWE5fUGU3bWhCSTMxZlNUZW9aMEYxS3VVQWx4WWFTT0NhZ3VtQjAzVDFoMTFJVUFWZGthaGl0enlDWFRyUkR1VFJtWXQxekhWaWgydk92LXNNY0E?oc=5
+  6. 令和8年度介護業務における介護テクノロジー導入支援事業の実施 - pref.hyogo.lg.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DSGxjX0Jub3VUMy1NWWoxSl9IcmVVWGFTMm1DRFI2WTJBeUE0Y1VPMTJHMHhCY2o5M2RmdFB4QmJCVGZqZklqTm5RejNWb09SS3lvSGN0eGowcjVvaW1RVnFLWVZxYXJs?oc=5
+  7. WIPO GREEN Technology Forum 2026 - WIPO - World Intellectual Property Organization
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVpJeG9ZbDhEQndBdHpxZ1FwVlc3anVmcHJqaEEyZEJWRDZMVy1YWlpMYzlOWHR6OV9PNXE0SW02SGg1T3RBZHJkYmhVb0JfZmFRTGhpTVAxVURYY09aMHJaSGM4NUtlRmN0amk4ZFdGNkVPYW5oR0lqRE1IOWJzNEZRZWRwUXJZQkw4M1YwSQ?oc=5
+  8. $マーベル・テクノロジー (MRVL.US)$[ネギ][ネギ][ネギ] - Moomoo
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxORktsQWdNNnpNbnFIRXJyNU5BLWdsVmNockhJTWxGaHFvMTZHZXB6bnBjMnRHSTlJUXdPa3p4dWc2LTE5dElZLVhaOVRoeFYzVlJCM1FPTkw0OFJ2UzFYMFV6YkpqZGFxSHg2Y245bVBPdDlsVmJ2Y2p2NzZtamptTWdoMERTWF9scHlN?oc=5
+  9. GigaCloud Technology、CEOの関連会社による株式取引計画を更新 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5YYm5GQUktYXBaRDlONVNiNUZsd2x3aE9SaEVTWFlsNzlfcTgxeHBIRUVnb2RWRVFJQWo0azJYMklYZlVURGFla21hc0VQbnI4cEs1NGUtNFNCVVd4LWZ0M1d3akZlT1hSTjlYWWp6bw?oc=5
+  10. メルセデスの意地を見た！ 新型「CLA」で注目したい自動車のテクノロジー - webCG
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TTGJoX1JnRE0zaUtRWmZUNXBYTXBOSUM1T0IxOTlPNWVXZ2hRbzZ3amFkUThoVG50REF2QWFQU3k0SXJNVFBReTJURE1QdXfSAVJBVV95cUxNeVBIUEhLZ2RaR0g2NG5GVEtiUWxXVFh3V2ZLcjYyTGlfanJoOXJsbE1lRmhZTzdUdnhqdmxwdFpIdk9CTDROUFFZVmVDTHZwOHpB?oc=5
+
+【Google News (Business)】
+  1. なぜ利益が出やすい医療白衣ではなく飲食店ユニフォームを選んだのか？福井の中小企業が実践したランチェスター戦略 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwUTlRTWliNU9IWEZLZGVCN0lXcG1zVGx0a1JPSkFhREdqZUZobjFVY3FZY3ZESUpWUGdLZjI0TTlGTEFIV0d0X1AyXzVaOXItR0FEczBn?oc=5
+  2. デロイト、EY、PwC。AIが引き付ける「ビッグ4人材」…コンサル上級幹部の転職先が「スタートアップ」「中堅企業」になり始めた - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiggFBVV95cUxNSVFiVFcxUGtrRF9PRURpVm9lWGo0TWRpb0txanFrY3RGOU9WYVdTLTdaaFV3LU1qZ05zUFJZZ2dyRjhjUU5keGctTGVpSzczTGNFQ0dFNTVZV1N5dXRNaGo0aC1NNnhoLVFIZHNOcHl3c0FvT3MtdWJwblFNTlpZcVNR?oc=5
+  3. オープンエイト、3,200万件超の国内屈指のビジネスコンテキストデータを基盤に独自AIオーケストレーション事業を開始 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE93NXEwQ0hKS3pYYjZicVVkck1UdUFPeTdIUmgwbkVDc0JuODFWWk5FOERkVFlFMUswSEdIYThEMllIRDBJR0ZVbC13VkU1U3BzS080UGhGdVVRdnN4TXRfbmw2cmZkYXVNZ2c?oc=5
+  4. 【注目の企業】キオクシア、なぜこんなに話題？ 今からでも間に合う“入門記事”まとめました - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBCOGdrajNEOVh2ZnhOdDJ4bjEyQ2lNSGUxcTk5WEpsa0pMWVdJeVhheGpBeGhfaU5HLWZ0ZWVwVmY1eVZ4ay1MblQ0RnpCUldUMVFrNWxoRWJSREZQZlRaUVRSWGJTdGdyUmQ4Q1lHQzRFdw?oc=5
+  5. 元マイクロソフトエンジニアの起業家が、AI活用を率いる人材として採用したいのは「クラフター」（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE40Y1lvNFRoM0kyV0FTMnZ5SWlfdE5pTGctVzlybll2dGEySHdLa3pWRVJxVHZyY0d6NU9NTG1kM2dUbmtCR09Yd3hQOVRZRk9vY0plVVBIeWs0UUtocmZfeXF2UF96UVpoVmE5ZnZTUjhuUVdTNU8xZ3dGbThMRjg?oc=5
+  6. 台湾｢新型新幹線｣で見えた日台ビジネスのリアル 製造費めぐり交渉難航｢破談の危機｣乗り越え完成 - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsWEl6SGZSNmc3dm5ZeHpHQjZsTUl5eHRkNUdMUXBkTTY4OS13X3RuYnY5cU1Tb2lrdmljSXVpeGZaMjNoU3ZBTUhkTEtDZlJ1VldyZmVmVDNIaU0?oc=5
+  7. 米中小企業楽観度指数、7月は11カ月ぶり高水準 雇用計画が急増 - ニューズウィーク日本版
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aLTR6ME9FbWxFOHJVcFJCNVJtM0JSakpnNGw5Qlh0TS1ySzBFekw0Q3pJbURNZXFzMzFDX3ZsMEFHc3RBc2FjaTlza29yTktXN00yRDdyTjh6UQ?oc=5
+  8. 広がる“猛暑ビジネス”と適応策 「対症療法」には限界も - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMiekFVX3lxTFBwV254WmNaWndFZEpUdEQ5XzVOUENuVWlFQURoSTA5V0JfVTJHMlJYbnNlNlJKcnFZcXBtQXJQZGQ2S1A0SzcydGRFSEdlbXJ4MUR0aVowcEcxS1FyYVcyMWRNVm0ybmNPR2R1Y1VPSWlhYW9SVHIyQ0NB0gF_QVVfeXFMUHB4ZkRUaUNOUThEblAzNDZCSjE5V0R5bUROYWI1eWxmcWdVQ3ZoVU1FRVd4cmFXbWNhUC1ub01vbW1jZjMzQ0hLaG9qNnNYeTh0S1g3WEZUNk5ucDhlYTk0YTBkRUh1cmNVUHpGWC1qcGpCX1I4dmhpRTNXQ1VSaw?oc=5
+  9. なぜ日本の生成AI活用は成果が出ないのか。NTTデータが示した「3つの壁」と打開策 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQcHB1cE1uclVMTnVCSkYtQ29VS1VyWkVoa0FlSk0zNy1uVnhiVFRPVUIxN25sZXlJa2JWVGFKaU1lQWwwWHlyaXpUQy1EZjRpZU9BWWxMbkRsb1pXc2E0YkdVejhWdTdMdFhReHpMWWQ4NGQxc2dnT3p3LXNqNkxJY3VXVERpYXBzNkJhQTR3?oc=5
+  10. 「オール光ネットワーク」ビジネス交流セッションin 福岡 を開催 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5GQnJleWxzRW1OcnV5UkM5b1k3eUhfTEl6Zl9XSmtONDBpR0laenhjRFN1WnMxNnMtRnltSnM4c0dNZHZLMktHYVVEZ25Hb0J5ZU9FbGR1cVotWE8zcGdMS09vak5JVERQNkE?oc=5
+
+【Reddit / technology】
+  1. Mamdani Backs Proposal to End Amazon’s ‘Exploitative’ Delivery Model in New York City | If passed, the Delivery Protection Act would be the first law in the US to regulate Amazon’s vast network of subcontractors that handle the company’s deliveries.
+     https://www.reddit.com/r/technology/comments/1vlmk19/mamdani_backs_proposal_to_end_amazons/
+  2. Ken Paxton’s Political Operation Rakes In Data Center Donations as Texans Turn Against Industry
+     https://www.reddit.com/r/technology/comments/1vljm13/ken_paxtons_political_operation_rakes_in_data/
+  3. Google says Gemini has reached 1B users faster than any other Google product
+     https://www.reddit.com/r/technology/comments/1vls9t0/google_says_gemini_has_reached_1b_users_faster/
+  4. More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts
+     https://www.reddit.com/r/technology/comments/1vlu5pa/more_than_10_firms_pay_up_to_100000_a_month_for/
+  5. Amazon Used a Startlingly Dirty Trick to Build a Data Center Without Consent of Community
+     https://www.reddit.com/r/technology/comments/1vlri8d/amazon_used_a_startlingly_dirty_trick_to_build_a/
+  6. Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI
+     https://www.reddit.com/r/technology/comments/1vlr0pd/mark_zuckerbergs_ai_manifesto_is_exactly_why/
+  7. Tesla to recall over 20,000 US vehicles over excessively bright low-beam headlights
+     https://www.reddit.com/r/technology/comments/1vlkbp3/tesla_to_recall_over_20000_us_vehicles_over/
+  8. AI Investors Are Suddenly Quaking in Their Boots
+     https://www.reddit.com/r/technology/comments/1vlnsjr/ai_investors_are_suddenly_quaking_in_their_boots/
+  9. A cybersecurity researcher covered a Toyota in an AI-generated pattern to confuse Flock cameras
+     https://www.reddit.com/r/technology/comments/1vla39l/a_cybersecurity_researcher_covered_a_toyota_in_an/
+  10. 5 years later, Windows 10 refuses to die, and Microsoft just can't push holdouts to Windows 11
+     https://www.reddit.com/r/technology/comments/1vlfjzt/5_years_later_windows_10_refuses_to_die_and/
+
+【Reddit / business】
+  （取得できませんでした）
