@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-12
+============================================================
+
+【Hacker News】
+  1. DeepSeek V4 Pro 0813
+     https://openrouter.ai/deepseek/deepseek-v4-pro-0813
+  2. Delta
+     https://zed.dev/blog/introducing-delta
+  3. Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug
+     https://tailscale.com/blog/sqlite-wal-reset-bug
+  4. Qwen3.8-2.4T
+     https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B
+  5. 2026 Eclipse Webcams
+     https://jonty.github.io/2026_eclipse_webcams/
+  6. Why Target Common Lisp for Code Generation?
+     http://funcall.blogspot.com/2026/08/why-vibe-code-in-lisp.html
+  7. Tim King, AmigaDOS developer, has died
+     https://amiga-news.de/en/news/AN-2026-08-00070-EN.html
+  8. HTML over WebSockets: real-time SPAs with barely any JavaScript
+     https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/
+  9. Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot
+     https://knownagents.com/insights
+  10. Grok 4.6
+     https://x.ai/news/grok-4-6
+
+【Zenn】
+  1. ナレッジワークにおけるAI活用をベースとしたQAプロセスの最適化
+     https://zenn.dev/knowledgework/articles/2114d46c201da3
+  2. iOSアプリ審査が遅くなってない？フィードバックを送る方法
+     https://zenn.dev/solar/articles/8216ba86515aa5
+  3. 共催テックイベント運営入門 as 採用広報
+     https://zenn.dev/tbpgr/books/d7eb07b518e467
+  4. Chromium(V8)のArray.prototype.copyWithinを最大約450倍高速化した
+     https://zenn.dev/dinii/articles/a272b7c3b60ab8
+  5. 【WSL2 & GitHub】Windowsで開発用の環境を作る手順書
+     https://zenn.dev/teru_gift/articles/61dbef1333c9c9
+  6. Next.js BFFの認証を考察して、シンプルにする方法を考える
+     https://zenn.dev/naofumik/articles/4fdfcbb5cf083e
+  7. なぜAIで作業を効率化しても、給料が上がらないのか？
+     https://zenn.dev/karamage/articles/976a5f8fb0f876
+  8. macOSでメモリを使い続けるCursorUIViewServiceを無効化する
+     https://zenn.dev/discus0434/articles/disable-cursoruiviewservice-macos
+  9. 中古サーバ用GPUでローカルLLM環境を作る試算（MI50 / P40 / P100 / V100 / CMP 170HX）
+     https://zenn.dev/phpmyadmin/articles/used-server-gpu-local-llm
+  10. Webサービスの終わらせ方
+     https://zenn.dev/kibe/articles/df74c2e9fe76b6
+
+【Qiita】
+  1. .NET 11 Runtime Async はなぜ速いのか
+     https://qiita.com/hez2010/items/2aff0b2b40b9d0bfda91?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. RAGに古い情報で答えさせないためには？"コンバージド"データベースから考えるAI時代のデータ基盤
+     https://qiita.com/yushibats/items/9dd91baaa89c919d0992?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 技術力より先に、信頼を積む人がやっている地味な行動
+     https://qiita.com/sumomoo/items/4e57aa62c090cf9d9979?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 新人エンジニア、AIがないと役に立たないハリボテ人間にならないか不安
+     https://qiita.com/prumnn/items/b3302efec6a8d8b50197?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. コンピューターが動く裏側、５大装置を人に例えたら覚えやすかった【ITパスポート】
+     https://qiita.com/prumnn/items/37068142536443812690?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. VisualStudio無しで.NET Framework→.NET 10移行を試したら、ツールそのものが世代交代していた話
+     https://qiita.com/inuta-one/items/9a8e6af3d545150c5a08?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 読書だけでは分からなかった、PMOを経験して腹落ちした3つの学び
+     https://qiita.com/hgoto-gxp/items/8479e60c6fad019fdecb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【PHP8.6】PHP8.6の新機能全部紹介するよ
+     https://qiita.com/rana_kualu/items/a50907007c868b807750?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 「後回しにしたら詰んでいた」を防ぐ。待ち時間で決めるタスクの優先順位
+     https://qiita.com/sumomoo/items/b4a550002ebf1e5b8af8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 未経験エンジニア 初めてのDBサーバー構築経験
+     https://qiita.com/engineer_hiyok/items/8e0d72df9734017f3719?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. S Korea-US team unveils robotic technology that dresses the wearer - The Japan Times Alpha Online
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE5IR01VQnlBX2Y5SlBZazFUb0hMTzB4NHhSZFZla3Z0SlZSSUxFRUotQjl0T0F4WFZHS2dlS3BtVnNPek5fNHlNdEVKSXdxU1pNMGRXYnkzTTVJQi1ldjF2RG51TkcyOG15WHYtN1BJV0dJUTJsd1E?oc=5
+  2. GMOメディア、「LINEヤフー Partner Program」において 「Technology Partner」の「LINEミニアプリ部門」に認定 - GMOインターネットグループ株式会社
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE1fUUJMNEtMMEt6dVd3bGJjdnItSFlhb0pBbHdZMkZSNnM0ay00UDZQaWNuU3FpUllNOGZsZnZWWl9TQWRzZWVhQWhFek5IZw?oc=5
+  3. ＧＭＯメディア[6180]：GMOメディア、「LINEヤフー Partner Program」において「Technology Partner」の「LINEミニアプリ部門」に認定 2026年8月12日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1ybG5Wcm5yLWJ3aTNlNXU5RlpLaDdPc3dvaXd5YTBWbGhfVTdITFBRa1YtazB3N2NTeTUwRHhVM0VkZWxvWUlkakdRY2hTakVBLVg5VkRlUUVnNUlRRC1MbEMxRVp6ZFpIS1E?oc=5
+  4. エリック・シュミット：データからエージェントへ、AI は科学を再び変える - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOWHdxWjd4R0s4cGdIRHZFNmNJMFpaR2lHR2lhaEs5MXVQUm55dklxdGk2SXdZNDFJUmNyUDBGOFpPVzN6ODJrZThPZ1psMHNnODRBOTdkNl9uUUNHcU01VU5BWkgzTlExZ2hveW5keFo3TTdjRTZZX0xlakFPSmdleTRrb3FGS0VyU3NHc0t3OA?oc=5
+  5. ギックス、LINEヤフーの「カスタマーグロースコンソーシアム」にTechnology Partnerとして参画 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE8yajlBcDVTc3hpbzRURm5vSkJ2Z3BQUndTQ3E2UkNJaWNxbHB2V3RVRG0xRGw3VmZicEx1VUVhaVgwSWk4dHJ5UGdlSm1Qb2JBQjZVTXJnMml5Qlo4RGkxbC1SUGU4MWM3X1E?oc=5
+  6. MiTAC Computing Technology USA Corporation、米国のインフラ拡充に向け、拡張したニューアーク拠点の正式開所を発表 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lZGMycWlPU05ZZzE4SERCTTZ4Q3BDRkQ2aHh2MXVfcVFUOVQyZHdXSDRSZHpiVk5GVEpIRlNId1BvOXJQWVVyNjh1MGdaNVhTYi1DVDc0d0p1YnM?oc=5
+  7. テクノロジーの街が、文化首都に転身した理由。オウル市が描くウェルビーイング経済の都市戦略【フィンランド現地から#1】 - IDEAS FOR GOOD
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE5GWk1GRkRDaXhXbTBmNFl5eWxreV9vSW15TlNCQ1BOekwzWXZYaFJCSjBYMXdpcjBpdDhSZzAtWk44V1NPWGVqa040V3UxS3B4OEZqNU5fUkIzcXlkS1d1NDU0WHVkaEVVbEFnYmw0UFo?oc=5
+  8. Brook Gaming、次世代フラッグシップキーボード・ マウスコンバーター「Sniper 2」を全世界で販売開始 - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvcG0tMnplZ1EzeHJRbUExczV2ZHVJdk9QYkxOOG00bEVKc283cmxQenlrSXZuejB1RTdtUWM5WExaODNFYzdyYjR2VzZUQQ?oc=5
+  9. B&R Technology Merger Corp【BRTMU】：掲示板 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HUG9HSUczNUFKLTI3UE1tRWFmOHQxUF9HQzZyRF84ZHYyUzNXa3NQeG9oeVdkQjlENk43cGt2OFNuak9YUlF4Y242U2tWNmhzeXhvcy1tMUk?oc=5
+  10. 河北新報社 ビズラボ 河北経済研究所 - 河北新報オンライン
+     https://news.google.com/rss/articles/CBMibkFVX3lxTFBwR2NpY2gxX1h5WENlc1ZLV0dRZ1JqSHhqVk11Ykc0anNsN3FVUEkwekZFcDFBMVRlcDQ1NzMzUjNZY3dsN1dfcnlYd0pVUkZwb2R2TGktMVZUcE03U2Y2bm4zeUpoWTdGTUR1YnlR?oc=5
+
+【Google News (Business)】
+  1. 建設業の倒産、12年ぶりに2000件超え 稼ぐ企業・稼げない企業の差とは？：東京商工リサーチが調査 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9tSm1nUTdEMEtDd2dGUVExT1dfUWtiZy1BVHNxd256SzhlcVItN3JjZlFLbVZsOTBtaGFqUHllV2ZUSXBLRldhLWlGc0RqWU1yS0pfTGFxSmx5cGRnbGE5QTd2ek5uVHhWb292Q09fWEJwdw?oc=5
+  2. スタンフォード中退から年商66億円企業を創業…AI製品を14日で生み出したバイブコーディング実践法（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVDBnY1NjeGhuSjlBSG5ydksydUNSb1JKS2Q4RS05SUpXNVV3THluUTZwTnVESTh5UmJCTHBfWm5VSjUxbDZBTXQ5a0hubjNNdV85ck9EZjVNZHJfbTJIU1pVV1pfNk9lX3ZuLUhtY0FheFJVQVBiZE1MM3Z3Y0w1NGE0MDYwblln?oc=5
+  3. なぜ利益が出やすい医療白衣ではなく飲食店ユニフォームを選んだのか？福井の中小企業が実践したランチェスター戦略 - jbpress.ismedia.jp
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwUTlRTWliNU9IWEZLZGVCN0lXcG1zVGx0a1JPSkFhREdqZUZobjFVY3FZY3ZESUpWUGdLZjI0TTlGTEFIV0d0X1AyXzVaOXItR0FEczBn?oc=5
+  4. マッキンゼーの新シニアパートナー4人が明かすキャリア戦略とAIの衝撃 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxQR29PeWx4ODBLM3VRWFprZGJHVjJiNkd2ZTJSakNMTUhqLWVwRWx0bUtTS1E4NmthSl9CdUJ3bGFfZ3RfSjY3Y3Bqa0F0OVREYnBKdE5jNVcwaHF3ZjNTT2NhR3JoOXgzdnNZeV9zaHlOdmI3MnBxZzcwNkZYWUM3RzhNLWFPVFNFUlpKUTdGdGJIWWdSaWtSOEYtTmd1blRCeU5HVg?oc=5
+  5. インド・関西ビジネスフォーラム（IKBF）設立記念シンポジウムを大阪で開催(インド、日本) | ビジネス短信 - jetro.go.jp
+     https://news.google.com/rss/articles/CBMibkFVX3lxTE5mWW9PbDVaR2lIUEdrR0Fqc19ScVEtd1NXamRqa2c0Z0Fqc2M1ajRJdDVMbFFLYWU3VkxzMVc5QlE1T0hkcDJzTllkQlRZcHNwQTVDVUZLSkktVC1Td0xPQmZiMUczek1iNEJTMC1R?oc=5
+  6. 【出展者募集中】県内最大級の総合展示会「ビジネスチャレンジメッセTOKUSHIMA2026」11月12日(木)よりアスティとくしまにて開催。AWAODORI TECH・国際知財シンポジウムも同時開催 - 山陽新聞
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzdnFEQTdPempfQnRaTVBEUC0zbmRzV240ak1WR1BBUG9JMXVKWmR2VmRGN0NhQ3c0dERja0RHUmZkT1dBcHVYQVdvZFJmNG9zN3c?oc=5
+  7. 年収が高い小売り企業ランキング2025【トップ5】ファストリが2位に転落、注目の1位は？ - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE45bWwtRGdGc3dKWFFuY1B6UjhhcV9ILXJiTGhaWmdpSXEzWEFLUllITkJweEtPRTlkRjdKS2FZREJiTFA5ZkV1YWhwRGo1cTZuVmRkVWxCWUdwMXZMX1VGSS1sMjV0dWkxMXpJQklzR3oyam9kbVRlZUZJRdIBgAFBVV95cUxPYnctTklIcU12X21jSUF0bGlTQUpQbzdZYmhTUmhGMDNRcVBZcFBLRVhwWWkyMnRSdXRVekpKU2RNTmZQUjVJY3dhcWdGeTBkTC10cjYzRjU5cnNSNEFaQ001TTBsSFh1cHVka2RoNUFZYXlMd2o2QWZQdFp6dUkwNw?oc=5
+  8. 台湾｢新型新幹線｣で見えた日台ビジネスのリアル 製造費めぐり交渉難航｢破談の危機｣乗り越え完成 - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZQTIyclI4cXhrVVNMeEo3Uk05aHBzMGJybUE0LWkwVUFpSzFKZmI0ckZiN01JbWEzZm9kTVpMdlB0dnhWRjk5VDAzeXh4ZkFZYnV1V1MwM0lKc2s?oc=5
+  9. 「生成AIｘフィジカルAI」がテーマ、ロボットビジネス支援機構の総会シンポジウムが9/14に東京大学で開催 - ロボスタ
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCVjROc1BqMmlHc01SX1g1RnNaa1BmOXVBTFlTN1NaYkIwb0U4S1Jrc3FrSkdvUE9LMFhZTlUtMFUyMjNYS3h0dVZPX2pncG9hd2hzNlZWMzhoX0kwWGpuTE4tdUs?oc=5
+  10. まるで「人間冷蔵庫」？ 150万円の”人が入る冷房”が4カ月で300台売れた：「次の駅まで」に読めるハナシ（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBNOWllRUN0MG41WEw5YWtWXzlwd3VVNHN2b08yN3Y5aTd4MlZ6dGozQjk1NDI0bWFHUFI3d1pua1V3RDZZa2NqZXFEYWZ5M0VhU2pmU2dKZGY4V1FRVGotTnBuXzV4cG5YenFOMnh4a1d3UQ?oc=5
+
+【Reddit / technology】
+  1. Google apologizes for not refunding man’s LoTR movies after they vanished from library
+     https://www.reddit.com/r/technology/comments/1vmfyxz/google_apologizes_for_not_refunding_mans_lotr/
+  2. Bumble scraps signature rule and now allows men to make first move on dating app
+     https://www.reddit.com/r/technology/comments/1vmpowg/bumble_scraps_signature_rule_and_now_allows_men/
+  3. The Government is Monitoring Anti-Flock TikTok and Instagram Accounts / Documents from law enforcement spy centers show the government is warning cops of "extensive and ongoing chatter on social media" about methods to "physically destroy Flock LPR cameras."
+     https://www.reddit.com/r/technology/comments/1vmee8e/the_government_is_monitoring_antiflock_tiktok_and/
+  4. Researchers Show How Meta's 'Pervert Glasses' Are Used to Harass Women
+     https://www.reddit.com/r/technology/comments/1vmf8wl/researchers_show_how_metas_pervert_glasses_are/
+  5. The "Godmother of AI" says the biggest AI risk in schools isn't cheating – it's students losing the desire to learn
+     https://www.reddit.com/r/technology/comments/1vmlmzr/the_godmother_of_ai_says_the_biggest_ai_risk_in/
+  6. McDonald’s Built a 515-Page Dossier on Me. It Says I’ll Never Stop Eating There
+     https://www.reddit.com/r/technology/comments/1vme936/mcdonalds_built_a_515page_dossier_on_me_it_says/
+  7. EV Myth Busted: No, They're Not 'Dirtier' Than Gas Cars, Even If You Use Fossil Fuel Power
+     https://www.reddit.com/r/technology/comments/1vme791/ev_myth_busted_no_theyre_not_dirtier_than_gas/
+  8. Facebook is paying far-right agitators to produce rage-bait content
+     https://www.reddit.com/r/technology/comments/1vm3tr2/facebook_is_paying_farright_agitators_to_produce/
+  9. Google Search falsely declared Sam Altman dead, but Google says nobody did it manually
+     https://www.reddit.com/r/technology/comments/1vmji5b/google_search_falsely_declared_sam_altman_dead/
+  10. Google is quietly testing out new ways to crush the human spirit
+     https://www.reddit.com/r/technology/comments/1vmjgdp/google_is_quietly_testing_out_new_ways_to_crush/
+
+【Reddit / business】
+  （取得できませんでした）
