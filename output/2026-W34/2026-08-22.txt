@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-22
+============================================================
+
+【Hacker News】
+  1. Scrap
+     https://twitter.com/moxie/status/2091218652133732491
+  2. Why your local LLM feels dumber than it is
+     https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917
+  3. NetBSD and my life (2005)
+     https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html
+  4. ElevenLabs, TwelveLabs, ThirteenLabs
+     https://quantumi.sh/public/labs.html
+  5. Hister – A private, full content search index that you control
+     https://hister.org/
+  6. RF Cafe
+     https://www.rfcafe.com/
+  7. hdiutil is deprecated in macOS 27 Golden Gate
+     https://lapcatsoftware.com/articles/2026/8/7.html
+  8. typ.ing
+     https://typ.ing/
+  9. How a Texas student blew the whistle on a rogue AI hacking attempt
+     https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/
+  10. A Friendly Introduction to Racket
+     https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/
+
+【Zenn】
+  1. RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる
+     https://zenn.dev/holy_fox/articles/53b82eed45f956
+  2. React 19.3 browser() APIの使いみち～FUNSTACK Routerの場合～
+     https://zenn.dev/uhyo/articles/react-use-browser-usage
+  3. 或るログ研究者
+     https://zenn.dev/dmikurube/articles/a-logresearch-er
+  4. Microsoft Entra ID アプリケーション開発入門
+     https://zenn.dev/karamem0/books/505df6779ec89a
+  5. claude のメモリを棚卸しする
+     https://zenn.dev/cureapp/articles/c1e963064d05fd
+  6. 発信力の増幅機としてのLLM
+     https://zenn.dev/watany/articles/8809b00df25dab
+  7. 最近のIntel CPUは複数の連続する即値加減算命令をフュージョンする
+     https://zenn.dev/herumi/articles/add-imm-fusion
+  8. TypeScript が JavaScript になるまで
+     https://zenn.dev/onclimb/articles/ts-to-js-pipeline-onclimb
+  9. AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計
+     https://zenn.dev/mkj/articles/aad5698672aef3
+  10. encoding/json/v2 に至る14年
+     https://zenn.dev/ymotongpoo/books/go-json-v2-history
+
+【Qiita】
+  1. 真似で伸びる人は、コードではなく判断基準を写し取っている
+     https://qiita.com/sumomoo/items/eed2707e22d8ba940871?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. SQL初心者向け~参画までに覚えたいSQL構文10選~
+     https://qiita.com/nt_matsuda56/items/156d782818f30a3b563e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 最近話題の「AI時代の開発者5つのアーキタイプ」について考える
+     https://qiita.com/Toyo_m/items/ee1f9493d61f1c8c4743?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. １年目に工数見積もりで失敗したときの話
+     https://qiita.com/skadowaki-gxp/items/c895155c8f63b3f574ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Claude Code の出力を35%短くしたら、情報がむしろ増えた
+     https://qiita.com/jqit_suwa/items/ccd228bb1c33b2a918f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. LambdaでAmazon Bedrockに任意のトークン上限を設定してみた【80%で通知・上限到達でリクエスト拒否】
+     https://qiita.com/chaochire/items/80000bf7cf8bbe5b36ee?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 『人手不足だから外国人』の前に考えたいこと ― 雇用・失業・言語教育・2世3世の設計 : システム設計視点の行動経済学 (20)
+     https://qiita.com/maskot1977/items/33a704b63a84124fec4c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. AIコーディングの精度を劇的に向上させる Context7 MCP Server 完全ガイド
+     https://qiita.com/tomada/items/42537e0b14b38797d218?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. AIレビューがすり抜ける「なんか妥当じゃない」を、数えられる条件に翻訳した話
+     https://qiita.com/ntaka329/items/ed0be05099ae142d9e70?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 備忘録：Next.jsのServer ActionsをRSC・React 19から理解する。SSR・Hydration・再描画との関係を1本の流れに整理する
+     https://qiita.com/nogataka/items/8e416beb71e43af91bdb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  2. Ｓｋｙ株式会社が「FIT大阪2026 Financial Information Technology in OSAKA 金融国際情報技術展」に出展 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CdzcyeVZTUjJRT3VyTEtBWHhlMEcwZzl1ZjZPenhpSEgwazJFcG9KdjI4TE82d1k1ZXRPa1A4b0djRjhncDM1cDhkWHRkdXNGSnN5N2NJZ25HVjA?oc=5
+  3. Marvell Technology Shares up 9% Premarket After Co Enters Deal With Google for Custom Chips - Moomoo
+     https://news.google.com/rss/articles/CBMipgFBVV95cUxNN1JaT005SFFKbWFPektidklHWFpBRUppd25HWEcyWE5DS0xLUUY5MnhsSkZMbzBpN1hPTWZvLTVqdHZhWXRqNFZLa0pWZG9JSGx1d2F3UmpIUlpFN0R5ekdMWTZiX1RsYi1YRm50encxWUxsaVlqYlN6YXp0NWx0RDh4SG94ZmVSY3FXb3lSZkxncjVkU2cwNGRRN1FOb2NkUnFjUlln?oc=5
+  4. 水素産業国際展示会出展企業|8月 - metro.tokyo.lg.jp
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE8weHZLZVE2anRpbHc0U3lDd1k2NHVtNXlJOS1jTC1uaTdrOHNWcE4yWnNkSGhZbmNzMHN4dUg0VUJPSUc1QkpFTUluYnBQVlpnMjNiWGh0MmNtcnVwb3VaaXhkZUc4dnlWNk5nV3l5OGxDYUN6?oc=5
+  5. 【Hatch Technology NAGOYA】名古屋市と連携しRoblox上に構築した防災教育メタバース「シェルタークエスト」の実証実験を完了 - 株式会社ビーライズ
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BZlNfd283Q2t0bG9weWFyWHUxYlVSUlJCVDNTZVptUFRtOGZFQjRlYWZCRDFuOTBNbFZBSnVCU1hHRF9rTlRPSVkzWlJMVVF0UGxNSjVFY3pOeU1pQUdV?oc=5
+  6. 「ZAMで再び日本にメモリ技術基盤を」 SAIMEMORYの構想とは：29年度中の実用化目指す（1/4 ページ） - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE82QjVaWTBOdTlEZFRzMFpiaDFITVBVRkhsYUlSRlN4dG1xVXVGZDk4a2ZxU2ozVHcwS3pWS3pacU1Ra2dFRG9TYWFFT2pmSjFBU0NjcWs0MXN3M2FIYlpkcFpBbExZcjlJTnA5MDhIMA?oc=5
+  7. Fujitsu Technology and Service Vision 2026 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mekEtRUZfU2d3NHBoWXpIbXNnM3RaLVpEZUE5WDA4dHB0bGk2S01MRUR1UGVXLXFLMDBGcXFKbWdIckx5aDBnNXRZMXVhdEIxUkNJ?oc=5
+  8. ブラックスカイ・テクノロジー【BKSY】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zSkdObWdyemtMMkNFLVF4MXdhbGJEZWFHWkJkMFpCNjZoTkozTUwwZFNMRkhlcmlpQVM3eVI2Tmp1OUdRbWpvdzhYNl9QWms?oc=5
+  9. 8月20日のMicron Technology Inc (MU) 終値は3.97%上昇：主な推進要因が明らかにされました - TradingKey
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1VLOFVIQjFFWUlsQjJXdnc5eE1fd2RGcTZjZzVuazlkdVpzMVBfT0I5cjdvV2FqZkdTdE1wU2l4Qk92U1dMRk51Q0VDRlZfVEU3TUFrOUthZzVlN2prdnFjTW9uZkFzSXA4c3NJWjVYWTlJRmlyNGtGODNZaXVpcXU2cERUQzB4LWRoUA?oc=5
+  10. TECHNOLOGY. JMH International Consortium of Journalists. August 21 - Organización Mundial Bullying Sin Fronteras
+     https://news.google.com/rss/articles/CBMimgFBVV95cUxNaFJkOEhrWE1henctRFBoVUpxNVEwYzE2blpRN3dWYlc5emhuRzBYNFpOVXNkUUdObmMtby1hMDBDTDIxeEo5ZXlPVm1oZ1hocXQzRzVxMDZhdFN5N0ZLeEZCc3A0RmtYcE9MRHFUOGFrQW9rZmY3aUFXbElBSGp0OGNocFJSbVpVRnFJLURSdTBJaVlzRlJ2QmlR?oc=5
+
+【Google News (Business)】
+  1. 中国で日本企業の業績が急改善、AI革命が生んだ「日本の技術」への旺盛な需要 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtcHRoaHVvSm02Rm8zblhWSDFQZWs0emFrNlJ6S3BYajFEdkxBZEdFaGlvNHRYc0g1aU15dDdfeVJYT0g1bE00ZFVxaTFYb0FFSVZ6a0hn?oc=5
+  2. 滋賀を代表する2名の創業者が登壇「数字で考え、ビジネスモデルで動く経営」特別対談 × 実践ワーク型・事業計画策定セミナーを開催 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9PVXpXQzlPeHN1WDFobkJheFdVcFVGM3RsdmFIbzVSVk42a2pTcmVGNHRJeWxBN1h0ckxkWFdseTN5N2I2UEJlQUJPS2tSRFdmSmJxMjlESERDQ0RTVC1ycklESWRMQUgya3c?oc=5
+  3. 年商100万ドルを稼ぐ「一人企業」の台頭 - 毎日新聞
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE80YS1iSEdMS2JBMzQ0cUtIM2tQeUtRUFAwNURTZnRTWkJ5N2tUbTRMNk5JcmdKRjcyVWg1M3E3clhyLVpmdFhyNXJyOWhCZkFhQVRNdW1Da1hDUUlsM0FYM2MtcFY3Mk1JY2h6YllfMFlYYnBCbS16WXVmbEhWeW8?oc=5
+  4. スペースXが貫いたのは「ビジネスパーソンなら当たり前」のこと - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFNkM5a2pUckhxTG9XelhtaUNtc3VXSXV2eEhvYklMZnRlTEdaUjJfUnhwWGZJQ21YUENLS2dBRmd5NmRQbW5VMXZzRlpValZZNjJHYTRBcy1OT1E2dDU4WXpaNHR0aEU?oc=5
+  5. 【9/25開催】東京商工会議所セミナー「中小企業・小規模事業者向け補助金解説セミナー」 - sogyotecho.jp
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE14bzZMdUJPenlCd1UzWmoyQnpWb3NuSjQ3Zm9UWGFxMENrQnFqakg5cjZqc2YtUWdiY3Q1R0xXVlpLRzI4NjVoTmFIX25HOWpqWVNfYkZ3?oc=5
+  6. 東証業種別ランキング：海運業が上昇率トップ - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxPclJ3VFRReENBQlZvWHVmd0RJSkxmUjRBdlpMR2prTzdaUlpacGlqemVTYV9pLS1wczFhZWdiUmJSV25UaDZvMWhTMS16YlBkeU9jem9JSmQzMmpLbGZoaFRqcWU0NE5VU0VjYWkxRG9VS2JzNDAwNy1YTkFtVEpMRWJad0VfUWPSAYwBQVVfeXFMUGhPMVZnTHRLcFV5SV9TMmdjclZDbWQ5LWRiNV9oNGQ1UVVMYUVFaWpDQ19rOXdLVmJhSGQ5cUxSMjV2SWtOdVdnNnlLX3B1VjFWemR3bWROUDl2M3ZCQnByVi1SYW5CWWVkSWFmeFg3aE93eEQ2eElGd0JZb1B3YTh4Q2NheXlzWTg5cmg?oc=5
+  7. 博報堂、培ったクリエイティビティを「コンテンツ」へと拡張。 コンテンツビジネスを推進する社内横断チーム「博報堂キッチン」を発足 - hakuhodo.co.jp
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ybFlpdXUxZjdPWExyQUd1clp1LVRqN3JuZ19RejVRT19WMUZOYl93SXdBYWsyenpZOVhJY0J0eUtQN2RkMmxSWmpjN1FlRzZqU1I3RnQ1M1BrME1tUkFGQg?oc=5
+  8. パーソル、同性婚の法制化を目指す企業キャンペーン「Business for Marriage Equality」に賛同 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE5MYXlRckNJVkNmUXpRSDQwU2RjNU44M0JNbUg5dTNReTBLb1EtUGt4U2o3b1NUMENPMVpZTExxX0p2cUhUcUp0YnhSX1RoTmdxMFZ4bm5xa2NkYTZxempfejZpNnE0Q29idDk4?oc=5
+  9. 阪大ドンゼ教授×ショパール共同社長 「ファミリービジネスの強さは『時間』にある」（日経ビジネス） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFByaV9sVDRHYjdOUHRaYVNVMHFMaXVzQkh0cjlsM2twT25Ucl9aRWlmUTlIWXpLMk9mNTVtc3k5TlR4VnNpMy13SEFjWUNfNlRqR1gwNUhIOUxEeTl0dTQ3TWtuVHBWOFlpQVVnSXVVVGhHTU12Ukx5dnlzWm05b3M?oc=5
+  10. メタ、マイクロソフト最大級のAI顧客に－需要はテック企業に集中 - Bloomberg.com
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE80NGpKMnd0cDQ5MVp3blRQQ25abnlSU3o5TE1zVS13andic1NncDJ4ZXZDbzJsZTRPMG41RnpKTERqVjk0bG11NkY4RWk4d3hYbG5sVlJhRl9xMkFWa21lSDdLZG9va0tFemg5QnAtUmxJN3pQQy1r?oc=5
+
+【Reddit / technology】
+  1. GTA 6 Leaker Threatens To Give Build to 'Millions of Gamers Around the Globe'
+     https://www.reddit.com/r/technology/comments/1vvizci/gta_6_leaker_threatens_to_give_build_to_millions/
+  2. Uber hit with a nearly $1 billion fine for automatically deactivating drivers in Europe
+     https://www.reddit.com/r/technology/comments/1vvj9kt/uber_hit_with_a_nearly_1_billion_fine_for/
+  3. Lawsuit demands Logitech hand tariff refunds over to customers | Logitech increased prices by up to 25 percent last year.
+     https://www.reddit.com/r/technology/comments/1vv6yhu/lawsuit_demands_logitech_hand_tariff_refunds_over/
+  4. The FTC is cracking down on companies that charge you a "personalized price"
+     https://www.reddit.com/r/technology/comments/1vvazzh/the_ftc_is_cracking_down_on_companies_that_charge/
+  5. Smart Glasses Being Used By Teen Boys To Harass Girls. Videos show students using Meta’s Ray-Bans to record classmates and staff, fueling new concerns over privacy, bullying and consent.
+     https://www.reddit.com/r/technology/comments/1vvl89b/smart_glasses_being_used_by_teen_boys_to_harass/
+  6. US Republicans urge top AI firms to do something about the toxic image of data centers — “This has become a sleeper issue for the entire election cycle”
+     https://www.reddit.com/r/technology/comments/1vveyxp/us_republicans_urge_top_ai_firms_to_do_something/
+  7. Bilibili wants to be YouTube's rival everywhere, not just in China
+     https://www.reddit.com/r/technology/comments/1vvkpc8/bilibili_wants_to_be_youtubes_rival_everywhere/
+  8. Bethesda workers: Microsoft turned a no-layoff culture into yearly tradition of cuts post-acquisition
+     https://www.reddit.com/r/technology/comments/1vvbb4z/bethesda_workers_microsoft_turned_a_nolayoff/
+  9. City leaders face death threats across the country as tensions grow over data centers
+     https://www.reddit.com/r/technology/comments/1vvc6nc/city_leaders_face_death_threats_across_the/
+  10. Reddit fades from ChatGPT citations
+     https://www.reddit.com/r/technology/comments/1vv7itl/reddit_fades_from_chatgpt_citations/
+
+【Reddit / business】
+  （取得できませんでした）
