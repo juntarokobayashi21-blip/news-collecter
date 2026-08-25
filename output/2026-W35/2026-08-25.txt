@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-08-25
+============================================================
+
+【Hacker News】
+  1. Python's pre-declared constants are kinda weird
+     https://sebsite.pw/w/20260801-pythonconstants.html
+  2. FDA authorizes first wearable device that monitors ketone and blood sugar levels
+     https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar
+  3. Apple introduces M6 and M5 Ultra
+     https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/
+  4. OpenAI Jalapeño: Better than Nvidia Blackwell
+     https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia
+  5. New Mac Studio with M5 Max and M5 Ultra
+     https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/
+  6. Black hole singularity is a surface not a point
+     https://arxiv.org/abs/2608.21590
+  7. Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM
+     https://github.com/swimmingbrain/texbrain
+  8. When str.lower() is a security vulnerability in Python – Seth Larson
+     https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability
+  9. C2PA Cameras Do Not Survive Contact with Reality
+     https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html
+  10. Show HN: I made a Raspberry with Qwen my local car AI
+     https://github.com/ThinkOffApp/CarWatch
+
+【Zenn】
+  1. マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた
+     https://zenn.dev/layerx/articles/e01465a15e79c2
+  2. 状態空間モデルにおけるFilteringとSmoothingの違いを理解する
+     https://zenn.dev/ca_kagglers/articles/ssm-filtering-smoothing
+  3. オンコール手当の相場を50社分調べて、1社も見つからなかった話
+     https://zenn.dev/cscloud_blog/articles/e0ea529d061906
+  4. TanStack Start + Hono + oRPC + Cloudflare Workersで社内ERPを作った設計と学び
+     https://zenn.dev/yosashusaku/articles/enterprise-erp-tanstack-hono-orpc
+  5. Bitgetの異常価格で1800万損したが、fableと共闘して取り戻せた話
+     https://zenn.dev/kobao/articles/0638f3976c6ef8
+  6. ターミナルを閉じてもClaude Codeが動き続ける理由、supervisorデーモンとAgent viewについて
+     https://zenn.dev/uehaj/articles/claude-code-supervisor-agent-view
+  7. エージェントのためのUIコンポーネントライブラリを作った
+     https://zenn.dev/demia/articles/6c1291f0dae964
+  8. 最近育てているフロントエンド開発用テンプレートの話
+     https://zenn.dev/newt_st21/articles/next-template-2026
+  9. GASからGoogle Cloudへ移行してみよう：Slackデータの定期取得を例に学ぶ
+     https://zenn.dev/a03/articles/4714ea330d6791
+  10. semantic-routerとQdrantで、LLMを呼ばずに問い合わせを振り分けてみた
+     https://zenn.dev/shogo_h/articles/qdrant-semantic-router
+
+【Qiita】
+  1. 【ローカルLLM】国産LLM「LLM-jp-4-33B」と「Qwen3.8-27B」の推論性能比較（RTX 5070 Ti + RTX 3070 Ti）
+     https://qiita.com/h-nabata/items/b80484406e839ee6507b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 元ヤフーエンジニア社長が考える、AI時代のエンジニアに必要な3つのスキル
+     https://qiita.com/ryoheiiwamoto/items/5f21adcca8aff1b0357a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 文系上司が知りたいのは「仕組み」ではなく、「どう影響するか」のことが多い
+     https://qiita.com/sumomoo/items/4912f4efa2e2a5cd49d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 新人エンジニア、先輩ごとに言う内容が違って「何が正解かわからない」
+     https://qiita.com/prumnn/items/001b49e080f580aea96b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. プロも毎日ググっている。エラーで固まらないための「検索力」の話
+     https://qiita.com/m__ikeda/items/5da484e533d0d574045d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. /model を1度でも押すと ANTHROPIC_DEFAULT_MODEL は効きません
+     https://qiita.com/jqit_suwa/items/7ecdfc6067e09aed00a1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AIにテストを書かせると、決まって同じ場所が抜ける
+     https://qiita.com/jqit_suwa/items/a0fa9752528e2b3def71?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. ※この記事は人の手で書かれています
+     https://qiita.com/kyuko/items/3380b85d0b52ea01f449?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. Oracle AI Database Private Agent Factory 26.4 を 26.7 へ Upgrade してみてみた
+     https://qiita.com/shirok/items/de8732a3d1ebc441af10?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. BrunoでAPIテストを自動化してみよう― Postmanのコレクションをそのままgit管理し、Cursor(AIエージェント)のターミナルでCIまで回す
+     https://qiita.com/sewiihidekikudo/items/1c835d5d1f0a8b3dbf65?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. パナソニック ホールディングス 研究開発拠点 Technology CUBE - 竹中のデザイン - 竹中工務店
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9faTh1b1Fhb3RGYW1aUGlPdFY3d29ZUkVsM2VqZi0walpnQzY5UTRyM0dJai12UkN4N043UWhlZTk5OUpDVkdONFBRU2lSY3l6TE50bHN1RlpPSWIySF9JVnF6UkZkQ3M?oc=5
+  3. 5万基の鏡で日照を延ばす、 新興企業の野心的な計画に 天文学者たちが反発 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdFRLcWF4VmV2SVFuSWZaUmdlWFV4QkU2RUZtOU5wamQ4cFRYNzVtUk5aR3U0Uy05X0pPUXhCU2hHVDlHNEUzUkgwOEFUSjkyMWZlbVdZV0VIbnlQbFRqWlhtSnlNNGNOa2VuZ0RHTUtLNEdNVDZSOFk2eklmQVl0S1JIY1YzNk5pTFVzbGVRWTNxSHpXdnlaUVFTNURheE1MWWdnMmgtcHVyeDJ4clE5R1hYUVZZOGJKVXlmbE1VamFpX2M?oc=5
+  4. 8月25日のSeagate Technology Holdings PLC (STX) 値動きは3.37%上昇：投資家が知っておくべき情報 - TradingKey
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxPeGJINVVMbzFzMWVFMnJHNmZVcDNnODlKcy03ZHE1LS1TUnZWazZXT0dqalpaY3E1RXhVcmwwNVpibTM1eThvS0lEMmJmemV6emNadG53Y1ltY3hvQjdMUnlYeTFMeU5iY3VLaTRpTEJqS2JIQ05xb0pwbVJONHNZWVQtcXlSQlN0cWdkSWtB?oc=5
+  5. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  6. エンタテインメントと技術が出会う場所 ー Sony Entertainment Technology Showcase（SETS）の歩み | ソニーグループポータル - Sony
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxa3pqVGlXT0tWdXhpdzZ4dUJrOUxxWmtQRk9VTkZjd1h1blBvc29Fd0JWdi1DY3NTSzdDNjBmOVQ5QnJCZW9TSThXSlRpYjNaSkVDeVZ2eDRVaGlkZEE?oc=5
+  7. Fujitsu Technology and Service Vision 2026 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mekEtRUZfU2d3NHBoWXpIbXNnM3RaLVpEZUE5WDA4dHB0bGk2S01MRUR1UGVXLXFLMDBGcXFKbWdIckx5aDBnNXRZMXVhdEIxUkNJ?oc=5
+  8. 水素産業国際展示会「Hydrogen Technology World Expo 2026」東京都パビリオン共同出展企業を決定しました - my.metro.tokyo.lg.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qZDhOTkl5WjJ6cDVNa0RhTlJXRkwtYXZTMDhJSVdwbmloU1lOUnRLZ3BRRlZBMnVqaVlBQjl5NXdfbjNUNTl0ME9ibEVyMWlXYmVxeldnOFgzOXV4emE5ak1EUkNiYXI4?oc=5
+  9. 攻撃を「探す」防御へ ― 脅威ハンティング導入の実務 - ctc-g.co.jp
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE4wQ2ZCMVdGTTItZllqRU1Lb2gzemVpcDRDR0h6ZWNfLTVyLWJfN3hNSlh3dnItR3lPc3A2THhoa2VxUFJ1ME5WWldKYW1UYndBdVBaOXhpaU9MT2hNQVdobGd2ZklIR2Y3RHMzWUtkQ193SndCczJZT01B?oc=5
+  10. Dreame、楽天スーパーSALEで8月28日からセール開始 ロボット掃除機など対象商品を最大70％OFFで販売 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9OWVhIXzJVa185bFQxSHVxMFotR1JTN3NBLVd0cXlWRnk2cC1wdWkxQkdfMVpmelk1MnJxdzZyZWd4YXhhY2hzU2p0YkQ0VDU4UkFKQkZzVWtjOHVlai1DbkxhRWJ2cGtyRVE?oc=5
+
+【Google News (Business)】
+  1. 売上高93％増のPalantirが独走 AI競争の主戦場「制御層」を奪い合う3陣営 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1adGNrTmJiQUxyY29RVWUwMFB1cW1PbUpxbnRMVG1McEo4Ymludy1iVVNfSVVYa2l4ZG8wekVfV1BGN1pMeDRrWHd0aHdlaUtCQ0NrWTg1bkFWMVlkMzI4M2l0c1VucTloMWlVU2J5dVBDZw?oc=5
+  2. 事業が強いほどマーケティングは遅れる？ 日本企業「成長の逆説」 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMXBoWlBndXp0MHZIbUotS0hWYXRrWTY3ZHBBeWZza2x5OEI5VWNIWUpiUTRQQnl1TF9TVVNJN2R6aWVwb0g5YS1ITy1MR180WDF2Q0dn?oc=5
+  3. AIに任せるべきところがわかった…手作り石けんビジネスを成長させたClaude活用法（海外）（BUSINESS INSIDER JAPAN） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5QdTVQbndKVGZYbDlmdm02UVAzdFRSUGg0THFSR3ZmeFg4TktXekxmQnhyM0pZRXR1czhHaW9KbVpMMG42U2NDMjRvTGNsbUttbWtqWHhzdlQwTWpsZm02cHVJbXBBOGlhWTFBczhSamxtY3IzZHB2UjhYVU81Znc?oc=5
+  4. 「ほどよい残業」「会議でのアピール」がいまだに評価される日本企業の不合理 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zakxrQ3NsbHV4Ukt0aGRlaEJLclc5c1I3amF6dWduYjBUMXFqMEZ0N3h5ZFVfc2JjS2ttTVgwc0ZZQjk5V3RUTnFUNzF6VUhhbF9zYVp1UVZpUnRmVTdocGF3YkpzQW8?oc=5
+  5. アマゾンの事業者向け「Amazonビジネス」、年間総取引額が600億ドルに拡大、利用組織は1100万以上 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMirwFBVV95cUxNT3VUMVRob2w3YmVaQ1Q2MENmVlBJTTMwdzM1R3FBbnFQbjhWVmgtQWZmalpGZjQ4Y2FEWEYxSGJQbGRURjhyTWI1V1RxbGlaT2FEMnpfWEZpSFJKeXRkQW92NWJqT2hKOGgzTm1mSGZidC0yR3NuZVFCTkYxVzVSV1VWTE9wVGZhcmN4ZjU5T1NtcFJrVE1sb3o5LUVIcWYtSWhzNzJ5dDdrWGxPU0FZ0gG0AUFVX3lxTE5MV3FpdFVCQ3ZIY3U4MGplMzFPUVU3TVdZVUJkSVF0Z1ZfQmk2X2MzMHFQVjZUeTk1NnA0aXUza1lIcW8xd2RBVWdBZ3NYSHpNU1VTb2k1YVhNWjBzV1BPbzZ6OUhUY0FBZHZwRHZFdmN3Ul9VQkhKT2FpRWMtY2Fwdzg0eW51MDUtV1hmdGtRR0l4UEJlWm94emg4UXdJVk5yZ2FtMEFMNmpHWkEwZE9yUk01Xw?oc=5
+  6. Anthropicの最上位AIモデル「Claude Fable 5」は企業需要が伸びず苦戦、AI企業のビジネスモデルが覆される可能性も - GIGAZINE
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE40RHpKbzZoUGJKWF8tQkdDX3BTSjBVRmszUVFPV2pvZW9PLTFFTENRN1RtTEZNQW1CdGo3MVdQNlA1OVRxSEpqTFRXei1udFBZbW1SeHNySGNJTGhTMGpha21tT0V5NDN6LU9KcGFlT2NlLXBmUXZLbw?oc=5
+  7. [Delayed]Business Report for the Fiscal Year Ended March 31,2026 投稿日時： 2026/08/26 00:30[適時開示] - みんかぶ
+     https://news.google.com/rss/articles/CBMiRkFVX3lxTE9YLUJrTXNNZWFILXhuQ0Fxa3dXLWNEdG82MW1RWE1fbTNLMmJuMVFiekZ1NTlBWlNNUWw4OXJtWVNwd2tVeHc?oc=5
+  8. マルオリグループ、総合イベント企業を子会社化 「アップティー」とのシナジー追求 - 繊研新聞
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EUTlkMjh2eEpRbGZXRktWZlk1VVg3WG9VdUhzOVd1M1pJeWdQUVpncFpMeVpKbFRuRE9hbDI4dXNsdGNSTjBDTnRic1V1b0FmajhR?oc=5
+  9. ビジネスクラスの乗客はスライド式の扉を好んでいる…だが、それが航空会社や機体メーカーにとって厄介の種になっている - Business Insider Japan
+     https://news.google.com/rss/articles/CBMisgFBVV95cUxNdnk1Y1VKQkNpQXMtSmQ1NmdrTjliTDZ3SEdUbEJ4RHljekpJLWtzb3JDSVVfOGMyb2FXemM1YzdIVDRpYlgteFNta1ktZTZ0M0hoQ2J2emtBQUxieERaclhHVUJyc2pNMmxqazhnU2pfM1cwalBSNW1BcWRKaE5LbXg1WU1hRkFNczQzbnROU3BuTnNYVF9QbzB0WDYzbG9jRkF5bzBIaEl3dWQ0NFhMbzNn?oc=5
+  10. 「AIで人員削減」を後悔する企業が増加--真の価値を生み出す5つのポイントとは - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE56eE1hQkk5ZVVWLXVZY0FVMDdWNmJLckpSaUlmUFdFUjR0UDZPWWp3eFR1bDl4Z1h4YllOdTVTc0RncVJ2ZlpGSkpncWt6aC1PQ2lN?oc=5
+
+【Reddit / technology】
+  1. Charges Dropped Against Person Who Clapped at a City Data Center Meeting / Lux Claridge was dragged from a city meeting about data centers and charged with interfering with the police after they clapped during a presentation.
+     https://www.reddit.com/r/technology/comments/1vy4v79/charges_dropped_against_person_who_clapped_at_a/
+  2. Australia’s music industry bans AI songs from charts
+     https://www.reddit.com/r/technology/comments/1vxxb3n/australias_music_industry_bans_ai_songs_from/
+  3. U.S. Citizen Who Deleted Phone’s Data Says His Prosecution Puts Privacy at Risk
+     https://www.reddit.com/r/technology/comments/1vxykxp/us_citizen_who_deleted_phones_data_says_his/
+  4. Sony reminds players they don't actually own the PlayStation games they purchased
+     https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/
+  5. ICE Wants the Country’s Voter Data | Voting data is public by design, but ICE is looking for a federal contractor to help it handle voter registration and history files to find what it describes as fraud.
+     https://www.reddit.com/r/technology/comments/1vyb1wp/ice_wants_the_countrys_voter_data_voting_data_is/
+  6. Anthropic tells San Francisco staff to work from home due to possible security team strike
+     https://www.reddit.com/r/technology/comments/1vyalxj/anthropic_tells_san_francisco_staff_to_work_from/
+  7. Two Decades of Cheaper Memory Vanished in One Brutal Year
+     https://www.reddit.com/r/technology/comments/1vyazp6/two_decades_of_cheaper_memory_vanished_in_one/
+  8. Flock Cameras Are Spreading Across America. The Backlash Is Growing Just as Fast.
+     https://www.reddit.com/r/technology/comments/1vy58qc/flock_cameras_are_spreading_across_america_the/
+  9. Dozens of engineers laid off at Apple headquarters
+     https://www.reddit.com/r/technology/comments/1vydt8k/dozens_of_engineers_laid_off_at_apple_headquarters/
+  10. Apple releases new Polishing Cloth for $9
+     https://www.reddit.com/r/technology/comments/1vy4bux/apple_releases_new_polishing_cloth_for_9/
+
+【Reddit / business】
+  （取得できませんでした）
