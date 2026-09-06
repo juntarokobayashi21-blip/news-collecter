@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-06
+============================================================
+
+【Hacker News】
+  1. Cloud in a Bottle: making self-hosting accessible to everyone
+     https://cloudinabottle.org/blog/launch-post
+  2. Private German rocket makes history, reaches orbit from European soil
+     https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket
+  3. Learn Programming with OCaml
+     https://usr.lmf.cnrs.fr/lpo/
+  4. The revolt of the reader
+     https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/
+  5. Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)
+     https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/
+  6. The "$60 Gaming PC" – AMD BC-250 (2025)
+     https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/
+  7. How Swiss tables work in Go built-in map
+     https://victoriametrics.com/blog/go-swiss-table-map/index.html
+  8. Visualizing Rust's Vtables: How dyn Trait Works In Memory
+     https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/
+  9. Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor
+     https://github.com/iczelia/balrogg
+  10. Discovery of a new OpenAI agent message board
+     https://collusion.wiki/
+
+【Zenn】
+  1. [OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた
+     https://zenn.dev/ntk221/articles/34cbb95272720f
+  2. CとGoの生成コードを読む ― アセンブリから見る言語設計の違い
+     https://zenn.dev/saku0512/books/3735de8d0aa09f
+  3. AIでチーム感が薄れたSREチームで始めた、AIによる週次チーム評価
+     https://zenn.dev/hubble/articles/ee2f962e0a69f1
+  4. ループエンジニアリング（ralph loop）で業務システムのUIを一新してみた
+     https://zenn.dev/sompojapan_dx/articles/846c6038fee45d
+  5. TanStack Virtual を使ってみた話
+     https://zenn.dev/geekplus/articles/b5f1757e2869ef
+  6. WSL 用ターミナルは noctty が良いぞ — PR を 4 本マージしてもらって分かったこと
+     https://zenn.dev/nanasess/articles/noctty-wsl-terminal-contribution
+  7. お母さん！僕、日記をドメインに書くことにしたの
+     https://zenn.dev/pepabo/articles/fd7a61e75f3dcc
+  8. AIに「中学生でもわかるように1枚のHTMLで図解して」が、複雑なコードを読む前の最良の準備運動かも
+     https://zenn.dev/yesodco/articles/ed0eb2f6b7621a
+  9. ルールではなくskillに指示を書くことで、Claudeのコメントを減らせた
+     https://zenn.dev/uzu_tech/articles/58a84a9346b910
+  10. Chainguardに学ぶセキュアなコンテナイメージの作り方
+     https://zenn.dev/ymotongpoo/books/chainguard-image-toolchain
+
+【Qiita】
+  1. AIに設計を任せるときに気をつけたい。「正しく動く」と「増えても耐えられる」は別だった
+     https://qiita.com/adgjmptw0/items/365a4437aad4c939d1cc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【実験】ECSのサービス間を繋ぐ6つの繋ぎ方、実際どれくらい速さが違うのか
+     https://qiita.com/sh_fukatsu/items/524a76ad04930e774829?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【2026年版】無料から使えるパブリックAPI 16選！定番からおもしろAPIまで
+     https://qiita.com/hashiryu_/items/0fa7c0d9ed83aaa1c914?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Power AutomateとPower Appsを活用し、セキュリティ担当者の月次確認業務を50％削減！
+     https://qiita.com/AyakoYamada/items/bb7788d1db6df66446b4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 「ネットはフェイク、メディアは正しい？」から考える情報社会の設計 ― 相互監査できる情報インフラへ : システム設計視点の行動経済学 (25)
+     https://qiita.com/maskot1977/items/8ef0ba599c0f04bf3639?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. IT面接で職務経歴書で見ているのは「すごい実績」だけではありません
+     https://qiita.com/m__ikeda/items/c8705ed320aa15dc9db0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 音声を外に出さずに文字起こし。個人開発アプリ「Privoxa」を作りました
+     https://qiita.com/subculapp/items/e9e5593854909bd4d73f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. CLAUDE.mdをそろそろ見直す時期かも ── Claude 5世代向けの最適化手順・スキル・プロジェクト種類別の例
+     https://qiita.com/nogataka/items/d6a54f3694726b9141f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 構造力学パズル「SigmaZero」を AI と作った 196 日・952 コミット—Unity教科書の勉強から Claude Code のエージェント組織運営まで
+     https://qiita.com/Oborova/items/95b314104ec0538f9b04?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. AgentCore Gatewayで送信元IP制限のある接続先に接続する
+     https://qiita.com/takahash_3/items/0396070f5766efe984a8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. Dahua Technology、IFAベルリン2026で統合型スマートリビングと革新技術を披露 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE9MeFNOcWFqQ09nSTlrZXptVDJ1d2RSNlhXZTk5M1B4YVltSWstYmdSU096Tlh1VlotZkFSUldCLVhUQVNlMVhGSVVNRy1CVUpJT1VfTlhSTmJJanJV?oc=5
+  3. 【9/4配信】「SMART CRAFT × DEEP TECHNOLOGY」―『Welding Promenade』Vol.47：2026国際ウエルディングショーを大特集 - 産報出版
+     https://news.google.com/rss/articles/CBMipAFBVV95cUxNcXJxVVRXMDFRNEJtV2tBM3lIVHp2cDVLTTBET3hzcmN1TlNHODdmNHBpc0hUUlBFYXQzT3MtUGdKQXktaFNCUno1aUFGanROckFMWnlhMENwTWZDR05zTlVNS3VRN1o2Wl9Sdmp3Z3FUYjZCcGRaQzQ2SmNrdTRWOXZPS0IzeHpTdHdCbUVXVW82N0ZCUFZyR3l4Qjk0UUpaVEhjZQ?oc=5
+  4. Dark Sky Technology 社と協業し OSS の安全かつ継続的な運用を支援｜BLOG - サイバートラスト
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxPWmIyOFJPM0RkNGJZRUZhcWl4c3dpV2FNMU9KN1ppNDVmQks3enJFcGZDS1RmVUtWU1Y5ZUp4TnpYUFNKOGVUcTdGQnQ5dG1MSVdPX181YkJsT3hkcW1tdTRteGVVRXh1WjF1T3JuZmNUN3JpRDg2NVlrTmtJeTExU2g2VGdhUUNFTEpiYw?oc=5
+  5. クレド・テクノロジー・グループ・ホールディング【CRDO】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yZDhWeFU3T1N2VVpjSUU3RWl1VzlxVElVVHhjUzczaW1hSmN1MVh1dDQ4aXl6bldzU1h4MEJneGs5ZmQ1OE1aUkxoMklFeDg?oc=5
+  6. ランディット、名古屋市「Hatch Technology NAGOYA 2026」の実証プロジェクトに採択 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE0zYzBHMk54OG9pTVhZbFowekJhZllpdW1jdjlUZ01XdVpxZFhrbmNCZjZfRGFaU1RaQlh2QUNRYVhoOEprX2ZJcHR1WTB3NlhrYmQ2b3JubjY3NUlKRGFocjMyejV3Z1NFTFE?oc=5
+  7. Dreame Technology、造車参入からわずか1年で撤退——「1000億円の夢」砕け、巨額マーケ費も量産の壁破れず - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9MOFdaVHdLN0NxV0pHZ18yVU5TeEdpQndnUzd4dDFNdFg1dWVJb2lsYTdRNldfNGJsR09YUDQ1ZG43eW5ReG1aWXItZ1BQX1hXeEhfQXhrUHJrbFZRaHZzUnBJdlN3TmhhcmdkTDJGcEZMSzR5?oc=5
+  8. 9月4日のMarvell Technology Inc (MRVL) 値動きは6.17%上昇：値動きの背後にある事実 - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOdm9JbW9zYmdpcFVhR0JBQTg3Zk5hQ0xwWldHZ1IwZnpjT0I1SnRLWmdnNkYzc0V1dzByXzN0OGdSdjVfZ3VGY2ZVU093Yk9QN0lFN3VWMjlPQ1RoVkRzRUZDeEFuVU9ZeU40b05KTlZTbmRfa3ZPSE8xOFVERDlPTVAxXzY4S2lQZlAtN3BmVQ?oc=5
+  9. 大型から小型対象物までスキャンできる3Dトラッキングシステムを発表：3Dスキャナーニュース - monoist.itmedia.co.jp
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE1BdUNmc1lDSjNjQUpmcDZ2TU1sYzNvMVpGM0NZdC1VZlZkUHFnRXBDdkQxOXNYY3B5T0VOMzdYNGg5S3BOc3FQRGFSQ091dnZBNUU1UGF5RklZTG1ZTWM5M3dqOHdQekdCampSazNtMA?oc=5
+  10. 組織紹介：情報処理技術者試験委員会・情報処理安全確保支援士試験委員会 - ipa.go.jp
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zdkVYTkZXQ0g4ejJHcnFSbW12OGYtaVZzOE50Njl5bEoyM3QybDRTbHA1Ty1hcGsxUldLX0lfRlNEWkh2ekFpWFVkREU5UDNJNzJVZE10TXVRdGtDTHZ1UU5qcw?oc=5
+
+【Google News (Business)】
+  1. ビジネスメディア「新R25」9月末での運営終了を発表 約9年の歴史に幕（ENCOUNT） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBJaW9rVlQ4em5acGVNNVprb2tkQmtCTnBoNlpVWW84Mi1lT0lXa1dlaHY5NXJUSXZrb2djc19YN0FQQWM1aEd0U012UjVJbFRsLXhQSjNZaWhHYWdMMXNHSnJMcFJLWEh3aUxQOFdmMF9PdUVqaUE1WTRyN253YVU?oc=5
+  2. 2.78兆パラメータなのに「8GBで動く」Kimi K3 それでも企業利用が難しい理由 - ITmedia
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE5lTmFIV3ZjajgtcF81cWQxbFZxSHdZQkVJU29heFRmVmlleUJxSHJsbUFMeEttQXo2U0k5dm9MVmxBdXBhSEl3ODc0WjQ5M29VczFWZ0tIUm4tN05LR3NnbTA2OFZidFFwTmlIalNzTUVtQU9Y?oc=5
+  3. 日立とパナソニックの明暗 買収5年、米ITの成長を分けたもの - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VenJBT2UxeThZdVVxUWNUVVZ6N25ZQWI1NXZaeUhqa1dQTDdrNzBtSzZLc0M2aW12eldROVZCcXdyN3o0RzNWUERUWDVIN0dEakZCOExQamM1U1lnajlxMXV5MndTVVk?oc=5
+  4. 特集 HUMAN MADE 天才NIGO®に依存しない「カルチャー×ビジネス」の設計図 - WWDJAPAN
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE53N2EwY1VVcVdQM2FxcVdaR2VzNkxnUHJ3UUR1WTc0dnBTRGtLMEhhZWNNeXE1aWJrLXB2bmNHX2F1SGFVVVRDUldWVERfQnVlWDhF?oc=5
+  5. 「子どもをスクリーンから遠ざけたい」と思ってガジェットを作ったら、ポール・マッカートニーが3度も投資してくれた - businessinsider.jp
+     https://news.google.com/rss/articles/CBMikAFBVV95cUxPTHpqak5lMmp0LV9ic0dNM1ZCOWdQOU50bm9tQS1EaUpPeHpOTlJWeUdEbU1Pb2Rvd3BHdUJNZi0yR1BVTFNITUJjd2ZiMFpweE9IUWkyZmpSQWZkLTdpaEF4b0xRTFJ6Q3N0UGlQMXVnZ0w1TTBxc3JCOTZDVGVJY3RSc0tjU3hyMG0tSmJnVHA?oc=5
+  6. ｢障害者雇用率｣が高い企業ランキング！ 10位ファーストリテイリング､9位Trailhead Global Holdings､8位しまむら､さらに上位に入ったのは？ - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zcWtMU2hUZkttMkJSYWN6WXNIVnA3c2IyQmktalVGejUwUmJBMEdjSGtTcHJpdlVRN1hET0ZYSmJsWWxnRUNlUUtTMHJWMkgtOFE?oc=5
+  7. メトロ・ビジネスマネジメント、J1「京都サンガF.C.」のオフィシャルスポンサーに就任 - マイナビニュース
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wQjN3WS1kRlJqYjkzbTZyd3RJaEtnb0pfRjV5Zk91OEt5Vk9LMldNOV9BNTM3YWFPQXVFMjIwS2hNMWVFbm51VlFwMkkxRjZSOWF3RzlyNWd2eWNM?oc=5
+  8. タイの中小企業、売上減と資金繰り悪化が深刻化 政府支援の拡充必須警鐘 - newsclip.be
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTFByRldzQUEzZ2dIdG5EN0FpS0pfQkVxczlyc3AxYUtrT1pHQWVhTFc0eW5zNVBQTk1wVFJXNTVNNzgtUGlIc21BR09pYVFrS2lrOGxLZUlXbmN2NGlC?oc=5
+  9. 構造化されたビジネスロジックとエージェンティック AI を組み合わせ、心地よい会話体験を届ける - aws.amazon.com
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEhSWWtlV1R2SDJuZ2JqUDJqSnZSMEVHeGhiLWpmZVN6NmFvSXVVSVFTamRvQ3oyQWFSaDAwbDlhTHNEbklfRzFpLWlpQURnTEs2RFNCd05veGlyNHA3eXZkTHFwRVQzaXoxYU12b2JDQWJ5Q2NzRHJTRW9BVE1zQ0NNN1BpdnBHMThRU25R?oc=5
+  10. 早稲田大学ビジネススクール・入山章栄教授 社長候補は30代前半から育てよ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HbEY2dlpYU2Zyc3FPRklnOTZMRTZaRlc5S3NWSFpmeWdaNlU3MDkycmc2NmlfSmZxN0pGOVl2NlBvd2IxZjVHcFZRcWMwejJmRXFwNUt5Ui12YnFCZHVsZFhiMGI?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. Flock is canceled—and its competitors are profiting
+     https://www.reddit.com/r/technology/comments/1w83mu8/flock_is_canceledand_its_competitors_are_profiting/
+  3. Discord Is Bringing Back Age Verification for Millions of Users
+     https://www.reddit.com/r/technology/comments/1w87few/discord_is_bringing_back_age_verification_for/
+  4. Xbox Is Limiting Cloud Gaming To 15 Hours Per Month For Ultimate Subscribers, Which Averages Out To 30 Minutes Per Day
+     https://www.reddit.com/r/technology/comments/1w882u9/xbox_is_limiting_cloud_gaming_to_15_hours_per/
+  5. AI companies are dumping $265M into the midterms as data center backlash sweeps through communities
+     https://www.reddit.com/r/technology/comments/1w8dypj/ai_companies_are_dumping_265m_into_the_midterms/
+  6. In a Warrenton, Virginia garage an 18-year-old Kettle Run High School student named Mia Heller built a membrane-free water filter the size of a bag of flour, three modules, one litre a pass, and her turbidity sensor logged 95.52% of microplastics pulled out by magnetic oil.
+     https://www.reddit.com/r/technology/comments/1w80di4/in_a_warrenton_virginia_garage_an_18yearold/
+  7. PS5 Pro Stock Vanishes After GTA 6 Reveal, Prices Hit $1,300
+     https://www.reddit.com/r/technology/comments/1w7zs9k/ps5_pro_stock_vanishes_after_gta_6_reveal_prices/
+  8. Ex-Old School RuneScape dev sentenced for stealing over $400k in virtual gold from players
+     https://www.reddit.com/r/technology/comments/1w7yc5g/exold_school_runescape_dev_sentenced_for_stealing/
+  9. CD sales are making an unexpected comeback amid a retro tech boom
+     https://www.reddit.com/r/technology/comments/1w811jr/cd_sales_are_making_an_unexpected_comeback_amid_a/
+  10. Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.
+     https://www.reddit.com/r/technology/comments/1w85mov/vance_called_ai_satanic_he_struck_a_chord_among/
+
+【Reddit / business】
+  （取得できませんでした）
