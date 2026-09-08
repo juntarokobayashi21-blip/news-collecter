@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-08
+============================================================
+
+【Hacker News】
+  1. TALA Is Open-Source
+     https://d2lang.com/blog/tala-is-open-source/
+  2. Watch Los Angeles get built, one building at a time (1880–2026)
+     https://lax-skyline.parcelscope.net/
+  3. Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon
+     https://github.com/Sadpainy/Stuxnet
+  4. Leaving VMware just got harder after Broadcom pulled VDDK downloads
+     https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/
+  5. Trusting-Trust Attack against an Entire Linux Distribution
+     https://arxiv.org/abs/2607.24888
+  6. WeatherNext 3
+     https://deepmind.google/science/weathernext/
+  7. Working on Economics with Fable 5
+     https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/
+  8. Scientists observe Einstein's gravity in the quantum world
+     https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world
+  9. WeatherNext 3: Our most advanced global weather AI model
+     https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/
+  10. John Margolies' Photographs of Roadside America
+     https://publicdomainreview.org/collection/john-margolies-photographs-of-roadside-america/
+
+【Zenn】
+  1. Astra時代のコードファースト3Dモデリング
+     https://zenn.dev/koher/articles/code-first-3d-modeling
+  2. Snowflake App RuntimeがGAになったので、Public Previewからの差分を追いかけてみた（＆簡単に触ってみた）
+     https://zenn.dev/s_uema2/articles/03fdaa7ea13770
+  3. DatabricksのServerlessで複数CPUアーキテクチャに対応して起動時間を遅くしない [2026年9月7日時点]
+     https://zenn.dev/turing_motors/articles/71a4dd39e0654c
+  4. ドメインモデル貧血症はなぜ生まれるのか — Decision パターンで DDD トリレンマを解く
+     https://zenn.dev/tellernovel_inc/articles/0193eb68cabb6e
+  5. 【XP祭り2026】エンジニアにコミュ力を求めるな、と言われて頷いた
+     https://zenn.dev/nexta_/articles/51fdb6f774d1ca
+  6. WebエンジニアのためのReact Native + NativeWind v5事始め — Webの常識が通用しない18のポイント
+     https://zenn.dev/my_vision/articles/2bbf47bb0db842
+  7. Astraのリリースに合わせてAGENTS.mdを修正するなら「request_user_input」も使って体験良くチューニングしよう
+     https://zenn.dev/cureapp/articles/9dd3298ce84b47
+  8. HTMLを社内共有するサービスを、コードを読まずに作る - 1人で25万行を回す自動運用の記録
+     https://zenn.dev/coji/articles/solo-software-factory-without-reading-code
+  9. テストを生成するな、信頼を生成しろ
+     https://zenn.dev/nakurei/articles/generate-trust-not-tests
+  10. RustでWebフロントとモバイルの複雑なドメインロジックを共通化する（UniFFI + WASM）
+     https://zenn.dev/rick2200/articles/16ee74ef2464b8
+
+【Qiita】
+  1. CLAUDE.mdをそろそろ見直す時期かも ── Claude 5世代向けの最適化手順・スキル・プロジェクト種類別の例
+     https://qiita.com/nogataka/items/d6a54f3694726b9141f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 「効率よく成長したい」は悪くない。でも、近道ばかり探してしまうと損をする。
+     https://qiita.com/m__ikeda/items/dec5350f38c748cb5b6e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 最近取り入れたClaude Codeの個人的tips 4選
+     https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. マジックリンクでログインできない原因はメールのURLスキャンだった
+     https://qiita.com/kuma_3838/items/1fc232b42c344260021d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【AWS初心者向け】インフラ構成を図解で理解しよう！ALB・ECS・RDS・Lambda・NAT Gateway・VPCエンドポイントを一気に学ぶ
+     https://qiita.com/Nao52/items/35441e4b0009aa128610?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【歴史】Next.jsが覇権を握り、そして直面した試練の物語【動画解説あり】
+     https://qiita.com/Sicut_study/items/8fa7302bbb5bc1c897bf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Docker環境をガチで軽量化するための鉄板設定まとめ
+     https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. ジュニアの「AIが書いたコードが理解できない」問題の対応策
+     https://qiita.com/im_yoneda/items/f27e52d2f852ba017a7e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【React】default exportは無名関数でコンポーネントを作っても動いてしまう
+     https://qiita.com/J-T_ky2g/items/a5b9a6acf097ade52c9f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【プロンプト公開】他のAIが3日後に知る情報を、Grokは「今」教えてくれる。Grok × Xで技術ニュース収集が完全無料で「週10分」に激変した話
+     https://qiita.com/shinkai_/items/710c03dbfc8ecf849496?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - finance.yahoo.co.jp
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. Brook Gaming、TGS 2026に10社以上の アーケードスティックブランドが集結！ 最新モデル体験＆プロ選手イベントを開催 - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ScXhpbVdmTDBkcF9tNS1aekJ4bFYtTWl0SUJMOEZJWGFSR0VEQnF1aG5Vd0VLY1MzdC02MVFTdmNnNWhkbFZqVnIzeUllZw?oc=5
+  3. 台湾・南亞科（Nanya Technology）傘下の補丁科技、9月16日に興櫃市場へ上場 参考価格は1株740台湾ドル - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9UZ2RWNnUzNWVXcWlVYzl3c2dNdTQ5VkN6R3VobnIxUWtON2x2RHB3T09XOHFmNzZvZG1kbWY3YTB4UkpMSy1Cak0tb2RDd2hyd0tPcm9kSjA2MU0wX0RWcjR4OU10aXZzSzV0SHJfaGtZaTNB?oc=5
+  4. グローバル人材会社のPlus Wが、パキスタン国立科学技術大学内に「日パ人材交流センター」を5月23日にオープン - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5NRXYtRWFGb2tsUWl4c3lwblJBTDYyZDI4cGUwV3JIajN1T3hQQlBxelAwenVjdC1lWEpaN1QxZHE2MlU5SjQ3cEdwaVlra0F6Wlk3bFRBQTVZdWpVXzhWdTMwVjh3OERCT1E?oc=5
+  5. GRAC TECHNOLOGY | 海外有望企業情報 - J-Bridge：連携・協業のためのビジネスプラットフォーム - jetro.go.jp
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE5MVG85bk5RZHVweHU5WHJJejNvN3FYQ1NYQzhHRlFVd1lEbFRvVUhLdXBlQWl4R2ViRlFjOFZPU2Z2NWtNVTdxdXI5RVFvN1BlMnV2QkR3Q0VUdGVOTWJDOFJuemRleHp0Z2RMdmZ5bVFfajlubmNB?oc=5
+  6. Dahua Technology、IFAベルリン2026で統合型スマートリビングと革新技術を披露 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYT0NTUjFad1VlZGFDMnhHVWRrekF2RHBJdC1POWZsaERqZm54TUZnUHVSQlpiUG1pMGcxR2h4dmF6NHVfUUtlU09QcFNTbzNyeEdCdmlWQS1oVWs?oc=5
+  7. 令和8年度介護業務における介護テクノロジー導入支援事業の実施 - pref.hyogo.lg.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DSGxjX0Jub3VUMy1NWWoxSl9IcmVVWGFTMm1DRFI2WTJBeUE0Y1VPMTJHMHhCY2o5M2RmdFB4QmJCVGZqZklqTm5RejNWb09SS3lvSGN0eGowcjVvaW1RVnFLWVZxYXJs?oc=5
+  8. ロボット「触覚」需要急増 中国・他山科技が数十億円調達、受注残は前年売上高の4倍 - 36Kr Japan
+     https://news.google.com/rss/articles/CBMiO0FVX3lxTE1NdDJycDVXM3laNWFaWFNjUG1CWm90bGxESlJWQ21vUnVMbWZZY0V6VEpsSFBUSFdaTldJ?oc=5
+  9. e SKYのテクノロジーに見るスズキの技術と哲学【石井昌道の自動車テクノロジー最前線】 - goo-net.com
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBGeFFWUXhUaW9TeTlkSWRhWHhmc0w2dW9kMkxCdEQ4WmRRMW9KYlhMY3lxMEVmaGhUclZiU056RUdLWW9palB4VFp0bHBmaFJvaVZmb0YzUzZpOHMzb0ZjcldpN3Rzd2F0eTV2X3h6cUloZw?oc=5
+  10. 「Hatch Technology NAGOYA」における実証プロジェクトが決定！ - city.nagoya.jp
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5UVXFXcFExblRMT3ZXbE9tRzFwQ1JvZE55bzJjWElac1NYd19CWjlGRjhiQXlzd2U2cDBIN3lJQ09tQ0pqbHpBcXNFZWtnOUJhYzNuZ253YkQ3M2FoT0hleThjTHdVQ01QaHVoWEhUOA?oc=5
+
+【Google News (Business)】
+  1. 上場企業のROE、最高益でも伸びず 円安で自己資本膨らむ - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE9xSjlKR000SWlqcF82MnkwYjFlUVdtOUlnemR2bnBZYm9KWVF2U25XX3lWM2l4VWxhQnVMQlB5T1JOa2pWT2kwVlFCTmVWaFZ1WVI3WGt3LUJJQ2FYZlI5d0trcFh2d0NlaU9OcQ?oc=5
+  2. 山形から未来を創る 新たなビジネスや挑戦を生み出すイベント （テレビユー山形） - news.yahoo.co.jp
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBxeWprYURSd3hoVTZ4VzdiMzZJeU1ZRnBUR0JfcmJDb3hzdXJHU0FWSmhkUC1iclNLdFZvbk1DcVZhbWExQ05yTGRRWWtidGc1RDU4bEdXQlJiZWVnaENPLUN3SnFYOTM4VUtOUVVsRU1MYzBVSG03djlsTURROVE?oc=5
+  3. 住友生命、コロプラ、味の素、三菱電機らが集結！ 先進企業の人材育成・AI活用によるイノベーション事例を紹介 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE56b1VkbFNJQzR0U3NKcm43SzZ5U3RYd0JJekFfam1jd1Z5SnZvRGREU2EwbExMbWxfcjJiU1JIYTJtX185d3RHLXNFRlNBOGVQTVJCVDN3?oc=5
+  4. 若者視点で事業提案 ビジネスコンテストで上越市チームが最終審査へ - 上越妙高タウン情報
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE96OHQ4d3dieG9LNl8wYlRnM005X1JHN1hpUGFYU1BBcmxQMTNnRF8zWXVFNXg0eDYzRmdQNUJjOVpwam9XUzZDbHhIUlpEQjY3enBYYmtn?oc=5
+  5. ケニアの一大ビジネスになっていた「論文のゴーストライター」ビジネスがAIの登場で崩壊 - GIGAZINE
+     https://news.google.com/rss/articles/CBMibkFVX3lxTE5Pbmo2WTJOOWM4Y2ZWMEFVMjVLME43Tl9wLWhaSUVRYWV5MzMteDV3UVR6TG1DVktJSXhjcnZ5YXZZaWt3aUxucHRJWHhqTXc4ak9weUk1eG95M0liNW1XbjgtRmpZSGFrLVVTZjZn?oc=5
+  6. ずば抜けて仕事ができる人は何が違う？ 松下幸之助が少年時代に気づいた「商売の本質」 - ダイヤモンド・オンライン
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTFA3X19IRzRhMmJrZ1FvOUg0TmJQLWN6RlVLWTdBTjF1ZFVzSUpCeGVjc0I3VlF3SUliQUMyc0h3T3U5ekdlXzBiWk1CR3DSAU9BVV95cUxOOHBlSm5LZlZjOWVvNTVwbkhkN0MzVWhrZEhfX2d0bnROaEdnQkNUeTBaTk8xQWhrdXU0Q1FwdGxNZVRDRXc4Wmx2UVNzejRN?oc=5
+  7. 【中小企業庁】最低賃金引き上げに対応する中小企業・小規模事業者に対する支援策 - 創業手帳株式会社
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yUUFRQlFrbGdvYlJacmxzb1EzSXlwNGN6QmVoN0ZZV3d0ZDloREFaa2JDaHBlNHFHMkMwVDc0SW5zQ0JQQ1JVd2R5RjVzWGpTRHpBVVhn?oc=5
+  8. 事業創造に必須の考え方――ビジネスモデルとエコシステム - グロービス学び放題
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zRUxtYnZ2cHFXdjBXZk0wcTlNd3NKX3dDT2FaLUdfMG0yV1E1dEhZODBlUjhwMXhVaW9XQWZ6em9NZXhJRkU2a2oxRXU2b2s?oc=5
+  9. エミレーツ航空がビジネス旅行者に人気の機能の一つをプレミアムエコノミーにも導入 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0d4MU5sLUpubGxaa1NHSlRuZGEteHdaOXZHZF9zLWlKRHJEYWh4UkNXSlRGVG03M1NiWjlBU2tjYWZ3eGpnVENDWmxnQTBLdjhMS2c5WTd5ZFF3MWRtSmlzUDJ6Mks2Q3BMWVZiMVMwQXp2VzBkRHFkZnRzNVA3eFV5dExpRFBPWmdUd05WelczVmhOTU5kMmJWSkhpcktVUVE?oc=5
+  10. 企業のAIトランスフォーメーション加速に向け、サーバーワークスおよびG-genとの戦略的業務提携を開始 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kOUJQMDJQbG5hVTN0SzJvUm8zd2N0elpuMEtCNF9zMkNsTWVvbFA3Tk5jTVQ1NkRRbHFlLU1MQjhFVGlyak1PcUwyQTZjQ3VkeWU1b2lMMWVLVXpJSlE?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. CD and vinyl sales are surging as frustration with digital media keeps growing
+     https://www.reddit.com/r/technology/comments/1w9r1kr/cd_and_vinyl_sales_are_surging_as_frustration/
+  3. Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death
+     https://www.reddit.com/r/technology/comments/1w9t690/dolly_partons_sister_pleads_for_end_to_ai_garbage/
+  4. GTA 6 boss says "there will always be things to satirize," but Rockstar has to "be careful about what we pick" because after 11 years of development "it could be gone, it could change, it could be dated"
+     https://www.reddit.com/r/technology/comments/1wa2271/gta_6_boss_says_there_will_always_be_things_to/
+  5. A secret new Elizabeth Holmes documentary stuns Telluride
+     https://www.reddit.com/r/technology/comments/1wa7qky/a_secret_new_elizabeth_holmes_documentary_stuns/
+  6. LG smart TVs caught logging audio with screen off and snooping on local devices
+     https://www.reddit.com/r/technology/comments/1w9jmjn/lg_smart_tvs_caught_logging_audio_with_screen_off/
+  7. 'We Don't Have to Let It Happen': Casar Says Progressives Must Fight AI Oligarchs' 'Dystopic' Vision
+     https://www.reddit.com/r/technology/comments/1wa67rb/we_dont_have_to_let_it_happen_casar_says/
+  8. A Decade of Hype, 3,000 Roofs, and One Redirect URL: Tesla Kills the Solar Roof
+     https://www.reddit.com/r/technology/comments/1w9tsjj/a_decade_of_hype_3000_roofs_and_one_redirect_url/
+  9. Adobe ends an 18-year era as AI pressure mounts
+     https://www.reddit.com/r/technology/comments/1w9v1jz/adobe_ends_an_18year_era_as_ai_pressure_mounts/
+  10. Jensen Huang once again declares that ‘AGI has arrived’ — but his GPT-6 celebration feels like he’s just trying to sell next-gen Nvidia GPUs
+     https://www.reddit.com/r/technology/comments/1w9y7mi/jensen_huang_once_again_declares_that_agi_has/
+
+【Reddit / business】
+  （取得できませんでした）
