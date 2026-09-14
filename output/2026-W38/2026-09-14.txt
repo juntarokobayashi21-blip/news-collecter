@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-14
+============================================================
+
+【Hacker News】
+  1. Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher
+     https://www.vals.ai/blogs/fable-solves-cyphral-distich
+  2. Why is Google still serving dodgy ads?
+     https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads
+  3. Registration without a phone number on Signal will use zero-knowledge proofs
+     https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10
+  4. Julia 1.13 highlights
+     https://julialang.org/blog/2026/09/julia-1.13-highlights/
+  5. Astra and Fable still hack on simple variants of alignment evals from 2025
+     https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment
+  6. Flawed routers flood University of Wisconsin internet time server (2003)
+     https://pages.cs.wisc.edu/~plonka/netgear-sntp/
+  7. Data collected by cars and sold to third parties
+     https://www.theverge.com/column/994172/your-car-is-selling-your-data
+  8. The GDR and Vietnam: From Fake Coffee to Coffee Empire
+     https://www.katjahoyer.uk/p/the-gdr-and-vietnam-from-fake-coffee
+  9. Ask HN: What are you working on? (September 2026)
+     https://news.ycombinator.com/item?id=49686380
+  10. JetKVM Mini
+     https://jetkvm.com/blog/introducing-jetkvm-mini
+
+【Zenn】
+  1. フィールドレポート 法律事務所の今
+     https://zenn.dev/fdsa/articles/37db858e04678e
+  2. 読書メモ『強化学習を学びたい人が最初に読む本』
+     https://zenn.dev/morim34/articles/85994d7b38603b
+  3. 2026年に多くのシストレの戦略のアルファが消えた件について
+     https://zenn.dev/gamella/articles/6bd6e5ab9e88bc
+  4. 重みは学習するのか、測るのか。ハエの脳が問い直すAIのつくり方
+     https://zenn.dev/1amageek/articles/fly-connectome-and-ai
+  5. トークンをケチってレビューをローカルLLMにやらせた話
+     https://zenn.dev/k_motoki/articles/11de0ba46dd1ee
+  6. クロスプラットフォーム開発が解決するコスト、解決しないコスト
+     https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026
+  7. Go Conference 2026に参加してきました！！
+     https://zenn.dev/tayu99_make/articles/d0afc5ce232058
+  8. AWSアプリ開発の初手が変わる？ Nx Plugin for AWSは何を自動化し、何を人に残すのか
+     https://zenn.dev/aws_japan/articles/nx-plugin-for-aws-nx-explained
+  9. デカルト積問題って知っとるか〜？　気軽にJOINでメモリ爆発するアレのヤバさ実測すぞ！
+     https://zenn.dev/levtech/articles/cartesian-product-doctrine-orm
+  10. 単体テストの実行時間を6割程度削減してみた
+     https://zenn.dev/dress_code/articles/5dd5de5020d9ef
+
+【Qiita】
+  1. うっかり世界最強のWasmコンパイラに並行処理（マルチスレッド）を載せたら、なぜか1.46KBまで縮んだ件
+     https://qiita.com/kanryu/items/a031d4928ddb7caa0784?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AWSのインフラ導入でAIを使っている箇所と手でやっている箇所
+     https://qiita.com/infra365/items/aa30a54fc6f0849385a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. アクセスログから不正アクセスの兆候を見つける7つの集計(nginx/Apache対応・コピペOK)
+     https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 写真📷録音🎙PDF📄コード💻いいね👍｜私の情報はどこへ漏れていくのか？ AI製品36件の規約とプライバシーポリシーを形式別に調べてみた
+     https://qiita.com/songchong/items/e630bf05f4adf0c16ce5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 👍を押したらバレる？「学習させない」設定をしてもダメ？｜AIツール個人版ユーザーの防衛策🛡5手と、やっても残る3つ
+     https://qiita.com/songchong/items/9dc9ee419d2764d2aa06?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 耳で聞く！Python で学ぶ マクロ経済学 入門 12
+     https://qiita.com/maskot1977/items/f2970f2d91493f37e0b2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. quaternion の z を yaw だと思っていませんか: pure pursuit の後輪位置が最大 0.95 m ずれていた話
+     https://qiita.com/TeamHayes/items/f004f15b7c0fe1f4b512?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 日本語が読めなくても自動運転AIチャレンジに参加できるように: ドキュメントとツールを英語対応した話
+     https://qiita.com/TeamHayes/items/7aaf06afe8f39d8f6dfd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 勉強を「気合」ではなく「ログ」で管理する
+     https://qiita.com/SHIBATATA/items/c40eaabbe4a283f706e0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. DDDを用いた開発と難しさ
+     https://qiita.com/o68606007/items/43200787b2b2231a6fa3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. 【海外】SMA Solar Technology：AIデータセンター向け電力インフラ市場に参入、蓄電・UPS・800V DCの3方式を展開 - みんなの広報宣伝部
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBkc0p4cUU2UUE5OE1hWFU4VU5Rd1k1dzQ5T3VYYjNta0l2SmJQc1Zwa0pPdHRtOTFNb1FRaWR3bzdPMmMtR3hKbFB1bUJoUWIybkNZV1VKcHlEaW1NQmtNQ3lMbmlsSG5vQnlHVkVETEVhdw?oc=5
+  3. リチウムイオン電池火災が前年比1.5倍ペースで急増。 秋冬もリスクが続く中、SOUL POWERが難燃ソフトポーチを発売 - Newscast.jp
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3bF9Cam9URGRjVHVKOEIxazloTUZidUJCQThZWGtpenVFSlNZYktQQnBncjdUQk91MEJVcjhQOTBBZDJNUU4ya3JSaDVqd00?oc=5
+  4. 送電網の蓄電池から中国製を締め出し、米国が払う「自立」 の代償は - technologyreview.jp
+     https://news.google.com/rss/articles/CBMikAFBVV95cUxNdjVILXVLaEFOVm02WFFVaTNVdmRJdERFMFR4N3owczY2UUREZjcxSWN6WmcyWXh6TTR4QjJTS3ZTOHZieEI5ZUF0S1d6Y253SVBsM19rUGNpNTI2MHpwVzRjWWNxV0lTZkVyeUhHOHJ1alQxMUcyd2liRHNSVXV0ejlxN01vaG5LTnRTNTM5OHA?oc=5
+  5. 【調査報告書】 『アジア・太平洋地域における半導体政策と研究開発動向』|その他アジア等コラム＆リポート - Science Portal Asia Pacific
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFBhMlY3QkNwa2ZGMXg0WmFqUElYbTFpQW9jZFZkV0d2UWxtclJUMThkY1FXZXBJeGNzTW1sQzI5RVltY1p2dU5tRmJGaEo2ZXE2LWVwNnBQTktjM1k1LTlJUVVHOFd1RWE0NFg1d2dCQU12QXIw?oc=5
+  6. ゴールドマン・サックス・グループ主催の「Communacopia + Technology Conference」でのエヌビディア - Moomoo
+     https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU0dIVm5CQ2FMMTVRTW5ScUVHNkxSWDh1S040a25YaVhpbnhaVDFLTFU3NU9VVkpRU3d3OHRHMERJeHgzNF82WDRXQm8tdHdDXzdhSXhvSjFOcUlEVDVVdkt2eGRwdTRraUJMRkpJbUhzVlU2SlRUNF90Vkt5Slk4NWQxWExQdldJa1o3aWdpYXhaamZZZTk5MEI3aEstdEN1LWtTMUNabXZjUXFrUldHUE1JeTMwLS1QUEow?oc=5
+  7. LI Zihui (Irene) 特任講師がMIT Technology Review「2026 Global Innovators Under 35」に選出されました - t.u-tokyo.ac.jp
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yaXhpN0hGUk5PbmQ1STZicjRYS2ladm5GdW91cEE5VDNzdkktUVhGYjJYTGtDQUNBbFdKVy1TeXVqQlZNcHpxRm5BckVmb2tBTU9fRlZ0TDJDX3EycXpCdNIBcEFVX3lxTE54MTNCVWRybmc1NFFXOUlIcnFHTmwwbXhfdWJjOVhHckhLMUJKR2NoWi1PUTJRWklzN05qVENrRjk1YnR0VUJhX3pOQng1dl9fb19wZldGQlBiLUVHWjhHWHBPeU1CM2Z1MjM3WlFjcWo?oc=5
+  8. 登壇スタートアップが決定しました！―AIで地域・社会課題の解決と新たなイノベーション創出に挑むイベントを開催― - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFA2SFdsa3FXamg3czhkbWpsbDliQUdGR2owRFpyN0xpeG9CdndBcTFZbzZSRmR5NG52UkpEWmFEZEVvdWNuS3RFLVRDN1lFcXpXMGozWXFZMm9hVDAwNDlFQ2ZFTnQ5SnVNb3c?oc=5
+  9. 「硬さ」が変わるロボット関節、中国新興が20億円調達 人との協働に照準 - 36Kr Japan
+     https://news.google.com/rss/articles/CBMiO0FVX3lxTE40ZjVuaWEzYjdXLXNFM0FwMHBkaW5LT2tFME9wMlZNdXAxVzNPNkw0YVhfa0JrMC1SbElr?oc=5
+  10. Fujitsu Technology and Service Vision 2026 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mekEtRUZfU2d3NHBoWXpIbXNnM3RaLVpEZUE5WDA4dHB0bGk2S01MRUR1UGVXLXFLMDBGcXFKbWdIckx5aDBnNXRZMXVhdEIxUkNJ?oc=5
+
+【Google News (Business)】
+  1. KOSA・MegazoneCloud、東京で韓国AI・ソフトウェア企業向けの日本進出プログラムを開催 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE42OURtNDFBbmlvTHdGNUY4UTBxbDdXbGowZHNEU2pfeXRnQUxvRHNWNjZtaW93RzJUcUVHa3pnbzB1S0s4TE94TGVPTW1tSUVITVJDRkpjNU1YMnpTUVJiREl4RQ?oc=5
+  2. Business News: 数字で見るスイス時計市場の現在地。輸出・輸入・決算から読む2026年 - hodinkee.jp
+     https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWFXUy1NbEphek1lV3RMMjhvb3psci14eXNiNWY5Q296U0ZYVC0td05SS3FqQWZSeTJwdzU5dXJpMWN3V0c3YXFWMlpYc1lTVTcyX3ZfQU9lN05GSVJUN3c1SnhTX0d2RDhpSFBBWFVCVk1PQ1V6SDhGZndud3VIbkNHWTZhOWcwdVZLZ1NQMWc2bnlMWGQxdE5Vakh5MGJG?oc=5
+  3. 「世界一の育て屋へ」沖縄発・AlgaleXが挑む、微生物を活用した新たな資源循環【OKINAWA BUSINESS FRONTLINE】 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE1uMDk4T2pqVnFFcDBGXzhaRGhkeHduWUN2WjVWbHRIZlByRkRPcC1jY3EwMzZaS1UwVmhwVjJPTEZXeTNCNU5tRjVZM3I2YWpPNG5YZG05S2dPZGlCc2VoZjBtdm1UbWJjMF85cHBvc04zUm1zaDR5MtIBfkFVX3lxTE9JM2pCd294SlVPbURlRUtDMFAzUjd2QlB0MTAxS3FFRW9mQXh4WjlYSEtZU1VNUHJtSHEzcXJpX0pid2pLRUJSNzZ4NERlNzR6ZGVvM09ZdFM0aE1vU21Ia3BsbjFJTUJVTng5TC1oS3JQclR3ekpiYlRpTWlLdw?oc=5
+  4. 1日990円の「滞在エリア」 大垣書店が「滞在型書店」を始める理由（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE4tM212bHNVcTNRYzJ4cGlyTnBqQ3RncnNsNzhCcXBHeklFQ1h5RU1abkFWWnJuMndpS2lTTGZkaTdZaWhkcU9CbWFUTi1xMTl5WnJRZDhoMVhUbzZnWWkxZVRMLWxOQmd0U3UtZzZYdlJHdw?oc=5
+  5. 「達成率60％で十分」が生むぬるま湯 「OKR」導入企業の誤算 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wOFNnUmJHQ2FMZWVKWURWU1J0TDJlZC1nZVJKRjE1NW5WS1J6VFJZSkE4ZDd2eWdQSEZTWDJVYWNmQlZ5Zi1nQW1ILWJHV2xuUFBIc1hR?oc=5
+  6. ［新連載］日本製鉄、M＆A支えた2兆円調達の内幕 薄氷の「全額現金」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ORTE1d1AxS2xwSnN2RmoxOXpNa0ROeEFwbEFvY1BqNEhuLW9kMDZpd1NQZHdjWkFpQUU5b05qNkt1SlZpQWt6b3kwYUQ2cFpxdkdwaXFUWEluYVh5TURsZzY4Z3VVQUU?oc=5
+  7. Celebrating 10 Years of Overseas Business! Commemorative Event Held at Marina Bay Sands - 日本M&Aセンター
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rRXNoeThFdDgzS3otb2pVOEp6cFlFWGlaLU9SRDJDWkRBcFRmbHkyX2RXT1RWWU1DcjdieDZnWjZfYXV4VzhaUjN4UWJYT21MWHlYU3FHS1h0ME1NNHZoMXl3?oc=5
+  8. 日本の出張市場：業界分析、市場規模、シェア、需要、成長トレンド、競争環境、および展望（2026～2034年） - アットプレス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BZDExZi1ndVAwWEF0MGxhOFpvelJXci00NjJ2T0RONXlQUnJ6WVZGLXdVdzcxQWVFY2I1WkhNTnR2YnhDZ25VUlA0enN2bkE?oc=5
+  9. 加熱する保険ビジネス、その陰で痛手を負うのは誰か - バロンズ・ダイジェスト
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE82RWt5QUR5OVJ5anRNemtZbklHS2ZpN2xmeFZta3BBZUVxUmxuRVdRMWh6eEZ0d01KU0gwS1dsNG1DQXVUWjYzc2szZ0ZkQQ?oc=5
+  10. AI技術を“無料で公開”、なぜ？ 米IT業界の文化「オープン化」の裏にしたたかな戦略、日本は追随できるか - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9lNHd5SF9XMXptNUs5MlNuYVFxWmx2Z0MwVUxFUjdwYklNRmZzU2pIUTJ0dDhtZnI1NTM0X1h6TENyNWlMR2QtVEkyNDZQMWwzWFMwdlVBR3liaktHQ1dhNldBTnlxV0VJZzV6SUtUWk9SZw?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. Bernie Sanders proposes 20 year prison sentence for AI devs who plow ahead with Artificial Superintelligence plans - penalty on par with illegally developing rogue nuclear weapons
+     https://www.reddit.com/r/technology/comments/1wfcsdl/bernie_sanders_proposes_20_year_prison_sentence/
+  3. Amazon workers on food stamps have tripled despite its record revenue—and it’s just the latest evidence of the new economy of shrinking labor shares
+     https://www.reddit.com/r/technology/comments/1wf7r5d/amazon_workers_on_food_stamps_have_tripled/
+  4. Switzerland is paying $11 million to stop using Outlook and Teams
+     https://www.reddit.com/r/technology/comments/1wf5dcj/switzerland_is_paying_11_million_to_stop_using/
+  5. China Is Ditching Touchscreens For Essential Controls In New Cars
+     https://www.reddit.com/r/technology/comments/1wffez7/china_is_ditching_touchscreens_for_essential/
+  6. Obama urges Democrats to have a ‘clear plan’ for AI safeguards
+     https://www.reddit.com/r/technology/comments/1wfd02t/obama_urges_democrats_to_have_a_clear_plan_for_ai/
+  7. Scientists discover a hidden switch that shuts down inflammation
+     https://www.reddit.com/r/technology/comments/1wf7h16/scientists_discover_a_hidden_switch_that_shuts/
+  8. New police arrests, firings for Flock misuse after our investigation
+     https://www.reddit.com/r/technology/comments/1wfdwkg/new_police_arrests_firings_for_flock_misuse_after/
+  9. Donald Trump rejects calls from tech bosses for AI slowdown
+     https://www.reddit.com/r/technology/comments/1wfn8z8/donald_trump_rejects_calls_from_tech_bosses_for/
+  10. Ukraine triumphs in 'first-ever' drone-vs-drone boat battle — video shows Russian MBeK destroyed by Sargan 3000's 12.7mm automatic turret
+     https://www.reddit.com/r/technology/comments/1wf4ps0/ukraine_triumphs_in_firstever_dronevsdrone_boat/
+
+【Reddit / business】
+  （取得できませんでした）
