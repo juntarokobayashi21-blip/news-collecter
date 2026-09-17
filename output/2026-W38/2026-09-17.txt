@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-17
+============================================================
+
+【Hacker News】
+  1. Nvidia announces native GPU programming in Rust
+     https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/
+  2. Training a 4B model to produce 81% faster query plans than Postgres
+     https://rohanbansal.com/qorl
+  3. Breaking the 1.58-bit Barrier for Ternary LLMs
+     https://arxiv.org/abs/2609.16338
+  4. Xiaomi Mimo 2.6 live post-training dashboard
+     https://mimo.xiaomi.com/rl/
+  5. Backups Aren't Simple
+     https://filipovski.net/2026/09/16/backups-arent-simple.html
+  6. Small programming tricks
+     https://will-keleher.com/posts/small-programming-tricks-matter/
+  7. OpenSpec – A lightweight and configurable AI spec framework
+     https://openspec.dev/
+  8. The engineering behind the US Strategic Petroleum Reserve
+     https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve
+  9. Reversing Factorio's RNG
+     https://gegell.github.io/posts/factorio-rng/
+  10. Performance Improvements in .NET 11
+     https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11/
+
+【Zenn】
+  1. AI開発チームの作り方と育て方 — マルチエージェント開発組織の設計と運用
+     https://zenn.dev/hampen2929/books/ai-dev-team-guide
+  2. LLMにWikiを書かせて半年、一番役に立った画面はLLMの文章を使っていなかった
+     https://zenn.dev/rescuenow/articles/5aa26aebd7ae78
+  3. Expo SDK 58 Betaの変更点まとめ
+     https://zenn.dev/tellernovel_inc/articles/5b4b947db4f2cd
+  4. Next.js の Proxy(旧 Middleware) で redirect すると relative URL になる
+     https://zenn.dev/chot/articles/nextjs-proxy-redirect
+  5. GitHub Copilot app を使いこなす
+     https://zenn.dev/skmkzyk/books/github-copilot-app-guide
+  6. バイブコーディングで GUI が壊れていく理由とその対策プロンプト
+     https://zenn.dev/nrs/articles/9ba91aea587bf5
+  7. 1日の開発の流れをスキル化してみたら、想像以上に快適だった
+     https://zenn.dev/tenkei/articles/9f8921926bb003
+  8. 【Kaggle】ポケカコンペ振り返り(455th/6807th)🥉
+     https://zenn.dev/nwn/articles/a21aba4208e601
+  9. gherkin と skills でエージェントがブラウザを操作してテストする
+     https://zenn.dev/sonicmoov/articles/57a9c2d0d281b5
+  10. 自動テストが0件の現場で、人の確認を減らす側に倒した話
+     https://zenn.dev/ceres_tech_blog/articles/09aa8e17762d7e
+
+【Qiita】
+  1. 生成AIが書いたドキュメントを読みたくない
+     https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 「最近どう？」しか聞けなかった1on1で、メンバーが退職届を出してきた話
+     https://qiita.com/fe1ix/items/5d733c267370e0e06661?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 元ヤフーエンジニア社長が考える、AI時代の採用基準
+     https://qiita.com/ryoheiiwamoto/items/7f388029f8821fc3ea6c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 2026年9月時点 Microsoft の AI 戦略について
+     https://qiita.com/yoshioterada/items/c42534895d5ca89b91b1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 拒否ルールを全部消しても、Claude Code は eval を止めた。守っていたのは別の仕組みだった
+     https://qiita.com/suwa_nobu/items/5145961004e38e2fe316?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 新言語「Hike」をシステムに採用したらバイナリ99.8%削減・ネットワークも実働処理も爆速になった話
+     https://qiita.com/kinop3/items/fdb57313458c2aa1bcdc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. コードレビューで「正しいけど刺さる」コメントをして後輩に距離を置かれた話
+     https://qiita.com/fe1ix/items/6d78460c9be9cacc1fce?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【Porffor】JavaScriptをCにコンパイルして圧倒的パフォーマンスを見せる
+     https://qiita.com/rana_kualu/items/f82f870ef8481d9b1f0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. UUIDとは？「ただのランダムな文字列」だと思っていたUUIDをまとめてみる
+     https://qiita.com/Yuzuki-ki/items/67f3c26a441a35676c0e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. NL2SQL: Oracle AI Database の COMMENT・ANNOTATIONS・Domainの違いを整理して Select AIで動作検証してみてみた
+     https://qiita.com/shirok/items/b359aa1a55342c280840?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 送電網の蓄電池から中国製を締め出し、米国が払う「自立」 の代償は - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMikAFBVV95cUxNdjVILXVLaEFOVm02WFFVaTNVdmRJdERFMFR4N3owczY2UUREZjcxSWN6WmcyWXh6TTR4QjJTS3ZTOHZieEI5ZUF0S1d6Y253SVBsM19rUGNpNTI2MHpwVzRjWWNxV0lTZkVyeUhHOHJ1alQxMUcyd2liRHNSVXV0ejlxN01vaG5LTnRTNTM5OHA?oc=5
+  2. Warranty technology 米国ニューヨークに現地法人を設立 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSU5XbGRGNmU5WnV0REE1dlhNSUlTXy1wajMta1NFbUhfSTFNVEh3UkRuMXEtWkxEV1Q2dGVNWUdDWHE0MzBFem9iRDAxelROZUN6MVQ4NDRkRFVuQjd1UFRUQmhRUUsyUXc?oc=5
+  3. 産業用ロボットを支えた日本の「減速機」、未来技術遺産に - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE55WVhJbG9UYVJxTGxVNDJGaUJUWk1VeDZDaGhTU2p6ZnY0UHUwLTBzQXl4OWl4bFpDU2xQdXpmV2QwQXptLXR0UF94UmhPbEVjMU5aNngyM2pHUUNZSWlvRGNHNGo5Snhu?oc=5
+  4. 【東京工科大学】 NVIDIA AI Technology Center Joint Lab設立記念シンポジウム「Computing the Physical World」を開催 - Excite エキサイト
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE5rdXlsdVlEa0oxVVlrd2xSTk1VQUYxX180LTBSbkpuaTVWdlIxVTlwSTlpQXVEM0lqMFZKWkFiM3JCRjh5Vlk3R1M5anVlMEVENHZPR1kwWkp3dHpzcnc?oc=5
+  5. 社会インフラにおけるフィジカルAIの安全運用に向けたガードレール技術を開発：日立 - Hitachi Global
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1aQmxkNHBfZzFzXzdJbXVkUzE1TUFYNWFQM2FER3hKZktPVlRra0xTbENMdHpCcG1YUThZU28taWFnNlR2aDZFVGh1TU5DUjFjaWZHb1VSbkxNd3plOC0zVUhlSW1pcWZIelE?oc=5
+  6. 香港発のペットテクノロジー企業SATELLAIがIFAでAIペットインテリジェンスの次世代構想を発表 - @DIME アットダイム
+     https://news.google.com/rss/articles/CBMiREFVX3lxTE9fNnNNS0VfelRMdzhhTy1aNzFVMjlxVG8ya08xeVRIdG1LbXJ4NWV0Y09iX3JkczIxQ000ZUlGMVNkcGRV?oc=5
+  7. 「若返る」提供肝臓、 機械灌流が生物学的年齢を逆戻りさせる - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMikwFBVV95cUxQWDZ2T0Y5QVhfMGNWY0lDQU9qdjVORW5zcEtXcXVHVTBJS2l3eXV4NmdVQzhnMlN1bjRPRTRCSHNHZkpDRTlSTHFIWnliTU0zb185MkkxTnJSUEpWUVRXREtaZkJDbVNHQmY0TjAzWDFCRDZFM3hOX29zUEtEZUItTkJYR1hhT2lyWUZIelN4b2lGdUE?oc=5
+  8. 破綻バイオ企業もターゲット、オープンAI が生物学データに投資 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVNhY1M1VVRDZm9KYlZaM2hlY0NWVlg5bjhKMVNPWWlBZXBldkRfSVRWS1g2YnZPeWE4cDk2U3NIU204WUZQN0pBbk1JM1h4cEF2c3RwemlaUzR5OVRqY25uLW5RREREeWt6dlFiM0ZtdkxuUE1QcnJqbDNnVTN1STh5cUdPZ0pWZzNLdXU4cVFmeTNnSFFCNHN5OERFaGllMTU3YlNFVVhOVkNfV0hnQnpfcTA?oc=5
+  9. 犬猿の仲が急接近、AI大手がそろって「減速」 訴える不自然さ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMilAFBVV95cUxOZExLOUxtaDJDZjVWLTR1UHRzZ09lSlI2V2pHb2ZCNmtESXVja0NGU2NTeDVpZnRmeWNVeldhaUJKVnI0QjlUSU45YnRQVjdSeE9RcEN6UWtkY1p4bTlnUDlVaW9hQ3Q1akotVnhiekFEd2NTcG1CekxsZUVYdGwzMDYzWDgxN2l3WHdzRjZkSUhCWWQ1?oc=5
+  10. 【AAEON Technology】 MediaTek Genio 700/510搭載 SMARC CPUモジュール【uCOM-M700/M510】販売開始！ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE44Y2tXMUg1SGFtcmVqR19wQzJTS3J0SllSYmVzb0syUkYxaHlQQU5zV2tIeERYZlQwWVlneTJnTV91MWN5U2hUWVo5b25mMzFIeVZQcDBXUkJUTjRETURqRDQ5ZmpDd0pOX2c?oc=5
+
+【Google News (Business)】
+  1. 堅牢なビジネスモデルを持ち配当を増やし続けてきた「連続増配銘柄」5社の名前 - 現代ビジネス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBicGxfejNWZ1M4amFXQXczOFB0bzVRM2ozYkJqeDhxOFNyMlR6bVBiSDB5VWowS3ZvUHl3QTVXdUx3M25jcktsZ09xcDJxWlE?oc=5
+  2. 稲盛氏直伝「四つの創造」で新市場開拓 利益率1、2％台を脱却した町工場 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9IaGdoZEJDUXhQdm5ReC1WV2Q1RlZ3Yk9qbkxHc2ViVUZKQm93SlduQXVrU29MODN4VkhOVGFNMFhFa2NjaFpFYWw3VmFYal94MUN0SW1aRll2cGdSOXF0VWtxN0Ftd3JnTzFVSkNfaXRXZnF5?oc=5
+  3. 「giftee for Business」、サービス提供開始10周年を機に『giftee Biz Conference 「関係性」に向き合い、ビジネスの成長を考える。』を12月1日(火)に開催（PR TIMES） - 毎日新聞
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zQjFRLWpWdHBNOS0tZ1ZDblI4ZTZTTkFWMHRYamo1ckxoNjVsa2MwcEFocndCQVdnSGxjMnljRk5IWWZ4TzVycUhFbWhSZXpoQ3BDOE1Ea25jblg3TGdOajVpWndNRXNV?oc=5
+  4. 「チャイナリスク」なのに、なぜ増やす？ はま寿司200店、サイゼリヤ604店……日本企業の“ねじれ” - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5sbmczYmhZakRZWWpIT3RLTnhieXFoXzZ4RGgyc0lBb0RfWXZ5MXlUVG9leC00QjV3b2NIMlBzcGwwSkxtR09rS0J6cGR2OWV3UVZVU0FHWVI2Zkc5RXZjVDNnRnhaZ093aVdCcWZXVE1sUQ?oc=5
+  5. フェイクや詐欺で溢れるネット社会に「信頼」をどう設計するか。オードリー・タン氏らが議論した「Trust by Design」の最前線 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMifkFVX3lxTFBYLTRsNWtzLXpDRWZGanFBZWhSR0xzbEFoOWo2VFZVVHYyaEVpOWtCYmg0eHdRbHJFQ3pPQmFXUTRwbjgxX1o3ZEVnSzhpWFVoajN2RWhmRGplMjhqUUtIZjd5YzlmYjFhMW9JUHY5UWNDVkRNSkJ4aGpiOEg1dw?oc=5
+  6. 「クリック」が消えるAI Agent時代へ。Business Interactionの相互運用フレームワーク「ABIS」Public v0.1を公開 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5IUGhFNzJBMDBBU2hRclJkU3ViMnM0WlRIOFFPVS0yM016TU1VU2RGQ3FBNDAzUW9zUWdTUldFN3otVkZsZXZWU1NlSmxxZkMxdjdPa2tNNUZmaXVKMlp5MFk3ZlNuaDl1UUE?oc=5
+  7. 【東京都】「新産業創出に向けた企業立地支援」第2回公募 - 創業手帳株式会社
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SNW5jUVNBZUxqT0dOV3ZoNFhFVnNQZC1NbXl2c1JoaklGblBXUVBuaDVVSHl4TzFTcjdwTmFKVDlzOUgzOUJ5UVk3Q3lJWjUwdmV4ZA?oc=5
+  8. AI企業が「AIエージェントの暴走と共謀」を止められないこれだけの理由 - クーリエ・ジャポン
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE1seW4tNzVjd1VlOEd2R0c0U0Q2ekNfTnNvSnVuMmZ0Y1JYRkVJc2I4UVZuMFk2V0lZekFYQS1wb09JNXpvZDFXMk5fRURjeEEtUFA0?oc=5
+  9. 「達成率60％で十分」が生むぬるま湯 「OKR」導入企業の誤算 - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wOFNnUmJHQ2FMZWVKWURWU1J0TDJlZC1nZVJKRjE1NW5WS1J6VFJZSkE4ZDd2eWdQSEZTWDJVYWNmQlZ5Zi1nQW1ILWJHV2xuUFBIc1hR?oc=5
+  10. 【9/25オンライン開催】Refuturing: 循環型ビジネスモデルを経済合理的にするには？最新事例とケーススタディから考える - IDEAS FOR GOOD
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FN1FqWklWSWY1dElTWVZpZDJPV04wMFVTTUJxV1FGcDBDMzZVZmV1Rk1kc1VmUUtjZEEwTkFlN0R4cUpXNTM4Y1lqaGJTb3JhS05JQXlyVlpqSUNN?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. Iran strikes on Amazon data centers caused permanent loss of customer data
+     https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/
+  3. Devastated father says his 9-year-old son spent $118,000 on YouTube ad campaigns for his Minecraft channel using a company credit card - bill racked up in just three weeks was supposed to be one $20 promotion
+     https://www.reddit.com/r/technology/comments/1whzsye/devastated_father_says_his_9yearold_son_spent/
+  4. Your Computer Might Demand Your Age Soon, No Matter Where You Live | New state laws are pushing age verification into macOS and Windows. By 2027, logging in might require a facial scan or government ID.
+     https://www.reddit.com/r/technology/comments/1wi8fn0/your_computer_might_demand_your_age_soon_no/
+  5. Hackers Stole Flock’s Camera Software, Revealing How the Company Tracks Cars and People
+     https://www.reddit.com/r/technology/comments/1whthe5/hackers_stole_flocks_camera_software_revealing/
+  6. PS5 Linux lead quits as open-source projects have become “a bunch of noobs using LLMs” that “they don’t even understand”
+     https://www.reddit.com/r/technology/comments/1wi0g93/ps5_linux_lead_quits_as_opensource_projects_have/
+  7. Solar panel costs have plummeted from $6 per watt in 2000 to just 12 cents today
+     https://www.reddit.com/r/technology/comments/1whuktt/solar_panel_costs_have_plummeted_from_6_per_watt/
+  8. America Counting On Ignorant, Inattentive President To Save Us From Rogue AI
+     https://www.reddit.com/r/technology/comments/1wi8l4t/america_counting_on_ignorant_inattentive/
+  9. Hackers Got Inside a Flock Camera. Its Data Shows How the System Really Works
+     https://www.reddit.com/r/technology/comments/1wi63ao/hackers_got_inside_a_flock_camera_its_data_shows/
+  10. AWS Says It Can’t Restore Some Data From Mideast Facilities Struck by Iran
+     https://www.reddit.com/r/technology/comments/1wi3gei/aws_says_it_cant_restore_some_data_from_mideast/
+
+【Reddit / business】
+  （取得できませんでした）
