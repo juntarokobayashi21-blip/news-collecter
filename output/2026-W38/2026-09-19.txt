@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-19
+============================================================
+
+【Hacker News】
+  1. Android 17 is the first since 3.x to add new APIs without releasing to the AOSP
+     https://grapheneos.social/@GrapheneOS/117282080803799576
+  2. How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip
+     https://spectrum.ieee.org/llms-for-chip-design
+  3. Cloudflare Quick Tunnels
+     https://try.cloudflare.com/
+  4. Saving another 100TB of RAM
+     https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/
+  5. The Farnese letter
+     https://simonklee.dk/farnese-letter
+  6. Xcode 27.1 Beta Release Notes
+     https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes
+  7. How to Write with an LLM
+     https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/
+  8. Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)
+     https://arxiv.org/abs/2510.03215
+  9. Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug
+     https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/
+  10. Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash
+     https://cactuscompute.com/needle
+
+【Zenn】
+  1. 既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ
+     https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms
+  2. Cloudflare WorkersでJevを使ったら高速か検証してみた
+     https://zenn.dev/henteko/articles/1d159d10413312
+  3. Jevでハーネスエンジニアリング
+     https://zenn.dev/watany/articles/36e11a20ce3743
+  4. 全社に OpenCode + LiteLLM を導入してコストを抑えつつ AI 活用を進めている話
+     https://zenn.dev/jtcc/articles/7e74fef42580a1
+  5. 認知負債の未来は？
+     https://zenn.dev/kabeya/articles/future-of-cognitive-debt
+  6. jev 同士に五目並べで対戦させた
+     https://zenn.dev/mizchi/articles/jev-plays-gomoku
+  7. Xcodeのプロジェクト設定をJSONにする
+     https://zenn.dev/d_date/articles/b1a7baa74b77da
+  8. C# と Luaで何かやってみる (LMStudio&Python)
+     https://zenn.dev/baleenstudio/articles/67ddfb62c4e2fb
+  9. 気軽にDGX Sparkでapt upgradeしたら壊れた話
+     https://zenn.dev/alpha_omega/articles/3f3ea4d14a0234
+  10. AI ネイティブなデータ分析基盤を作った話
+     https://zenn.dev/pksha/articles/5a1dc6470019d6
+
+【Qiita】
+  1. Jevとは何か？ 従来型LLMやAIエージェントとの違いを理解する
+     https://qiita.com/nasuvitz/items/44f20ed515b9734afb26?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 元ヤフーエンジニア社長が考える、AIを使いこなす人と使えない人の決定的な差
+     https://qiita.com/ryoheiiwamoto/items/b5805321eaef46b75459?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Write() で拒否しても、Claude Code は12回とも書き込んだ。効いていたのは Edit() だけだった
+     https://qiita.com/suwa_nobu/items/e867493a5cbcdfaa40c9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 話題のJevとは？文章を書かずに判断だけを返すAIモデルをざっくり解説
+     https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Unityの1万超アセット配信を3時間→13分にした設計
+     https://qiita.com/harusann2/items/50d638e7a3c2d76e0531?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 「AI があればプログラマーはいらない」という風潮が危険な理由
+     https://qiita.com/tomokusaba/items/a63285193c854a3b19da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 元ヤフーエンジニア社長が考える、AI時代の採用基準
+     https://qiita.com/ryoheiiwamoto/items/7f388029f8821fc3ea6c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「LLMじゃないAI」が来た! TypeSafe AI「Jev」はなぜ文字列生成を捨てたのか
+     https://qiita.com/shinkai_/items/61994be44d61c76716d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. Figmaの同時編集、なぜこんなになめらか？CRDTに着想を得た同期設計を公式ブログから読み解く
+     https://qiita.com/keishin_nishiura/items/4e65bc9f74966920d625?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【Jev】文章を返さない判断モデル Jev とは？〜システム運用での活用方法についても想像してみる〜
+     https://qiita.com/ryu-ki/items/e3fe99b5f6704d08a19b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. 9月18日のMicron Technology Inc (MU) 値動きは3.10%上昇：主な推進要因が明らかにされました - TradingKey
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxQOXNiSW9vbVVEQXk0blEtWEdrdGdIVGJIZENEZ3pIODdpd3FYc25IVldFWVd6RzE4VndTTXVSVmtHb0lxVlR4eUxqQjg1MVFScjZhYnZXT1FuOVpUYmZBS0NvdXhqVHJXWlQyendKTzhPNFpBYWRIOUpjZllaTXVUTkx0WWdBVnI3SlhFLQ?oc=5
+  3. Partner content - Embracing technology to simplify CSRD reporting - Reuters
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE5EUEpjSHg3TU55T1ZvRE9DNUhRQTV6bFphTEh5dTlONHd0WXhuY0VtVHZxelVfRGNRMmV3cVR0TDlPNmxoNm1zRWtHSjI1ZWZxc2FPRXFUaUd2MElqeWVBdmNGUmo0QTdmU2NN?oc=5
+  4. メルセデス・ベンツCLAシューティングブレーク初の電気自動車「with EQ Technology」の日本発表を祝う特別限定車が登場 - caranddriver.co.jp
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sdUxFbDA2YkxHR3pEZFh4MVUxVlhPVm0xVENOQmxvYkFrMXR6dGQyc3pQSnFwR1c1WGlROEhTWXp3a2k0TjFQaUg4Nmp4dE9EMnZtSG5nRjI?oc=5
+  5. Phaos Technologyが関連当事者関係の終了を発表 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE43SGt0aEQxTVlpTG5IbVZVYkZhT1FIQ2VDS3pMTlZLQ1lCcE1zeHNteVFnM2NNM0JVYktjeEhmaFltOFZkaUs1Z0xvb29PRHh0TEJXc3phR0NjUXFodTlLZ0FQRWlmUmpER254VG5nMnk?oc=5
+  6. 2026/09/18 東リ 新製品展示会「TOLI DESIGN & TECHNOLOGY」東京で開催 - online.ibnewsnet.com
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YNC1BTGtGcHRXZGhpVnpPYWhwOTk2Y1VNd3BsNDlEWDVvMllTdjJUUUZxUUk3X3NiM1J1cU9YNVVWOTVZXy03OXBvZnVsQkJHTjBTRHJRTUJKVWFZ?oc=5
+  7. 金力永磁：关于终止认购澳大利亚上市稀土公司Hastings Technology Metals Limited股权的公告 - Moomoo
+     https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVFN4MldCTE91VS1jSjdCbTBSQUdIMnRQM28xYWRaYlg4X0g2UmRFZTFkVUswZjhIbmRUM3g2TVFzZHBwWXRoOXNVWVphbU1DU1M3bFY0Y0dXdVR4MTVWSFdVMGlVNnpWSUJoQlRnZS1KdlMtc1BNYUE5NGxRaXB3N1daQVNEdm5KTmszSWRvOTVkRlgxVFMzc0RZZG5wZFZtc0ZQZDFuZWw2M3pWUUJVUnlNaVBIRTZsZ3QxZXFZZFk5Nm91Ukxkdg?oc=5
+  8. New Peer-Reviewed Study Confirms Innovative Technology Shatters ESR's Four-Hour Deadline - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE96bTVIa0RMdzhGSXZMN3Y3cUhId0V0WktTek5rNXM4MGM5cUlNN0JGQzRMcjVWaWo4UExLSEx4dE4xZzMwX1kyQTBQZXQ1alhzdTVTaHc3azNpMFE?oc=5
+  9. サービスが十分に行き届いていない市場に独自のテクノロジーカテゴリーが必要な理由 - forbesjapan.com
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPM1VONTNLbk9OV1lRNm5oR0pXWlZ6MDBOUy1wTUtjUy1QaVp2LWNCOXF1N19aS3JVSE1LMmk3UnZESndmTnYwVFpxajUwbVB1aTJhOWY5a1FPQQ?oc=5
+  10. AIエージェント時代、企業はAIコストとどう向き合うべきか - dir.co.jp
+     https://news.google.com/rss/articles/CBMid0FVX3lxTFBMYUd4MXktTm5jVEdwSFpoOUEybXdIbzl1MjRkRmpDTlBxTmhiclRxeUxmb3B3VHpfTE1uV0pGaU5fU3FpRnprSTRLRXJ4Q3g5QWFwM2NlYjFrZlZOOXllU1EzcVpkUXVRQ3U0MGJ6SktpQlRsRlVV?oc=5
+
+【Google News (Business)】
+  1. 各社決算で実感する薬局のビジネスモデルの終焉 - 日経メディカル
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2N6dVhpc1A5ZUliWVpHTGNpRzluR3Nya1ZTcDhwd2pQOTI1ME4yb0xJR2dpbWpiYjFqcjJzN2RrajFJR0FsOG1ZVVJfRUdYa282Zm0ydWNiNERfYzc1VHlhSzg5eGlROG9VZ0NWTHFHRUZUUE8wME9tdldVRlVfTTZQSmczUQ?oc=5
+  2. 第23回「スティービー（R）賞女性ビジネス部門（Stevie（R）Awards for Women in Business）」ファイナリストが発表 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ScEw0NXJQamljOVhLVm5PS09UcVRjTE5yUm52QTFTQmM3VVFKTWhjelQwWVNFRFJ3VlVMMUJkYXhVNkVuQkdIRnNxTzlaLVdsTmxrTXhfS0U2ZzRtcHc?oc=5
+  3. ［連載小説2］フェアネス室・森村透子、内部通報「20件に1件」を見逃すな - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14SV82ZjNwUUhYWnRFUmhpUDF6bEZNNEpERFNIYzZ4RWZKSTdNT3JtNDRmWDVwYjRITWpmQXloNWt4Qnp1N0pPQ0hCMUZUUC1sTnZfNXV6U3BWSFZaTE1lZUxjS3ZfOFk?oc=5
+  4. 「giftee for Business」の導入案件数が累計86,000件を突破 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5ReGdMQ3czbHdSYWFnckh3MWx1a0J5TUNxckJUMkpBeWtjQ1Y1MWZneU9KSktua0RkbDJKQzFnQm80YTYwek5JS2lNQnlGc0I0Zk5FUDhKV2J5ejBnZ215S0diSkc1VTMzSFE?oc=5
+  5. 企業が「活躍してほしいと思う年齢」平均67.9歳に 業界別で最も高かったのは？ - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBQTXE1ejFVU0o5aUltN3Rvd2JaM3I3aWVFVkpnUW0xWldOVHFQWjIzZlcxSUpSamZjWWxDQ3BSbWRQdFYtZzhxeFNwdXF3SlpkV2d2dzBpbDlpdm1sNzltT2hiSU5oeTFPdVVTSGJJdXZLdw?oc=5
+  6. ビジネスホテルに聞く お客さんにやってほしいこと・ほしくないこと ベッドメイキングのコツ【みんなのハテナ】 - KSBニュース
+     https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OOFlXeUF1XzdBbHlQQV9zeFBjN3JGRXhxNlR0WHlIVmFRVTlnc09oQW5ERVRtb25Vbjl4ODIyblhQUWs3dDhqeUZONE94WDJU?oc=5
+  7. 【新常識】コンテンツビジネスを「一発勝負」にしない経営 - newspicks.com
+     https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcGhJNmRIWG0tZXJKUUF2MlpLdDF0dFpkNzRIVDZNdTdUR3o3d1ctcGhDd2h5bkoza2VrSWpWbWtORzl4YUFnUTNEQ3lIWmZFUldwektTRlJKWUdfWTVJbkc4dGFxcjl4cDczMnRMb1kzbDlSR2l1ano0TjRXZVVsa09nN3ZyQWlBUnNXLWJKSlpCUFVVaHloWGJaSmliZU5FQVBGZ1dENXdRcVhLSTRfV1h2akVHZnNjSTZncFdJN3JPSHRPRXZrQmVRZlZCRVdKbkxFanZMT3ZBNFJiWTE2aUZfbmUyMjNsdnAtQ0Jn?oc=5
+  8. 京阪神ビル(8818) 米国アトランタ都市圏における物流倉庫「Buford Creek Business Center」竣工のお知らせ - みんかぶ
+     https://news.google.com/rss/articles/CBMiRkFVX3lxTE1jZ0VvR3VUNXU3ZkRiVEZ5WHRzUEZZT1hOeGNlMFRBYjc2REMzaTFGNXkwUzRwYVRlQlg1ZXRxSmw0SHJwbmc?oc=5
+  9. ドンペンは神！ポリンキー売上180% 企業のキャラクタービジネス最前線【THE TIME,】 - article.auone.jp
+     https://news.google.com/rss/articles/CBMibkFVX3lxTE1PRzBDZTNPU3Q3M0RWNlpRSkgzTjBXWDQ3a2RNcEg4TmFTUEl2VHlTVzlxeF94VVhJNDBPY3duVjRWQlhwaE5TOUo4WjhKSVk1YnZJWmZqNXktN0x4elNzdmJiU0I4czVWSkI4d1ZB?oc=5
+  10. AIやSNS運用の「ビジネス講座」のトラブル相談が増加、国民生活センターが注意喚起 - Web担
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE55UldDei1aakJlSWpQTWExWlFpcDJnaU1weGRvbk1pdDRIQ0FNalI5VUYyNlNBQ0JiT2RnUW4wa1FObEJULTUxak1oMXRsTEZWRVlraFN3ZGtCRGs?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar | FCC rejects concerns about repressive governments buying influence over CBS owner.
+     https://www.reddit.com/r/technology/comments/1wk0uuy/fcc_lets_paramount_sell_495_equity_stake_to_saudi/
+  3. Anthropic has quietly built a biology lab, Reuters reports - The company confirms the wet lab exists and says it is not specifically for drug discovery.
+     https://www.reddit.com/r/technology/comments/1wk51pv/anthropic_has_quietly_built_a_biology_lab_reuters/
+  4. US chip fabs face massive 157,000 worker shortfall, mere 3% of US engineering grads enter chipmaking — despite six-figure salaries, US chip manufacturers are in dire need of engineers and technicians
+     https://www.reddit.com/r/technology/comments/1wjp1yc/us_chip_fabs_face_massive_157000_worker_shortfall/
+  5. FBI warned ICE agents could be targeted by fake ‘tradwife’ dating profiles — Internal memo said women wanted to dox and ‘embarrass’ agents, but provided few details
+     https://www.reddit.com/r/technology/comments/1wk5dob/fbi_warned_ice_agents_could_be_targeted_by_fake/
+  6. Microsoft exec says AI training might be the "largest labor theft in human history
+     https://www.reddit.com/r/technology/comments/1wjsq57/microsoft_exec_says_ai_training_might_be_the/
+  7. Brendan Carr’s FCC is more worried about who The View interviews than foreign governments owning Paramount / The commission is waiving its rules to let foreign wealth funds own 49.5 percent of Paramount-Warner Bros.
+     https://www.reddit.com/r/technology/comments/1wjsz2r/brendan_carrs_fcc_is_more_worried_about_who_the/
+  8. Gemini hacked three companies in first known breakout by Google's AI, WSJ reports
+     https://www.reddit.com/r/technology/comments/1wk5mff/gemini_hacked_three_companies_in_first_known/
+  9. Microsoft’s Own Executive Called AI Training “the Largest Theft of Labor in Human History”
+     https://www.reddit.com/r/technology/comments/1wjzumd/microsofts_own_executive_called_ai_training_the/
+  10. More and more people believe that AI will take away jobs rather than create new ones
+     https://www.reddit.com/r/technology/comments/1wjy4ys/more_and_more_people_believe_that_ai_will_take/
+
+【Reddit / business】
+  （取得できませんでした）
