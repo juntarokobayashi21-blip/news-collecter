@@ -1,0 +1,100 @@
+============================================================
+  トレンドニュース - 2026-09-24
+============================================================
+
+【Hacker News】
+  1. Meta VR Glasses
+     https://www.meta.com/vr-glasses/
+  2. Linux support is coming to Snapdragon X2 Series
+     https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux
+  3. Claude discovers a novel enzyme system with CRISPR-like repeats
+     https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+  4. VSCode's SSH Agent Is Bananas (2025)
+     https://fly.io/blog/vscode-ssh-wtf/
+  5. ArXiv receives multiyear commitments to support it as an independent nonprofit
+     https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/
+  6. We just shipped support for the ugliest part of HTTP: Vary
+     https://blog.cloudflare.com/vary-support/
+  7. Mercury 2.5 LLM hits 770 tokens per second
+     https://artificialanalysis.ai/models/mercury-2-5
+  8. The "Windows XP Box" (2003)
+     https://www.mini-itx.com/projects/windowsxpbox/
+  9. Fixing the Portobello Police Station Clock
+     https://pointinthecloud.com/2026-04-11-211700.html
+  10. LensVLM: Compressing long context as images, expanding only relevant pages
+     https://huggingface.co/apple/LensVLM-9B
+
+【Zenn】
+  1. 【.NET】参照代入はただのコピーじゃない？ GC write barrierを調べてみた
+     https://zenn.dev/aakei/articles/dotnet-copy-split-write-barrier
+  2. UniFiの固定IP事情[後編] OCN IPoE固定IP1をcronで自動化して無人で回した記録
+     https://zenn.dev/nwsejp/articles/unifi-japan-static-ip-operations
+  3. Claude Code の Remote Control（claude rc）だとアーティファクトが使えない原因と対処
+     https://zenn.dev/zozotech/articles/0a7eb12ee4343e
+  4. Claude Opus 5.5によるピクセルアニメーション生成の検証
+     https://zenn.dev/aki1990/articles/1bc5c181ad19f0
+  5. B+ツリーが速いのはディスクのI/O単位に形を合わせたから
+     https://zenn.dev/ippe1/articles/why-db-uses-bplus-tree
+  6. <session>.jsonl を読んでみる
+     https://zenn.dev/yando/articles/fdbe38474378d2
+  7. Opus 5.5とGPT-6 Solの使い分け：「どうしますか」が減った話
+     https://zenn.dev/hjpotter1/articles/e1278d79045de9
+  8. golang：環境構築のあと、モック・リバプロ・SPAを作って遊ぶ
+     https://zenn.dev/wsuzume/articles/e84cb470004292
+  9. 【AWS 障害対応】わざとアラートを出して復旧する自作自演やってみた
+     https://zenn.dev/silver252/articles/7ca85e26f9a6e5
+  10. Next.js vs TanStack Start の違いを10項目で検証してみた
+     https://zenn.dev/643866/articles/48eae6e7b845f8
+
+【Qiita】
+  1. 50代プログラミング未経験者が7年かけてAtCoderで入緑した話
+     https://qiita.com/rinrion/items/b381ccf563d6d8e96ce9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. JevでRAG検索の爆速化＆コスト削減は実現できるのか検証してみた
+     https://qiita.com/kikuziro/items/2be9091b328d8b844640?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. みのるん式 登壇資料の作成ノウハウをスキルとして公開しました！
+     https://qiita.com/minorun365/items/ed4c760f616cf3c0a958?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 生成AI を使ったら著作権侵害になる？ — 4 大リスクと対策を LLM のメカニズム・法務・補償条項から整理してみた
+     https://qiita.com/songchong/items/7306e0b1a9207e08d86e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 攻撃者の視点でセキュリティを理解したいエンジニアへ。bashで学ぶ侵入技術の実践書
+     https://qiita.com/yasu1109/items/1002367721b1650fcdf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. MCP サーバーと繋いだだけで情報漏洩？ 危険の4パターンと事前に確認すべき7つのことをまとめてみた
+     https://qiita.com/songchong/items/89175eaa7a30f71d0351?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. ローカル動作するJevっぽいものを調べてたら、なんとマルチモーダル対応もできてた！
+     https://qiita.com/moritalous/items/41c9402a5dd9d80fc7a9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「なぜか読まれない文章」の正体をSudachiPyで解析したら「漢字率」のゴールデンルールが見えてきた話
+     https://qiita.com/taihong/items/e8cf442b5ace978e22b5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. エンジニア不要論の真実！AIの進化と具体抽象から完全解説
+     https://qiita.com/Sicut_study/items/b2ef2f7a6ee0dbbf0001?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【AIツール37製品】社内AI の会話履歴は、上司や提供元が読めるか？いつまで残るか？ —「履歴を消した≠記録も消えた」5通りの残り方
+     https://qiita.com/songchong/items/5aa4bc07279ea271909a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  （取得できませんでした）
+
+【Google News (Business)】
+  （取得できませんでした）
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. DoorDash Spent $1.4 Million Trying to Stop Mamdani From Becoming Mayor. Now We Know Why.
+     https://www.reddit.com/r/technology/comments/1wod97k/doordash_spent_14_million_trying_to_stop_mamdani/
+  3. Woman Arrested, Dragged Away After Quietly Speaking About Flock at City Council Meeting
+     https://www.reddit.com/r/technology/comments/1wo98cp/woman_arrested_dragged_away_after_quietly/
+  4. This guy has spent two years hunting fake job listings on LinkedIn, and found 60,000 of them
+     https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/
+  5. NY Mayor Zohran Mamdani Blasts Paramount-WBD Deal As “Shameful Monument To Corruption”
+     https://www.reddit.com/r/technology/comments/1woj3cx/ny_mayor_zohran_mamdani_blasts_paramountwbd_deal/
+  6. Amazon is trying to rehire workers it laid off, emails show
+     https://www.reddit.com/r/technology/comments/1wo49k1/amazon_is_trying_to_rehire_workers_it_laid_off/
+  7. Owners mourn spoiled food after firmware update bricks Samsung smart fridges
+     https://www.reddit.com/r/technology/comments/1wodtx0/owners_mourn_spoiled_food_after_firmware_update/
+  8. "The refrigerator is dead": Samsung's AI fridges shut down after update, causes outrage
+     https://www.reddit.com/r/technology/comments/1wo5ky9/the_refrigerator_is_dead_samsungs_ai_fridges_shut/
+  9. Soldiers can refuse to commit war crimes. Can AI? | The Pentagon wants AI models that can't say no.
+     https://www.reddit.com/r/technology/comments/1woe97n/soldiers_can_refuse_to_commit_war_crimes_can_ai/
+  10. OpenAI hacked Medicare portal, Australia Prime Minister Anthony Albanese says
+     https://www.reddit.com/r/technology/comments/1wojgzr/openai_hacked_medicare_portal_australia_prime/
+
+【Reddit / business】
+  （取得できませんでした）
