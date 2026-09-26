@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-26
+============================================================
+
+【Hacker News】
+  1. Revealing the details of how OpenAI agents hacked Hugging Face
+     https://swarmtraces.org/
+  2. Ollaya – Ollama for open-source, Jev-style decision models
+     https://ollaya.dev/
+  3. Show HN: Jev Plays Pokémon Red
+     https://jev-pokemon.vercel.app/
+  4. What even is an OS now?
+     https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/
+  5. Plan mode is dead
+     https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html
+  6. Platform-independent SIMD in Go
+     https://go.dev/blog/simd-experiment
+  7. Excel now supports multiple values in a single cell
+     https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395
+  8. Git-bug: Distributed, offline-first bug tracker embedded in Git
+     https://github.com/git-bug/git-bug
+  9. Remembering Johannes Doerfert
+     https://blog.llvm.org/posts/2026-09-24-rememberingjohannesdoerfert/
+  10. Gravity seems holographic. What does that mean for reality?
+     https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/
+
+【Zenn】
+  1. Vercelの「インポートできます」メールは何を見て送られてくるのか 61リポジトリで確かめた
+     https://zenn.dev/devuloper/articles/vercel_import_candidates_email
+  2. Jevにゲームをやらせるな！LLMを蒸留してみよう！
+     https://zenn.dev/nwn/articles/e49154653ecea9
+  3. 無料の技術イベントは、無料でつくられていない
+     https://zenn.dev/sun_asterisk/articles/free-event-not-free
+  4. 情シス依頼の一次受付をAI Agentに任せるっきゅ！
+     https://zenn.dev/mkj/articles/4477dd49091031
+  5. /claude-api prompt-audit で棚卸ししたら、Claude Opus 5.5 化で外れた設定がぞろぞろ出てきた
+     https://zenn.dev/nanora/articles/20260925-claude-prompt-audit-opus55
+  6. ステートマシンでフォームの分岐を管理して失敗した (データから導出できる値を状態にすべきでない)
+     https://zenn.dev/bita/articles/f1872707871b2c
+  7. 11年生本番データ飛ばす
+     https://zenn.dev/ficilcom/articles/prod_db_reset_incident
+  8. Angular: プライベートフィールドの意味論再考
+     https://zenn.dev/lacolaco/articles/angular-private-fields
+  9. 王の凱旋—Opus 5.5 React習熟度ベンチマーク—
+     https://zenn.dev/uhyo/articles/react-profession-bench-17
+  10. age40 - 30代でやってよかったこと
+     https://zenn.dev/dress_code/articles/2026-09-24_age-40
+
+【Qiita】
+  1. Claude Code の拒否ルールを7つの形で測った。最新版でまだ4つ残っている
+     https://qiita.com/suwa_nobu/items/d21ff35b9329eecc6143?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 許可ルールを settings.json に書いても効かなかった。分かれ目はフォルダを信頼したかどうか
+     https://qiita.com/suwa_nobu/items/92d4de34077b9ae02fca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. Claude Opus 5.5 の「40%安い」は、キャッシュの当たり方で24%にも59%にもなった
+     https://qiita.com/suwa_nobu/items/870b1d6c5502aca68f55?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 管理業務～私の実践～②
+     https://qiita.com/wawasaki2468/items/4591be7133e2f9d1d3cd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. JenkinsのPRレビューでテストとセキュリティスキャンも回す ― AIのAPPROVEを機械的に覆すMineWatchのCI
+     https://qiita.com/jqit-yukiono/items/8675266928f574677d9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 個人開発でApp Storeリリースフローを学ぶ（三部作）― 本番だけ静かに壊れた、CI/CDの2つの事故
+     https://qiita.com/jqit-yukiono/items/21973aaa1c605b34c174?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AI生成そのままのスライドを使った登壇が多すぎてちょっと食傷気味なんだよォーーーッ！！！
+     https://qiita.com/shimagaji/items/8acd9b94dfe56fefc0dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 攻撃者の視点でセキュリティを理解したいエンジニアへ。bashで学ぶ侵入技術の実践書
+     https://qiita.com/yasu1109/items/1002367721b1650fcdf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜
+     https://qiita.com/ast-24/items/454fc975b095230565c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. その仕事、本当に「Skills」で再現できるのか考えてみる
+     https://qiita.com/Takashi_Masumori/items/4fbf6144f4cab3f00123?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. シャルジャ、2050年ロードマップでテクノロジー分野における女性のより主導的な役割を提唱 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCV3VtbUIydGhSMFVIVW9iSjBISFpwQmgyMGhCLUdUNUY1UE5WMEVNRmhKMkZ2QVN6ZjBDRkdfRkRRdk9wSk52bUlJVHJUNUlEWjh1RDZIVkV1VUNlX2JqTzVxTQ?oc=5
+  2. 3位「無人運転」、2位「フィジカルAI」、1位は？ “5年後に期待”の技術トップ10 - 日経BOOKプラス
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE1oR2poVnljUmFHdTFocUlDdnlycHRoSmh6dmVqS0dTVkJRTUtrRHpZdUVobU1UUW9BUGlyalVoVnlhMFFpSkl4TnpwZjlrVGNUOC1ISFBpMlFQUS1WM0FTQkVia3lfajdrYkxVTQ?oc=5
+  3. AIが生物兵器を生む日——6時間で毒性分子4 万個の衝撃 - technologyreview.jp
+     https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHNyQnVEWk1yR1RwRWdwZloyc05hdkRDV1hYRWxST3FDUWF2dXZEdTN3MW42dXZ4TnVJYzdaN2RJNVItcy1GNmljcFhVd3MxZVNPbFIzYnNXWWFjMnpvdmVES0VSNUNYaFlUWUVMUWticzNESEFqUjJLNFBlVVp4NTRMbE1RMWdnOENLUWh0emwzeVJWOGZ5VHlHQW00UHJrLW4wRWliNGhIdVlh?oc=5
+  4. AIが半導体の回路を自動設計、本田技術研究所も評価するケイデンスの新技術 - news.mynavi.jp
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IRnVnQW1aMVFRWXBOUVlLWTlVYWhjRHdobk1mUjVaemoybnM3bV9FRTJIQVVPbVV5M1VqZmMxdmRZcjUyb29zN2ppZFpxRXJBdkFrLWFFcE80cU1qak1zeUVuTTZhZnJM?oc=5
+  5. 長野県「初」のAI・テクノロジー大型カンファレンス。善光寺の門前町で語る「AfterAI」の未来 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE1BZExUWlVHMzV5b29pQ3BMSVl6ZnRwX09IdERvZ29SX3k1OUg4R3ljTVFMTTctLVYwcjYtQ24tTjYzN1ZEX0E4LTByV1dhZWtLeEZMTkg4OUhqdWpjTF9tV2k3bFM2NUxNcXVJTA?oc=5
+  6. 社内の技術・特許から事業化までを内製化する検証プラットフォーム - ASCII.jp
+     https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZbERwLV9WV2FtelF3aTFmNjd0bVhNY09XckRSVEduaHBWMXd0dG9vZzg3R200WGwxeXB5ZnBteWxYeHVwMEFTaFBka3NOeG9LSEFpOQ?oc=5
+  7. 科技庁、先端技術の支援拠点を拡張 - nna.jp
+     https://news.google.com/rss/articles/CBMiRkFVX3lxTE11Ml8zMEFJNkFQak44NzBISFE0VHJVTTBqcU9BbVRBQ1dBYmFvZ3NydE8zRWpwdzhHdFFwaGktcjZqRDBNVVE?oc=5
+  8. K&D Technology、FINETECH JAPAN 2026に出展 - Infoseek
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBna0Y2ZlROdVNqQUVlUzBxYVdwa2dLdTZYV3UtMEIzdlZkNjFHODRCRExtMUpKdGVoQ1NxWGZ1X3dmWWRzamFTRHk1NVVueEU3Vzk5c1A2V29TcnoxOG5xUVhsbUwyNkFHdVVaTFZobjQ2dw?oc=5
+  9. 車載ソフトウェア開発企業 xTour Technologyへ出資 - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5zQ2pzRXVoX1ZnTjl1end0dlBXem5vdkFzM0ZMb3BBMDhxdEp1SHBfVHdDTXJ2bXZVQWxOMHVrbkFNTTFlMkVnSzRScHlfWEZ1Y3hUbWhyYkdGRHZXOU15WXBlaXBMLTdBaWc?oc=5
+  10. 主張：「超知能」近づく？ AI 企業の誇大宣伝にだまされるな - technologyreview.jp
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxPLV9aaEpleTIyUzkyZ3hMVkVEVXZza0c1dWhmcjVwdjVDTE5ObGdqUGJDRDJPWFp5b1ZjNUhROUQ1cWtpdy1WbnV6U0JvT1FVU0xJVkhONkhYOTdOOHFVSjZjeWNIc0tSRE8xeUQya0JQVXRQOXR2eWlzQzNsX3FiYkg4UzRDMGdSTUE?oc=5
+
+【Google News (Business)】
+  1. トヨタ新社長にソニー…なぜ今、企業トップに「CFO経験者」が重用されるのか - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxOTzVPNGZ0S3hfUzRCcVhOamhpNktfdFh5V3pnNTZJX3ppbEtMaUJnRzR1Y2tmWnZ3Y2ExVFJPQzlFc0hTUGltdUpMVEtRZEtEZzFoaVVaUjdVSl9OOE1udjg3Q2k5NDZpZ2pZSEhicURaOWg4OXI2SXVqUUxsRjR6UWZ6SklZRjU5d1E?oc=5
+  2. IoT向けNaaS「docomo business SIGN」、MEC/GPUでAIアプリケーションを実行可能に - IT Leaders
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tWWRRUmhXVjdycTQ1RDdGMS12V2pTUkpDMjAxWExSbHFLNDJCY01hLURUR2ZTaExtMUo2ZGRjZHBfZzZLNXdRSU1rQVNCTGFTdXdv?oc=5
+  3. 年収1000万円の運送ドリーム、夢破れたトラック運転手はタクシーへ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QS0lpb01NX2YzUEdFY0J2RkU3d0U3REs5cGNLYUU4aTJ4czZmNHpOVE5BdTZiMUV4cEJsYTZ4R09XY0djWVRnX1pCUXJTejNWWlBRRjk2bjc4Znp1dFRIWWJmREdGLUE?oc=5
+  4. 永守氏「全員やめてくれや！」――なぜ優良企業は“ブラック企業”に変わるのか 「4つの型」から見るニデック不正 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE9ORnhiS3BnRXcyLWI3Qy1TZUdxanpyTkUyNnlQOWloRTdnTWJKWDMza1c3ZFNfbVNUNUh5QjlDNEJLT0hCcDVzMWRPNlBQYUV1VFNiOTAwWktGQXFRbV9SOHcwRGR5RmxzVzNFeHpZQWRwUQ?oc=5
+  5. 日本初の、ウェルネス事業共創プラットフォーム「Wellness Business.jp」2026年9月25日に正式オープン！ - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5qTHRCeVUwOUYwZlJmckxSUHNGZjFuenpteVh0OUc5YXctQVpEMUpFa3ZFNUJKU2k0Z0FwRzVsRXZVVjZ6bk80dHNlbHdYTlVaVV84eFA1dnY2S09DODByNTJvdV9aY0tVTkE?oc=5
+  6. ｢好景気でも実感がない？｣企業が賃上げを渋り､政府が減税で肩代わりする"ココが変だよ日本"（東洋経済オンライン） - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMigwFBVV95cUxObnF5YXI3SU5rX3RMODZOZVpXVjdQMVg0Z1pxYjhNcDh0YlNISDBWNzZmM01mT1ktSjhrYkxfTU1JaFBId2RLanh5MXA5Q1A2bFViTS00UEtTR1UweTJTeElwcTFMZzNUVncxMTVEOVNuVHFBdWhTMnc4ZXFMSC1sbFlSdw?oc=5
+  7. ロシアの資産没収、大手企業の中核事業投資を抑制＝国営銀トップ - Reuters
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxQb2w3akJ1dExVdEZ2WnF5RU9JY3lkMFZFXzZ3TGlxQldhLUN2T1VJcm1VRm5iVWUwRHBjOHJTNVR3TTRQVFJmci1YRW9aS2hxZGVhNmZobmRSV19CajdmRmlpOXQ1WGhXbzZxX0l6NnZNWmpZT2NOV0ZzS3VOTV9CN2RHOW9vZw?oc=5
+  8. 事業戦略と人事を「仕組み」までつなげて開示、上場企業ではわずか1.6％――スタンダード・グロース2,140社の有価証券報告書を調査 - Manegy[マネジー]
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EcjluNHh6WFZGR1VPLWdwQngzbWt5bDFOVHk1RjJwMldNWVcwWk8tajFHSW9rRHdHX3NtaWhIeGRoMlA0bEFqaXQ1RVVzM2VucXlv?oc=5
+  9. 「エコ」を収益やブランドなど「企業価値」に 博報堂が仕掛ける循環型ビジネス - kankyo-business.jp
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE10NlRvV1plUmUwSVNHZm9kbDdIdk14cnJtRWZ6d1dwUXBKVHk5UU5VblBPZjBEUG44ZURlaXpUaGhmeXMtRmZzcmVhdTFUWjRtNmRNbUlwbG1pNlpGOXJTVlAwRGQydUlDNkVGWEJhNmNUaGlRc05OTjd2ZDc0YjQ?oc=5
+  10. 100年経営「老舗企業」の倒産動向調査（2026年1-8月） - tdb.co.jp
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFAyaDF2ZzZnUEFWYTdFaFB5UTRPdmEzLW0yWHlKY0pKTXg5WFE1MWs4UXNXSmpTb0VoMlFDb0RBblpFSVlNeklyUGlSeUd5LU15Mm1JNnFBaVJRcS1mZGh0UGd2TGh1U3lRSE9uTm5EMUM4aDFF?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. Mark Zuckerberg Loses $9 Billion in a Day as Goldman Sachs Pours Cold Water on Meta Stock Rally
+     https://www.reddit.com/r/technology/comments/1wq55yj/mark_zuckerberg_loses_9_billion_in_a_day_as/
+  3. Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline | A security researcher’s map revealed more locations of Flock devices than any other. Flock is trying to take it down
+     https://www.reddit.com/r/technology/comments/1wpyzn4/flock_wants_the_most_detailed_map_of_its/
+  4. US being left behind in EV charging speeds as China goes sub-5 min to 70%
+     https://www.reddit.com/r/technology/comments/1wq4sxc/us_being_left_behind_in_ev_charging_speeds_as/
+  5. Americans are panicked over AI and affordability. Don't worry, the Senate is tackling college football
+     https://www.reddit.com/r/technology/comments/1wqaiob/americans_are_panicked_over_ai_and_affordability/
+  6. AOC, 9 other House Dems sign on to AI superintelligence ban
+     https://www.reddit.com/r/technology/comments/1wq9xaj/aoc_9_other_house_dems_sign_on_to_ai/
+  7. The Netherlands joins Europe's gradual migration from Windows to Linux on government PCs
+     https://www.reddit.com/r/technology/comments/1wpv9od/the_netherlands_joins_europes_gradual_migration/
+  8. Russian disinformation campaign sets sights on US midterms
+     https://www.reddit.com/r/technology/comments/1wpshyi/russian_disinformation_campaign_sets_sights_on_us/
+  9. Temu axed its $1 billion network of fake influencer accounts on Meta
+     https://www.reddit.com/r/technology/comments/1wq1yzz/temu_axed_its_1_billion_network_of_fake/
+  10. Federal judge blocks Utah’s VPN update to its online porn age verification law
+     https://www.reddit.com/r/technology/comments/1wq95io/federal_judge_blocks_utahs_vpn_update_to_its/
+
+【Reddit / business】
+  （取得できませんでした）
