@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-09-29
+============================================================
+
+【Hacker News】
+  1. Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms
+     https://github.com/firelex/jeff
+  2. Pirating the Pirates
+     https://mubi.com/en/notebook/posts/pirating-the-pirates
+  3. 12,000-year-old Göbeklitepe burials explain scattered bones
+     https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/
+  4. 1996 chat room simulator connected to Win95 and System 7 web desktops
+     https://lolchat.rip/
+  5. MicroLLM Lab – Try 7 tiny LLM's in the browser
+     https://stateofutopia.com/experiments/microllmlab/
+  6. Scientists solve 1840s space weather mystery
+     https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/
+  7. Sonnet 5.5
+     https://www.anthropic.com/claude-sonnet-5-5
+  8. World Labs Is Joining AMD
+     https://www.worldlabs.ai/blog/amd-announcement
+  9. California farmers are struggling to sell grapes as demand for wine drops
+     https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops
+  10. ESP32S3 cluster running 1.58-bit (BitNet) Language model
+     https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster
+
+【Zenn】
+  1. Playwright Test Agents × GitHub Actions：E2E テスト生成・修復の自動化
+     https://zenn.dev/sun_asterisk/articles/e9b50f09839def
+  2. 探索できる人は何をしているの？『Explore It!』を読んで
+     https://zenn.dev/knowledgework/articles/6996274de49607
+  3. Kubernetes 1.37: SIG Appsの変更内容
+     https://zenn.dev/musaprg/articles/kubernetes-changelog-1-37-sig-apps
+  4. そもそもClaude Codeのエフォートってなに？
+     https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained
+  5. SOLID 原則と型の持つ責務
+     https://zenn.dev/sator_imaging/articles/834240491191ec
+  6. すこし踏み込む CancellationToken
+     https://zenn.dev/poipoionigiri/articles/3826f7675d39fd
+  7. VS Code の Claude Code 拡張機能、なんか更新多い…？
+     https://zenn.dev/headwaters/articles/15875671106c54
+  8. Platform Engineering Kaigi 2026 登壇資料まとめ
+     https://zenn.dev/key60228/articles/d4f2591a42a876
+  9. Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索
+     https://zenn.dev/mazrean/articles/bd9b563ace18db
+  10. 人工知能と小説新人賞審査
+     https://zenn.dev/enjoetoh/articles/ai-as-literary-judge
+
+【Qiita】
+  1. 自分の頭で考えることって重要だよなと改めて思わされた話
+     https://qiita.com/ike_s_muramatsu/items/44664e57e2738614fccf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Claude Code の新しい監査コマンドは、そのままでは自分のスキル49本を見なかった
+     https://qiita.com/suwa_nobu/items/ae5a8c1609c794a74a25?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 個人開発のiOS共通ライブラリをSSHフリー化した話 ― 「publicだから認証不要」の勘違いに、Dockerビルドだけが気づいていた
+     https://qiita.com/jqit-yukiono/items/9d8a5b91dbe3b81cb1b2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 同一人物がApple/Googleどちらでログインしても同じアカウントにする ― Firebase純正のlink(with:)を使わなかった理由
+     https://qiita.com/jqit-yukiono/items/0a68cd4ab997e8c8213b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Web/admin/iOSにE2Eテストを整備した話 ― 認証を迂回したら、次はテストコード自身の罠が待っていた
+     https://qiita.com/jqit-yukiono/items/0f7d52531f4370484101?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. GitHub CodeQLが個人アカウントでは使えなかった話 ― 開発ツールを9本まとめて入れた棚卸しの顛末
+     https://qiita.com/jqit-yukiono/items/defe0f80ac4c354aeb7b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 個人開発のMinecraft監視アプリに負荷試験をしてみた ― 読み取り専用のAPIが、実は毎回DBへ書き込んでいた
+     https://qiita.com/jqit-yukiono/items/a8d8177d02cc4f7f2553?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「見るだけ」から「操作できる」へ ― MinecraftサーバーへのRCON実行を、個人開発でどう安全に作ったか
+     https://qiita.com/jqit-yukiono/items/1bf18c5f749d05d8c2ff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 「別々のアプリが似た症状で落ちる」を手がかりに、NFS越しのSonarQube・Nexus・Jenkinsが繰り返しクラッシュする原因を追った話
+     https://qiita.com/jqit-yukiono/items/050ba069630b6d2b17da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Argo RolloutsのBlue-Greenは「2つの環境の交代」じゃなかった ― 名前に引きずられて誤解していた話
+     https://qiita.com/jqit-yukiono/items/8d17257a9778a086c7cd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. JTB、グッドフェローズJTB、Fontrip Technology Japanが クロスボーダー観光の推進に向け連携を実施〜年間1,300万枚以上の電子チケットを販売するFontripのクロスボーダー観光プラット フォームと連携し、国内外旅行者に向けた新たなデジタル観光インフラを構築〜｜ニュー - jtbcorp.jp
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMjRXQV8xNVBSS1prNVNtOEJlSlJ3NWtmMHVwSmFzazN3cmxtZUlNMW9DSTFEOHBYaGVKbUx5S2NwTjdyTkx6OFVmcGRaMERybmxNQnk0NE1Xc0tyTGVBNlFGSm5wZ3lPRmtqYUlVSFlmcWRzNXlz?oc=5
+  2. オープン化する産業用ネットワークを追う／元トヨタ生産技術の改善事例4選 - MONOist
+     https://news.google.com/rss/articles/CBMib0FVX3lxTFAxT1RSblduUDhkcXdoNTBOS3AzM252YVpOUEVWSDN3Ym5vMk1zNHl4dTJKVkZtdE53UEpyMHhhbXFSQmd1aXoxOFJ2NjlwSzRFd3hOTWVfaDVrMGpiTHRwbnZQSUd2MkswS3BTZVIybw?oc=5
+  3. 9月28日のMarvell Technology Inc (MRVL) 値動きは3.90%下落：値動きの背後にある要因 - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOWGZVX25LY2h5anJnNDFLLVhUaHVYV1ZObE00RURPeG1PSUVTVUU1Z3c0RC0xdWZPWmZhYzUxMk5DT0hxNjM5WjVETEZ2WldPZUdoT2VEVXc2UnN6cXhHVnVqRlJZN0xBMVgxLVphenJWOWdwQkNZQXJiWTJ6WmZBd2xjSm54SktCb2RyX29Dcw?oc=5
+  4. Envision Energy Accelerates the Evolution of Global Wind Technology with DNV Certification for TG Pro - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZZWpwaWF5d05GVk9nRDNQLUpvQTB3Q1V2N1BXU1JfRk9KWDVtYTNKbTliQ2trbHNtSGcwbXZjSnBUQjdER0dLN0E0LU55SUw2cHF6dm9ZNndma2s?oc=5
+  5. Daou Technologyのサバンネット、韓国イーコマースフェアでAIセラー自動化「サバンネット2.0」公開 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9QMnhCY0s4MnlLYUk5NHNGMUhMekFQaEZoZ2pldzRtd01Gdk9mODlYUVNJSkl4Wmp4cTViMzhBaGt4NTZRdjVWZ0FzaDhHdkxCNDlRanpLU1RHQktVdmM1YmJTY053UWtTUFNyUzI4NnRyZ25m?oc=5
+  6. カメラは何を見ていたのか？ 世界有数のAI監視地帯で 移民が亡くなっている - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGRmRXZqd3hnMHVrSk4tYUFPNFJRWUxmNi1YS0RmVnBlWlA0TWRwbVNEUXF2aEhtRUt1R3ZJellRSXc2anJKcWhPLXlkWU5GeEYxajlHLXFKYWRJNjVjekdXd3VBb1J3ME84c1dWOFRUY1FFSlE2cWdFdDQxekZ4RkROd1d4NWU5WWpqdGQ1WHIzWTR6MEhUal9CTTA4TUF6d2JJU3I2OUxTWlBrM0s0SlduSkFrUQ?oc=5
+  7. アムコー・テクノロジー 株価[AMKR/Amkor Technolo]最新ニュース 日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mV1ZoOVRqckQwQlBWdktXS09YNnRpdjYzWE1uQ21nQ1g0QkhZSDUtT2E1ejY2YUsyYVBnR0FiM3A4Y1UzaGNBaFN6TTNnZ3ZJNlFMT1Zn?oc=5
+  8. 特許権侵害でアップルに約1兆円という未曾有の賠償責任を認定する陪審評決（栗原潔） - エキスパート - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQkR2di1KRXRPYVRyY0k4azJOMnJmeHpjOHBXaWViVDNXRzNuQk1pRzNrWnM4ZTduVG5nNmF3N0tKV25nckpEY0JiYzdCNGRoSE9BWjJmS1JhVUZvYUwwS0FOWWI1cGk0QUhTRmY5VWpJTW9YTE8xVzJ6NWE5RHF4NzVTWl9LV0NL?oc=5
+  9. 47.490 2026年9月25日～2026年9月28日 コールオプションの強気局面でビッド／ アスクを追従 - Moomoo
+     https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFFaclNqM3YxXy1VRzRvZXd0TzYxWFN1MXV0ZEEySnBLX3ZBbDVSTnBUeC1lOU5VakRMSU11SkpFcVhaTFV6bHNsMXlRYkVKUkVPVHUtTGNmT0NzdXhRaXRqV3BCd0VBY2hoaXJSdkUtQldONlRHU2o5NWY1cGF0cVYwYks0eWV1QThJYXJ6LVItODF2ay1Ga3hXQXBjeGg1Rk84TjZR?oc=5
+  10. K&D Technology、FINETECH JAPAN 2026に出展 - tv-tokyo.co.jp
+     https://news.google.com/rss/articles/CBMibkFVX3lxTE5HTmpXNlFhdGZMTV8xNlJDRE81Ujh0UlhJenNaRlJUbTAzLWNyYXlqLWF3Z0gydUVDbVVBbHZ4OW5DMWU5TkNtcmVOR0hua3ZtWXAzbS1sbW1ycmRQNlNxYjJBUjVOTm9LZ0pWekFR?oc=5
+
+【Google News (Business)】
+  1. 「ビジネスイベント調査（2026年度版）」を発表 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5ObmFQR0gyZlNCZEJKTzdRYWp4d3dhUjZrQVV4Y1A4NnpTYkRkV3N0RGFnSmlWNVRhV1BNSmo5emU1cG5PbXBCQkpDYnBobU1tM0xSSTJLbXBfZFBmRnJJMzFWSlZJZEp6Z0E?oc=5
+  2. 「優秀だが、嫌なヤツ」はどうすればいい？ 日本企業のマネジャーが考えるべき3つの対処法 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE92RDFaUG16bHdFWU1JNFRKNjc3dTNzeWc3cFhGQjdmbEFOUFVpTEtoS0lBSkk1WU01MHNZd0RucUlTcDYxdjJJSDMwTDV0eHVRSGNQUDRzT19JanJLY2UxVDZJWWNwYnRlNGRMTW5YbjQydw?oc=5
+  3. AI学習用にアマゾン上で古書を大量自動発注か 発送先は同一事業者 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4QUJlZGdlQ3JEUnpBM2lEdldITU1xQVdiWWJhX0pDelBMN0htYkxfeDFEbXAtZVBDdTA2M3BFX3d1Y3FqdjFocjFNNWotU21GR2t4NWg4YWlLNENuSWNqYVc2RVEwVHc?oc=5
+  4. 20年間「起業の準備」をしてきた男が評価額20億ドルのAI企業を創るまで（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE53YnlvbjhGbUJsQ1BhbDg5LXUyZEpXWTlIQ1ZsLXd1MGhiV0pYcDdaY1pId1hsSGh1RkZxTno5cjZ3YmV0aG02U0xoclZGUk44dFZCalJ2Wm5OZVp1cThnNGVab0Y4eUlOcWh6S1VlVFpFVmlpNHQ5S19GNl9DUU0?oc=5
+  5. GitHub、Copilot Business／Enterpriseに新機能のデフォルトポリシーを導入 - CodeZine
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE9mdzdKQW56QkhIcTZEcDk5cFdCb05JU0NQWTJoV2ZCUWxxY3Awb2x3TFhmOEZxNXA0U2lsak9wMGk2THRoMkY2eTRiNUN4UQ?oc=5
+  6. ビジネスの必須機能として確立されつつあるイノベーション - Forbes JAPAN
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WcDRMU3ZvVG0xZ3RZRERvazA3TDJILVUzU19JSHpYNFk4UFh2TTY2R0xESHpkaEJnd1NvOThzQy1HZW9sQkNjai1NV1kyLXJxQThVWWY5X05MQQ?oc=5
+  7. 【シントトロイデン】法人・個人事業主向けクレジットカード「STVV BUSINESS CARD」の提供開始のお知らせ - Excite エキサイト
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE0xWUUzWW5Wb0t4SVozZVZvY1h0QmY2VU1WLUwyVEVONHJGVXh3cld4OWVtaXVlMmVLdl8zaW5KTmM3czZKb2FRMjBVdnVPa3Y4czNoaENtWGJTMGRWQk1mTmktcEJBM29aSlFiXzgtbFVEdGRt?oc=5
+  8. 住宅高騰で「収納」に商機。トランクルーム最大手は出店5倍、宅配型も10年以上成長 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk8ya3hXWkY3WUV3amd1amdOVndiUkRISmhrNnpKR2ZIWmcyX1kxNGZ1QzBER1BuTFFMaFdOdGJIbkNlZGowXzhIY01IcnhZcXpmMGh3eUVGb1ZadUlocDVTdXhKcGYtRHBibG4yUWVPYWJKcTB1eTZUTEVHUllSOWdnaEM?oc=5
+  9. 産業・都市・人 技術が変える3つの未来社会像を提示「テクノロジーロードマップ2026」を公開 - NTTドコモビジネス
+     https://news.google.com/rss/articles/CBMifkFVX3lxTE1WUnNUN1A1RmhBUlBZbFRFMi1MMWp6T2xkNFRTWmR3dmNVOXdOell1d2xidW5NMFlOZklCY3FZdDhDYzRKZkRubmc2dGdGMVA3RHhlOV9CZ2IzSVh3WWk5T1FwdGxzZ3lCbUdUVFp1MjJzRFhmYk91ZmVLaHNGUQ?oc=5
+  10. 「地方の中小企業の中堅社員は悲惨です」年収300万円台・50歳女性を襲った「突然の減収」…上司の「あり得ない言い訳」の中身 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE05QjF6ZW9Ra2xFZ2k0dlFFZTUxWkVIMDNSdTByLXYzTG5ROW55YmFzRUxsTnVPZl9OZEoyQmZkRFZNRkl2ek16bGx3angzSW56c1NMa19UWjRzbTBuVmhJNmtNbTJyNllweDNuaXN1TDdWT1RCenJ5TWZn0gF_QVVfeXFMUFZCUy1FQ1ZuYWpKdENiczlFR1lodUFGRGk2cVkxMzZwTnFENTNoT05LdTFqbkY0SXhueGQ4bExyeHZuM2hwYWhnWVFPUGx1cHlSci1WUnZxcy1MRXlzMXJ4UFp3WWpvbWpZZmY5clV5bTVhT2E1MDBVQzZuSTlQUQ?oc=5
+
+【Reddit / technology】
+  1. Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.
+     https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/
+  2. America's Clean Car Retreat Is Complete. The World Will Move On Without Us
+     https://www.reddit.com/r/technology/comments/1wsrgl3/americas_clean_car_retreat_is_complete_the_world/
+  3. A YouTuber says Meta's Muse gave his address to a Facebook Marketplace buyer: 'A guy just showed up at my door'
+     https://www.reddit.com/r/technology/comments/1wst3gu/a_youtuber_says_metas_muse_gave_his_address_to_a/
+  4. The Internet Marked Flock Safety CEO’s Home As A Public Toilet Online
+     https://www.reddit.com/r/technology/comments/1wscs15/the_internet_marked_flock_safety_ceos_home_as_a/
+  5. Kalshi loses again as judges rule prediction markets must obey gambling laws
+     https://www.reddit.com/r/technology/comments/1wsu3uu/kalshi_loses_again_as_judges_rule_prediction/
+  6. Mark Zuckerberg Loses Another $11 Billion Monday as Meta Shares Slide
+     https://www.reddit.com/r/technology/comments/1wsjsx0/mark_zuckerberg_loses_another_11_billion_monday/
+  7. Data center developer offers $10,000 checks to 4,500 households if the 1,300-acre facility is approved - locals push back over noise and 'bribe' concerns
+     https://www.reddit.com/r/technology/comments/1wscnqy/data_center_developer_offers_10000_checks_to_4500/
+  8. Discord’s Second Attempt To Roll Out Age Verification Is Going Badly
+     https://www.reddit.com/r/technology/comments/1wsh7h0/discords_second_attempt_to_roll_out_age/
+  9. A developer offered every household in a Pennsylvania town $10,000 for a data center, and many still said no
+     https://www.reddit.com/r/technology/comments/1wsnhkg/a_developer_offered_every_household_in_a/
+  10. Thieves steal Nvidia-branded trailers expecting valuable hardware, find 40,000 pounds of sand instead.
+     https://www.reddit.com/r/technology/comments/1wsb3vu/thieves_steal_nvidiabranded_trailers_expecting/
+
+【Reddit / business】
+  （取得できませんでした）
