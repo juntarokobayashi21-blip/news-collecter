@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-02
+============================================================
+
+【Hacker News】
+  1. Pi 1.0
+     https://earendil.com/posts/pi-1-0/
+  2. Several vulnerabilities have been discovered in the Linux kernel
+     https://lwn.net/Articles/1097401/
+  3. Clef: Open-weight decision models, and new RL fine-tuning platform
+     https://blog.cloudflare.com/clef-decision-models/
+  4. SvelteKit 3
+     https://svelte.dev/blog/sveltekit-3-is-here
+  5. Ask HN: Who is hiring? (October 2026)
+     https://news.ycombinator.com/item?id=49922569
+  6. CSS Bed: Classless CSS themes to use as starting points in web development
+     https://www.cssbed.com
+  7. Pi Durable
+     https://earendil.com/posts/pi-durable/
+  8. StreetComplete on iOS is now in public beta
+     https://github.com/streetcomplete/StreetComplete/issues/5421
+  9. Using Opus 5.5 to discover a new eyewitness record of the dodo
+     https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness
+  10. Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia
+     https://github.com/Vibra-Ingenn/Janus
+
+【Zenn】
+  1. Claude Code の使用量はどう数えられているのか ── Max 20x で実測した重みは API 料金表と違った
+     https://zenn.dev/tksfjt1024/articles/25c0ab111c277c
+  2. オブザーバビリティのAIエージェントをどう評価するか
+     https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop
+  3. terraform applyしたら、1ヶ月半前のコードが本番に出ていた
+     https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef
+  4. AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました
+     https://zenn.dev/algoartis/articles/0b1c731881b25c
+  5. 『構文解析のしくみ』が出版されました（出版にあたって宣伝と裏話）
+     https://zenn.dev/kmizu/articles/2026-09-parser-book
+  6. Web 標準動向 2026年9月版
+     https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609
+  7. ヘキサゴナルアーキテクチャを実装レベルで確かめてみた（その1）ポート・アダプター・アプリケーションはコードではどうなるのか
+     https://zenn.dev/aws_japan/articles/hexagonal-architecture-lambda-1
+  8. 新規プロダクトのバックエンド自動テスト戦略 ─UT 中心から API テスト中心へ─
+     https://zenn.dev/canary_techblog/articles/348d976da70857
+  9. ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話
+     https://zenn.dev/knowledgework/articles/2691721311c2e4
+  10. OpenAI DevDay 2026 発表まとめ
+     https://zenn.dev/schroneko/articles/openai-devday-2026
+
+【Qiita】
+  1. 0から学ぶセキュリティの基礎　〜CSRF編〜
+     https://qiita.com/Pigeon_gate/items/b33b4e337c15dddae20a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AI生成コードを全部同じ密度で読む必要はある？―レビューを契約とテストで絞る設計
+     https://qiita.com/masashige0904/items/43beaaabc2c0ef2dcb1c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. どこかで聞いた「アウトプットしないことは知的な便秘である」って素晴らしい言葉だよなぁ！
+     https://qiita.com/PDC-Kurashinak/items/bde0e380eeb04fa28f40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Twitter（現X）に貼ったURLのサムネイル画像、キャッシュクリアできるの知ってた？
+     https://qiita.com/minorun365/items/f1f6a45fa9aff8d624af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【被害者は語る】タイムズカー660万件情報漏えいはなぜ起きたのかの矮小な考察
+     https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 【新資格】AWS Certified AI Business Strategist（AIB-C01）ベータ試験を受けてきた(コツコツ勉強できない人の感想)
+     https://qiita.com/riz3f7/items/fe5704cc76755bb8700f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. AWSの新認定試験「AI Business Strategist」に宇宙最速(未遂)で合格しました！
+     https://qiita.com/ry-harada/items/7a062c2ed9b82571f91f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. oracle-ai-ready-data Skill 第3回：ANNOTATIONSとDomainの意味情報を可視化し、Select AIで確認してみてみた
+     https://qiita.com/shirok/items/d794f229ba4e97b541fc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. スキルの名前を verify にするだけで、Claude Code はコミット前にそれを実行する
+     https://qiita.com/suwa_nobu/items/cc0fb4a9e10100991bba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Odin と SoA + α のベンチマーク
+     https://qiita.com/y_abe_bc/items/9f139ce8194e49879ce5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. スマートフォン「iPhone」歴代モデルの要素技術（前編） - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE9odi1pVXBydTAzUmpDM1p6TTByY1BOX25VRHFTcDNWODNuZnZhbU04QzZGZ1RqSm5ic0dzMzVqbDVWTzFNOHdPa1JuSVlHLWlRTVc2dmdwdUpXbHVUZjY2MVZlMHFTV0poMmE3Ympodw?oc=5
+  2. 「FIT2026 Financial Information Technology 2026 金融国際情報技術展」に出展 - okinawatimes.co.jp
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tR2J0a3ZhcUtTNXZUbHAzdkZTcVB0bktUUk8xOWsxSkJ4MlphUUUxeUpNTXF2eUtTRHlDVU02bk1vNHhzQzRrQ2hIX2doR3Y0UHFPRGRlNkhpSW41S2c?oc=5
+  3. インタセクト、ターンクラウドジャパン、TURN CLOUD TECHNOLOGY SERVICE（台湾）の3社が業務提携 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1sS1V1VUN6RXU2eEdsTXNsZ2hTMkxvRFk2U3BsdHlidTV1UkRhelB5U1JzUTc1Q3ZDdDFoRUFta0s2djNmcW0zQjdHd1R1Z293ZzhMWGd6MWpBQ0lXMVRYUnpWR1VQamNSLWc?oc=5
+  4. 未来を“解く”技術＝リジェネラティブ・テクノロジーとは何か──『FUTURES LITERACY 未来という難問を解く』から - WIRED.jp
+     https://news.google.com/rss/articles/CBMie0FVX3lxTFBMTWpSa1BWcU5Bd1lFdFBUSk4xaFFuLVNxRWNoTWxhRDhyZGFiVDFlTnNsdzRES05aX18xSXBTV0htNXh0bV9MRUM2WDJDa0xINTZxaF91SFRaTGdlWG1objA3RHlNc1FONGZiWkpDUXR5Ynp1T1MwTUtobw?oc=5
+  5. ［2031年の技術］期待度1位「量子コンピューター」 最新機ヘリオスの実力は？ - 日経BOOKプラス
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE9QUUZGMi1GWHdQOU52czdfQVdVXzEwZzJMYlN2ZVJ2STBEZENOMk5uYXV2MGs4eFZGUUxwMzAyVzV3UWp0SDF6M0h4UnVkOWx6ZFNwRGJfMnYxV3IxaWRnaW5LeWdsWWRhZnNjTw?oc=5
+  6. DDR5-9200対応メモリの普及を後押し、Montage TechnologyがCKD「CK01P」を量産開始 - hermitage akihabara [エルミタージュ秋葉原]
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BcGJSYXNhZUxycWNMQ0ItZi1fUnJHWXZ3amkwMUVQNGNnZjdyU2stTUJtNzBNYllubUJ0Z2ZMTG41cDBhZ2pOR2RjUXZDc214MklwWkNmVVdmZjRnV19iaA?oc=5
+  7. Technology and Security: NATO’s Vision for Cooperation with a Transforming Japan - 東大新聞オンライン
+     https://news.google.com/rss/articles/CBMirAFBVV95cUxPcGo0QUJiOVB4VEJWZmFMdjI3a24zQTFRZTVnZ20xY3U3bGx6OTZHa1EtTmRsdEJ6X2Fza2FybmVHVGZMWGFTZnpUa0U4amJIZTRDa1M4V29fT0kzWUFOMlhRSkhISEVOZUFFbEtnVmJJZ25uSGlQeHJsUmpfb1JmSHBubkljT29iRk9LRnlrSzZ1b2RsNEVHOXYzUlN0Z0JaazhEN01NS2ZEU0xT?oc=5
+  8. AIを「発見の主体」に据えるAI企業、 科学の営みとのずれ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMikgFBVV95cUxPWEVtcUloYnpGNFRlbFdVRTFSQUhBbV9sUlo4aHJkd09aRjlXSkFtclZIR3lWWDV5VkhFcjRFSUx6dWpZYUxiUzI5Qm80bm4xU3ZNZXVRa1FqeWY4WHRKWEYxd1NhU0hDOHZjOVdfOTZrVmxNMlktcWxOQzhhOE1NeDVJZFYtQ3RSeTdpT09xcFpTZw?oc=5
+  9. 中国「テクノロジー観光」に力…ＡＩ・ロボット展示施設や体験ツアー、将来的には中国製品導入につなげる狙い - 読売新聞
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UVW5TWjc3djB4LUVwV1BoXzk3a1J1T01tbk1US0dFdkJBR2dORzI4Sk80MUt2NExTYlBEdjVEZV90LWloRGZPY2pRZTh0OWw0WkpIOFRQQ1RZNUtaTFZ5RkR3?oc=5
+  10. AULUMU（オルム）、「CEATEC 2026」への出展を発表！ - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9fdDV1c1B3bDBxMzZfdkNyczBTVzlHNmVFTklBSFRvNTZiQzRJLTBkS3VIb2tqOTFYWE02QXctcTVNNnRYWjhOWWsya001NXNrcnY5V2xCcHMzZzlWUV9RZGZ2dTRIUkpYVWc?oc=5
+
+【Google News (Business)】
+  1. トヨタやホンダの車をレトロに作り替えて売る光岡自動車の知られざるビジネスモデル。売上の9割は自社カーではない - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5FZC1FWXM1RGVXd0lSYlRwNFI5SWhPNWd1eXBodzZ0RmNEdW5CVUtoUk5ORmQ2bHhGbDdLeDdCOS1uNHJuTF8tdHI0aWJEN0h0WWZub00zMHNIYmZSb1hUTnVjOWNteGx3SHFVQXhoOEhIUTdRb1pFQnJKU0RFZWs?oc=5
+  2. ブルーカラーの「オリンピック」は熱かった - Business Insider Japan
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOeTFBYlpaSjNHSkI5R1pGUDZEZVkwOFc4ZzVJS0lUQjFHMERLSUxxaFlIdy1jYlVfdnNBMDNtQm5jVHUtdFJEM0NZdjdicmRlaXdmbV9rR3h0LVI3d0JWakJUMHlJUTBFRG9fSWUxS0E1ZzRmem9ha09RZ1QtSzMtTmRrSVJhOVVUMVdSWnhtQQ?oc=5
+  3. NTTドコモビジネスは3つの成長戦略でAIインフラに注力 2026年度の事業戦略を公表：製造ITニュース（1/3 ページ） - MONOist
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE1IRktPd1hRSVI0U0hJZDRnSTBmV19DXzdWM05wQlNlejBFWTlid3FnOGFHZFY1M3NLendPcjNqZVV1M1Vha2RFSHdRcFcxRGVTYzJWaVVRci11UGs3TXgxR05NUkxiZVBYT3VRdzU4WQ?oc=5
+  4. 6週間で顧客検証70件——「U30 Business Bootcamp」第2期Pitch Day開催、越境チームが事業構想を発表 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE9WdWIzcjJtc3puS3BPU19RVFFCT3NrRXM2OGpYNnVJTV83R1o3d0RPdVFYc3hjc080VFlGMXo2Vk1qU3ZSY1h0QVpIYmp3dWJyelQteV9mWHl2cGN1NDJLVkFRZWpkdE11eFE?oc=5
+  5. 日本政策金融公庫「インターネットビジネスマッチング」2027年2月26日にサービス終了 - 創業手帳株式会社
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ueUYxOWdVeUh0RHlQU3JpSS1ZSTMxVTBvYUdpNjR6WVNDQTBFUTN1b3V5czhOd19iUV9FWHdrdlM0TWlSZGo2Sk96Qk02MmdGeGVwVUZhNHBkN2JwQ0JCZlUzcw?oc=5
+  6. 「楽天ビジネスカードプラチナ」10月1日提供開始、楽天グループとみずほFGが挑む中小企業決済の変革 - ケータイ Watch
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YRnctSHpZNUIzcFEtcHB3UGhNVXJaVDZaRGcxTjZmdkFTMXpabFdhbmdWNTZPN0g1RjM4c0QwRlNuM1g3QUdqNTNQejc3bVo5Z2FGQmZiRGlkOXc2dHE4VzVsVTdPTWM?oc=5
+  7. AI学習用にアマゾン上で古書を大量自動発注か 発送先は同一事業者 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4QUJlZGdlQ3JEUnpBM2lEdldITU1xQVdiWWJhX0pDelBMN0htYkxfeDFEbXAtZVBDdTA2M3BFX3d1Y3FqdjFocjFNNWotU21GR2t4NWg4YWlLNENuSWNqYVc2RVEwVHc?oc=5
+  8. BREXAグループ、本社オフィスを「OIMACHI TRACKS BUSINESS TOWER（大井町トラックスビジネスタワー）」へ移転 - ニコニコニュース
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE5XLXJ3RzBXVi0yUVVNbXg2eHh3QVFLOHJCYmh4b1Jka1N4MWRIVC03ZUxXQ2tKRjlJQ3ZSYlNPYXpUbUVTdldtQXg5akh3SmVvbExYbUIyNUM5YUJSSVZFTkJLcFdCblV1S2RRTFlLMUphNXVjQkVPeFF3VQ?oc=5
+  9. スイッチメディア、新たにCROおよびビジネスコンサルティング部 部長が就任し、顧客支援体制を強化 - アットプレス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wblFWWjlMRTJvWWl6NS1HM3hxdEFGWGxDTTItY2FtNUp1d19EZ3BsR2lYLVZ0WGV3UXhwSFBZM1EyYVM0TzNKTFZzX1dnYTA?oc=5
+  10. 楽天カード、法人向け「楽天ビジネスカードプラチナ」の発行開始 - TRAICY（トライシー）
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRRk13VnhqdnhoZmlrVW0zVmdnZGt5dU5uandoR1dKdDRjRnBBQUlaamFyYWlSQkdtLXgzUVJPanZERkQyZDVRaDF1ZVEzNVRsNHJCRVRaMA?oc=5
+
+【Reddit / technology】
+  1. NYC is now the first city in America that bans sketchy subscriptions / As of Thursday, the city's click-to-cancel rule has taken effect, which requires businesses to make it as easy to cancel a subscription as it is to sign up.
+     https://www.reddit.com/r/technology/comments/1wv1j68/nyc_is_now_the_first_city_in_america_that_bans/
+  2. Elizabeth Warren probes $19B in tax breaks for Amazon, Google, Meta and Microsoft as AI drains $96B in federal revenue
+     https://www.reddit.com/r/technology/comments/1wvge9l/elizabeth_warren_probes_19b_in_tax_breaks_for/
+  3. A court just ruled that training an AI on someone else's editorial work isn't fair use
+     https://www.reddit.com/r/technology/comments/1wv7prd/a_court_just_ruled_that_training_an_ai_on_someone/
+  4. USPS Is Turning Mail Trucks Into Rolling Surveillance Cameras
+     https://www.reddit.com/r/technology/comments/1wvdokm/usps_is_turning_mail_trucks_into_rolling/
+  5. Tech Overlord Peter Thiel Is Going Viral For Word Salad On Why Evil Can Be 'Kind Of Good
+     https://www.reddit.com/r/technology/comments/1wuun39/tech_overlord_peter_thiel_is_going_viral_for_word/
+  6. 'Things may get ugly': Meta's new AI Muse is about to make the internet more annoying
+     https://www.reddit.com/r/technology/comments/1wvf7j0/things_may_get_ugly_metas_new_ai_muse_is_about_to/
+  7. Overnight, Meta deleted all her accounts. AI customer service won’t let her reach a human | It's part of a trend that experts say won't end until regulation is introduced
+     https://www.reddit.com/r/technology/comments/1wv03ep/overnight_meta_deleted_all_her_accounts_ai/
+  8. RAM Maker Celebrates Record Profits And Predicts ‘Even Higher Prices’ And ‘Greater Tightness In The Industry’ In The Years Ahead
+     https://www.reddit.com/r/technology/comments/1wve6mc/ram_maker_celebrates_record_profits_and_predicts/
+  9. OpenAI CEO Sam Altman to skip congressional hearing on rogue AI agents
+     https://www.reddit.com/r/technology/comments/1wv595g/openai_ceo_sam_altman_to_skip_congressional/
+  10. Meta tells the IRS its AI data centres are experiments
+     https://www.reddit.com/r/technology/comments/1wv6eeg/meta_tells_the_irs_its_ai_data_centres_are/
+
+【Reddit / business】
+  （取得できませんでした）
