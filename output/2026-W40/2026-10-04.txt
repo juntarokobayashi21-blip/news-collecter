@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-04
+============================================================
+
+【Hacker News】
+  1. We're going to need default hard budget caps on pretty much everything
+     https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+  2. Bob Cringely Has Died
+     https://news.ycombinator.com/item?id=49949438
+  3. Hole Punch: Sling your spaceship around gravitational fields
+     https://notoriousbfg.com/hole-punch/
+  4. Treachery in the Rodin Museum 3D scan verdict
+     https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict
+  5. The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux
+     https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU
+  6. Reasons I didn't become an EMT, ranked
+     https://ben.stolovitz.com/posts/reasons-not-emt-ranked/
+  7. Celebrating the 100th birthday of the kidney donated to him as a teenager
+     https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/
+  8. OpenAI safety leader quits, warning AI company's culture is 'broken'
+     https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken
+  9. Kolibri: A Sovereign Open-Weight Model
+     https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/
+  10. Math's pedagogical curse – Grant Sanderson [video]
+     https://www.youtube.com/watch?v=UOuxo6SA8Uc
+
+【Zenn】
+  1. 【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？
+     https://zenn.dev/sc30gsw/books/080faba713547b
+  2. glibc の strlen は文字列範囲外を読むことで高速に計算する
+     https://zenn.dev/peloeil/articles/glibc-strlen-2023
+  3. 実務において敵対的レビューはどの程度有効なのか
+     https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef
+  4. オブザーバビリティのAIエージェントをどう評価するか
+     https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop
+  5. terraform applyしたら、1ヶ月半前のコードが本番に出ていた
+     https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef
+  6. 【最新v1.0.5公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました
+     https://zenn.dev/algoartis/articles/0b1c731881b25c
+  7. Web 標準動向 2026年9月版
+     https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609
+  8. 新規プロダクトのバックエンド自動テスト戦略 ─UT 中心から API テスト中心へ─
+     https://zenn.dev/canary_techblog/articles/348d976da70857
+  9. OpenAI DevDay 2026 発表まとめ
+     https://zenn.dev/schroneko/articles/openai-devday-2026
+  10. 生命科学研究 × AI 活用ハンドブック
+     https://zenn.dev/labcode/books/c4f81b6a2d9e37
+
+【Qiita】
+  1. 新しい日本語推敲スキル「yomiyasu」がバズっていたので、Claudeで日本語推敲スキル3つを比べてみた
+     https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. アルゴリズムの最先端に挑戦：「四色定理」はどこまでバランスよく塗れるのか？
+     https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. どこかで聞いた「アウトプットしないことは知的な便秘である」って素晴らしい言葉だよなぁ！
+     https://qiita.com/PDC-Kurashinak/items/bde0e380eeb04fa28f40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 日本企業「ハッキングされないでくれ」ランキング
+     https://qiita.com/konaito/items/16a6d2c5da7d144efe95?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 非エンジニアの私が、社内エンジニアと業務効率化ツールを作ってみた件
+     https://qiita.com/ayanonn/items/411fc08854b9fe4c9be7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Jev・Clef・d1・Jeff・Kev…意思決定モデル（System One）を仕組みから比較する【2026年10月版】
+     https://qiita.com/nogataka/items/a2f89a94d243b1b715cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Claude Code ModsとJevでモデルルーターを構築（サブスクで使えるゾ！！）
+     https://qiita.com/moritalous/items/8b663db633dde3c49d62?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【React】「1つのuseEffect内でrefを立てる」useUpdateEffectはStrictModeで壊れる
+     https://qiita.com/shun123/items/b7a01b3d7379274d3ebc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. GitHub Copilot SDK のランタイムとエージェントループについて
+     https://qiita.com/chomado/items/8830d0e9f4b75a7ea2a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【エラー対応】TypeScriptの「Uint8Array<ArrayBufferLike> is not assignable to BufferSource」の原因と解決方法
+     https://qiita.com/y-keiyu/items/d0f20390001bdc623481?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. スマート家電・IoTブランド「MOVA」を展開するSpacewalker Technology Japan（株）、日本最大級の農業・畜産展示会「第16回 農業WEEK 東京展（J-AGRI）」に出展 - RBB TODAY
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5jeHkxcE9nS2J0U2xvYkhwdXZFbTBRNmN3Q2lQOXk0SHFBZncxYlN3NjgxZ0hWWlFTN0hXdE45X09rdFpiczgxNjhpeHRsdFBHUEpTRHNVcUdwNjEydjN5Wi1HemtjaElyVDExUV9hRlpfdlJrcEJUUA?oc=5
+  2. 「FIT2026 Financial Information Technology 2026 金融国際情報技術展」に出展 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tR2J0a3ZhcUtTNXZUbHAzdkZTcVB0bktUUk8xOWsxSkJ4MlphUUUxeUpNTXF2eUtTRHlDVU02bk1vNHhzQzRrQ2hIX2doR3Y0UHFPRGRlNkhpSW41S2c?oc=5
+  3. ［2031年の技術］期待度2位「フィジカルAI」 ロボットで工場の人手不足を解消 - 日経BOOKプラス
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5XMW9Ha0JxTmJLcWxHcWYwbjRjLXU0TUVvNVNzUkhLSFEtLXlzMXhsM0VmakZxNU9JeVpJTkxyekFmdlpPNkpvREY1bk85NEcxaVpJOFlYZklDa2w3b0Z1Nno1RDdUS3MzeWkxdw?oc=5
+  4. スマートフォン「iPhone」歴代モデルの要素技術（前編） - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE9odi1pVXBydTAzUmpDM1p6TTByY1BOX25VRHFTcDNWODNuZnZhbU04QzZGZ1RqSm5ic0dzMzVqbDVWTzFNOHdPa1JuSVlHLWlRTVc2dmdwdUpXbHVUZjY2MVZlMHFTV0poMmE3Ympodw?oc=5
+  5. eムック 『テクノロジーが問い直す 新しい「自然」』 特集号 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE94WThkRldLeFlrVlJyLUJRd0FLOU1NMmp5VWJWMXVFalNUZF9KQzJyVmltU0ZEWXdtSmUxR3RYTDluMXJleWVZYlNmZ2FEWUlkb2Z0UWFJUmxwNG0xaTFqd3VxZmJEcmwwRU1PTVNmeFNUZkluRWVGUVN3bw?oc=5
+  6. 愛犬や愛猫の鳴き声でAIが気分や欲求を推測するMeng Xiaoyi TechnologyのAIペット翻訳機「PettiChat」 - @DIME アットダイム
+     https://news.google.com/rss/articles/CBMiREFVX3lxTE1kR1B3ZFBRa3BXMmlzVG5hOUJxeHVPak9nUU5PZWxGWHBvSDZoS0VPNk5qd29KZ1ZrOFVzd1IzZl9USnBj?oc=5
+  7. 「FIT2026 Financial Information Technology 2026 金融国際情報技術展」に出展 - 千葉テレビ放送株式会社
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHZDZ5NEhNQnhoMzB5ZjdVUWR5V0xZX0NhZWVfdFpqWDc4ZV9HcGlmX2FSY2dHa2E0UHNkNUNqQzkyQnNQcWxaLU5jaUhvTE5FQTloWmpiaS04cHg0Wngw?oc=5
+  8. Gemini 3.7 Flash を発表 - blog.google
+     https://news.google.com/rss/articles/CBMie0FVX3lxTFB5T1Eyc0lCaFZhVExTRXc1OU9ZWk1HcnZmS2piMXlZMDN1b2FjaTRCNldzQV9xYXI1M19XU0RHRjJkcTA2dlZOVHpSVGJUR0Rld2lIZ0F6TW94bGo1OVZlUU1sT1BzZ1RWNWxqVndYcExjVUo1cE43LXA5UQ?oc=5
+  9. Ｓｋｙ株式会社が「FIT2026 Financial Information Technology 2026 金融国際情報技術展」に出展 (2026年10月1日掲載) - news.livedoor.com
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CdkU1Ry1rd0VKbHFieWIyMm1hSXVyeTllOHZ2YW1vR0VjZ1dnWWk4b3VoXzZFczBNMDBMQWV5Z2lKRFdyWWQtZEs0ZDRCVFhvcllXNnJ6ZWkzUmNBYWFhSmR3?oc=5
+  10. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+
+【Google News (Business)】
+  1. 乗客が選ぶ世界最高の航空会社トップ20 [2026年版] - Business Insider Japan
+     https://news.google.com/rss/articles/CBMinwFBVV95cUxOUy1xcmJpaFRINnMxM0xIOW5xeEQ1MU5zbVBjZjdsT2d2bWxadUpOLW8wYXFrXzFKMjZ6el9qTTFUQUcwT3R5ZVVlSVFFQnNOTUhBeXBsb3A1czRLejZCbGtqVmlMaWlpaFhIOTUyVUptaDN1d0VwWnJDOHBYR24xeXpQcVBTeGNkeWt6VXR1SjE4aXV6SkpoQnV5Zl9CT3c?oc=5
+  2. ［独自］タイムズカーに集団訴訟、2200人超が参加意向 免許証データ160万件流出の責任問う - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE5TQVZEYmMtVi1ON1pPUXAyNEsxc2VvWDRvczNueVk0TDNsazVkZmVZWkI0dEpsMVEyLXJlMnloZXV0OVJKOFZUaUNEOXo3SDBHWHE5TW91MXZTcU9OMTNlRFl1dGJmM3NPajVkTw?oc=5
+  3. 「クォータージップ」は、もはや男性ビジネスパーソンの定番…人気が衰えない納得の理由（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE0xNFZza3hIQ3dHOWdDWFNNeUdoT2pQREk1cGpQRlZ3OV9VMWJfekVBZk9zQV9wNHBIVkFJTS1NbXItbzNpVm1CQk1sUy1sTlpKQXVCYk41YlFLdUVmQ3hBNk9MWnBKSmc1SWE4SkpWQkNMUzl0VVRQUktHV3NkN0E?oc=5
+  4. C大阪戦（10/31）「ANTLERS BUSINESS CLUB 企業研究フェア」開催のお知らせ - antlers.co.jp
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhZ0dHeVRFT21ycUs3Q1o1ZUp5OTdkNndZcUdwZXZYZ1JlY1pvNG54V2NUdmtQN1licGswc0Jfc0JkVElZNUVzeUFQeXpRaS1vMnZTb3dzYWNuLV9ETGc?oc=5
+  5. 《27年春夏ソウル・ファッションウィーク㊦》K カルチャーとビジネス結ぶ - 繊研新聞
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtazhUTmhIWEtfU0dsMWJNbHVneUlwWGpFUzBKbmhOcHl1NWwyWVN2dXpnazNubG5ud0NrS016RFFoT3VleTRTd0NKcGljTms?oc=5
+  6. 楽天カード、法人向け「楽天ビジネスカードプラチナ」の発行開始 - TRAICY（トライシー）
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRRk13VnhqdnhoZmlrVW0zVmdnZGt5dU5uandoR1dKdDRjRnBBQUlaamFyYWlSQkdtLXgzUVJPanZERkQyZDVRaDF1ZVEzNVRsNHJCRVRaMA?oc=5
+  7. 九経連会長、台湾経済団体との交流で「ビジネス機会創出」 - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFAtV3VPVkRpajNyVnRkdHBLS3FEUDQ5dkYyNlY4YVdmUF9wYVpVaFV4X2dHb3Joai0zUnk3a1VMYzdWWnVUelJsUkh5akRQakNoUHlBUk94T3dmWjFQV293X0V2QjN4T0NDTWpiaA?oc=5
+  8. トヨタやホンダの車をレトロに作り替えて売る光岡自動車の知られざるビジネスモデル。売上の9割は自社カーではない - Business Insider Japan
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxPY1g4R2FKcEp3Z0dLSmJNdzBfaTd4RllzSU01NTZGYlhKMWZrMVdfaGJtd2R0ZU16QzZYbFdHajdWX1dHNEx0S2txWnVDX1hzdTlxdFp6Ty1fRTFvR2FmbXF4ck01LWlOUXZ6VGE2ai1iNnB5NjBmQVhiZkhIMEpadGcxSUJxUQ?oc=5
+  9. 国際ビジネスの「現場」で学ぶ－2026年度（前期）国際ビジネス・インターンシップを実施しました！ - fukujo.ac.jp
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vR2Ixa3hjOXBnVVZQaE1GZllrOGhxVTlCaUpDdGNLbXU1VTMzY2JwVDVoNDdDWlh6TGZMYVNMcDlwTS1zM0pqaG5EbTZQb1F5V0hQR1ppUWdkVXpBSzNEcWRfcVhGZw?oc=5
+  10. 190時間搭乗してきた旅行記者が教える、長距離エコノミーフライトを快適に過ごすための絶対ルール - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTm4taWJYdzk2N0t5UFNzZ1lYVTRhZmQ0MkdTbl9xTm1NNWtQbG43QnVTZUlFZmZzQmlHUWlNd0lpaURrdXZPQjNEb1g2WmQxZEt4TVZSWDFJZ0toUkFRdDBaUmg3QUdqWG1PR2NrMks2OElvSm1Cck5wT09aemNHYkQ5SElRNWk4?oc=5
+
+【Reddit / technology】
+  1. Google cofounder Sergey Brin has spent $102 million to fight California’s proposed billionaire tax—he could owe $13 billion if he loses
+     https://www.reddit.com/r/technology/comments/1wx2mo8/google_cofounder_sergey_brin_has_spent_102/
+  2. Federal judge calls Flock search unconstitutional, as AOC and Bernie Sanders introduce bill to ban license plate readers
+     https://www.reddit.com/r/technology/comments/1wwpqg7/federal_judge_calls_flock_search_unconstitutional/
+  3. ICE Put Protester Photos Into Palantir’s Surveillance Database
+     https://www.reddit.com/r/technology/comments/1wws0rf/ice_put_protester_photos_into_palantirs/
+  4. Milt Windler, NASA flight director who helped save Apollo 13, dies at 94: “Apollo was such a rapid pace that I don’t think people had the chance to think about it very much. It has only become more clear to me later on that we were making history.”
+     https://www.reddit.com/r/technology/comments/1wx1tr9/milt_windler_nasa_flight_director_who_helped_save/
+  5. US road rage killer's sentence quashed because AI video of victim was shown in court
+     https://www.reddit.com/r/technology/comments/1wwnhq6/us_road_rage_killers_sentence_quashed_because_ai/
+  6. The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike
+     https://www.reddit.com/r/technology/comments/1wx2e2a/the_nvidia_shield_tv_is_7_years_old_it_just_got_a/
+  7. The Netherlands is building its own Linux OS to break free from Microsoft
+     https://www.reddit.com/r/technology/comments/1wwjq2t/the_netherlands_is_building_its_own_linux_os_to/
+  8. Larry Ellison Risk Exposed by Paramount and Oracle Debt Binges
+     https://www.reddit.com/r/technology/comments/1wwsbem/larry_ellison_risk_exposed_by_paramount_and/
+  9. Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+     https://www.reddit.com/r/technology/comments/1wx0aed/google_thinks_spacexs_starship_has_to_launch_1800/
+  10. Bernie Sanders introduces bill to ban the federal government from using Flock
+     https://www.reddit.com/r/technology/comments/1ww9lov/bernie_sanders_introduces_bill_to_ban_the_federal/
+
+【Reddit / business】
+  （取得できませんでした）
