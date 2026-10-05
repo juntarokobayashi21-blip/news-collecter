@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-05
+============================================================
+
+【Hacker News】
+  1. Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s
+     https://github.com/Niko1221/Strata
+  2. Infidel goes wild
+     https://blog.zarfhome.com/2026/10/infidel-goes-wild
+  3. ArtCraft Apps – open-source Adobe compatible suite written in Rust
+     https://getartcraft.com/apps
+  4. Turn off Apple Intelligence on macOS 27 and get its disk space back
+     https://github.com/omlahore/RemoveMacAI
+  5. In the wake of closure, a digital archive of animated materials appears online
+     https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/
+  6. A browser-native classic Visual Basic VB6 IDE
+     https://wieslawsoltes.github.io/VB6/
+  7. Self-hosted HTTP tunnels with SSH and Nginx
+     https://vincent.bernat.ch/en/blog/2026-http-over-ssh
+  8. Improper redaction reveals Google Data Center water and electricity usage
+     https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/
+  9. Homa: The end of TCP for AI clusters [video]
+     https://www.youtube.com/watch?v=eZ8WWZzoaR0
+  10. Xray-core concealed a certificate verification bypass vulnerability
+     https://github.com/net4people/bbs/issues/672
+
+【Zenn】
+  1. Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順
+     https://zenn.dev/yoshihiko555/articles/ea2db6070058b3
+  2. Cloudflare の判定モデル Clef を Workers AI で触ってみた
+     https://zenn.dev/akari1106/articles/b6d3180cc50dfe
+  3. 既存OSSのnginxをOpenRestyへ差し替え、Entra IDとアプリ内ユーザーを追跡できるログを作った話
+     https://zenn.dev/gritio28tech/articles/7b48f4db2d2bfa
+  4. PythonとCasADiで学ぶLie群上の最適化
+     https://zenn.dev/takuya_fukatsu/articles/069f5b78d7597f
+  5. JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通
+     https://zenn.dev/qnighy/articles/json-ambiguity
+  6. VueUseのIssue対応記録: v-element-sizeの修正から見るResizeObserverの値をwatchする際の注意点
+     https://zenn.dev/metasyntax/articles/vueuse-v-element-size-border-box
+  7. Key Vault参照は本当に得か — Terraform stateから秘密値を外す設計判断
+     https://zenn.dev/kmryst/articles/azure-key-vault-terraform-state-design
+  8. 【202610版】 Webアプリ開発初心者がKiroでAI駆動開発をしてみた
+     https://zenn.dev/gob7ppcsvx/articles/ae6d8fc5ca495b
+  9. データエンジニアの副業を1年やって辞めた話：スキルは思ったほど伸びず、時間は思った以上に失った
+     https://zenn.dev/kyami/articles/97231d0de16f31
+  10. 【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？
+     https://zenn.dev/sc30gsw/books/080faba713547b
+
+【Qiita】
+  1. API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた
+     https://qiita.com/songchong/items/02672765fe53f911a1a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. アルゴリズムの最先端に挑戦：「四色定理」はどこまでバランスよく塗れるのか？
+     https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 「シークレットスキャン」とは？漏れた API キー、誰が止めてくれるのか？ 業務システム 65 件と GitHub・GitLab を調べてみた
+     https://qiita.com/songchong/items/5ee39ef5b71510e36c2a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. Claude Code ModsとJevでモデルルーターを構築（サブスクで使えるゾ！！）
+     https://qiita.com/moritalous/items/8b663db633dde3c49d62?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 日本企業「ハッキングされないでくれ」ランキング
+     https://qiita.com/konaito/items/16a6d2c5da7d144efe95?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. ゴールシークプロンプトとは ― AIに質問させて成果物を作る方法を、テンプレートと実例で解説
+     https://qiita.com/nogataka/items/3bd4598ddf5c3e9c2b3e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 結局、Looped Transformerってなんや？
+     https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 仕事が忙しいので、プライベートに AI 秘書を雇ってみた
+     https://qiita.com/araom/items/83f8180524500f685416?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. LLMのJSON Schemaを厳しくしても業務検証を消せない理由
+     https://qiita.com/TechStudioLab/items/0bbf128791023cc90893?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 耳で聞く！Python で学ぶ マクロ経済学 入門 23
+     https://qiita.com/maskot1977/items/a7abc3c697d84e4b15a1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. (株)ＰＫＳＨＡ Ｔｅｃｈｎｏｌｏｇｙ【3993】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BZzhSLUI4OFFRa3R4aHdYWDBpZmtpMnZzMjNKbzVVOUlrYnZTSW9zNjgyU08xeU1CY0VhUnN5YThlQTBfMTV0eUt0bmFna2RVS3c?oc=5
+  2. AIがコードを書く時代に、技術者は何を学ぶのか ～TEC-Jプレジデント 柿本達彦氏が語る、AIと人間のこれから - アイマガジン
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSkN2MzZseHJ5emc0UWgtRVprNjRpbFgtRmN2c3dGOVloS20ycFZqM09tREoxRlBsV1JKYS14eHlzdkpSUTU4NWlKUktsLUdPS2g3Z1FuRHJTdW1Ea2kweklYOWhaM1k?oc=5
+  3. Technology and Security: NATO’s Vision for Cooperation with a Transforming Japan - 東大新聞オンライン
+     https://news.google.com/rss/articles/CBMirAFBVV95cUxPcGo0QUJiOVB4VEJWZmFMdjI3a24zQTFRZTVnZ20xY3U3bGx6OTZHa1EtTmRsdEJ6X2Fza2FybmVHVGZMWGFTZnpUa0U4amJIZTRDa1M4V29fT0kzWUFOMlhRSkhISEVOZUFFbEtnVmJJZ25uSGlQeHJsUmpfb1JmSHBubkljT29iRk9LRnlrSzZ1b2RsNEVHOXYzUlN0Z0JaazhEN01NS2ZEU0xT?oc=5
+  4. JTB、グッドフェローズJTB、Fontrip Technology Japanが クロスボーダー観光の推進に向け連携を実施〜年間1,300万枚以上の電子チケットを販売するFontripのクロスボーダー観光プラット フォームと連携し、国内外旅行者に向けた新たなデジタル観光インフラを構築〜｜ニュー - jtbcorp.jp
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMjRXQV8xNVBSS1prNVNtOEJlSlJ3NWtmMHVwSmFzazN3cmxtZUlNMW9DSTFEOHBYaGVKbUx5S2NwTjdyTkx6OFVmcGRaMERybmxNQnk0NE1Xc0tyTGVBNlFGSm5wZ3lPRmtqYUlVSFlmcWRzNXlz?oc=5
+  5. ワランティテクノロジー、子会社の社名変更に関するお知らせ - prtimes.jp
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5XS09hekJqVXZySXRaR2p4eVF5a2ZjWW16ZHRrV1p6dW01cnNxU3pKUXQ4dm92WVE2Q1I3TEpvbFdnbElwdXBId29EcDFWUHdrNmFYbm1BQlNQV2F4b2VBV01qR1Z6VGRSbkE?oc=5
+  6. 「FIT2026 Financial Information Technology 2026 金融国際情報技術展」に出展 Ｓｋｙ株式会社 - 新潟日報
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xY3NSNHV4VjB6WFZ4aTJ3aFFQbWkyRjdGV01rTW5OSWRjaklRQy0ySG1PMGoyd2dZY3BvNms0RW5Oc0MwZzR0bjMyTldBR25PUG1VWXlZNFhWRE5JRHc?oc=5
+  7. フィジカルAIの開発を左右 現実世界を表現する「世界モデル」とは - 日経BOOKプラス
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE1Kd2hyWHA2VWRtUUIzQnJZSWlSTnNZQVp1OEs1TGVlaVFsRHQ5R1M5Ym9heW4zRGN0LW5INGJhLW03ZEpXdWJHRGxlX1hELTYweGx5WEJuYWswZ3l0d0JEQng2MUZiZ2ZSZzRsRQ?oc=5
+  8. iMotion Technology、日本拠点を開設、海外展開を体系的に推進 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqZXJVQnYzalNtNTVjUm1sZlVVd1h6QkxJYlZ2anhrSFh3Ukw1bUhsRlh1N0QtMmx5RWVFUU9UQXZ1S3MtcS16WV9pTGliRmxTWUtWUWtBbENfZ3VoU0E?oc=5
+  9. Fujitsu Technology and Service Vision 2026 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mekEtRUZfU2d3NHBoWXpIbXNnM3RaLVpEZUE5WDA4dHB0bGk2S01MRUR1UGVXLXFLMDBGcXFKbWdIckx5aDBnNXRZMXVhdEIxUkNJ?oc=5
+  10. ZutaCore、Options Technologyと提携し、金融サービス業界に液冷ソリューションを提供 - データセンターカフェ
+     https://news.google.com/rss/articles/CBMitgFBVV95cUxPZkhPUlFfNUZfb2g5WXhYNVdCaWRyX2Q4V1JrTnp5cmh1UWxFSlNVc0tPeThLc0F2RjlCZjVubGd1ajZudklwekY5S2VVb2RpTDhFV3ZXVUk3WGJLeW9SYTZVcDFFMXJpOUZZNzFJcms5bUZSMzYtWWNjZHFMeHpYYjdqcUI3aHBTekZ0VUJ2b2x2cTFhSXd5SU95cjYzQ2ZaX3B1dnpfQUJfUkRoSGRLWUp0X3l1QQ?oc=5
+
+【Google News (Business)】
+  1. NTTデータG、法人向けAIで日立らに挑む 人月ビジネスから脱却図る - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxPaV9lZDhoT24tRHduOWoxVjhNRkR5Nm15MGhuRW9ZVkxVNHgyZVB1SG42Zk5WcmFEWmZQbEwzZExyUlBkS3JpeVZEcVlWWEFwd3dtblZBbk85VkpXejhPWGNIYXA2MkNjbFRtRGdJU0JMa3VMVzBIa2xxbUJrc3N2d1otVUtDMm5CSWpWbQ?oc=5
+  2. ローマ教皇、AI生成アートを非難 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWGZsU04wQVdTRW9RWkZFYXZXQmNVLUVyT3ZCY1ZiblRieWRZRkIzZXg1RUNSYkNOQlhCWV90SWtGczJYdWpGek9JTkM5Y2I5bURmem5uTGk2LTZ3bjhaUC1vNVZPd2RreTNBVDhqWUdZSHF1VDQzRW16V1VERjM3ckNpUE0yeFY0?oc=5
+  3. メタ元COOシェリル・サンドバーグが警鐘「女性が向上心を失っているのではなく、企業が女性を追い出している」（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFA4NUNKaTJaa2dyQlU3eVo5UVdsME1KQ2E2c25CbHFxbERNWldYRWtXU3ZURVUzM2VKUDFnZWw0c2lUQ1pOS1I1S0pxYWxnRXRvYXgzWWdDMC1ucVhnY1RJbGk2WkRQVllPbE1kYWFQVkJXelNfLVNQY3lkU2Q1ZkU?oc=5
+  4. C大阪戦（10/31）「ANTLERS BUSINESS CLUB 企業研究フェア」開催のお知らせ - antlers.co.jp
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhZ0dHeVRFT21ycUs3Q1o1ZUp5OTdkNndZcUdwZXZYZ1JlY1pvNG54V2NUdmtQN1licGswc0Jfc0JkVElZNUVzeUFQeXpRaS1vMnZTb3dzYWNuLV9ETGc?oc=5
+  5. GPSの届きにくい屋内をスマホカメラで案内 三井不動産とAshirase、「IndoorFlow」を日本橋に導入 - ビジネスネットワーク
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TTFVIMFZoZ19ZUkZ6SmhNWnBkdlg0MnkxeERDa3dRaFVjbVo0cTZGbGtlTkVFRUZPWi1JbEFfOEpyOHBCLUVXT2lfWTdGSGdRMkE?oc=5
+  6. 海外先例から、日本の企業「だからこそ」の脱成長シナリオを考える - IDEAS FOR GOOD
+     https://news.google.com/rss/articles/CBMib0FVX3lxTFAya0Z4RWZGYm1Vcm5sSjNOMERWeTRwRGEtV19uMFZzX1JPT2NPQ1ZvV2U2RU9oQlBVSjhJVnBMTGZEal9HOENGeE9nUFFaMHo4UGdLa1VQaFd5X0V3N0xMVnNUTkhkdVBIR3RRdG85RQ?oc=5
+  7. レコード演奏・伝達権とは？令和8年改正著作権法を解説 - BUSINESS LAWYERS
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvY09ZXzFNT1pGSm1wLUl1YkNoaXlDWlNLVHRxeklJX0czQXdWaUUxT01IT0xiVmpWVnFrMnlHYkZDeVVELUV4QlBScG1LWUFycTFXaldwcw?oc=5
+  8. 「観客席ではなく、フィールドに立つ」NECはなぜHRBPを「部門のCHRO」と位置づけるのか - JBpress
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BZmh3RGRpMExkbGVMOWJEX3VBZFF6MU1jYlFFdW9yOVhLVEc4cUdBNGFza3ZrVV9PZFpKeDV2SzRzZmdEb0o2VFYwTE5TVkI4Y0dQc3ln?oc=5
+  9. Business News: ヴァシュロン・コンスタンタンが神戸に西日本初の路面店ブティックをオープン - Hodinkee Japan
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE00Nk5RMFZKZVRSeVpSMzNUb2lhWEtvcEF1eGc1SGd6WVZkdjNOWVZjbmZPWEM2dzNRNUItTXIyMml4SVdET3JNZkhCZ2NnV0k1YUhOXzV0UC0tVnppaW9ORW1nRzJOREpDY0ZydUt6MlN1ZWktcGtVSktR?oc=5
+  10. レコード針世界シェア9割のナガオカ 夫急逝、経営経験ゼロからの危機脱出 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMilAFBVV95cUxNZnQtZmc3UjV4ZnpEMWI5Q2NZTXkyTnNYNXJQc1M4Xzg2R1hKc19qSmx5bDU0aDhreXB0MGNmbjVfb2dMR2loRERSSmVYdXFJTGtETlZSa2sxSDJURmlOVVhlQXhaSWQwbGNHMlhzOXdZTGtoYlpEUk9HMUZLczY3N2hqdk1wWWVKMjc5c3RBY1BjX1Yt?oc=5
+
+【Reddit / technology】
+  1. Google Is Accused of Destroying Nearly 500 Football Fields of Forest for New Data Center Project
+     https://www.reddit.com/r/technology/comments/1wxn3gg/google_is_accused_of_destroying_nearly_500/
+  2. Florida woman used Claude as a diary, then Anthropic reported an entry to police
+     https://www.reddit.com/r/technology/comments/1wxgn8c/florida_woman_used_claude_as_a_diary_then/
+  3. Sam Altman to Decoded: ‘The world should accept some bad things happening’ for the benefits of AI
+     https://www.reddit.com/r/technology/comments/1wxr6az/sam_altman_to_decoded_the_world_should_accept/
+  4. A Texas woman is fighting to preserve land that was supposed to become a public park. Now it may be a data center instead
+     https://www.reddit.com/r/technology/comments/1wxpl2i/a_texas_woman_is_fighting_to_preserve_land_that/
+  5. 'It felt like the Hunger Games had started': Employees are 'loud working' in an effort to secure their jobs
+     https://www.reddit.com/r/technology/comments/1wxelm5/it_felt_like_the_hunger_games_had_started/
+  6. Digital menstrual tracking risks creating more harm than benefit, argue experts
+     https://www.reddit.com/r/technology/comments/1wxlxv3/digital_menstrual_tracking_risks_creating_more/
+  7. Microsoft is using wetlands and native gardens to 'camouflage' 20-plus data center sites by blending them into nature — critics blast the 'biomimicry' effort as 'lipstick on a pig' amid a 20-year gas power deal
+     https://www.reddit.com/r/technology/comments/1wxeq6u/microsoft_is_using_wetlands_and_native_gardens_to/
+  8. Paul Rudd Says He Stopped Bringing His Phone to Film Sets Because He’s "Addicted Like Everybody Else": "They’re Facilitating Our Own Destruction"
+     https://www.reddit.com/r/technology/comments/1wxd2do/paul_rudd_says_he_stopped_bringing_his_phone_to/
+  9. Federal judge calls Flock ‘indiscriminate mass surveillance’
+     https://www.reddit.com/r/technology/comments/1wxb5sh/federal_judge_calls_flock_indiscriminate_mass/
+  10. Google cofounder Sergey Brin has spent $102 million to fight California’s proposed billionaire tax—he could owe $13 billion if he loses
+     https://www.reddit.com/r/technology/comments/1wx2mo8/google_cofounder_sergey_brin_has_spent_102/
+
+【Reddit / business】
+  （取得できませんでした）
