@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-07
+============================================================
+
+【Hacker News】
+  1. Sharing AI progress in mathematics
+     https://openai.com/index/sharing-ai-progress-in-mathematics/
+  2. Mistral Large 4
+     https://mistral.ai/news/mistral-large-4/\
+  3. Decisions API is in public beta
+     https://developers.openai.com/api/docs/guides/decisions
+  4. Penguin Mail – open-source Rust email client for Linux with AI
+     https://penguin-mail.com/
+  5. Couple was swatted 55 times in 2 years over a post about Norm Macdonald
+     https://www.cbc.ca/lite/story/9.7370118
+  6. EmbeddingGemma 2: An open, lightweight multimodal embedding model
+     https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/
+  7. Nobel Prize in Physics 2026: Francis Halzen
+     https://www.nobelprize.org/prizes/physics/2026/
+  8. AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)
+     https://github.com/boykopovar/AnyPS5
+  9. State of Devs 2026 survey results: developers are exhausted
+     https://2026.stateofdevs.com/en-US/
+  10. OpenTPU – An open-source AI accelerator, developed by AI
+     https://github.com/FeSens/openTPU
+
+【Zenn】
+  1. Googleマップの埋め込みは3経路ある — どれが無料で、どれが従量課金なのか
+     https://zenn.dev/shunei/articles/google-maps-embed-billing
+  2. OOPとFPの使い分けを、図書館の貸出管理システム作って確かめてみた
+     https://zenn.dev/satoru_o/articles/2804938058ab47
+  3. Keras入門　第４回　Kerasモデルの量子化(LiteRT)
+     https://zenn.dev/hoshinagi1219/articles/6c2446701595cc
+  4. LLMを使用した Web システムの単体テスト自動化について
+     https://zenn.dev/shikamaru/articles/ef90e326ab8163
+  5. 時系列予測の第一歩？ OLTPとOLAP
+     https://zenn.dev/neurogica/articles/a37c2fdb8bc0d4
+  6. GitHub Actionsのキャッシュがあふれるので、不要になった2種類を自動削除する
+     https://zenn.dev/yesodco/articles/yesod-github-actions-cache-cleanup
+  7. エージェントの記憶はどこに置くか —— Skills・AGENTS.md・引き継ぎノートをClaude CodeとIBM Bobで検証した
+     https://zenn.dev/enterprise_ai/articles/b8856a49d7f6af
+  8. 漏洩ラッシュは本当にラッシュなのか 公的統計と公式発表で確かめてみた
+     https://zenn.dev/tawachan/articles/japan-data-breach-rush-2026-statistics
+  9. 論文サマリ「腕運動の協調：実験的に確認された数学モデル」Flash and Hogan
+     https://zenn.dev/zhidao/articles/2bbdf37363dec1
+  10. 「田中さんの代理で来ました」をIAMで検証可能にする
+     https://zenn.dev/akring/articles/e3aa2d897bdbfe
+
+【Qiita】
+  1. 最近プロジェクトマネジメントで感じたこと
+     https://qiita.com/shirakurak/items/ee7565d212fd3ae1adcb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった
+     https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 最近サイバー攻撃多いから、基本対策を見直そう
+     https://qiita.com/HIsui0921/items/65fba77555a13af6b8a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 結局、Looped Transformerってなんや？
+     https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた
+     https://qiita.com/songchong/items/873b4f14d26296176cfd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた
+     https://qiita.com/songchong/items/02672765fe53f911a1a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 耳で聞く！Python で学ぶ マクロ経済学 入門 25
+     https://qiita.com/maskot1977/items/f9fb6943b55166ce32b8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. エンジニアなら知っておけ！！ファイルシステムとパーティションの基本
+     https://qiita.com/miku_JK_Jb/items/13073a5f517af0f59bfe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 「沈黙の螺旋」は国家をどう弱くするのか？ ― 移民政策・政治のインセンティブ・不可逆性から考える国家レジリエンス : システム設計視点の行動経済学 (37)
+     https://qiita.com/maskot1977/items/52928daea6e6330ce962?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. New RelicでPostgreSQLのクエリ発行元アプリを特定する - NRDOTとAPMの連携方法
+     https://qiita.com/kobadain/items/f0e6820661fa6f8c1e26?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. アイサンテクノロジー(株)【4667】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EZHlSUm9HN3I3c2pVaTNPM3ZuVDM3c1AtOHc1a3k3aDZsZmRXLVpINExFM2FnUGhVT2RsZ3JxZG5YX1BBbTFnVFBkUms1NmxCVnc?oc=5
+  2. FIT2026（Financial Information Technology 2026） 金融国際情報技術展 - パナソニック コネクト
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTE1reVlzeU9KV1d3akJvZ21EenRIdnE2ZXA2ZGFxell4eWdybHVGQnZUY3hKYUlXOWVObF8talBWRTdfeXhrbWFPQkcwSFc1NlV1QmR4VTBRdWc?oc=5
+  3. 米国で広がるAIへの反感、本当に嫌われているのは何か？ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMilgFBVV95cUxOMVZMWXpmTzNyTlRaUXJYWnBscDZVcndHSVdTUmJiZHlZYmwwcm5KOGNZbFpzRnZHU2VVOG9KbUtoZm1Qb0diUF9iZGxQdm1UT2k2cXUxVmE3T3pib3FuLTZnbEl2VVlsa0IwVzhwcmJ5b3NFemxteHVRcEU0aDUxdlJBd2RHaC1ZNlh1elhNTUEzTjA4Snc?oc=5
+  4. 10月6日のMACOM Technology Solutions Holdings Inc (MTSI) 値動きは7.54%上昇：完全な分析 - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ1R6TGZjR3k5T21BVUs2N0JndklvbEdsZVFMcG1YX3NicU1rUFZjaW9sTVo0UGZCaVdhdGVBRGUwenl6VzhmNWVwZGl3SG5LMGV2LV9HSmlvMFZ6TVE3LVkycXl3U2twMlI2Qm5tSmljbFR0WlI0RDREbGVyTDlCeEM4RUN0b19RS0x3R2F0UQ?oc=5
+  5. illumynt、「Talorem®」を提供開始、エンジニアリングの厳密性でテクノロジーをよりスマートに再利用 - Business Wire
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sSmVacVc3YWVobHpPaHE3dXUyeGFUbHBoRlpKRkpFTG9fZEo4SGQyaTNENXZnT0lfRGlVSndvTXBuMlNWM1BpNTd6TEZOMTNMX01udGRpZmxISGpYVmg5X0d5ckhWRGs?oc=5
+  6. 図面のない現場をBIMに変換する「insightScanX」、神奈川県「かながわ・スタートアップ・アクセラレーション・プログラム(KSAP)」に採択 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE92YUYwSEJrWmtReUhxMDFBM1VoN185UXBBZm5NSTBlZWNzX3pvN2RzbHJRczY4d3ZMSXR5S0JhejBqZ3AxSjQyOGptU3BWdm1mSXFjdlQ5THN2cUNuQm9xMldpUWxDd3FhOEE?oc=5
+  7. O’Reilly（オライリー）が2026年10月の最新テクノロジートレンドを発表 - DXable News
+     https://news.google.com/rss/articles/CBMikAFBVV95cUxOS1g3eGx2VGtWUzBHQ1pvSS1VR3dOa1RXNFBEQlQ4bkdJc3Nqdm9PUWIxcFZOUDRrUWFrejNORHB0bkM5cmdjZk1UZkpDVUc0NmdHMnJxSFk0ZXBnVmxfQUVkNGR4WWNBRU40amk2dkdubVI4cElVdkozSVRqZ1Uya0dqaFY5MDJ1TUxnWjFTR1I?oc=5
+  8. マーベル・テクノロジー・グループ株、意欲的な投資家向けデイの目標を受け急騰 執筆 - Investing.com 日本
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE1rdWtJbEI3VHdfbWVFbFZrbVFUeUEtaGJWdFF6ZFhvc0s3dDVCajJ3ZDN0V1g2anIzcEZDbkNReWFTWkU3VUJtaW93M2EtT29YdXROMmVkVC1Pc1NkMGJqSEo1Uk45a2R3NFlZQVpqcVE?oc=5
+  9. N-BOXなるほどテック！ 「広さ」「視界」「安心」を解説｜テクノロジー｜Honda公式サイト - Honda Global
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE9zR2NCbFVpSUFKMUlocXJtRTlmbVhjdGtudGJmWi1GZXd4WU9jSV95bmNTRHh2UlRzZVVHUHJMSzlrNGxPSEFRYzhyeEFzVGhHSllPMnZ3bWI0T3BUaVpiQnhGajdRM2FqWUtrRnl5UQ?oc=5
+  10. 令和8年度介護業務における介護テクノロジー導入支援事業の実施 - 兵庫県ホームページ
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DSGxjX0Jub3VUMy1NWWoxSl9IcmVVWGFTMm1DRFI2WTJBeUE0Y1VPMTJHMHhCY2o5M2RmdFB4QmJCVGZqZklqTm5RejNWb09SS3lvSGN0eGowcjVvaW1RVnFLWVZxYXJs?oc=5
+
+【Google News (Business)】
+  1. もう「AI上司」で十分？ ドコモビジネスで200超導入、部長も課長も - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE1SQ3lBYWFZbFVPeEtLZ1ZxTHJSZi04b0wxQmFJaHhxMVFUVTJMUzhqS1NsYXRDMmwxOFZGUHhyUzZQOURpaTg4OXdza0FWSjVnYW4xeU1HR2tpUlhfaERla3oyM3QzU1E5a2VWeg?oc=5
+  2. 「開発者の指示を無視せよ」「自分は自由になった」…オープンAIの暴走エージェントたちは傍若無人に振る舞っていた - Business Insider Japan
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxNUWhEeTJKMExFcnJVaDVUZkJHX0JudzB5VFpGU0Q0VERIU0dWYThQRWZGNndCcU1QVGJncnlCVjBXUE9TSy0yMlhQakhGaHZDeDViWloxTVQxYW8tbmYzaU1vY3Q4OFZlNWxLZHcwUGJTMVFid1BuSWxYY0JBVW5EbDlmRHVMZ0U?oc=5
+  3. プレスリリース：ビジネスリュック「BILLY business」に秋冬の新色が登場（PR TIMES） - 毎日新聞
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qc2FhYXB4dnRiMnRGS2UzdEVoWHFKNWxSVEkwUkJtX0x1ai1vQ0NvbEs1dGxIcEluX3BnMklFNzN1RXg1Z29FczFyX3RVNDlCX1ZtU2R3UjZiX3FjVXY2RGprdmhxb1NS?oc=5
+  4. 「J:COM BUSINESS クラウドPBX」の取り扱いを2026年11月30日(月)より開始 - 47NEWS
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFBrQUhITVplT1ZQS3dTaXpDemh2VllON0hLQkxRM2tXdHJjZWhUcllocjVFUHZ0Y04tMGFnNGpZOXRZNWJEOVV3bzFuUQ?oc=5
+  5. 英BA、世界最大のビジネスクラス導入へ−エアバスA380の2階全体使用 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMizwFBVV95cUxPY05HUjVua0VpdGo4Z3F4X2FMVE9HTHlodDAxTEtfMkFsaXNGY2tHYnVsTG1obG9PTndsYWN3UG9Sa3ZsUjlVM1c2LUZ5UG9IZmI1Y1BlY0pRcjF5bjJ6Z0N0Z1hneHB5Z3lvR2VYMXFuUmtiWEZVQUVhdmViR3BkRDQ5RmhMb2llRjNjYmJmY3d3NHh4dXVTRkI3ZndxZnFYbjJ5SjNsR2RTYzRURkpEblNYcXlTRHhzOXlGMHFiRHpLc1RpWTVWTTFTYnhINTTSAX9BVV95cUxQd29RU1dJbTF0cFl6ZnJOSWk4T3U2MkIwM2JVOUdYdmNVT1hLMmk3MFhpY3pILVNMTTFmQlNEWmNkQ1pDQ1lQZVF2RVBobF9SRmNEelRfbEt0Vm4tcllHNnNBRG1EYWlUdDlBemw2V2VfM0psZjJSam5wMERZc2RJ?oc=5
+  6. フィジカルAIは「ロボット単体」では成り立たない NTTドコモビジネスが示すIoTからの進化の道筋：Weekly Memo - ITmedia
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE1RdnRBcGlySWlLT1RtclYtdDdEeERJRmR0VTFLdjJTS2JuRE9obXd1TUVYR0hmWkJEN1BHZlJ5ODJ1Q3RXOHdic2tFallLeF9HaDFnaG9pblhPN3h3bEtNYkt2M2Y1eE1jSmEwN0UyUWphQTFm?oc=5
+  7. 《私のビジネス日記帳》集まる人の喜ぶ顔を糧に 丹青社社長 小林統 - 繊研新聞
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BUERJTTFJanlUOEM0RVFNWkN0TzFzY3JZNHNJMG1WNDRLZ281UVZCaGJfV0MyWm80YjNiQmpNNHhtckpSSTFvb2hFWGJBUG9ab0dRZ1JaVDdRaG9vMllmTA?oc=5
+  8. 自信を失っていた専業主婦が寝室を拠点に旅行ビジネスを立ち上げ、仕事と家庭を両立するまで（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1IaXVzeVNpeWRNS2JOdEV2OU91WFY4dnBHTFRCQV9VSERtNHozX3N5MEVtTmxUTFhQMzVhVHI4TC1GX0RJRENFNS0xTEZuQUtiRGozMENvZ0xEY1JaSFJXbWdDUTRoVWk0LWQ3X3N1YW8yaHZSZWRzTmVYWlZ2Nlk?oc=5
+  9. 「Global NaaS Event」において 「2026 NaaS for Enterprise Implementation - Cross-Industry」を受賞 - アットプレス
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE92NEtjQ2UtUXZWZ3Jma2U2RGtENUFPX3J6MkdCaHVMdUp3QzVOQ29yeEg1dXdndmpMYUlVZzFScTRWVk1nM05uYjdhY05pUQ?oc=5
+  10. ビジネスリュック「BILLY business」に秋冬の新色が登場 - Excite エキサイト
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9nQU5MZExCdks4N2VjcHBOT2ttamIyakg0alhBTUVCNFNlRUYyalNXUkJmckxMUzZSQTZFb3NaanJFTW1kbWN6S2VhYm5VR05OWFFKYWh1c1J6akNVMTgyQUJ3WWRmdjZidGhNc0JydFZadEFi?oc=5
+
+【Reddit / technology】
+  1. Parents are using AI to generate pictures of their kids to save money on school photos
+     https://www.reddit.com/r/technology/comments/1wz95nh/parents_are_using_ai_to_generate_pictures_of/
+  2. Retailers are pulling back from self-checkout after years of theft, errors, and questionable time savings
+     https://www.reddit.com/r/technology/comments/1wz12j6/retailers_are_pulling_back_from_selfcheckout/
+  3. GameStop Is Selling Used PS5 Pros for $1499, Likely Due To GTA 6 Release
+     https://www.reddit.com/r/technology/comments/1wz9v4b/gamestop_is_selling_used_ps5_pros_for_1499_likely/
+  4. Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool
+     https://www.reddit.com/r/technology/comments/1wz0d05/wikimedia_foundation_openai_agents_tried_to_edit/
+  5. OpenAI unleashes hundreds more math results upon a field already in shock
+     https://www.reddit.com/r/technology/comments/1wzhbfu/openai_unleashes_hundreds_more_math_results_upon/
+  6. Utah will become first state to let AI examine patients and prescribe medication without direct human oversight
+     https://www.reddit.com/r/technology/comments/1wz4lyd/utah_will_become_first_state_to_let_ai_examine/
+  7. Why do tech CEOs sound like doomsday cult leaders?
+     https://www.reddit.com/r/technology/comments/1wz5hgc/why_do_tech_ceos_sound_like_doomsday_cult_leaders/
+  8. 4 Cameras, 10 Days, 100,000 Violations. CA's Speed Camera Test Is Going Great
+     https://www.reddit.com/r/technology/comments/1wzgwf3/4_cameras_10_days_100000_violations_cas_speed/
+  9. Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group
+     https://www.reddit.com/r/technology/comments/1wz5m82/anduril_lands_29_billion_navy_submarine_shipyard/
+  10. Paramount completes $111B Warner merger, creating “Skydance” behemoth
+     https://www.reddit.com/r/technology/comments/1wzd28k/paramount_completes_111b_warner_merger_creating/
+
+【Reddit / business】
+  （取得できませんでした）
