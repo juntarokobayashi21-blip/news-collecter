@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-11
+============================================================
+
+【Hacker News】
+  1. WallHop – 12ft.io is gone, so I built a replacement
+     https://wallhop.io/
+  2. Build your own decision model
+     https://nishtahir.com/build-your-own-decision-model/
+  3. 2D Vehicles
+     https://patkerr.co.uk/2d-vehicles/
+  4. A city-building game in which the city would prefer you didn't
+     https://housing.over.pizza/
+  5. The Lightbulb Computer
+     https://lightbulbcomputer.com/
+  6. Nix wrote half of my debugger
+     https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger
+  7. Knuth reward check
+     https://www.thomas-huehn.com/knuth-reward-check/
+  8. Why DuckDB 2.0 is faster
+     https://motherduck.com/blog/why-duckdb-20-is-faster/
+  9. Five months treating bugs like patients and coding agents like a medical team
+     https://www.cockroachlabs.com/blog/experiment-running-hospital-code/
+  10. Talorys – A self-hosted personal AI agent on Cloudflare's free tier
+     https://github.com/rociiu/talorys
+
+【Zenn】
+  1. SQLite 本体にベクトル検索拡張 vec1 がやってきた
+     https://zenn.dev/mattn/articles/6e9996319ac099
+  2. 2025 年 10 月から 2026 年 10 月までの Mozc に対する主な変更
+     https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10
+  3. Notion や Slack から AI に仕事を依頼できる仕組みを Claude Code Routines で作った
+     https://zenn.dev/terass_dev/articles/6e6562d54d5505
+  4. AIエージェントにMicrosoft Fabricを操作させる ― Fabric CLIとSkills for Fabric
+     https://zenn.dev/headwaters/articles/12175106cd8c79
+  5. Renovate の更新 PR を AI エージェントにレビューさせ、自動マージまでつなげる
+     https://zenn.dev/greendrop/articles/2026-10-09-4664c51706f346
+  6. Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した
+     https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles
+  7. 若手エンジニアに必要だと感じた「AIを使う力」
+     https://zenn.dev/muit_techblog/articles/6ea28887c79457
+  8. CSSの`text-box`で文字を上下中央に揃えたい
+     https://zenn.dev/chot/articles/be424332489e7a
+  9. 【三次元再構成入門】多視点の画像から3D空間を復元する仕組み - カメラパラメータとSfM
+     https://zenn.dev/dalab/articles/9ba129c4647844
+  10. Snowflake Agent Identity 徹底解説
+     https://zenn.dev/finatext/articles/snowflake-agent-identity-introduction
+
+【Qiita】
+  1. 判断特化型GraphRAGをJevを使って構築してみた（ベクトル未使用）
+     https://qiita.com/kikuziro/items/6191b5ad83520d181f38?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 攻撃者はWebアプリのどこを狙う？ 初心者でも今すぐできるセキュリティチェックリスト
+     https://qiita.com/Koukyosyumei/items/8aaa44ff15a3b404fd8b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. コメント欄にはなぜチンパンジーしかいないのか
+     https://qiita.com/kotowazaman/items/b2f2d50f0a5c74d09348?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. OpenAI の Decisions API を触ってみた
+     https://qiita.com/hiroshi_ito9854/items/ff26fe2e239e23305f26?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Microsoft セキュリティ、これをやってください！～ 実践ベストプラクティス
+     https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. コード検索で使える正規表現の基本メタ文字まとめ
+     https://qiita.com/Yuzuki-ki/items/31b98cf32c1db2d561d7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. なぜ最新のIoT家電は2.4GHzが主流なのか？Wi-Fi周波数の選定理由と技術的背景
+     https://qiita.com/sc-noguchi/items/b791f8cd3885816e2b4c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 「最大30日」と回答する前に、Amazon BedrockでOpenAIのモデルに送った文がどこに何日残るか確かめた話（2026年版）
+     https://qiita.com/ntaka329/items/1ad9131353e51c5b99fd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【Vite】Could not resolve entry module “react-router” の解決方法
+     https://qiita.com/shun123/items/07f09fd8602cc186d8ce?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Satori GCをMSBuild SDKとして公開しました！
+     https://qiita.com/hez2010/items/7334840a4e96851f5a0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. クラスターテクノロジー(株)【4240】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QanZMN21oNS1PRGFzRlVUWV83cGU2OGtlMzJac1ZTa1htYVdkazhDLURVb3ZJRHk5a2J6M0NsUFlCMkU0TXI2bjdZQ05JRFJFWmc?oc=5
+  2. 「Hydrogen Technology World Expo」に水素製造装置用電極を出展 - 株式会社 豊田自動織機
+     https://news.google.com/rss/articles/CBMic0FVX3lxTE5TY1drdUp3OFlkVmxlT2FDajN1ZnY0ZXdKZmNhRTRFcWttajhpRGdSc2tobVJEeWpQQy1Oa2VpZk1TTTh4Wm5MRnhaZEVLckZuQXdNUG5RRWRpX1d1Y3NNWnpGQWotMldLeDQzZGt3MHItUkU?oc=5
+  3. プジョー・ジープの新型車、中国モメンタが運転支援技術 欧州などで展開へ - 36Kr Japan
+     https://news.google.com/rss/articles/CBMiO0FVX3lxTE44ZlRVYVBZbHJ4N3V1WDNyNmlMTGFSdFVCRTAtcXBEZ0xTaXh4RlFnZEkyM2FlcWVJamhn?oc=5
+  4. 先端テクノロジーへの取り組み | 仕事・技術を知る | 大和総研 採用サイト - 大和総研
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE5hVUlZc3I5Skx0YTQ4TWpJVWlraTY0OVVxQkw4OHRVNHA4RVVHUVFnaHlSTVJ1ZzcyN3lWSTNxQ2M4aFAzMmZOaExHbFlDU09jNWtHbFVyaXdlczQtcXRKY2lkeEtkNWFKalU1alk0ZjA?oc=5
+  5. 光で神経細胞を制御するノーベル賞受賞技術、その原点は藻類だった - WIRED.jp
+     https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT1BqU0ZBaGsyRFNxaXA1UGl5b2p1UkFHOFpjSVNlYkpwQXJCd2ozc29MRGVwb1A4RGRzaTRmNjVCZDhzQ01MeVNqQkhjNGVUZmVDQjVxZnBhTXhBbk4tVUJkaFVvb2xfa0ZVUk5ES2dES1FBN016UFExSFhnR2tSM2d0V0VKcWtMLU4wRTVOd01uSUtLZGlQODJVdU1sR195MVRjU2VCcS1kUQ?oc=5
+  6. タイ国立科学技術開発庁（NSTDA）と包括的な協力覚書を締結しました - 新エネルギー・産業技術総合開発機構
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LN2dSdDZxczljT3pQTExOaFBmSlhiYU1fWWFTZm5aY2NXVm9ObFEzZ3lyRmQ3eGoxUlAwNlM5aUhKR1hHZHJ5SjNwWm5Va0N5Z0prQ2pn?oc=5
+  7. アイサンテクノロジー(株)【4667】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EZHlSUm9HN3I3c2pVaTNPM3ZuVDM3c1AtOHc1a3k3aDZsZmRXLVpINExFM2FnUGhVT2RsZ3JxZG5YX1BBbTFnVFBkUms1NmxCVnc?oc=5
+  8. 令和8年度介護業務における介護テクノロジー導入支援事業の実施 - 兵庫県ホームページ
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DSGxjX0Jub3VUMy1NWWoxSl9IcmVVWGFTMm1DRFI2WTJBeUE0Y1VPMTJHMHhCY2o5M2RmdFB4QmJCVGZqZklqTm5RejNWb09SS3lvSGN0eGowcjVvaW1RVnFLWVZxYXJs?oc=5
+  9. Technology Day 2026 - PwC
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFBDeEYtYXVRYkpSOW1OS1NkUWY5S3RpS19ZWlJWWnpRMDdtemluMUtrUTAxb3JpVXhqaUJWSEFKSWNZOVZLVjFna3dPQi1ubUkzWjBMWWpVUkpDNHd2V0hVa1NnOG9Yd3U4cU9XemJ6RWdYRDc0?oc=5
+  10. Nara Space Technologyの宇宙検証衛星、「ヌリ号」5回目打ち上げ後に双方向通信に成功 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFBfSzlDUFF3N1Awbk5rSW1iUUFSaGpPMTFncVctMURBR1FuNmFyVThIZWFLcHVrWkppaHBidU8wSkRnLURZY0N3WF9LQUIyUDJaaXZreGdNZGRILXhsSVlSWnFJRU5NRVo1LVZ2bFJXbWJYS0Mt?oc=5
+
+【Google News (Business)】
+  1. 【無料ウェビナー】2027年ベトナム成長市場、次のビジネス機会を解説 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE16WUVoOXFqams4UlFhZHE1QkNNUE1qQnhQdGhqSnIxWDNFSEszdnFnbXpvd0VLa1V4Q2d4MTRDRG5yQ3dqU2ZSUTdwbGRsMnZpQmx3cWN0NzlLU0JUVk9GQzVaTjJkN1FFVHc?oc=5
+  2. また変わる？ NTTドコモビジネスはNTTグループでどのような存在になり得るか - ZDNET Japan
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE4teHU3NkJ2QmJ1Nk81WVFCemJLd3p2aEROQkRuSFF2TFBtWjRkS29SUnVvb1dBQ1BoelJ4RWZaLXphaUhNc1FKQ0dRN01ETFdmXzl3?oc=5
+  3. ［独自］国内の排出量取引、参加義務の主な企業判明 日鉄・JERA・トヨタ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSSDhqTGtrQzhmWXpXbWM0U0MxdTdXbVhvZTN5UUNrOS1EeE1tMkpzOTJpRnVLdjdmMVZpSEtaaVM4ZGtYalBvTDRMcVpoZzFMejhvN0dwa3A5bE50QWRKM0dwRFM1VTA?oc=5
+  4. チョコクロは海外で勝てない？ - Business Insider Japan
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE5xaUFnemk3N09xOU0zdkhibWZMdHU3amkwc2tkMFNBSnQ4b2ZST2Q3VkpIVWJrdGEyeTNBanZ2OW11WkFzeXpuVW9zd1RrLTltaDh1NUZjMlRzVExabVlYSWkwSW5MaXlZbGxqeEVWdWpGaWJxc2c?oc=5
+  5. 宮城のシティ×ビジネス、10/17の45日前は推定OCC88.9% vs 59.4% — 29.5pt差が直前4.7ptまで縮むブッキングカーブの業態差 - HotelBank
+     https://news.google.com/rss/articles/CBMilwFBVV95cUxQTzF1ZngxLThSUTAzU1lFWjlzY0NQVEZMQ1IzMDIyTlU3czJRNFFlU0o0OEY1cHctbDg3bFVLSThoQWVDU0xvamhYaEJNZVAxU0htN0RYZkprbDRmMW81UXRpS19Gamsyclp3STRNck9jUFhqTFg2djgwQ2dUNWt2eWp6LWNzX01uMjZIZHU4d01KcldPd28w?oc=5
+  6. 上司に聞く前にAIへ？ドコモビジネスが200超導入した「AI上司」の実力（Masumi｜ライター） - エキスパート - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNEt1VGp4SUZNWjNkWE5ycWtPcjU0cGRybUhUMjYtakZNZDdkVktvU25iZ24zc0E1SjZDS2ozcXR5Y1Z6TmVGSGRiOWZfa29waEF6eUdnVjZaTVczU2cxQ3ZRVDE4M0NQRkwwaGcyS0k0ci1qZW9rYlIyT1M0NzBrd2VrNGRkbExW?oc=5
+  7. ワークマン土屋専務、異常気象で「ビジネスチャンスだ」――目指す250億円、断熱ウェアに勝機はあるか？ - ITmedia
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE5BbG02WHNQbWpVYTFMUzlyZWlucWtlQVdDYmpXb1RKZWJhcThFM0pPenNYRDFqS3JvV0szLVQ4OGNHU0wwR3NhSzVIX1lFVDZrQy1PaEYtb01hVDlNUVd5M1pBdDRIMTQtenJhVW93ZkwwaVJE?oc=5
+  8. Business News: FHHがGIAの宝石学・ジュエリーアートを学ぶ学校と提携 - Hodinkee Japan
+     https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeDA0dTBUYmVjckNPUzhzSjAzTDlRX1lSTU9NZnlfTThYNEF3a2dYSDg4V19wMU0xdEdGdFJ5WFM0RkxZSFNIM1h3dm44YVFpV25GNVpsMUpQWVc1bzhyTWQwclFUaXlJX2kzbmFZbDZGbk91SFQ4SzRUZTIwdkctak5YdFNuQWxKa2o3UkhIS3ZBN0VJS3VZdVk1Ulk0UjJsNld2NzNYa0RkWjZtLUZRRElUNTZiOEszTXgtNHNqMlRwcE9tZWhLeg?oc=5
+  9. NTTドコモビジネスとClassiq、量子コンピューティングの産業活用に向けた戦略的業務提携を締結 - NTTドコモビジネス
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ha3NqbXM1V2tZYklQcXNnc01pQ0U2RVRpUlVQb0tORmlmVmowcHp1N2NmMENHZmNZZDhDNUJBM0JLWVp6aUgzSGtIak1hUDNPc2R2MGlIQVFOYnlyd1p1c1NTdGNMTGJYVE42azFMRVRWaVUxYXpubWpacw?oc=5
+  10. ハイパースケールデータセンター向けE1.L QLCベースSSDの開発について | KIOXIA - Japan (日本語) - KIOXIA Corporation
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE5VOC05VUpQb2FvM2MxeDgxeDZ4YnRrUnpTSVRNLVZUQzcwRTFEaG12Y2NmUGpFVWJ1ck4zNnB0RVVFYWZQdE55VnFzdWgwUDV6MGxBM1RSMDNJOUx4V2tzNV94SUpwYk4zZVVuTUlqX2w?oc=5
+
+【Reddit / technology】
+  1. Nicolas Cage Says He’s ‘Probably Not’ Working With Amazon Again After Refusing to Sign AI Waiver for ‘Spider-Noir’: ‘I’m Not an AI-Friendly Actor’
+     https://www.reddit.com/r/technology/comments/1x2k752/nicolas_cage_says_hes_probably_not_working_with/
+  2. FDA may allow some toxic chemicals to be added to food without safety review. Experts are alarmed
+     https://www.reddit.com/r/technology/comments/1x2f6ly/fda_may_allow_some_toxic_chemicals_to_be_added_to/
+  3. Vance claims Microsoft replaced laid-off workers with foreign hires — Data shows two-thirds of Microsoft’s H-1B approvals went to people already working at the company / Amazon and Meta, the nation’s biggest H-1B sponsors, were not suspended
+     https://www.reddit.com/r/technology/comments/1x2mper/vance_claims_microsoft_replaced_laidoff_workers/
+  4. Joseph Gordon-Levitt Says A.I. Is Trained to ‘Hijack Your Intimacy’
+     https://www.reddit.com/r/technology/comments/1x2ta72/joseph_gordonlevitt_says_ai_is_trained_to_hijack/
+  5. Gaming consoles are more expensive than ever, and fewer people are buying them
+     https://www.reddit.com/r/technology/comments/1x2ni1m/gaming_consoles_are_more_expensive_than_ever_and/
+  6. Ukrainian drones strike Russia's largest data center, multiple parts of 1.4 million square foot campus knocked offline
+     https://www.reddit.com/r/technology/comments/1x2c1gn/ukrainian_drones_strike_russias_largest_data/
+  7. Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship
+     https://www.reddit.com/r/technology/comments/1x2e3ar/nvidia_reportedly_halts_geforce_rtx_5090/
+  8. AI will make Americans dumber and poorer
+     https://www.reddit.com/r/technology/comments/1x2nxdb/ai_will_make_americans_dumber_and_poorer/
+  9. A.I. Companies Say They Aren’t Responsible for Their Unpredictable Products. Don’t Believe Them.
+     https://www.reddit.com/r/technology/comments/1x2m0nl/ai_companies_say_they_arent_responsible_for_their/
+  10. Senate probe accuses Big Tech of misleading public on AI data centers — massive 100 MW sites create only 100 jobs while securing lucrative GPU tax breaks; Senators question the number of permanent jobs, but companies refuse to divulge data
+     https://www.reddit.com/r/technology/comments/1x2imz1/senate_probe_accuses_big_tech_of_misleading/
+
+【Reddit / business】
+  （取得できませんでした）
