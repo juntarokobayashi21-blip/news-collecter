@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-18
+============================================================
+
+【Hacker News】
+  1. Bleached corals thrive within days when touching healthy neighbour
+     https://www.nature.com/articles/d41586-026-03266-x
+  2. Dam removals are bringing fish back across the northeastern United States
+     https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/
+  3. Furifont, a Japanese font that shows furigana
+     https://furifont.antfu.me/
+  4. DeepSeek-v4.1-Flash-1017
+     https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+  5. Pele – Mermaid diagrams as themeable SVG
+     https://pele.run/
+  6. The Commodore 64 hardware simulator: break chips and pins, see the results
+     https://github.com/antirez/c64-hw-simulator
+  7. Making chicken transparent using Dorito dust
+     https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using
+  8. Types of types: Haskell's Kind system
+     https://thunk.blog/posts/types-of-types-haskell-kind-system/
+  9. Gold is now the top U.S. export
+     https://www.numismaticnews.net/gold-now-top-u-s-export
+  10. Show HN: High-quality duck audio synthesizer
+     https://celphase.github.io/duck-pond/
+
+【Zenn】
+  1. Jetson AGX XavierでNemotron 3.5 Lightningを動かしてみる
+     https://zenn.dev/nooop/articles/9d5f19aed77e18
+  2. 3Dデータの処理基盤をTemporalに全面移行した話
+     https://zenn.dev/bestat/articles/7106fdf2f399e1
+  3. FreeBSD/Ubuntu サーバのセキュリティ強化
+     https://zenn.dev/taroh/articles/ea4ce5256d0691
+  4. ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する
+     https://zenn.dev/nkzn/articles/my-first-void
+  5. [DataRobot] アプリに依存しているデプロイを探す
+     https://zenn.dev/hattan0523/articles/58b5774d099a40
+  6. 押せないハンバーガーボタン、3回直して原因はCSSバンドルの順序だった
+     https://zenn.dev/pythona/articles/css-bundle-order-hamburger
+  7. JenkinsからGitHub Actionsに移行して、CI/CDをAIにも人にも触れる形にした
+     https://zenn.dev/ceres_tech_blog/articles/7c5d1b9d29e621
+  8. LLMにとって書きやすい構文とは何か：`end` と `end func foo` を1,000回以上比べてみた
+     https://zenn.dev/nextbeat/articles/2026-10-syntax-locality-llm
+  9. 技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）
+     https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm
+  10. ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた
+     https://zenn.dev/aiforall/articles/8e1803396534de
+
+【Qiita】
+  1. CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性
+     https://qiita.com/k2_naka/items/fa87685231377f15e7e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Jevにウォーリーを探させたら0.4秒で見つけやがった!!
+     https://qiita.com/kikuziro/items/c1b47d4bfaa64960ca18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 伸びる動画の特徴をAIに言語化させたら、リール作りが回り始めた話
+     https://qiita.com/Eitaro_dotlog/items/c1e2f6d696ea88854186?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 【AWS】AWS Lambda Web Functionsから考えるAWS Lambdaとは何なのか
+     https://qiita.com/ymd65536/items/3bc00ba77b87808bda9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 非正規37%の経済設計バグ ― 労働市場の二重構造をリファクタリングする : システム設計視点の行動経済学 (42)
+     https://qiita.com/maskot1977/items/9467428563658ebdf404?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. GitHubに競プロライブラリを保管したい！を叶える備忘録
+     https://qiita.com/Un_titled/items/a8620f54cf953ad67365?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 画像アップロードAPIのセキュリティ対策を、実装レベルで振り返る
+     https://qiita.com/vaon-luandv/items/a4719b247a0ec489e4c3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 耳で聞く！Python で学ぶ マクロ経済学 入門 30
+     https://qiita.com/maskot1977/items/4138e1d04b2c2865d592?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. いつも一番に食べ終わるあなたへ：会話のロードバランシング入門
+     https://qiita.com/redwings_a/items/d79b4f94f7244da2cb98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. AI時代、何をもってソフトウェアの品質を担保するのか
+     https://qiita.com/acsuzuki/items/a1f4533a4d7c724c097f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 三重県四日市市で実践型「半導体人材育成施設」が開所 年間で最大480人を育成：製造マネジメントニュース - MONOist
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5xbEpoRU1wb0ZmVEV2SEljV3FkMmdHVnhET1Y5bEZ4b1Q0THBiOGRKQkstQVBIVDlBUkhkZ2pKcDhxdndPMW5LMlR6bE1LdUg3MUliWHlxNHJVeTU2T3hXV2dWT3lmUGFmVUpnNkNLdw?oc=5
+  2. 革新的集音器ブランド「セアボル」、2026年 Hearing Technology Innovator Awards でダブル受賞の快挙！記念の特別割引キャンペーンを実施 - 毎日キレイ
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE1hNVdzenlabXMxRWxwQzhpeE1MRk9KOVBCUHJyck1TazhvREg4cWFpWXdhbkQ3dmNpdV9HRUlXQ2NER1dMOTRMVlM2TWJzMmFCSzliWHFhUGdzMVAxcEZSYW8tVFdZX3pRdE01WUpKV3VYend5TmVQMzN3?oc=5
+  3. NEUSOFT Japan、Neucare Health Technology、学研ココファンの3社、介護DX・人材育成で戦略的パートナーシップを締結 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5UMk5ncVRScUFJTDlvT2VNVFNOaUVsMkk0OUdiVG5KaXU5UlpEal9JMW9USnFHclNBdDFmRVBmdWxJVjdiTHZ3NVA1X0xOLUhtRllOaXNUMU9ybEpmOXBJd01pUFlPb3BlN0E?oc=5
+  4. オープンモデルは危険か？ AIの「民主化」と 安全性のジレンマ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMioAFBVV95cUxPTlhSaU9mbjhXN1NpRzBDMmpHY1Y4bkprQm5yRkItd2Q0UHRsSWlrUzRGTC1weU45N1JyN0FCcmRqejhKQnJyOUFGS0ZibGZtUjZWTTNjVjBCQl9seFl6X1V3NnJHZlN4WHE2SGRPN1ZlUmZqTzJwaUk5SHZYbE44ZXpxNXVYUHNmeEdEblVtNGI3TFB4OUE1SzVMR1BFb2s3?oc=5
+  5. 石器時代のロープや糸を作る「見えない技術」を考古学者が復元 - GIGAZINE
+     https://news.google.com/rss/articles/CBMifEFVX3lxTE9tdldFM3ZPOVpmSkNEOG02WTVYajZkOHVPa3MzdEtvMjFiZExubmgwLXBDaDJFejk4aHpSMDI4WGdERHRNeWZIVHVoUVVUSGc3eEhUQU5qWUxibnFHaEk5ZUxRSEFVRllmRmF4bTJ6ZE4wNkxVSDlSSGtjZlo?oc=5
+  6. テクノロジー株、2027年利益成長の70%をけん引へ－シティが予想 - Bloomberg.com
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE1Nb3pReFlIRkVZejYycEdnRGQtN1BxY0ZydHJmOUFKTzU4MFFMUUVGMGVaeGc1b0xYNy1mTWVYNDBFQTNEdUFIa2ZaQmI0U3J0dWFRLWFkQkJiN1N6S1JERWZGUGhqME4ycHlZVlY4amUtVjdvNmY0?oc=5
+  7. 中国、ＡＩ技術の輸出規制強化 - 下野新聞社
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZMGNjNWR3bnJvcVVERlB6Mkl3alc0V2xUM2FuSFlnOTlVdl9LV3NvV0xFMVUzdEZfVjhtRklVUTFHOXJzbUhpUWFXaWVpWW1iZzJsRV81RFp5MFk?oc=5
+  8. ブラックスカイ・テクノロジー【BKSY】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zSkdObWdyemtMMkNFLVF4MXdhbGJEZWFHWkJkMFpCNjZoTkozTUwwZFNMRkhlcmlpQVM3eVI2Tmp1OUdRbWpvdzhYNl9QWms?oc=5
+  9. 世界を変える10大技術［2026年版］ - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZGdkQ1dtXzlwazU1Ynp1dmR1MkoxTnN6RGhubU8wR1JjZHFMSWpkc0RORG9NTElyUU44YWNCYkhydmxkUFNYeGN5N09KWXh1QnA1cUtlZDJVOXFOQU0tSDlrZU01cTVtbU9TM2pydGQ2elJJNE9UVV8xdWJaQjNpV2FBWkdYR0tkVWNycmNadmd4cVBhWmNIbk5CRFdGa3pDRmFuVGpBQlBtZ2tnR3M4bUxSOXZ6bVVlSlFhbE1nZ280SWhYVkkyeU9CMjVybVFwQm1ydnp6aVZfUHBMMm04ZlByTTJDLUFZZVVrZGp5a05BTTNj?oc=5
+  10. Chief Technology Officer - CTO Services & Executive Search - Egon Zehnder
+     https://news.google.com/rss/articles/CBMiogFBVV95cUxOaG1qMG9kVVlNeXl2bm1FMnRTNk80dkhScGxQcXg2RGMwcWl1Q0Fva3Q4VmlOblVjU29PTTIxbnk0Q3docDExakl4bWxNdHRhZFRWcWViMnRwcG1xcmtnWlVoN2Q2Slp0NXdYWksya2Rvd3loVURBUndwTm1vRjByQXJNcEFtYzIwY1lVN0g2ODJCbnI1dnZNTFZHdXNwWUZ1M2c?oc=5
+
+【Google News (Business)】
+  1. 私は16歳で転売ビジネスを始めた。数カ月でガレージは倉庫と化し、月収は2万5000ドルに達した（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5xZnNrYXgtbTNuZEdrbzNzVFA0WnNIdHhRQVA5Mm1hLW9EMjJqXzVaRlRsZjFjOENTVDJZMHktczdneDhqaEJNelhzdGlHX2JSSEh1cDhKVHd2NzU1a0J2LU9nYUZKanlvWGxRVUQyZ1NXM2xyQ2ZDSFhNc3ZsUjg?oc=5
+  2. ビジネスホテルが海外攻勢、アパなど大手6割増 低コスト運営に商機 - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTFA5Qjh0NUZ6VUhLLVkyd1djVzVzV09vOHhyQ2JDZFpNMzZmcDlhRWJCVEttRU1ySUZpRW54aFRIa1U5UjlpSHRRaTNRTzVySHpiZ2JCcGJQTGlLLWNuUEZ3TnNQX0xOTU1lSVJITA?oc=5
+  3. 企業･社会の変革を担う弁護士を選ぶ｢ビジネスロイヤーズ アワード｣､優秀賞＆特別賞26人の顔ぶれ - 東洋経済オンライン
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iRllxMjBJR3FINjZMa2FyUW5faWJvRUE0QzM5bEFxRnFCTjVrTUZkdEJ6VDM0clRLWVJpLVBuSVVaWEl3dldkdkR5N185RWRBWVFwYnVUb09XVFlLVXN3?oc=5
+  4. ブリティッシュ・エアウェイズ、世界最大「106室」のビジネスクラス導入を発表…豪華な内部を見てみよう - Business Insider Japan
+     https://news.google.com/rss/articles/CBMitAFBVV95cUxPaHNIcEhFTTdjb01hM3d0czBseVhEb3c3aFgzNzc4aXNDUXg1MTgzVGl4VHdZbjltMEhfSm5mVEhRNXdweDA5ZVlKMXZIaHZFMlVtbW4wb2tLaEswa3J6Q25zZGtaOGZIazUzMEYwQjdDTUtYLWNGaU1sWlp2MDhrbWFMelFONTVOaWxPM055MkozQml5b1hCalozdlhPYnN6TDZfVV9tTUxEWUoydTZOd2xmVks?oc=5
+  5. 弁護士ドットコム、「BUSINESS LAWYERS AWARD 2026」優秀賞受賞者を発表 | 弁護士ドットコム株式会社のプレスリリース - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBtV1JaTXZFRENzQzdXczJoV3hYNVdDc2dQRTJ6S25nVzJKeXFCc1V5cUlUMGZNV0JzY1RRSm51RkdTb3RIeC1vVENXZGF6Ylh2ZUViajRGYl96aVJHbVR6M1l3VVhyREVpWHc?oc=5
+  6. Microsoft、中国系国際サイバー犯罪ビジネスを解体 警察庁などと連携 - Impress Watch
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOTUwwQUFyTER1ZnFrZFFZZWRZcFlzbElidTdOZ0pKN0xvOHZLN1o2QWg4dDRMVXFmeU1pdmJEeVh6MGgxcm1yQmRNR0NUeWRXLXhPZTJCajduZ3NUNnNYb1FQVlo?oc=5
+  7. 広島の食事プレミアム、朝食はシティ+16.8%・ビジネス+9.5% — 2食付で逆転する業態差をどう値付けするか - HotelBank
+     https://news.google.com/rss/articles/CBMimwFBVV95cUxQdk9aQy1kUVhlcFZLWnVqV2R4QUlpdnc4WGJZc3RhR3dtZGRfNS1hRmJsTUR2eldQTk05NzdBakJuVnpSTUhKSGN3WkJvMGYzZGYwSnV2anJlU2tsYXJIU1lKMXc3QUo0cE1CXzc3UlZmb1lCeVIyVGJ2QVNYOWNUTkxjcUFrVjVEZVVfU3RjZV9fc3RDMHhtX0pkQQ?oc=5
+  8. 「音声」は新たなビジネス資産に Shureの新しい天井マイクは会議体験をどう変える？ - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5mcV9CZ2ZmZXVaNDlPYzF0UWNzeGhCeFdlV1NBQk9kMVNPZm8teEtMN0NaWjFJbjZaVG5Ic3B1OE1rdUJOV0tYNVRwOGRBTVUxbEE5ZmoxNXFWNWFONWRYSkgybXc0MXlaOFM2V3kweDNvdw?oc=5
+  9. 私は16歳で転売ビジネスを始めた。数カ月でガレージは倉庫と化し、月収は2万5000ドルに達した（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxQNVR0cVFjcGpkeTM3Yk5sa3NaSllJek90aXVOeG51blJadFA2TXBJcXFEdTVLd0dDM2E5WUNnSXctMm5QVGpXOFFBTDZ1MlU1RElHSDNlaGtzWXpmM0lSVFRyYmNmNXM1NkZteTJmbEZ5Y0hSU3F6bWxYZC1TelRaNV9XYWtpM2ZfMXBGX0FB?oc=5
+  10. 不動産業に危機感、新規ビジネスを3～4割へ 商社化するヒューリック 「超効率」で成長を追求 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BSnQ5b2REN2NuLXEwLU9rZXY4eVFoZE5GUDUtR2VCR1N5c2J4VmRsNXJpMnNrLWUyYWJVekhTdDVkeGJadE1sNzJ2OGtiRUNydmNtTHhIRzhiLWVqVi16S0tR?oc=5
+
+【Reddit / technology】
+  1. Russian Bot Activity Collapses by 84% After Strikes on Yandex Data Centers
+     https://www.reddit.com/r/technology/comments/1x8kmu7/russian_bot_activity_collapses_by_84_after/
+  2. ‘No Kings’ Says Meta Cut Off Access to Instagram Account on Key Protest Day
+     https://www.reddit.com/r/technology/comments/1x8oai3/no_kings_says_meta_cut_off_access_to_instagram/
+  3. US Rep proposes bill to give video game buyers "ownership," not "a license"
+     https://www.reddit.com/r/technology/comments/1x88jvt/us_rep_proposes_bill_to_give_video_game_buyers/
+  4. Websites are closing their doors to AI agents
+     https://www.reddit.com/r/technology/comments/1x8g010/websites_are_closing_their_doors_to_ai_agents/
+  5. Retired Penn professor arrested for blocking Uber Eats robot
+     https://www.reddit.com/r/technology/comments/1x8fvc4/retired_penn_professor_arrested_for_blocking_uber/
+  6. TikTok suspends 'Musk' documentary account over political content
+     https://www.reddit.com/r/technology/comments/1x8j93j/tiktok_suspends_musk_documentary_account_over/
+  7. Apple may have just sold 6 million iPhone Duos
+     https://www.reddit.com/r/technology/comments/1x8jhrs/apple_may_have_just_sold_6_million_iphone_duos/
+  8. Developer cancels demo over fears people could use AI to copy game before launch
+     https://www.reddit.com/r/technology/comments/1x8cjyn/developer_cancels_demo_over_fears_people_could/
+  9. New drug reverses severe fatty liver disease by repairing the gut
+     https://www.reddit.com/r/technology/comments/1x8ily5/new_drug_reverses_severe_fatty_liver_disease_by/
+  10. “thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops | Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG, Brian Richard Fitzgerald.
+     https://www.reddit.com/r/technology/comments/1x8as41/thegentlemanpervert_producing_ai_csam_is_a_nj/
+
+【Reddit / business】
+  （取得できませんでした）
