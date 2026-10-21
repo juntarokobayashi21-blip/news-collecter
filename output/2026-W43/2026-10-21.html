@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレンドニュース - 2026-10-21</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-start;
+        }
+
+        .stat {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .stat strong {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+        }
+
+        .badge {
+            display: inline-block;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .section-summary {
+            background: var(--bg);
+            padding: 1rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .section-summary strong {
+            font-weight: 600;
+        }
+
+        .section-summary h4 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .article-card {
+            display: block;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .article-title {
+            display: block;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 0.8rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-card:hover .article-title {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            opacity: 0.85;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 トレンドニュース</h1>
+        <p>2026-10-21</p>
+    </header>
+
+    <nav>
+        <a href="#0" class="nav-link">Hacker News</a><a href="#1" class="nav-link">Zenn</a><a href="#2" class="nav-link">Qiita</a><a href="#3" class="nav-link">Google News (IT)</a><a href="#4" class="nav-link">Google News (Business)</a><a href="#5" class="nav-link">Reddit / technology</a><a href="#6" class="nav-link">Reddit / business</a>
+    </nav>
+
+    <main>
+        
+        
+        <section id="0">
+            <div class="section-header">
+                <h2>Hacker News</h2>
+                <span class="badge" style="background-color: #ff6600;">🚀 Dev</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://permit.petercai.com/" target="_blank" class="article-card">
+                    <span class="article-title">SimCity, but with Permits</span>
+                    
+                </a>
+                <a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/" target="_blank" class="article-card">
+                    <span class="article-title">Feds suspect ransom negotiator ran ShinyHunters extortion site</span>
+                    
+                </a>
+                <a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" class="article-card">
+                    <span class="article-title">DeepInfer: High-performance inference framework for DeepSeek models</span>
+                    
+                </a>
+                <a href="https://mistral.ai/news/voxtral-3/" target="_blank" class="article-card">
+                    <span class="article-title">Voxtral 3</span>
+                    
+                </a>
+                <a href="https://www.thebeliever.net/the-other-epidemic/" target="_blank" class="article-card">
+                    <span class="article-title">The Other Epidemic: Trying to get off benzodiazepines</span>
+                    
+                </a>
+                <a href="https://github.com/google-pytorch/torch_tpu" target="_blank" class="article-card">
+                    <span class="article-title">Google open-sources TorchTPU, a native PyTorch back end for TPUs</span>
+                    
+                </a>
+                <a href="https://stevekrouse.com/ends" target="_blank" class="article-card">
+                    <span class="article-title">What shall I teach my son?</span>
+                    
+                </a>
+                <a href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md" target="_blank" class="article-card">
+                    <span class="article-title">SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful</span>
+                    
+                </a>
+                <a href="https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/" target="_blank" class="article-card">
+                    <span class="article-title">Academics have a duty to defend open knowledge systems like Wikipedia</span>
+                    
+                </a>
+                <a href="https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/" target="_blank" class="article-card">
+                    <span class="article-title">Apple broke an essential presentation feature of iPads</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="1">
+            <div class="section-header">
+                <h2>Zenn</h2>
+                <span class="badge" style="background-color: #3ea8ff;">📚 日本語Tech</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://zenn.dev/hilopon/articles/line-local-ai-photo-voice-capture" target="_blank" class="article-card">
+                    <span class="article-title">LINEに送った写真と音声メモを、自宅のPCが文字にしてくれるようにした</span>
+                    
+                </a>
+                <a href="https://zenn.dev/ryyy_my/articles/d35d4c655c63f2" target="_blank" class="article-card">
+                    <span class="article-title">PTCG AI Battle Challenge Simulation振り返り＆反省</span>
+                    
+                </a>
+                <a href="https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc" target="_blank" class="article-card">
+                    <span class="article-title">Go の依存管理は、最後は Google を信じるしかないのか？</span>
+                    
+                </a>
+                <a href="https://zenn.dev/flinters_blog/articles/3b377ce568d676" target="_blank" class="article-card">
+                    <span class="article-title">AI にリバースエンジニアリングさせる REA を触って、持ち帰ったのは「証拠付きで進める」考え方でした</span>
+                    
+                </a>
+                <a href="https://zenn.dev/gemcook/articles/f408cc6b1f75ec" target="_blank" class="article-card">
+                    <span class="article-title">Go 1.27 で追加された strings.CutLast を試す</span>
+                    
+                </a>
+                <a href="https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006" target="_blank" class="article-card">
+                    <span class="article-title">Oxlint + Oxfmt で規約をコード化するモノレポ運用</span>
+                    
+                </a>
+                <a href="https://zenn.dev/dinii/articles/5b8edc7856c25b" target="_blank" class="article-card">
+                    <span class="article-title">Chromium(V8)のArray.prototype.fillを最大約7倍高速化した</span>
+                    
+                </a>
+                <a href="https://zenn.dev/turquoise123/articles/df481032f6b405" target="_blank" class="article-card">
+                    <span class="article-title">AIペネトレーションテストツール「Strix」を試してみた</span>
+                    
+                </a>
+                <a href="https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49" target="_blank" class="article-card">
+                    <span class="article-title">Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】</span>
+                    
+                </a>
+                <a href="https://zenn.dev/mosayan/articles/mcp-server-001" target="_blank" class="article-card">
+                    <span class="article-title">MCPサーバーを理解してみる　さらに自作MCPサーバーを作ってみよう</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="2">
+            <div class="section-header">
+                <h2>Qiita</h2>
+                <span class="badge" style="background-color: #55c500;">✏️ 日本語Tech</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://qiita.com/tks_1128/items/e4cde327a910b5beba11?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">AWS初心者がエンジニアを辞めた話</span>
+                    
+                </a>
+                <a href="https://qiita.com/giganticsaki_A/items/f0ed9ec5cff12106978e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">怠惰の化身が資格取得するための勉強の習慣を身につけるまで</span>
+                    
+                </a>
+                <a href="https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">AI時代の開発プロセスとチームのあり方を考える</span>
+                    
+                </a>
+                <a href="https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Codexでゲームを作っていたら、小さなAI開発組織を回す実験になった</span>
+                    
+                </a>
+                <a href="https://qiita.com/songchong/items/351a939e2e1b673c2929?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則【2026年版】</span>
+                    
+                </a>
+                <a href="https://qiita.com/corestate55/items/3c14cf36091495d8880b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">NWの自動化はなぜ進まないのか(1) - 「割に合わない」が積み上がる構造</span>
+                    
+                </a>
+                <a href="https://qiita.com/maskot1977/items/3b0066bf024070e55c0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">「地方消滅」は財源幻想が招いた人災だ ― 地方財政の制度設計 : システム設計視点の行動経済学 (44)</span>
+                    
+                </a>
+                <a href="https://qiita.com/maskot1977/items/5a7a61346add83106a30?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">耳で聞く！Python で学ぶ マクロ経済学 入門 全30回総復習</span>
+                    
+                </a>
+                <a href="https://qiita.com/vivi-koh/items/fc957950ba9fd21c1d1b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Claude Code × Figma MCP で作ったデザインを別のAIに検査させる — デザインのグラフエンジニアリング</span>
+                    
+                </a>
+                <a href="https://qiita.com/k_kane/items/a2428f62732632a40b9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Private Agent Factoryで作るかんたんな業務エージェント</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="3">
+            <div class="section-header">
+                <h2>Google News (IT)</h2>
+                <span class="badge" style="background-color: #4285f4;">📰 ニュース</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wMzdpcnl2bl9yX2dJQ3hydGduMjRsaXNKU3JNdXVJZ3JBU0RUQUdBaGNOcDNwd1dlVmhDM3pwWFNzbWFTUmc1UnVMYXl1cE5DU0ZRN25qTHBVenc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">Future Travel Starts Now: 2026 JETOUR Global Technology Experience Day Kicks Off - 共同通信PRワイヤー</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQSElvRXA3eXBnYlI0eDExRnBRaHp5anJlTnZfUVF3MTR4UXZBbkZPWmVzVUdaMGd2RXVnMUZjaGRSM2hpVjlxdVoxLS1xM0lkZVo5eThmaVFqaHhsZWw5aTZiSmNpWFFRSXVURkFzb21PbHMxQXNhWmxXNzF1S29NdW9FdWpTZWZJNlp1c25IT2pTeGZwdHVmbU9HU0ZsaGNUc09EM0RGOWVVOUgxcEpMWnpZZjhOdl9PN2c?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">やることがないAIは何をする？ 無人島に30時間置き去りにした結果 - MITテクノロジーレビュー</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE45Q1R1ZjdETDNBLTZCT3UxVWQzOVBWTkRENTRaMkx4UkhfT2oybGVzRjhPX1gtT0xpOWM1ZkNXcjBhQTRicDJxZVlaLW40YkJqWE1rdjhuLTZDSHpSZk9Z?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">三菱電機、CO2の回収・利用・除去技術を出展へ…Carbon Capture Technology World Expo 2026 - レスポンス（Response.jp）</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YSnhqRnI5OWIwakY2dkQ4bmFoM0p6ZEZXbGJ3dEZSU2FiUjZiN0RYRWNPdEtDUDdGQnEwelNFWkxIRzJOU2lrTXdJWV9ubXd0SXpubTgxRjlYTnBILVc1UkF4SldLN0E?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">東芝、次世代エネルギー貯蔵に「岩石」 製紙工場で蓄熱技術の実証 - 日経クロステック</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9Sd3h4QjV3VGtpRWJXRXpTcGpnTURPSlZHbEc5WWtFYXQ5V2ZqSW10MjQ3eGVYbElULWhFYWo4Z0M5aGs0SXlFSkF0MkFGWUtQNEFCZGlVNWFIZTcwNWFvZDJ1ZzJiVmhkbkE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">セゾンテクノロジー、ファイル連携ミドルウェア「HULFT」ファイル連携時のデータ完全性に耐量子計算機暗号化対策を強化 - PR TIMES</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5zY0hvTDNpT2NEQ3FaRkJIREFEMGJvSHlCTndWMkFUQXEyTkVHQk12NG03Q1hJLUhfS0h2c2FCM2c3VUwxY295aGd4WVpvcjQ0UDFNc2xmS21KR1FSUGdYS0lOUXFFUzRpWXRHTTlqVjJvdTVk?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AI需要が点火、中国半導体各社の第3四半期決算がそろって好調 Montage Technologyは純利益倍増見込み - BigGo ファイナンス</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZa0NfQlFyWmdUZG5URll0bzh3N0R5WnF6N19nWTJNVzdpb0RJZXI2OF95R1Z4VDdud3Z2cnVJSG01Skp2Vjlodk83MjU3bHRyVEZPY2JNVnRNZw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">パナソニックHD、ガラス型ペロブスカイト太陽電池の本格量産計画を一年前倒し、2029年4月より長浜拠点で生産開始 - Panasonic Newsroom Global</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FWXpyVXpheTF6cjdWN0VBNGE1M2xyUWhFNzJuS1lhVm9JRm45ZFRxaVAtdkh1V1d6UWxKVXo4NG13Y2NDS1R4M24yUTVPWnM2YUVkbldKc3hCOUxXS0M0akI3UmZpQQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AMD新世代技術「FSR 4.1」がRX 6000シリーズに対応！Xbox Series X|S向けにも提供予定 - Game*Spark</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VTElnYlV3WmxIODRSQkFhTFdVZm1BWWRlbnpIVWVxMnFqSktTT3BaWmliWnlkb05vQllHUDRab3FwQktQY0FDaHZjUzVXeFE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">パランティア・テクノロジーズ【PLTR】：株価・株式情報 - Yahoo!ファイナンス</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="4">
+            <div class="section-header">
+                <h2>Google News (Business)</h2>
+                <span class="badge" style="background-color: #0f9d58;">💼 ビジネス</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBpalFsQ21WZDVzV2VKazl1MnJqSi0yMzBRSmt2XzVIa2RoVHZ0NnE2ZzJMN1FhYlJPSXFDcUdwVkxWMUVEcl9OQXVlZEZUYnZuU2RiT3hjbHh3TmhsQWZWV2EzSHR1NEJ2NE0wLXY3YWtnU21XV01CMTB0ZmFtbHc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">JBSがApple Premium Business Partnerを取得、企業のMac活用を技術・調達の両面から支援（クラウド Watch） - Yahoo!ニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmdGdtcC1SZ0x6SHpzZlQyVVdncWlpS2ZocVJXMDg1T3pQcVZ0WlUyTmtCS1FyTEwwa1E3Vl9ORV9aRG92QVJfdWJNMmRMYVhWQ2hoNl9aU1ZwQV9tUklSMU5ScTZEcDg?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">P＆G出身社長のIT新興、「SaaSの死」に備え測量会社買収 「稼げるのは現場」 - 日経ビジネス電子版</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fb2w3M3RTRFpEZ2VxM25SZEpqdXo1c2pRVkpfSFdxT0FTZ1FoWHdNTVViTFZTaGNRMkFRYk9lMV9iOWdtSTZOWnVDQXc1N1FWQ0NTWkRtN1dndXdsbFE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">【ANTLERS BUSINESS CLUB主催】スポーツでつながる！恋活イベント （11/22）開催のお知らせ - 鹿島アントラーズ オフィシャルサイト</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTlgxdERiY01DWUdzUHNBdWFaWkZ4TnhEU2l4MWRaRnpEb3Y5bndvR1Y5OFdCMVRBNjhPZTg2WHpRTHZGZE10aEtJaU1PODVaVy1tUlZGVFVTel9IaG5hRXdEVGEzaGpMcGlta0MySlFNZmljSHVTMVJkSzFpeC15YVhoSXRRNDFubUdmaFlrWEVpTERLdVplRkFQbktiQ0Z0WXZ0MXZhTC0xd1VnTU9Yc0xtaFRVVE1aYmhGT3NCSVBNT1FKT3dOdEVNVnpCZDRi0gGAAUFVX3lxTFBDMno4dWpmYU9UVzVYRWRwdDlVVExyWHk1XzlqekVoZkRYa2RVdFN3Q1poQ2trcWlacTRxSlF5Zmx3YjZBQU1rUjl5MHBGSDNRa2g3M1ZTZjVqSFJqQXFkbUh1dWNTUHVMTS1CXy1tOXA4dVlSNkdrZmFRV05RZUpz?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">スズキ幹部、新興国ビジネス「地元と相乗効果を」 - ｄメニューニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPaHNIcEhFTTdjb01hM3d0czBseVhEb3c3aFgzNzc4aXNDUXg1MTgzVGl4VHdZbjltMEhfSm5mVEhRNXdweDA5ZVlKMXZIaHZFMlVtbW4wb2tLaEswa3J6Q25zZGtaOGZIazUzMEYwQjdDTUtYLWNGaU1sWlp2MDhrbWFMelFONTVOaWxPM055MkozQml5b1hCalozdlhPYnN6TDZfVV9tTUxEWUoydTZOd2xmVks?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ブリティッシュ・エアウェイズ、世界最大「106室」のビジネスクラス導入を発表…豪華な内部を見てみよう - Business Insider Japan</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE55OTRXWXRwenJQbU1nZldKTlktRlBRSEFMdHo5TFVzblJZRENYd2pUazRlNGY4ZFFSRDlHNTBBU0FPZWxfR1B4aWhaU1RjM2M?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ADKホールディングス、Stagwellと戦略的業務提携 グローバルのIPビジネス支援など強化へ - MarkeZine（マーケジン）</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwMlZ5cGtZanhNclVxYUFqU3laV1pnOHZRSVk3UFJKYkdvRVJSdVlKWU1oOFpuMUV6eHcyeTN5OEJMOVVvbmJTX083ZWh3MF8ybmpJ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">海外ビジネスは甘くない デザイナーは卸型からの脱却を - | 繊研新聞</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9mVXlxOEN4d2FMWXdKby16VE5EYk9Mb0RwZ1FLWWJQVWhWR3pGc2xIZkl2b0xyc21tZHVjekhxRDR2QVp5bkZEczhvN292UUo2TURabVl6WWtBU2VObnB4TjVfdnJWV1hxLXc?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">法人向け出張予約・管理サービス「ビズバンスJTB出張予約」ビジネスEXPO「第40回北海道 技術・ビジネス交流会」に出展 - PR TIMES</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwUG0xQlJTQmtSUzBfaVJXRWR3NzdJX3lvb0tELU5Gal9ZZjFyQmQ0Wm80WklCYVgxeG1nNjRuYjJ1NjBDaEJLYTBreUV0dDJpVFo0UVF3?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">アート思考×ワイン。それはビジネスに効くのか？京都の名刹で体験した - JBpress</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1oeVU0ZURPY1RBYWxORGF2cnVJR1NJSWYzZ2pMRU82R2k5QWktVjZuT1Z6YUJhd3VhakNPeV9MU0JZVTlZMEN2Q28xWWxsU3NETWtJei1oWVBYN0pqMHdEZzJKRVpxZGJ6OFBWcGR1b0xWZw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AIで変わる金融機関の「つなぐ力」 西武信金は25年続けた“手作業”マッチングをどう進化させた？（1/4 ページ） - ITmedia</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="5">
+            <div class="section-header">
+                <h2>Reddit / technology</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://www.reddit.com/r/technology/comments/1xb56fx/cops_raid_office_of_rfk_jr_allies_planning/" target="_blank" class="article-card">
+                    <span class="article-title">Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xb7op7/anthropic_logged_net_loss_of_over_80_billion_in/" target="_blank" class="article-card">
+                    <span class="article-title">Anthropic logged net loss of over $80 billion in first half of 2026</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xb1cg5/accident_or_not_the_no_kings_takedown_is_why_you/" target="_blank" class="article-card">
+                    <span class="article-title">Accident Or Not, The No Kings Takedown Is Why You Shouldn’t Rent Your Megaphone From Zuck</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xb6re5/the_internet_goes_on_high_alert_after_discovery/" target="_blank" class="article-card">
+                    <span class="article-title">The Internet goes on high alert after discovery of 8 compromised TLS certs</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xb1yfx/meta_ignores_brazilian_court_order_to_end/" target="_blank" class="article-card">
+                    <span class="article-title">Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xb5ds7/norwegian_company_pitches_2800mile_undersea_cable/" target="_blank" class="article-card">
+                    <span class="article-title">Norwegian Company Pitches 2,800-Mile Undersea Cable Linking Canada and Europe to Bypass the US</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xar7jl/afd_leak_what_421179_hacked_emails_show_about_the/" target="_blank" class="article-card">
+                    <span class="article-title">AfD Leak: What 421,179 Hacked Emails Show about the German Far Right</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xavtj4/us_restarts_three_shutdown_nuclear_reactors_to/" target="_blank" class="article-card">
+                    <span class="article-title">US restarts three shut-down nuclear reactors to feed AI data centers — 2.25 GW coming online with backing from Microsoft and Google</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xawfwz/dhs_said_they_searched_man_who_wiped_grapheneos/" target="_blank" class="article-card">
+                    <span class="article-title">DHS Said They Searched Man Who Wiped GrapheneOS Phone for Child Abuse Material. They Lied | Officials said they wanted to search the phone of Samuel Tunick, a Stop Cop City activist, for child abuse material. It was actually because he was suspected of “terrorist activities.”</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xapaw7/linus_torvalds_posts_his_first_aiassisted_patch/" target="_blank" class="article-card">
+                    <span class="article-title">Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap — the bossman makes use of AI tooling himself after issuing clear pro-AI directives</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="6">
+            <div class="section-header">
+                <h2>Reddit / business</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-10-21 01:20:27 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>
