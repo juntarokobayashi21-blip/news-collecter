@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-10-27
+============================================================
+
+【Hacker News】
+  1. Announcing three new discoveries in mathematics, computer science, and physics
+     https://openai.com/index/building-scientific-understanding-with-academic-communities/
+  2. The Exponential Time Hypothesis Is False [pdf]
+     https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf
+  3. Sebastian Raschka's from-scratch video course on building reasoning models
+     https://magazine.sebastianraschka.com/p/building-reasoning-models
+  4. Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)
+     https://blog.cloudflare.com/kv-cache-exposure-remediation/
+  5. Oldest GUI application that still runs on Windows 11
+     https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/
+  6. Type Server Protocol
+     https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md
+  7. A Printer Printing onto Paper
+     https://twitter.com/macrofying/status/2112904628509528219
+  8. CSS-Tricks has a new owner
+     https://css-tricks.com/css-tricks-has-a-new-owner/
+  9. 16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows
+     https://github.com/otya128/winevdm
+  10. Is PHP Running on Your ColdFusion Server? How to Check, and Remove It
+     https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it
+
+【Zenn】
+  1. 昨今のセキュリティ情勢を踏まえて、Azure のセキュリティ系新資格 SC-500 を受けてみた【合格体験記】
+     https://zenn.dev/microsoft/articles/112ff28ccc30e3
+  2. 学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話
+     https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm
+  3. OpenWrt 25.12のadblock 4.5に豆腐フィルタを適用する（ruleの書式が変わった）
+     https://zenn.dev/yotan/articles/openwrt-25-adblock-tofu-filter
+  4. Vue Fes Japan 2026 「 Vite+への貢献と、Team Memberになって見えてきた風景」スピーカーノート
+     https://zenn.dev/comm_vue_nuxt/articles/33f8491afbc66d
+  5. AI時代のアーキテクチャ：実装を任せるために、詳細設計を自分のものにする
+     https://zenn.dev/simplex/articles/f2b41d3367e9c7
+  6. AI の謎な説明文を直すスキル
+     https://zenn.dev/microsoft/articles/explain-before-shorten
+  7. Node.js の Brotli 脆弱性 CVE-2026-111497 を読む
+     https://zenn.dev/chot/articles/79e6c94e27782d
+  8. 最近の E2E 戦略（2026 年 10 月現在）
+     https://zenn.dev/polyco/articles/26624b38c951b5
+  9. AIネイティブなインターン生を受け入れて考えた、これからの開発エンジニア
+     https://zenn.dev/tokium_dev/articles/internship-mentoring-2026
+  10. S3のParquet、そのままSnowflakeで分析しても遅くない？Parquet Directを検証
+     https://zenn.dev/snowflakejp/articles/parquet-direct-pruning-benchmark
+
+【Qiita】
+  1. eMudhra事件でWebアプリ開発者が点検すべきこと
+     https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【解説】クリーンアーキテクチャとは何か？ 炎上議論はなぜ起きるのか？
+     https://qiita.com/Sicut_study/items/3c1995d2a3f1695a18a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. エンジニア歴数か月の私「理論上、理解できない物事はない」
+     https://qiita.com/Minotaurasu/items/a13a3fc940c2cd384063?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. New Relic AI Knowledge × Autopilot で「怪しいアクティビティ」を検知させてみた
+     https://qiita.com/nr-mito/items/eca8767bb68723645e6d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 実際に試したClaude便利術20選 まとめ
+     https://qiita.com/N-Kyo/items/bf4a3a2185db2d28eee5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. 「コードレビューは死ぬ、ターミナルも消える」——海外著名エンジニアが予測するAI時代のソフトウェア開発の未来
+     https://qiita.com/softbase/items/fb72de63c975fcbbd2f6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. トークン代 9 割減？プロンプトキャッシュの仕組みと効果の実測 — 保持時間が過ぎるとコスト 11 倍に
+     https://qiita.com/songchong/items/7144594b0ad9529a168b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. VueFes Japan 2026 参加(出展)記
+     https://qiita.com/oyashimi_c/items/2272340c078d9281a922?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. Kimi Codeは遅い。それでも使い道を感じた理由
+     https://qiita.com/Masaki_Cho/items/8a720994a14538883cda?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. ランチ明けの「続きやって」が一番高い。Claude Code のキャッシュは 1 時間で切れる
+     https://qiita.com/araom/items/3d026f2df58c7328aa74?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. 北海道千歳市における先端半導体R&D拠点形成に関する連携協定を締結 - 三菱地所
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxQUTFma3dzbFFXZG5NdDY3VjJkWUFwdEZOY3B5eW1ZUnJkaVozUU0tMXk1OGhFTk9neUxzLVVJOG1mWWV6Z0VLWGJHNEhld3BPUVFPc0s2MHRUdTYtTXR2Y1I5eUxHLUVidi1iMWUwcm5jOGo4N3o2c1lId21KRnFBbEtneFVmZ3M?oc=5
+  3. SORA Technology、タンザニアでドローン・AI活用の精密農業事業を開始 - ドローンジャーナル
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdjhfVm9mc2JieWVURmoxdkVUMXVvQmRMb0hSekJpMDBTR3pZaFZLWFROalBXYWV3ZEVLclRGLXVoV0s4bjVMZUt2X05oeFNCRV94TjhNbDk4aWhVQjNpTVN6Z1ZfN3lLVFE?oc=5
+  4. 10月26日のMarvell Technology Inc (MRVL) 値動きは3.99%上昇：どのようなシグナルを示しているのか？ - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxOWjhqSW1aZW1Xb1VfUVZhb0RUNmRRSG1MclItTVFvSXVQYWJ1WExMVC1FYldjcHE1SExaR1U2WG1SOFJoV01iRHVaWkVaaWhmMDRkMWdDbFRNR3lxM296SFJ0aEh4SFhuRWRvbGR5NEQ1RzYtcExRR0VNUkFMY29pQi0wc1pTeFhaNHBORzNSaw?oc=5
+  5. 千歳市に先端半導体のR＆D推進拠点を形成、三菱地所ら - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTE5PRFJnV3VLNHhyYWx5LWRIc2REQ2hWQ1ozei1VQlhMU29wNVl4dXBKV05WNXZjYXp5SXdyRi0ydmtzUWNFWmF0WGRITnFKODA5V3RxTlk3WG5CZC1SaDg0cy0wZkpUTHI5dGpCc0FJMA?oc=5
+  6. Joby Aviation（ジョビー航空）、Reinvent Technology Partners（リインベント・テクノロジー・パートナーズ）との合併に伴いニューヨーク証券取引所に上場へ - Abdul Latif Jameel
+     https://news.google.com/rss/articles/CBMiwwFBVV95cUxPekZlRmF6aUpYZF9wdjc5UV90QnpLdEh4dUJQT253NWJYcUk5RzkzeFZxTk9XRjE5MFlmVGF0UDRUWHZmeGJFRm5BcGxhMGdGbmVQSmkzeFkxTE5JT1V4VC04b2sxSDZfWm5ydU9JdWtuOXVzMzk3V09FS1RXTlhqckdiZzZ4V3dfQlNCd1RscWJsTEJkLXN2elJyTWJ6OFhOR0U2bEpLOElRbFBvNDB1UXFpVkg0cnVTaEZSc1c0SVhkdG8?oc=5
+  7. テクノロジー - PwC
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6bTd6YlVfU0lMZnJuYm5Hc3FRT1ZvdTQ0SHlISTJ4Q0oxSklTeE5MTm0yZ0FpWkZ6U3MyZU1MZTduZENEMGJyQnNzMTNoeU5ndldpN2FXbVRETGJTWVNKUkNB?oc=5
+  8. 【千歳市ら3者】先端半導体拠点を形成、連携協定 - 建設通信新聞Digital
+     https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjWERwVGg2bUJhLXpGR1VPVGowZDV3bzVXNGoydkNtZkVtUXVHaEZ4cVp5WmVFcDZ0cGFHT1ZKX3FCYlVEOE01Vk9UdWxyQW0zbFdlV0ktNA?oc=5
+  9. （お知らせ）TOYO TIRE、IRC2026 AICHI「ゴム・エラストマー技術展」に出展 - Digital PR Platform
+     https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5FZUVfVkRzTEFtdGNSN2tHR1Zib1NZaHJqc2t6N0hRS2pObGVvQWxvY1M4dVBqZFoxYlV6MlVZTTJ2UlE?oc=5
+  10. 急成長、PKSHA Technologyの「共進化」経営 積極買収で年3割成長 買収先企業をエンパワー - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiYkFVX3lxTE1keWU2dlpvaUY4VU0tNXhVT2FFcmpad0xPV2VzRTdhQkpWMkVCR1FEekY2MTFkdVUzeGsza2VLeWFDbTVSS3F3cHpmWXBWblJ4R1RNRkNfSXJNS3B3clJja2NB?oc=5
+
+【Google News (Business)】
+  1. 中外製薬、平均年収1350万円の超厚待遇 利益率48％はキーエンス並み - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xeFItOTdfTGVTUzlKTTk2U3JkakQwWmRkVGQ3YlluR3JhOXVOZnM3cUlUd3ZOOF9ZeVRJT1JtUHdXRmJQSWRKTER1WU9waVdleFljZm91Z3E2YWlZSmFxOHRwazJNM28?oc=5
+  2. 1本のウイスキーがオークションで4億円超え…高級ウイスキーが「投資資産」として注目される理由（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5IZzNzaWxxU1laV3hkNnBpNTFVS3BIS3REN3h4a0lFUnBBQnFrbFJZZXhzTTlrQjRpRjVHeVpBUWRiN0hTa0E1MjFJdUhZbHVVNDByVnZTb2RzdEVtOFI4dUptQ08wSEVja2NIQlJndVg0WkMwc2xkTFZPS2VBMlk?oc=5
+  3. 「スガキヤ」は今度こそ関東で成功できるか 過去には「2度の撤退」、克服すべき課題は？（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE00Y3lLdFVvRy1PXzl0MFhOaDVDUmIzODlVXzRxTXNNSHZENFU3Mi1jbmw1d1NpSUt5RUhCT1RXYk9zNFJaZXJHU3djVGEtUk55TXptVnRfaFh6YW9XejQ2dUw0eGJTVHpwZzNFOEpCQzlvZw?oc=5
+  4. 非エンジニアでもClaudeでここまでできる！ 新機能「Claude for Google Workspace」で広がった「自分で作れる範囲」 - gihyo.jp
+     https://news.google.com/rss/articles/CBMic0FVX3lxTE50Si1TMHR3eXRsdURPSkZSMjNOUm9TLXhGcVktd25PWjZ3MUxkWC1md0tqRFRLUWFHeWhiU0NMdlVfWkdpRHBwRGs4Y2VTRWdOSEpQbzRPdG03d3k0NUl4MkdaalBBbUdYZmNZZ0FRTzBYMms?oc=5
+  5. NECが挑むビジネスリーダーとHRBPによる事業変革──戦略を「実行」に変える人事の真価とは - Biz/Zine
+     https://news.google.com/rss/articles/CBMiUEFVX3lxTE83Y1Z2UlR4cjN1cWplREZsRURLSWttbUZRbHI1VnhrdG53QlNuVEJRR3VNaC1MclhLSHpnS3FLN0xoTF9wYXcwbGdPNjZEaXQ3?oc=5
+  6. 「giftee for Business」、キャンペーン基盤「giftee Reward Suite」をＳＯＭＰＯひまわり生命のアプリ「ＭＹひまわり」に提供 - 株式会社ギフティ
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0TjRZODJXMk1vS3FDSXF3UFdsdXNhNHgzbjM2TE1LdzVXQ3QyeEFaSXNlT3ViUnVGbjJvd0pudENDY0J0b2gxQnZINjlsc3FWU2tSaG1yT3FRbm5EdnFhOFNSaEpBUzg?oc=5
+  7. ブレインパッド、生成AIビジネスマッチング支援アプリ「Business Matching Platform」をSnowflakeマーケットプレイスで提供開始 - ブレインパッド
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iX3RtNEpyWF9hampET1E1cVV6anoxdV9ITWg3M21sSG5fZEpXamI5SFFOeG92TTM3cGZrN0duOGtTWnd3QTNVa2wzU2lJRVM1LVVSemNZcXhzbE1q?oc=5
+  8. ServiceNowビジネス市場-2026年～2032年の世界市場予測 - Newscast.jp
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PaW9jRW9veU9VWFRlOXMyOTNTVHpuc1hyd1FfQWFNblJlTmxBQmwycElSb1BhYWxIUDhLOFBtM1FqaUVIVWlSdnhIaS1qd3c?oc=5
+  9. 東証、反発して始まる - 京都新聞デジタル
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CZWJib3VnSk96MHhiTzItQjZxX3RLVTVYQ0xVdUdOeDlqUGJIcGg3azI2Z2xhUDFDVnlNREl0Y2RsVWdaWmhSRzgtY0xkRWotdUtMNk1TY3F5cGc?oc=5
+  10. ハワイアン航空がプレミアムエコノミーとビジネスクラスを刷新。最新キャビンを見てみよう - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiigFBVV95cUxPYWtnY2tGRUVXRlBFZUI0VWVKRU04cjNRbFJ2Y1ZuTmc1OTBCOGNHUF9PUklaM1hWZDh3OFNLMzRxbnlVU0VNenluQTJlRDNZeGFBRDlQNFFleFJQcmpHZVFhc1FDR3cweWNrMldRMFpPNjd5M3hnZUkwUnpKeUVVRWswcnllRGRpbEE?oc=5
+
+【Reddit / technology】
+  1. ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees
+     https://www.reddit.com/r/technology/comments/1xg8g4r/ice_plan_to_buy_robot_dogs_spurs_protest_from/
+  2. Police Are Increasingly Pulling People Over Because AI Deems Their Driving Patterns “Suspicious”
+     https://www.reddit.com/r/technology/comments/1xg8gp4/police_are_increasingly_pulling_people_over/
+  3. In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn’t Real / In comments at a private police conference, Garrett Langley also said his wife advised him to never apologize.
+     https://www.reddit.com/r/technology/comments/1xg3s88/in_leaked_audio_flock_ceo_tells_cops_backlash_to/
+  4. Someone debloated their Samsung Tizen OS TV by pointing a camera at it for Claude to see
+     https://www.reddit.com/r/technology/comments/1xg8nfj/someone_debloated_their_samsung_tizen_os_tv_by/
+  5. Lula Vows to Regulate Social Media Giants
+     https://www.reddit.com/r/technology/comments/1xfsb8t/lula_vows_to_regulate_social_media_giants/
+  6. Meta stock sinks nearly 7% as AI spend pushes free cash flow negative
+     https://www.reddit.com/r/technology/comments/1xfy6mm/meta_stock_sinks_nearly_7_as_ai_spend_pushes_free/
+  7. Anthropic Reveals It Will Pay SpaceX Up to $120.5B for AI Compute
+     https://www.reddit.com/r/technology/comments/1xg1lia/anthropic_reveals_it_will_pay_spacex_up_to_1205b/
+  8. In China, the AI bubble has already burst
+     https://www.reddit.com/r/technology/comments/1xfxo3a/in_china_the_ai_bubble_has_already_burst/
+  9. Microsoft to Offer Buyouts to 60,000 Workers in Latest Cost Cut
+     https://www.reddit.com/r/technology/comments/1xg0b6e/microsoft_to_offer_buyouts_to_60000_workers_in/
+  10. 'It's offensively cheap': How solar power is quietly becoming bigger than nuclear
+     https://www.reddit.com/r/technology/comments/1xg8d84/its_offensively_cheap_how_solar_power_is_quietly/
+
+【Reddit / business】
+  （取得できませんでした）
