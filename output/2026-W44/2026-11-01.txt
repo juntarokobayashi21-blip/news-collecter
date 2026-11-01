@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-11-01
+============================================================
+
+【Hacker News】
+  1. HackerTube: YouTube built from videos recommended by HN
+     https://karpathy.bearblog.dev/hacker-tube/
+  2. An Italian farmer found some unknown seeds in his attic and planted them
+     https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/
+  3. TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8
+     https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf
+  4. Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard
+     https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve
+  5. When electric cars were for women
+     https://spectrum.ieee.org/early-electric-vehicles
+  6. Altoids Project
+     https://uvdn7.github.io/altoids-project/
+  7. It's the memory latency, stupid
+     https://pivotlake.io/blog/its-the-memory-latency-stupid/
+  8. First response from the Project Suncatcher prototype satellite
+     https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/
+  9. Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020
+     https://maketecheasier.com/arecibo-zinc-creep-collapse/
+  10. Molly (Signal fork) has not been updated since 3 months and is vulnerable
+     https://piefed.world/post/1503394
+
+【Zenn】
+  1. 3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）
+     https://zenn.dev/kauche/articles/f3736c660aab77
+  2. ISUCONに初めて出たら、直すたびに次のボトルネックが出てきて、超面白かった
+     https://zenn.dev/paraponera/articles/2026-10-31-isucon-2026-isureal
+  3. 16GB RAM・6GB VRAM のノート PC で gpt-oss-20b とチャットする
+     https://zenn.dev/shozotanaka/articles/01877d688dfc65
+  4. 【最速解説】goda.vimでHello, worldする
+     https://zenn.dev/comamoca/articles/2026-10-30-trying-hello-world-with-goda-vim
+  5. 今後のセキュリティの考え方
+     https://zenn.dev/cscloud_blog/articles/a987163efae5d8
+  6. IVRyのSREの取り組み 2026冬
+     https://zenn.dev/ivry/articles/70d4f05ce4ae5c
+  7. yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介
+     https://zenn.dev/layerx/articles/a277f83a93d300
+  8. WASIじゃない、もう一つのインターフェース「WALI」という提案
+     https://zenn.dev/progate/articles/wali-webassembly-linux-interface
+  9. 元フロントエンドエンジニアがプロダクトエンジニアとして強制成長した1年
+     https://zenn.dev/dress_code/articles/bbc5159fefbd2c
+  10. 人間がコードを読まずにPRをマージする技術 ─ それでも、品質は手放さない
+     https://zenn.dev/karamage/articles/ac71f1c89c73ff
+
+【Qiita】
+  1. AIにありがちな「イマイチなコードコメント」9パターン
+     https://qiita.com/jnchito/items/636c519c0b1d347c79b7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. AIはどれくらい動画編集ができるのか!? Claude CodeでYouTube動画編集した話
+     https://qiita.com/tsukasa_japan/items/b8bca096170d087e271d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【Docker入門】Ubuntu 24.04コンテナ環境構築
+     https://qiita.com/NoguchiHikaru/items/dccd98d85a31c0cec279?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. ADRを書いて、AIに "Why" を理解させよう【Architecture Decision Record】
+     https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. デフォルト設定としての沈黙 ― 現状バイアスが並行社会を許容する : システム設計視点の行動経済学 (53)
+     https://qiita.com/maskot1977/items/fc7cd77557e946cac2ba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Jetpack AppState TransformとStateStore
+     https://qiita.com/Nabe1216/items/cf6dec7247169b4a881b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. SSM Session Managerを使ってDBに接続する
+     https://qiita.com/j-yasukawa/items/701554f14fe8b02ff34e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. マルチタスクが苦手なので、Slack の返信と PR レビューを Claude Code に定時で下ごしらえさせている
+     https://qiita.com/generoKoki/items/81ca4042e30c42ffe4a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 誤ってマルウェアを実行してしまった私が、AIとREA（Reverse Engineer Anything）に救われた話
+     https://qiita.com/TOMOSIA-LinhND/items/3dec10762fcc224d9133?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. WordPressの脆弱性「wp2shell」を狙った攻撃の観測
+     https://qiita.com/melkihara/items/8bb5e61321066be53d83?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  3. 「清潔感のある農業ができる」AI技術導入の大型きゅうり施設が完成 気候変動や担い手不足の課題解消へ - FNNプライムオンライン
+     https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EcUhURDN2QUpmSWIyTEFsSjdTeF8xRGNab01JNVpxOXk5dnlOQktoUndOaEp6V2tsekM4NXV3V0VfX1RMUGVPNG95NUItUQ?oc=5
+  4. Technology Day 2026 - PwC
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFBDeEYtYXVRYkpSOW1OS1NkUWY5S3RpS19ZWlJWWnpRMDdtemluMUtrUTAxb3JpVXhqaUJWSEFKSWNZOVZLVjFna3dPQi1ubUkzWjBMWWpVUkpDNHd2V0hVa1NnOG9Yd3U4cU9XemJ6RWdYRDc0?oc=5
+  5. 杉本理事、植木理事、ファブルCGOらが科学技術と人類の未来に関する国際フォーラムに出席しました - Tohoku University
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE5nX2RIOFZXcFRaQ1VSbWZRaWdGTE1yLXVGRVFOVzR0YzB4eDFoVXdXNEZoQlprbV9fTHhvYzVUcjZiMjFoUVdUMGlQYVZjbm5qLVZCZXRIZ0ZoMVl2clRjTFNjWmxYSG1SMk0tZXdTWDM?oc=5
+  6. Hon Hai Technology Group (Foxconn) 、HHTD26で3つの特徴的なEVモデルを発表 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FQXhIQ1ZIdzJUVnN6NldONDBDLTd4TVJWMm1nMkdYcTZJbFNWa2VRMzZ3WGZJdkxQa3lqS2VYS1l2N25kajIzdWk2UjdGSWptM2p2d253a0trNVBf?oc=5
+  7. Fujitsu Technology and Service Vision 2026 - Fujitsu Global
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mekEtRUZfU2d3NHBoWXpIbXNnM3RaLVpEZUE5WDA4dHB0bGk2S01MRUR1UGVXLXFLMDBGcXFKbWdIckx5aDBnNXRZMXVhdEIxUkNJ?oc=5
+  8. AIは「道具」から「資本」へ。Laboro.AIが描く次の10年 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxPV0I2S0ViZ0dnVlJ3TXM5MHY1YmotbDRpb3hndW00U2hMY3dRZlc0d0VNc29FdTFKdk9tc2lSeTJsMjdST0dTQ2pfSTBERzR3dlhGLU1lNUhOVmY2Qzh3aHZ2ZURJNHhGcGV4dTZwTHBlbW9DYmtKTklJTE9QcHlSa0trNHRkZjNYM09mZ053?oc=5
+  9. 「国家からの脱出」を夢見たテクノロジー企業が、なぜいま国家の「AI主権」を支えているのか｜WIRED Futures Conference 2026 レポート - WIRED.jp
+     https://news.google.com/rss/articles/CBMingFBVV95cUxPb29hVXRsUVd4dTBncXdZN3lpWmJpbjVwS1VMSTFFSGxWQWM4U3M5X2tTTXNhN1JCYldTY1lXcXNDdzJKQ2ZjeFdzcF9wMUxvN3ZtVUtIRFF0R2hiNk9tNUt5R2g3WGkyd1pJUVpwaGhIamd2YXE4TE9ia2xTSDNrZXo5ckVIR0NxU1lRN2JaeWZTdUFSNEFPSF9PX1FIQQ?oc=5
+  10. チャオ・ルースー主演の大型時代劇 中国ドラマ「紅き真珠の詩」 11月2日（月）夕方4時～ BS12 トゥエルビで放送スタート - Newscast.jp
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wYnVKUTk5eG5GNkpCQjlIbllHcUU3bDU2ZnlDazd3Q3Y5ZnBHS3g5X2E5bTRqTXZnWVJqR0lWak1iRkM5TzZaRUhFRHJ4MkE?oc=5
+
+【Google News (Business)】
+  1. メモリー高騰がアマゾンのデバイス事業を圧迫…ラインナップ拡充の裏で「困難なトレードオフ」【社内文書を入手】 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxNclUzbWpldy00TVVBbFNaLWp4NjVCcnl5VFBLOFBLNC1lbUpHRGJuakhSSGIwS3VwNWdxcXNIOElJSFAtY1NiUFJfdFV3RVR1ZW96andSVjdBaE1MWUJBVjRuX1ZvM3pSLThXbHZOaEV5TDNOWHM4RWIzY21NNkR4ZlllUXQ0WVE?oc=5
+  2. 久留米でビジネスプラン募集 35歳以下の挑戦、実現へ支援（みんなの経済新聞ネットワーク） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE5QVFlib3FkZWJjazJDZlMzalJhSFNGcFhJUGlNZ3N2dlFMSllXb2lhM2JmOGxNcmpMVGZVNVR6UUpHVzg1RTR3X0FCNGhnV2xnRk5rU2dES0NDZlBTaVhTUlcwODRmRGlUMWRSZUJ0ZlFoWDVSWDlubTdGc0hUN0U?oc=5
+  3. 「ChatGPT」のPro/Business Premiumプランで「Work」「Codex」の利用枠が2倍に - 窓の杜
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZUTF2d1JLNThDZVl6NW5NblZNRHkwTmpaeWVPMl9sTy1va1doa08zNDB4RDZ3YUoxYUZieHV3djZySGNoc28tTVBaaWJtN3RBcWd1c1VCbzF1Mm5lZlkzRHpGVlFiLS1l?oc=5
+  4. ChatGPTのPro・Businessプランで「API利用」可能に 月最大500ドル分（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE0zY0lsZk83b0k5VmFVVko0dGUyZHJCODhpMWdjaV81V1RIOUZYS3prS1llSUVKZVRlYWFUTGthRnZIVlZwREpJOTRhVVhZQzRSbDllN013WkJyYm83ZlE4eVdTRWhId2pwb0hTbw?oc=5
+  5. 申込者200名突破！「Japan RWD Business Summit 2026」登壇者第1弾を公開。RWD利活用を牽引するキーオピニオンリーダーが登壇 - Excite エキサイト
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9WRVdkOXhfQmtXZzRkLW03UEJIejZnWDI0bjdGOTFOMUFfenRSME1xQ1h5YTJ3Ym9FVjN4TFlRODF0OEpLU1d6XzZSejR3RDB2Smw0NlFzRzhHcXA5dkxFLTl3cEtycTNJVWtBdURBd2w4VWgz?oc=5
+  6. OpenAI、ChatGPT Pro・Businessに月最大500ドル分のAPIクレジット - gihyo.jp
+     https://news.google.com/rss/articles/CBMic0FVX3lxTE5iQ3VONHF1T0FIYjZKcGhOMUJSbjJqemxYRGtQdjR3b2U5MjhKWlp6dHROTWlFTnhrN01iejRjSjdsWFJEYlU1WjBhWm5fYVBtZXVfQlc1aGlkb256Y0R4eHlyeFJqeWFTNkhDNDNxOEpJM0U?oc=5
+  7. 薬局でシカ肉お手軽に 「三方よし」ビジネス挑む - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sQkxEUi1LdDdGZlQwOEwzU2tELVREWWluSjU5TjVMckthazV3SlFBMGJWQUZjQmlaUElMbGdUSlhReWFuaFZlZ0EtVEJiRjdXNlVuSm1IaERtRlhUd0E?oc=5
+  8. エスティ ローダー カンパニーズとマイクロソフト、企業の効率化と消費者重視の成長を推進する新たな戦略的提携を発表 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqTmRZYTMtZ0VlbzlDU2I4ZkJnNHd3dlpDRnBRMkxnaGl5elU5WGYtWmpOeVA1RlppWjh6RkNJcUlydEtnY285M21xZThGWHlrY2ZHRHViYUdIVXhLUUtpZlEtaw?oc=5
+  9. LINEヤフー、「LINEヤフー BIZ Conference 2026」にて顧客体験の主な進化を発表 - ECのミカタ
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lcW51V3Y1VDNyOXR5OWtqaWVvbFRRSHdTTkdBbUQyZ3N4amxDeU9ySjVqdXlteFRQa1dqSTJDSXFkSlNHdE5KSVQ0OVMyekRhWUtxanhqcGtaRzhNN1ZPaUJyeTc?oc=5
+  10. SAPとNTT、ソブリンクラウドとSAP Business AIの機能提供に向けて連携 - INTERNET Watch
+     https://news.google.com/rss/articles/CBMia0FVX3lxTFB6bUlGWjBHOHhkRWlYVU5DcjNNeGI4aVpaMFd5aTk2d2hqTFA4MVZrQkFXN2E3dW5UeVlPMUhNdDFQUXlyWmNKZ21JRm4zbloyZV94WHRqZXlPNkN5djQwSzFBZDV4M0N5aTZr?oc=5
+
+【Reddit / technology】
+  1. Reddit will soon force users to log in as Google search traffic drops by more than 1 million referrals a week
+     https://www.reddit.com/r/technology/comments/1xki4m4/reddit_will_soon_force_users_to_log_in_as_google/
+  2. AI Data Centers Could Erase 15 Years of America's Climate Progress by 2030
+     https://www.reddit.com/r/technology/comments/1xkfac2/ai_data_centers_could_erase_15_years_of_americas/
+  3. Anthropic's Claude AI blocks video game cloning and reverse-engineering
+     https://www.reddit.com/r/technology/comments/1xk94u4/anthropics_claude_ai_blocks_video_game_cloning/
+  4. Tech stocks wipe out $1 trillion in value as concerns deepen about the AI boom
+     https://www.reddit.com/r/technology/comments/1xknnvn/tech_stocks_wipe_out_1_trillion_in_value_as/
+  5. AI-driven layoffs are creating a new class of boomerang employees—companies are realizing they ‘pulled the plug too quickly’
+     https://www.reddit.com/r/technology/comments/1xknfsr/aidriven_layoffs_are_creating_a_new_class_of/
+  6. Apple Launches Touchscreen MacBook, Users Say 'Steve Jobs Wouldn’t Approve'
+     https://www.reddit.com/r/technology/comments/1xkmob8/apple_launches_touchscreen_macbook_users_say/
+  7. Reddit (and everyone else) faces a bleak internet without Google traffic
+     https://www.reddit.com/r/technology/comments/1xk9fjx/reddit_and_everyone_else_faces_a_bleak_internet/
+  8. A $620M subsea cable would link Canada directly to Norway
+     https://www.reddit.com/r/technology/comments/1xknhqu/a_620m_subsea_cable_would_link_canada_directly_to/
+  9. Apple Alerts Stores to iPhone Duo's Display Cracking Issue
+     https://www.reddit.com/r/technology/comments/1xk487v/apple_alerts_stores_to_iphone_duos_display/
+  10. Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand — company navigating 'one of the most significant supply shortages in history'
+     https://www.reddit.com/r/technology/comments/1xkpdsv/intel_shifts_production_capacity_from_consumer_to/
+
+【Reddit / business】
+  （取得できませんでした）
