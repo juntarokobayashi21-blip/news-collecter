@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-11-04
+============================================================
+
+【Hacker News】
+  1. The Internals of PostgreSQL
+     https://www.interdb.jp/pg/index.html
+  2. Jailbreaking my car's navigation system just so I can change the time
+     https://blog.nns.ee/2026/11/02/renault-hack/
+  3. Stringman, an $800 open-source room scale gripper robot
+     https://neufangled.com/
+  4. Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels
+     https://hackertv.org
+  5. Giant Canyon on Mars Is Still Tectonically Active Today
+     https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today
+  6. Safari introduces Adaptive Dark Mode in 27.3
+     https://webkit.org/blog/18541/introducing-adaptive-dark-mode/
+  7. Japan's Jimi 'Mundane' Halloween Costumes of 2026
+     https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/
+  8. Microsoft fixes a Windows 11 annoyance as PC revenue declines
+     https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/
+  9. Fujifilm to boost tape production 5x as AI fuels archiving demand
+     https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/
+  10. Qwen 3.8 27B on my laptop can interpret model weights, too
+     https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
+
+【Zenn】
+  1. Radeon VIIとUbuntu 26.04でROCmを動かし、Flash-NextをOpenCodeにつないだ
+     https://zenn.dev/masanork/articles/radeon-vii-rocm-strata-opencode
+  2. (備忘録) お名前.comからRoute 53へドメイン移管し、お名前メールをさくらのメールボックスへ移す
+     https://zenn.dev/momura/articles/896dbde5e42491
+  3. Aurora とDynamoDBとTimestreamとBigQueryを2400万レコードで性能比較してみた
+     https://zenn.dev/ncdc/articles/c47df2c1f32e0c
+  4. ADRをregoでlintする
+     https://zenn.dev/babarot/articles/regomark-adr-checker
+  5. 1 人チームでKiro CLI とISUCON2026に参加した記録：エージェントに任せたこと、任せきれなかったこと
+     https://zenn.dev/ndmxjp/articles/isucon2026-kiro-agent-ops
+  6. バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ
+     https://zenn.dev/uguisu_blog/articles/45d1f446ece415
+  7. quench を管理者アカウントから卒業させる：シャットダウン専用の Windows アカウント svc-power
+     https://zenn.dev/ryuchama/articles/forge-svc-power-account
+  8. Human-out-of-the-loop(もどき)で戦うISUCON2026 (301,558 点 | 12 位)
+     https://zenn.dev/ponyo877/articles/2a8a24acc2ea3b
+  9. ISUCON2026 で優勝しました（当日編）
+     https://zenn.dev/luvtechno/articles/isucon2026-competition-day
+  10. 学部生3人でISUCON2026に出て、最後に証拠より常識を選んで負けた話
+     https://zenn.dev/enari_k/articles/b512e044ec9240
+
+【Qiita】
+  1. 営業こそコミュニティでは「No sell」でいよう
+     https://qiita.com/sadabon444/items/83535ce9f3dd7d56600e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 生成 AI が進化する今こそ、「人材育成」が経営の重要課題ではないか
+     https://qiita.com/Takashi_Masumori/items/3c3091a6142d3e05385b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【未来を解説】AIでエンジニア格差を生み出す質とスピードの考え方
+     https://qiita.com/Sicut_study/items/b9e38c0584d4aa720d31?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 「⚪︎⚪︎はしないで」は効かない？AI Agent の危険行動を制限する 5 つの方法と守られる強さで比べた
+     https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 新しいRAG「Decision RAG」は速い！安い！上手い！🍜
+     https://qiita.com/kikuziro/items/cc82e6e4e4c215eac99f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. [AWS]日本語OCRがついにきちゃー！ ~Textractにいろいろ読ませてみた~
+     https://qiita.com/kikuziro/items/9aff0fefe89cfa13192e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. ナレッジグラフを自動生成!?Oracle AI Database 26aiの23.26.4で追加されたGraphRAG機能を試してみた
+     https://qiita.com/ssfujita/items/62b9502167c97f898b90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. S3への画像アップロード、署名付きPUTとPOSTはどう使い分ける？
+     https://qiita.com/pengin_r/items/d3f3fbe1b4ba1e648ed7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【Vue.js_1時間入門⏰】1時間でローカル環境の構築からシンプルなカウンターアプリを作るまで🔢【初心者向け】
+     https://qiita.com/saito_next/items/5c9c643228e33b3d6e3e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. Strataを使ってMac mini（32GB）でQwen3.8-Flash-Next（125B）を動かす
+     https://qiita.com/eiji-noguchi/items/174b7557ffcdb932ca40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. クラスターテクノロジー(株)【4240】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QanZMN21oNS1PRGFzRlVUWV83cGU2OGtlMzJac1ZTa1htYVdkazhDLURVb3ZJRHk5a2J6M0NsUFlCMkU0TXI2bjdZQ05JRFJFWmc?oc=5
+  2. エンジェルアライン、新素材「SuperElastic*」を発表 Angelalign Technology Inc. - 新潟日報
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkdGI3cVRWa25pamRQaUJHdDlGNnk2a09IQVRKdmRTai1hSTVuanI2UWsxR3ZTYjV0cUl4bWE3cURtLXVVNG83SmJieU1JMm5MNUFSVWU4dFZ4Y054bnc?oc=5
+  3. MIT Technology Review にて、CEO椎橋のインタビュー記事が掲載 - 株式会社Laboro.AI
+     https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oTkx3aWdCZXZjdmtvbkNPdHV5NXBoOFpLdlBGeTN6Uy1oX3lzd2lIekYyX2d3V25nTzlSTnQxeVoxc095eUxOOXVtRXQ3STJIOHBHa193?oc=5
+  4. Nanya Technologyの10月売上高、約2,200億円で12カ月連続の過去最高を更新 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE85UnA3ampxNTZlX0lUbEMtUmxiVHkweWF4T3dULS04NFlwby1RQUtqVm1qRHpQT2M2dEZEeHR6cGtWem1KWUVWdTZ0cTJEZ1czOVU3VzNtQU9DTUFFeWprM2k3b09RVHpzVHFLZU9peE5fLTZv?oc=5
+  5. 進化を続けるソニーの音源分離技術による新たなクリエイションへの貢献 - Sony
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE84V1VGdFhMcjVpTmFyNHdpTEZsWFpwT2RqQTRfcjViUkRHLWMxTlpoMTdsRTFhSkdaQXJUdlAzOC1LaldiZ3pmbTVUT01JZFBZcERiZjRlTjI5QXFEZVE?oc=5
+  6. 『東京=ケンブリッジ・ガゼット: グローバル戦略編』 第211号 (2026年11月) - キヤノングローバル戦略研究所
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1WnloS3VPY0dvNzNUSkxaV3lUclhLaVJtTlJqZGdoTUhzdXdYTjdGSlBTTHBtYlRLWS1xNVFuRzNNbnhJekl2UDRTNGlHcXpuNzhOT3pFTGh5Zw?oc=5
+  7. MomentusがOQ Technologyのペイロードを2027年ミッションで輸送へ 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE5mOU1IcWxFaDhZUXh2REFYT0g3WTFGVzFHT1Vfenk5ODBwNVN6ajFCZFc3VVJBaXVwcjAwdTJmeXMtUURrVTBpYm5Rb2V1MGR6b1lIQXpiRWVmZWJtWFNhOW12TkxaaDMyYm5UNE5xTGw?oc=5
+  8. 塩之入渉さん（情報・ネットワーク工学専攻博士前期１年）が第25回情報科学技術フォーラムにおいてFIT奨励賞を受賞 - 国立大学法人 電気通信大学
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HWVdPeHFlWFdfY1lFME1LWjNlVldQLU5jblpBeHBidEhnMmItRjBTeExxX1I1bUhsS3FrTW9pdndyMWkzZjFuV1poNzVKb2p4UVBwU1dKRXh5Z2h3WVIwZ05ndUMwX0k?oc=5
+  9. Aeson Power Demonstrates the Versatility of Sodium-Ion Technology at All Energy Australia 2026 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RN01JbTZUbWdEWmtTUTNPZHhXd29RQ1dJTVZtb1lCZDU0ek8wMXBONUJTaTVGZHVwb1Z1STh1ZHQzZ3JjWi1DWkhMTENFV2pzdEQ1NGxKeFVyMVE?oc=5
+  10. Technology Day 2026 - PwC
+     https://news.google.com/rss/articles/CBMidEFVX3lxTFBDeEYtYXVRYkpSOW1OS1NkUWY5S3RpS19ZWlJWWnpRMDdtemluMUtrUTAxb3JpVXhqaUJWSEFKSWNZOVZLVjFna3dPQi1ubUkzWjBMWWpVUkpDNHd2V0hVa1NnOG9Yd3U4cU9XemJ6RWdYRDc0?oc=5
+
+【Google News (Business)】
+  1. レゾナック、家庭の廃プラを「都市油田」に 10年越しの黒字化実現 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FblppT3V6NzVkbWIwQzZjZjRYMm1sRXFDNmdpUkdFMGhnZC0wYktqRThIeWw1TzZNcFJNdDQ1bEdoWVFUc3VTZmc4VGNwQjdVVlJrSkpVWU1mb0RSaVh6TktybVNXMDQ?oc=5
+  2. 教師を辞めて恋愛小説専門書店を開業…ニッチな市場でビジネスを成功させた方法（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFA2dlVDWDlXa1JGbGVBYXRNOEd2NHpIZnJPeVVXZjZWWjN0SlYyQmpyZlVMY2FJTzZnTGNOa2xscnpYUW90NlVweUJ4MEZQSGItQ3BDcjVGQ3FNMGM0bTlZRU9McGVEdkxzZnQ4UkJUR0tMbDdRTWxIXy1KbnkySkU?oc=5
+  3. 民主党が議会掌握なら何が起きるか、ビジネス界の予想 - WSJ
+     https://news.google.com/rss/articles/CBMixwFBVV95cUxQTUFKS0FPVFFGcFE4ZE9mQ3BDY21ZUTNmTUpocWFBU01SR2VPWGw4eUlGY2l1Yy1wYTY3OE1hU3hXaFdpSENBMlJTdXBFbS03WktvQVo1OUVFLXFOMm84Yi1OVTN1dmt5SDJEM3RPWUxjN3N6b3lCRXFXTGoyWEhvMGtpdjFFeFZTeFRLQWVvZWhpaG1qTG16YjV2dzA4UFBwbG05aWhqODVtVTN3RktpZjVVQldkSkl5MkVtRm1qTWtwcmFlMndn?oc=5
+  4. アンソロピックが「年収5500万円」でライターを募集する理由は？…AI時代に価値を生む「思考力」の磨き方 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlpWdlA1UHNlUDNDY0xNdGgydVZIdENYWUM5blRGNVBleWwzOC1qdlMyTGNvUTR2cXhvdXlCRW9KTVd0VDRQM0VLSVU3V19PTWZKY2tjNHZkNWNXMU40Mmx4bVBOQWVaRjc5OTlBUzFvUE1ISENrSXlBU2paWVIyUGdycTVMSWxBRHFnM2JNbVNqWUE?oc=5
+  5. 三井住友FGはなぜ、まだ「何が当たるか分からない」状況で「AI投資1000億円」に踏み切ったのか（1/3 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1oQlVlNndZcDVEbk0zSmVzbTF1NW1hOU1VTXJxMlk2Y05NWnlFUG1kWjg1SkpIaVZZTVVoTmIwbUEzNjM2Wlh6Z21Ec01sVnZaU1lYVEpaam52VEJneTlxSmlvdV9xYjZVUENxT1RtQ3U5UQ?oc=5
+  6. 女子スポーツビジネスの新時代へ。スカイライト コンサルティングが専用支援ページを公開 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1GWEVNRDFCME8tUG51bnJZX1dIMEgwWGpjOGRrekR1VTNCLUY3NkN3UEJrZHZCbk5TNmdaVjE2YlRpTzhvTWNYUVpxTW9haEdCVEhMRUt1dHNpTUJkTDgyT1FxbWUtQUhDQ0E?oc=5
+  7. 経営者が考えるべきは「人はなぜサボるか」より「なぜサボる人が少ないのか」 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WOEFLSjh4c1U0U3dqU3NieVRpSzQtMkxndzlKTFcxQzdEYnlvYUp4dHRVdllPUWJWdW9EelpRUDAwZjNDVmFLaHJzVlhUc1A2eHRPMFhmc0prTEQxRHJMQS1tMmg1WWs?oc=5
+  8. 【AD】電通の営業エース200名が受講する“塾”の正体 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56SXllQ1dQc3V4YzBwcUY5UmhDWlpnV01xVUYxZzZ5M1pXajZWVUxub2NkZmVDZDRZYkwyNXdnLUM2ZUVzdEZCRWJIXzR0OGNVU285Z0t3b0h6RzNFWnhXMGN2V0htZnM?oc=5
+  9. グーグル、AIエージェント時代の検索広告に自信…「買い物の自動化」がもたらす新たなビジネスモデル - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVEJLMjFScVdTM1drZXBFeUhEdDRVSFhqMG84dUhQcFZFSjBFZGhJdkZQc0lEcWY5djB4RXhlUGJ1b1dUb2RlaHp4RzJwNE43QlRFeHNFSlhBcm5yaEd1NEI1RHgyR0JaZjBRSmIzZmVLYWFiblBtTHBSM0JTTWFVN1R3ZnVad3B6N0lxZkYzQ0hXVGtNZjNJN3ctc1hRekxyOGVrWDZUOVM?oc=5
+  10. 幹部の55％が挙げる文脈不足、スノーフレークがAIエージェントの暴走と費用を一括統制（ビジネス＋IT） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBUOXg1UmtHYmxaWjZDS25KN25YUmkySzVhamF0S0ZMZTRhRUkxM25DU2tJWGNVcWhpZ1NtZU1ZaGJzU0tsSXNPSk5ZSTMzQzNDQm1HWVBWYVh3X25TWVN1dHhaXzVSLVJPM2pLb3k1YkZMVmxfUm1FVHBEMHIxXzQ?oc=5
+
+【Reddit / technology】
+  1. Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'
+     https://www.reddit.com/r/technology/comments/1xn85kj/google_criticized_by_nyc_mayor_zohran_mamdani/
+  2. AI ‘godfather’ Geoffrey Hinton says it might turn out humans would have been better off without AI
+     https://www.reddit.com/r/technology/comments/1xn6avy/ai_godfather_geoffrey_hinton_says_it_might_turn/
+  3. Dinosaur blood found in fossils for the first time
+     https://www.reddit.com/r/technology/comments/1xmubru/dinosaur_blood_found_in_fossils_for_the_first_time/
+  4. British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted
+     https://www.reddit.com/r/technology/comments/1xn6grp/british_fintech_revolut_slashes_ai_coding_costs/
+  5. Google Will Turn Off Search for Schools That Reject A.I. (Gift Article)
+     https://www.reddit.com/r/technology/comments/1xmvlo8/google_will_turn_off_search_for_schools_that/
+  6. AI Was Supposed to Save You Time. Instead, Users Are Working 90 Minutes Longer a Day.
+     https://www.reddit.com/r/technology/comments/1xn4ms4/ai_was_supposed_to_save_you_time_instead_users/
+  7. ChatGPT Is Giving Voters Serious Misinformation as the Midterms Hit: Fake Candidates and Wrong Election Information
+     https://www.reddit.com/r/technology/comments/1xmx4rs/chatgpt_is_giving_voters_serious_misinformation/
+  8. Vizio smart TVs are ignoring tracking opt-outs, continue to send data even when sitting idle
+     https://www.reddit.com/r/technology/comments/1xn120q/vizio_smart_tvs_are_ignoring_tracking_optouts/
+  9. Binance says hackers used fake job interview to breach computer before $6.3 billion attack
+     https://www.reddit.com/r/technology/comments/1xn0kag/binance_says_hackers_used_fake_job_interview_to/
+  10. Google Will Turn Off Search for Schools That Reject A.I.
+     https://www.reddit.com/r/technology/comments/1xmziac/google_will_turn_off_search_for_schools_that/
+
+【Reddit / business】
+  （取得できませんでした）
