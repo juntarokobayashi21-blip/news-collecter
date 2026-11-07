@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-11-07
+============================================================
+
+【Hacker News】
+  1. Libghostty 1.0
+     https://mitchellh.com/writing/libghostty-1-0
+  2. A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost
+     https://hightouch.com/blog/llm-judges-identity-resolution
+  3. I Toured Unitree's Factory. I'm More Bullish on the West
+     https://josef.cn/blog/unitree
+  4. Tesla to wind down Cybertruck production
+     https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817
+  5. Firecracker VM Escape: PwnEscape Part 2
+     https://pwn.ai/blog/firecracker-escape
+  6. US FAA says it will phase out floppy disks from air traffic control by 2028
+     https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/
+  7. Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE
+     https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/
+  8. Can GROUP BY still be optimized after all these years?
+     https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/
+  9. AI is dramatically accelerating AI research
+     https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
+  10. RealPage rent-pricing case wraps with nearly $360M to renters
+     https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/
+
+【Zenn】
+  1. [破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件
+     https://zenn.dev/xin9le/articles/9a1cf8e10494d6
+  2. Web 標準動向 2026年10月版
+     https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610
+  3. タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった
+     https://zenn.dev/rescuenow/articles/4c03a548cd6589
+  4. Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録
+     https://zenn.dev/genda_jp/articles/7b423bcd20b532
+  5. 【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置
+     https://zenn.dev/aakei/articles/csharp-stack-box
+  6. Security Hub の SBOM インベントリで、Athena を使わずに組織全体のソフトウェアを調べてみた
+     https://zenn.dev/cscloud_blog/articles/securityhub-sbom-inventory
+  7. AI駆動文章作成において俺が意識しているテクニック集
+     https://zenn.dev/ntk221/articles/34ad88a9225364
+  8. .NET にも build.cs 欲しいんじゃーーー
+     https://zenn.dev/sator_imaging/articles/c10d8da7685308
+  9. Slurm は Kaggle で役に立つ
+     https://zenn.dev/pomcho555/articles/c455d086ec47af
+  10. AI生成コードを本番品質に保つためのフロントエンド開発の仕組み
+     https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99
+
+【Qiita】
+  1. AI駆動開発の次の段階: ソフトウェアファクトリー
+     https://qiita.com/Syoitu/items/9364a0a175893bb15219?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. そろそろ共通鍵暗号・公開鍵暗号についてちゃんと理解する
+     https://qiita.com/tomo-ryo/items/7cbf2881a9c8c8cf3656?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【マンガ】はじめてのインデータベースAI～ベクトル検索・RAGからAIエージェントまで～（コミカライズ版）
+     https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. リモートのエージェントが起動した dev server を手元でプレビュー：VS Code 1.145 の Remote browser proxy を試した
+     https://qiita.com/shahin0809/items/a1bd931855f392806ee6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. Qiita投稿文化を社内に広めようとしたけど、うまくいかなかった話
+     https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた
+     https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. ubuntu-latest が 26.04 になったら、ECS（arm64）がイメージを pull できなくなった話
+     https://qiita.com/ogura-gmoconnect/items/6d75b12b6c726ebcd751?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. IT未経験の私がAIに頼りすぎて挫折し、自分の頭で考えるようになるまで
+     https://qiita.com/yu_tsukamoto/items/5fa1e302097552255fb7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. Claude Certified Developer - Foundations (CCDV-F) 昨日受けてきました。【日本語受験】
+     https://qiita.com/takeshi_Qiita/items/f8298084825898921cb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 寛容のパラドックスと法の下の平等 ― 最も反差別的な立場 : システム設計視点の行動経済学 (57)
+     https://qiita.com/maskot1977/items/cdd8698ba7ed5287e817?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. AIを活用した都市の未来を共に：Dahua Technology、SCEWC 2026で実用的なAIoTソリューションを展示 - 時事ドットコム
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VdF82SlpPT0RYN2FFRVF4MDM1QTlweTFmWEZKamplZlhTRU5qVTFwVWYwN1pWYndXNml2VTd2a3RLaE9STnBWeU9xM0R2RDNmZFRMazRmeC12STln?oc=5
+  3. トランプ政権、科学技術諮問委の会合延期 メタやエヌビディアＣＥＯがメンバー - Reuters
+     https://news.google.com/rss/articles/CBMif0FVX3lxTFBlbDZOWkRZTEUwMXF4aFZhVzdyblVUYWRNNzF0emtEMTJFSjFwbnI1Nkh6Um9QTU9Cb1lnUmVtejJ0ZEhUZFFHeG5sM3F5WmxHSnlVMFNpM1RTaHdlVTlSUVQzYkxIaE8ySWFYanh5aEJvc2llWnVQd3dCUXd4blU?oc=5
+  4. Quantum Computing - How Close to Commercial Value? - IDTechEx
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE13eXQ3dnRNLWpyUDVmM2QxVnY0Ql9nc1lMV2xBSC03Wno5V21Ja1l3ZEtEeTNQQ1NfVzdsa3didk44eFE0WlAxOHZnS185RWRnSDBFdGM1enl2aE5Fb1hEeHMyQThrd2Ja?oc=5
+  5. AIの最前線で何が起きているか －AIリスクへの処方箋－ - 株式会社NTTデータ経営研究所
+     https://news.google.com/rss/articles/CBMiekFVX3lxTE9aampMZ1U3WGFyc2I2Y2ZPWUhhT2lITFlfS094WWtVbjJEUnF2MU5wYVdiRGZDRE1rbG9tMTRNU1dkMU1lR2lBQ01ZWEhsblRjR2NtelZrZDhNd3FsWS1nS1FKX0JacmRTZ0VGV2hBdEVPUVZtNUlaSnRR?oc=5
+  6. AI支えるデバイス設計、集積技術を開発…理研「先端半導体科学プログラム」の現在地 - ニュースイッチ by 日刊工業新聞社
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTFBQVU00MlhXUm5FNldWUUZKdzRkRUR5RXhoN1I1Y0txMkhGQ2FxOWVqTU5qNlVlekhiU3V3R1l2Y1BxQQ?oc=5
+  7. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  8. Together for an AI-Powered Urban Future: Dahua Technology Showcases Practical AIoT Solutions at SCEWC 2026 - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxejF4QmJTdEhqSjQ4SFEyNzJwaWFrUHRoMnlaUkI1SHN3VDJUY2Q1Z1p1TGNqbkNtaVF1bmVHQUhMREs1bGxOS0ZMbGdMNzhZRGt0Vy1KNFRpdXc?oc=5
+  9. イプロスAI-産業World 2026 - イベント・セミナー - Key Technology｜CTC - CTC - 伊藤忠テクノソリューションズ
+     https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zTWZpM0FsQVRPSHB1cmdrZHh4SzNIYkNaNURubzFqSHRrT284cUstcnN0LTNkeFR1RmJOTk1WbE5LQnNOazhWWnd0QV9hSzFSSk1xVVkzVklnVC1rZzJzSA?oc=5
+  10. テクノロジー株の下落を受け、AnthropicのIPO評価額予想が低下 - Unite.AI
+     https://news.google.com/rss/articles/CBMilgFBVV95cUxORXRuWUtOblRrSnFGM0xvMXFtblVVZGwtc2xyS21KeENFM2kza3JrU1l2MGNGQ0NxV1hBQVJuanhmUUg4S3QyZWIzcV90QnJpMWtLNmtSeTNiWkhEYkNoQWJXc2swbFREckFMRkc5X2hzQV9teU9TakJnTlFidWhiQXlNY21ESkljRWJ2MTF1TDRLNFhJR3c?oc=5
+
+【Google News (Business)】
+  1. 自身の車を貸し出したら大きなビジネスに成長…EVレンタル特化「Zevo」共同創業者の軌跡（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE81T0xMY3hjZ1o2VzRDU2dhT3BkLXM5alhEbmZFbTFsSS1ROFBtY1pqbjIxaXNWd3ZMNmg0OThDWVlZMzBwdTJKM0txblJWMGIzdlZBOEZIajBvc2hKdjVQNTIxaEJyYnE2WEp2Uk5wWE5oTWQzZXNQYmFYSXpzRFk?oc=5
+  2. ［連載小説9］100年企業の白鷺醸造、買収後に営業増益 蔵人減少の懸念も - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sM1dKYmo4ZjVzZTRCLUVTNWhZb1UtNGFWSTVRTmZRVDk4SXNFZm5nemNmaklleTB5SzhRRkxSQndFNjktcFpyRFNSeXJzbTB0Tjh2OFVHTFR3Y0lBa2hyT3Q1eGhSR1U?oc=5
+  3. ブレイク・ライブリー、またしてもビジネス失敗？ 「金儲け主義」と批判を浴びた飲料ブランドを廃業か - ELLE
+     https://news.google.com/rss/articles/CBMimAFBVV95cUxPUW5NWWVPQ2E2d2VnS1RfQVdvVVZaSm1iSmtZTGVxU3NBdmdwbXpWM1VmSTV3TF9jei15X1Ryd2t0eTY0TGJMbTB4VC1xQ29JSV9CRk80NmxjTF92UXFOWFVWOEUxaTlpMk43am9pTDBfVjQ1MlFUbU9wX2xvTVZMV0lqMXNHTHg1c2tNYU1UbmlUMF80SlBWUg?oc=5
+  4. 富山空港利用促進でビジネス客に2万円の補助金 - TBS NEWS DIG
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDMmdrQ015enVldFZQdmpFVzRLNGM5Nko3MFRZT3BpaEdyNW02M0JTVGZ2ZWZUVzFlcG5pN1VxenRfNzVCd0ZfLTNzRVF5YzB5cE8wNGhzQWFzTDZ0LVJOTHlqX3N0WDg?oc=5
+  5. AI時代のビジネススクール 日本企業に求められるもの - テレ東BIZ
+     https://news.google.com/rss/articles/CBMiZkFVX3lxTFByWC1iem9lVFdLMFpmOTlic0xQMkhzU3FGUWc4RnBxVFNVTHhnak1Cb0prdUtXWkp3SmdPWm9BSnVsYnlQc2VXbFdzNmhmeUlzeVdhcnoyT2R5ZWJUZjhTUVFnWE9PZw?oc=5
+  6. 近づく科学とビジネス、米中が事業開発で先行…日本は？ - ニュースイッチ by 日刊工業新聞社
+     https://news.google.com/rss/articles/CBMiQkFVX3lxTE5ZTHY3enlCS0ZKYUZSZlg0YldUeVZKLWVVdmVjUExrMDhhRjBaUlBYRnVNaGM3LTlOQ2xzSnVoY1Q5QQ?oc=5
+  7. 11月9日開催！AIでビジネスとクリエイティブはどう変わる？「AI MASTER COURSE 実践クラス」の体験セミナーに並河進氏が登壇 - RBB TODAY
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE4wRm5VUll5SXJ5bi1HR1U2eWRIS3FHNnRUb0FoMVg1aTE1U0hacjR4bi1mWnBmQ1BjeDlrbW4yeXJYeGRUdnB0U2F3OWNjU3Q1RXcwV0JqbVpqSDlTVmNSN0xaUnhSemp3bXBROVFOeUZobWtWV0ZuOQ?oc=5
+  8. 米オープンＡＩ、投資継続／データセンター、民主勝利でも - 四国新聞
+     https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWFdBNm1kOHVDZGJNVmp4cE5heW9EMks1SmctT2VSMzZvMlZzX1FIQnVCQnJ1Z1lBNmVrZnZVTG1jVU1kNlplRHZIZkphZmdoWXB3M0Y3MXJpdDhpTTM2UlRWek5FYUlUWjJTZXVoSkRENEtNYXBMNzFydnNwQzBUUWNyOS1ZSG9lUFFj?oc=5
+  9. 小〜中学生がビジネスに挑戦する起業家教育イベント「ビジネス甲子園」閉幕！優勝チームの売上は10万円超 - ガジェット通信
+     https://news.google.com/rss/articles/CBMiS0FVX3lxTFB1YWdvR3NyZlZYZjBVZWk2b1pKdGRvVXBOWjlIMkZnUEhMRi1rUy1YZl8yRVZFNlVENVV3V2hkMHhSTGxWS3I1S1lnSQ?oc=5
+  10. カタール航空の新ビジネスクラスで特に目を引いた7つのポイント。小さな金庫まで…（海外） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE8xbzFQT05tWkZ1TW9XalJIbVlrWTJnUEpTRG5lWUxLblB1S09MX2RPYUV1RlZkeW1xTHF6cXB1R0xGUVVvMUJJZG5MdTBiYVVjWEJaaC11SUZmZ19DSGdsUFdlQXlTLU44Ylc0VllCZUlYTjFJWDJ0MGlMYUVqdVU?oc=5
+
+【Reddit / technology】
+  1. The Ugly Car That Sucks Has Died
+     https://www.reddit.com/r/technology/comments/1xpksua/the_ugly_car_that_sucks_has_died/
+  2. RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd
+     https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/
+  3. 'No Blank Checks for Big Tech': Schumer Faces Protest Over 'Dirty Data Center Deal'
+     https://www.reddit.com/r/technology/comments/1xpmxhv/no_blank_checks_for_big_tech_schumer_faces/
+  4. Artist pulls popular screensaver from Roku OS because of Fox acquisition
+     https://www.reddit.com/r/technology/comments/1xpmp50/artist_pulls_popular_screensaver_from_roku_os/
+  5. Big Tech loses a trillion dollars in a day after the Democratic win
+     https://www.reddit.com/r/technology/comments/1xpc7j0/big_tech_loses_a_trillion_dollars_in_a_day_after/
+  6. Tesla to wind down Cybertruck production at Texas factory as it struggles to win appeal.
+     https://www.reddit.com/r/technology/comments/1xpapar/tesla_to_wind_down_cybertruck_production_at_texas/
+  7. Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns
+     https://www.reddit.com/r/technology/comments/1xpf7u9/nvidia_ceo_jensen_huang_summoned_by_congress_over/
+  8. U.S. set to lose measles-free status thanks to another communicable disease: minsinformation.
+     https://www.reddit.com/r/technology/comments/1xpohbn/us_set_to_lose_measlesfree_status_thanks_to/
+  9. Mark Cuban Accuses Facebook of Running AI Deepfake Scams as $16 Billion Revenue Estimate Emerges
+     https://www.reddit.com/r/technology/comments/1xpkqxo/mark_cuban_accuses_facebook_of_running_ai/
+  10. An Anthropic engineer warns about 'cognitive surrender' as AI agents take over his work
+     https://www.reddit.com/r/technology/comments/1xpe8zg/an_anthropic_engineer_warns_about_cognitive/
+
+【Reddit / business】
+  （取得できませんでした）
