@@ -1,0 +1,138 @@
+============================================================
+  トレンドニュース - 2026-11-13
+============================================================
+
+【Hacker News】
+  1. Jensen Huang resigns
+     https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f
+  2. Africa's solar revolution is vast and speedy
+     https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy
+  3. Rust 1.100
+     https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/
+  4. Gemini 4 Hydrogen and Orchestrator
+     https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/
+  5. Show HN: My $300 embroidery machine needed a subscription, so I built my own app
+     https://github.com/simpsoka/zigzag
+  6. Nvidia employees petition to bring back Jensen Huang
+     https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/
+  7. Dwarf planet candidate appears which takes roughly 280 years to orbit our sun
+     https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/
+  8. Edge0-145B: Frontier AI Capabilities on Your Own Computer
+     https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer
+  9. Foundation Models framework
+     https://developer.apple.com/foundation-models-framework/
+  10. Service degradation on Microsoft 365
+     https://status.cloud.microsoft/
+
+【Zenn】
+  1. 【備忘録】Transformerを数式レベルからnumpyのみで実装して理解する（②Backward Propagation編）
+     https://zenn.dev/matsu8/articles/a01ba3fc713e03
+  2. Tauri の MSI インストーラーが更新のたびに削除済みデスクトップショートカットを復活させる問題を直した話
+     https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut
+  3. セキュリティ・キャンプ 2026 応募課題晒し
+     https://zenn.dev/uvu/articles/758ee227a614ea
+  4. AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」
+     https://zenn.dev/genda_jp/articles/18d1f780f6b41f
+  5. 週刊Cloudflare - 2026/11/08週
+     https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1101-1107
+  6. AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫
+     https://zenn.dev/dress_code/articles/568fd547315abe
+  7. Node.js 22 / 24 / 26 の脆弱性、自分のアプリが影響を受けるか確認する方法【2026年11月】
+     https://zenn.dev/rakko_inc/articles/nodejs-security-nov-2026-proxy
+  8. libsignal のグループ暗号化を追って、署名改ざんのテストを追加した
+     https://zenn.dev/under_michi/articles/7791295efdb23e
+  9. Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤
+     https://zenn.dev/ubie_dev/articles/45501469c9c044
+  10. AI ファーストな管理画面を、WebMCP もどきで実現したい
+     https://zenn.dev/tokium_dev/articles/llm-admin-interface
+
+【Qiita】
+  1. 【AWS】AWS EmulatorでCDK/Terraformのスタックはどこまで動くか【AWSEmulator】
+     https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Fable 5.2でGTA 6 Osaka Cityを作ってみた
+     https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 個人情報流出ニュースが怖いので、パスワード対策をガチで見直してみた
+     https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. AIに書かせる時代だからこそ、コード1行を読む
+     https://qiita.com/yukegineer/items/e8fa851317846aa24de6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. VS Code の Local harness は2027年2月に削除：Copilot harness へ移行する手順とつまずきポイント
+     https://qiita.com/shahin0809/items/ccb8a8ddf11d6cb4113d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Claude Opus 5.5とFable 5.2はどちらを使うべきか、Claude Codeで同じ課題を解かせて比べてみた
+     https://qiita.com/MURAMASA2470/items/ad5a0cade2bd5b3165f9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. Jev × scikit-learnで問い合わせを仕分ける：文章を6つの確率特徴量に変える
+     https://qiita.com/ryosuke_ohori/items/3604de1da2af5c28dc9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. CLAUDE.md に「このコードはあなたのもの」と書くと、重複したコードをまとめてくれるのか。Claude Code・Codex・Gemini CLI で132回試したら、まとめたのは Claude だけだった
+     https://qiita.com/suwa_nobu/items/1dd9df248ee6f4c9dfd4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【改定前受験推奨】Claude Certified Architect – Professional（CCAR-P）本日受験してきました。【合格体験記】
+     https://qiita.com/takeshi_Qiita/items/a84c8eab09c878071daa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 「画面数×人月」はもう通じない？見積もり単位の変遷と、バイブコーディング時代の見積もり書
+     https://qiita.com/TH_stickey/items/f55fb76055988cf9d0ad?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 製造業向け変革支援を提供するSOLIZE Ureka Technology株式会社がAWS・AIシステム開発を手掛ける株式会社ベンジャミンの全株式を取得し子会社化 - STARTUP LOG
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOcUtTcDRGdlNKOGZIb0F5bU1hVnR3c0FoQmlkTUlhVXZMZmNsZkxVeGo4YzJDb3VnNU4zRWhiSllDMmtCTTVDNHpKcUd4Z1E?oc=5
+  2. researchmapに接続しづらい状況について（追記） - 科学技術振興機構（JST）
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mWVZpWXhialRmYm5aMWh1blJpTE1UWkR5UFFIazFEX0YxdTl2b0tjdTJYVUFCOUpUUzNEV0s4eXpTQVNGTjJWUG5ERFJaY1VtaUFYVjVZV0M2QXp5?oc=5
+  3. テクノロジーはいかにファッションを変えてきたのか 技術革新が実現した装いの民主化 - Fashionsnap.com
+     https://news.google.com/rss/articles/CBMid0FVX3lxTFBqZVVmYmNuUHh3Z0VyeWxiaDhQcjJ6U0g0VmZaUE0xRzVEbGc4b09oYWdqSURQalRzMFhwVFVWNzJHRC11MWNIQ1M3d0cybHUxdDJSXzdOU1gyeFp0LWl5QWozSW01VkR4YlprYWtjYjFEeHRxTDhJ?oc=5
+  4. パナソニックHD、「現場起点のPhysical AI」の研究開発を加速 | 技術・研究開発 | 技術・研究開発 | プレスリリース - Panasonic Newsroom Global
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqblR0cFp4dklna1ZqaXJDcGZwcEo0aTctbU9ZemNZSjI2VnZvQ2dPZ0VoOEcyWTZKcUNFVEN3UG5DVFVVcElTalhoTUZsRDRyTjJERGJLZXdDUQ?oc=5
+  5. 【Figure Technology Solutions 2026年第3四半期決算説明会】Figureのマーケットプレイス取扱高が135%増の58億ドル（約9,300億円）に急増、しかしKiaviの希薄化と金利変動が第4四半期のマージン見通しに影を落とす - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTFByWFR1a1A2Y2xZRjBpQTZtSWtFb21NSmtVWmtEQ1ZWcHhOR3VIMDZ4cFZwQ0FWSjVhcUZvV0I3M25oLVJkbFp2ZFVmYmdpMmItdzJaYkxpenVIR05u?oc=5
+  6. 米国で広がるデータセンター反発、問題は「電力そのもの」か - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMisgFBVV95cUxNaWFieUE3WEpaRmI4RUtXTVZzV1pNX21TbUhQOUx1X094eGJsQnR0cGV4QS1jb0RweUxERnhoZXhpd2FrUXBOcjU1NVFmMTdTcURfd1l4T2JoN1VlX3ZyZG14NW9Ba1RBcDhPM3BaWGl4eXBzN3VHaHRSa2kxeUdVTXJaZmU5c2xZV3gxRENKa2U3cUlyTEpPWUhBc0xyNV9ONUFOei1Od1Nxbkg2WE1YRWJn?oc=5
+  7. 11月12日のMarvell Technology Inc (MRVL) 値動きは4.38%下落：値動きの背後にある事実 - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxObENaTVAxR1Y4LTNxalBTY2tRQklLSjhtVC1sYmFIOFdYYmhLY1ZYam9tTjBDQTU0TGNzbGFlU3FEU01ScGhBVGVYTUlfSXVxN1R1ZzZkQUtEaVR2eWhGY254S3ZBOUZhRElQTy1lZGxzc3kyb2pRcnd2a2M3b1MtM2VTS2RyQmJsVmJsV2FSWQ?oc=5
+  8. Plug and Play「Silicon Valley November Summit 2026」のJapan Fusion Technology ShowcaseにCOO久保が登壇しました。 - Helical Fusion
+     https://news.google.com/rss/articles/CBMi4gJBVV95cUxPbXIyOU8xVEJ0U3dmdjVpR2RaaXJlUGNJS05JaTJKRS11REZBVUtYSmRkbEtHNVpnc1JpY3BGWnNzLS1fZUJVRndYUkhPYS14Q0g0eFd0MzIweW54YXNVNW9DMS1tMzROdHFKY2RKVTF3a2pzbjJlY0J3QmFRUjJrSVcwcGtMWmNYcExoNExBdXFUenNTU24zcXRJODFOT2o3NXVNaW1IbC15ZnRNX2lRQjB4QlJUSkRMRk4yc2pQVGpxblNTRnZaelRUQS1vUTFQaGtSeEtodjd0VGFjT0NlSUsxV0V2ZHlPMEotTHNUZ2RkbjFUY0M0RFIzclh2MmgyamdwbE9YUHFUQUZzSGpBbmZrOWtrX2VrMEVyMnFlUVRPakw0MERYYk5zZ2p3NV9makF1UERwajNEVFc5R2UtUGNRWVV2eHVIbENXalRIX0xPeTA3TjdMeDBrVm1NQlZ4YVE?oc=5
+  9. 「学生の自由な発想で科学技術の発展導く」アイデアファクトリー開催 - 科学新聞 The Science News
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE5jM3haU1B4NTRDTFp6OS14ZS1sRk4ydERmcTBLOGRDaHJpcW1SYXhEYW5rY2hPbE1WZ3VZM3lSSHU5RUlCSUhqNnN5MXY?oc=5
+  10. 日本－ベトナム経済・科学技術官民連携フォーラム - 文部科学省
+     https://news.google.com/rss/articles/CBMickFVX3lxTFB2dVRZLUluMjh1UlFKbDhhSUwzX2JhdG5MQVViZFpNS1gtckw3a0tUYzYzaWlvamQ2ZnpNbS1lMjQyRzZ3a3B5TV84NkJBR1ZVVExodDNCd0ltb3R5b21UM2pDSVY5OWZuUFFBV2FMR0VHdw?oc=5
+
+【Google News (Business)】
+  1. イーロン・マスク、ジェンスン・フアンを雇用する意向を示す - Business Insider Japan
+     https://news.google.com/rss/articles/CBMinwFBVV95cUxOU2RnNEw3VlNRcVg4UjRNcmNkUHQ0MElDQm85U3lfaS1DbjE3aV9yQ1hqTkJqLXNnakJMUXk0OGZ3Mjc3MW1KN0hrNHB4UHpIYkVHUnptY05wZTg2ZEVSUTB3SzI4cnZuRjFqbmMxOHZSTUd2ZlVURXhxNzBTSkZxaEQ0d2c5NGdJQ2duQnlGZ2JXc2hBanNVUmlRRXRTUmc?oc=5
+  2. アサヒ、サイバー攻撃下の出荷作戦（後編）～危機の物流を支えたチーム意識 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MbGk0NzJHWmZmNzl3QVNKWFZpb3dCYzE0VjRZejF0cDRZWnFzbHQ1eW94QUZnQjNWUC1wbV9Cc1NPQ1Y3MDMyRUVBUnFpamRDd1F3SFBJdGE4Q1hCaWlVVkRvZVcyRnc?oc=5
+  3. ホテルは「泊まる場所」から「価値を生む場所」へ 業界の未来を共創する「HOTEL BUSINESS SUMMIT 2027」2027年1月7日開催 - 北海道新聞デジタル
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3NWFvYVpZR01OeEFvSmtSVEVpLU83bDY4R0hBcHBfTXFWY0J4RFk3UHNkVmdLRlMtV3p1b1kwMUtlMnRYWDhmNGRsMzJTMFdpMEJxNFBQN0Z3Zw?oc=5
+  4. 第2回スポーツビジネスアワード、大賞はB.LEAGUE「B.革新」 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1BRHFNcDE5NmJUVmpsZE5xcjVxRUEtVmlmbVY2RFphVEJoZmNtMU93bHFZdXVzZWlMTFJpMUtTaVZsOExrOGFjWTJxdDAtWXpaNXdyYnEtUW5IRXVCM3Z1WU1MR3VEMnlJZ3c?oc=5
+  5. 「閉経周辺期ビジネス」ブームの内側｜The Big Story - WIRED.jp
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5hVGFKa0pIZjc2dkJWRzRUQkhmTUpIVzZvb0czTmVWblBBUGdxYTRIX2tSTFo1R0NidXR0T1NEN0hCOTlzdHhSbnh2MGYyY1BuWVJjeVVDZU9iYnU3a2FvUmxOWVlMeFBKVE1zbDhuRExBZzRmblg1aQ?oc=5
+  6. ビジネスホテルの値段、2人だと1室平均15,840円｜1室料金と1人料金の見分け方【2026年11月】 - HotelBank
+     https://news.google.com/rss/articles/CBMid0FVX3lxTE83NkRyUzlzMFdJbllmSHhlMHlaUTZHdk9FY3BiZ0pzQVBvSVpqc1NFaVNJTDlsaHJaZGVNY2xnUDNBYXlMSW8yUG8yTV8tWlhuYnpvak9PeDBxcm9WNUc0Y0lkLWV1TXRXNG5lVmN6UjNIdFd3cnBR?oc=5
+  7. ジェンスン・フアン、やはりエヌビディアのCEOを辞任 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnAzNzkyc3BWeGY1bWtKUk12RC1aWWhZcFAyVFZwTUtUTWhRLWJlVl9QVjJhektZRFdCZThQNld0YkZWcTNkVktsT0ZUa2Q0WW1kWVhtdnNpSjJZOXFrXzV5cFV4Y0tLcGgyU0FCeWplb0MxWFB4MWdvOUJlM3F3OG9YSEdZWmxXa1Fhb0kxSmkyV3ll?oc=5
+  8. 【男性に聞いた】朝食がおいしいと思う「ビジネスホテル」ランキングTOP30！　第1位は「東横イン」【2026年最新調査結果】（1/2） | ライフ ねとらぼリサーチ - ねとらぼ
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE1veHpRMS1tSTZIdEhxVk9XUnNkV3F0WVl2WnRMSFRPcl9VTVo5cUZmR01KOUdNWEZmSVdmT1MzRlJKRDM3cldwcmJLZnMyUHdKTk94SmlCajM2Mjl5ZkZ6QldONNIBaEFVX3lxTFBER0cycDZZcjd5VEdKLU5NN1J0bm1jb1RsMTduOVZ4c0k4WjJqNlZiMnd3YllVNHVsTHdrLWV4R0dsR2ZDQm1aeFNhcUdmSi1pUE9tVGpuMG5NcnF2aWltUzRpWDRYMzdw?oc=5
+  9. 成果を左右するのは「コーチング」より「チームの構造」だった - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GWXFYZk5qZHVLNWxlUEJYYlRzVjhNVWxlT1hHeDZaZnRCb3RWVThpYW9mSFVVbkxrbjU4LUhuWVl2XzZIckVPRVhOanNZNXB3RlVSZGpaQW5VUUd2RHh4MDBzTWptNUE?oc=5
+  10. 稼げる防衛産業 「安い・速い・賢い」で国を守る - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMihAFBVV95cUxPQjBIQk5lTjFrakp6X1IxMkJmSlRiNV8yT2JyZ2JETlpWeHp0a2VDNDhkczhJZFY1NUpaUzRvOHhjX1g0bWxHR0toS0llWkVEMUNXYlhjMWNiNUpQOGREbmxfTlpkWXdDTGhWNVdYcGZJYUdHM3pBWXRjamRRVmxndDJIQkg?oc=5
+
+【Reddit / technology】
+  1. Jensen Huang Had A Third Affair—With Another Nvidia Employee
+     https://www.reddit.com/r/technology/comments/1xunjfl/jensen_huang_had_a_third_affairwith_another/
+  2. Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide
+     https://www.reddit.com/r/technology/comments/1xusd3p/massive_microsoft_365_outage_disrupts_outlook/
+  3. U.S President calls on Tim Cook to be next NVIDIA CEO
+     https://www.reddit.com/r/technology/comments/1xugqh5/us_president_calls_on_tim_cook_to_be_next_nvidia/
+  4. Chicago schools tell Google they'd rather lose Search than be forced to accept AI
+     https://www.reddit.com/r/technology/comments/1xueam3/chicago_schools_tell_google_theyd_rather_lose/
+  5. NEWS: Jensen Huang has agreed to testify before Congress by Thanksgiving
+     https://www.reddit.com/r/technology/comments/1xuk5e1/news_jensen_huang_has_agreed_to_testify_before/
+  6. Nvidia CEO Jensen Huang Resigns After Multiple Affairs, Including With Alleged Chinese Spy
+     https://www.reddit.com/r/technology/comments/1xudbn0/nvidia_ceo_jensen_huang_resigns_after_multiple/
+  7. Global outage hits Microsoft's Outlook
+     https://www.reddit.com/r/technology/comments/1xulf7d/global_outage_hits_microsofts_outlook/
+  8. Microsoft Outlook Goes Down, Paralyzing Business Communication
+     https://www.reddit.com/r/technology/comments/1xula8r/microsoft_outlook_goes_down_paralyzing_business/
+  9. Alice Huang tied to Nvidia’s biggest Chinese competitor, Huawei
+     https://www.reddit.com/r/technology/comments/1xunkud/alice_huang_tied_to_nvidias_biggest_chinese/
+  10. Billions lost and markets roiled by one man’s indiscretion. Isn’t it now clear that these tech bros are too powerful?
+     https://www.reddit.com/r/technology/comments/1xui109/billions_lost_and_markets_roiled_by_one_mans/
+
+【Reddit / business】
+  （取得できませんでした）
