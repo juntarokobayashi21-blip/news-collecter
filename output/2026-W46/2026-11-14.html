@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレンドニュース - 2026-11-14</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --text: #1a1a2e;
+            --card: white;
+            --border: #e9ecef;
+            --accent: #3b82f6;
+            --success: #10b981;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a2e;
+                --text: #f0f0f0;
+                --card: #2a2a3e;
+                --border: #3a3a4e;
+                --accent: #60a5fa;
+                --success: #34d399;
+            }
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1rem;
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background-color: var(--accent);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .overall-summary {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .overall-summary strong {
+            font-weight: 600;
+        }
+
+        .overall-summary h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: flex-start;
+        }
+
+        .stat {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .stat strong {
+            font-size: 1.4rem;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+        }
+
+        .badge {
+            display: inline-block;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .section-summary {
+            background: var(--bg);
+            padding: 1rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .section-summary strong {
+            font-weight: 600;
+        }
+
+        .section-summary h4 {
+            margin-top: 0.8rem;
+            margin-bottom: 0.4rem;
+            font-size: 1rem;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .article-card {
+            display: block;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            border-color: var(--accent);
+        }
+
+        .article-title {
+            display: block;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.4;
+            margin-bottom: 0.8rem;
+            transition: color 0.2s ease;
+        }
+
+        .article-card:hover .article-title {
+            color: var(--success);
+            text-decoration: underline;
+        }
+
+        .article-summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            opacity: 0.85;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 トレンドニュース</h1>
+        <p>2026-11-14</p>
+    </header>
+
+    <nav>
+        <a href="#0" class="nav-link">Hacker News</a><a href="#1" class="nav-link">Zenn</a><a href="#2" class="nav-link">Qiita</a><a href="#3" class="nav-link">Google News (IT)</a><a href="#4" class="nav-link">Google News (Business)</a><a href="#5" class="nav-link">Reddit / technology</a><a href="#6" class="nav-link">Reddit / business</a>
+    </nav>
+
+    <main>
+        
+        
+        <section id="0">
+            <div class="section-header">
+                <h2>Hacker News</h2>
+                <span class="badge" style="background-color: #ff6600;">🚀 Dev</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5" target="_blank" class="article-card">
+                    <span class="article-title">FAA lifted National Ground Stop at 0119Z</span>
+                    
+                </a>
+                <a href="https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247" target="_blank" class="article-card">
+                    <span class="article-title">FAA issues national ground stop</span>
+                    
+                </a>
+                <a href="https://www.joshka.net/cell-borders/" target="_blank" class="article-card">
+                    <span class="article-title">Terminal borders that don't cost a cell</span>
+                    
+                </a>
+                <a href="https://orcasairband.com/" target="_blank" class="article-card">
+                    <span class="article-title">Live airband on all frequencies from KORS. Victoria, CA also ground stopped</span>
+                    
+                </a>
+                <a href="https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks" target="_blank" class="article-card">
+                    <span class="article-title">Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks</span>
+                    
+                </a>
+                <a href="https://dfarq.homeip.net/what-happened-to-3com/" target="_blank" class="article-card">
+                    <span class="article-title">What Happened to 3Com?</span>
+                    
+                </a>
+                <a href="https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free" target="_blank" class="article-card">
+                    <span class="article-title">Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free</span>
+                    
+                </a>
+                <a href="https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026" target="_blank" class="article-card">
+                    <span class="article-title">Amtrak booking system experiencing major issues amid nationwide FAA ground stop</span>
+                    
+                </a>
+                <a href="https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/" target="_blank" class="article-card">
+                    <span class="article-title">Reverse engineering my Coway air purifier to ditch the cloud</span>
+                    
+                </a>
+                <a href="https://www.nature.com/articles/d41586-026-03638-3" target="_blank" class="article-card">
+                    <span class="article-title">Found: A protein that drives ageing without unleashing inflammation</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="1">
+            <div class="section-header">
+                <h2>Zenn</h2>
+                <span class="badge" style="background-color: #3ea8ff;">📚 日本語Tech</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://zenn.dev/shougo/articles/ng-nvim-simple-gui" target="_blank" class="article-card">
+                    <span class="article-title">ng: Neovim のためのシンプルな GUI</span>
+                    
+                </a>
+                <a href="https://zenn.dev/atrae/articles/032b9fccca0ff7" target="_blank" class="article-card">
+                    <span class="article-title">困ったらAIにすぐ聞く3年目エンジニアが社会人になって読んだ技術書 10冊.</span>
+                    
+                </a>
+                <a href="https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now" target="_blank" class="article-card">
+                    <span class="article-title">5年後のエンジニアは、何に責任を持つのだろうか</span>
+                    
+                </a>
+                <a href="https://zenn.dev/karamage/articles/5c3f8370b2b370" target="_blank" class="article-card">
+                    <span class="article-title">【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え</span>
+                    
+                </a>
+                <a href="https://zenn.dev/ca_kagglers/articles/two-tower-mechanism" target="_blank" class="article-card">
+                    <span class="article-title">仕組み編：Two-Towerによる検索システム（学習・推論・配信）</span>
+                    
+                </a>
+                <a href="https://zenn.dev/fixstars/articles/kimi-k31-pro-benchmark" target="_blank" class="article-card">
+                    <span class="article-title">最強オープンウェイトモデル Kimi-K3.1-Pro をセルフホストして独自ベンチで比べてみた</span>
+                    
+                </a>
+                <a href="https://zenn.dev/pivotmedia/articles/risk-based-testing-for-uat" target="_blank" class="article-card">
+                    <span class="article-title">AIで膨らみ続けるテストケースを、リスクベースドテストで選んで回すまでの記録</span>
+                    
+                </a>
+                <a href="https://zenn.dev/uvu/articles/758ee227a614ea" target="_blank" class="article-card">
+                    <span class="article-title">セキュリティ・キャンプ 2026 応募課題晒し</span>
+                    
+                </a>
+                <a href="https://zenn.dev/genda_jp/articles/18d1f780f6b41f" target="_blank" class="article-card">
+                    <span class="article-title">AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」</span>
+                    
+                </a>
+                <a href="https://zenn.dev/dress_code/articles/568fd547315abe" target="_blank" class="article-card">
+                    <span class="article-title">AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="2">
+            <div class="section-header">
+                <h2>Qiita</h2>
+                <span class="badge" style="background-color: #55c500;">✏️ 日本語Tech</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【AWS】AWS EmulatorでCDK/Terraformのスタックはどこまで動くか【AWSEmulator】</span>
+                    
+                </a>
+                <a href="https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">「ざっくり工数どのくらい？」に「ざっくり工数このくらい」で答えてはいけない</span>
+                    
+                </a>
+                <a href="https://qiita.com/yyoshida15/items/4ea6a0752ff2ba942dff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">CRA報告対応② Dependency-Trackで脆弱性の検知を自動化する(Pleasanter連携)</span>
+                    
+                </a>
+                <a href="https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ</span>
+                    
+                </a>
+                <a href="https://qiita.com/TH_stickey/items/f55fb76055988cf9d0ad?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">「画面数×人月」はもう通じない？見積もり単位の変遷と、バイブコーディング時代の見積もり書</span>
+                    
+                </a>
+                <a href="https://qiita.com/hiroshi_ito9854/items/a3ea4d3db0d45f12f500?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">claude codeにMacを1台まるごと渡してチェスをさせてみた【terminal-mac】</span>
+                    
+                </a>
+                <a href="https://qiita.com/maskot1977/items/76cb2a92efe0433b1de4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">耳で聞く！ システム設計 視点の 行動経済学 5</span>
+                    
+                </a>
+                <a href="https://qiita.com/ditchcrimson/items/ce71bf981e5cdd0bd8f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">DDD・CQRS・イベント駆動を組み合わせたバックエンドアーキテクチャ設計</span>
+                    
+                </a>
+                <a href="https://qiita.com/maskot1977/items/6d3f5c504360cf7858c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">耳で聞く！Python で学ぶ マクロ経済学 入門 45</span>
+                    
+                </a>
+                <a href="https://qiita.com/deuteridayo/items/38afbfa4be6591b22f14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items" target="_blank" class="article-card">
+                    <span class="article-title">【2026年版】スマホで競プロをやろう！(C++)</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="3">
+            <div class="section-header">
+                <h2>Google News (IT)</h2>
+                <span class="badge" style="background-color: #4285f4;">📰 ニュース</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMi0ARBVV95cUxPN0VxSE1nYnBoUllWcFhFdWJIa0JwMl83OF85UFIyMEZSeGdSVFVsZkpuMUE4dzRZVWxEMlpSSU1MdXJKTnlLSVg1cERtTVlVYkJMQ2xVbnA4VnpJNzFxZnEyTVZGN04wZHpXWU9HbUxzTS0tNUJWeF95eEszRmdSQklrM1dNakFMbkYtN3pUemtiVjYwSVdDcDBtSW1NWkVITmFhQXo1RVhtUWs4ZTBqOTVfQWFfV2pSMzBfNFh0Q1F6eHJpbjVma0c3UkNtbi1JLTZsWm96d2ZHU1VyazlUWkxtSzVsUDJpdl8zdzNWeTZqNnhnTHlGR29haUJzeHhFNW5ISkxCSzNRNEstbHBFVF92RDdCVVlkV2ZVZkNfMG5FaXZrYkxhdGtTOC13ZUxEUHE3QWp6RXl2WW9oMXZXUmQ4a254RmZJWmYxMmNRNDBDZ1NPT0VUblZhZnBvWlZROGQteVZuOVZhUk9OUi12UnRSQkdoNUdZX3Q3MnE3V3lHU0M5cWo5dHFMNGVvVTRwbjcxMURZS0ZKTi10Yk5MMmMwampxZUdjX0IxM1AzTkk5RkF2OGJKc0tNWlZoYVF4NFd4NEZMNmlNV1I2c1U5eXdFekdHUnBMZFYwbXJ1YlgtZV96VUpJb29zSW1IeldTTUk0ZGFiM0h5VnF4ZGtEblRKd0taU1MxVGhvSzQtNjYwVlNWbW94dEVnazlSVzI1NjkyWENwc3k2bkE5MFZFZFJub2N3S1BzZC10TXNsaWJpV1VKZDlJdjU4U3RLRXN5?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">male manager hand holding tablet with AR application for check order pick time in smart factory warehouse, technology interface global partner connection for Logistic Import Export background - SAP News Center</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5DU0JaYkJHX0RIOGJ1OUY3d20yWWZ0bDVJa242dVBGT0RSNG93NFJDaFktaE1nVWVLczNYeU1BVVZLbVJlbHV2MVlyZjZDaXZKMUtqZ24ySkdfUnpuWnFZVk9NVkJGcVlyQVE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ｍｏｎｏＡＩ - 日本経済新聞</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqblR0cFp4dklna1ZqaXJDcGZwcEo0aTctbU9ZemNZSjI2VnZvQ2dPZ0VoOEcyWTZKcUNFVEN3UG5DVFVVcElTalhoTUZsRDRyTjJERGJLZXdDUQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">パナソニックHD、「現場起点のPhysical AI」の研究開発を加速 | 技術・研究開発 | 技術・研究開発 | プレスリリース - Panasonic Newsroom Global</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNMjZycVA1bDFuZWxTOW9wSjZ5bEdKUk9qQzcyTXNwZHRTS3Zsd3hmaGctXzNOekdvNzJMSXIwSGdMUkh5RERTXy1nblR3S2xFek81TUZiUDVMeW02OUl3eElBSnBobG82QVFjN2lPUm9GQl9rSlZqQVFLTEhWZWNyYTVwMEo4VlhIUUhTcnBXaEFsbUxq?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">G-QuATと富士通が語る、技術開発とエコシステム形成の取り組み - Fujitsu Global</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOOXFoUEpKdzVXZ0NPVzFVVFlfbVV4WGRKT256UnhoaUtUSGRuZlJEajFNMUY1RE9mM0l4SU9DZk9GQkV6WXR5eTVmbnFxcWUteWpQRm9RREpud3AzaEswQXBzTl9zMDR3N0FvTGdmUVFfOFdnU08tODQ2QmF1YjVrMFJKenA5aGx5QTVVM1pwZw?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">11月13日のMarvell Technology Inc (MRVL) 値動きは6.23%下落：値動きの背後にある事実 - TradingKey</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE90b0lmLThpSnowQjlBeDFzR3lZU3pTWk1ac2ljeV9DV2dCTXNIaFFQOUNIMENkalh0UVgzMER3Y2lPMVNHenE0LXlBREN6S2dYRGJpS2YtME1BbkY3aVB2WVloZkg2aERUZG5ad1hfellaT0RJ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">アップル時価総額5.23兆ドル突破、エヌビディアは一時下落に転じ、半導体セクター全体が軟調 - BigGo ファイナンス</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5aNWZoYTFVNHBCQVZmNHlTV292NXk1d0laN2draUJxZVlnb0VmRTUxUmozTURiWEFWWWh6N2NwWkI3MXp0Wmk0b0tRWDZWYk4wbGxOUnlYQmxNTEFySERaV2M5TTdNeU5LWDBqVlNPOA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">光技術で「賭けに出た」Marvell Lumentum買収で：大型過ぎる取り引きに懸念も（1/2 ページ） - EE Times Japan</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CNjFTbHh5QjZKZGRvbXJRQ1lvSG40NHNoMjRKdXZuWl80YTRjSjJZR1EyN1gwdW9jcmNQcVNkbXRoTFRsb3p2aFQwNEs5MDNpWV9KRWxqSWxRVFFO?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">PFAS無害化技術の実証成果を発表 Aホールディングスと駿河GXテクノロジー - 株式会社共同通信社</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiREFVX3lxTFBqcWxieE1aTlJ0QUZOYlZONFJIUkJzaHg5N1M1VXhudC1HeFh4VGk3M255ZDhsVzd4bDQ1UWhwQWJvUlRO?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">monoAI technology、26年12月期の業績予想を下方修正、赤字幅は拡大へ…AIエージェントの競争激化やXRの新規案件獲得遅れ響く - gamebiz【ゲームビズ】</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBXQ3B5dGhOS1FsOWk3VzZjTE1TN3k5TEd4dDNtRXZfbXpQYnZHNV9VNFZzV3BvMTRFNk5xSzR3RDBfZVE3V0dFOTdhR1NwZTk5aUxmbXYzX1lsZHZMcG9UY211cW0yU3RCcU4wRkpTT0tMQkRHcEFwTlZ5WVNqcUU?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">複数機関が保有する偏りのあるデータを高精度に統合解析するAI技術を提案 | テクノロジー・材料 - TSUKUBA JOURNAL - 筑波大学</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="4">
+            <div class="section-header">
+                <h2>Google News (Business)</h2>
+                <span class="badge" style="background-color: #0f9d58;">💼 ビジネス</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44Q2txTnBZSjhOLS1ORVVNWjh5YUpSR1JwZHlZYnlEM1BNYk4tRzhyVk5PQlVPQ1VMM3VvdXFGOVJwY0g5T2d1U1VOdVN1ZmpZMk9HOXFTR1JGSWhFNkVIdXFmbDZtWkE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">伝説のバンカーは見た マネーフォワード社長は自転車移動もいとわなかった - 日経ビジネス電子版</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNUnAzNzkyc3BWeGY1bWtKUk12RC1aWWhZcFAyVFZwTUtUTWhRLWJlVl9QVjJhektZRFdCZThQNld0YkZWcTNkVktsT0ZUa2Q0WW1kWVhtdnNpSjJZOXFrXzV5cFV4Y0tLcGgyU0FCeWplb0MxWFB4MWdvOUJlM3F3OG9YSEdZWmxXa1Fhb0kxSmkyV3ll?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ジェンスン・フアン、やはりエヌビディアのCEOを辞任 - Business Insider Japan</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kVmMtQXp1Y0tQNlRpaWtPaFgxam1kdDFTME9jRUszY0pKcWdOVldoNnQwY2FPR1hPRVlEZHJOUXc2QnoyVzFuTWNtaUp1aGh0c2g4c1d6OHpCSURXWk9uMVN6TQ?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">タンジェMED港、日本企業に向けてモロッコの産業および投資機会を紹介 - 時事ドットコム</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0xYnhzSnNvSms4b3Z5SGI5dDBXVWRCcUVNLU1FTlhyZmdSendmTjVYSDZhVERCeHVpbmMwSEpSQnl5NXJpeko5MEVmT1o5WFJlWlpOY0I3WTZoQW5zN2RGSXR5QmZZaUV2dzVEQW1aZGNnRlZUZmMxZHRkREZ6R1U?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">東大生起業家「昭和スタイル」の生存戦略。AI時代こそ「即レス」「現場主義」が勝ち筋になる - Yahoo!ニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBqcTZNc1Y3S2gwNU1SckxzeUZzSE1Md1JORDZoM0h3d215NUtGOFpqZng3d3FCLS1GUjNCOXpnU0RGUVJ1MWRtLUprRzNLanExak1FYklrS3NDNHNHX3JOcFA3eU1BVXJqU3c?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">AKEY Business Matching、リリース初日にマッチング成立。提供開始から3日間で申込数40件を突破 - PR TIMES</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPMGlQT2o5Z1hoNXk5X3VBMWlxUTFzdjZWN0RQTVV6SUIyZXpSNjhucUxRQUpfTDdWUEk4UE1hY0pHZEx0bU5hNXJQbjZkdXNwOWFTU1U3bW9Palc1MjV5bTVkaHVuenVsUU96bnJyc2tTNnNIM3RDRVF5amVKdDZySUVR0gGHAUFVX3lxTE5JSVdEZnlDQmM3VTgwcmRyR1RPV3BpUHRUVHRqRWJHem5Dd2xWUmVxZlZHM3NWY1FjZlQzRHZMbnRsZExXUjdtWFQ5d0N3WFNXMDdIVTBfM3pSa2kxYzZNdmNnazFDMjlwRmN5S0k1dDBXbENHU0xWRnhHV0drUHE5ZWFUNl9zOA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">シイエヌエス＜4076＞、ERP導入支援のロータスビジネスコンサルティングを子会社化 - ｄメニューニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wc3pBWi1aVGtxTy1wN1M3ZzYzMVRkTnptajdTM3VjZ3M5Z2Nzb3QtSlpwdnZHUnlneTRQS2lMcmc5ZloybkhsZzNyUFRvMF83Smxz?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ディスクリート半導体の市場規模、シェア、地域別の動向分析 - 2034年までの市場予測（Fortune Business Insights） - ドリームニュース</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZFctaWJJREc2MnltWG9IbTluYUhVdXR4Y3lZbklaZU9QTG9fN0EzYkxqV3hCb3UyNXNTOFFuQ2V6TzM5NHdQMjlFRmZmTkE?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">ビジネス用モバイル端末の世界市場（2026年～2032年）、市場規模（Androidシステム、Windowsシステム、その他）・分析レポートを発表 - アットプレス</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5acEVHSDJPNEV4VUJiM3JIQ2lJbnQyTGJLWWw5TnJnelJFV0RGRGlWTWVaQTlxNmhZcmhxbnRFdGZaQjFJWk1penBMQkFPNFVPMk11V2h4VU5NX01DN09ZYWgycnVGbDA?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">［連載小説10］買収先の白鷺醸造、最高益でも技術顧問「菌は減りました」 - 日経ビジネス電子版</span>
+                    
+                </a>
+                <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE5rZ2tqOVhVUHF5eHpneUZ2ODgwVnN0WGhpNWdFOHIzTS1DUGQ2aHRnei1Tc29lLWRuOE1DdkhsbWFoUUQySUZuS3F2N1R6MHFUbGtqektGaFdoVDJyTm1oVWRDVjBUVlV2MlVzUXJrXzNGaWliLWJ2b3R4SnI?oc=5" target="_blank" class="article-card">
+                    <span class="article-title">小林喜光氏「『敗北の30年』で競争力低下、再浮上のカギはAI実装」 - 日経ビジネス電子版</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="5">
+            <div class="section-header">
+                <h2>Reddit / technology</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+                <a href="https://www.reddit.com/r/technology/comments/1xvnevv/live_updates_no_timeline_for_resolving_nationwide/" target="_blank" class="article-card">
+                    <span class="article-title">Live updates: No timeline for resolving nationwide ground stop as flight cancellations climb</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvjsxv/faa_issues_nationwide_ground_stop_due_to/" target="_blank" class="article-card">
+                    <span class="article-title">FAA issues nationwide ground stop due to "extraordinary circumstances"</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvk949/faa_issues_nationwide_ground_stop_for_all_flights/" target="_blank" class="article-card">
+                    <span class="article-title">FAA issues nationwide ground stop for all flights</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvmakd/when_will_the_faa_ground_stop_end_heres_what_we/" target="_blank" class="article-card">
+                    <span class="article-title">When Will the FAA Ground Stop End? Here's What We Know So Far</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvowp2/faa_launched_new_ai_air_traffic_tool_three_days/" target="_blank" class="article-card">
+                    <span class="article-title">FAA launched new AI air traffic tool three days before national ground stop</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvo5kz/faa_smart_ai_system_vendor_and_microsoft_both_say/" target="_blank" class="article-card">
+                    <span class="article-title">FAA SMART AI system vendor and Microsoft both say ground stop isn't their fault</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xv6c5l/microsofts_massive_m365_outage_stretches_past_15/" target="_blank" class="article-card">
+                    <span class="article-title">Microsoft's massive M365 outage stretches past 15 hours as its fixes keep failing</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xv8ixq/broken_and_shattered_nvidia_ceo_jensen_huang/" target="_blank" class="article-card">
+                    <span class="article-title">‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims — thousands of employees rally, calling for reinstatement on internal forum</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvppm2/nytimes_faa_ground_stop_lifted/" target="_blank" class="article-card">
+                    <span class="article-title">NYTimes: FAA Ground Stop Lifted</span>
+                    
+                </a>
+                <a href="https://www.reddit.com/r/technology/comments/1xvdhsg/before_his_ouster_jensen_huang_belittled_the/" target="_blank" class="article-card">
+                    <span class="article-title">Before His Ouster, Jensen Huang Belittled the Executive Replacing Him</span>
+                    
+                </a>
+            </div>
+        </section>
+        <section id="6">
+            <div class="section-header">
+                <h2>Reddit / business</h2>
+                <span class="badge" style="background-color: #ff4500;">💬 Community</span>
+            </div>
+            
+            <div class="articles-grid">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>生成: 2026-11-14 02:57:16 | API: CLAUDE</p>
+    </footer>
+</body>
+</html>
