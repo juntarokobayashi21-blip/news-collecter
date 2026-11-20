@@ -1,0 +1,119 @@
+============================================================
+  トレンドニュース - 2026-11-20
+============================================================
+
+【Hacker News】
+  1. Gemini 4 Neon is the new #1 on the Models Engineering Index
+     https://git-aarvin.github.io/mei/
+  2. Anthropic’s Nasdaq debut
+     https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/
+  3. Pancreatic cancer halted by virus injection in three patients
+     https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/
+  4. OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)
+     https://github.com/openssl/openssl/pull/33652
+  5. Vint Cerf on why TCP/IP was never patented
+     https://seremot.com/p/vint-cerf-on-why-tcpip-was-never
+  6. Claude solves two open problems in the physics of black holes
+     https://www.anthropic.com/research/claude-black-hole-physics
+  7. How to CAD Almost Anything
+     https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/
+  8. Garage Door Spam
+     https://blog.harrison.page/garage-door-spam/
+  9. What Comes After AGI?
+     https://institute.deepmind.com/essays/what-comes-after-agi/
+  10. Postgres 19 is out, and it's available on Neon and Databricks Lakebase
+     https://www.databricks.com/blog/postgresql-19-available-lakebase
+
+【Zenn】
+  1. 自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス
+     https://zenn.dev/nttdata_tech/articles/9562962cc181a1
+  2. AIが爆速で開発する時代の、自動テストとの向き合い方
+     https://zenn.dev/daiaoki/articles/webterm-ai-era-testing
+  3. Gemini Decision 1でスパム退治！
+     https://zenn.dev/satoshi_yoneda/articles/decision-1-anti-spam
+  4. Microsoft-Decision-1.1公開！Microsoft-Decision-1との差はどれくらい？
+     https://zenn.dev/microsoft/articles/ms-decision-1-1
+  5. TypeScript 7.1 の Content Mapper で型の生成コマンドをなくす
+     https://zenn.dev/toiroakr/articles/typescript-content-mapper-codegen
+  6. pstack 完全ガイド ─AIエージェントに雑なコード     を書かせない技術─
+     https://zenn.dev/karamage/books/50c18e52e7d19e
+  7. 相次ぐOSSの脆弱性に、とりあえずクラウドWAF入れるだけでだいぶ違う話+Rootlessコンテナもいいぞ
+     https://zenn.dev/kusuke/articles/98e178e6824cac
+  8. ログの種別を整理して、何をどこまで残すか決めた話
+     https://zenn.dev/dress_code/articles/a3bf34274af03f
+  9. tsrs を導入したら oxlint の type-aware linting と typecheck が爆速になった話
+     https://zenn.dev/dress_code/articles/6c179ae5129131
+  10. 正しいUIデザインと、意図のあるUIデザイン
+     https://zenn.dev/praha/articles/08568310684aa3
+
+【Qiita】
+  1. 部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい
+     https://qiita.com/nuco_d/items/b279477cbcdbe5921abd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. 【AI × PDF】 紙派だった私が、技術書を電子で買うようになった理由
+     https://qiita.com/Dingu-suke/items/7d474c38cd597869049e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【初投稿】「最近どう？」を卒業しよう！180cm95kg・青髪・ヒゲ面のインフラ中間管理職が1on1で意識している11の工夫
+     https://qiita.com/human_hub_T/items/439bda5ea9234b7d9013?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 人間がボトルネックになった時代のAIエージェント設計
+     https://qiita.com/Syoitu/items/5bb47c01a8513e52d1b5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. AIトークノミクスは観測から始めよう - AIコーディングのコスト・無駄・成果を測る
+     https://qiita.com/kobadain/items/7ff26c584cd9b83f7a5a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. Lodashへの別れ：標準JavaScriptでここまでできる置き換えチートシート
+     https://qiita.com/figueiredoluiz/items/c47f5f20a9f4118054f1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 【朗報】Microsoft 365 CopilotがOneDriveのファイルを直接編集できるようになってた！CoworkなしでGitHub Copilotみたいに使える件
+     https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【Gemini 4 Hydrogen】「とりあえず一番上」から卒業！Agent Studioで試す手順
+     https://qiita.com/N-Kyo/items/80ac96fd59b08b1a879a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【実験】Direct Connectの片系を落とすと、実際どれくらいで切り替わり、行きと戻りはどの回線を通るのか
+     https://qiita.com/sh_fukatsu/items/5a069f9fce99a86efb05?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 紫のうさぎ3DモデルとアニメーションPurple Rabbit
+     https://qiita.com/yangon/items/82ccc38c04c3ea1e8d3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. 第317回 ワイドショーを賑わせたNVIDIA騒動。その陰で動き出す中国・登臨科技（Denglin Technology）の狙いとは - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFA2UVZGdm9YV1N4ZlUxdUN1ZVBSV1Fxa01KcnhPYXJ6R2lMMzVGZ2NhTFB2UGU5bmcwZFJhWTB4a3FvMkVtTV9lOGZtcG9mYTVlVVNkdDVINlJfMWM1SUJFeGlOcDZGWFl6MnplN0pMZXh6QQ?oc=5
+  2. TCL CSOT：「DTC2026」イベントでAI時代のディスプレイ技術とIJP OLEDの進展を発表 - 下野新聞社
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zVUVySTNVMVUyb1A5cjR6YXJKX0xLN0tIWC1wdEpiZktuV2p1YmhfLWwtUURLTE9rQXlXdWdzTjdDNkJTRmFMY085YXBVX1dBQmVqaVNEVzY5ckU?oc=5
+  3. テクノロジーはどこまでファッションを拡張するのか 全8回まとめ - Fashionsnap.com
+     https://news.google.com/rss/articles/CBMicEFVX3lxTE9jcDlTcHJxUFBTWThrY2NQcHVfdFVjd3ByY0xjUWJPYTYyanFqcWNHd3FSb0hfMDFLUzdycDVQTmlERmY2cVhlZW4tOHcxdW9rcVotbk1QcF93c0dDekQxNnQ5U1VZbXdJUWp1aS1OZHQ?oc=5
+  4. 研究インフラ、維持・拡充・廃止の優先順位明確化を求める 豪科学技術協会 - Science Portal Asia Pacific
+     https://news.google.com/rss/articles/CBMia0FVX3lxTE12MWhLazRQVlI0ZXdsc29uNGpaZkkxUFQ4cjd6U2RTbkZmdTc5Mm1zNnlNblk3bklzMzF4X2JvOTEtZ2FFRHpNSHZ3VjJVZzZpaWo5d0pJdXJVZHJZYWhYSWJKZk4wQTVkeFJj?oc=5
+  5. Warner Music GroupのCEO、Robert Kyncl氏がCES 2027で音楽の未来について語る Consumer Technology Association - 新潟日報
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE10bkNNSmtKY3pBbVBsbGp0WGxlSzNuT1FMdF9TM3otQUpQNlFGT1Zvd29zbFZjTlJZZmQxanRjTUsxUlBYRi14MXpvYXpPczhQSlhodmx1VldUaU0yS3c?oc=5
+  6. パナソニックの研究所「Technology CUBE」、簡単に内部変更 - 日経クロステック
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE1NT3R6SmlTUnNvVjNvMzVWUTdqbFh4TXZmQ0VFM0o4X3JBTWNvWWNaZnk0TGdoejZXVVVQcWZXcU9fUGIxWS1zVGlXVzJxZnFveUlUamhpQjZ6MTZMR1BRSFIxOTRxYmhpSUhQbg?oc=5
+  7. Anthropic上場がAI相場に火をつける SanDisk、Intelなど半導体メモリー株がそろって6%超上昇 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9Cd3hxRHFHMGV4anEzRUFGUVdTcjFtVjFlZ2U3SzVDZHlDQWZJVTJEVWE3Vm9GZ3ZsZ2VTaFRGcGJqOERoV3Q3aEw3N2h6dlgyREJBUi00SDNsVE9NMFcwczdGblZ0ZlZvVnBIZS1hNWdjUHNs?oc=5
+  8. WPPの最高経営責任者Cindy Rose氏、C Space（R）の基調講演でAI時代におけるデータの独立性と信頼の重要性を探る - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuemJTV3UwZFNqVW1INWw4ZzA3dWtPNmVfeThvbmtlcWluRFg0eXF3d3V1RFpfZjgzaFNBRXR5OUxsQzYyZUVvZEJxSEpwSWxZaVBLeGJuSmNqQXM?oc=5
+  9. Singapore FinTech Festival 2026開幕 ― AIが再構築する世界金融、国際決済と雇用の未来 - グッドウェイ
+     https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wU2QxNlpPMXkyRmR4QjFQT1N6anhQdGdfOU9sWXZsdHhNRFltZHkyanM4SjdoSV90V2hIeHpKX3ZFT3dsQ0d4bmhR?oc=5
+  10. 11月19日のMarvell Technology Inc (MRVL) 値動きは3.99%下落：どのようなシグナルを示しているのか？ - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxQbUxuLTRORERBZEtHSzlxWHdKQzYtRU9QaG5ybnl2cUl0QW5FMmFCN0FMSXRQaUhiOGRSSGtVc2p1WHFVeHA0eWU4MVlXX3VyeXFJOUxGZjNoaW56ZnhYSG9INzJqWDJhbHpHd3VWSGUyVGlrZUEzSzh1XzlMS3ZjazE0NUNQbjd1amNIWkZOQQ?oc=5
+
+【Google News (Business)】
+  1. レゾナック社長「日本企業でもこんなに変われる」 反対署名が届いてもやめなかった、大規模改革のウラ側 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFBJaEZZYmZHd0p1c3hMN2hkQWdLeWRYVzkxcnc4bkwtZ1hrUGRPWTFRSlNybXh0cFVrbnVKVGVxRVlvQ2RrUVV2N1NyTnhxalRFLXM3dm1aTFhzODlEZ3RfWS1ta290cUlDYXJjako5bmlTQQ?oc=5
+  2. Disney+とHulu、26年末までに完全統合へ - Business Insider Japan
+     https://news.google.com/rss/articles/CBMilgFBVV95cUxNWU5Xd3JlNHlYcnYwczRnZGN3bEVOOXFUcmctMlRJSDRyVkFOLWZjRVBFanV1X3hWTm5HekViSU5BQW9abnY0YTNmV3lPbjh6UHpOcWtFcGw4b1NaSGM0SldkVzE0MmNfNWs1c3JkUFR5U0UyMUtEUC1qODRTQm82cDlRU1VsVUNQdXRnUEdWXzU1dzZMTFE?oc=5
+  3. ［新連載］アンソロピック、時価総額240兆円上場 成長と人類存亡の矛盾はらむ - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GTlVfQWZ3dHB4cjhVR0dDbFI5OVJGMTVoYVFkX1hrVEM1SFVKRWN1NnRVMlhCcS1LZzc0aFNfZ0stdl91cTlPNFl4RFhOb0hkVTJXWU1YVm44V2pKd2NNMlkzOHM2WG8?oc=5
+  4. 第23回「スティービー（R）賞女性ビジネス部門（Stevie（R）Awards for Women in Business）」の受賞者が発表 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QTXpEYkpJalRWSHpPaFhlRG90MV9ocjhMRWxvWV84QlV1ZnRLNGRvczBXUkQyNnFoM2YtVXZKbm5WeXExQWhUcHRYYnF6V1hvVjF0a1VEN1BrcnhkVGc?oc=5
+  5. 三井住友「Trunk」に一体化した新ビジネスカード 他行振込・ポイント優遇も - Impress Watch
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE12QWxjTTZmRnN2enJzNVhqdWN0UTJ0TGw0c19lUjVwVFZXcnYzcGh3Z29BdjN3RnBtWFA2NjdYQTlPamRVeFhqNlVwSTVlTkxDSmFQZm52YnRRTWxmbzN0cVZ5dmc?oc=5
+  6. BUSINESS-ALLIANCE、静岡県と自治体業務の効率化・組織力向上に向けた連携協定を締結 - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE5fWkEtY2RaTVctVExxMl9PZWlTVXQ3RDQyVXNHV05SanhrXzA3Ykd4NGJZS19COFVLT1JEaEF2Szh1R0xUcVJRR2NlZUlWdk9PQVVwM25nTU1YMUp3aVdSWjJITGxjcVB0NWc?oc=5
+  7. TKP Research Memo（2）：貸会議室ビジネスを起点とする「空間再生流通事業」を展開し、高い成長性を実現 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMi3gFBVV95cUxQel9DSUtzSW9SSEd3eVBQdndfX0dhNEZReEc0Wm14ZWRUbUs1Y0xDcDhCOGttWEN1NXpaOGhOSV9OU21YUmE5d08xdC1wVEFKNC0wLUFVSHJkZW0wNF94d0Nnc1k4T2xyakRDd0czclRhQjE5ZWxBRDh3a0J6YjI3aVpmUm9mODlQQjA0UUpaU1N1eVJydnNfbjFEbDVCYkZqc0RxaThqdXdibmcyNHM5MUhnWW1oY2RDREtaaXo2NzR1U185UHM1OGZmM3pydnprcnpCa01sU25YeTRxSlHSAYwBQVVfeXFMT3Y4X0tTS0xfY1RTMmVVQlRZb1RJTURGVzhNSGlmOGtOV0h5WDV6VEdCbE1WZlUyeFNPUHRzcTRMeVNnUDRQMFE4eFo1eUE4blFxb05oWUVJdDdRRzNRczBLUXB1a3h1SEhmTVFNb2tLNi1hVjZFMUtRX3VjVnF6QmNNbDhWbjh3TEdob2M?oc=5
+  8. freee会計と三井住友カード TrunkビジネスがAPI連携、明細を自動取得 - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIM25YSTZDdUMyRDA1UlpPa1g1aExVU05DWV9iaHdCZlZ4d193ZjZuMGpyaFNpY3FnYzF2RmFpZ2dBSUR4RFZqRGg3MXg4TEU4NEI2Z1U5N21icVUxWFRfZ2xqWnlWZUJn?oc=5
+  9. ジョブズ、マスク、アルトマンも…自ら築いた帝国を追放されたテック企業創業者11人 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3NOdVR1bzdVQ0RpZ3FjVUdEcHdtZHVIaXVwVDRSeUFEMFRacFpvMGpFSU9DQVU5VHNWQXNFTU9Ta09EdVd2NVkyM0J2dldfQjhYOHdiMjFrVm9sMDJFNXFLbmVQNm9IVENTOWJQUkxPUVpQeFVjdHk3SnpLVnI5U0wxVGlhWERVZUU1RG1DcmFRUzhsMW1TVS1PU0NvWGxiSVd5TU1aaEo1dw?oc=5
+  10. ［徹底予測2027 機械］工作機械、AI特需で受注が過去最高へ 部品供給追いつかず - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmR1ZLMWtLTF92MVZibzRsZkN1bmFtNE4zazNwb0NrUDNWcEhTOVg2bTZaS1A4dFdOdXNTYzVHUC01eGNEeERkWTYxeDZGOHBBVlNBZU1KNl9pMWFiMzRtcGFkYlYwbUU?oc=5
+
+【Reddit / technology】
+  （取得できませんでした）
+
+【Reddit / business】
+  （取得できませんでした）
