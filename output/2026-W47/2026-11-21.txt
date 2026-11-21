@@ -1,0 +1,119 @@
+============================================================
+  トレンドニュース - 2026-11-21
+============================================================
+
+【Hacker News】
+  1. Hurried Announcement: Alessandro Masullo GRH
+     https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/
+  2. Inkling 2 Mini
+     https://thinkingmachines.ai/news/inkling-2-mini/
+  3. Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]
+     https://alpo.ge/remark.pdf
+  4. NINLIVE: The Nine Inch Nails live archive
+     https://ninlive.com/
+  5. We promoted developers into architects without informing them
+     https://manidoraisamy.com/developer-to-architect.html
+  6. Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis
+     https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/
+  7. Valkey kills the skiplist, cuts sorted set overhead by up to 43%
+     https://valkey.io/blog/from-skiplist-to-b+tree/
+  8. Language Models Can Rewrite Their Own Weights
+     https://arxiv.org/abs/2611.21885
+  9. Sir Brian May adds new dimension to Hera asteroid
+     https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid
+  10. DreamCoder: Coding harness and IDE from the author of Mastering Emacs
+     https://www.masteringemacs.org/article/announcing-dreamcoder
+
+【Zenn】
+  1. RTKの走行データ収集でAndroidの記録アプリを外から監視する
+     https://zenn.dev/nauh_blog/articles/b60cd6973c8a3f
+  2. 日本のレシートを自宅PCでOCRする：15構成を実レシート11枚で比べた
+     https://zenn.dev/chaki/articles/4545be3475fdb4
+  3. CDKからTerraformへ：所有権移譲による本番インフラ無停止のIaC移行
+     https://zenn.dev/levtech/articles/14befd8e727f32
+  4. MetaのMuseを使ってみた: 内部構造とセキュリティの調査
+     https://zenn.dev/shoyataguchi/articles/b1bc6a96d4b963
+  5. CLAUDE.md や SKILL.md のルールを Turtle で書き、ルールの書き間違いや矛盾を lint で検査してみた話
+     https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons
+  6. dbt v1 でメトリクスを一元管理する未来 〜Apache Ossie と Lightdash で試す〜
+     https://zenn.dev/kyami/articles/dbt-snowflake-apache-ossie
+  7. 自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス
+     https://zenn.dev/nttdata_tech/articles/9562962cc181a1
+  8. AIが爆速で開発する時代の、自動テストとの向き合い方
+     https://zenn.dev/daiaoki/articles/webterm-ai-era-testing
+  9. TypeScript 7.1 の Content Mapper で型の生成コマンドをなくす
+     https://zenn.dev/toiroakr/articles/typescript-content-mapper-codegen
+  10. pstack 完全ガイド ─AIエージェントに雑なコード     を書かせない技術─
+     https://zenn.dev/karamage/books/50c18e52e7d19e
+
+【Qiita】
+  1. 【朗報】Microsoft 365 CopilotがOneDriveのファイルを直接編集できるようになってた！CoworkなしでGitHub Copilotみたいに使える件
+     https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Muse の VM は約2時間で入れ替わる（実測と対策）
+     https://qiita.com/mryo0826/items/c05efd7ac228fe85ab44?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【随時更新】Microsoft Ignite 2026 現地参加レポート（技術情報少なめ・画像多め）
+     https://qiita.com/katohiro_fi/items/0f03ceb4cf0aa4ecbc03?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. 紫のうさぎ3DモデルとアニメーションPurple Rabbit
+     https://qiita.com/yangon/items/82ccc38c04c3ea1e8d3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 【実験】Direct Connectの片系を落とすと、実際どれくらいで切り替わり、行きと戻りはどの回線を通るのか
+     https://qiita.com/sh_fukatsu/items/5a069f9fce99a86efb05?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. AI も「一晩寝かせる」と考えがまとまる🥱 寝ている間に記憶を整理する Dreaming の仕組み
+     https://qiita.com/KYoshiyama/items/623e13ced9c119b614aa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 緊縮の痛みは成長に変わるか——実証的に棄却された仮説が政策に残り続ける認知設計 : システム設計視点の行動経済学 (66)
+     https://qiita.com/maskot1977/items/96098e2d0016cf85e7e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【紫のうさぎ ホラーゲーム】終電後の「新宿駅B1F＆地下街全域（180m×116m）」を外部画像ゼロ・プロシージャルPBRで超精密再現した3Dサバイバルホラーを作ってGitHub Pagesに公開した
+     https://qiita.com/yangon/items/0f4a8fce9954e472e70d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 人間がボトルネックになった時代のAIエージェント設計
+     https://qiita.com/Syoitu/items/5bb47c01a8513e52d1b5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. pypdfでPDFのプルダウンに値を入れたのにAcrobatだけ空欄になる：原因は/Iだった
+     https://qiita.com/sionic_issa/items/adf42ca26f22e238793e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5
+  2. RLX Technologyの第3四半期純売上高は19.17億元で7割近い増収、海外売上高比率は86.5%に上昇 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE1HYm10MUNMV3dsTnNrYzZCWGJlcVNjR1htSlpsTHpyQ1lLNGxrc1dCNUIxWnNsQW1jb0NHTkM5eW0xRHJpdEUxdk52VGhtLTJ0T3FZTjhyaFBmVzRiRExkU0RjSVhIeDNfYVNwc1FpZnBqLTdz?oc=5
+  3. パナソニックの研究所「Technology CUBE」、簡単に内部変更 - 日経クロステック
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE1NT3R6SmlTUnNvVjNvMzVWUTdqbFh4TXZmQ0VFM0o4X3JBTWNvWWNaZnk0TGdoejZXVVVQcWZXcU9fUGIxWS1zVGlXVzJxZnFveUlUamhpQjZ6MTZMR1BRSFIxOTRxYmhpSUhQbg?oc=5
+  4. 第5回高専GIRLS SDGs×Technology Contest （高専GCON2026） - 日経イベント＆セミナー
+     https://news.google.com/rss/articles/CBMiSkFVX3lxTFBUeVhGM0VxenI5eUp4Z2RqLUtqZE9DVU0zVGczUlJtQ1pwazlsTTdtRHJmemU1b1NTUjdXNEpGNWR1NkxmOVhBdF9R?oc=5
+  5. マーベル・テクノロジー【MRVL】：株価・株式情報 - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSTNacVVpbFk0QnZheXJZY2VQM2lNN0xHSTR2aUJDQ2lmTlpsR29ZR3diekl0cjhubmVUSE1PanlKWVBCNjB2Z3NWMWhRX0E?oc=5
+  6. リチウムイオン電池リサイクル：世界の規制、技術、経済性 - IDTechEx
+     https://news.google.com/rss/articles/CBMi-gFBVV95cUxQbGRXYmh5cnBJdXo4VXMzMXZqaFlQWVNab0Jlcy0tYU91cnVYUXVVOVdGVmJDTGhNT3BEUWZ3UDd1ZUtNekNZQlhGZC03RWROUFk3blQ1NXV1cmtQaXg4bnpDTWhMYUNCUTRpME9yYWJFU0RicXRFV3V5OGZ0cTJycjlhYjJLdjhoNHAyXzA0dVZXY3Q5TWx6cnExTTZVUHBMVkk3RHJEM0xvdEdQMkRrM09mMExDNWpheVRWR0RLNm9icmo3VXRrN0VpQS1TbFNpeHM2TVZPRVpfa0ZkT0dnVHc1WEZvTnA5c3JOaDZYT0d5RFBtOEhteTJR?oc=5
+  7. 中国の新エネルギー車産業、特許連携で技術革新と事業化を推進 - Legal 500
+     https://news.google.com/rss/articles/CBMixgNBVV95cUxQT3NMb2V5aGlSSjRuazBNMDloS0VnNWhsYkZPYjBfN2pGSHdyQ0NiUjdWMlA0ckN3djBWc1lWcUJLbHRyNjBPTGRxTTJsV1lzS1h0aVdnaTIzaGFwSnBWOXFtVUJLOHc4dXlhbTgxQ01BMWZsTjl1Nm5XTDJNczdiUWduWkhaM0llQk5WWmJ0VWZKYkNuS2NYQTlIYkt0TFBHUmNVRnpQRm1uXzhNSXUwVDZ6Yzd3VVRodVFya0U3bFliQjBlZFBGSDh1TGVMSmlpNGhLZVdISDdjcDJETFRITXkxektRcUJaTEJBRVB5WWR6LVRzMDVUejhnUS1IVjNrbHNyU3Z1aFpPaHEycWdOOHBha3lWd2NTb3NIcjdxbnd0d3RZSDZhU1NJQ2JEMUJhOXJCU1hDWTVaX0xkS3ZmTGstbkRkUncxUmVrc01ZTFFpeENIbGs3RGR6Y3FsMzVoRmNNWS15RDd6Y2k2Uk4zVWg0WlJWcS1FWmoyZl9ZTGtvYnNqeVNvTnBJbmNGRVRKVXNJMktzMm1Fa01SZXpmc01fNzQ0LU1EQVd2ek5RcUZKZU4xdTYwRXBrbVZBQUEzeDJQYXp3?oc=5
+  8. HondaのCI自動運転技術の現在地 ── 周りと協調するクルマで、レベル4の実用化へ｜テクノロジー｜Honda公式サイト - Honda Global
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE1OSEdvTkxQTzNpWEZpckZYdkU0UDhwZF9VbVFsZ2tZS2hFQ3ByUURFSUtBR21meDlodGsxdTFTVndPdTQyRTc2UzdEMkdDTVhKeEZrVzVIXzdhQUtSczZMQkJvODN2SXh4aVl4WUxLMkotTEYyakUyTzhVbDJVaXc?oc=5
+  9. 技術書典21で同人誌を頒布します & 既刊PDFダウンロードページ - KLab.Inc
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKU0V5TnBMOUVDME1LeXpHNk1CU1Ewbkh5bHlSY2hoYTFacktWZXBwVVZXM3NsTEdRdlBVN2xUYTNXVGxzbTlnZ3dld0QzblhJc2s1clRqRDlacHR1T1E?oc=5
+  10. 【交付申請書掲載】令和8年度介護テクノロジー導入支援事業について - 鹿児島県公式ホームページ
+     https://news.google.com/rss/articles/CBMidkFVX3lxTE1CYWh0dGt2MlJLUmJ5NXNYQ3hkcDNtb2VOQ1YxTWJfN2FLMUhrNjJ0TmdlU1g1THVPSnVjcWwzc1JLWk1qSTBkNjNlYlR1MjVzWnhtVTZtLURqNnhNMXl0VWswdlBlQXlUMjdjZzNxWEhTRmRibnc?oc=5
+
+【Google News (Business)】
+  1. ChatGPT「Plus」プラン一部ユーザーに「dots」解禁 「Business Standard」全ユーザーにも（ITmedia NEWS） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE9WbVN5TDk3X3IyLU1OUWNuXzBiNklWQXl6OGJ3Q1Vld1ljM29MT3lCNjJ4X2JHeW9kS281X2oxME8tdmxJN0x0OGF2UVpPZUl5d1lsS05xR0x3ZHVTLUhMT1ZiMFFzdF81d0lQcmFLMC12UXNyOXFBRzQ2enhudXM?oc=5
+  2. 公益性を守る先進ガバナンス 人材集める安全性の理念 市場圧力を避ける統治 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1SzlLNHFrYmdCNTI4TTBIaU50cGxNRkRoQlMtUnpvU1FHN205QkJTRWtQTlhvUEkxMms5NXpQaU82UklwcHVPd0RuSmwtVFlLX0ZTM0hjbWo5YXZLdDRBcjdFcVk?oc=5
+  3. ジョブズ、マスク、アルトマンも…自ら築いた帝国を追放されたテック企業創業者11人 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3NOdVR1bzdVQ0RpZ3FjVUdEcHdtZHVIaXVwVDRSeUFEMFRacFpvMGpFSU9DQVU5VHNWQXNFTU9Ta09EdVd2NVkyM0J2dldfQjhYOHdiMjFrVm9sMDJFNXFLbmVQNm9IVENTOWJQUkxPUVpQeFVjdHk3SnpLVnI5U0wxVGlhWERVZUU1RG1DcmFRUzhsMW1TVS1PU0NvWGxiSVd5TU1aaEo1dw?oc=5
+  4. TKP Research Memo（2）：貸会議室ビジネスを起点とする「空間再生流通事業」を展開し、高い成長性を実現 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMihwFBVV95cUxPS0JZZEpKdU9PeHF3eTZ4aG5MMm9rNjZjSEZiUHFYbm1fajYtTVZNUHBTTUNFd18xak16bi1kbTZoOEYtblVFaFVFVVFNWW8tZE1CaW9yNVo2RDN5ZzhWeUJ5eTY5VDEyY2hfZWZnQmpNU1NJbGdQNEpVTWJfb1FPalZSTkJ4dmPSAYwBQVVfeXFMT3Y4X0tTS0xfY1RTMmVVQlRZb1RJTURGVzhNSGlmOGtOV0h5WDV6VEdCbE1WZlUyeFNPUHRzcTRMeVNnUDRQMFE4eFo1eUE4blFxb05oWUVJdDdRRzNRczBLUXB1a3h1SEhmTVFNb2tLNi1hVjZFMUtRX3VjVnF6QmNNbDhWbjh3TEdob2M?oc=5
+  5. AI需要で「シェア0→50％」急成長 半導体設計のアーム社が仕掛ける“新ビジネス“の正体は？（1/2 ページ） - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTFAzSU1ROHQ4VjJoU2VaMjJua0I3VmU2WTR0STRxWmNtYzV5QlpCUHNKa2VoLW43YUM5VTVCVWhjRXN4OWZVbVBDUnM1WnRJMGpaSG9KUEtUWXg4YlBvZ25NY0tDMU02SkdZVWhyQXNYVVh1dw?oc=5
+  6. 三井住友「Trunk」に一体化した新ビジネスカード 他行振込・ポイント優遇も - Impress Watch
+     https://news.google.com/rss/articles/CBMiZEFVX3lxTE12QWxjTTZmRnN2enJzNVhqdWN0UTJ0TGw0c19lUjVwVFZXcnYzcGh3Z29BdjN3RnBtWFA2NjdYQTlPamRVeFhqNlVwSTVlTkxDSmFQZm52YnRRTWxmbzN0cVZ5dmc?oc=5
+  7. 1500万円で蓄電ビジネス参入OK！ 低圧用133kWhモデル開発へ - 環境ビジネスオンライン
+     https://news.google.com/rss/articles/CBMifEFVX3lxTFBLQnU2aUFMaGducTY2dVotUklKZldBWVlLME0yMFN1a1JoalZOZDhZbTM0d0hIeE15TXFZSWNsMVY2V1J0UWlONkhpOGF1NWJfTHlKOHBKaGphQ0d0c0dTMVk1ZHlXRDNmd19CeXNtNnlYQUxxZ0xlQzE5M1o?oc=5
+  8. 【漫画】Z世代のビジネスメールの違和感 - マイナビニュース
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE52RjUxWHQzbDU3enRCSzN2NnR4YXBPU0N6VTZENFZoZHNZRzlDVGRZcFh1V2FfRnd1M3NEOWFXLVc5eUdtZTFLdFRSSWJQRDZPOGJacG16ZWY4dGg0?oc=5
+  9. なぜビジネスパーソンは「文化人類学」を学ぶべきか…人類学者が伝える「能力資本主義」への警告 - ニューズウィーク日本版
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tR0hMTllOby1aMG5LTGVDcTFPLXlnVFVRSEd4V2l6c0FKU2NNWFFYMUozcGd0TV9OWEdGMzBBbThyeG84MGd6LVJHSjlrRXIxSGZMZXYzVEo1UQ?oc=5
+  10. ジブリ社長に推薦されてた…『攻殻機動隊』の石川光久が語る“鈴木敏夫の真っ黒さ”（ビジネス＋IT） - Yahoo!ニュース
+     https://news.google.com/rss/articles/CBMif0FVX3lxTE9yTnJXSlVET0hubjltdEJtdU85eWFsVXQ4WUJlQVNSSG51MlN2MjJqLTE4TFoxdElaVDdoWmlKa0tHNFdZc0ltNHFOUUdrajRiS3hTZkxqcmRneG9nTmdna01rUVpZMXlOVm1jakZDVUVNSzVoTWlGazFnX3BmUTQ?oc=5
+
+【Reddit / technology】
+  （取得できませんでした）
+
+【Reddit / business】
+  （取得できませんでした）
