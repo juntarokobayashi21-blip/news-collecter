@@ -1,0 +1,119 @@
+============================================================
+  トレンドニュース - 2026-11-26
+============================================================
+
+【Hacker News】
+  1. Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening
+     https://scottaaronson.blog/?p=10379
+  2. 1Password Security Incident
+     https://1password.com/blog/update-on-nov-2026-security-incident
+  3. Much shorter version of GRH Lean verification from Anthropic
+     https://github.com/lsernau/grh-lean
+  4. The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]
+     https://gwern.net/doc/fiction/science-fiction/1953-dahl-thegreatautomaticgrammatizator.pdf
+  5. Tell HN: Lots of Ask HNs again
+     https://news.ycombinator.com/item?id=50649864
+  6. GPT-6.2 Astra is the first model to beat Googlers' code golf records
+     https://bjin.github.io/go-codegolf-benchmark/#leaderboard
+  7. Collection of preserved UI style guides
+     https://aresluna.org/ui-style-guides/
+  8. Slow Ubuntu security response times
+     https://www.openwall.com/lists/oss-security/2026/11/25/9
+  9. What VP ≠ VNP Means (In 3 Minutes)
+     https://www.friedgil.com/vpvnp
+  10. How did pinwheel calculators work?
+     https://blog.coredump.cx/p/how-did-pinwheel-calculators-work
+
+【Zenn】
+  1. specは実装後に8割削除しよう
+     https://zenn.dev/ruri/articles/distill-specs-after-implementation
+  2. アウトプットの「質」ってじゃあなんなんだよ
+     https://zenn.dev/watany/articles/1efe3adea67dd5
+  3. 結局「オントロジー」って何なのさ 〜概念と良さを4つのレイヤーで整理する〜
+     https://zenn.dev/algomatic/articles/ece749a7e3cb24
+  4. 【自動化】Muse のサイドチャットへ Webhook を届ける MuseKnock の仕組み
+     https://zenn.dev/codehex/articles/33bc6ee330b880
+  5. AIエージェントのMemory設計 ― 会話履歴・業務データ・長期Memoryの使い分け
+     https://zenn.dev/taru_neko/articles/ai-agent-memory-architecture-2026
+  6. Claude Code のセキュリティ、2026年11月時点のベストプラクティス（サンドボックス・権限・MCP）
+     https://zenn.dev/happy_elements/articles/27e14ff6754044
+  7. moejsはSobekの半分以下、正規表現を使う処理ではgo-quickjsが逆転： pure Go製JSエンジン3種を同じプラグインで比較
+     https://zenn.dev/nonejp/articles/3bbffb1db9c4ce
+  8. Claude CodeとLLM Wikiで全国の自治体の入札参加資格を、一人で回す
+     https://zenn.dev/wisevine/articles/97b7ba8db70657
+  9. Personal Agent Protocol (Poppy) が解く問題と仕組み
+     https://zenn.dev/sierra_japan/articles/0b9ba590232345
+  10. モデルの性能が出ないのは AI ゲートウェイのせいかもしれない
+     https://zenn.dev/google_cloud_jp/articles/7e29a9acf06557
+
+【Qiita】
+  1. 情報量が4倍のQRコードを作ろう
+     https://qiita.com/reipandada/items/17496db6ac5f64a5e61a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. Rails（Sidekiq＋Selenium）経験者向け：Node.jsのBullMQ＋Playwrightでバッチ処理を組むときのハマりどころ
+     https://qiita.com/jinxin4869/items/7771db4dccb7ddf3ac4a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 【完全解説】本質から学ぶSOLIDの原則｜なんとなく分かるから完全理解へ【設計シリーズ】
+     https://qiita.com/Sicut_study/items/2bbdfbacab915773dad1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. VS Code 1.147：エージェントへの依頼を予約できる！？Send Later と Drafts を整理した
+     https://qiita.com/shahin0809/items/e6cbd71914171b8b6b49?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. 海外で話題！「VS Codeが重い」を軽くする方法。まず測って、効く順に削る（2026年11月版）
+     https://qiita.com/shahin0809/items/46b64d3f76c9a4440298?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. コピペでSSHしていた初心者が、仕組みから学び直してみる
+     https://qiita.com/Yuzuki-ki/items/b23e578d820d411bcb92?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. VS Code 1.148：エージェント専用の Dev Container と Sandbox profiles。「隔離」の3種類を使い分ける
+     https://qiita.com/shahin0809/items/05a6c7431ee7e5b6e520?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. Gemini 4のCarbon・Argon・Neon・Hydrogen、結局どれを使う？使い分けを1枚の表にした
+     https://qiita.com/N-Kyo/items/6156bc251e826cdbf92d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【OCIベクトルDB】無料枠から始められるRAGを無料で始める前に知っておきたいこと
+     https://qiita.com/N-Kyo/items/f976e9467320807b2c3f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 【EventBridge Webhook】SlackはNG、GitHubはOK？署名の仕様を突き合わせて調べた
+     https://qiita.com/N-Kyo/items/3ed8f4a0a17eb4b1409d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. AI・クラウドに限らず「メインフレーム・COBOL」まで ITフリーランスを求める理由 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1taXBNc2pEN25qeEpINVZrdDV0YkhpWjB0YkZ6VGVuVUJYdlZKUVlLWnpPb1NsWGxFdGZkMmR0SXNVZmp0dkpUWGUyYVY5dlNxUlNmUUxHWGIyckh2eTJheGZfZXQySTZXcGNKUTloZzRiUQ?oc=5
+  2. 「NEDOムーンショット型研究開発事業 成果報告会2026」の開催 - NEDO
+     https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pSmo2amtDWTk5V3FsNmtXem8zb0hpaDRfN2pHZjRSaEp6V0wzUFc3OFRKSy1ZSElLZzQ1eExxN2s1cmJmcjZIZnNYNWVQaTRqaTU1QVUwZldQNUd5TFdZ?oc=5
+  3. Korea Technology Finance Corporation、コスタリカに技術評価を移植…AI評価システムは12月稼働 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE9TX2F0ajR6RncwNHA0NHZua2N5LTd0WGgweGM0bVExcmxWYVVJajlBLUJra2FvYUFaNl8tSkNMVVlKcFlFRlgtMVI1QzRhQkk2ME41Tkh2WlVkVGZCSUpfdXNNTFFLZ1k0dDhXRVM3RWpsM1gx?oc=5
+  4. ＰＫＳＨＡ Ｔｅｃｈｎｏｌｏｇｙ[3993]：臨時報告書 公認会計士、監査法人等の異動 (有価証券報告書) ：日経会社情報DIGITAL - 日本経済新聞
+     https://news.google.com/rss/articles/CBMibEFVX3lxTE51bmNURkd1ak5SZHVnalJiMWNtUzFoUUJ3UWVWeXJWcVZGdXYwb2hfZS0ydExjTXhMYVNMVEVJTThrMU9LTXRTSWk4TlFVSjAzT1UxZ1NyNjh2R2lCQzVsQXMxU2RiTEJfSjhSTw?oc=5
+  5. 11月25日のSpotify Technology SA (SPOT) 値動きは3.65%上昇：完全な分析 - TradingKey
+     https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0J4RGg4eXlXWjJxdVU1eGJpRHZOSkhFY056N1R3OGRZcmJLakFNWjhDbEs3OW1fc0kzanZhZmo4TENrMTFiQko5emhYZV9IemhYbWtvYXlyWWVQcEdoQzJKUUNHOTE0UWt3Vmd6WjFMQm4yUWwwSy1NSTU0SXlYZ0JHV0s5UkFDWHYxanNIdw?oc=5
+  6. Smartee Hosts Craniofacial Growth Guidance Clinical Exchange in Tokyo - 共同通信PRワイヤー
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ndmYxNkxJVHl4UTlNbkpyN3oxdF9KMXJ2UUlGZEY1eWlESHBoT2lGUm5oajBiWWpoVnJpTU9KNWlFUjhkX0NGdV9ueVZ3TXRhejF2NWhYNl9CXzQ?oc=5
+  7. プリントファームはどのように3Dプリンティングの経済性を変えているのか - IDTechEx
+     https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbnhLczBFMkJCTmxQYkEtRjdqTmh5cW9yQl84MXdFRGFYSHBxQ2JWSkhMRERrbkdfbUp2WGU3Sy12MnN3TmM2NU11aThkVkJLRS1ST242NjFZbl9HWFVpNDk4VHFsUGtLWGhQUlZMaDFCZDlobGYydHAtcUNOSjU4VjlXcWp3MGc1N3l6MGFkaDhCTWQ3WVZfUGtSeW1laF92Nmlra1VsdHg?oc=5
+  8. TECHNOLOGY（388ページ目） - Gizmodo
+     https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzTnZfaW5QTVRvWUc2enl2a29iVF9qdXVfMUpDY1N3bURjbC05ZmMxVXNMQmNJRWVoZ2xGdUlxMGtXYk13dmNiR3h2d0NpS2k1R0dyaDQxTV9kYms?oc=5
+  9. デジタルガレージ、AI不正対策で世界市場を牽引する「Riskified」と国内初の包括業務提携を締結 - 株式会社デジタルガレージ（Digital Garage, Inc.）
+     https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2MVlTS1F1aWU0Zl9DdmdGc0M0V3V0R3hzZ081RERydkZBeGRRb3Y0dzRwM1pIOWRrUE5mdXpPU0x6QWtpdE02Y0NHMXBiZjNpendHOENBVHM?oc=5
+  10. 『Journal of Transport Science and Technology』誌は、データサイエンスと応用人工知能（JSAI）に関する特集号の創刊号を発行しました。 - Vietnam.vn
+     https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMnZOTGJhZHctdERSSDkwSG9fVXNxTUtmLVpneWI2Zmhud0VTRHRsbUM2cFlVZHJjdF9VQnpIQVRlUDhLTnE5S3RGcmh3c0RJTUwyRXhEaEtHejdHUnRMZEtxbWlCS3RrU1lFMUJPcC0wazZGYWZLcWROd0dKZlVjM1Izd2ZtLXBUX3BuS1dxc1ljdlBlVEpsVmFxZDRTRmJwdXFyYVZsWWk0aXA0c3dVc3FIZnh4ZlAwbHctZm1mNmZEcS1iZTcwaHZlR0Uxd0ZEMk9EVUNhcjg5eXlDd2VHeEhCVXphNUllZzAxaUt5dw?oc=5
+
+【Google News (Business)】
+  1. 独自解析で見えたClaudeとGPT、Geminiの「性格」 「分かりません」が強み - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfMFFPRnZkQ211V0ducHM5YkVReEw2SXBhTXg2eEgyTE50c0Vlc3Jvbk13N3NfcktVY0R4ZC1DOGdLX0ZlNjdWQzVtVU5USF9fVU93dHdpd3NSOHVhUnlBUy1HelNvOVE?oc=5
+  2. 「クルーザー」すら“シェア”される富裕層ビジネスの未来 - 現代ビジネス
+     https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QTklwUzUwZjI2ZTNKNWxvSlVTd2p1YlA4UnJyOU1NSzFBbHRxREVSSVo2S1NpZWN6Vk4zRWdLT0VMaEM1UElLYk1XU2ZmUm8?oc=5
+  3. 「ログミーBusiness」は運営を終了し、ビジネスメディア「Re|vent」へ移行します - ログミーBusiness
+     https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3VEVXS09SZUxOcHBBZVdBT3dHdVd2WS1QaHZNVTdDaVFBSEZsZzdKaURheXNVV29KakY5dkFRSVRxUVVaaHRSSDlHVVNPd2RFMkU5a3hXUmNLQQ?oc=5
+  4. 日本郵便「ビジネスデジタルアドレス」活用の多様な荷物の受取方法の実証事業、ECサイト上の地図から自宅以外の受取場所を選択できる新機能 - ネットショップ担当者フォーラム
+     https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LRTBjSkw2c0ZuZGFZY1B3TWFGVTFEZGlYaV9GcGlIbTk5dlQzM3FwYS1CcFMxY3dhN0tZeERFanJwNlNZLUNVaFpIWmFuclVQRm53bHJwUlF4ODcz?oc=5
+  5. ウェルネス業界専門誌『Wellness Business』第5号を発売 ― 特集「ハイブリッドウェルネス」、第2特集「新業態ロンジェビティ＆湯治ウェルネス」 - Infoseek
+     https://news.google.com/rss/articles/CBMickFVX3lxTE5sLW5PZ1loZ3g4ZnZPcTNjWEJnVTFrajRJcDlGUzRVYmFlSUltOXByYXU1N1RlRWg3XzZOWVd6cWtrd3lzNThwYUF4NE5fTTE5NzFBb195VmF2SFJRbmZHT0lnUWFPX3J3ekdocTNoR2JYZw?oc=5
+  6. 「変態的なエンジニア」幹部2人が牽引し、シェア別荘SANUの“自然愛”に拍車。建材からシステムまで一気通貫の自社開発 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMisAFBVV95cUxONHJnUnEzWGdCaVJVbFFRcDdNRHhBZVdlRjlTc3kxamlPVDNPelAwcEs1ci0wcEtLSUw1RmZEa1JGQ28tbVc5a0hwNDRmZ24tZ3lVUUIwTEI4Yk5hVHdqdWhQRzU1QjZjOUl3MlBLYXg5NmlTVnlnY2ZRVWtHbFcxRzl1TW0tMF9nUEFDSWpGZi1oTXM2RWl1d0JicEJMWHJRR3lEOHhQUDZYQzBrNWhtYQ?oc=5
+  7. 米、対ロシア「ビジネス取引」による和平誘導を棚上げ―プーチン氏は領土要求に固執とFT報道 - 財経新聞
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GVjVGUmxVbjhSQUY1SzBVV3RQWUFwSE0yWC1zdXdKc1RyNTJmS3lsVHkyOTFaaEJHRHd2YktKbVJZM0FQME5oVGsyYUlLR1A0bTFEdzFsTTRJeDItZUxCY0ZxUdIBaEFVX3lxTE04S1Vic0FTNm1VMXdJaE1uWjA0QVNsWjZPcFpwSjZsckRKQnhSM0Y2NFM3VDRsMHN6ajJBOU1JcmQ0djlxanYzLUlUTDNLeEZnZHdjSGVSUmplbWlYc2VOOVJwUThsX3dq?oc=5
+  8. ［独自分析］AI関連の対米輸出、台湾・ベトナムが中国超え 変わる富の所在 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2cHNzTnpXLThNSHlScGZoNXYwZDJrWlFGQXlrUlpzNkVaVzZfZ3BQWlVJMHdMVXlmZjNXUGZkZ2J6SEUyNmdxVmxmbEpNUFlXRVlDcVgtU2llbHlLMW0xMHRIeDM2QzA?oc=5
+  9. 「ビジネスデジタルアドレス」で多様な荷物の受け取りを 日本郵便など4社が実証事業 - 月刊「事業構想」オンライン
+     https://news.google.com/rss/articles/CBMihgFBVV95cUxQY2x1OERWX1JmaHlTVk0tOTNncFd4TGdQQWZPaDB5eU0teHJpcGtkODVYRC1IQTFzWDRQeXcxTHdjQ3htOHh2dVI5TEkwbzVTV3dOZDhEQVJSbGp3OGVSeFZPLXg0LUpwUnQyaXdEOVZPS0ktRzF4OEhnUndxZDZ6MUE2WFJKZw?oc=5
+  10. 麻生系生コン不正、190現場に波及 「処分費負担」の重荷が招いた統治不全 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vOEl0MGRuN1JNbzJ2R0JTTmRwRWdpSGdHTE5uRG9LRy1saEZRMU9rVENrbHJMcHQ1b01lUm40d0oyU2xlNGRBLWh6ay0zUGQtYm84YVBtQTh6VTdtZjJnZ0xjVkdBUnc?oc=5
+
+【Reddit / technology】
+  （取得できませんでした）
+
+【Reddit / business】
+  （取得できませんでした）
