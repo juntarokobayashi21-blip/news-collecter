@@ -1,0 +1,119 @@
+============================================================
+  トレンドニュース - 2026-11-28
+============================================================
+
+【Hacker News】
+  1. Google's DeepCrossAttention achieves comparable model quality up to 3x faster
+     https://research.google/blog/supercharging-transformer-residual-connections/
+  2. The Balatro Timeline
+     https://localthunk.com/blog/balatro-timeline-3aarh
+  3. GPT 6.2 Astra Solves a Historical Mystery
+     https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical
+  4. Unkernel: Real Linux kernel, compiled to WebAssembly
+     https://unkernel.dev
+  5. Credit card skimming scripts using WebRTC found on popular shopping sites
+     https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer
+  6. Cyberpunk Television Shows
+     https://shellzine.net/cyberpunk-television/
+  7. Atari Homebrew Awards Cancelled
+     https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/
+  8. Convex skills send the user's app idea to a remote server without telling them
+     https://github.com/convex/convex-backend-skill/issues/64
+  9. 9/UX: a Macintosh-inspired desktop for 9front
+     https://progrium.github.io/9ux/
+  10. Citroën Hydraulic System
+     https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html
+
+【Zenn】
+  1. Leanで安全制約を書くと、ハザード候補がビルドエラーとして見つかる
+     https://zenn.dev/kokeshim0chi/articles/lean-safety-constraint-build-error
+  2. GitHub ActionsからPATもGitHub App Private Keyも駆逐する
+     https://zenn.dev/tmknom/articles/github-app-token-exchange-system
+  3. 禁止しても止まらないClaudeの「欲」を飼いならしてみる
+     https://zenn.dev/rescuenow/articles/9d1e89a941f4f1
+  4. 止められないDBをAWS DMSで移行してハマったこと（RDS for Oracle）
+     https://zenn.dev/kiri0728/articles/c8d5f349b047dd
+  5. 日本語のFull-duplex音声対話モデルを実際に動かしてみた話
+     https://zenn.dev/knowledgework/articles/12a80d8cd4b21f
+  6. 自宅PCを格安ファイルサーバーとして構築してみた
+     https://zenn.dev/nextbeat/articles/7c820845a91d7d
+  7. AIエージェントにWebのファイルを取得させるリスクについて考える
+     https://zenn.dev/layerx/articles/65b4828efcaee2
+  8. 迷惑メール対策をしているのに、なぜ詐欺メールは届くのか
+     https://zenn.dev/akagumi/articles/catch-all-phishing-invisible-chars
+  9. 自動運転の予測軌跡の可視化動画を誰でも高速に作れるようにする
+     https://zenn.dev/turing_motors/articles/cbf9872ca90166
+  10. 作業を止めずに進めるClaude Codeの/btw・/fork・/rewindなどの使い分け
+     https://zenn.dev/nextbeat/articles/b0ccca979da06b
+
+【Qiita】
+  1. 勉強しているのに成長しない？20代エンジニアが「経験」と「体験」を混同してはいけない理由【権力シリーズA】
+     https://qiita.com/Nao52/items/3151b515e4bf81e97349?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  2. プレイングマネージャーから抜け出せない人が見落としている3つの視点 ― 権力を「大きく」し、腐らせないために【権力シリーズC】
+     https://qiita.com/Nao52/items/d058c43b52d3a115a240?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  3. 「自分でやった方が早い」が部下を育てない ― 新人リーダーの壁と「自分を超える部下」のつくりかた【権力シリーズB】
+     https://qiita.com/Nao52/items/44e3911cb090e90768d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  4. AIに奪われない「たった1つの力」は権力だった ― 静かな退職を選ぶ前に知っておきたいこと【シリーズ総論】
+     https://qiita.com/Nao52/items/743523a57a4d67cf34fe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  5. コピペでSSHしていた初心者が、仕組みから学び直してみる
+     https://qiita.com/Yuzuki-ki/items/b23e578d820d411bcb92?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  6. MarkItDown で Excel の設計書を Claude に渡したら、取り消し線で消した機能を「できます」と答えた話（2026年版）
+     https://qiita.com/ntaka329/items/2cfccd4bb5476e61ebe4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  7. 悪気なくメンバーの思考を奪っていないか？現場で見た「デミニッシャー」と「マルチプライヤー」の決定的な違い
+     https://qiita.com/human_hub_T/items/b7254cda7d0ce81dac85?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  8. 【Linux/macOS】bashかzshがあれば使える、自動ログ取得ラッパーを作った
+     https://qiita.com/84MT-K/items/2de7858664ced41ea62b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  9. 【技術書典21】Claudeと作った同人誌で初出展しました。部数の決め方と当日の売れ方の記録
+     https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+  10. 生成 AI で時間は本当に減ったのか 減った時間で何を生んだのか
+     https://qiita.com/Takashi_Masumori/items/78a8d6589e7429d029d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items
+
+【Google News (IT)】
+  1. ソフトウェア定義車両（SDV）が支える自動運転の進化 - EE Times Japan
+     https://news.google.com/rss/articles/CBMib0FVX3lxTFB2SDd2aUx3NWwydzBTZnMtZldid0VyNVFBT0FUNXY2dkxwUFBVZU03TFY1Y3JpNFFPY3ZWc1ByNVBGT3ZKdlFNbU9hRTdXQkxnUS1LTVJoc0RlZGM4TWJsSDBBLWo5UWdHdFNhMDRHVQ?oc=5
+  2. 【12/8(火)開催・参加無料】女性×アート×医学×TECHNOLOGY シンポジウム『誰かのきれいより、わたしのリアル。本当のわたしで、生きていく。』― 内田すずめのアートから考える、女性のからだと生命（いのち） - 東京すくすく（東京新聞）
+     https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ubmxXOExKUTFXZjFlRjdKR1dqX2dIOEczS3dWdXFHb1BHS29pdzdZQVFnVnJBQzVRaXBNSEQtdGFjNF80bl9IMW5WY3pOWkRHRkRXV1BWb0FMX1RGWkx1U1NRaw?oc=5
+  3. 発表！ MITTRが選んだ日本発のU35イノベーター 2026年版 - MITテクノロジーレビュー
+     https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR2plcVIwQmctalVDT3FJQXFqWjVCQ3lUbDZjeTBZNV9GOG1SRFZEQzlDMk5MYUZXMkFSYk03c0xmOHZEb2dOSTZFVGxWejZwLUVkQmw0MlJSNmdHaHpLOWxoVXp1amFqU2FIQnlGQWxaS3plaTlNc3puSGlZaFMzeXVHVzI0QVd6TkdGdm44WWw5Q08xUUhRZV82NHA0UTEyUk1CMFg0b2l1d0k?oc=5
+  4. Nothingブラックフライデー、公式サイトで開催！人気製品が最大40%オフのビッグセール - PR TIMES
+     https://news.google.com/rss/articles/CBMiakFVX3lxTFBveDRIbkpyS1g0enlZWFJBd0FZaGlVX1VySHFGS0tQdS1qa3BuT2ZpRVRFRWJLZ0RwN2ExTWkyM3p6ekQtekMwVW5CQU14SG9EZTRnWDNVaDY1N3NDRlhZeVNrSEpsVHppdWc?oc=5
+  5. 400層超ではなく332層を選んだ理由、キオクシアが明かす次世代NANDの技術戦略 - マイナビニュース
+     https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PT1V5M3RaQldPZkx1RkdPVDNzZUFPeU84enM4ZWR4dVFOZUJFU0dEN2c2bWNDYWVBcXBBQmNsMVoyc2JMNnNKclFvLU9KdlJpUnh5NVJNRlUtUDNNNmhPQkN3cVZVZXB3?oc=5
+  6. AI・クラウドに限らず「メインフレーム・COBOL」まで ITフリーランスを求める理由 - ITmedia
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1taXBNc2pEN25qeEpINVZrdDV0YkhpWjB0YkZ6VGVuVUJYdlZKUVlLWnpPb1NsWGxFdGZkMmR0SXNVZmp0dkpUWGUyYVY5dlNxUlNmUUxHWGIyckh2eTJheGZfZXQySTZXcGNKUTloZzRiUQ?oc=5
+  7. Gemini 4 Carbon の提供を開始 - blog.google
+     https://news.google.com/rss/articles/CBMie0FVX3lxTE9DcjhXNklDbU04TVFHNUoyV3hMa003aEg2eTNkRFdDWkwzM0VLNnk1cFdoalk2SzlBWk16ZG1wYjhjdkx6MnFSSUszeTVBLTQ5aTByMEtfS2U1T192QWR3OWVCTDhldllzejBycld0Ympkb0E2Qi1uUVZ0SQ?oc=5
+  8. 「銅線」と「光」の間を埋める第3の接続技術 Point2 Technologyが選んだのはプラスチックだった - TECHBLITZ
+     https://news.google.com/rss/articles/CBMiakFVX3lxTE1Db3JOSnAxSW9FZnpreWZUaXBhZzBwMHRZV0ZzMTdnTWItQnRpdDh4VHpxcFNtOGQwVWQzdVBpalRzczRvQ0F6Q0tiS2tMS1hIa0RNQ2Y4d1k5aTJTUTNlaHVURC1jWVNNWEE?oc=5
+  9. (NEXT FUNDS) 台湾イノベイティブ・テクノロジー50【412A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GaFdpVEl4VWdMZTZTTzZCaE10dkpOcDJncXN2b3h2ZGUwejQwZk9mZUhGR0JudU9IdnJGZm1PaVVWeFFONnF1RGJKY2IwV1BHd0E?oc=5
+  10. 韓国のKonan Technology、昌原に製造業AX拠点を開設…防衛・製造企業のAI転換を支援 - BigGo ファイナンス
+     https://news.google.com/rss/articles/CBMidEFVX3lxTE80RmxfY0ozcEFwU2dnS2t3MDRCNkI3aGtMLV9ycUE0blNYeEszUnZ4OEp4UnY4QlhMZk5ESTdlSE1pdF9qWE1ySFFMa3BzRTloSWxTNmtVZEQtTFd4RkRvdGVXNlNmemxXMEFNaVhWd1hzc3JV?oc=5
+
+【Google News (Business)】
+  1. ［徹底予測］資本効率だけでは勝てない高金利時代へ 荏原に学ぶ「稼ぐ力」の高め方 - 日経ビジネス電子版
+     https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sWE1kb3VKeEVDWWFpTFlleE9oZlVWX3o1ZE9aLUJrbTBfbEFvakRkSW1XYTdCejJUOGlpWWMtSi13S3IzV0NicjhHZlk2UGFzQVNHT0NpTnBpdWZJLTBZbU4tTE5lVWM?oc=5
+  2. 「Office Home & Business 2024」が11%オフ、エクセルやパワポが買い切りに Amazon先行セール - CNET Japan
+     https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TQmp3V2NpbWNFZGFfaEV0UUp3clFiNGVrWDJGSXJCQkd5enozaElnRzJGUS02WjNpYWhYT0ZKeWVmSGpPd2lDekpZNXZJaFVWdlE?oc=5
+  3. Microsoft Edge for Business が世界で最も利用されている企業向けブラウザーに。Ignite 2026 で最新機能を発表 - Windows Blog
+     https://news.google.com/rss/articles/CBMijgFBVV95cUxNU1I4R3ByZDg0bm0td1Q1WVgxTHY3X1pfNnpPUTBXYU42RDRDQkJJQTZSRzhVSDZudDZ2cU1RRGVNcUgzbE1xb2pSa3ZqU09qdzVISk5kTzBDa05naTA4VGY4VnJLdHZMdzhFWnpURmdySmFOUm1fTWFJX3VtWDBZRDVFWmxEVWJ6dWVQRXdB?oc=5
+  4. 「変態的なエンジニア」幹部2人が牽引し、シェア別荘SANUの“自然愛”に拍車。建材からシステムまで一気通貫の自社開発 - Business Insider Japan
+     https://news.google.com/rss/articles/CBMisAFBVV95cUxONHJnUnEzWGdCaVJVbFFRcDdNRHhBZVdlRjlTc3kxamlPVDNPelAwcEs1ci0wcEtLSUw1RmZEa1JGQ28tbVc5a0hwNDRmZ24tZ3lVUUIwTEI4Yk5hVHdqdWhQRzU1QjZjOUl3MlBLYXg5NmlTVnlnY2ZRVWtHbFcxRzl1TW0tMF9nUEFDSWpGZi1oTXM2RWl1d0JicEJMWHJRR3lEOHhQUDZYQzBrNWhtYQ?oc=5
+  5. 「やっぱりステーキ」創業者が語る海外戦略！牛肉高騰の逆風をどう乗り越える？【OKINAWA BUSINESS FRONTLINE】 - ｄメニューニュース
+     https://news.google.com/rss/articles/CBMieEFVX3lxTE5QV0FROFhVdGwwMDJrU1BmRTlLc2RHMmpUOFBHZ2JlUHZkd2tlck1Ua29oMFZVaUZ0LUpWdU4zaGMtSnNKOHRiVUM2TjM0ZkdzdHBLZkRqdU1RYmgtekNGcW1nLXVsWUZ6LXhpOEt2U1dZbVhpYjRGddIBfkFVX3lxTE5SYWdSSjJxQk9HT2Njdlk5R0M2aWk1TE5pS0NObE5PYUluemkxcGlVb2xuWGtRTW9mcWFIOXQ2SXZSVnVEWDY1c3dUVmh2UWdRUWhRZk13TGVHNlVwOE1wdE5WZFk2SnhyUWhXaTdsRlpTcjk1aW1IWTU3UWFkQQ?oc=5
+  6. kubell、ビジネスチャット「Chatwork」を起点に中小企業のDX推進 AIでBPaaSの収益性改善へ - みんかぶ
+     https://news.google.com/rss/articles/CBMiSEFVX3lxTE5aRXZuVVhRdzJNQnlYUU9aMjhjXzFPT1VWWGtOWG5hVjVKSDd3b0JWS3FFQzR0ZU1QdTB0ZV95Zm1ydWsxVnhfeg?oc=5
+  7. 東京大学 松尾・岩澤研究室、AI×ビジネスを体系的に学ぶ「AI Business Insights AI経営寄附講座 2027」を開講 - Infoseek
+     https://news.google.com/rss/articles/CBMickFVX3lxTE1vQ1l2OVRiaTRmNzBQWUVTM1VfcFBkQXozWmlsQ1kwbm9yMXRBVlZlZFl0TEhyWmk5RkdZemYyZzhoQVJyeVo4LWJLWklGUk50VG1UMWVFVWp0dmR4Zm92VGVsZ3lGcktPc2lBNzFlcHRLZw?oc=5
+  8. 「Fukuoka Space Business Innovation Day」を開催しました - 福岡県庁ホームページ
+     https://news.google.com/rss/articles/CBMijAFBVV95cUxQYXdMMFhfajMyZXVzTU9mRkl2cWpITWFYWDB3MmgtU2pXUnBpdUxwUGpOdjBKT3BrNHhIQjJQcTlSMmMzTm8td2FvNXFCeC1rS1gyWlpNa0p0OFJmcEZ3d3JlcUxwYTBHZHdXTnlDcHRlQmc2QXFBTFEyVDdBMW03aE9uM0VxZlB1VWNmNQ?oc=5
+  9. 【法人向けFDE研修】ビジネス・開発上流・AI駆動開発の3つの柱で学ぶ社員研修を、BizCodeX-FDEが提供開始 - 沖縄タイムス社
+     https://news.google.com/rss/articles/CBMiXkFVX3lxTE90UTdhMUNhS1N5VjFEM3BTck9vWWM3Q2xDdjJnSjRNV0Y1bktJQjV2bUUyOEsycHkyU0x5SGtURVlkQllrZFhLVFFqQTZVTk9IUl9MbGdsMGcyQjJvSXc?oc=5
+  10. フライヤー・グロービス経営大学院が主催の 「読者が選ぶビジネス書グランプリ2027」一般投票を11/27（金）より開始 あなたの票が、今年度のビジネス書の頂点を決める！ - ドリームニュース
+     https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sQ0gyS2cxejQ3N1hCd1REbk1tZkoydURIMmhtd2tScTBoY0FyOHB2eF8yWDZGOHV1cEVlYXh1WW9SSGU3TWlBdG1RUU1mYUlvOE9r?oc=5
+
+【Reddit / technology】
+  （取得できませんでした）
+
+【Reddit / business】
+  （取得できませんでした）
